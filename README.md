@@ -32,6 +32,27 @@ npm run publish:edition -- data/drafts/2026-06-17.json
 
 Comanda validează draftul, actualizează arhiva și `latest.json`, apoi revalidează întregul set de date.
 
+### Indicatori preluați automat
+
+`fetch:indicators` completează valorile numerice din surse oficiale, înainte de publicare:
+
+```bash
+npm run fetch:indicators -- data/drafts/2026-06-17.json          # dry run
+npm run fetch:indicators -- data/drafts/2026-06-17.json --write  # scrie în draft
+```
+
+Surse, după `id`-ul indicatorului: `eur-ron` (BNR `nbrfxrates.xml`), `bet` și `rotx`
+(paginile de indici BVB). Scriptul nu inventează niciodată: dacă o sursă nu poate fi
+preluată sau parsată, indicatorul rămâne `value:null` / `freshness:"unavailable"` și
+scriptul iese cu cod 0 (rulează **înainte** de `publish:edition`, nu în `build`).
+
+ROBOR și IRCC sunt lucruri diferite și ar trebui separate în doi indicatori: **ROBOR**
+este o rată interbancară **zilnică** (BNR), iar **IRCC** este un indice **trimestrial**
+pentru creditele consumatorilor (recalculat o dată pe trimestru, aplicat cu decalaj).
+Scriptul include sloturi pentru `robor` (zilnic) și `ircc` (constantă pe trimestru);
+endpoint-ul ROBOR de la BNR trebuie confirmat (site-ul a fost reproiectat) prin variabila
+`BNR_ROBOR_URL`.
+
 ## Automatizare și publicare
 
 Rutina Codex `Briefing Biziday Romania` este singurul producător de conținut. După redactare, rutina:
