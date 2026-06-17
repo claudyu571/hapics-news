@@ -153,6 +153,11 @@ const MANAGED = [
     sourceName: "BNR", sourceUrl: "https://www.bnr.ro/", fetch: fetchIrcc },
 ];
 
+// Legacy indicator ids superseded by managed rows above. Removed during enrich
+// so older draft templates (e.g. the combined "ROBOR / IRCC") don't leave a
+// stray row beside the new split indicators.
+const LEGACY_IDS = ["robor-ircc"];
+
 function ensureIndicator(edition, managed) {
   let indicator = edition.indicators.find((i) => i.id === managed.id);
   if (!indicator) {
@@ -176,11 +181,19 @@ function ensureIndicator(edition, managed) {
  * Only runs for the current day's edition; failures leave values untouched.
  */
 export async function enrichIndicators(edition, { log = () => {} } = {}) {
-  const summary = { updated: [], kept: [], skipped: false };
+  const summary = { updated: [], kept: [], removed: [], skipped: false };
   if (edition.metadata.editionDate !== todayInBucharest()) {
     summary.skipped = true;
     log(`· indicatori: ediție non-curentă (${edition.metadata.editionDate}) — fără preluare automată`);
     return summary;
+  }
+  for (const id of LEGACY_IDS) {
+    const idx = edition.indicators.findIndex((i) => i.id === id);
+    if (idx !== -1) {
+      edition.indicators.splice(idx, 1);
+      summary.removed.push(id);
+      log(`− ${id}: eliminat (înlocuit de indicatori separați)`);
+    }
   }
   for (const managed of MANAGED) {
     const indicator = ensureIndicator(edition, managed);

@@ -189,7 +189,7 @@
       "sourceName": "BNR",
       "sourceUrl": "https://www.bnr.ro/nbrfxrates.xml",
       "freshness": "current",
-      "note": "Curs de referință publicat de BNR."
+      "note": "Curs de referință oficial publicat de BNR."
     },
     {
       "id": "inflatie-prognoza",
@@ -227,24 +227,46 @@
     {
       "id": "bet",
       "label": "Indice BET",
-      "value": null,
+      "value": 30555.49,
       "unit": "puncte",
       "referenceDate": "2026-06-17",
       "sourceName": "BVB",
       "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=BET",
-      "freshness": "unavailable",
-      "note": "Valoarea intraday nu a fost inclusă fără o captură oficială stabilă."
+      "freshness": "current",
+      "note": "Indicele principal al Bursei de Valori București."
     },
     {
-      "id": "robor-ircc",
-      "label": "ROBOR / IRCC",
-      "value": null,
+      "id": "robor",
+      "label": "ROBOR 3M",
+      "value": 5.54,
       "unit": "%",
       "referenceDate": "2026-06-17",
+      "sourceName": "BNR via Trading Economics",
+      "sourceUrl": "https://tradingeconomics.com/romania/interbank-rate",
+      "freshness": "current",
+      "note": "Rată interbancară de referință, stabilită zilnic de BNR."
+    },
+    {
+      "id": "rotx",
+      "label": "Indice ROTX",
+      "value": 69160.55,
+      "unit": "puncte",
+      "referenceDate": "2026-06-17",
+      "sourceName": "BVB / Wiener Börse",
+      "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=ROTX",
+      "freshness": "current",
+      "note": "Indicele acțiunilor românești blue-chip, calculat de Wiener Börse."
+    },
+    {
+      "id": "ircc",
+      "label": "IRCC",
+      "value": 5.58,
+      "unit": "%",
+      "referenceDate": "2026-04-01",
       "sourceName": "BNR",
       "sourceUrl": "https://www.bnr.ro/",
-      "freshness": "unavailable",
-      "note": "Nu a fost identificată o valoare nouă suficient verificată în momentul ediției."
+      "freshness": "current",
+      "note": "Indice de referință pentru creditele consumatorilor, valabil în trimestrul II 2026."
     }
   ],
   "riskScores": [
