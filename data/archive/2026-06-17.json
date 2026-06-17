@@ -222,24 +222,24 @@
     {
       "id": "robor",
       "label": "ROBOR 3M",
-      "value": null,
+      "value": 5.54,
       "unit": "%",
       "referenceDate": "2026-06-17",
-      "sourceName": "BNR",
-      "sourceUrl": "https://www.bnr.ro/",
-      "freshness": "unavailable",
-      "note": "Rată interbancară zilnică; se preia automat de la BNR (endpoint de confirmat)."
+      "sourceName": "BNR via Trading Economics",
+      "sourceUrl": "https://tradingeconomics.com/romania/interbank-rate",
+      "freshness": "current",
+      "note": "Rată interbancară ROBOR 3M (fixing zilnic BNR), 17 iunie 2026."
     },
     {
       "id": "ircc",
       "label": "IRCC",
-      "value": null,
+      "value": 5.58,
       "unit": "%",
-      "referenceDate": "2026-06-17",
+      "referenceDate": "2026-04-01",
       "sourceName": "BNR",
       "sourceUrl": "https://www.bnr.ro/",
-      "freshness": "unavailable",
-      "note": "Indice de referință trimestrial pentru creditele consumatorilor; se actualizează o dată pe trimestru."
+      "freshness": "current",
+      "note": "Indice de referință trimestrial pentru creditele consumatorilor, valabil T2 2026 (publicat 31 martie 2026)."
     }
   ],
   "riskScores": [

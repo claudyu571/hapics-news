@@ -153,7 +153,8 @@ const SOURCES = {
       // referenceDate must be a real YYYY-MM-DD (schema "date" format); use the
       // quarter start and keep the human-readable quarter in the note.
       const quarterStart = `${year}-${String((q - 1) * 3 + 1).padStart(2, "0")}-01`;
-      return { value, unit: "%", referenceDate: quarterStart, freshness: "stale",
+      // In-force quarterly value -> "current" (it is the IRCC applied right now).
+      return { value, unit: "%", referenceDate: quarterStart, freshness: "current",
         note: `IRCC valabil pentru ${quarter}, publicat de BNR (recalculat trimestrial).` };
     },
   },
