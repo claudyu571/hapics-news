@@ -50,7 +50,20 @@ a { color: inherit; }
   height: 3px;
   transform-origin: left center;
   background: #1e594a;
-  transition: transform 80ms linear;
+  /* Without scroll-timeline support the bar stays empty (graceful, no JS). */
+  transform: scaleX(0);
+}
+
+@supports (animation-timeline: scroll()) {
+  .reading-progress {
+    animation: reading-progress-grow linear both;
+    animation-timeline: scroll(root block);
+  }
+}
+
+@keyframes reading-progress-grow {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
 }
 
 .topbar {
@@ -385,4 +398,5 @@ footer > a svg { width: 0.8rem; height: 0.8rem; transform: rotate(-90deg); }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+  .reading-progress { animation: none; transform: scaleX(0); }
 }
