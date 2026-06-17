@@ -25,6 +25,7 @@ jobs:
           cache: npm
 
       - run: npm ci
+      - run: npm run test:news-delta
       - run: npm run build
 
       - name: Configure GitHub Pages

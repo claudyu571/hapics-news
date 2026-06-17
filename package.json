@@ -9,11 +9,13 @@
   "scripts": {
     "dev": "vite",
     "validate:data": "node scripts/validate-data.mjs",
+    "news:delta": "node scripts/check-biziday-delta.mjs",
     "fetch:indicators": "node scripts/fetch-indicators.mjs",
     "publish:edition": "node scripts/publish-edition.mjs",
     "build": "npm run validate:data && tsc -b && vite build && vite build --ssr src/entry-server.tsx --outDir dist-ssr && node prerender.mjs",
     "preview": "vite preview",
-    "test": "npm run validate:data && tsc -b --pretty false"
+    "test": "npm run validate:data && tsc -b --pretty false",
+    "test:news-delta": "node --test tests/check-biziday-delta.test.mjs"
   },
   "dependencies": {
     "@fontsource/inter": "^5.2.8",

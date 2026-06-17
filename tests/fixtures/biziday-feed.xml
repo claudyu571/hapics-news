@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <item>
+      <title>Articol nou cu impact pentru economia României</title>
+      <link>https://www.biziday.ro/333-2/?utm_source=rss&amp;utm_medium=rss</link>
+      <pubDate>Wed, 17 Jun 2026 10:45:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Articol deja inclus în ediție</title>
+      <link>https://www.biziday.ro/111-2/?utm_source=rss&amp;utm_medium=rss</link>
+      <pubDate>Wed, 17 Jun 2026 10:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Articol mai vechi decât fereastra de suprapunere</title>
+      <link>https://www.biziday.ro/444-2/</link>
+      <pubDate>Wed, 17 Jun 2026 07:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

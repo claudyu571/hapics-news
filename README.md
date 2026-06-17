@@ -13,6 +13,7 @@ Verificare completă:
 
 ```bash
 npm test
+npm run test:news-delta
 npm run build
 ```
 
@@ -32,6 +33,21 @@ npm run publish:edition -- data/drafts/2026-06-17.json
 
 Comanda validează draftul, actualizează arhiva și `latest.json`, apoi revalidează întregul set de date.
 
+### Detectorul Biziday
+
+Verificarea intraday folosește fluxul RSS Biziday, cu pagina principală drept fallback,
+și compară articolele recente cu URL-urile deja folosite în ediția curentă:
+
+```bash
+npm run news:delta -- data/latest.json
+```
+
+Comanda emite un singur obiect JSON compact cu sursa verificării și articolele candidate.
+Nu modifică fișiere. Dacă ambele surse Biziday sunt indisponibile, termină cu eroare,
+iar ediția publicată rămâne neatinsă. Detectorul aplică o suprapunere de 30 de minute
+față de `metadata.updatedAt`, apoi elimină URL-urile deja prezente în
+`importantNews[].sourceUrl` sau `sources[].url`.
+
 ### Indicatori preluați automat
 
 `publish:edition` rulează automat preluarea indicatorilor (`enrichIndicators`) înainte de
@@ -47,7 +63,8 @@ npm run publish:edition  -- data/drafts/2026-06-17.json --no-fetch  # publică f
 Indicatori gestionați (creați automat dacă lipsesc, apoi completați): `eur-ron`
 (BNR `nbrfxrates.xml`), `bet` și `rotx` (paginile de indici BVB), `robor` (zilnic, BNR)
 și `ircc` (trimestrial, BNR). Astfel ROTX și separarea ROBOR/IRCC persistă în fiecare
-ediție, chiar dacă draftul brut nu le include.
+ediție, chiar dacă draftul brut nu le include. Indicatorul vechi `robor-ircc` este
+eliminat automat la îmbogățirea ediției curente.
 
 Reguli:
 
@@ -62,13 +79,25 @@ Reguli:
 
 ## Automatizare și publicare
 
-Rutina Codex `Briefing Biziday Romania` este singurul producător de conținut. După redactare, rutina:
+Conținutul este produs de automatizări Codex standalone, în worktree-uri izolate:
 
-1. creează un draft care respectă schema JSON;
-2. rulează `publish:edition`, testele și buildul;
-3. face commit doar pentru fișierele ediției și push pe `main`;
-4. așteaptă publicarea GitHub Pages;
-5. verifică ediția live la `https://news.hapics.uk/data/latest.json`.
+- **07:30** — ediție completă, GPT-5.4 cu reasoning medium;
+- **12:30, 17:30 și 22:30** — verificări incrementale, GPT-5.4 mini cu reasoning low.
+
+Verificările intraday rulează mai întâi `news:delta`. Fără un subiect cu impact 4–5,
+o confirmare/contrazicere din watchlist sau o schimbare materială de analiză, risc ori
+semnal pentru fonduri, execuția se oprește fără diff, commit, deploy sau notificare.
+
+La o publicare, automatizarea:
+
+1. creează ediția completă sau actualizează incremental draftul zilei;
+2. rulează `publish:edition` și `npm test`;
+3. verifică faptul că sunt modificate numai fișierele ediției;
+4. face commit și push pe `main`;
+5. așteaptă publicarea GitHub Pages și verifică `https://news.hapics.uk/data/latest.json`.
+
+Automatizarea nu rulează local `npm run build`. Buildul complet, inclusiv SSR și
+prerender, aparține workflow-ului GitHub Pages și rulează numai după push.
 
 Un eșec de validare nu modifică ediția publicată. O nouă rulare în aceeași zi înlocuiește ediția acelei zile și păstrează o singură intrare în arhivă.
 
