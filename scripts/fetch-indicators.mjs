@@ -101,18 +101,17 @@ async function fetchEurRon() {
   const eur = xml.match(/<Rate currency="EUR"[^>]*>([\d.]+)<\/Rate>/)?.[1];
   if (!eur || !referenceDate) throw new Error("EUR rate not found in BNR XML");
   return { value: Number(eur), unit: "lei", referenceDate, freshness: "current",
-    note: "Curs de referință BNR, preluat automat din nbrfxrates.xml." };
+    note: "Curs de referință oficial publicat de BNR." };
 }
 
-function bvbIndexFetcher(symbol) {
+function bvbIndexFetcher(symbol, note) {
   return async () => {
     const html = await getText(
       `https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=${symbol}`,
     );
     const value = parseBvbIndexValue(html);
     if (value == null) throw new Error(`could not parse ${symbol} level from BVB page`);
-    return { value, unit: "puncte", referenceDate: todayInBucharest(), freshness: "current",
-      note: `Captură automată BVB pentru indicele ${symbol}.` };
+    return { value, unit: "puncte", referenceDate: todayInBucharest(), freshness: "current", note };
   };
 }
 
@@ -124,15 +123,16 @@ async function fetchRobor() {
   const value = parseLocaleNumber(text.match(/ROBOR[^0-9]{0,40}([0-9]+[.,][0-9]+)/i)?.[1]);
   if (value == null) throw new Error("could not parse ROBOR from BNR source");
   return { value, unit: "%", referenceDate: todayInBucharest(), freshness: "current",
-    note: "Fixing ROBOR 3M publicat de BNR, preluat automat." };
+    note: "Rată interbancară de referință, stabilită zilnic de BNR." };
 }
 
 async function fetchIrcc() {
-  const { label, start } = currentQuarter();
+  const { label, start, q, year } = currentQuarter();
   const value = IRCC_BY_QUARTER[label];
   if (value == null) throw new Error(`IRCC value for ${label} not set in IRCC_BY_QUARTER`);
+  const roman = ["I", "II", "III", "IV"][q - 1];
   return { value, unit: "%", referenceDate: start, freshness: "current",
-    note: `IRCC valabil pentru ${label}, publicat de BNR (recalculat trimestrial).` };
+    note: `Indice de referință pentru creditele consumatorilor, valabil în trimestrul ${roman} ${year}.` };
 }
 
 // Indicators kept current automatically. Each row is ensured to exist before
@@ -142,9 +142,11 @@ const MANAGED = [
   { id: "eur-ron", label: "EUR/RON", unit: "lei",
     sourceName: "BNR", sourceUrl: "https://www.bnr.ro/nbrfxrates.xml", fetch: fetchEurRon },
   { id: "bet", label: "Indice BET", unit: "puncte",
-    sourceName: "BVB", sourceUrl: "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=BET", fetch: bvbIndexFetcher("BET") },
+    sourceName: "BVB", sourceUrl: "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=BET",
+    fetch: bvbIndexFetcher("BET", "Indicele principal al Bursei de Valori București.") },
   { id: "rotx", label: "Indice ROTX", unit: "puncte",
-    sourceName: "BVB / Wiener Börse", sourceUrl: "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=ROTX", fetch: bvbIndexFetcher("ROTX") },
+    sourceName: "BVB / Wiener Börse", sourceUrl: "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=ROTX",
+    fetch: bvbIndexFetcher("ROTX", "Indicele acțiunilor românești blue-chip, calculat de Wiener Börse.") },
   { id: "robor", label: "ROBOR 3M", unit: "%",
     sourceName: "BNR", sourceUrl: "https://www.bnr.ro/", fetch: fetchRobor },
   { id: "ircc", label: "IRCC", unit: "%",

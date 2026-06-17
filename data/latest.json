@@ -173,7 +173,7 @@
       "sourceName": "BNR",
       "sourceUrl": "https://www.bnr.ro/nbrfxrates.xml",
       "freshness": "current",
-      "note": "Curs de referință BNR, preluat automat din nbrfxrates.xml."
+      "note": "Curs de referință oficial publicat de BNR."
     },
     {
       "id": "inflatie-prognoza",
@@ -206,7 +206,7 @@
       "sourceName": "BVB",
       "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=BET",
       "freshness": "current",
-      "note": "Captură automată BVB pentru indicele BET."
+      "note": "Indicele principal al Bursei de Valori București."
     },
     {
       "id": "rotx",
@@ -217,7 +217,7 @@
       "sourceName": "BVB / Wiener Börse",
       "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=ROTX",
       "freshness": "current",
-      "note": "Captură automată BVB pentru indicele ROTX."
+      "note": "Indicele acțiunilor românești blue-chip, calculat de Wiener Börse."
     },
     {
       "id": "robor",
@@ -228,7 +228,7 @@
       "sourceName": "BNR via Trading Economics",
       "sourceUrl": "https://tradingeconomics.com/romania/interbank-rate",
       "freshness": "current",
-      "note": "Rată interbancară ROBOR 3M (fixing zilnic BNR), 17 iunie 2026."
+      "note": "Rată interbancară de referință, stabilită zilnic de BNR."
     },
     {
       "id": "ircc",
@@ -239,7 +239,7 @@
       "sourceName": "BNR",
       "sourceUrl": "https://www.bnr.ro/",
       "freshness": "current",
-      "note": "IRCC valabil pentru 2026-Q2, publicat de BNR (recalculat trimestrial)."
+      "note": "Indice de referință pentru creditele consumatorilor, valabil în trimestrul II 2026."
     }
   ],
   "riskScores": [

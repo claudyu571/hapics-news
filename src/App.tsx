@@ -289,7 +289,7 @@ function App() {
                       <article key={indicator.id} className="indicator-item">
                         <div>
                           <span>{indicator.label}</span>
-                          <strong>{formatRomanianNumber(indicator.value)} <small>{indicator.unit}</small></strong>
+                          <strong>{formatRomanianNumber(indicator.value)}{indicator.unit === "%" ? "" : " "}<small>{indicator.unit}</small></strong>
                         </div>
                         <Badge variant={indicator.freshness === "current" ? "accent" : "warning"}>
                           {indicator.freshness === "current" ? "La zi" : indicator.freshness === "stale" ? "Date vechi" : "Indisponibil"}
