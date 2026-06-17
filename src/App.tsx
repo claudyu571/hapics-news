@@ -25,6 +25,11 @@ import latestData from "../data/latest.json";
 // client (hydration). validate:data gates the build, so the cast is safe.
 const INITIAL_EDITION = latestData as unknown as Edition;
 
+// Reader-facing update rhythm: noutățile sunt verificate la aceste ore
+// (Europe/Bucharest) și publicate intraday doar când apar schimbări relevante.
+// A se menține în sincron cu programul rutinei.
+const UPDATE_TIMES = "07:30, 12:30, 17:30 și 22:30";
+
 // Reading order (matches the single-column mobile flow). The narrative columns
 // are numbered 01–06; the indicators/risks rail sits alongside on desktop, so
 // it reads as a parallel panel (n: null) rather than steps in the sequence.
@@ -201,6 +206,10 @@ function App() {
                 <span className="coverage-note"><CircleAlert aria-hidden="true" /> Acoperire parțială a surselor</span>
               )}
             </div>
+            <p className="update-cadence">
+              <Clock3 aria-hidden="true" />
+              Verificăm noutățile la {UPDATE_TIMES} (ora României) și publicăm pe parcursul zilei doar la schimbări relevante.
+            </p>
           </header>
 
           <div className="editorial-grid">
