@@ -1,0 +1,295 @@
+{
+  "metadata": {
+    "editionDate": "2026-06-17",
+    "updatedAt": "2026-06-17T07:30:00+03:00",
+    "timezone": "Europe/Bucharest",
+    "title": "Ediția demonstrativă — structura briefingului zilnic",
+    "status": "demo",
+    "primarySource": "https://www.biziday.ro/",
+    "sourceCoverage": "partial"
+  },
+  "executiveSummary": [
+    {
+      "id": "fiscal",
+      "text": "Traiectoria fiscală rămâne variabila cu cea mai mare putere de propagare spre dobânzi, curs și investiții.",
+      "category": "Economie"
+    },
+    {
+      "id": "bnr",
+      "text": "Mesajele BNR trebuie citite împreună cu inflația de bază și dinamica salariilor, nu izolat.",
+      "category": "Piețe"
+    },
+    {
+      "id": "energie",
+      "text": "Energia rămâne canalul rapid prin care volatilitatea externă poate reintra în prețurile interne.",
+      "category": "Energie"
+    },
+    {
+      "id": "bvb",
+      "text": "Pentru activele românești, lichiditatea și fluxurile instituționale contează mai mult decât o singură ședință bursieră.",
+      "category": "Piețe"
+    },
+    {
+      "id": "politica",
+      "text": "Credibilitatea calendarului de reforme influențează direct prima de risc și apetitul pentru expunere locală.",
+      "category": "Politică"
+    },
+    {
+      "id": "extern",
+      "text": "Semnalele din zona euro oferă contextul pentru exporturi, costul capitalului și sensibilitatea leului.",
+      "category": "Extern"
+    }
+  ],
+  "importantNews": [
+    {
+      "id": "agenda-fiscala",
+      "title": "Agenda fiscală rămâne principalul reper pentru activele românești",
+      "fact": "Ediția demonstrativă rezervă primul loc informațiilor confirmate despre execuția bugetară, deficit și calendarul de finanțare.",
+      "interpretation": "Orice abatere persistentă față de ținte poate majora prima de risc și poate întârzia relaxarea condițiilor monetare.",
+      "category": "Economie",
+      "impact": 5,
+      "impactLabel": "Ridicat",
+      "horizon": "1–3 luni",
+      "sourceId": "biziday",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/",
+      "isSecondary": false,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "semnal-bnr",
+      "title": "Mesajul monetar trebuie pus în contextul inflației persistente",
+      "fact": "BNR publică deciziile de politică monetară, cursurile de referință și minutele ședințelor pe canalele sale oficiale.",
+      "interpretation": "Pentru piețe, ritmul dezinflației și tonul comunicării pot conta mai mult decât o decizie anticipată integral.",
+      "category": "Piețe",
+      "impact": 4,
+      "impactLabel": "Semnificativ",
+      "horizon": "1–3 luni",
+      "sourceId": "bnr",
+      "sourceName": "Banca Națională a României",
+      "sourceUrl": "https://www.bnr.ro/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "date-statistice",
+      "title": "Datele statistice vor separa încetinirea temporară de o tendință",
+      "fact": "INS publică seriile oficiale pentru inflație, producție, comerț, salarii și produs intern brut.",
+      "interpretation": "O slăbire simultană a consumului și producției ar schimba lectura de la normalizare la risc de creștere.",
+      "category": "Economie",
+      "impact": 4,
+      "impactLabel": "Semnificativ",
+      "horizon": "1–4 săptămâni",
+      "sourceId": "ins",
+      "sourceName": "Institutul Național de Statistică",
+      "sourceUrl": "https://insse.ro/cms/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "lichiditate-bvb",
+      "title": "Lichiditatea oferă context pentru mișcările indicilor locali",
+      "fact": "BVB publică nivelurile indicilor, volumele și rapoartele emitenților în sistemele sale oficiale.",
+      "interpretation": "O variație de preț pe volume reduse are putere de semnal mai mică decât o mișcare susținută de fluxuri consistente.",
+      "category": "Piețe",
+      "impact": 3,
+      "impactLabel": "Moderat",
+      "horizon": "Imediat",
+      "sourceId": "bvb",
+      "sourceName": "Bursa de Valori București",
+      "sourceUrl": "https://www.bvb.ro/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    }
+  ],
+  "romaniaAnalysis": {
+    "factBase": [
+      "Deficitul, inflația și costul finanțării sunt urmărite din surse oficiale.",
+      "Știrile absente de pe Biziday sunt marcate explicit drept sursă secundară.",
+      "Informațiile contradictorii sunt excluse din secțiunea de fapte confirmate."
+    ],
+    "political": "Pentru România, stabilitatea nu înseamnă doar continuitate instituțională, ci și capacitatea de a transforma calendarul politic într-un calendar credibil de decizii și reforme.",
+    "economic": "Punctul central este interacțiunea dintre politica fiscală și cea monetară: o ajustare fiscală lentă poate menține costul capitalului ridicat chiar dacă inflația generală coboară.",
+    "interpretation": "Scenariul de bază cere confirmări succesive, nu un singur anunț. Piața va evalua coerența dintre execuție, comunicare și datele publicate în următoarele săptămâni."
+  },
+  "investmentFundSignals": [
+    {
+      "id": "titluri-stat",
+      "label": "Titluri de stat în lei",
+      "direction": "neutru",
+      "strength": 3,
+      "horizon": "1–3 luni",
+      "rationale": "Randamentele oferă protecție, dar sensibilitatea la surprize fiscale rămâne ridicată."
+    },
+    {
+      "id": "actiuni-romania",
+      "label": "Acțiuni România",
+      "direction": "neutru",
+      "strength": 2,
+      "horizon": "1–4 săptămâni",
+      "rationale": "Selecția și lichiditatea sunt mai relevante decât expunerea direcțională largă."
+    },
+    {
+      "id": "energie",
+      "label": "Sector energetic",
+      "direction": "pozitiv",
+      "strength": 3,
+      "horizon": "6–12 luni",
+      "rationale": "Investițiile și disciplina de capital pot susține cazul structural, cu volatilitate de reglementare."
+    },
+    {
+      "id": "valuta",
+      "label": "Expunere valutară",
+      "direction": "neutru",
+      "strength": 3,
+      "horizon": "1–3 luni",
+      "rationale": "Hedgingul merită calibrat la evenimente, fără a confunda stabilitatea zilnică cu absența riscului."
+    }
+  ],
+  "indicators": [
+    {
+      "id": "eur-ron",
+      "label": "EUR/RON",
+      "value": null,
+      "unit": "lei",
+      "referenceDate": "2026-06-17",
+      "sourceName": "BNR",
+      "sourceUrl": "https://www.bnr.ro/Cursul-de-schimb-524.aspx",
+      "freshness": "unavailable",
+      "note": "Se actualizează după publicarea cursului oficial."
+    },
+    {
+      "id": "inflatie",
+      "label": "Inflație anuală",
+      "value": "—",
+      "unit": "%",
+      "referenceDate": "2026-05-31",
+      "sourceName": "INS",
+      "sourceUrl": "https://insse.ro/cms/ro/tags/comunicat-indicele-preturilor-de-consum",
+      "freshness": "stale",
+      "note": "Valoare intenționat omisă în ediția demonstrativă."
+    },
+    {
+      "id": "dobanda-cheie",
+      "label": "Dobânda-cheie",
+      "value": "—",
+      "unit": "%",
+      "referenceDate": "2026-06-17",
+      "sourceName": "BNR",
+      "sourceUrl": "https://www.bnr.ro/Politica-monetara-2.aspx",
+      "freshness": "unavailable",
+      "note": "Datele live vor fi completate de automatizarea zilnică."
+    },
+    {
+      "id": "bet",
+      "label": "BET",
+      "value": "—",
+      "unit": "puncte",
+      "referenceDate": "2026-06-16",
+      "sourceName": "BVB",
+      "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=BET",
+      "freshness": "stale",
+      "note": "Ultima ședință închisă; valoare demonstrativă indisponibilă."
+    }
+  ],
+  "riskScores": [
+    {
+      "id": "fiscal",
+      "label": "Fiscal",
+      "score": 4,
+      "trend": "stabil",
+      "description": "Risc ridicat până la confirmarea unei traiectorii credibile."
+    },
+    {
+      "id": "inflatie",
+      "label": "Inflație",
+      "score": 3,
+      "trend": "în scădere",
+      "description": "Dezinflația trebuie confirmată de componentele persistente."
+    },
+    {
+      "id": "politic",
+      "label": "Politic",
+      "score": 3,
+      "trend": "stabil",
+      "description": "Execuția deciziilor contează mai mult decât calendarul anunțat."
+    },
+    {
+      "id": "extern",
+      "label": "Extern",
+      "score": 3,
+      "trend": "în creștere",
+      "description": "Energia și dobânzile globale pot transmite volatilitate rapid."
+    }
+  ],
+  "watchlist": [
+    {
+      "id": "masuri-fiscale",
+      "title": "Pachetul de măsuri fiscale",
+      "why": "Impact potențial asupra consumului, marjelor și curbei randamentelor.",
+      "trigger": "Publicarea formei finale în surse oficiale.",
+      "status": "în așteptare",
+      "sourceUrl": "https://mfinante.gov.ro/"
+    },
+    {
+      "id": "energie-volatilitate",
+      "title": "Volatilitatea prețurilor la energie",
+      "why": "Poate modifica rapid ipotezele de inflație și costurile industriale.",
+      "trigger": "Mișcare persistentă confirmată de mai multe piețe și surse.",
+      "status": "în așteptare"
+    },
+    {
+      "id": "fluxuri-bvb",
+      "title": "Fluxurile instituționale pe BVB",
+      "why": "Datele zilnice pot fi zgomotoase fără confirmare în volum și structură.",
+      "trigger": "Trei ședințe consecutive cu volum peste medie.",
+      "status": "neconfirmat"
+    }
+  ],
+  "conclusion": {
+    "title": "Zi de confirmări, nu de extrapolări",
+    "body": "Lectura utilă pentru această ediție demonstrativă este una disciplinată: întâi faptele publicate, apoi implicațiile, iar scenariile neconfirmate rămân separat la monitorizare.",
+    "actionPoints": [
+      "Verifică sursa și data fiecărui indicator înainte de utilizare.",
+      "Urmărește coerența dintre politica fiscală și semnalul monetar.",
+      "Tratează scorurile ca instrument editorial, nu ca recomandare de tranzacționare."
+    ]
+  },
+  "sources": [
+    {
+      "id": "biziday",
+      "name": "Biziday",
+      "url": "https://www.biziday.ro/",
+      "type": "primary",
+      "accessedAt": "2026-06-17T07:20:00+03:00"
+    },
+    {
+      "id": "bnr",
+      "name": "Banca Națională a României",
+      "url": "https://www.bnr.ro/",
+      "type": "official",
+      "accessedAt": "2026-06-17T07:20:00+03:00"
+    },
+    {
+      "id": "ins",
+      "name": "Institutul Național de Statistică",
+      "url": "https://insse.ro/cms/",
+      "type": "official",
+      "accessedAt": "2026-06-17T07:20:00+03:00"
+    },
+    {
+      "id": "bvb",
+      "name": "Bursa de Valori București",
+      "url": "https://www.bvb.ro/",
+      "type": "official",
+      "accessedAt": "2026-06-17T07:20:00+03:00"
+    },
+    {
+      "id": "mfinante",
+      "name": "Ministerul Finanțelor",
+      "url": "https://mfinante.gov.ro/",
+      "type": "official",
+      "accessedAt": "2026-06-17T07:20:00+03:00"
+    }
+  ]
+}

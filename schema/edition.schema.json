@@ -1,0 +1,202 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://news.hapics.uk/schema/edition.schema.json",
+  "title": "Hapics daily briefing",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "metadata",
+    "executiveSummary",
+    "importantNews",
+    "romaniaAnalysis",
+    "investmentFundSignals",
+    "indicators",
+    "riskScores",
+    "watchlist",
+    "conclusion",
+    "sources"
+  ],
+  "properties": {
+    "metadata": { "$ref": "#/$defs/metadata" },
+    "executiveSummary": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 7,
+      "items": { "$ref": "#/$defs/summaryItem" }
+    },
+    "importantNews": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/newsItem" }
+    },
+    "romaniaAnalysis": { "$ref": "#/$defs/analysis" },
+    "investmentFundSignals": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/fundSignal" }
+    },
+    "indicators": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/indicator" }
+    },
+    "riskScores": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/risk" }
+    },
+    "watchlist": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/watch" }
+    },
+    "conclusion": { "$ref": "#/$defs/conclusion" },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/source" }
+    }
+  },
+  "$defs": {
+    "category": {
+      "enum": ["Politică", "Economie", "Extern", "Social", "Energie", "Piețe", "Justiție", "Securitate"]
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["editionDate", "updatedAt", "timezone", "title", "status", "primarySource", "sourceCoverage"],
+      "properties": {
+        "editionDate": { "type": "string", "format": "date" },
+        "updatedAt": { "type": "string", "format": "date-time" },
+        "timezone": { "const": "Europe/Bucharest" },
+        "title": { "type": "string", "minLength": 3 },
+        "status": { "enum": ["published", "draft", "demo"] },
+        "primarySource": { "type": "string", "format": "uri" },
+        "sourceCoverage": { "enum": ["complete", "partial"] }
+      }
+    },
+    "summaryItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "text", "category"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "text": { "type": "string", "minLength": 20 },
+        "category": { "$ref": "#/$defs/category" }
+      }
+    },
+    "newsItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "fact", "interpretation", "category", "impact", "impactLabel", "horizon", "sourceId", "sourceName", "sourceUrl", "isSecondary", "confidence"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "title": { "type": "string", "minLength": 8 },
+        "fact": { "type": "string", "minLength": 25 },
+        "interpretation": { "type": "string", "minLength": 20 },
+        "category": { "$ref": "#/$defs/category" },
+        "impact": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "impactLabel": { "type": "string", "minLength": 3 },
+        "horizon": { "enum": ["Imediat", "1–4 săptămâni", "1–3 luni", "6–12 luni"] },
+        "sourceId": { "type": "string" },
+        "sourceName": { "type": "string" },
+        "sourceUrl": { "type": "string", "format": "uri" },
+        "isSecondary": { "type": "boolean" },
+        "confidence": { "const": "confirmed" }
+      }
+    },
+    "analysis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["factBase", "political", "economic", "interpretation"],
+      "properties": {
+        "factBase": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 15 } },
+        "political": { "type": "string", "minLength": 40 },
+        "economic": { "type": "string", "minLength": 40 },
+        "interpretation": { "type": "string", "minLength": 40 }
+      }
+    },
+    "fundSignal": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "label", "direction", "strength", "horizon", "rationale"],
+      "properties": {
+        "id": { "type": "string" },
+        "label": { "type": "string" },
+        "direction": { "enum": ["pozitiv", "neutru", "negativ"] },
+        "strength": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "horizon": { "enum": ["Imediat", "1–4 săptămâni", "1–3 luni", "6–12 luni"] },
+        "rationale": { "type": "string", "minLength": 25 }
+      }
+    },
+    "indicator": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "label", "value", "unit", "referenceDate", "sourceName", "sourceUrl", "freshness"],
+      "properties": {
+        "id": { "type": "string" },
+        "label": { "type": "string" },
+        "value": {
+          "anyOf": [
+            { "type": "string" },
+            { "type": "number" },
+            { "type": "null" }
+          ]
+        },
+        "unit": { "type": "string" },
+        "referenceDate": { "type": "string", "format": "date" },
+        "sourceName": { "type": "string" },
+        "sourceUrl": { "type": "string", "format": "uri" },
+        "freshness": { "enum": ["current", "stale", "unavailable"] },
+        "note": { "type": "string" }
+      }
+    },
+    "risk": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "label", "score", "trend", "description"],
+      "properties": {
+        "id": { "type": "string" },
+        "label": { "type": "string" },
+        "score": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "trend": { "enum": ["în creștere", "stabil", "în scădere"] },
+        "description": { "type": "string", "minLength": 15 }
+      }
+    },
+    "watch": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "why", "trigger", "status"],
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "why": { "type": "string", "minLength": 15 },
+        "trigger": { "type": "string", "minLength": 10 },
+        "status": { "enum": ["neconfirmat", "contradictoriu", "în așteptare"] },
+        "sourceUrl": { "type": "string", "format": "uri" }
+      }
+    },
+    "conclusion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "body", "actionPoints"],
+      "properties": {
+        "title": { "type": "string" },
+        "body": { "type": "string", "minLength": 40 },
+        "actionPoints": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 10 } }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "url", "type", "accessedAt"],
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "type": { "enum": ["primary", "secondary", "official"] },
+        "accessedAt": { "type": "string", "format": "date-time" }
+      }
+    }
+  }
+}
