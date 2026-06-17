@@ -1,7 +1,7 @@
 {
   "metadata": {
     "editionDate": "2026-06-17",
-    "updatedAt": "2026-06-17T18:23:00+03:00",
+    "updatedAt": "2026-06-17T22:32:42+03:00",
     "timezone": "Europe/Bucharest",
     "title": "Sprijinul pentru Guvernul Veștea se restrânge, iar PNL intră în congres",
     "status": "draft",
@@ -19,16 +19,21 @@
       "text": "Conducerea PNL pregătește un congres extraordinar pentru duminică, iar sancționarea lui Adrian Veștea rămâne posibilă, dar nu este încă decisă.",
       "category": "Politică"
     },
-    {
-      "id": "nato-europa",
-      "text": "SUA cer aliaților europeni să aloce NATO mai multe capabilități pentru a compensa reduceri viitoare ale prezenței militare americane.",
-      "category": "Securitate"
-    },
-    {
-      "id": "eur-ron",
-      "text": "Cursul oficial EUR/RON este 5,2328 la 17 iunie, iar incertitudinea politică poate păstra presiunea asupra primei de risc.",
-      "category": "Piețe"
-    },
+  {
+    "id": "nato-europa",
+    "text": "SUA cer aliaților europeni să aloce NATO mai multe capabilități pentru a compensa reduceri viitoare ale prezenței militare americane.",
+    "category": "Securitate"
+  },
+  {
+    "id": "china-blacklist",
+    "text": "Reuters arată că SUA amână includerea a peste 100 de companii chineze, inclusiv DeepSeek și CXMT, pe lista comercială neagră.",
+    "category": "Piețe"
+  },
+  {
+    "id": "eur-ron",
+    "text": "Cursul oficial EUR/RON este 5,2328 la 17 iunie, iar incertitudinea politică poate păstra presiunea asupra primei de risc.",
+    "category": "Piețe"
+  },
     {
       "id": "inflatie-bnr",
       "text": "BNR vede inflația coborând spre 5,5% la finalul anului, dar avertizează că stabilitatea politică și corecția fiscală sunt esențiale.",
@@ -71,26 +76,41 @@
       "isSecondary": false,
       "confidence": "confirmed"
     },
-    {
-      "id": "nato-capabilitati-europene",
-      "title": "SUA cer Europei mai multe capabilități puse la dispoziția NATO",
-      "fact": "Statele Unite solicită aliaților europeni să aloce NATO mai multe avioane, nave și unități pentru a compensa reduceri viitoare ale contribuției militare americane.",
-      "interpretation": "Pentru România și flancul estic, solicitarea poate accelera cheltuielile de apărare și cooperarea europeană, dar înlocuirea capabilităților strategice americane ar necesita ani.",
+  {
+    "id": "nato-capabilitati-europene",
+    "title": "SUA cer Europei mai multe capabilități puse la dispoziția NATO",
+    "fact": "Statele Unite solicită aliaților europeni să aloce NATO mai multe avioane, nave și unități pentru a compensa reduceri viitoare ale contribuției militare americane.",
+    "interpretation": "Pentru România și flancul estic, solicitarea poate accelera cheltuielile de apărare și cooperarea europeană, dar înlocuirea capabilităților strategice americane ar necesita ani.",
       "category": "Securitate",
       "impact": 4,
       "impactLabel": "Semnificativ",
       "horizon": "6–12 luni",
       "sourceId": "biziday",
-      "sourceName": "Biziday",
-      "sourceUrl": "https://www.biziday.ro/361143-2/",
-      "isSecondary": false,
-      "confidence": "confirmed"
-    },
-    {
-      "id": "petrol-hormuz",
-      "title": "Petrolul se temperează, dar carburanții rămân scumpi",
-      "fact": "Cotația Brent a coborât la aproximativ 78 de dolari pe baril, însă benzina și motorina rămân cu circa 50% peste nivelul de la începutul anului.",
-      "interpretation": "Reducerea presiunii pe țiței este favorabilă inflației, dar efectul asupra carburanților europeni poate veni cu întârziere din cauza reparațiilor și blocajelor logistice.",
+    "sourceName": "Biziday",
+    "sourceUrl": "https://www.biziday.ro/361143-2/",
+    "isSecondary": true,
+    "confidence": "confirmed"
+  },
+  {
+    "id": "china-export-control-delay",
+    "title": "SUA amână includerea DeepSeek și a peste 100 de firme chineze pe Entity List",
+    "fact": "Reuters a relatat că administrația Trump a întârziat includerea DeepSeek, CXMT și a altor peste 100 de companii considerate riscuri de securitate națională pe lista comercială a SUA.",
+    "interpretation": "Semnalul contează pentru lanțurile de aprovizionare AI și pentru expunerea la tensiunile SUA-China, deoarece întârzie o înăsprire a controalelor de export care ar fi afectat furnizorii tehnologici și semnalul de politică comercială.",
+    "category": "Piețe",
+    "impact": 4,
+    "impactLabel": "Semnificativ",
+    "horizon": "Imediat",
+    "sourceId": "reuters-china-blacklist",
+    "sourceName": "Reuters",
+    "sourceUrl": "https://www.reuters.com/technology/us-held-off-adding-deepseek-cxmt-over-100-chinese-firms-trade-blacklist-sources-say-2026-06-17/",
+    "isSecondary": true,
+    "confidence": "confirmed"
+  },
+  {
+    "id": "petrol-hormuz",
+    "title": "Petrolul se temperează, dar carburanții rămân scumpi",
+    "fact": "Cotația Brent a coborât la aproximativ 78 de dolari pe baril, însă benzina și motorina rămân cu circa 50% peste nivelul de la începutul anului.",
+    "interpretation": "Reducerea presiunii pe țiței este favorabilă inflației, dar efectul asupra carburanților europeni poate veni cu întârziere din cauza reparațiilor și blocajelor logistice.",
       "category": "Energie",
       "impact": 4,
       "impactLabel": "Semnificativ",
@@ -364,18 +384,25 @@
       "type": "primary",
       "accessedAt": "2026-06-17T18:23:00+03:00"
     },
-    {
-      "id": "biziday-nato",
-      "name": "Biziday — capabilitățile europene pentru NATO",
-      "url": "https://www.biziday.ro/361143-2/",
-      "type": "primary",
-      "accessedAt": "2026-06-17T18:23:00+03:00"
-    },
-    {
-      "id": "biziday-energie",
-      "name": "Biziday — petrol și carburanți",
-      "url": "https://www.biziday.ro/361137-2/",
-      "type": "primary",
+  {
+    "id": "biziday-nato",
+    "name": "Biziday — capabilitățile europene pentru NATO",
+    "url": "https://www.biziday.ro/361143-2/",
+    "type": "primary",
+    "accessedAt": "2026-06-17T18:23:00+03:00"
+  },
+  {
+    "id": "reuters-china-blacklist",
+    "name": "Reuters — SUA amână includerea DeepSeek și CXMT pe Entity List",
+    "url": "https://www.reuters.com/technology/us-held-off-adding-deepseek-cxmt-over-100-chinese-firms-trade-blacklist-sources-say-2026-06-17/",
+    "type": "primary",
+    "accessedAt": "2026-06-17T19:31:04+02:00"
+  },
+  {
+    "id": "biziday-energie",
+    "name": "Biziday — petrol și carburanți",
+    "url": "https://www.biziday.ro/361137-2/",
+    "type": "primary",
       "accessedAt": "2026-06-17T18:23:00+03:00"
     },
     {

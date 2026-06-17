@@ -25,6 +25,11 @@
       "category": "Securitate"
     },
     {
+      "id": "china-blacklist",
+      "text": "Reuters arată că SUA amână includerea a peste 100 de companii chineze, inclusiv DeepSeek și CXMT, pe lista comercială neagră.",
+      "category": "Piețe"
+    },
+    {
       "id": "eur-ron",
       "text": "Cursul oficial EUR/RON este 5,2328 la 17 iunie, iar incertitudinea politică poate păstra presiunea asupra primei de risc.",
       "category": "Piețe"
@@ -83,7 +88,22 @@
       "sourceId": "biziday",
       "sourceName": "Biziday",
       "sourceUrl": "https://www.biziday.ro/361143-2/",
-      "isSecondary": false,
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "china-export-control-delay",
+      "title": "SUA amână includerea DeepSeek și a peste 100 de firme chineze pe Entity List",
+      "fact": "Reuters a relatat că administrația Trump a întârziat includerea DeepSeek, CXMT și a altor peste 100 de companii considerate riscuri de securitate națională pe lista comercială a SUA.",
+      "interpretation": "Semnalul contează pentru lanțurile de aprovizionare AI și pentru expunerea la tensiunile SUA-China, deoarece întârzie o înăsprire a controalelor de export care ar fi afectat furnizorii tehnologici și semnalul de politică comercială.",
+      "category": "Piețe",
+      "impact": 4,
+      "impactLabel": "Semnificativ",
+      "horizon": "Imediat",
+      "sourceId": "reuters-china-blacklist",
+      "sourceName": "Reuters",
+      "sourceUrl": "https://www.reuters.com/technology/us-held-off-adding-deepseek-cxmt-over-100-chinese-firms-trade-blacklist-sources-say-2026-06-17/",
+      "isSecondary": true,
       "confidence": "confirmed"
     },
     {
@@ -370,6 +390,13 @@
       "url": "https://www.biziday.ro/361143-2/",
       "type": "primary",
       "accessedAt": "2026-06-17T18:23:00+03:00"
+    },
+    {
+      "id": "reuters-china-blacklist",
+      "name": "Reuters — SUA amână includerea DeepSeek și CXMT pe Entity List",
+      "url": "https://www.reuters.com/technology/us-held-off-adding-deepseek-cxmt-over-100-chinese-firms-trade-blacklist-sources-say-2026-06-17/",
+      "type": "primary",
+      "accessedAt": "2026-06-17T19:31:04+02:00"
     },
     {
       "id": "biziday-energie",
