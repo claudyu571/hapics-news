@@ -16,8 +16,14 @@ import {
 import { Badge } from "./components/ui/badge";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./components/ui/select";
 import { Separator } from "./components/ui/separator";
-import { formatRomanianDate } from "./lib/utils";
+import { formatRomanianDate, readingTimeMinutes } from "./lib/utils";
 import type { ArchiveIndex, Edition } from "./types/edition";
+import latestData from "../data/latest.json";
+
+// The latest edition is known at build time and baked into the bundle, so the
+// first render is synchronous and identical on the server (prerender) and the
+// client (hydration). validate:data gates the build, so the cast is safe.
+const INITIAL_EDITION = latestData as unknown as Edition;
 
 const sections = [
   ["sumar", "Rezumat"],
@@ -67,46 +73,44 @@ function TrendIcon({ trend }: { trend: "în creștere" | "stabil" | "în scăder
 }
 
 function App() {
-  const [edition, setEdition] = useState<Edition | null>(null);
+  const [edition, setEdition] = useState<Edition>(INITIAL_EDITION);
   const [archive, setArchive] = useState<ArchiveIndex>({ editions: [] });
   const [selectedDate, setSelectedDate] = useState("latest");
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [progress, setProgress] = useState(0);
 
+  // The latest edition is baked into the bundle, so the first paint needs no
+  // fetch. Only the archive index is loaded at runtime, and it is
+  // non-critical: a failure simply leaves the selector with the current
+  // edition rather than blanking the page.
   useEffect(() => {
-    Promise.all([
-      fetch("/data/latest.json", { cache: "no-store" }).then((response) => {
-        if (!response.ok) throw new Error("Ediția curentă nu este disponibilă.");
-        return response.json() as Promise<Edition>;
-      }),
-      fetch("/data/archive/index.json").then((response) => response.json() as Promise<ArchiveIndex>),
-    ])
-      .then(([latest, index]) => {
-        setEdition(latest);
-        setArchive(index);
-      })
-      .catch((reason: Error) => setError(reason.message))
-      .finally(() => setLoading(false));
-  }, []);
-
-  useEffect(() => {
-    const updateProgress = () => {
-      const available = document.documentElement.scrollHeight - window.innerHeight;
-      setProgress(available > 0 ? (window.scrollY / available) * 100 : 0);
+    let cancelled = false;
+    (async () => {
+      try {
+        const response = await fetch("/data/archive/index.json", { cache: "no-cache" });
+        if (!response.ok) return;
+        const index = (await response.json()) as ArchiveIndex;
+        if (!cancelled) setArchive(index);
+      } catch {
+        // ignore: the selector falls back to showing only the current edition
+      }
+    })();
+    return () => {
+      cancelled = true;
     };
-    updateProgress();
-    window.addEventListener("scroll", updateProgress, { passive: true });
-    return () => window.removeEventListener("scroll", updateProgress);
   }, []);
 
   const loadEdition = async (value: string) => {
     setSelectedDate(value);
-    setLoading(true);
     setError(null);
+    if (value === "latest") {
+      setEdition(INITIAL_EDITION);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      return;
+    }
+    setLoading(true);
     try {
-      const url = value === "latest" ? "/data/latest.json" : `/data/archive/${value}.json`;
-      const response = await fetch(url, { cache: "no-store" });
+      const response = await fetch(`/data/archive/${value}.json`, { cache: "no-cache" });
       if (!response.ok) throw new Error("Ediția selectată nu a putut fi încărcată.");
       setEdition((await response.json()) as Edition);
       window.scrollTo({ top: 0, behavior: "smooth" });
@@ -118,34 +122,16 @@ function App() {
   };
 
   const updatedLabel = useMemo(
-    () => edition ? formatRomanianDate(edition.metadata.updatedAt, true) : "",
+    () => formatRomanianDate(edition.metadata.updatedAt, true),
     [edition],
   );
 
-  if (loading && !edition) {
-    return (
-      <div className="loading-screen" role="status">
-        <div className="brand-mark">H</div>
-        <p>Pregătim ediția de dimineață…</p>
-      </div>
-    );
-  }
-
-  if (!edition) {
-    return (
-      <main className="error-screen">
-        <CircleAlert aria-hidden="true" />
-        <h1>Ediția nu poate fi afișată</h1>
-        <p>{error}</p>
-        <button onClick={() => window.location.reload()}>Reîncearcă</button>
-      </main>
-    );
-  }
+  const readingTime = useMemo(() => readingTimeMinutes(edition), [edition]);
 
   return (
     <>
       <a className="skip-link" href="#continut">Sari la conținut</a>
-      <div className="reading-progress" style={{ transform: `scaleX(${progress / 100})` }} />
+      <div className="reading-progress" aria-hidden="true" />
 
       <header className="topbar">
         <a href="#top" className="brand" aria-label="Hapics, începutul paginii">
@@ -198,7 +184,7 @@ function App() {
           <header className="edition-masthead reveal">
             <div className="edition-kicker">
               <span>{formatRomanianDate(`${edition.metadata.editionDate}T12:00:00+03:00`)}</span>
-              <span>Lectură: 8 minute</span>
+              <span>Lectură: {readingTime} {readingTime === 1 ? "minut" : "minute"}</span>
               <span>{edition.importantNews.length} subiecte-cheie</span>
             </div>
             <h1>{edition.metadata.title}</h1>
