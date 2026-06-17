@@ -142,7 +142,7 @@ a { color: inherit; }
   text-decoration: none;
   transition: color 150ms ease, transform 150ms ease;
 }
-.section-rail nav a span { color: #959a97; font-size: 0.62rem; font-variant-numeric: tabular-nums; }
+.section-rail nav a span { color: #5f6661; font-size: 0.62rem; font-variant-numeric: tabular-nums; }
 .section-rail nav a:hover { transform: translateX(0.2rem); color: #1e594a; }
 .rail-note { position: absolute; bottom: 1rem; display: grid; grid-template-columns: 1rem 1fr; gap: 0.65rem; color: #68706c; }
 .rail-note svg { width: 1rem; height: 1rem; color: #1e594a; }
@@ -208,7 +208,7 @@ a { color: inherit; }
   padding: 1.15rem 0;
   border-bottom: 1px solid #d8d5cc;
 }
-.summary-index { padding-top: 0.25rem; color: #9a9e9b; font-size: 0.65rem; font-variant-numeric: tabular-nums; }
+.summary-index { padding-top: 0.25rem; color: #5f6661; font-size: 0.65rem; font-variant-numeric: tabular-nums; }
 .summary-list p { margin: 0; font-family: "Newsreader", Georgia, serif; font-size: 1.18rem; line-height: 1.35; }
 
 .news-list { border-top: 1px solid #17201d; }
@@ -243,7 +243,7 @@ blockquote { margin: 2.5rem 0 0 4.1rem; padding: 0 0 0 1.5rem; border-left: 1px 
 
 .signal-table { border-top: 1px solid #17201d; }
 .signal-header, .signal-row { display: grid; grid-template-columns: minmax(13rem, 1fr) 5.8rem 4.2rem 7.5rem; gap: 1rem; align-items: center; }
-.signal-header { padding: 0.65rem 0; color: #8a908d; font-size: 0.6rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; }
+.signal-header { padding: 0.65rem 0; color: #5f6661; font-size: 0.6rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; }
 .signal-row { padding: 1.25rem 0; border-top: 1px solid #d8d5cc; }
 .signal-row strong { font-family: "Newsreader", Georgia, serif; font-size: 1.1rem; font-weight: 600; }
 .signal-row p { margin: 0.35rem 0 0; color: #68706c; font-size: 0.72rem; line-height: 1.45; }
@@ -252,13 +252,15 @@ blockquote { margin: 2.5rem 0 0 4.1rem; padding: 0 0 0 1.5rem; border-left: 1px 
 .rail-section { scroll-margin-top: 7rem; }
 .rail-section .section-heading { grid-template-columns: 2.2rem 1fr; margin-bottom: 1.7rem; }
 .rail-section .section-heading h2 { font-size: 2rem; }
+.section-heading.section-heading--plain,
+.rail-section .section-heading.section-heading--plain { grid-template-columns: minmax(0, 1fr); }
 .indicator-list { border-top: 1px solid #17201d; }
 .indicator-item { display: grid; grid-template-columns: 1fr auto; gap: 0.3rem 0.75rem; padding: 1rem 0; border-bottom: 1px solid #d8d5cc; }
 .indicator-item > div:first-child { display: flex; flex-direction: column; gap: 0.2rem; }
 .indicator-item > div:first-child > span { color: #68706c; font-size: 0.68rem; }
 .indicator-item strong { font-family: "Newsreader", Georgia, serif; font-size: 1.75rem; font-weight: 500; line-height: 1; }
 .indicator-item strong small { color: #68706c; font-family: "Inter", sans-serif; font-size: 0.62rem; font-weight: 400; }
-.indicator-item > p { margin: 0.25rem 0 0; color: #858b88; font-size: 0.63rem; }
+.indicator-item > p { margin: 0.25rem 0 0; color: #5f6661; font-size: 0.63rem; }
 .indicator-item .source-link { justify-self: end; margin-top: 0.2rem; }
 .indicator-note { grid-column: 1 / -1; margin-top: 0.5rem; color: #8a6a22; font-size: 0.63rem; line-height: 1.35; }
 .market-rail .bg-amber-100 { background: #eee4cc; }
@@ -269,7 +271,7 @@ blockquote { margin: 2.5rem 0 0 4.1rem; padding: 0 0 0 1.5rem; border-left: 1px 
 .risk-topline { display: flex; align-items: baseline; justify-content: space-between; }
 .risk-topline > span { font-family: "Newsreader", Georgia, serif; font-size: 1.1rem; }
 .risk-topline strong { font-family: "Newsreader", Georgia, serif; font-size: 1.6rem; font-weight: 500; }
-.risk-topline small { color: #8a908d; font-size: 0.7rem; }
+.risk-topline small { color: #5f6661; font-size: 0.7rem; }
 .risk-track { height: 0.18rem; margin: 0.5rem 0 0.75rem; background: #d4d3cc; }
 .risk-track span { display: block; height: 100%; background: #1e594a; }
 .risk-list p { margin: 0; color: #68706c; font-size: 0.7rem; line-height: 1.45; }
@@ -284,7 +286,7 @@ blockquote { margin: 2.5rem 0 0 4.1rem; padding: 0 0 0 1.5rem; border-left: 1px 
 .watch-list h3 { margin: 0.75rem 0 0.4rem; font-family: "Newsreader", Georgia, serif; font-size: 1.45rem; font-weight: 500; }
 .watch-list p { margin: 0; color: #59615d; font-size: 0.78rem; line-height: 1.5; }
 .trigger { align-self: center; padding-left: 1rem; border-left: 1px solid #c4c1b8; }
-.trigger span { display: block; margin-bottom: 0.4rem; color: #8a908d; font-size: 0.59rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
+.trigger span { display: block; margin-bottom: 0.4rem; color: #5f6661; font-size: 0.59rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
 .watch-list .source-link { grid-column: 1 / -1; }
 
 .conclusion-section { position: relative; margin: 6rem 0; overflow: hidden; border-radius: 0.5rem; background: #163c32; padding: clamp(2.2rem, 5vw, 4.5rem); color: #f4f1e9; }

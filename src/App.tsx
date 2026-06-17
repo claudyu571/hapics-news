@@ -16,7 +16,7 @@ import {
 import { Badge } from "./components/ui/badge";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./components/ui/select";
 import { Separator } from "./components/ui/separator";
-import { formatRomanianDate, readingTimeMinutes } from "./lib/utils";
+import { formatRomanianDate, formatRomanianNumber, readingTimeMinutes } from "./lib/utils";
 import type { ArchiveIndex, Edition } from "./types/edition";
 import latestData from "../data/latest.json";
 
@@ -25,21 +25,24 @@ import latestData from "../data/latest.json";
 // client (hydration). validate:data gates the build, so the cast is safe.
 const INITIAL_EDITION = latestData as unknown as Edition;
 
+// Reading order (matches the single-column mobile flow). The narrative columns
+// are numbered 01–06; the indicators/risks rail sits alongside on desktop, so
+// it reads as a parallel panel (n: null) rather than steps in the sequence.
 const sections = [
-  ["sumar", "Rezumat"],
-  ["stiri", "Știri"],
-  ["romania", "România"],
-  ["fonduri", "Fonduri"],
-  ["indicatori", "Indicatori"],
-  ["riscuri", "Riscuri"],
-  ["monitorizat", "De monitorizat"],
-  ["concluzie", "Concluzie"],
+  { id: "sumar", label: "Rezumat", n: "01" },
+  { id: "stiri", label: "Știri", n: "02" },
+  { id: "romania", label: "România", n: "03" },
+  { id: "fonduri", label: "Fonduri", n: "04" },
+  { id: "indicatori", label: "Indicatori", n: null },
+  { id: "riscuri", label: "Riscuri", n: null },
+  { id: "monitorizat", label: "De monitorizat", n: "05" },
+  { id: "concluzie", label: "Concluzie", n: "06" },
 ] as const;
 
-function SectionHeading({ number, eyebrow, title }: { number: string; eyebrow: string; title: string }) {
+function SectionHeading({ number, eyebrow, title }: { number?: string; eyebrow: string; title: string }) {
   return (
-    <header className="section-heading">
-      <span className="section-number">{number}</span>
+    <header className={number ? "section-heading" : "section-heading section-heading--plain"}>
+      {number && <span className="section-number">{number}</span>}
       <div>
         <p className="eyebrow">{eyebrow}</p>
         <h2>{title}</h2>
@@ -160,15 +163,17 @@ function App() {
       </header>
 
       <nav className="mobile-section-nav" aria-label="Secțiunile ediției">
-        {sections.map(([id, label]) => <a key={id} href={`#${id}`}>{label}</a>)}
+        {sections.map((s) => <a key={s.id} href={`#${s.id}`}>{s.label}</a>)}
       </nav>
 
       <div className="page-shell" id="top">
         <aside className="section-rail" aria-label="Cuprins">
           <p className="rail-label">În ediția de azi</p>
           <nav>
-            {sections.map(([id, label], index) => (
-              <a key={id} href={`#${id}`}><span>{String(index + 1).padStart(2, "0")}</span>{label}</a>
+            {sections.map((s) => (
+              <a key={s.id} href={`#${s.id}`} className={s.n ? undefined : "is-panel"}>
+                <span>{s.n ?? "·"}</span>{s.label}
+              </a>
             ))}
           </nav>
           <div className="rail-note">
@@ -278,13 +283,13 @@ function App() {
             <aside className="market-rail" aria-label="Indicatori și scoruri de risc">
               <div className="market-rail-inner">
                 <section id="indicatori" className="rail-section">
-                  <SectionHeading number="05" eyebrow="Tablou rapid" title="Indicatorii zilei" />
+                  <SectionHeading eyebrow="Tablou rapid" title="Indicatorii zilei" />
                   <div className="indicator-list">
                     {edition.indicators.map((indicator) => (
                       <article key={indicator.id} className="indicator-item">
                         <div>
                           <span>{indicator.label}</span>
-                          <strong>{indicator.value ?? "—"} <small>{indicator.unit}</small></strong>
+                          <strong>{formatRomanianNumber(indicator.value)} <small>{indicator.unit}</small></strong>
                         </div>
                         <Badge variant={indicator.freshness === "current" ? "accent" : "warning"}>
                           {indicator.freshness === "current" ? "La zi" : indicator.freshness === "stale" ? "Date vechi" : "Indisponibil"}
@@ -300,7 +305,7 @@ function App() {
                 <Separator />
 
                 <section id="riscuri" className="rail-section">
-                  <SectionHeading number="06" eyebrow="Scală 1–5" title="Scoruri de risc" />
+                  <SectionHeading eyebrow="Scală 1–5" title="Scoruri de risc" />
                   <div className="risk-list">
                     {edition.riskScores.map((risk) => (
                       <article key={risk.id}>
@@ -322,7 +327,7 @@ function App() {
 
             <div className="primary-end">
               <section id="monitorizat" className="content-section watch-section">
-                <SectionHeading number="07" eyebrow="Semnale neconfirmate" title="De monitorizat" />
+                <SectionHeading number="05" eyebrow="Semnale neconfirmate" title="De monitorizat" />
                 <p className="section-intro">Aici rămân informațiile incomplete, contradictorii sau fără confirmare suficientă.</p>
                 <div className="watch-list">
                   {edition.watchlist.map((item) => (
@@ -340,7 +345,7 @@ function App() {
               </section>
 
               <section id="concluzie" className="conclusion-section">
-                <span className="conclusion-number">08</span>
+                <span className="conclusion-number">06</span>
                 <p className="eyebrow">Concluzia dimineții</p>
                 <h2>{edition.conclusion.title}</h2>
                 <p className="conclusion-body">{edition.conclusion.body}</p>

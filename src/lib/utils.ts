@@ -24,6 +24,19 @@ const dateFormatters: Record<"date" | "dateTime", Intl.DateTimeFormat> = {
 export const formatRomanianDate = (value: string, withTime = false) =>
   dateFormatters[withTime ? "dateTime" : "date"].format(new Date(value));
 
+// Format an indicator value the Romanian way (decimal comma, period grouping):
+// 30536.43 -> "30.536,43", 5.2328 -> "5,2328". Strings pass through (already
+// formatted), null renders as an em dash. Preserves the value's own precision.
+export const formatRomanianNumber = (value: string | number | null) => {
+  if (value === null) return "—";
+  if (typeof value === "string") return value;
+  const decimals = (value.toString().split(".")[1] ?? "").length;
+  return new Intl.NumberFormat("ro-RO", {
+    minimumFractionDigits: decimals,
+    maximumFractionDigits: decimals,
+  }).format(value);
+};
+
 const WORDS_PER_MINUTE = 180; // conservative rate for dense Romanian prose
 
 const countWords = (text: string) => text.trim().split(/\s+/).filter(Boolean).length;
