@@ -220,15 +220,26 @@
       "note": "Indice al acțiunilor românești blue-chip, calculat de Wiener Börse; captură BVB din 17 iunie 2026, ora 15:02 (+1,33%)."
     },
     {
-      "id": "robor-ircc",
-      "label": "ROBOR / IRCC",
+      "id": "robor",
+      "label": "ROBOR 3M",
       "value": null,
       "unit": "%",
       "referenceDate": "2026-06-17",
       "sourceName": "BNR",
       "sourceUrl": "https://www.bnr.ro/",
       "freshness": "unavailable",
-      "note": "Nu a fost identificată o valoare nouă suficient verificată în momentul ediției."
+      "note": "Rată interbancară zilnică; se preia automat de la BNR (endpoint de confirmat)."
+    },
+    {
+      "id": "ircc",
+      "label": "IRCC",
+      "value": null,
+      "unit": "%",
+      "referenceDate": "2026-06-17",
+      "sourceName": "BNR",
+      "sourceUrl": "https://www.bnr.ro/",
+      "freshness": "unavailable",
+      "note": "Indice de referință trimestrial pentru creditele consumatorilor; se actualizează o dată pe trimestru."
     }
   ],
   "riskScores": [

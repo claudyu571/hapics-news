@@ -146,10 +146,14 @@ const SOURCES = {
       const now = new Date();
       const month = Number(new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Bucharest", month: "numeric" }).format(now));
       const year = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Bucharest", year: "numeric" }).format(now);
-      const quarter = `${year}-Q${Math.ceil(month / 3)}`;
+      const q = Math.ceil(month / 3);
+      const quarter = `${year}-Q${q}`;
       const value = byQuarter[quarter];
       if (value == null) throw new Error(`IRCC value for ${quarter} not set`);
-      return { value, unit: "%", referenceDate: `${quarter}`, freshness: "stale",
+      // referenceDate must be a real YYYY-MM-DD (schema "date" format); use the
+      // quarter start and keep the human-readable quarter in the note.
+      const quarterStart = `${year}-${String((q - 1) * 3 + 1).padStart(2, "0")}-01`;
+      return { value, unit: "%", referenceDate: quarterStart, freshness: "stale",
         note: `IRCC valabil pentru ${quarter}, publicat de BNR (recalculat trimestrial).` };
     },
   },
