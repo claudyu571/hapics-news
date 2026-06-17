@@ -1,7 +1,7 @@
 {
   "metadata": {
     "editionDate": "2026-06-17",
-    "updatedAt": "2026-06-17T13:48:00+03:00",
+    "updatedAt": "2026-06-17T15:05:00+03:00",
     "timezone": "Europe/Bucharest",
     "title": "Guvern fragil, creștere aproape de zero și presiune pe costul capitalului",
     "status": "published",
@@ -200,13 +200,24 @@
     {
       "id": "bet",
       "label": "Indice BET",
-      "value": null,
+      "value": 30566.99,
       "unit": "puncte",
       "referenceDate": "2026-06-17",
       "sourceName": "BVB",
       "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=BET",
-      "freshness": "unavailable",
-      "note": "Valoarea intraday nu a fost inclusă fără o captură oficială stabilă."
+      "freshness": "current",
+      "note": "Captură BVB din 17 iunie 2026, ora 15:02 (+1,28% în ședință)."
+    },
+    {
+      "id": "rotx",
+      "label": "Indice ROTX",
+      "value": 69184.59,
+      "unit": "puncte",
+      "referenceDate": "2026-06-17",
+      "sourceName": "BVB / Wiener Börse",
+      "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=ROTX",
+      "freshness": "current",
+      "note": "Indice al acțiunilor românești blue-chip, calculat de Wiener Börse; captură BVB din 17 iunie 2026, ora 15:02 (+1,33%)."
     },
     {
       "id": "robor-ircc",
