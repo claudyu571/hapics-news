@@ -30,18 +30,18 @@ const INITIAL_EDITION = latestData as unknown as Edition;
 // A se menține în sincron cu programul rutinei.
 const UPDATE_TIMES = "07:30, 12:30, 17:30 și 22:30";
 
-// Reading order (matches the single-column mobile flow). The narrative columns
-// are numbered 01–06; the indicators/risks rail sits alongside on desktop, so
-// it reads as a parallel panel (n: null) rather than steps in the sequence.
+// Reading order (matches the single-column mobile flow). Keep one continuous
+// sequence in the table of contents even though indicators and risks move into
+// a parallel rail on desktop.
 const sections = [
   { id: "sumar", label: "Rezumat", n: "01" },
   { id: "stiri", label: "Știri", n: "02" },
   { id: "romania", label: "România", n: "03" },
   { id: "fonduri", label: "Fonduri", n: "04" },
-  { id: "indicatori", label: "Indicatori", n: null },
-  { id: "riscuri", label: "Riscuri", n: null },
-  { id: "monitorizat", label: "De monitorizat", n: "05" },
-  { id: "concluzie", label: "Concluzie", n: "06" },
+  { id: "indicatori", label: "Indicatori", n: "05" },
+  { id: "riscuri", label: "Riscuri", n: "06" },
+  { id: "monitorizat", label: "De monitorizat", n: "07" },
+  { id: "concluzie", label: "Concluzie", n: "08" },
 ] as const;
 
 function SectionHeading({ number, eyebrow, title }: { number?: string; eyebrow: string; title: string }) {
@@ -180,8 +180,8 @@ function App() {
           <p className="rail-label">În ediția de azi</p>
           <nav>
             {sections.map((s) => (
-              <a key={s.id} href={`#${s.id}`} className={s.n ? undefined : "is-panel"}>
-                <span>{s.n ?? "·"}</span>{s.label}
+              <a key={s.id} href={`#${s.id}`}>
+                <span>{s.n}</span>{s.label}
               </a>
             ))}
           </nav>
@@ -292,7 +292,7 @@ function App() {
             <aside className="market-rail" aria-label="Indicatori și scoruri de risc">
               <div className="market-rail-inner">
                 <section id="indicatori" className="rail-section">
-                  <SectionHeading eyebrow="Tablou rapid" title="Indicatorii zilei" />
+                  <SectionHeading number="05" eyebrow="Tablou rapid" title="Indicatorii zilei" />
                   <div className="indicator-list">
                     {edition.indicators.map((indicator) => (
                       <article key={indicator.id} className="indicator-item">
@@ -314,7 +314,7 @@ function App() {
                 <Separator />
 
                 <section id="riscuri" className="rail-section">
-                  <SectionHeading eyebrow="Scală 1–5" title="Scoruri de risc" />
+                  <SectionHeading number="06" eyebrow="Scală 1–5" title="Scoruri de risc" />
                   <div className="risk-list">
                     {edition.riskScores.map((risk) => (
                       <article key={risk.id}>
@@ -336,7 +336,7 @@ function App() {
 
             <div className="primary-end">
               <section id="monitorizat" className="content-section watch-section">
-                <SectionHeading number="05" eyebrow="Semnale neconfirmate" title="De monitorizat" />
+                <SectionHeading number="07" eyebrow="Semnale neconfirmate" title="De monitorizat" />
                 <p className="section-intro">Aici rămân informațiile incomplete, contradictorii sau fără confirmare suficientă.</p>
                 <div className="watch-list">
                   {edition.watchlist.map((item) => (
@@ -354,7 +354,7 @@ function App() {
               </section>
 
               <section id="concluzie" className="conclusion-section">
-                <span className="conclusion-number">06</span>
+                <span className="conclusion-number">08</span>
                 <p className="eyebrow">Concluzia dimineții</p>
                 <h2>{edition.conclusion.title}</h2>
                 <p className="conclusion-body">{edition.conclusion.body}</p>
