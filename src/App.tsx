@@ -133,6 +133,7 @@ function App() {
     () => formatRomanianDate(edition.metadata.updatedAt, true),
     [edition],
   );
+  const freshnessLabel = edition.metadata.status === "published" ? "Ultima publicare" : "Ultima actualizare";
 
   const readingTime = useMemo(() => readingTimeMinutes(edition), [edition]);
 
@@ -151,7 +152,7 @@ function App() {
         </a>
         <div className="topbar-meta">
           <span className="live-status"><Radio aria-hidden="true" /> Ediția curentă</span>
-          <span className="updated"><Clock3 aria-hidden="true" /> Actualizat {updatedLabel}</span>
+          <span className="updated"><Clock3 aria-hidden="true" /> {freshnessLabel} {updatedLabel}</span>
         </div>
         <Select value={selectedDate} onValueChange={loadEdition} disabled={loading}>
           <SelectTrigger aria-label="Selectează ediția din arhivă">
@@ -169,6 +170,7 @@ function App() {
 
       <div className="header-notice">
         <p className="update-cadence"><Clock3 aria-hidden="true" /> Verificăm noutățile la {UPDATE_TIMES} (ora României) și publicăm pe parcursul zilei doar la schimbări relevante.</p>
+        <p className="update-freshness"><Clock3 aria-hidden="true" /> {freshnessLabel}: {updatedLabel}</p>
       </div>
 
       <nav className="mobile-section-nav" aria-label="Secțiunile ediției">

@@ -108,6 +108,16 @@ a { color: inherit; }
 
 .header-notice { padding: 0.55rem clamp(1.25rem, 3vw, 3.5rem); border-bottom: 1px solid #d8d5cc; background: #ece9e1; }
 .header-notice .update-cadence { margin: 0; }
+.header-notice .update-freshness {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin: 0.35rem 0 0;
+  color: #45504b;
+  font-size: 0.68rem;
+  line-height: 1.35;
+}
+.header-notice .update-freshness svg { flex: none; width: 0.8rem; height: 0.8rem; color: #1e594a; }
 
 .page-shell {
   display: grid;
