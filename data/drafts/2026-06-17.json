@@ -1,9 +1,9 @@
 {
   "metadata": {
     "editionDate": "2026-06-17",
-    "updatedAt": "2026-06-17T13:48:00+03:00",
+    "updatedAt": "2026-06-17T18:23:00+03:00",
     "timezone": "Europe/Bucharest",
-    "title": "Guvern fragil, creștere aproape de zero și presiune pe costul capitalului",
+    "title": "Sprijinul pentru Guvernul Veștea se restrânge, iar PNL intră în congres",
     "status": "draft",
     "primarySource": "https://www.biziday.ro/",
     "sourceCoverage": "complete"
@@ -11,18 +11,18 @@
   "executiveSummary": [
     {
       "id": "guvern-vestea",
-      "text": "Adrian Veștea anunță depunerea programului de guvernare și a listei de miniștri, fără ca o majoritate parlamentară să fie demonstrată public.",
+      "text": "UDMR a decis să nu voteze Guvernul Veștea și să părăsească sala, reducând suplimentar șansele unei majorități funcționale.",
       "category": "Politică"
     },
     {
-      "id": "crestere-economica",
-      "text": "Perspectivele de stagnare și consolidarea fiscală mențin riscul economic al României la un nivel ridicat în următoarele luni.",
-      "category": "Economie"
+      "id": "congres-pnl",
+      "text": "Conducerea PNL pregătește un congres extraordinar pentru duminică, iar sancționarea lui Adrian Veștea rămâne posibilă, dar nu este încă decisă.",
+      "category": "Politică"
     },
     {
-      "id": "inflatie-bnr",
-      "text": "BNR vede inflația coborând spre 5,5% la finalul anului, dar avertizează că stabilitatea politică și corecția fiscală sunt esențiale.",
-      "category": "Piețe"
+      "id": "nato-europa",
+      "text": "SUA cer aliaților europeni să aloce NATO mai multe capabilități pentru a compensa reduceri viitoare ale prezenței militare americane.",
+      "category": "Securitate"
     },
     {
       "id": "eur-ron",
@@ -30,59 +30,74 @@
       "category": "Piețe"
     },
     {
-      "id": "dobanda-bce",
-      "text": "Majorarea dobânzii BCE la 2,25% reduce spațiul pentru relaxare monetară regională cât timp energia alimentează inflația.",
-      "category": "Extern"
+      "id": "inflatie-bnr",
+      "text": "BNR vede inflația coborând spre 5,5% la finalul anului, dar avertizează că stabilitatea politică și corecția fiscală sunt esențiale.",
+      "category": "Economie"
     },
     {
       "id": "energie-geopolitica",
-      "text": "Volatilitatea energiei rămâne principalul canal extern de transmitere spre inflație, consum și marjele companiilor românești.",
+      "text": "Brent a coborât sub 80 de dolari, însă carburanții rafinați rămân mult peste începutul anului, iar normalizarea fluxurilor poate dura luni.",
       "category": "Energie"
     }
   ],
   "importantNews": [
     {
-      "id": "cabinet-vestea",
-      "title": "Cabinetul Veștea intră în etapa decisivă fără majoritate confirmată",
-      "fact": "Premierul desemnat Adrian Veștea a declarat că depune programul de guvernare și lista cabinetului, în timp ce conducerea PNL a decis să nu îi susțină guvernul.",
-      "interpretation": "Probabilitatea unui vot dificil sau a unui executiv fragil este ridicată și poate întârzia deciziile privind deficitul, PNRR și finanțarea economiei.",
+      "id": "udmr-refuza-votul",
+      "title": "UDMR nu va vota Guvernul Veștea și va părăsi sala",
+      "fact": "Conducerea UDMR a decis că parlamentarii Uniunii nu vor susține învestirea Guvernului Veștea și vor ieși din sală în timpul votului.",
+      "interpretation": "Fără voturile UDMR și fără sprijinul oficial al PNL, probabilitatea unei învestiri stabile scade, iar riscul unei noi runde de negocieri crește.",
       "category": "Politică",
       "impact": 5,
       "impactLabel": "Ridicat",
       "horizon": "Imediat",
       "sourceId": "biziday",
       "sourceName": "Biziday",
-      "sourceUrl": "https://www.biziday.ro/361121-2/",
+      "sourceUrl": "https://www.biziday.ro/361179-2/",
       "isSecondary": false,
       "confidence": "confirmed"
     },
     {
-      "id": "bnr-stagflatie",
-      "title": "BNR leagă dezinflația de stabilitatea politică și corecția fiscală",
-      "fact": "BNR estimează inflația la aproximativ 5,5% la finalul lui 2026 și avertizează asupra riscului de recesiune, stagflație și finanțare externă mai dificilă.",
-      "interpretation": "Reducerile de dobândă devin mai puțin probabile dacă energia, cursul și incertitudinea fiscală păstrează presiunile asupra prețurilor.",
-      "category": "Economie",
+      "id": "congres-extraordinar-pnl",
+      "title": "PNL pregătește congres extraordinar în plină criză de guvern",
+      "fact": "Conducerea PNL a decis convocarea Consiliului Național pentru vineri și propune un congres extraordinar duminică, după nominalizarea lui Adrian Veștea.",
+      "interpretation": "Clarificarea conducerii și a liniei politice poate influența direct negocierile pentru guvern, dar eventualele sancțiuni nu sunt încă o decizie oficială.",
+      "category": "Politică",
       "impact": 5,
       "impactLabel": "Ridicat",
-      "horizon": "1–3 luni",
+      "horizon": "Imediat",
       "sourceId": "biziday",
       "sourceName": "Biziday",
-      "sourceUrl": "https://www.biziday.ro/358218-2/",
+      "sourceUrl": "https://www.biziday.ro/361194-2/",
       "isSecondary": false,
       "confidence": "confirmed"
     },
     {
-      "id": "bce-dobanzi",
-      "title": "BCE majorează dobânda de referință la 2,25%",
-      "fact": "Banca Centrală Europeană a majorat dobânda de referință cu 0,25 puncte procentuale, invocând presiunile inflaționiste generate de scumpirea energiei.",
-      "interpretation": "Condițiile financiare europene mai restrictive pot menține costul capitalului ridicat și pot slăbi cererea externă pentru companiile românești.",
-      "category": "Extern",
+      "id": "nato-capabilitati-europene",
+      "title": "SUA cer Europei mai multe capabilități puse la dispoziția NATO",
+      "fact": "Statele Unite solicită aliaților europeni să aloce NATO mai multe avioane, nave și unități pentru a compensa reduceri viitoare ale contribuției militare americane.",
+      "interpretation": "Pentru România și flancul estic, solicitarea poate accelera cheltuielile de apărare și cooperarea europeană, dar înlocuirea capabilităților strategice americane ar necesita ani.",
+      "category": "Securitate",
+      "impact": 4,
+      "impactLabel": "Semnificativ",
+      "horizon": "6–12 luni",
+      "sourceId": "biziday",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/361143-2/",
+      "isSecondary": false,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "petrol-hormuz",
+      "title": "Petrolul se temperează, dar carburanții rămân scumpi",
+      "fact": "Cotația Brent a coborât la aproximativ 78 de dolari pe baril, însă benzina și motorina rămân cu circa 50% peste nivelul de la începutul anului.",
+      "interpretation": "Reducerea presiunii pe țiței este favorabilă inflației, dar efectul asupra carburanților europeni poate veni cu întârziere din cauza reparațiilor și blocajelor logistice.",
+      "category": "Energie",
       "impact": 4,
       "impactLabel": "Semnificativ",
       "horizon": "1–3 luni",
       "sourceId": "biziday",
       "sourceName": "Biziday",
-      "sourceUrl": "https://www.biziday.ro/360568-2/",
+      "sourceUrl": "https://www.biziday.ro/361137-2/",
       "isSecondary": false,
       "confidence": "confirmed"
     },
@@ -104,14 +119,15 @@
   ],
   "romaniaAnalysis": {
     "factBase": [
-      "Majoritatea parlamentară pentru cabinetul propus de Adrian Veștea nu este demonstrată public.",
+      "UDMR a decis să nu voteze Guvernul Veștea și să părăsească sala la vot.",
+      "PNL a inițiat convocarea unui congres extraordinar pentru duminică.",
       "BNR estimează inflația în jur de 5,5% la finalul anului și semnalează risc de recesiune.",
       "Cursul oficial EUR/RON pentru 17 iunie este 5,2328 lei pentru un euro.",
       "BCE a majorat dobânda de referință la 2,25% pe fondul presiunilor energetice."
     ],
-    "political": "Stabilitatea guvernului depinde de un vot parlamentar încă incert. Chiar și o învestire reușită poate produce un executiv cu sprijin fragil, ceea ce ar îngreuna deciziile nepopulare de consolidare fiscală.",
-    "economic": "Combinația dintre creștere foarte slabă, inflație persistentă și costuri ridicate de finanțare limitează spațiul de stimulare. Investițiile europene rămân principalul amortizor pentru consumul prudent și cererea internă slabă.",
-    "interpretation": "Scenariul de bază este o perioadă de volatilitate controlată, nu o ruptură imediată. Riscul crește dacă formarea guvernului eșuează, calendarul PNRR alunecă sau execuția bugetară se abate vizibil de la ținte."
+    "political": "Retragerea UDMR din sala de vot și conflictul deschis din PNL reduc spațiul pentru o majoritate coerentă. Chiar dacă învestirea ar reuși prin voturi individuale, executivul ar porni cu o bază parlamentară fragilă.",
+    "economic": "Combinația dintre creștere foarte slabă, inflație persistentă și costuri ridicate de finanțare limitează spațiul de stimulare. Scăderea petrolului ajută marginal, dar carburanții rafinați și riscul fiscal rămân surse de presiune.",
+    "interpretation": "Probabilitatea unei noi runde de negocieri politice a crescut. Piețele pot tolera temporar incertitudinea, dar întârzierile privind PNRR, deficitul și finanțarea ar mări prima de risc și presiunea asupra cursului."
   },
   "investmentFundSignals": [
     {
@@ -198,6 +214,17 @@
       "note": "Nivel după majorarea cu 0,25 puncte procentuale."
     },
     {
+      "id": "brent",
+      "label": "Petrol Brent",
+      "value": 78,
+      "unit": "USD/baril",
+      "referenceDate": "2026-06-17",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/361137-2/",
+      "freshness": "current",
+      "note": "Cotație indicativă menționată în analiza de dimineață; produsele rafinate rămân mai scumpe."
+    },
+    {
       "id": "bet",
       "label": "Indice BET",
       "value": null,
@@ -226,7 +253,7 @@
       "label": "Risc politic",
       "score": 5,
       "trend": "în creștere",
-      "description": "Majoritatea parlamentară și componența cabinetului nu sunt încă confirmate."
+      "description": "UDMR nu susține cabinetul, iar conflictul intern din PNL se adâncește."
     },
     {
       "id": "economic",
@@ -240,7 +267,7 @@
       "label": "Risc fiscal",
       "score": 5,
       "trend": "în creștere",
-      "description": "Instabilitatea poate întârzia consolidarea, PNRR și calendarul de finanțare."
+      "description": "Blocajul politic poate întârzia consolidarea, PNRR și calendarul de finanțare."
     },
     {
       "id": "social",
@@ -267,33 +294,35 @@
   "watchlist": [
     {
       "id": "lista-cabinet",
-      "title": "Lista finală a cabinetului Veștea",
-      "why": "Componența și acceptarea nominalizărilor pot schimba probabilitatea învestirii.",
-      "trigger": "Publicarea listei oficiale și a calendarului votului în Parlament.",
+      "title": "Votul de învestire al cabinetului Veștea",
+      "why": "UDMR s-a retras, iar sprijinul parlamentar rămas nu este demonstrat public.",
+      "trigger": "Publicarea calendarului și rezultatul oficial al votului în Parlament.",
       "status": "în așteptare",
-      "sourceUrl": "https://www.biziday.ro/361121-2/"
+      "sourceUrl": "https://www.biziday.ro/361179-2/"
     },
     {
-      "id": "majoritate-parlamentara",
-      "title": "Majoritatea parlamentară",
-      "why": "Promisiunile de vot invocate de premierul desemnat nu sunt demonstrate public.",
-      "trigger": "Poziții oficiale ale partidelor sau rezultatul votului de învestire.",
+      "id": "sanctiuni-pnl",
+      "title": "Posibile sancțiuni în PNL",
+      "why": "Excluderea lui Adrian Veștea sau a susținătorilor săi este relatată ca posibilitate, nu ca decizie adoptată.",
+      "trigger": "Agenda oficială a congresului și hotărârile Consiliului Național PNL.",
       "status": "neconfirmat",
-      "sourceUrl": "https://www.biziday.ro/361044-2/"
+      "sourceUrl": "https://www.biziday.ro/361194-2/"
     },
     {
-      "id": "energie-extern",
-      "title": "Transmiterea șocului energetic",
-      "why": "Prețurile energiei pot modifica rapid scenariile pentru inflație și dobânzi.",
-      "trigger": "O mișcare persistentă confirmată de piețe și de surse instituționale.",
-      "status": "în așteptare"
+      "id": "acord-iran-sua",
+      "title": "Termenii acordului Iran–SUA și redeschiderea Hormuz",
+      "why": "Piața anticipează normalizarea fluxurilor, dar termenii acordului și ritmul redeschiderii nu sunt încă publicați integral.",
+      "trigger": "Publicarea documentului vineri și confirmarea reluării traficului maritim.",
+      "status": "în așteptare",
+      "sourceUrl": "https://www.biziday.ro/361137-2/"
     }
   ],
   "conclusion": {
-    "title": "Guvernul și credibilitatea fiscală domină ziua",
-    "body": "Cel mai important eveniment este demonstrarea unei majorități pentru noul cabinet. În următoarele săptămâni, execuția fiscală, absorbția fondurilor europene și presiunile energetice vor decide dacă volatilitatea rămâne controlată sau devine o problemă de finanțare.",
+    "title": "Majoritatea guvernului devine și mai greu de construit",
+    "body": "Decizia UDMR și congresul PNL mută centrul de greutate de la lista miniștrilor la aritmetica votului și viitorul conducerii liberale. În săptămânile următoare, orice întârziere a deciziilor fiscale și PNRR poate transforma criza politică într-o problemă de finanțare.",
     "actionPoints": [
-      "Urmărește lista oficială a cabinetului și calendarul votului.",
+      "Urmărește calendarul și rezultatul votului de învestire.",
+      "Verifică hotărârile oficiale ale congresului PNL, nu scenariile relatate anterior.",
       "Compară evoluția EUR/RON cu randamentele titlurilor de stat.",
       "Tratează semnalele drept context general, nu consultanță financiară."
     ]
@@ -301,45 +330,45 @@
   "sources": [
     {
       "id": "biziday",
-      "name": "Biziday — cabinetul Veștea",
-      "url": "https://www.biziday.ro/361121-2/",
+      "name": "Biziday — decizia UDMR privind votul",
+      "url": "https://www.biziday.ro/361179-2/",
       "type": "primary",
-      "accessedAt": "2026-06-17T13:45:00+03:00"
+      "accessedAt": "2026-06-17T18:23:00+03:00"
     },
     {
       "id": "biziday-pnl",
-      "name": "Biziday — poziția PNL și negocierile",
-      "url": "https://www.biziday.ro/361044-2/",
+      "name": "Biziday — congresul extraordinar PNL",
+      "url": "https://www.biziday.ro/361194-2/",
       "type": "primary",
-      "accessedAt": "2026-06-17T13:45:00+03:00"
+      "accessedAt": "2026-06-17T18:23:00+03:00"
     },
     {
-      "id": "biziday-bnr",
-      "name": "Biziday — evaluarea BNR",
-      "url": "https://www.biziday.ro/358218-2/",
+      "id": "biziday-nato",
+      "name": "Biziday — capabilitățile europene pentru NATO",
+      "url": "https://www.biziday.ro/361143-2/",
       "type": "primary",
-      "accessedAt": "2026-06-17T13:45:00+03:00"
+      "accessedAt": "2026-06-17T18:23:00+03:00"
     },
     {
-      "id": "biziday-bce",
-      "name": "Biziday — decizia BCE",
-      "url": "https://www.biziday.ro/360568-2/",
+      "id": "biziday-energie",
+      "name": "Biziday — petrol și carburanți",
+      "url": "https://www.biziday.ro/361137-2/",
       "type": "primary",
-      "accessedAt": "2026-06-17T13:45:00+03:00"
+      "accessedAt": "2026-06-17T18:23:00+03:00"
     },
     {
       "id": "bnr-curs",
       "name": "Banca Națională a României — curs valutar",
       "url": "https://www.bnr.ro/nbrfxrates.xml",
       "type": "official",
-      "accessedAt": "2026-06-17T13:45:00+03:00"
+      "accessedAt": "2026-06-17T18:23:00+03:00"
     },
     {
       "id": "bvb",
       "name": "Bursa de Valori București",
       "url": "https://www.bvb.ro/",
       "type": "official",
-      "accessedAt": "2026-06-17T13:45:00+03:00"
+      "accessedAt": "2026-06-17T18:23:00+03:00"
     }
   ]
 }
