@@ -4,10 +4,11 @@ import process from "node:process";
 import { spawnSync } from "node:child_process";
 import Ajv2020 from "ajv/dist/2020.js";
 import addFormats from "ajv-formats";
+import { enrichIndicators } from "./fetch-indicators.mjs";
 
 const input = process.argv[2];
 if (!input) {
-  console.error("Utilizare: npm run publish:edition -- data/drafts/YYYY-MM-DD.json");
+  console.error("Utilizare: npm run publish:edition -- data/drafts/YYYY-MM-DD.json [--no-fetch]");
   process.exit(1);
 }
 
@@ -15,6 +16,14 @@ const root = process.cwd();
 const inputPath = path.resolve(root, input);
 const schema = JSON.parse(fs.readFileSync(path.join(root, "schema", "edition.schema.json"), "utf8"));
 const edition = JSON.parse(fs.readFileSync(inputPath, "utf8"));
+
+// Refresh indicator values from official sources before validating/publishing.
+// Best-effort: failed sources leave their indicator untouched, and only the
+// current day's edition is enriched. Skip with --no-fetch (e.g. offline).
+if (!process.argv.includes("--no-fetch")) {
+  await enrichIndicators(edition, { log: (m) => console.log(m) });
+}
+
 const ajv = new Ajv2020({ allErrors: true, strict: true });
 addFormats(ajv);
 const validate = ajv.compile(schema);

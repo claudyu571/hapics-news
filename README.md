@@ -34,24 +34,31 @@ Comanda validează draftul, actualizează arhiva și `latest.json`, apoi revalid
 
 ### Indicatori preluați automat
 
-`fetch:indicators` completează valorile numerice din surse oficiale, înainte de publicare:
+`publish:edition` rulează automat preluarea indicatorilor (`enrichIndicators`) înainte de
+validare, deci nu e nevoie de pași suplimentari în rutină. Logica trăiește în
+`scripts/fetch-indicators.mjs` și poate fi rulată și separat:
 
 ```bash
 npm run fetch:indicators -- data/drafts/2026-06-17.json          # dry run
-npm run fetch:indicators -- data/drafts/2026-06-17.json --write  # scrie în draft
+npm run fetch:indicators -- data/drafts/2026-06-17.json --write  # scrie în fișier
+npm run publish:edition  -- data/drafts/2026-06-17.json --no-fetch  # publică fără preluare
 ```
 
-Surse, după `id`-ul indicatorului: `eur-ron` (BNR `nbrfxrates.xml`), `bet` și `rotx`
-(paginile de indici BVB). Scriptul nu inventează niciodată: dacă o sursă nu poate fi
-preluată sau parsată, indicatorul rămâne `value:null` / `freshness:"unavailable"` și
-scriptul iese cu cod 0 (rulează **înainte** de `publish:edition`, nu în `build`).
+Indicatori gestionați (creați automat dacă lipsesc, apoi completați): `eur-ron`
+(BNR `nbrfxrates.xml`), `bet` și `rotx` (paginile de indici BVB), `robor` (zilnic, BNR)
+și `ircc` (trimestrial, BNR). Astfel ROTX și separarea ROBOR/IRCC persistă în fiecare
+ediție, chiar dacă draftul brut nu le include.
 
-ROBOR și IRCC sunt lucruri diferite și ar trebui separate în doi indicatori: **ROBOR**
-este o rată interbancară **zilnică** (BNR), iar **IRCC** este un indice **trimestrial**
-pentru creditele consumatorilor (recalculat o dată pe trimestru, aplicat cu decalaj).
-Scriptul include sloturi pentru `robor` (zilnic) și `ircc` (constantă pe trimestru);
-endpoint-ul ROBOR de la BNR trebuie confirmat (site-ul a fost reproiectat) prin variabila
-`BNR_ROBOR_URL`.
+Reguli:
+
+- **Îmbogățește, nu distruge.** O preluare reușită suprascrie valoarea; una eșuată lasă
+  indicatorul neatins (valorile manuale supraviețuiesc). Nu se inventează niciodată o valoare.
+- **Doar ediția curentă** este îmbogățită (`editionDate` = azi), ca republicarea unei ediții
+  din arhivă să nu suprascrie cu prețuri de azi.
+- **ROBOR** rămâne manual până când se confirmă endpoint-ul BNR (site reproiectat) prin
+  variabila `BNR_ROBOR_URL`; altfel valoarea existentă din draft este păstrată.
+- **IRCC** este trimestrial: actualizează `IRCC_BY_QUARTER` din `scripts/fetch-indicators.mjs`
+  la fiecare trimestru (următoarea schimbare: 1 iulie 2026 → 5,56%).
 
 ## Automatizare și publicare
 

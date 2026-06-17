@@ -4,22 +4,35 @@ import process from "node:process";
 import { pathToFileURL } from "node:url";
 
 /**
- * Fetch indicator values from official sources and merge them into a draft
- * edition (matched by indicator id).
+ * Fetch indicator values from official sources and merge them into an edition
+ * (matched by indicator id). Used both as a CLI and as a library by
+ * publish-edition.mjs.
  *
- * Usage:
+ * CLI:
  *   node scripts/fetch-indicators.mjs data/drafts/YYYY-MM-DD.json          # dry run
- *   node scripts/fetch-indicators.mjs data/drafts/YYYY-MM-DD.json --write  # update the draft
+ *   node scripts/fetch-indicators.mjs data/drafts/YYYY-MM-DD.json --write  # update the file
  *
  * Principles:
- *   - Never fabricate. If a source can't be fetched or parsed, the indicator
- *     is left value:null / freshness:"unavailable" with an explanatory note.
- *   - Never block the pipeline. Exits 0 even when some sources fail (unless
- *     --strict is passed). Run this BEFORE publish:edition, not inside build.
+ *   - Enrich, never destroy. A successful fetch overwrites the value; a failed
+ *     fetch leaves the indicator exactly as it was (manual values survive).
+ *   - Never fabricate. Sources that can't be read simply don't update.
+ *   - Only the current day's edition is enriched, so re-publishing an archived
+ *     draft never stamps today's live prices onto a past date.
  */
 
 const TIMEOUT_MS = 15000;
 const USER_AGENT = "hapics-news-indicators/1.0 (+https://news.hapics.uk)";
+
+// BNR redesigned their site; set this to the current daily ROBOR endpoint to
+// enable automatic ROBOR updates. Until then ROBOR is left as the draft has it.
+const BNR_ROBOR_URL = process.env.BNR_ROBOR_URL || null;
+
+// IRCC is quarterly — recalculated once per quarter. Add each quarter's
+// official value here (keyed "YYYY-Qn"); ~4 edits per year.
+const IRCC_BY_QUARTER = {
+  "2026-Q2": 5.58, // valabil 1 apr – 30 iun 2026 (publicat 31 mar 2026)
+  "2026-Q3": 5.56, // valabil de la 1 iul 2026
+};
 
 async function getText(url) {
   const controller = new AbortController();
@@ -33,9 +46,18 @@ async function getText(url) {
   }
 }
 
-function todayInBucharest() {
+export function todayInBucharest() {
   // en-CA renders YYYY-MM-DD; the explicit timeZone keeps it stable anywhere.
   return new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Bucharest" }).format(new Date());
+}
+
+function currentQuarter() {
+  const now = new Date();
+  const fmt = (opts) => new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Bucharest", ...opts }).format(now);
+  const month = Number(fmt({ month: "numeric" }));
+  const year = fmt({ year: "numeric" });
+  const q = Math.ceil(month / 3);
+  return { year, q, label: `${year}-Q${q}`, start: `${year}-${String((q - 1) * 3 + 1).padStart(2, "0")}-01` };
 }
 
 /**
@@ -61,7 +83,7 @@ export function parseLocaleNumber(raw) {
 export function parseBvbIndexValue(html) {
   // BVB has no public JSON API; the IndicesProfiles page renders the level
   // server-side. Grab the first index-scale number (>= 100, with decimals)
-  // that appears near a value marker. Tolerant of ro/en number formats.
+  // near a value marker. Tolerant of ro/en number formats.
   const candidates = [
     /(?:Valoare|Value|Pret|Last)[^0-9]{0,40}([0-9][0-9.,]{3,})/i,
     /class="[^"]*(?:value|price|last)[^"]*"[^>]*>\s*([0-9][0-9.,]{3,})/i,
@@ -73,148 +95,132 @@ export function parseBvbIndexValue(html) {
   return null;
 }
 
-function bvbIndexSource(symbol) {
-  return {
-    label: `Indice ${symbol}`,
-    async fetch() {
-      const html = await getText(
-        `https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=${symbol}`,
-      );
-      const value = parseBvbIndexValue(html);
-      if (value == null) throw new Error(`could not parse ${symbol} level from BVB page`);
-      return {
-        value,
-        unit: "puncte",
-        referenceDate: todayInBucharest(),
-        freshness: "current",
-        note: `Captură automată BVB pentru indicele ${symbol}.`,
-      };
-    },
+async function fetchEurRon() {
+  const xml = await getText("https://www.bnr.ro/nbrfxrates.xml");
+  const referenceDate = xml.match(/<Cube date="([^"]+)"/)?.[1];
+  const eur = xml.match(/<Rate currency="EUR"[^>]*>([\d.]+)<\/Rate>/)?.[1];
+  if (!eur || !referenceDate) throw new Error("EUR rate not found in BNR XML");
+  return { value: Number(eur), unit: "lei", referenceDate, freshness: "current",
+    note: "Curs de referință BNR, preluat automat din nbrfxrates.xml." };
+}
+
+function bvbIndexFetcher(symbol) {
+  return async () => {
+    const html = await getText(
+      `https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=${symbol}`,
+    );
+    const value = parseBvbIndexValue(html);
+    if (value == null) throw new Error(`could not parse ${symbol} level from BVB page`);
+    return { value, unit: "puncte", referenceDate: todayInBucharest(), freshness: "current",
+      note: `Captură automată BVB pentru indicele ${symbol}.` };
   };
 }
 
-// Optional environment override for BNR's ROBOR endpoint (their site was
-// redesigned; set this to the current daily-fixing URL once confirmed).
-const BNR_ROBOR_URL = process.env.BNR_ROBOR_URL || null;
-
-const SOURCES = {
-  "eur-ron": {
-    label: "EUR/RON",
-    async fetch() {
-      const xml = await getText("https://www.bnr.ro/nbrfxrates.xml");
-      const referenceDate = xml.match(/<Cube date="([^"]+)"/)?.[1];
-      const eur = xml.match(/<Rate currency="EUR"[^>]*>([\d.]+)<\/Rate>/)?.[1];
-      if (!eur || !referenceDate) throw new Error("EUR rate not found in BNR XML");
-      return {
-        value: Number(eur),
-        unit: "lei",
-        referenceDate,
-        freshness: "current",
-        note: "Curs de referință BNR, preluat automat din nbrfxrates.xml.",
-      };
-    },
-  },
-
-  bet: bvbIndexSource("BET"),
-  rotx: bvbIndexSource("ROTX"),
-
-  // ROBOR is a DAILY interbank rate published by BNR every business day.
-  robor: {
-    label: "ROBOR 3M",
-    async fetch() {
-      if (!BNR_ROBOR_URL) {
-        throw new Error("BNR_ROBOR_URL not configured (BNR site redesigned; set the current endpoint)");
-      }
-      const text = await getText(BNR_ROBOR_URL);
-      const value = parseLocaleNumber(text.match(/ROBOR[^0-9]{0,40}([0-9]+[.,][0-9]+)/i)?.[1]);
-      if (value == null) throw new Error("could not parse ROBOR from BNR source");
-      return { value, unit: "%", referenceDate: todayInBucharest(), freshness: "current",
-        note: "Fixing ROBOR 3M publicat de BNR, preluat automat." };
-    },
-  },
-
-  // IRCC is QUARTERLY: recalculated once per quarter and applied with a lag.
-  // It is not a daily fetch — maintain the official value per quarter here
-  // (update ~4x/year) keyed by "YYYY-Qn". freshness "stale" marks it as a
-  // reference value rather than a live reading.
-  ircc: {
-    label: "IRCC",
-    async fetch() {
-      const byQuarter = {
-        // "2026-Q2": 6.10,  // <- fill from BNR's published IRCC each quarter
-      };
-      const now = new Date();
-      const month = Number(new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Bucharest", month: "numeric" }).format(now));
-      const year = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Bucharest", year: "numeric" }).format(now);
-      const q = Math.ceil(month / 3);
-      const quarter = `${year}-Q${q}`;
-      const value = byQuarter[quarter];
-      if (value == null) throw new Error(`IRCC value for ${quarter} not set`);
-      // referenceDate must be a real YYYY-MM-DD (schema "date" format); use the
-      // quarter start and keep the human-readable quarter in the note.
-      const quarterStart = `${year}-${String((q - 1) * 3 + 1).padStart(2, "0")}-01`;
-      // In-force quarterly value -> "current" (it is the IRCC applied right now).
-      return { value, unit: "%", referenceDate: quarterStart, freshness: "current",
-        note: `IRCC valabil pentru ${quarter}, publicat de BNR (recalculat trimestrial).` };
-    },
-  },
-};
-
-function applyResult(indicator, result) {
-  indicator.value = result.value;
-  indicator.referenceDate = result.referenceDate ?? indicator.referenceDate;
-  indicator.freshness = result.freshness ?? indicator.freshness;
-  if (result.unit) indicator.unit = result.unit;
-  if (result.note) indicator.note = result.note;
+async function fetchRobor() {
+  // ROBOR is a daily BNR fixing, but BNR's redesigned site has no clean
+  // machine-readable endpoint. Configure BNR_ROBOR_URL to enable this.
+  if (!BNR_ROBOR_URL) throw new Error("BNR_ROBOR_URL not configured");
+  const text = await getText(BNR_ROBOR_URL);
+  const value = parseLocaleNumber(text.match(/ROBOR[^0-9]{0,40}([0-9]+[.,][0-9]+)/i)?.[1]);
+  if (value == null) throw new Error("could not parse ROBOR from BNR source");
+  return { value, unit: "%", referenceDate: todayInBucharest(), freshness: "current",
+    note: "Fixing ROBOR 3M publicat de BNR, preluat automat." };
 }
 
-function markUnavailable(indicator, reason) {
-  indicator.value = null;
-  indicator.freshness = "unavailable";
-  indicator.note = `Valoare indisponibilă la preluarea automată (${reason}).`;
+async function fetchIrcc() {
+  const { label, start } = currentQuarter();
+  const value = IRCC_BY_QUARTER[label];
+  if (value == null) throw new Error(`IRCC value for ${label} not set in IRCC_BY_QUARTER`);
+  return { value, unit: "%", referenceDate: start, freshness: "current",
+    note: `IRCC valabil pentru ${label}, publicat de BNR (recalculat trimestrial).` };
+}
+
+// Indicators kept current automatically. Each row is ensured to exist before
+// fetching, so the standard set (incl. ROTX and the ROBOR/IRCC split) persists
+// across editions even if the upstream draft omits it.
+const MANAGED = [
+  { id: "eur-ron", label: "EUR/RON", unit: "lei",
+    sourceName: "BNR", sourceUrl: "https://www.bnr.ro/nbrfxrates.xml", fetch: fetchEurRon },
+  { id: "bet", label: "Indice BET", unit: "puncte",
+    sourceName: "BVB", sourceUrl: "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=BET", fetch: bvbIndexFetcher("BET") },
+  { id: "rotx", label: "Indice ROTX", unit: "puncte",
+    sourceName: "BVB / Wiener Börse", sourceUrl: "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=ROTX", fetch: bvbIndexFetcher("ROTX") },
+  { id: "robor", label: "ROBOR 3M", unit: "%",
+    sourceName: "BNR", sourceUrl: "https://www.bnr.ro/", fetch: fetchRobor },
+  { id: "ircc", label: "IRCC", unit: "%",
+    sourceName: "BNR", sourceUrl: "https://www.bnr.ro/", fetch: fetchIrcc },
+];
+
+function ensureIndicator(edition, managed) {
+  let indicator = edition.indicators.find((i) => i.id === managed.id);
+  if (!indicator) {
+    indicator = {
+      id: managed.id,
+      label: managed.label,
+      value: null,
+      unit: managed.unit,
+      referenceDate: edition.metadata.editionDate,
+      sourceName: managed.sourceName,
+      sourceUrl: managed.sourceUrl,
+      freshness: "unavailable",
+    };
+    edition.indicators.push(indicator);
+  }
+  return indicator;
+}
+
+/**
+ * Enrich an edition's indicators in place. Returns a summary.
+ * Only runs for the current day's edition; failures leave values untouched.
+ */
+export async function enrichIndicators(edition, { log = () => {} } = {}) {
+  const summary = { updated: [], kept: [], skipped: false };
+  if (edition.metadata.editionDate !== todayInBucharest()) {
+    summary.skipped = true;
+    log(`· indicatori: ediție non-curentă (${edition.metadata.editionDate}) — fără preluare automată`);
+    return summary;
+  }
+  for (const managed of MANAGED) {
+    const indicator = ensureIndicator(edition, managed);
+    try {
+      const result = await managed.fetch();
+      indicator.value = result.value;
+      if (result.unit) indicator.unit = result.unit;
+      if (result.referenceDate) indicator.referenceDate = result.referenceDate;
+      if (result.freshness) indicator.freshness = result.freshness;
+      if (result.note) indicator.note = result.note;
+      summary.updated.push(managed.id);
+      log(`✓ ${managed.id}: ${indicator.value} ${indicator.unit} (${indicator.referenceDate})`);
+    } catch (error) {
+      summary.kept.push(managed.id);
+      log(`· ${managed.id}: ${error.message} → păstrez valoarea existentă (${indicator.value ?? "indisponibil"})`);
+    }
+  }
+  return summary;
 }
 
 async function main() {
   const input = process.argv[2];
   const write = process.argv.includes("--write");
-  const strict = process.argv.includes("--strict");
   if (!input) {
-    console.error("Utilizare: node scripts/fetch-indicators.mjs <draft.json> [--write] [--strict]");
+    console.error("Utilizare: node scripts/fetch-indicators.mjs <edition.json> [--write]");
     process.exit(1);
   }
+  const filePath = path.resolve(process.cwd(), input);
+  const edition = JSON.parse(fs.readFileSync(filePath, "utf8"));
 
-  const draftPath = path.resolve(process.cwd(), input);
-  const edition = JSON.parse(fs.readFileSync(draftPath, "utf8"));
-  let failures = 0;
-
-  for (const indicator of edition.indicators) {
-    const source = SOURCES[indicator.id];
-    if (!source) {
-      console.log(`· ${indicator.id}: fără sursă automată (lăsat neschimbat)`);
-      continue;
-    }
-    try {
-      const result = await source.fetch();
-      applyResult(indicator, result);
-      console.log(`✓ ${indicator.id}: ${result.value} ${result.unit ?? indicator.unit} (${result.referenceDate})`);
-    } catch (error) {
-      failures += 1;
-      markUnavailable(indicator, error.message);
-      console.log(`✗ ${indicator.id}: ${error.message} → indisponibil`);
-    }
-  }
+  await enrichIndicators(edition, { log: (m) => console.log(m) });
 
   if (write) {
-    fs.writeFileSync(draftPath, `${JSON.stringify(edition, null, 2)}\n`);
-    console.log(`\nActualizat ${path.relative(process.cwd(), draftPath)}`);
+    fs.writeFileSync(filePath, `${JSON.stringify(edition, null, 2)}\n`);
+    console.log(`\nActualizat ${path.relative(process.cwd(), filePath)}`);
   } else {
-    console.log("\n(dry run — folosește --write pentru a actualiza draftul)");
+    console.log("\n(dry run — folosește --write pentru a actualiza fișierul)");
   }
-
-  process.exit(strict && failures > 0 ? 1 : 0);
+  process.exit(0);
 }
 
-// Run only when invoked directly, so the parsers can be imported for tests.
+// Run only when invoked directly, so the exports can be imported elsewhere.
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   await main();
 }

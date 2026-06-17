@@ -173,7 +173,7 @@
       "sourceName": "BNR",
       "sourceUrl": "https://www.bnr.ro/nbrfxrates.xml",
       "freshness": "current",
-      "note": "Curs de referință publicat de BNR."
+      "note": "Curs de referință BNR, preluat automat din nbrfxrates.xml."
     },
     {
       "id": "inflatie-prognoza",
@@ -200,24 +200,24 @@
     {
       "id": "bet",
       "label": "Indice BET",
-      "value": 30566.99,
+      "value": 30536.43,
       "unit": "puncte",
       "referenceDate": "2026-06-17",
       "sourceName": "BVB",
       "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=BET",
       "freshness": "current",
-      "note": "Captură BVB din 17 iunie 2026, ora 15:02 (+1,28% în ședință)."
+      "note": "Captură automată BVB pentru indicele BET."
     },
     {
       "id": "rotx",
       "label": "Indice ROTX",
-      "value": 69184.59,
+      "value": 69119.45,
       "unit": "puncte",
       "referenceDate": "2026-06-17",
       "sourceName": "BVB / Wiener Börse",
       "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=ROTX",
       "freshness": "current",
-      "note": "Indice al acțiunilor românești blue-chip, calculat de Wiener Börse; captură BVB din 17 iunie 2026, ora 15:02 (+1,33%)."
+      "note": "Captură automată BVB pentru indicele ROTX."
     },
     {
       "id": "robor",
@@ -239,7 +239,7 @@
       "sourceName": "BNR",
       "sourceUrl": "https://www.bnr.ro/",
       "freshness": "current",
-      "note": "Indice de referință trimestrial pentru creditele consumatorilor, valabil T2 2026 (publicat 31 martie 2026)."
+      "note": "IRCC valabil pentru 2026-Q2, publicat de BNR (recalculat trimestrial)."
     }
   ],
   "riskScores": [
