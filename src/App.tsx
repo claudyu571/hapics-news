@@ -206,10 +206,6 @@ function App() {
                 <span className="coverage-note"><CircleAlert aria-hidden="true" /> Acoperire parțială a surselor</span>
               )}
             </div>
-            <p className="update-cadence">
-              <Clock3 aria-hidden="true" />
-              Verificăm noutățile la {UPDATE_TIMES} (ora României) și publicăm pe parcursul zilei doar la schimbări relevante.
-            </p>
           </header>
 
           <div className="editorial-grid">
@@ -377,7 +373,10 @@ function App() {
 
           <footer>
             <div className="footer-brand"><span className="brand-mark">H</span><strong>HAPICS</strong></div>
-            <p>Conținut informativ. Nu reprezintă consultanță financiară, juridică sau recomandare de investiții.</p>
+            <div className="footer-notes">
+              <p className="update-cadence"><Clock3 aria-hidden="true" /> Verificăm noutățile la {UPDATE_TIMES} (ora României) și publicăm pe parcursul zilei doar la schimbări relevante.</p>
+              <p>Conținut informativ. Nu reprezintă consultanță financiară, juridică sau recomandare de investiții.</p>
+            </div>
             <a href="#top">Înapoi sus <ArrowRight aria-hidden="true" /></a>
           </footer>
         </main>
