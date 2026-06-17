@@ -1,6 +1,6 @@
 # Hapics News
 
-Website static pentru briefingul zilnic de știri, economie și piețe financiare, publicat la `news.hapics.uk`.
+Website static pentru briefingul zilnic de știri, economie și piețe financiare, publicat prin GitHub Pages la `news.hapics.uk`.
 
 ## Dezvoltare locală
 
@@ -32,36 +32,24 @@ npm run publish:edition -- data/drafts/2026-06-17.json
 
 Comanda validează draftul, actualizează arhiva și `latest.json`, apoi revalidează întregul set de date.
 
-## Automatizare
+## Automatizare și publicare
 
-Workflow-ul `daily-brief.yml` pornește la 07:30 în `Europe/Bucharest`, inclusiv la schimbarea orei de vară. GitHub Actions rulează două cron-uri UTC, iar `scripts/schedule-window.mjs` permite doar execuția care cade în ora locală 07.
+Rutina Codex `Briefing Biziday Romania` este singurul producător de conținut. După redactare, rutina:
 
-Repository secret necesar:
+1. creează un draft care respectă schema JSON;
+2. rulează `publish:edition`, testele și buildul;
+3. face commit doar pentru fișierele ediției și push pe `main`;
+4. așteaptă publicarea GitHub Pages;
+5. verifică ediția live la `https://news.hapics.uk/data/latest.json`.
 
-- `OPENAI_API_KEY` — folosit exclusiv de `openai/codex-action` pentru generarea ediției.
+Un eșec de validare nu modifică ediția publicată. O nouă rulare în aceeași zi înlocuiește ediția acelei zile și păstrează o singură intrare în arhivă.
 
-GitHub Actions validează JSON-ul, construiește site-ul, face commit și push. Cloudflare Pages publică automat acel push.
+Workflow-ul `pages.yml` validează toate pull request-urile. Pentru push-urile pe `main`, publică directorul `dist` numai după ce testele și buildul reușesc. Nu este necesar niciun secret OpenAI în GitHub.
 
-## Cloudflare Pages
+## GitHub Pages și DNS
 
-Configurația țintă pentru proiectul `hapics-news`:
-
-| Setare | Valoare |
-|---|---|
-| Production branch | `main` |
-| Build command | `npm run build` |
-| Build output | `dist` |
-| Node.js | `22` |
-| Custom domain | `news.hapics.uk` |
-| Preview deployments | active pentru branch-uri și pull request-uri |
-
-Nu sunt folosite Pages Functions, D1 sau KV. Fișierul `public/_headers` configurează headerele de securitate și politica de cache.
-
-Autentificare și deploy manual de verificare:
-
-```bash
-npx wrangler login
-npx wrangler pages deploy dist --project-name hapics-news
-```
-
-Pentru fluxul cerut în producție, proiectul Pages trebuie conectat la repository-ul GitHub din Cloudflare Dashboard, nu menținut ca proiect de direct upload.
+- Repository: `claudyu571/hapics-news`
+- Source: GitHub Actions
+- Custom domain: `news.hapics.uk`
+- DNS: CNAME `news` către `claudyu571.github.io`
+- Cloudflare este folosit numai pentru administrarea DNS; nu sunt folosite Pages, Functions, D1 sau KV.
