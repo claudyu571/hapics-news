@@ -106,6 +106,9 @@ a { color: inherit; }
 
 .mobile-section-nav { display: none; }
 
+.header-notice { padding: 0.55rem clamp(1.25rem, 3vw, 3.5rem); border-bottom: 1px solid #d8d5cc; background: #ece9e1; }
+.header-notice .update-cadence { margin: 0; }
+
 .page-shell {
   display: grid;
   grid-template-columns: 13.5rem minmax(0, 1fr);
@@ -306,7 +309,6 @@ blockquote { margin: 2.5rem 0 0 4.1rem; padding: 0 0 0 1.5rem; border-left: 1px 
 footer { display: grid; grid-template-columns: 12rem 1fr auto; align-items: center; gap: 2rem; padding: 2rem 0 3rem; border-top: 1px solid #d8d5cc; }
 .footer-brand { display: flex; align-items: center; gap: 0.6rem; letter-spacing: 0.12em; }
 .footer-brand .brand-mark { width: 2rem; height: 2rem; font-size: 1.1rem; }
-.footer-notes { display: flex; flex-direction: column; gap: 0.5rem; min-width: 0; }
 footer p { margin: 0; color: #68706c; font-size: 0.67rem; line-height: 1.45; }
 footer > a { display: inline-flex; align-items: center; gap: 0.45rem; color: #1e594a; font-size: 0.7rem; font-weight: 600; text-decoration: none; }
 footer > a svg { width: 0.8rem; height: 0.8rem; transform: rotate(-90deg); }
@@ -398,7 +400,7 @@ footer > a svg { width: 0.8rem; height: 0.8rem; transform: rotate(-90deg); }
   .conclusion-section h2 { font-size: 2.8rem; }
   .sources-section { grid-template-columns: 1fr; gap: 1rem; }
   footer { grid-template-columns: 1fr auto; }
-  .footer-notes { grid-column: 1 / -1; grid-row: 2; }
+  footer p { grid-column: 1 / -1; grid-row: 2; }
 }
 
 @media (prefers-reduced-motion: reduce) {

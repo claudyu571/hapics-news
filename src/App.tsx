@@ -167,6 +167,10 @@ function App() {
         </Select>
       </header>
 
+      <div className="header-notice">
+        <p className="update-cadence"><Clock3 aria-hidden="true" /> Verificăm noutățile la {UPDATE_TIMES} (ora României) și publicăm pe parcursul zilei doar la schimbări relevante.</p>
+      </div>
+
       <nav className="mobile-section-nav" aria-label="Secțiunile ediției">
         {sections.map((s) => <a key={s.id} href={`#${s.id}`}>{s.label}</a>)}
       </nav>
@@ -373,10 +377,7 @@ function App() {
 
           <footer>
             <div className="footer-brand"><span className="brand-mark">H</span><strong>HAPICS</strong></div>
-            <div className="footer-notes">
-              <p className="update-cadence"><Clock3 aria-hidden="true" /> Verificăm noutățile la {UPDATE_TIMES} (ora României) și publicăm pe parcursul zilei doar la schimbări relevante.</p>
-              <p>Conținut informativ. Nu reprezintă consultanță financiară, juridică sau recomandare de investiții.</p>
-            </div>
+            <p>Conținut informativ. Nu reprezintă consultanță financiară, juridică sau recomandare de investiții.</p>
             <a href="#top">Înapoi sus <ArrowRight aria-hidden="true" /></a>
           </footer>
         </main>
