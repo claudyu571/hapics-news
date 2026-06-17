@@ -189,7 +189,7 @@ a { color: inherit; }
 .primary-start { grid-area: primary; min-width: 0; }
 .primary-end { grid-area: end; min-width: 0; }
 .market-rail { grid-area: rail; min-width: 0; border-left: 1px solid #d8d5cc; padding-left: clamp(1.5rem, 2vw, 2.25rem); }
-.market-rail-inner { position: sticky; top: 6.8rem; padding-top: 4rem; }
+.market-rail-inner { padding-top: 4rem; }
 
 .content-section { padding: clamp(4rem, 8vw, 7rem) 0; border-bottom: 1px solid #bdbab2; }
 .section-heading { display: grid; grid-template-columns: 3.1rem minmax(0, 1fr); gap: 1rem; margin-bottom: 2.4rem; }
@@ -254,7 +254,6 @@ blockquote { margin: 2.5rem 0 0 4.1rem; padding: 0 0 0 1.5rem; border-left: 1px 
 .signal-row p { margin: 0.35rem 0 0; color: #68706c; font-size: 0.72rem; line-height: 1.45; }
 .signal-row > span:last-child { color: #4f5753; font-size: 0.7rem; }
 
-.rail-section { scroll-margin-top: 7rem; }
 .rail-section .section-heading { grid-template-columns: 2.2rem 1fr; margin-bottom: 1.7rem; }
 .rail-section .section-heading h2 { font-size: 2rem; }
 .section-heading.section-heading--plain,
@@ -357,7 +356,7 @@ footer > a svg { width: 0.8rem; height: 0.8rem; transform: rotate(-90deg); }
   .edition-masthead { min-height: 22rem; }
   .editorial-grid { grid-template-columns: minmax(0, 1fr); grid-template-areas: "primary" "rail" "end"; }
   .market-rail { border-left: 0; padding-left: 0; }
-  .market-rail-inner { position: static; padding: 4rem 0; border-bottom: 1px solid #bdbab2; }
+  .market-rail-inner { padding: 4rem 0; border-bottom: 1px solid #bdbab2; }
   .rail-section .section-heading { grid-template-columns: 3.1rem 1fr; }
   .indicator-list, .risk-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 2rem; }
   .market-rail .h-px { margin: 4rem 0; }
