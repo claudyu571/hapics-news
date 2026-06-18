@@ -1,7 +1,7 @@
 {
   "metadata": {
     "editionDate": "2026-06-18",
-    "updatedAt": "2026-06-18T08:10:36+03:00",
+    "updatedAt": "2026-06-18T09:02:56+03:00",
     "timezone": "Europe/Bucharest",
     "title": "Blocajul pentru Guvernul Veștea se adâncește, iar acordul SUA-Iran calmează parțial piețele",
     "status": "published",
@@ -275,12 +275,13 @@
     {
       "id": "robor",
       "label": "ROBOR 3M",
-      "value": null,
+      "value": 5.84,
       "unit": "%",
-      "referenceDate": "2026-06-18",
+      "referenceDate": "2026-06-17",
       "sourceName": "BNR",
-      "sourceUrl": "https://www.bnr.ro/",
-      "freshness": "unavailable"
+      "sourceUrl": "https://www.bnr.ro/1074-baza-de-date-interactiva",
+      "freshness": "current",
+      "note": "Rată interbancară de referință, stabilită zilnic de BNR."
     },
     {
       "id": "ircc",
