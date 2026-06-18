@@ -68,12 +68,14 @@ eliminat automat la îmbogățirea ediției curente.
 
 Reguli:
 
-- **Îmbogățește, nu distruge.** O preluare reușită suprascrie valoarea; una eșuată lasă
-  indicatorul neatins (valorile manuale supraviețuiesc). Nu se inventează niciodată o valoare.
+- **Îmbogățește, nu distruge.** O preluare reușită suprascrie valoarea; una eșuată
+  păstrează valorile manuale. ROBOR este marcat `stale` până când BNR răspunde din nou.
+  Nu se inventează niciodată o valoare.
 - **Doar ediția curentă** este îmbogățită (`editionDate` = azi), ca republicarea unei ediții
   din arhivă să nu suprascrie cu prețuri de azi.
-- **ROBOR** rămâne manual până când se confirmă endpoint-ul BNR (site reproiectat) prin
-  variabila `BNR_ROBOR_URL`; altfel valoarea existentă din draft este păstrată.
+- **ROBOR 3M** este preluat din exportul CSV al bazei interactive BNR, seria
+  `BBZ_BOR3M`. Se folosește data observației publicată de BNR; la o eroare de
+  preluare, ultima valoare este păstrată și marcată drept `stale`.
 - **IRCC** este trimestrial: actualizează `IRCC_BY_QUARTER` din `scripts/fetch-indicators.mjs`
   la fiecare trimestru (următoarea schimbare: 1 iulie 2026 → 5,56%).
 

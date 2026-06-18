@@ -14,7 +14,8 @@
     "publish:edition": "node scripts/publish-edition.mjs",
     "build": "npm run validate:data && tsc -b && vite build && vite build --ssr src/entry-server.tsx --outDir dist-ssr && node prerender.mjs",
     "preview": "vite preview",
-    "test": "npm run validate:data && tsc -b --pretty false",
+    "test": "npm run validate:data && npm run test:news-delta && npm run test:indicators && tsc -b --pretty false",
+    "test:indicators": "node --test tests/fetch-indicators.test.mjs",
     "test:news-delta": "node --test tests/check-biziday-delta.test.mjs"
   },
   "dependencies": {
