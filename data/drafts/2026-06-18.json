@@ -20,8 +20,13 @@
       "category": "Politică"
     },
     {
+      "id": "psd-decisie",
+      "text": "PSD și-a programat pentru duminică decizia privind susținerea Guvernului Veștea, în aceeași zi cu congresul extraordinar al PNL.",
+      "category": "Politică"
+    },
+    {
       "id": "iran-hormuz",
-      "text": "Textul memorandumului SUA-Iran prevede trafic gratuit prin Hormuz timp de 60 de zile și diluarea stocurilor iraniene de uraniu sub supravegherea AIEA.",
+      "text": "SUA și Iranul au semnat înțelegerea, care deschide o fereastră de 60 de zile pentru acordul final și confirmă relaxarea imediată a presiunii pe Hormuz.",
       "category": "Extern"
     },
     {
@@ -72,17 +77,32 @@
       "confidence": "confirmed"
     },
     {
+      "id": "psd-decizie-duminica",
+      "title": "PSD își fixează duminică poziția față de Guvernul Veștea",
+      "fact": "PSD a convocat Consiliul Politic Național în aceeași zi în care PNL are congres extraordinar și urmează să decidă dacă susține sau nu învestirea Guvernului Veștea.",
+      "interpretation": "Mutarea deciziei în aceeași zi cu congresul PNL prelungește incertitudinea asupra majorității, dar păstrează deschis scenariul unei coaliții cu cost politic ridicat dacă PSD schimbă poziția.",
+      "category": "Politică",
+      "impact": 5,
+      "impactLabel": "Ridicat",
+      "horizon": "Imediat",
+      "sourceId": "biziday",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/361260-2/",
+      "isSecondary": false,
+      "confidence": "confirmed"
+    },
+    {
       "id": "memorandum-sua-iran",
-      "title": "Memorandumul SUA-Iran deschide calea pentru redeschiderea Hormuz",
-      "fact": "Textul prezentat de administrația Trump prevede trafic gratuit prin Strâmtoarea Hormuz timp de 60 de zile și diluarea în Iran a rezervelor de uraniu îmbogățit, sub supravegherea agenției internaționale.",
-      "interpretation": "Dacă implementarea este confirmată vineri, riscul imediat pentru transportul maritim și energie scade, dar piața încă tratează acordul ca pe un armistițiu operațional, nu ca pe o normalizare definitivă.",
+      "title": "SUA și Iranul semnează înțelegerea pentru încetarea conflictului și Hormuz",
+      "fact": "SUA și Iranul au semnat înțelegerea care oprește imediat conflictul și deschide 60 de zile pentru negocierea unui acord final privind programul nuclear iranian.",
+      "interpretation": "Semnarea reduce imediat riscul pentru transportul maritim, dar piața rămâne atentă la implementarea prin Hormuz și la respectarea termenelor de negociere.",
       "category": "Extern",
       "impact": 4,
       "impactLabel": "Semnificativ",
       "horizon": "1–4 săptămâni",
       "sourceId": "biziday",
       "sourceName": "Biziday",
-      "sourceUrl": "https://www.biziday.ro/361188-2/",
+      "sourceUrl": "https://www.biziday.ro/361239-2/",
       "isSecondary": false,
       "confidence": "confirmed"
     },
@@ -136,13 +156,14 @@
     "factBase": [
       "USR a anunțat că nu va vota Guvernul Veștea și a mandatat noi negocieri politice.",
       "PNL a convocat Consiliul Național pentru 19 iunie și pregătește un congres extraordinar pe 21 iunie.",
+      "PSD a programat pentru duminică decizia privind susținerea Guvernului Veștea.",
       "INS a comunicat pentru mai 2026 o rată anuală a inflației de 10,9%.",
       "Ministerul Finanțelor a raportat un deficit bugetar de 1,17% din PIB la 30 aprilie 2026.",
       "BNR menține în raportul din mai o proiecție de inflație de 5,5% pentru finalul lui 2026."
     ],
-    "political": "Cele două decizii venite din USR și PNL reduc vizibil probabilitatea unei învestiri line pentru cabinetul Veștea. Chiar și într-un scenariu de compromis, următorul executiv ar porni cu legitimitate parlamentară fragilă și cu risc mare de renegociere internă.",
-    "economic": "Tabloul macro rămâne mixt: deficitul la patru luni arată o corecție timpurie față de anii precedenți, dar inflația anuală rămâne încă în două cifre, iar BNR vede dezinflația completă doar gradual. Relaxarea cotației petrolului ajută marja de manevră, însă nu compensează singură riscul politic și fiscal intern.",
-    "interpretation": "Scenariul de bază pentru următoarele zile este prelungirea negocierilor și amânarea clarificării politice. Pentru activele locale, asta înseamnă mai probabil o perioadă de prudență și sensibilitate la orice semnal despre calendarul votului, execuția bugetară și relația cu finanțatorii externi."
+    "political": "Pozițiile USR și PNL, plus decizia programată a PSD, reduc vizibil probabilitatea unei învestiri line pentru cabinetul Veștea. Chiar și într-un scenariu de compromis, următorul executiv ar porni cu legitimitate parlamentară fragilă și cu risc mare de renegociere internă.",
+    "economic": "Tabloul macro rămâne mixt: deficitul la patru luni arată o corecție timpurie față de anii precedenți, dar inflația anuală rămâne încă în două cifre, iar BNR vede dezinflația completă doar gradual. Semnarea acordului SUA-Iran ajută marja de manevră externă, însă nu compensează singură riscul politic și fiscal intern.",
+    "interpretation": "Scenariul de bază pentru următoarele zile este prelungirea negocierilor și amânarea clarificării politice. Pentru activele locale, asta înseamnă mai probabil o perioadă de prudență și sensibilitate la orice semnal despre calendarul votului, execuția bugetară, relația cu finanțatorii externi și implementarea acordului din Hormuz."
   },
   "investmentFundSignals": [
     {
@@ -301,7 +322,7 @@
       "label": "Risc politic",
       "score": 5,
       "trend": "în creștere",
-      "description": "Majoritatea pentru guvern este mai puțin clară după pozițiile USR și PNL."
+      "description": "Majoritatea pentru guvern este mai puțin clară după pozițiile USR, PNL și decizia programată a PSD."
     },
     {
       "id": "economic",
@@ -322,7 +343,7 @@
       "label": "Risc energetic",
       "score": 3,
       "trend": "în scădere",
-      "description": "Acordul SUA-Iran reduce presiunea imediată, însă prețurile rafinate rămân încă ridicate."
+      "description": "Acordul SUA-Iran reduce presiunea imediată, însă prețurile rafinate rămân încă ridicate și implementarea încă trebuie urmărită."
     },
     {
       "id": "conservatori",
@@ -359,15 +380,15 @@
     {
       "id": "implementare-hormuz",
       "title": "Implementarea memorandumului SUA-Iran",
-      "why": "Piața a reacționat la text, dar efectele reale depind de semnarea formală și de reluarea efectivă a traficului prin Hormuz.",
+      "why": "Semnarea a fost confirmată, dar efectele reale depind de reluarea efectivă a traficului prin Hormuz și de respectarea termenelor de negociere.",
       "trigger": "Confirmarea semnării și semnale operaționale despre navigație și exporturile de energie.",
       "status": "în așteptare",
-      "sourceUrl": "https://www.biziday.ro/361188-2/"
+      "sourceUrl": "https://www.biziday.ro/361239-2/"
     }
   ],
   "conclusion": {
     "title": "Piața externă se destinde, dar riscul local rămâne politic",
-    "body": "Calmarea petrolului și întârzierea unor noi măsuri comerciale americane oferă un fundal extern ceva mai puțin tensionat decât în ultimele zile. Pentru România, însă, factorul dominant rămâne blocajul politic din jurul guvernului și viteza cu care acesta poate afecta consolidarea fiscală și costul finanțării.",
+    "body": "Semnarea acordului SUA-Iran calmează fundalul extern și reduce presiunea imediată pe energie. Pentru România, însă, factorul dominant rămâne blocajul politic din jurul guvernului și viteza cu care acesta poate afecta consolidarea fiscală și costul finanțării.",
     "actionPoints": [
       "Urmărește doar deciziile oficiale privind votul de învestire și congresul PNL.",
       "Compară evoluția indicatorilor de inflație și deficit cu semnalele de stabilizare politică.",
@@ -380,7 +401,7 @@
       "name": "Biziday — flux RSS și articolele principale ale dimineții",
       "url": "https://www.biziday.ro/feed/",
       "type": "primary",
-      "accessedAt": "2026-06-18T08:02:00+03:00"
+      "accessedAt": "2026-06-18T12:35:33+03:00"
     },
     {
       "id": "biziday-pnl",
