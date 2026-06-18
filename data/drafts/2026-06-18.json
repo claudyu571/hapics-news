@@ -1,7 +1,7 @@
 {
   "metadata": {
     "editionDate": "2026-06-18",
-    "updatedAt": "2026-06-18T08:06:00+03:00",
+    "updatedAt": "2026-06-18T17:35:57+03:00",
     "timezone": "Europe/Bucharest",
     "title": "Blocajul pentru Guvernul Veștea se adâncește, iar acordul SUA-Iran calmează parțial piețele",
     "status": "draft",
@@ -20,24 +20,24 @@
       "category": "Politică"
     },
     {
+      "id": "pnl-raspuns-tehnocrat",
+      "text": "Ilie Bolojan a respins public acuzația lui Sorin Grindeanu privind acordul pentru un guvern tehnocrat, semn că negocierile rămân tensionate.",
+      "category": "Politică"
+    },
+    {
       "id": "psd-decisie",
       "text": "PSD și-a programat pentru duminică decizia privind susținerea Guvernului Veștea, în aceeași zi cu congresul extraordinar al PNL.",
+      "category": "Politică"
+    },
+    {
+      "id": "ciucu-dna",
+      "text": "Ciprian Ciucu a fost audiat la DNA și a spus că i s-au adus la cunoștință învinuirile, adăugând presiune reputațională asupra PNL.",
       "category": "Politică"
     },
     {
       "id": "iran-hormuz",
       "text": "SUA și Iranul au semnat înțelegerea, care deschide o fereastră de 60 de zile pentru acordul final și confirmă relaxarea imediată a presiunii pe Hormuz.",
       "category": "Extern"
-    },
-    {
-      "id": "petrol-sub-80",
-      "text": "Petrolul Brent a coborât sub 80 USD/baril, dar carburanții rafinați rămân mult peste nivelul de la începutul anului, astfel că efectul dezinflaționist probabil va veni cu întârziere.",
-      "category": "Energie"
-    },
-    {
-      "id": "deepseek-delay",
-      "text": "Reuters arată că Washingtonul a amânat includerea DeepSeek, CXMT și a peste 100 de firme chineze pe lista comercială neagră, pentru a evita o escaladare cu Beijingul.",
-      "category": "Piețe"
     },
     {
       "id": "inflatie-deficit",
@@ -89,6 +89,36 @@
       "sourceName": "Biziday",
       "sourceUrl": "https://www.biziday.ro/361260-2/",
       "isSecondary": false,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "bolojan-grindeanu-tehnocrat",
+      "title": "Bolojan respinge acuzația lui Grindeanu privind guvernul tehnocrat",
+      "fact": "Ilie Bolojan a spus că nu a formulat niciodată, nici măcar de principiu, acordul pentru un guvern tehnocrat, după ce Sorin Grindeanu l-a acuzat că l-ar fi mințit pe președintele Nicușor Dan.",
+      "interpretation": "Replica publică arată că negocierile au trecut de la divergențe procedurale la o dispută de încredere, ceea ce face mai greu de închis rapid arhitectura viitorului guvern.",
+      "category": "Politică",
+      "impact": 5,
+      "impactLabel": "Ridicat",
+      "horizon": "Imediat",
+      "sourceId": "biziday-bolojan-grindeanu",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/361270-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "ciucu-dna",
+      "title": "DNA îi aduce lui Ciucu învinuirile în dosarul de corupție",
+      "fact": "Ciprian Ciucu, primarul Capitalei și prim-vicepreședinte PNL, a fost audiat la DNA și a spus că i s-au adus la cunoștință învinuirile.",
+      "interpretation": "Cazul nu schimbă aritmetica parlamentară, dar lovește suplimentar credibilitatea conducerii PNL într-un moment în care partidul are nevoie de disciplină și mesaj unitar.",
+      "category": "Politică",
+      "impact": 4,
+      "impactLabel": "Semnificativ",
+      "horizon": "Imediat",
+      "sourceId": "biziday-ciucu-dna",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/361292-2/",
+      "isSecondary": true,
       "confidence": "confirmed"
     },
     {
@@ -322,7 +352,7 @@
       "label": "Risc politic",
       "score": 5,
       "trend": "în creștere",
-      "description": "Majoritatea pentru guvern este mai puțin clară după pozițiile USR, PNL și decizia programată a PSD."
+      "description": "Majoritatea pentru guvern este mai puțin clară după pozițiile USR, PNL și decizia programată a PSD, iar disputa Bolojan-Grindeanu plus cazul Ciucu sporesc presiunea pe PNL."
     },
     {
       "id": "economic",
@@ -357,7 +387,7 @@
       "label": "Expunere pe acțiuni românești",
       "score": 4,
       "trend": "stabil",
-      "description": "Volatilitatea poate continua până la clarificarea votului și a conducerii PNL."
+      "description": "Volatilitatea poate continua până la clarificarea votului, a conducerii PNL și a coeziunii interne."
     }
   ],
   "watchlist": [
@@ -378,6 +408,14 @@
       "sourceUrl": "https://www.biziday.ro/361194-2/"
     },
     {
+      "id": "coeziune-pnl",
+      "title": "Coeziunea PNL după disputa Bolojan-Grindeanu",
+      "why": "Replica publică dintre Bolojan și Grindeanu, plus dosarul lui Ciucu, arată că tensiunile interne pot afecta direct calendarul negocierilor.",
+      "trigger": "O clarificare oficială a poziției PNL privind guvernul tehnocrat și disciplina internă.",
+      "status": "în așteptare",
+      "sourceUrl": "https://www.biziday.ro/361270-2/"
+    },
+    {
       "id": "implementare-hormuz",
       "title": "Implementarea memorandumului SUA-Iran",
       "why": "Semnarea a fost confirmată, dar efectele reale depind de reluarea efectivă a traficului prin Hormuz și de respectarea termenelor de negociere.",
@@ -388,9 +426,9 @@
   ],
   "conclusion": {
     "title": "Piața externă se destinde, dar riscul local rămâne politic",
-    "body": "Semnarea acordului SUA-Iran calmează fundalul extern și reduce presiunea imediată pe energie. Pentru România, însă, factorul dominant rămâne blocajul politic din jurul guvernului și viteza cu care acesta poate afecta consolidarea fiscală și costul finanțării.",
+    "body": "Semnarea acordului SUA-Iran calmează fundalul extern și reduce presiunea imediată pe energie. Pentru România, însă, factorul dominant rămâne blocajul politic din jurul guvernului, iar disputa Bolojan-Grindeanu plus dosarul Ciucu arată că presiunea pe PNL a crescut.",
     "actionPoints": [
-      "Urmărește doar deciziile oficiale privind votul de învestire și congresul PNL.",
+      "Urmărește deciziile oficiale privind votul de învestire, congresul PNL și poziția publică a conducerii PNL.",
       "Compară evoluția indicatorilor de inflație și deficit cu semnalele de stabilizare politică.",
       "Tratează semnalele pentru fonduri ca context general, nu recomandări de tranzacționare."
     ]
@@ -409,6 +447,20 @@
       "url": "https://www.biziday.ro/361194-2/",
       "type": "primary",
       "accessedAt": "2026-06-18T08:02:00+03:00"
+    },
+    {
+      "id": "biziday-bolojan-grindeanu",
+      "name": "Biziday — reacția lui Bolojan la acuzațiile lui Grindeanu",
+      "url": "https://www.biziday.ro/361270-2/",
+      "type": "primary",
+      "accessedAt": "2026-06-18T17:35:57+03:00"
+    },
+    {
+      "id": "biziday-ciucu-dna",
+      "name": "Biziday — audierea lui Ciprian Ciucu la DNA",
+      "url": "https://www.biziday.ro/361292-2/",
+      "type": "primary",
+      "accessedAt": "2026-06-18T17:35:57+03:00"
     },
     {
       "id": "biziday-iran",
