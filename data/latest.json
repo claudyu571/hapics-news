@@ -1,7 +1,7 @@
 {
   "metadata": {
     "editionDate": "2026-06-18",
-    "updatedAt": "2026-06-18T17:37:11+03:00",
+    "updatedAt": "2026-06-18T22:35:50+03:00",
     "timezone": "Europe/Bucharest",
     "title": "Blocajul pentru Guvernul Veștea se adâncește, iar acordul SUA-Iran calmează parțial piețele",
     "status": "published",
@@ -16,7 +16,7 @@
     },
     {
       "id": "pnl-congres",
-      "text": "PNL a convocat Consiliul Național pentru 19 iunie și pregătește un congres extraordinar pe 21 iunie, cu sancțiuni interne încă neconfirmate oficial.",
+      "text": "PNL a convocat Consiliul Național pentru 19 iunie și pregătește congresul extraordinar de duminică, dar Tribunalul Ilfov a suspendat temporar sancțiunile interne.",
       "category": "Politică"
     },
     {
@@ -25,13 +25,13 @@
       "category": "Politică"
     },
     {
-      "id": "psd-decisie",
-      "text": "PSD și-a programat pentru duminică decizia privind susținerea Guvernului Veștea, în aceeași zi cu congresul extraordinar al PNL.",
+      "id": "nicusor-majoritate-aur",
+      "text": "Nicușor Dan spune că Veștea trebuie să facă o majoritate și că eventualele voturi AUR trebuie gestionate de premier, nu de președinte.",
       "category": "Politică"
     },
     {
-      "id": "ciucu-dna",
-      "text": "Ciprian Ciucu a fost audiat la DNA și a spus că i s-au adus la cunoștință învinuirile, adăugând presiune reputațională asupra PNL.",
+      "id": "psd-decisie",
+      "text": "PSD și-a programat pentru duminică decizia privind susținerea Guvernului Veștea, în aceeași zi cu congresul extraordinar al PNL.",
       "category": "Politică"
     },
     {
@@ -63,17 +63,32 @@
     },
     {
       "id": "pnl-convoca-congres",
-      "title": "PNL intră în congres extraordinar în plină criză de guvern",
-      "fact": "Conducerea PNL a decis convocarea Consiliului Național pentru vineri și a propus un congres extraordinar duminică, după nominalizarea lui Adrian Veștea pentru formarea guvernului.",
-      "interpretation": "Clarificarea conducerii și a disciplinei de partid poate influența direct arhitectura unei majorități, însă sancțiunile interne rămân deocamdată un scenariu relatat, nu o decizie adoptată.",
+      "title": "PNL intră în congres extraordinar, dar sancțiunile interne sunt suspendate",
+      "fact": "Conducerea PNL a decis convocarea Consiliului Național pentru vineri și a propus un congres extraordinar duminică, iar Tribunalul Ilfov a suspendat temporar decizia de excludere a parlamentarilor care ar vota cabinetul Veștea.",
+      "interpretation": "Conducerea și disciplina de partid pot influența direct arhitectura unei majorități, dar sancțiunile interne au intrat în conflict juridic și nu mai pot fi aplicate imediat.",
       "category": "Politică",
       "impact": 5,
       "impactLabel": "Ridicat",
       "horizon": "Imediat",
-      "sourceId": "biziday",
+      "sourceId": "biziday-pnl-suspensie",
       "sourceName": "Biziday",
-      "sourceUrl": "https://www.biziday.ro/361194-2/",
-      "isSecondary": false,
+      "sourceUrl": "https://www.biziday.ro/361318-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "nicusor-majoritate-aur",
+      "title": "Nicușor Dan lasă deschisă o majoritate cu voturi AUR",
+      "fact": "Nicușor Dan a spus la Bruxelles că l-a desemnat pe Veștea ca să facă o majoritate și că prim-ministrul trebuie să gestioneze eventualele voturi AUR, adăugând că viitorul guvern trebuie să fie pro-occidental și atent la finanțe și reforme.",
+      "interpretation": "Mesajul mută presiunea pe premier și lărgește plaja de aritmetică parlamentară, chiar dacă orice formulă care depinde de voturi AUR rămâne politic costisitoare.",
+      "category": "Politică",
+      "impact": 5,
+      "impactLabel": "Ridicat",
+      "horizon": "Imediat",
+      "sourceId": "biziday-nicusor-majoritate",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/361304-2/",
+      "isSecondary": true,
       "confidence": "confirmed"
     },
     {
@@ -185,15 +200,16 @@
   "romaniaAnalysis": {
     "factBase": [
       "USR a anunțat că nu va vota Guvernul Veștea și a mandatat noi negocieri politice.",
-      "PNL a convocat Consiliul Național pentru 19 iunie și pregătește un congres extraordinar pe 21 iunie.",
+      "PNL a convocat Consiliul Național pentru 19 iunie și pregătește un congres extraordinar pe 21 iunie, iar tribunalul a suspendat temporar sancțiunile interne propuse pentru parlamentari.",
       "PSD a programat pentru duminică decizia privind susținerea Guvernului Veștea.",
+      "Nicușor Dan a spus că prim-ministrul trebuie să construiască o majoritate, inclusiv prin voturi AUR, dacă este nevoie.",
       "INS a comunicat pentru mai 2026 o rată anuală a inflației de 10,9%.",
       "Ministerul Finanțelor a raportat un deficit bugetar de 1,17% din PIB la 30 aprilie 2026.",
       "BNR menține în raportul din mai o proiecție de inflație de 5,5% pentru finalul lui 2026."
     ],
-    "political": "Pozițiile USR și PNL, plus decizia programată a PSD, reduc vizibil probabilitatea unei învestiri line pentru cabinetul Veștea. Chiar și într-un scenariu de compromis, următorul executiv ar porni cu legitimitate parlamentară fragilă și cu risc mare de renegociere internă.",
+    "political": "Pozițiile USR și PNL, plus decizia programată a PSD, reduc vizibil probabilitatea unei învestiri line pentru cabinetul Veștea. Suspendarea temporară a sancțiunilor interne din PNL și mesajul lui Nicușor Dan că premierul trebuie să construiască majoritatea, inclusiv cu voturi AUR, mută presiunea de la procedură la aritmetica parlamentară. Chiar și într-un scenariu de compromis, următorul executiv ar porni cu legitimitate parlamentară fragilă și cu risc mare de renegociere internă.",
     "economic": "Tabloul macro rămâne mixt: deficitul la patru luni arată o corecție timpurie față de anii precedenți, dar inflația anuală rămâne încă în două cifre, iar BNR vede dezinflația completă doar gradual. Semnarea acordului SUA-Iran ajută marja de manevră externă, însă nu compensează singură riscul politic și fiscal intern.",
-    "interpretation": "Scenariul de bază pentru următoarele zile este prelungirea negocierilor și amânarea clarificării politice. Pentru activele locale, asta înseamnă mai probabil o perioadă de prudență și sensibilitate la orice semnal despre calendarul votului, execuția bugetară, relația cu finanțatorii externi și implementarea acordului din Hormuz."
+    "interpretation": "Scenariul de bază pentru următoarele zile este prelungirea negocierilor și amânarea clarificării politice. Pentru activele locale, asta înseamnă mai probabil o perioadă de prudență și sensibilitate la orice semnal despre calendarul votului, disciplina internă din PNL, formula majorității și implementarea acordului din Hormuz."
   },
   "investmentFundSignals": [
     {
@@ -304,7 +320,7 @@
     {
       "id": "bet",
       "label": "Indice BET",
-      "value": 30876.77,
+      "value": 30887.29,
       "unit": "puncte",
       "referenceDate": "2026-06-18",
       "sourceName": "BVB",
@@ -315,7 +331,7 @@
     {
       "id": "rotx",
       "label": "Indice ROTX",
-      "value": 69888.06,
+      "value": 69935.61,
       "unit": "puncte",
       "referenceDate": "2026-06-18",
       "sourceName": "BVB / Wiener Börse",
@@ -352,7 +368,7 @@
       "label": "Risc politic",
       "score": 5,
       "trend": "în creștere",
-      "description": "Majoritatea pentru guvern este mai puțin clară după pozițiile USR, PNL și decizia programată a PSD, iar disputa Bolojan-Grindeanu plus cazul Ciucu sporesc presiunea pe PNL."
+      "description": "Majoritatea pentru guvern este mai puțin clară după pozițiile USR, PNL și decizia programată a PSD, iar suspendarea sancțiunilor interne din PNL plus deschiderea lui Nicușor Dan către voturi AUR sporesc presiunea pe partid."
     },
     {
       "id": "economic",
@@ -394,7 +410,7 @@
     {
       "id": "vot-investitura",
       "title": "Calendarul și rezultatul votului pentru Guvernul Veștea",
-      "why": "Fără USR și fără sprijinul deja erodat din alte partide, aritmetica majorității nu este clarificată public.",
+      "why": "Fără USR și cu semnalul că premierul ar putea încerca să adune și voturi AUR, aritmetica majorității nu este clarificată public.",
       "trigger": "Anunț oficial despre data votului și rezultatul nominal din Parlament.",
       "status": "în așteptare",
       "sourceUrl": "https://www.biziday.ro/361179-2/"
@@ -402,7 +418,7 @@
     {
       "id": "agenda-congres-pnl",
       "title": "Agenda oficială a congresului extraordinar PNL",
-      "why": "Posibilele sancțiuni împotriva taberei Veștea au fost relatate ca opțiuni, nu ca hotărâri finale.",
+      "why": "PNL a fixat congresul, dar agenda completă și efectul sancțiunilor rămân într-o zonă de dispută juridică.",
       "trigger": "Publicarea ordinii de zi și a deciziilor Consiliului Național PNL.",
       "status": "neconfirmat",
       "sourceUrl": "https://www.biziday.ro/361194-2/"
@@ -410,7 +426,7 @@
     {
       "id": "coeziune-pnl",
       "title": "Coeziunea PNL după disputa Bolojan-Grindeanu",
-      "why": "Replica publică dintre Bolojan și Grindeanu, plus dosarul lui Ciucu, arată că tensiunile interne pot afecta direct calendarul negocierilor.",
+      "why": "Replica publică dintre Bolojan și Grindeanu, plus suspendarea temporară a sancțiunilor interne, arată că tensiunile din PNL pot afecta direct calendarul negocierilor.",
       "trigger": "O clarificare oficială a poziției PNL privind guvernul tehnocrat și disciplina internă.",
       "status": "în așteptare",
       "sourceUrl": "https://www.biziday.ro/361270-2/"
@@ -449,11 +465,25 @@
       "accessedAt": "2026-06-18T08:02:00+03:00"
     },
     {
+      "id": "biziday-pnl-suspensie",
+      "name": "Biziday — congresul PNL și suspendarea sancțiunilor",
+      "url": "https://www.biziday.ro/361318-2/",
+      "type": "primary",
+      "accessedAt": "2026-06-18T22:33:52+03:00"
+    },
+    {
       "id": "biziday-bolojan-grindeanu",
       "name": "Biziday — reacția lui Bolojan la acuzațiile lui Grindeanu",
       "url": "https://www.biziday.ro/361270-2/",
       "type": "primary",
       "accessedAt": "2026-06-18T17:35:57+03:00"
+    },
+    {
+      "id": "biziday-nicusor-majoritate",
+      "name": "Biziday — Nicușor Dan despre majoritatea pentru Veștea",
+      "url": "https://www.biziday.ro/361304-2/",
+      "type": "primary",
+      "accessedAt": "2026-06-18T22:33:52+03:00"
     },
     {
       "id": "biziday-ciucu-dna",
