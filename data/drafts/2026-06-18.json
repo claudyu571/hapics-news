@@ -1,10 +1,10 @@
 {
   "metadata": {
     "editionDate": "2026-06-18",
-    "updatedAt": "2026-06-18T08:10:36+03:00",
+    "updatedAt": "2026-06-18T08:06:00+03:00",
     "timezone": "Europe/Bucharest",
     "title": "Blocajul pentru Guvernul Veștea se adâncește, iar acordul SUA-Iran calmează parțial piețele",
-    "status": "published",
+    "status": "draft",
     "primarySource": "https://www.biziday.ro/",
     "sourceCoverage": "complete"
   },
@@ -238,60 +238,6 @@
       "sourceUrl": "https://www.biziday.ro/361137-2/",
       "freshness": "current",
       "note": "Cotație indicativă folosită editorial pentru context energetic."
-    },
-    {
-      "id": "eur-ron",
-      "label": "EUR/RON",
-      "value": 5.2328,
-      "unit": "lei",
-      "referenceDate": "2026-06-17",
-      "sourceName": "BNR",
-      "sourceUrl": "https://www.bnr.ro/nbrfxrates.xml",
-      "freshness": "current",
-      "note": "Curs de referință oficial publicat de BNR."
-    },
-    {
-      "id": "bet",
-      "label": "Indice BET",
-      "value": 30555.49,
-      "unit": "puncte",
-      "referenceDate": "2026-06-18",
-      "sourceName": "BVB",
-      "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=BET",
-      "freshness": "current",
-      "note": "Indicele principal al Bursei de Valori București."
-    },
-    {
-      "id": "rotx",
-      "label": "Indice ROTX",
-      "value": 69160.55,
-      "unit": "puncte",
-      "referenceDate": "2026-06-18",
-      "sourceName": "BVB / Wiener Börse",
-      "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=ROTX",
-      "freshness": "current",
-      "note": "Indicele acțiunilor românești blue-chip, calculat de Wiener Börse."
-    },
-    {
-      "id": "robor",
-      "label": "ROBOR 3M",
-      "value": null,
-      "unit": "%",
-      "referenceDate": "2026-06-18",
-      "sourceName": "BNR",
-      "sourceUrl": "https://www.bnr.ro/",
-      "freshness": "unavailable"
-    },
-    {
-      "id": "ircc",
-      "label": "IRCC",
-      "value": 5.58,
-      "unit": "%",
-      "referenceDate": "2026-04-01",
-      "sourceName": "BNR",
-      "sourceUrl": "https://www.bnr.ro/",
-      "freshness": "current",
-      "note": "Indice de referință pentru creditele consumatorilor, valabil în trimestrul II 2026."
     }
   ],
   "riskScores": [
