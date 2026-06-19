@@ -1,7 +1,7 @@
 {
   "metadata": {
     "editionDate": "2026-06-19",
-    "updatedAt": "2026-06-19T12:34:11+03:00",
+    "updatedAt": "2026-06-19T17:34:58+03:00",
     "timezone": "Europe/Bucharest",
     "title": "Blocajul pentru Guvernul Veștea se adâncește, iar presiunea externă se mută spre securitate și energie",
     "status": "published",
@@ -36,7 +36,7 @@
     },
     {
       "id": "kapotnia-rusia",
-      "text": "Atacul ucrainean asupra rafinăriei Kapotnia și semnalul Reuters că Rusia se pregătește să importe benzină pe mare arată că volatilitatea energetică nu a dispărut.",
+      "text": "Atacul ucrainean asupra rafinăriei Kapotnia, semnalul Reuters că Rusia se pregătește să importe benzină pe mare și armistițiul Israel-Hezbollah arată că volatilitatea energetică s-a mai redus, dar nu a dispărut.",
       "category": "Energie"
     },
     {
@@ -137,6 +137,21 @@
       "confidence": "confirmed"
     },
     {
+      "id": "armistitiu-israel-hezbollah",
+      "title": "Armistițiul Israel-Hezbollah reduce presiunea imediată pe energie",
+      "fact": "Reuters a relatat că Israel și Hezbollah au convenit asupra unui armistițiu care urma să intre în vigoare la ora 16:00, cu mediere americană și qatareză, după schimbul de focuri din aceeași zi.",
+      "interpretation": "Dacă armistițiul se menține, riscul unui nou șoc pe petrol și transport scade pe termen imediat; dacă este încălcat, piața va repune rapid în preț volatilitatea regională.",
+      "category": "Energie",
+      "impact": 4,
+      "impactLabel": "Semnificativ",
+      "horizon": "Imediat",
+      "sourceId": "reuters-israel-hezbollah-ceasefire",
+      "sourceName": "Reuters",
+      "sourceUrl": "https://www.internazionale.it/ultime-notizie-reuters/2026/06/19/israeli-hezbollah-agree-to-ceasefire-starting-on-friday-u-s-official",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
       "id": "ucraina-loveste-kapotnia",
       "title": "Ucraina lovește din nou Kapotnia, iar Rusia caută combustibil pe mare",
       "fact": "Drone ucrainene au lovit din nou rafinăria Kapotnia din Moscova și un depozit petrolier din Rostov, iar Biziday citează Reuters potrivit căruia Rusia se pregătește să importe benzină pe mare pentru a compensa deficitul de combustibili.",
@@ -191,11 +206,12 @@
       "Nicușor Dan a spus că premierul desemnat trebuie să construiască majoritatea și să gestioneze eventualele voturi AUR.",
       "INS a comunicat pentru mai 2026 o rată anuală a inflației de 10,9%.",
       "Ministerul Finanțelor a raportat un deficit bugetar cash de 1,17% din PIB la 30 aprilie 2026.",
-      "BNR menține în raportul din mai o proiecție de inflație de 5,5% pentru finalul lui 2026."
+      "BNR menține în raportul din mai o proiecție de inflație de 5,5% pentru finalul lui 2026.",
+      "Reuters a relatat că Israel și Hezbollah au convenit asupra unui armistițiu care reduce probabilitatea unui nou șoc energetic imediat."
     ],
     "political": "După retragerea USR și UDMR, plus decizia PSD amânată până duminică, șansele unei învestiri line înainte de weekend par reduse. Candidatura lui Veștea la șefia PNL și congresul din 21 iunie transformă negocierea guvernului într-o bătălie simultană pentru controlul partidului. Decizia Înaltei Curți în cazul Fritz adaugă presiune pe USR, dar nu schimbă faptul că aritmetica parlamentară rămâne problema principală.",
-    "economic": "România intră în această fază de incertitudine cu inflație de 10,9% în mai și deficit cash de 1,17% din PIB la 30 aprilie. Memorandumul SUA-Iran reduce riscul unui nou salt imediat al petrolului, însă atacul asupra navelor comerciale din Marea Neagră și loviturile asupra rafinăriilor rusești arată că volatilitatea pe transport și pe carburanți nu a dispărut complet. În lipsa unui guvern cu mandat clar, corecția fiscală și mesajul către investitori rămân mai greu de credibilizat.",
-    "interpretation": "Scenariul de bază pentru următoarele zile este o clarificare politică întârziată, cu probabilitate mai mare pentru negocieri suplimentare decât pentru un vot fără fricțiuni. Pentru activele locale, asta sugerează prudență față de durata obligațiunilor și sensibilitate ridicată a acțiunilor locale la orice semnal despre majoritate, calendar și disciplină fiscală, mai ales dacă riscul pe rutele maritime regionale rămâne ridicat."
+    "economic": "România intră în această fază de incertitudine cu inflație de 10,9% în mai și deficit cash de 1,17% din PIB la 30 aprilie. Memorandumul SUA-Iran și armistițiul Israel-Hezbollah reduc riscul unui nou salt imediat al petrolului, însă atacul asupra navelor comerciale din Marea Neagră și loviturile asupra rafinăriilor rusești arată că volatilitatea pe transport și pe carburanți nu a dispărut complet. În lipsa unui guvern cu mandat clar, corecția fiscală și mesajul către investitori rămân mai greu de credibilizat.",
+    "interpretation": "Scenariul de bază pentru următoarele zile este o clarificare politică întârziată, cu probabilitate mai mare pentru negocieri suplimentare decât pentru un vot fără fricțiuni. Pentru activele locale, asta sugerează prudență față de durata obligațiunilor și sensibilitate ridicată a acțiunilor locale la orice semnal despre majoritate, calendar și disciplină fiscală, iar armistițiul Israel-Hezbollah doar reduce parțial zgomotul extern."
   },
   "investmentFundSignals": [
     {
@@ -244,7 +260,7 @@
       "direction": "neutru",
       "strength": 2,
       "horizon": "1–4 săptămâni",
-      "rationale": "Tensiunea din Orientul Mijlociu s-a redus, însă atacul asupra navelor comerciale din Marea Neagră și loviturile asupra rafinăriilor rusești păstrează riscul de variații bruște pe transport și pe lanțul carburanților."
+      "rationale": "Armistițiul Israel-Hezbollah și memorandumul privind Hormuz reduc presiunea imediată, însă atacul asupra navelor comerciale din Marea Neagră și loviturile asupra rafinăriilor rusești păstrează riscul de variații bruște pe transport și pe lanțul carburanților."
     }
   ],
   "indicators": [
@@ -284,9 +300,9 @@
     {
       "id": "eur-ron",
       "label": "EUR/RON",
-      "value": 5.2339,
+      "value": 5.2391,
       "unit": "lei",
-      "referenceDate": "2026-06-18",
+      "referenceDate": "2026-06-19",
       "sourceName": "BNR",
       "sourceUrl": "https://www.bnr.ro/nbrfxrates.xml",
       "freshness": "current",
@@ -295,7 +311,7 @@
     {
       "id": "bet",
       "label": "Indice BET",
-      "value": 30994.56,
+      "value": 30901.83,
       "unit": "puncte",
       "referenceDate": "2026-06-19",
       "sourceName": "BVB",
@@ -306,7 +322,7 @@
     {
       "id": "rotx",
       "label": "Indice ROTX",
-      "value": 70157.84,
+      "value": 69964.4,
       "unit": "puncte",
       "referenceDate": "2026-06-19",
       "sourceName": "BVB / Wiener Börse",
@@ -363,8 +379,8 @@
       "id": "energie",
       "label": "Risc energetic",
       "score": 3,
-      "trend": "stabil",
-      "description": "Memorandumul privind Hormuz reduce tensiunea imediată, dar loviturile asupra infrastructurii rusești păstrează volatilitatea pe carburanți."
+      "trend": "în scădere",
+      "description": "Memorandumul privind Hormuz și armistițiul Israel-Hezbollah reduc tensiunea imediată, dar loviturile asupra infrastructurii rusești păstrează volatilitatea pe carburanți."
     },
     {
       "id": "conservatori",
@@ -417,15 +433,15 @@
     {
       "id": "implementare-hormuz",
       "title": "Implementarea memorandumului SUA-Iran și traficul prin Hormuz",
-      "why": "Pentru energie și sentimentul global contează dacă deschiderea rutei maritime devine efectivă și stabilă, nu doar anunțată.",
-      "trigger": "Confirmări operaționale privind traficul și eventuale clarificări despre mecanismul de administrare după 60 de zile.",
+      "why": "Pentru energie și sentimentul global contează dacă deschiderea rutei maritime devine efectivă și stabilă, nu doar anunțată, iar armistițiul Israel-Hezbollah se menține.",
+      "trigger": "Confirmări operaționale privind traficul, respectarea armistițiului și eventuale clarificări despre mecanismul de administrare după 60 de zile.",
       "status": "în așteptare",
       "sourceUrl": "https://www.biziday.ro/361188-2/"
     }
   ],
   "conclusion": {
     "title": "Fereastra critică este politică, nu macro",
-    "body": "Fondul extern este puțin mai puțin ostil decât la începutul săptămânii, dar pentru România variabila dominantă rămâne majoritatea parlamentară. Până când calendarul învestirii și poziția PSD se clarifică, piața locală are motive mai degrabă de prudență decât de repoziționare agresivă.",
+    "body": "Fondul extern este puțin mai puțin ostil decât la începutul săptămânii, după armistițiul Israel-Hezbollah și semnalele privind Hormuz, dar pentru România variabila dominantă rămâne majoritatea parlamentară. Până când calendarul învestirii și poziția PSD se clarifică, piața locală are motive mai degrabă de prudență decât de repoziționare agresivă.",
     "actionPoints": [
       "Urmărește Consiliul Național PNL din 19 iunie și decizia PSD din 21 iunie ca reperele-cheie pentru majoritate.",
       "Compară orice nou calendar de învestire cu mesajele despre deficit, taxe și continuitatea reformelor.",
@@ -481,6 +497,13 @@
       "url": "https://www.biziday.ro/361188-2/",
       "type": "primary",
       "accessedAt": "2026-06-19T07:41:00+03:00"
+    },
+    {
+      "id": "reuters-israel-hezbollah-ceasefire",
+      "name": "Reuters — armistițiul Israel-Hezbollah",
+      "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/06/19/israeli-hezbollah-agree-to-ceasefire-starting-on-friday-u-s-official",
+      "type": "secondary",
+      "accessedAt": "2026-06-19T14:30:55+03:00"
     },
     {
       "id": "biziday-rusia-rafinarie",
