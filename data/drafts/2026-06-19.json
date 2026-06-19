@@ -1,7 +1,7 @@
 {
   "metadata": {
     "editionDate": "2026-06-19",
-    "updatedAt": "2026-06-19T17:34:26+03:00",
+    "updatedAt": "2026-06-19T22:35:39+03:00",
     "timezone": "Europe/Bucharest",
     "title": "Blocajul pentru Guvernul Veștea se adâncește, iar presiunea externă se mută spre securitate și energie",
     "status": "draft",
@@ -16,7 +16,7 @@
     },
     {
       "id": "vestea-sefia-pnl",
-      "text": "Adrian Veștea vrea și șefia PNL și cere amânarea congresului, în timp ce partidul intră pe 19 iunie în Consiliu Național și pregătește congresul extraordinar din 21 iunie.",
+      "text": "Adrian Veștea renunță la cursa pentru șefia PNL după refuzul de a amâna congresul și amenință cu contestări statutare și legale, mutând disputa din zona competiției interne în cea a disciplinei de partid.",
       "category": "Politică"
     },
     {
@@ -62,17 +62,17 @@
       "confidence": "confirmed"
     },
     {
-      "id": "vestea-candideaza-sefia-pnl",
-      "title": "Veștea intră în cursa pentru șefia PNL și cere amânarea congresului",
-      "fact": "Adrian Veștea și-a anunțat candidatura la președinția PNL și i-a cerut lui Ilie Bolojan ca congresul partidului să fie amânat cu o săptămână, în timp ce PNL vrea Consiliu Național pe 19 iunie și congres extraordinar pe 21 iunie.",
-      "interpretation": "Negocierea guvernului și lupta pentru controlul partidului se suprapun, ceea ce crește probabilitatea de decizii întârziate și de disciplină internă fragilă.",
+      "id": "vestea-renunta-cursa-pnl",
+      "title": "Veștea renunță la cursa pentru șefia PNL după refuzul amânării congresului",
+      "fact": "Adrian Veștea a anunțat că renunță la candidatura la președinția PNL după ce partidul a refuzat să amâne cu o săptămână congresul de duminică și a spus că ia în calcul demersuri de contestare statutară și legală după votul de învestitură.",
+      "interpretation": "Lupta pentru controlul PNL se mută de la competiție la contestare, iar asta crește riscul de disciplină internă slabă exact în zilele decisive pentru majoritatea parlamentară.",
       "category": "Politică",
       "impact": 5,
       "impactLabel": "Ridicat",
       "horizon": "Imediat",
-      "sourceId": "biziday-vestea-pnl",
+      "sourceId": "biziday-vestea-retragere",
       "sourceName": "Biziday",
-      "sourceUrl": "https://www.biziday.ro/361318-2/",
+      "sourceUrl": "https://www.biziday.ro/361403-2/",
       "isSecondary": true,
       "confidence": "confirmed"
     },
@@ -201,7 +201,7 @@
       "factBase": [
       "USR nu va vota Guvernul Veștea, iar UDMR a anunțat că va ieși din sală la vot.",
       "PNL intră pe 19 iunie în Consiliu Național și pregătește congresul extraordinar din 21 iunie.",
-      "Adrian Veștea a anunțat că vrea să candideze la președinția PNL și a cerut amânarea congresului cu o săptămână.",
+      "Adrian Veștea a anunțat că renunță la candidatura la președinția PNL după refuzul de a amâna congresul și a spus că ia în calcul contestări statutare și legale.",
       "PSD a lăsat pentru duminică decizia privind susținerea sau respingerea Guvernului Veștea.",
       "Nicușor Dan a spus că premierul desemnat trebuie să construiască majoritatea și să gestioneze eventualele voturi AUR.",
       "INS a comunicat pentru mai 2026 o rată anuală a inflației de 10,9%.",
@@ -209,9 +209,9 @@
       "BNR menține în raportul din mai o proiecție de inflație de 5,5% pentru finalul lui 2026.",
       "Reuters a relatat că Israel și Hezbollah au convenit asupra unui armistițiu care reduce probabilitatea unui nou șoc energetic imediat."
     ],
-    "political": "După retragerea USR și UDMR, plus decizia PSD amânată până duminică, șansele unei învestiri line înainte de weekend par reduse. Candidatura lui Veștea la șefia PNL și congresul din 21 iunie transformă negocierea guvernului într-o bătălie simultană pentru controlul partidului. Decizia Înaltei Curți în cazul Fritz adaugă presiune pe USR, dar nu schimbă faptul că aritmetica parlamentară rămâne problema principală.",
+    "political": "După retragerea USR și UDMR, plus decizia PSD amânată până duminică, șansele unei învestiri line înainte de weekend par reduse. Retragerea lui Veștea din cursa pentru șefia PNL transformă congresul de duminică dintr-o simplă competiție internă într-un test de disciplină și de control procedural, cu potențial de contestare statutară și legală. Decizia Înaltei Curți în cazul Fritz adaugă presiune pe USR, dar nu schimbă faptul că aritmetica parlamentară rămâne problema principală.",
     "economic": "România intră în această fază de incertitudine cu inflație de 10,9% în mai și deficit cash de 1,17% din PIB la 30 aprilie. Memorandumul SUA-Iran și armistițiul Israel-Hezbollah reduc riscul unui nou salt imediat al petrolului, însă atacul asupra navelor comerciale din Marea Neagră și loviturile asupra rafinăriilor rusești arată că volatilitatea pe transport și pe carburanți nu a dispărut complet. În lipsa unui guvern cu mandat clar, corecția fiscală și mesajul către investitori rămân mai greu de credibilizat.",
-    "interpretation": "Scenariul de bază pentru următoarele zile este o clarificare politică întârziată, cu probabilitate mai mare pentru negocieri suplimentare decât pentru un vot fără fricțiuni. Pentru activele locale, asta sugerează prudență față de durata obligațiunilor și sensibilitate ridicată a acțiunilor locale la orice semnal despre majoritate, calendar și disciplină fiscală, iar armistițiul Israel-Hezbollah doar reduce parțial zgomotul extern."
+    "interpretation": "Scenariul de bază pentru următoarele zile este o clarificare politică întârziată, cu probabilitate mai mare pentru negocieri suplimentare și contestări procedurale decât pentru un vot fără fricțiuni. Pentru activele locale, asta sugerează prudență față de durata obligațiunilor și sensibilitate ridicată a acțiunilor locale la orice semnal despre majoritate, calendar și disciplină fiscală, iar armistițiul Israel-Hezbollah doar reduce parțial zgomotul extern."
   },
   "investmentFundSignals": [
     {
@@ -304,7 +304,7 @@
       "label": "Risc politic",
       "score": 5,
       "trend": "în creștere",
-      "description": "Blocajul majorității, congresul PNL și decizia PSD din 21 iunie cresc probabilitatea de amânări și repoziționări rapide."
+      "description": "Blocajul majorității, retragerea lui Veștea din cursa pentru PNL și decizia PSD din 21 iunie cresc probabilitatea de amânări, contestări și repoziționări rapide."
     },
     {
       "id": "fiscal",
@@ -362,7 +362,7 @@
     {
       "id": "agenda-congres-pnl",
       "title": "Agenda oficială și eventualele sancțiuni de la congresul PNL",
-      "why": "Controlul partidului și disciplina internă pot influența direct capacitatea lui Veștea de a menține orice formulă de guvernare.",
+      "why": "Controlul partidului, retragerea lui Veștea din cursă și eventuala contestare procedurală pot influența direct capacitatea PNL de a livra o majoritate.",
       "trigger": "Publicarea ordinii de zi după Consiliul Național PNL din 19 iunie.",
       "status": "neconfirmat",
       "sourceUrl": "https://www.biziday.ro/361318-2/"
@@ -386,9 +386,9 @@
   ],
   "conclusion": {
     "title": "Fereastra critică este politică, nu macro",
-    "body": "Fondul extern este puțin mai puțin ostil decât la începutul săptămânii, după armistițiul Israel-Hezbollah și semnalele privind Hormuz, dar pentru România variabila dominantă rămâne majoritatea parlamentară. Până când calendarul învestirii și poziția PSD se clarifică, piața locală are motive mai degrabă de prudență decât de repoziționare agresivă.",
+    "body": "Fondul extern este puțin mai puțin ostil decât la începutul săptămânii, după armistițiul Israel-Hezbollah și semnalele privind Hormuz, dar pentru România variabila dominantă rămâne majoritatea parlamentară. Retragerea lui Veștea din cursa pentru PNL mută riscul spre contestare internă, nu doar spre negociere, iar până când calendarul învestirii și poziția PSD se clarifică, piața locală are motive mai degrabă de prudență decât de repoziționare agresivă.",
     "actionPoints": [
-      "Urmărește Consiliul Național PNL din 19 iunie și decizia PSD din 21 iunie ca reperele-cheie pentru majoritate.",
+      "Urmărește congresul PNL de duminică și decizia PSD din 21 iunie ca reperele-cheie pentru majoritate.",
       "Compară orice nou calendar de învestire cu mesajele despre deficit, taxe și continuitatea reformelor.",
       "Tratează semnalele pentru fonduri ca context general de risc, nu ca recomandări de tranzacționare."
     ]
@@ -414,6 +414,13 @@
       "url": "https://www.biziday.ro/361318-2/",
       "type": "primary",
       "accessedAt": "2026-06-19T07:39:00+03:00"
+    },
+    {
+      "id": "biziday-vestea-retragere",
+      "name": "Biziday — Veștea renunță la candidatura la șefia PNL",
+      "url": "https://www.biziday.ro/361403-2/",
+      "type": "primary",
+      "accessedAt": "2026-06-19T22:33:42+03:00"
     },
     {
       "id": "biziday-psd",
