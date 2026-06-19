@@ -1,7 +1,7 @@
 {
   "metadata": {
     "editionDate": "2026-06-19",
-    "updatedAt": "2026-06-19T07:39:21+03:00",
+    "updatedAt": "2026-06-19T12:34:11+03:00",
     "timezone": "Europe/Bucharest",
     "title": "Blocajul pentru Guvernul Veștea se adâncește, iar presiunea externă se mută spre securitate și energie",
     "status": "published",
@@ -152,6 +152,21 @@
       "confidence": "confirmed"
     },
     {
+      "id": "marea-neagra-nave-comerciale",
+      "title": "Atacul asupra navelor comerciale din Marea Neagră menține riscul maritim ridicat",
+      "fact": "Două nave comerciale au fost lovite de drone în Marea Neagră, iar Biziday spune că un membru al echipajului a murit și alți cinci au fost răniți, după care navele și-au reluat cursul.",
+      "interpretation": "Incidentul confirmă că rutele maritime din Marea Neagră rămân expuse, ceea ce menține presiunea pe asigurări, pe costurile de transport și pe percepția de risc pentru exporturile din regiune.",
+      "category": "Securitate",
+      "impact": 4,
+      "impactLabel": "Semnificativ",
+      "horizon": "1–4 săptămâni",
+      "sourceId": "biziday-marea-neagra-nave-comerciale",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/361338-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
       "id": "nato-30-europa",
       "title": "SUA cer Europei să preia conducerea apărării convenționale în NATO",
       "fact": "Pete Hegseth a cerut la Bruxelles ca Europa să preia conducerea apărării convenționale în cadrul unui „NATO 3.0”, iar Mark Rutte a spus că aliații nu pot conta mereu pe aceeași contribuție americană în orice scenariu de conflict.",
@@ -179,8 +194,8 @@
       "BNR menține în raportul din mai o proiecție de inflație de 5,5% pentru finalul lui 2026."
     ],
     "political": "După retragerea USR și UDMR, plus decizia PSD amânată până duminică, șansele unei învestiri line înainte de weekend par reduse. Candidatura lui Veștea la șefia PNL și congresul din 21 iunie transformă negocierea guvernului într-o bătălie simultană pentru controlul partidului. Decizia Înaltei Curți în cazul Fritz adaugă presiune pe USR, dar nu schimbă faptul că aritmetica parlamentară rămâne problema principală.",
-    "economic": "România intră în această fază de incertitudine cu inflație de 10,9% în mai și deficit cash de 1,17% din PIB la 30 aprilie. Memorandumul SUA-Iran reduce riscul unui nou salt imediat al petrolului, însă atacurile asupra rafinăriilor rusești arată că volatilitatea energetică nu a dispărut complet. În lipsa unui guvern cu mandat clar, corecția fiscală și mesajul către investitori rămân mai greu de credibilizat.",
-    "interpretation": "Scenariul de bază pentru următoarele zile este o clarificare politică întârziată, cu probabilitate mai mare pentru negocieri suplimentare decât pentru un vot fără fricțiuni. Pentru activele locale, asta sugerează prudență față de durata obligațiunilor și sensibilitate ridicată a acțiunilor locale la orice semnal despre majoritate, calendar și disciplină fiscală."
+    "economic": "România intră în această fază de incertitudine cu inflație de 10,9% în mai și deficit cash de 1,17% din PIB la 30 aprilie. Memorandumul SUA-Iran reduce riscul unui nou salt imediat al petrolului, însă atacul asupra navelor comerciale din Marea Neagră și loviturile asupra rafinăriilor rusești arată că volatilitatea pe transport și pe carburanți nu a dispărut complet. În lipsa unui guvern cu mandat clar, corecția fiscală și mesajul către investitori rămân mai greu de credibilizat.",
+    "interpretation": "Scenariul de bază pentru următoarele zile este o clarificare politică întârziată, cu probabilitate mai mare pentru negocieri suplimentare decât pentru un vot fără fricțiuni. Pentru activele locale, asta sugerează prudență față de durata obligațiunilor și sensibilitate ridicată a acțiunilor locale la orice semnal despre majoritate, calendar și disciplină fiscală, mai ales dacă riscul pe rutele maritime regionale rămâne ridicat."
   },
   "investmentFundSignals": [
     {
@@ -229,7 +244,7 @@
       "direction": "neutru",
       "strength": 2,
       "horizon": "1–4 săptămâni",
-      "rationale": "Tensiunea din Orientul Mijlociu s-a redus, însă atacurile asupra rafinăriilor rusești păstrează riscul de variații bruște pe lanțul carburanților."
+      "rationale": "Tensiunea din Orientul Mijlociu s-a redus, însă atacul asupra navelor comerciale din Marea Neagră și loviturile asupra rafinăriilor rusești păstrează riscul de variații bruște pe transport și pe lanțul carburanților."
     }
   ],
   "indicators": [
@@ -280,7 +295,7 @@
     {
       "id": "bet",
       "label": "Indice BET",
-      "value": 30887.29,
+      "value": 30994.56,
       "unit": "puncte",
       "referenceDate": "2026-06-19",
       "sourceName": "BVB",
@@ -291,7 +306,7 @@
     {
       "id": "rotx",
       "label": "Indice ROTX",
-      "value": 69935.61,
+      "value": 70157.84,
       "unit": "puncte",
       "referenceDate": "2026-06-19",
       "sourceName": "BVB / Wiener Börse",
@@ -302,9 +317,9 @@
     {
       "id": "robor",
       "label": "ROBOR 3M",
-      "value": 5.84,
+      "value": 5.83,
       "unit": "%",
-      "referenceDate": "2026-06-18",
+      "referenceDate": "2026-06-19",
       "sourceName": "BNR",
       "sourceUrl": "https://www.bnr.ro/1074-baza-de-date-interactiva",
       "freshness": "current",
@@ -473,6 +488,13 @@
       "url": "https://www.biziday.ro/361245-2/",
       "type": "primary",
       "accessedAt": "2026-06-19T07:41:00+03:00"
+    },
+    {
+      "id": "biziday-marea-neagra-nave-comerciale",
+      "name": "Biziday — atacul asupra navelor comerciale din Marea Neagră",
+      "url": "https://www.biziday.ro/361338-2/",
+      "type": "primary",
+      "accessedAt": "2026-06-19T12:33:00+03:00"
     },
     {
       "id": "biziday-nato",
