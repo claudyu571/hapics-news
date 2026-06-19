@@ -29,6 +29,7 @@ const INITIAL_EDITION = latestData as unknown as Edition;
 // (Europe/Bucharest) și publicate intraday doar când apar schimbări relevante.
 // A se menține în sincron cu programul rutinei.
 const UPDATE_TIMES = "07:30, 12:30, 17:30 și 22:30";
+const GOATCOUNTER_TOTAL_URL = "https://hapics-news.goatcounter.com/counter/TOTAL.json";
 
 // Reading order (matches the single-column mobile flow). Keep one continuous
 // sequence in the table of contents even though indicators and risks move into
@@ -78,6 +79,46 @@ function TrendIcon({ trend }: { trend: "în creștere" | "stabil" | "în scăder
   if (trend === "în creștere") return <ArrowUp aria-hidden="true" />;
   if (trend === "în scădere") return <ArrowDown aria-hidden="true" />;
   return <Minus aria-hidden="true" />;
+}
+
+function formatVisitCount(value: unknown): string | null {
+  if (typeof value === "number") {
+    return Number.isSafeInteger(value) && value >= 0
+      ? new Intl.NumberFormat("ro-RO").format(value)
+      : null;
+  }
+  if (typeof value !== "string" || !/^\d[\d,.\s]*$/.test(value)) return null;
+
+  const digits = value.replace(/\D/g, "");
+  const count = Number(digits);
+  return Number.isSafeInteger(count) ? new Intl.NumberFormat("ro-RO").format(count) : null;
+}
+
+function VisitorCount() {
+  const [count, setCount] = useState<string | null>(null);
+
+  useEffect(() => {
+    const controller = new AbortController();
+
+    (async () => {
+      try {
+        const response = await fetch(GOATCOUNTER_TOTAL_URL, { signal: controller.signal });
+        if (!response.ok) return;
+        const payload = (await response.json()) as { count?: unknown };
+        setCount(formatVisitCount(payload.count));
+      } catch {
+        // Analytics must never affect the briefing when unavailable or blocked.
+      }
+    })();
+
+    return () => controller.abort();
+  }, []);
+
+  return (
+    <span className={`visitor-count${count === null ? " is-pending" : ""}`} aria-hidden={count === null}>
+      {count === null ? "\u00a0" : `${count} lecturi înregistrate`}
+    </span>
+  );
 }
 
 function App() {
@@ -379,7 +420,10 @@ function App() {
 
           <footer>
             <div className="footer-brand"><span className="brand-mark">H</span><strong>HAPICS</strong></div>
-            <p>Conținut informativ. Nu reprezintă consultanță financiară, juridică sau recomandare de investiții.</p>
+            <div className="footer-copy">
+              <p>Conținut informativ. Nu reprezintă consultanță financiară, juridică sau recomandare de investiții.</p>
+              <VisitorCount />
+            </div>
             <a href="#top">Înapoi sus <ArrowRight aria-hidden="true" /></a>
           </footer>
         </main>

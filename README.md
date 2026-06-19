@@ -105,6 +105,19 @@ Un eșec de validare nu modifică ediția publicată. O nouă rulare în aceeaș
 
 Workflow-ul `pages.yml` validează toate pull request-urile. Pentru push-urile pe `main`, publică directorul `dist` numai după ce testele și buildul reușesc. Nu este necesar niciun secret OpenAI în GitHub.
 
+## Contorul de lecturi
+
+Traficul este măsurat cu GoatCounter, prin contul public `hapics-news.goatcounter.com`.
+Scriptul stabil `count.v5.js` înregistrează încărcările paginii, iar subsolul citește
+totalul site-ului din `https://hapics-news.goatcounter.com/counter/TOTAL.json`. Schimbarea
+ediției din selectorul de arhivă nu produce o vizită suplimentară.
+
+Contul GoatCounter trebuie configurat cu sesiunile activate, stocarea vizualizărilor
+individuale dezactivată și opțiunea **Allow adding visitor counts on your website**
+activată. Contorul începe de la data activării; traficul istoric nu este estimat.
+Integrarea nu folosește secrete sau variabile de mediu. Dacă serviciul este blocat sau
+indisponibil, numărul rămâne ascuns și restul paginii funcționează normal.
+
 ## GitHub Pages și DNS
 
 - Repository: `claudyu571/hapics-news`
