@@ -1,7 +1,7 @@
 {
   "metadata": {
     "editionDate": "2026-06-20",
-    "updatedAt": "2026-06-20T07:39:24+03:00",
+    "updatedAt": "2026-06-20T22:36:49+03:00",
     "timezone": "Europe/Bucharest",
     "title": "Weekendul comprimă decizia pentru Guvernul Veștea, iar datele macro lasă puțin spațiu de eroare",
     "status": "published",
@@ -31,7 +31,7 @@
     },
     {
       "id": "risc-maritim-energie",
-      "text": "Armistițiul Israel-Hezbollah reduce presiunea imediată pe energie, dar atacurile asupra navelor comerciale din Marea Neagră și asupra infrastructurii petroliere rusești păstrează riscul logistic regional.",
+      "text": "Armistițiul Israel-Hezbollah reduce doar parțial presiunea imediată pe energie, pentru că amenințarea Iranului de a închide Hormuz și riscul logistic din Marea Neagră mențin volatilitatea regională ridicată.",
       "category": "Energie"
     },
     {
@@ -105,7 +105,7 @@
       "id": "armistitiu-israel-hezbollah",
       "title": "Armistițiul Israel-Hezbollah reduce temporar presiunea pe energie",
       "fact": "Reuters, citat de Biziday, a relatat că Israel și Hezbollah au convenit asupra unui armistițiu care a intrat în vigoare la ora 16:00 pe 19 iunie.",
-      "interpretation": "Dacă se menține, presiunea imediată pe petrol și pe sentimentul global se reduce, însă piața va trata următoarele zile ca pe o perioadă de test al respectării acordului.",
+      "interpretation": "Dacă se menține, presiunea imediată pe petrol și pe sentimentul global se reduce, însă piața tratează acum armistițiul ca pe doar o piesă dintr-un tablou mai fragil, în care Hormuz rămâne un risc major.",
       "category": "Energie",
       "impact": 4,
       "impactLabel": "Semnificativ",
@@ -113,6 +113,36 @@
       "sourceId": "biziday-hezbollah",
       "sourceName": "Biziday",
       "sourceUrl": "https://www.biziday.ro/361354-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "hormuz-amenintare-inchidere",
+      "title": "Iranul amenință închiderea Strâmtorii Hormuz",
+      "fact": "Biziday a relatat că Iranul a anunțat intenția de a închide Strâmtoarea Hormuz, pe fondul acuzațiilor privind încălcarea armistițiului din Liban și al discuțiilor care urmează să aibă loc în Elveția.",
+      "interpretation": "Chiar dacă fluxul de nave nu pare încă întrerupt, simpla amenințare mută rapid subiectul din zona retoricii politice în zona de risc energetic și logistic global.",
+      "category": "Energie",
+      "impact": 5,
+      "impactLabel": "Ridicat",
+      "horizon": "Imediat",
+      "sourceId": "biziday-hormuz",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/361447-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "irgc-beneficiaza-acord",
+      "title": "Reuters: IRGC ar putea capitaliza acordul cu SUA",
+      "fact": "Biziday, citând Reuters, arată că ridicarea sancțiunilor și accesul posibil la un fond de reconstrucție de aproximativ 300 de miliarde de dolari pot favoriza rețelele economice controlate de Garda Revoluționară Iraniană.",
+      "interpretation": "Dacă această logică se confirmă, acordul nu doar dezescaladează conflictul, ci poate întări actorul intern care a învățat cel mai bine să monetizeze sancțiunile și economia paralelă.",
+      "category": "Economie",
+      "impact": 4,
+      "impactLabel": "Semnificativ",
+      "horizon": "1–4 săptămâni",
+      "sourceId": "biziday-irgc-economy",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/361427-2/",
       "isSecondary": true,
       "confidence": "confirmed"
     },
@@ -157,11 +187,13 @@
       "Ministerul Finanțelor a raportat un deficit bugetar cash de 1,17% din PIB la 30 aprilie 2026.",
       "BNR proiectează o rată anuală a inflației IPC de 5,5% la finalul anului 2026.",
       "Reuters, citat de Biziday, a relatat că Israel și Hezbollah au convenit asupra unui armistițiu intrat în vigoare pe 19 iunie.",
-      "Două nave comerciale au fost atacate de drone rusești în Marea Neagră, iar navele și-au reluat ulterior cursul."
+      "Două nave comerciale au fost atacate de drone rusești în Marea Neagră, iar navele și-au reluat ulterior cursul.",
+      "Biziday a relatat că Iranul amenință închiderea Strâmtorii Hormuz, iar negocierile dintre SUA și Iran urmează să continue în Elveția.",
+      "Biziday, citând Reuters, arată că un eventual acord SUA-Iran și ridicarea sancțiunilor pot favoriza rețelele economice ale IRGC."
     ],
     "political": "Scenariul dominant pentru acest weekend rămâne o clarificare politică incompletă, nu o ieșire ordonată din criză. Faptul că PSD și PNL își mută deciziile-cheie în aceeași zi, iar Veștea transformă disputa internă dintr-o competiție într-o contestare de procedură, ridică probabilitatea unor negocieri suplimentare sau a unui calendar de învestire mai fragil decât pare la prima vedere. Reconfirmarea lui Fritz stabilizează formal USR, dar nu produce voturi noi pentru formula Veștea.",
-    "economic": "România intră în această fereastră politică cu inflație anuală de 10,9% și deficit cash de 1,17% din PIB la patru luni, ceea ce înseamnă că marja de eroare pentru noul executiv rămâne mică. BNR vede 5,5% la finalul lui 2026, deci încă anticipează o dezinflație, dar una care depinde de disciplină fiscală și de un cadru politic funcțional. În extern, armistițiul Israel-Hezbollah relaxează o parte din presiunea energetică imediată, însă Marea Neagră și infrastructura petrolieră rusă mențin riscul logistic regional.",
-    "interpretation": "Scenariul de bază este că piața locală va reacționa mai mult la semnalele despre majoritate, calendar și credibilitatea fiscală decât la zgomotul extern de moment. Probabilitatea mai mare este pentru o rezolvare întârziată sau incompletă, nu pentru un deznodământ clar din prima încercare. Pentru fonduri, asta înseamnă prudență față de activele locale sensibile la dobânzi și reglementare, fără ca această evaluare să echivaleze cu o recomandare de tranzacționare."
+    "economic": "România intră în această fereastră politică cu inflație anuală de 10,9% și deficit cash de 1,17% din PIB la patru luni, ceea ce înseamnă că marja de eroare pentru noul executiv rămâne mică. BNR vede 5,5% la finalul lui 2026, deci încă anticipează o dezinflație, dar una care depinde de disciplină fiscală și de un cadru politic funcțional. În extern, armistițiul Israel-Hezbollah relaxează doar parțial presiunea energetică: amenințarea la Hormuz și perspectiva ca IRGC să capitalizeze acordul cu SUA păstrează riscul geopolitic și de preț pentru energie la un nivel ridicat.",
+    "interpretation": "Scenariul de bază este că piața locală va reacționa mai mult la semnalele despre majoritate, calendar și credibilitatea fiscală decât la zgomotul extern de moment. Probabilitatea mai mare este pentru o rezolvare întârziată sau incompletă, nu pentru un deznodământ clar din prima încercare. Pentru fonduri, asta înseamnă prudență față de activele locale sensibile la dobânzi și reglementare, iar expunerea regională și energetică rămâne vulnerabilă la un șoc suplimentar din Golful Persic."
   },
   "investmentFundSignals": [
     {
@@ -199,10 +231,10 @@
     {
       "id": "fonduri-regionale-europene",
       "label": "Fonduri regionale și europene",
-      "direction": "neutru",
-      "strength": 2,
+      "direction": "negativ",
+      "strength": 3,
       "horizon": "1–3 luni",
-      "rationale": "Contextul extern s-a relaxat marginal prin armistițiul din Levant, însă securitatea la Marea Neagră și bugetele europene de apărare rămân surse de volatilitate."
+      "rationale": "Armistițiul din Levant nu mai compensează complet riscul din jurul Hormuz, iar securitatea la Marea Neagră și bugetele europene de apărare rămân surse de volatilitate."
     }
   ],
   "indicators": [
@@ -320,9 +352,9 @@
     {
       "id": "securitate-regionala",
       "label": "Risc de securitate regională",
-      "score": 3,
+      "score": 4,
       "trend": "stabil",
-      "description": "Armistițiul din Levant ajută, dar incidentele maritime din Marea Neagră mențin costuri și percepții de risc regionale."
+      "description": "Armistițiul din Levant ajută doar parțial, deoarece amenințarea la Hormuz și incidentele maritime din Marea Neagră mențin costuri și percepții de risc regionale."
     },
     {
       "id": "active-locale",
@@ -360,18 +392,18 @@
     {
       "id": "armistitiu-si-maritim",
       "title": "Durabilitatea armistițiului și a securității maritime regionale",
-      "why": "Pentru energie și logistică nu contează doar anunțul armistițiului, ci și dacă nu apar noi incidente comerciale în Levant sau Marea Neagră.",
-      "trigger": "Confirmări că armistițiul rezistă și că nu apar noi incidente maritime cu impact comercial relevant.",
+      "why": "Pentru energie și logistică nu contează doar armistițiul din Levant, ci și dacă amenințarea la Hormuz se materializează și dacă IRGC rămâne capabil să capitalizeze economic acordul.",
+      "trigger": "Confirmări că traficul prin Hormuz rămâne deschis și că nu apar noi incidente maritime cu impact comercial relevant.",
       "status": "în așteptare",
-      "sourceUrl": "https://www.biziday.ro/361354-2/"
+      "sourceUrl": "https://www.biziday.ro/361447-2/"
     }
   ],
   "conclusion": {
     "title": "Weekendul decide mai întâi politica, apoi piața",
-    "body": "Tabloul de dimineață arată o Românie cu spațiu macro limitat și cu o criză politică împinsă într-un weekend de clarificare. Scenariul de bază rămâne o rezolvare incompletă sau întârziată, nu o ieșire ordonată din prima încercare. Relaxarea parțială a riscului energetic extern ajută, dar nu compensează incertitudinea internă privind majoritatea și calendarul de guvernare.",
+    "body": "Tabloul de dimineață arată o Românie cu spațiu macro limitat și cu o criză politică împinsă într-un weekend de clarificare. Scenariul de bază rămâne o rezolvare incompletă sau întârziată, nu o ieșire ordonată din prima încercare. Relaxarea parțială a riscului energetic extern este contrabalansată de amenințarea la Hormuz și de posibilul câștig economic al IRGC, ceea ce menține șocurile externe în zona de tail risk.",
     "actionPoints": [
       "Urmărește decizia PSD și congresul PNL din 21 iunie ca principale repere pentru majoritate.",
-      "Compară orice anunț despre votul de învestire cu mesajele despre deficit, taxe și continuitatea reformelor.",
+      "Monitorizează dacă apar confirmări despre traficul prin Hormuz și despre forma finală a acordului SUA-Iran.",
       "Folosește semnalele pentru fonduri doar ca evaluare de risc general, nu ca recomandări de tranzacționare."
     ]
   },
@@ -431,6 +463,34 @@
       "url": "https://www.biziday.ro/361354-2/",
       "type": "primary",
       "accessedAt": "2026-06-20T07:33:10+03:00"
+    },
+    {
+      "id": "biziday-hormuz",
+      "name": "Biziday — Iran amenință închiderea Strâmtorii Hormuz",
+      "url": "https://www.biziday.ro/361447-2/",
+      "type": "primary",
+      "accessedAt": "2026-06-20T22:33:42+03:00"
+    },
+    {
+      "id": "hotnews-hormuz",
+      "name": "HotNews — Iranul închide Strâmtoarea Hormuz",
+      "url": "https://hotnews.ro/witkoff-si-araqchi-au-plecat-spre-elvetia-dar-israelul-a-si-pus-in-pericol-negocierile-sua-iran-2278923",
+      "type": "secondary",
+      "accessedAt": "2026-06-20T22:33:42+03:00"
+    },
+    {
+      "id": "biziday-irgc-economy",
+      "name": "Biziday — IRGC și beneficiul economic al acordului SUA-Iran",
+      "url": "https://www.biziday.ro/361427-2/",
+      "type": "primary",
+      "accessedAt": "2026-06-20T22:33:42+03:00"
+    },
+    {
+      "id": "g4media-fund-300b",
+      "name": "G4Media — Reuters despre fondul de 300 de miliarde pentru Iran",
+      "url": "https://www.g4media.ro/reuters-acordul-sua-iran-include-un-fond-de-300-de-miliarde-de-dolari-pentru-investitii-in-economia-iraniana.html",
+      "type": "secondary",
+      "accessedAt": "2026-06-20T22:33:42+03:00"
     },
     {
       "id": "biziday-marea-neagra",
