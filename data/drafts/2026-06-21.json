@@ -1,9 +1,9 @@
 {
   "metadata": {
     "editionDate": "2026-06-21",
-    "updatedAt": "2026-06-21T17:32:49+03:00",
+    "updatedAt": "2026-06-21T22:33:06+03:00",
     "timezone": "Europe/Bucharest",
-    "title": "Congresul PNL închide rândurile anti-PSD, iar riscul extern pe energie și logistică rămâne ridicat",
+    "title": "PSD validează Guvernul Veștea, iar Bolojan propune un pact național pe PNRR",
     "status": "draft",
     "primarySource": "https://www.biziday.ro/",
     "sourceCoverage": "complete"
@@ -11,17 +11,17 @@
   "executiveSummary": [
     {
       "id": "bolojan-singur-candidat",
-      "text": "Ilie Bolojan conduce congresul PNL spre o linie explicit anti-PSD, iar votul care cere demisia liderilor considerați în afara disciplinei de partid întărește controlul intern fără să rezolve majoritatea parlamentară.",
+      "text": "Ilie Bolojan iese din congres consolidat și mută imediat miza spre un pact național pe PNRR, ceea ce mută discuția de la controlul intern al PNL la majoritate și disciplină guvernamentală.",
       "category": "Politică"
     },
     {
       "id": "ciucu-se-repliaza",
-      "text": "Retragerea lui Ciprian Ciucu din cursa pentru funcția de prim-vicepreședinte, pe fondul dosarului deschis de DNA, arată că repoziționarea internă din PNL continuă chiar înaintea votului politic decisiv.",
+      "text": "Retragerea lui Ciprian Ciucu din cursa pentru funcția de prim-vicepreședinte, pe fondul dosarului deschis de DNA, arată că repoziționarea internă din PNL continuă chiar și după clarificarea politică a zilei.",
       "category": "Justiție"
     },
     {
       "id": "psd-decizie-si-vestea",
-      "text": "PSD decide astăzi dacă susține Guvernul Veștea, iar Nicușor Dan spune în continuare că nu a primit nicio alternativă de majoritate mai credibilă decât formula deja pusă pe masă.",
+      "text": "PSD a decis să voteze Guvernul Veștea, iar prioritatea imediată devine calendarul audierilor și negocierea portofoliilor, nu doar simpla existență a unei majorități.",
       "category": "Politică"
     },
     {
@@ -72,17 +72,32 @@
       "confidence": "confirmed"
     },
     {
-      "id": "psd-decide-guvern-vestea",
-      "title": "PSD decide azi dacă susține sau nu Guvernul Veștea",
-      "fact": "Biziday arată că PSD a convocat pentru duminică, 21 iunie, Consiliul Politic Național care va decide dacă partidul susține sau nu Guvernul Veștea în Parlament, exact în ziua congresului extraordinar al PNL.",
-      "interpretation": "Decizia PSD rămâne principalul punct de blocaj al zilei, pentru că fără ea congresul PNL poate produce o conducere clară, dar nu și o majoritate clară.",
+      "id": "psd-voteaza-guvern-vestea",
+      "title": "PSD aprobă intrarea la guvernare și lista de miniștri",
+      "fact": "Biziday relatează că PSD a decis în unanimitate să voteze Guvernul Veștea și a propus opt miniștri, între care Marian Neacșu la Interne și vicepremier, Radu Marinescu la Justiție și Bogdan Ivan la Energie.",
+      "interpretation": "Decizia închide principalul blocaj politic al zilei și mută presiunea pe calendarul audierilor și pe validarea rapidă a aranjamentului parlamentar.",
       "category": "Politică",
       "impact": 5,
       "impactLabel": "Ridicat",
       "horizon": "Imediat",
-      "sourceId": "biziday-psd",
+      "sourceId": "biziday-psd-vote-guvern-vestea",
       "sourceName": "Biziday",
-      "sourceUrl": "https://www.biziday.ro/361260-2/",
+      "sourceUrl": "https://www.biziday.ro/361516-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "bolojan-pact-nacional-pnr",
+      "title": "Bolojan propune pact național pe PNRR",
+      "fact": "Biziday relatează că Ilie Bolojan propune un pact național prin care orice guvern să își asume reformele PNRR până la jumătatea lui iulie și disciplina bugetară, indiferent de formula executivă finală.",
+      "interpretation": "Asta mută miza de la împărțirea portofoliilor la angajamente concrete de guvernare și ține presiunea pe riscul fiscal și pe activele locale.",
+      "category": "Economie",
+      "impact": 5,
+      "impactLabel": "Ridicat",
+      "horizon": "1–3 luni",
+      "sourceId": "biziday-bolojan-pact-pnr",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/361518-2/",
       "isSecondary": true,
       "confidence": "confirmed"
     },
@@ -196,8 +211,9 @@
     "factBase": [
       "Biziday relatează că Ilie Bolojan este singurul candidat pentru șefia PNL și că congresul a votat solicitarea de demisie a liderilor considerați în afara disciplinei de partid.",
       "Ciprian Ciucu a anunțat că nu va candida pentru funcția de prim-vicepreședinte al PNL pe fondul dosarului penal deschis de DNA.",
-      "PSD a convocat pentru 21 iunie decizia privind susținerea sau respingerea Guvernului Veștea.",
-      "Nicușor Dan a declarat că menține varianta Veștea deoarece nu a primit o majoritate parlamentară alternativă clară.",
+      "PSD a decis să voteze Guvernul Veștea și a propus opt miniștri, inclusiv Marian Neacșu la Interne și vicepremier.",
+      "Ilie Bolojan propune un pact național pe PNRR și disciplina bugetară, astfel încât orice cabinet să își asume reformele până la jumătatea lui iulie.",
+      "Dacă președintele va opta pentru un guvern de centru-stânga, PNL spune că va vota învestirea și nu va depune moțiune de cenzură până la finalul anului; dacă va opta pentru centru-dreapta, PSD trebuie să acorde votul.",
       "Adrian Veștea a anunțat că nu mai candidează la șefia PNL și că ia în calcul contestarea congresului după votul de învestire.",
       "USR l-a reconfirmat în unanimitate pe Dominic Fritz după verdictul definitiv al Înaltei Curți.",
       "INS a raportat o rată anuală a inflației IPC de 10,9% în mai 2026.",
@@ -208,9 +224,9 @@
       "Biziday, citând Reuters, arată că IRGC poate beneficia economic din ridicarea sancțiunilor și dintr-un posibil fond de reconstrucție.",
       "Două nave comerciale au fost atacate de drone rusești în Marea Neagră și și-au reluat ulterior cursul."
     ],
-    "political": "PNL iese din congres mai disciplinat decât intra: votul care cere demisia liderilor ce au încălcat linia partidului și amenință cu excluderea orice membru care ar vota un guvern cu PSD reduce spațiul de manevră intern. Asta întărește mesajul politic al lui Bolojan, dar nu rezolvă automat aritmetica parlamentară, unde PSD rămâne pivotul decisiv și orice calendar de învestire rămâne vulnerabil la contestații sau la amânări.",
-    "economic": "Tabloul macro rămâne constrângător: inflația anuală de 10,9% și deficitul cash de 1,17% din PIB la patru luni înseamnă că noul executiv, dacă apare rapid, va intra cu spațiu fiscal și politic redus. Proiecția BNR de 5,5% la final de 2026 indică o dezinflație posibilă, dar condiționată de disciplină fiscală și de coerență politică. În extern, riscul energetic și logistic s-a extins: atacul asupra terminalului petrolier din Kerci și suspendarea carburanților în Crimeea se adaugă riscului de la Hormuz și incidentelor din Marea Neagră, menținând presiunea pe costuri și transport.",
-    "interpretation": "Scenariul de bază este o clarificare politică parțială, cu un PNL mai dur și mai coerent, dar fără garanția unei majorități stabile. Probabilitatea rămâne mai mare pentru negocieri suplimentare, calendar comprimat și reacții sensibile ale pieței locale la orice semnal despre majoritate, taxe și credibilitate fiscală. Pentru fonduri, mesajul util este de prudență generală față de activele locale sensibile la dobânzi și reglementare, în timp ce expunerea regională la energie și transport rămâne vulnerabilă la un nou șoc extern."
+    "political": "PNL iese din congres mai disciplinat decât intra, dar mesajul lui Bolojan a depășit rapid logica strict internă: pactul național mută discuția spre o majoritate verificabilă și spre condițiile de funcționare ale unui eventual cabinet. Confirmarea PSD că votează Guvernul Veștea reduce blocajul imediat, însă nu elimină riscul de amânări până la publicarea listei finale de miniștri și a calendarului de învestire.",
+    "economic": "Pentru piețe, efectul relevant este o mică reducere a riscului de blocaj politic, dar nu și a riscului fiscal: pactul propus de Bolojan pune PNRR și disciplina bugetară în centrul oricărei formule de guvernare, exact într-un context în care inflația și deficitul lasă puțin spațiu pentru improvizații. Asta ține presiunea pe activele locale sensibile la dobânzi și la taxare, chiar dacă o majoritate pare acum mai probabilă. În extern, riscurile de la Hormuz, Crimeea și Marea Neagră rămân separate, dar continuă să apese pe energie și transport.",
+    "interpretation": "Scenariul de bază s-a mutat de la blocaj la clarificare condiționată: există acum mai multă probabilitate pentru o formulă de guvernare funcțională, însă piața va testa imediat dacă majoritatea se traduce în reforme PNRR și disciplină bugetară. Pentru fonduri, semnalul politic pe termen scurt e ușor mai bun, dar activele locale rămân sensibile la orice diluare a pactului sau la amânarea învestirii."
   },
   "investmentFundSignals": [
     {
@@ -219,15 +235,15 @@
       "direction": "negativ",
       "strength": 4,
       "horizon": "1–3 luni",
-      "rationale": "Inflația încă ridicată, spațiul fiscal îngust și incertitudinea privind majoritatea pot menține prima de risc pe datoria locală."
+      "rationale": "Blocajul politic imediat s-a redus, dar pactul PNRR și disciplina bugetară rămân esențiale; fără ele, prima de risc pe datoria locală poate rămâne ridicată."
     },
     {
       "id": "actiuni-romania",
       "label": "Fonduri de acțiuni românești",
       "direction": "negativ",
-      "strength": 4,
+      "strength": 3,
       "horizon": "1–4 săptămâni",
-      "rationale": "Acțiunile locale rămân sensibile la orice semnal despre stabilitatea majorității, eventuale taxe noi și calendarul instalării guvernului."
+      "rationale": "Piața locală primește un mic sprijin din clarificarea majorității, însă rămâne sensibilă la taxare, la ritmul reformelor și la eventuale diluări ale pactului propus de Bolojan."
     },
     {
       "id": "fonduri-monetare",
@@ -293,16 +309,16 @@
     {
       "id": "politic",
       "label": "Risc politic",
-      "score": 5,
-      "trend": "în creștere",
-      "description": "Congresul PNL, votul pentru excluderea liderilor disidenți, decizia PSD și contestația evocată de Veștea lasă loc pentru noi amânări sau repoziționări rapide."
+      "score": 4,
+      "trend": "în scădere",
+      "description": "Decizia PSD de a susține Guvernul Veștea și pactul propus de Bolojan reduc riscul de blocaj imediat, dar majoritatea și calendarul de învestire rămân sensibile la negocieri și contestații."
     },
     {
       "id": "fiscal",
       "label": "Risc fiscal",
       "score": 4,
       "trend": "stabil",
-      "description": "Spațiul fiscal rămâne limitat, iar credibilitatea ajustării depinde de instalarea rapidă a unui guvern funcțional."
+      "description": "Spațiul fiscal rămâne limitat, iar credibilitatea ajustării depinde de un guvern care transformă rapid pactul PNRR în măsuri concrete."
     },
     {
       "id": "inflationist",
@@ -337,19 +353,19 @@
     },
     {
       "id": "pozitia-psd-guvern",
-      "title": "Decizia PSD privind votul pentru Guvernul Veștea",
-      "why": "Fără o poziție explicită a PSD, scenariul unei majorități funcționale rămâne incomplet confirmat.",
-      "trigger": "Comunicatul sau declarațiile oficiale de după Consiliul Politic Național al PSD.",
+      "title": "Formalizarea votului PSD pentru Guvernul Veștea",
+      "why": "Decizia a fost anunțată, dar piața urmărește dacă se traduce în votul de învestire, portofolii și calendarul parlamentar.",
+      "trigger": "Publicarea listei finale de miniștri și anunțul calendarului de audieri și vot.",
       "status": "în așteptare",
-      "sourceUrl": "https://www.biziday.ro/361260-2/"
+      "sourceUrl": "https://www.biziday.ro/361516-2/"
     },
     {
       "id": "calendar-investitura",
-      "title": "Calendarul audierilor și al votului de învestire",
-      "why": "După deciziile politice ale zilei, piața va urmări dacă apare imediat și un calendar parlamentar executabil.",
+      "title": "Calendarul audierilor și al învestirii",
+      "why": "După pactul propus de Bolojan, piața va urmări dacă Parlamentul fixează rapid un calendar executabil.",
       "trigger": "Anunț oficial privind audierile miniștrilor și votul de învestire în Parlament.",
       "status": "în așteptare",
-      "sourceUrl": "https://hotnews.ro/nicusor-dan-in-scurt-timp-declaratii-de-la-bruxelles-inainte-de-a-se-intoarce-in-tara-in-plina-criza-politica-2278204"
+      "sourceUrl": "https://hotnews.ro/pnl-ii-propune-lui-nicusor-dan-doua-solutii-la-criza-politica-conditiile-in-care-liberalii-sunt-dispusi-sa-revina-la-guvernare-2279751"
     },
     {
       "id": "hormuz-si-traficul",
@@ -361,12 +377,12 @@
     }
   ],
   "conclusion": {
-    "title": "PNL se disciplinează intern, dar majoritatea și energia rămân vulnerabile",
-    "body": "Votul de la congres arată un PNL mai compact pe linia anti-PSD și pune sub sancțiune liderii care ar împinge partidul spre o formulă cu PSD. Totuși, asta nu închide singur capitolul guvernării, iar atacul asupra infrastructurii petroliere rusești din Crimeea, alături de riscul de la Hormuz și Marea Neagră, păstrează presiunea pe energie și logistică.",
+    "title": "PSD clarifică majoritatea, iar testul devine pactul PNRR",
+    "body": "Decizia PSD de a vota Guvernul Veștea reduce blocajul imediat și mută presiunea pe calendarul audierilor, pe împărțirea portofoliilor și pe felul în care viitorul cabinet își asumă reformele PNRR. Riscul politic pe termen scurt scade ușor, dar riscul fiscal rămâne ridicat până când majoritatea se traduce în decizii concrete.",
     "actionPoints": [
-      "Urmărește dacă votul de excludere se transformă în demisii până luni la prânz.",
-      "Separă clar semnalul politic intern de decizia PSD asupra guvernului.",
-      "Ține cont că energia regională rămâne vulnerabilă și la șocuri din Crimeea, nu doar din Orientul Mijlociu."
+      "Urmărește calendarul audierilor și votului de învestire.",
+      "Verifică dacă pactul PNRR se traduce în angajamente explicite și măsuri bugetare.",
+      "Separă reducerea blocajului politic de riscurile fiscale care rămân."
     ]
   },
   "sources": [
@@ -404,6 +420,34 @@
       "url": "https://www.biziday.ro/361260-2/",
       "type": "primary",
       "accessedAt": "2026-06-21T07:37:00+03:00"
+    },
+    {
+      "id": "biziday-psd-vote-guvern-vestea",
+      "name": "Biziday — PSD votează Guvernul Veștea",
+      "url": "https://www.biziday.ro/361516-2/",
+      "type": "primary",
+      "accessedAt": "2026-06-21T22:33:06+03:00"
+    },
+    {
+      "id": "biziday-bolojan-pact-pnr",
+      "name": "Biziday — Bolojan propune pact național pe PNRR",
+      "url": "https://www.biziday.ro/361518-2/",
+      "type": "primary",
+      "accessedAt": "2026-06-21T22:33:06+03:00"
+    },
+    {
+      "id": "hotnews-psd-vote-guvern-vestea",
+      "name": "HotNews — PSD decide să intre la guvernare",
+      "url": "https://hotnews.ro/sedinta-decisiva-la-psd-daca-sustin-sau-nu-guvernul-vestea-social-democratii-pusi-in-fata-unor-decizii-strategice-2279178",
+      "type": "secondary",
+      "accessedAt": "2026-06-21T22:33:06+03:00"
+    },
+    {
+      "id": "hotnews-bolojan-pact-pnr",
+      "name": "HotNews — Bolojan vine cu două propuneri de guvern și cu un pact național",
+      "url": "https://hotnews.ro/pnl-ii-propune-lui-nicusor-dan-doua-solutii-la-criza-politica-conditiile-in-care-liberalii-sunt-dispusi-sa-revina-la-guvernare-2279751",
+      "type": "secondary",
+      "accessedAt": "2026-06-21T22:33:06+03:00"
     },
     {
       "id": "hotnews-nicusor-bruxelles",
