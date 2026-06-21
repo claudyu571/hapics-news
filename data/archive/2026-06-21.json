@@ -1,9 +1,9 @@
 {
   "metadata": {
     "editionDate": "2026-06-21",
-    "updatedAt": "2026-06-21T07:38:53+03:00",
+    "updatedAt": "2026-06-21T17:35:35+03:00",
     "timezone": "Europe/Bucharest",
-    "title": "Congresul PNL și decizia PSD comprimă fereastra pentru Guvernul Veștea, iar riscul extern rămâne pe energie",
+    "title": "Congresul PNL închide rândurile anti-PSD, iar riscul extern pe energie și logistică rămâne ridicat",
     "status": "published",
     "primarySource": "https://www.biziday.ro/",
     "sourceCoverage": "complete"
@@ -11,7 +11,7 @@
   "executiveSummary": [
     {
       "id": "bolojan-singur-candidat",
-      "text": "Ilie Bolojan intră în congresul PNL de azi ca unic candidat la șefia partidului și își fixează deja echipa de conducere, ceea ce consolidează formal controlul intern, dar nu clarifică automat majoritatea parlamentară.",
+      "text": "Ilie Bolojan conduce congresul PNL spre o linie explicit anti-PSD, iar votul care cere demisia liderilor considerați în afara disciplinei de partid întărește controlul intern fără să rezolve majoritatea parlamentară.",
       "category": "Politică"
     },
     {
@@ -26,7 +26,7 @@
     },
     {
       "id": "vestea-trece-la-procedura",
-      "text": "Adrian Veștea renunță la cursa internă împotriva lui Bolojan, dar mută conflictul spre contestarea congresului, ceea ce păstrează riscul unui calendar politic fragil chiar dacă PNL își formalizează conducerea.",
+      "text": "Adrian Veștea rămâne prins între retragerea din cursă și procedura de excludere votată de congres, ceea ce păstrează riscul unui calendar politic fragil chiar dacă PNL își formalizează conducerea.",
       "category": "Politică"
     },
     {
@@ -36,7 +36,7 @@
     },
     {
       "id": "energie-si-maritim",
-      "text": "Amenințarea Iranului privind Hormuz, analiza Reuters despre câștigul economic posibil al IRGC și atacul asupra navelor comerciale din Marea Neagră mențin riscul energetic și logistic regional ridicat, chiar dacă armistițiul Israel-Hezbollah reduce presiunea imediată.",
+      "text": "Atacul ucrainean asupra infrastructurii petroliere rusești din Crimeea, amenințarea Iranului privind Hormuz și atacul asupra navelor comerciale din Marea Neagră mențin riscul energetic și logistic regional ridicat, chiar dacă armistițiul Israel-Hezbollah reduce presiunea imediată.",
       "category": "Energie"
     }
   ],
@@ -53,6 +53,21 @@
       "sourceId": "biziday-bolojan-pnl",
       "sourceName": "Biziday",
       "sourceUrl": "https://www.biziday.ro/361454-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "pnl-voteaza-excluderi",
+      "title": "PNL aprobă excluderea liderilor care încalcă linia anti-PSD",
+      "fact": "Biziday relatează că congresul PNL a votat solicitarea de demisie a lui Lucian Bode, Rareș Bogdan, Adrian Veștea, Hubert Thuma și Alina Gorghiu până luni la prânz și că orice membru care ar vota sau susține un guvern cu PSD iese din linia politică stabilită de congres.",
+      "interpretation": "PNL nu doar își alege conducerea, ci și instituționalizează disciplina internă împotriva unei construcții cu PSD, ceea ce reduce spațiul de manevră pentru reveniri tactice ale liderilor conservatori.",
+      "category": "Politică",
+      "impact": 5,
+      "impactLabel": "Ridicat",
+      "horizon": "Imediat",
+      "sourceId": "biziday-pnl-excluderi",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/361495-2/",
       "isSecondary": true,
       "confidence": "confirmed"
     },
@@ -132,6 +147,21 @@
       "confidence": "confirmed"
     },
     {
+      "id": "ucraina-crimeea-logistica",
+      "title": "Atacul asupra Crimeei lovește logistica petrolieră rusă",
+      "fact": "Biziday arată că ucrainenii au lovit un terminal petrolier din Kerci și alte ținte din Crimeea ocupată, iar autoritățile ruse au închis Podul Kerci și au suspendat vânzarea de carburanți în peninsulă; Zelenski a spus că au fost vizate și ținte logistice și o rafinărie din Tiumen.",
+      "interpretation": "Lovitura întărește riscul de volatilitate pe carburanți și logistică regională, chiar dacă nu produce încă un blocaj larg și imediat al fluxurilor.",
+      "category": "Energie",
+      "impact": 4,
+      "impactLabel": "Semnificativ",
+      "horizon": "Imediat",
+      "sourceId": "biziday-crimeea-logistica",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/361483-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
       "id": "irgc-castig-economic",
       "title": "Reuters: IRGC poate fi principalul beneficiar economic al acordului cu SUA",
       "fact": "Biziday, citând Reuters, arată că ridicarea sancțiunilor și posibilul acces la un fond de reconstrucție de ordinul sutelor de miliarde de dolari pot direcționa resurse spre proiecte controlate de rețele economice asociate Gărzii Revoluționare iraniene.",
@@ -164,7 +194,7 @@
   ],
   "romaniaAnalysis": {
     "factBase": [
-      "Biziday relatează că Ilie Bolojan este singurul candidat pentru șefia PNL și și-a anunțat propunerile pentru conducerea partidului.",
+      "Biziday relatează că Ilie Bolojan este singurul candidat pentru șefia PNL și că congresul a votat solicitarea de demisie a liderilor considerați în afara disciplinei de partid.",
       "Ciprian Ciucu a anunțat că nu va candida pentru funcția de prim-vicepreședinte al PNL pe fondul dosarului penal deschis de DNA.",
       "PSD a convocat pentru 21 iunie decizia privind susținerea sau respingerea Guvernului Veștea.",
       "Nicușor Dan a declarat că menține varianta Veștea deoarece nu a primit o majoritate parlamentară alternativă clară.",
@@ -173,13 +203,14 @@
       "INS a raportat o rată anuală a inflației IPC de 10,9% în mai 2026.",
       "Ministerul Finanțelor a raportat un deficit bugetar cash de 1,17% din PIB la 30 aprilie 2026.",
       "BNR proiectează o rată anuală a inflației de 5,5% la finalul anului 2026 în Raportul asupra inflației din mai.",
+      "Biziday relatează că ucrainenii au atacat un terminal petrolier din Kerci, iar autoritățile ruse au suspendat traficul pe Podul Kerci și vânzarea de carburanți în Crimeea.",
       "Biziday relatează că Iranul a anunțat închiderea Strâmtorii Hormuz, în timp ce JD Vance spune că fluxurile rămân la niveluri normale și că negocierile continuă în Elveția.",
       "Biziday, citând Reuters, arată că IRGC poate beneficia economic din ridicarea sancțiunilor și dintr-un posibil fond de reconstrucție.",
       "Două nave comerciale au fost atacate de drone rusești în Marea Neagră și și-au reluat ulterior cursul."
     ],
-    "political": "Ziua de 21 iunie concentrează într-o singură fereastră atât clarificarea conducerii PNL, cât și probabilitatea unei clarificări despre majoritatea care ar putea susține Guvernul Veștea. Faptul că Bolojan merge fără concurență directă la congres reduce incertitudinea internă de formă, dar retragerea lui Ciucu și amenințarea lui Veștea cu o contestație arată că tensiunea procedurală nu a dispărut. Decizia PSD rămâne pivotul real al zilei, iar reconfirmarea lui Fritz stabilizează USR doar la nivel intern, nu și în aritmetica guvernamentală.",
-    "economic": "Tabloul macro rămâne constrângător: inflația anuală de 10,9% și deficitul cash de 1,17% din PIB la patru luni înseamnă că noul executiv, dacă apare rapid, va intra cu spațiu fiscal și politic redus. Proiecția BNR de 5,5% la final de 2026 indică o dezinflație posibilă, dar condiționată de disciplină fiscală și de coerență politică. În extern, riscul energetic și logistic nu s-a disipat: armistițiul Israel-Hezbollah ajută doar parțial, iar Hormuz plus incidentele din Marea Neagră mențin presiunea pe percepția de risc regional.",
-    "interpretation": "Scenariul de bază pentru dimineața aceasta este o clarificare politică parțială, nu o ieșire ordonată și completă din prima încercare. Probabilitatea rămâne mai mare pentru negocieri suplimentare, calendar comprimat și reacții sensibile ale pieței locale la orice semnal despre majoritate, taxe și credibilitate fiscală. Pentru fonduri, mesajul util este de prudență generală față de activele locale sensibile la dobânzi și reglementare, în timp ce expunerea regională la energie și transport rămâne vulnerabilă la un nou șoc extern."
+    "political": "PNL iese din congres mai disciplinat decât intra: votul care cere demisia liderilor ce au încălcat linia partidului și amenință cu excluderea orice membru care ar vota un guvern cu PSD reduce spațiul de manevră intern. Asta întărește mesajul politic al lui Bolojan, dar nu rezolvă automat aritmetica parlamentară, unde PSD rămâne pivotul decisiv și orice calendar de învestire rămâne vulnerabil la contestații sau la amânări.",
+    "economic": "Tabloul macro rămâne constrângător: inflația anuală de 10,9% și deficitul cash de 1,17% din PIB la patru luni înseamnă că noul executiv, dacă apare rapid, va intra cu spațiu fiscal și politic redus. Proiecția BNR de 5,5% la final de 2026 indică o dezinflație posibilă, dar condiționată de disciplină fiscală și de coerență politică. În extern, riscul energetic și logistic s-a extins: atacul asupra terminalului petrolier din Kerci și suspendarea carburanților în Crimeea se adaugă riscului de la Hormuz și incidentelor din Marea Neagră, menținând presiunea pe costuri și transport.",
+    "interpretation": "Scenariul de bază este o clarificare politică parțială, cu un PNL mai dur și mai coerent, dar fără garanția unei majorități stabile. Probabilitatea rămâne mai mare pentru negocieri suplimentare, calendar comprimat și reacții sensibile ale pieței locale la orice semnal despre majoritate, taxe și credibilitate fiscală. Pentru fonduri, mesajul util este de prudență generală față de activele locale sensibile la dobânzi și reglementare, în timp ce expunerea regională la energie și transport rămâne vulnerabilă la un nou șoc extern."
   },
   "investmentFundSignals": [
     {
@@ -220,7 +251,7 @@
       "direction": "negativ",
       "strength": 3,
       "horizon": "1–3 luni",
-      "rationale": "Hormuz, Marea Neagră și perspectiva consolidării economice a IRGC mențin volatilitatea regională ridicată chiar fără o întrerupere confirmată a fluxurilor."
+      "rationale": "Hormuz, Crimeea, Marea Neagră și perspectiva consolidării economice a IRGC mențin volatilitatea regională ridicată chiar fără o întrerupere confirmată a fluxurilor."
     }
   ],
   "indicators": [
@@ -319,7 +350,7 @@
       "label": "Risc politic",
       "score": 5,
       "trend": "în creștere",
-      "description": "Congresul PNL, decizia PSD și contestația evocată de Veștea lasă loc pentru noi amânări sau repoziționări rapide."
+      "description": "Congresul PNL, votul pentru excluderea liderilor disidenți, decizia PSD și contestația evocată de Veștea lasă loc pentru noi amânări sau repoziționări rapide."
     },
     {
       "id": "fiscal",
@@ -340,7 +371,7 @@
       "label": "Risc energetic și logistic",
       "score": 4,
       "trend": "în creștere",
-      "description": "Hormuz și incidentele maritime din Marea Neagră mențin riscul pe costuri, transport și sentiment regional."
+      "description": "Hormuz, atacul din Crimeea și incidentele maritime din Marea Neagră mențin riscul pe costuri, transport și sentiment regional."
     },
     {
       "id": "active-locale",
@@ -385,12 +416,12 @@
     }
   ],
   "conclusion": {
-    "title": "Ziua poate clarifica lideri, dar nu neapărat și majoritatea",
-    "body": "Dimineața de 21 iunie pornește cu un scenariu în care PNL își poate clarifica rapid conducerea, însă întrebarea relevantă pentru piață rămâne dacă această clarificare se transformă și într-o majoritate guvernamentală credibilă. Macro, România are puțin spațiu de absorbție pentru o nouă întârziere, iar externul nu oferă încă un fundal liniștit cât timp energia și logistica regională rămân expuse.",
+    "title": "PNL se disciplinează intern, dar majoritatea și energia rămân vulnerabile",
+    "body": "Votul de la congres arată un PNL mai compact pe linia anti-PSD și pune sub sancțiune liderii care ar împinge partidul spre o formulă cu PSD. Totuși, asta nu închide singur capitolul guvernării, iar atacul asupra infrastructurii petroliere rusești din Crimeea, alături de riscul de la Hormuz și Marea Neagră, păstrează presiunea pe energie și logistică.",
     "actionPoints": [
-      "Urmărește împreună rezultatul congresului PNL și decizia PSD, nu separat.",
-      "Caută confirmarea unui calendar parlamentar clar înainte să tratezi criza politică drept închisă.",
-      "Folosește semnalele pentru fonduri ca evaluare de risc general, nu ca recomandări de tranzacționare."
+      "Urmărește dacă votul de excludere se transformă în demisii până luni la prânz.",
+      "Separă clar semnalul politic intern de decizia PSD asupra guvernului.",
+      "Ține cont că energia regională rămâne vulnerabilă și la șocuri din Crimeea, nu doar din Orientul Mijlociu."
     ]
   },
   "sources": [
@@ -407,6 +438,13 @@
       "url": "https://www.biziday.ro/361454-2/",
       "type": "primary",
       "accessedAt": "2026-06-21T07:36:00+03:00"
+    },
+    {
+      "id": "biziday-pnl-excluderi",
+      "name": "Biziday — congresul PNL votează excluderea liderilor disidenți",
+      "url": "https://www.biziday.ro/361495-2/",
+      "type": "primary",
+      "accessedAt": "2026-06-21T17:32:49+03:00"
     },
     {
       "id": "biziday-ciucu-pnl",
@@ -470,6 +508,13 @@
       "url": "https://www.biziday.ro/361338-2/",
       "type": "primary",
       "accessedAt": "2026-06-21T07:40:00+03:00"
+    },
+    {
+      "id": "biziday-crimeea-logistica",
+      "name": "Biziday — atacul asupra Crimeei și logistica petrolieră rusă",
+      "url": "https://www.biziday.ro/361483-2/",
+      "type": "primary",
+      "accessedAt": "2026-06-21T17:32:49+03:00"
     },
     {
       "id": "ins-ipc",
