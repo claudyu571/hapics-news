@@ -1,7 +1,7 @@
 {
   "metadata": {
     "editionDate": "2026-06-22",
-    "updatedAt": "2026-06-22T07:36:58+03:00",
+    "updatedAt": "2026-06-22T12:39:16+03:00",
     "timezone": "Europe/Bucharest",
     "title": "PSD intră în Guvernul Veștea, dar PNL mută testul pe pactul PNRR",
     "status": "published",
@@ -35,8 +35,8 @@
       "category": "Energie"
     },
     {
-      "id": "starmer-adauga-incertitudine",
-      "text": "Financial Times indică faptul că Keir Starmer este aproape de a anunța un plan de retragere, semn că și alte piețe europene intră în săptămână cu instabilitate politică, nu doar România.",
+      "id": "risc-extern-energie-logistica",
+      "text": "Explozia de la Ras Laffan și atacul asupra navei Victress din Marea Neagră arată că riscul energetic și logistic extern a rămas ridicat, cu efecte directe asupra transportului și sentimentului de piață.",
       "category": "Extern"
     }
   ],
@@ -132,17 +132,32 @@
       "confidence": "confirmed"
     },
     {
-      "id": "starmer-aproape-de-retragere",
-      "title": "FT: Keir Starmer este aproape de a anunța o retragere ordonată",
-      "fact": "Financial Times notează că premierul britanic Keir Starmer este aproape de a anunța un plan de tranziție sau retragere, pe fondul presiunii din cabinet și al ascensiunii lui Andy Burnham după victoria din alegerile parțiale.",
-      "interpretation": "Nu este un risc direct pentru România, dar adaugă o sursă suplimentară de incertitudine politică europeană într-o săptămână deja încărcată de teme fiscale și energetice.",
-      "category": "Extern",
-      "impact": 3,
-      "impactLabel": "Moderat",
-      "horizon": "1–4 săptămâni",
-      "sourceId": "ft-starmer-retragere",
-      "sourceName": "Financial Times",
-      "sourceUrl": "https://www.ft.com/content/ed96e673-8d46-4dec-aebc-d69863b9e801",
+      "id": "qatar-ras-laffan-risc-energetic",
+      "title": "Explozia de la Ras Laffan reînscrie Qatarul în harta riscului energetic",
+      "fact": "QatarEnergy a confirmat un incident operațional la pornirea instalației Barzan din Ras Laffan, iar AP și autoritățile qatare raportează 54 de răniți și 18 dispăruți după explozia și incendiul de la terminalul LNG.",
+      "interpretation": "Chiar dacă autoritățile vorbesc despre un incident operațional și nu despre sabotaj, o avarie la un hub LNG major ridică imediat riscul pentru piețele de gaze și pentru lanțurile de aprovizionare.",
+      "category": "Energie",
+      "impact": 5,
+      "impactLabel": "Ridicat",
+      "horizon": "Imediat",
+      "sourceId": "ap-qatar-ras-laffan",
+      "sourceName": "AP",
+      "sourceUrl": "https://apnews.com/article/b8a36eea8889899b2fa499c5e247a08f",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "victress-black-sea-risc-transport",
+      "title": "Atacul asupra Victress confirmă vulnerabilitatea rutelor comerciale din Marea Neagră",
+      "fact": "Reuters a relatat că o navă cargo sub pavilion Panama, Victress, a fost lovită de o dronă rusă în Marea Neagră, cu incendiu la bord și victime în rândul echipajului, toate persoanele de la bord fiind evacuate.",
+      "interpretation": "Pentru România și pentru transportul regional, incidentul arată că riscul asupra rutelor civile rămâne activ și poate reveni rapid în prim-plan după orice nouă escaladare navală.",
+      "category": "Securitate",
+      "impact": 4,
+      "impactLabel": "Semnificativ",
+      "horizon": "Imediat",
+      "sourceId": "reuters-black-sea-victress",
+      "sourceName": "Reuters",
+      "sourceUrl": "https://x.com/ReutersWorld/status/2068192167172981026",
       "isSecondary": true,
       "confidence": "confirmed"
     }
@@ -156,11 +171,13 @@
       "Bolojan cere ca orice formulă de guvernare să își asume până la 15 iulie reformele PNRR și păstrarea echilibrelor bugetare.",
       "INS a raportat o rată anuală a inflației IPC de 10,9% în mai 2026.",
       "Ministerul Finanțelor a raportat un deficit bugetar cash de 1,17% din PIB la 30 aprilie 2026.",
-      "BNR proiectează o inflație de 5,5% la finalul anului 2026 în Raportul asupra inflației din mai."
+      "BNR proiectează o inflație de 5,5% la finalul anului 2026 în Raportul asupra inflației din mai.",
+      "QatarEnergy a confirmat un incident operațional la pornirea instalației Barzan din Ras Laffan, iar autoritățile qatare raportează 54 de răniți și 18 dispăruți.",
+      "Reuters a relatat un atac al unei drone ruse asupra navei Victress în Marea Neagră, cu incendiu la bord și victime în rândul echipajului, ca semn de vulnerabilitate continuă a rutelor civile."
     ],
     "political": "Politic, România iese din faza în care principalul risc era lipsa unei majorități aritmetice și intră într-o fază în care contează dacă majoritatea poate funcționa fără a produce o criză de legitimitate. Faptul că Veștea merge spre învestire fără susținerea formală a PNL arată că problema nu mai este doar cine votează, ci și cine își asumă coerent guvernarea după vot.",
-    "economic": "Economic, pactul propus de Bolojan este relevant tocmai pentru că spațiul de manevră este deja mic: inflația rămâne ridicată, deficitul nu lasă loc pentru improvizații fiscale, iar PNRR condiționează atât fluxurile de bani europeni, cât și credibilitatea disciplinei bugetare. Din acest motiv, piața va evalua noul cabinet mai ales prin execuție și calendar, nu prin retorica de stabilitate.",
-    "interpretation": "Interpretarea prudentă este că riscul politic imediat scade față de săptămâna trecută, dar nu suficient cât să reducă automat și riscul fiscal. Cel mai probabil scenariu pe termen scurt este o guvernare care poate fi învestită, dar care va trebui să-și câștige rapid credibilitatea prin asumarea reformelor PNRR, prin claritate pe buget și prin evitarea unui nou conflict deschis între Cotroceni, PSD și PNL."
+    "economic": "Economic, pactul propus de Bolojan este relevant tocmai pentru că spațiul de manevră este deja mic: inflația rămâne ridicată, deficitul nu lasă loc pentru improvizații fiscale, iar PNRR condiționează atât fluxurile de bani europeni, cât și credibilitatea disciplinei bugetare. În plus, incidentul din Qatar și atacul asupra Victress arată că șocurile externe de energie și transport pot reveni rapid în prețuri și în risc, chiar fără un blocaj formal de aprovizionare.",
+    "interpretation": "Interpretarea prudentă este că riscul politic imediat scade față de săptămâna trecută, dar nu suficient cât să reducă automat și riscul fiscal. Cel mai probabil scenariu pe termen scurt este o guvernare care poate fi învestită, dar care va trebui să-și câștige rapid credibilitatea prin asumarea reformelor PNRR, prin claritate pe buget și prin gestionarea unui mediu extern mai volatil pe energie și transport."
   },
   "investmentFundSignals": [
     {
@@ -201,7 +218,7 @@
       "direction": "negativ",
       "strength": 3,
       "horizon": "1–3 luni",
-      "rationale": "Negocierile fragile privind Hormuz și presiunea pe logistica din Marea Neagră pot menține volatilitatea ridicată chiar dacă nu apare un blocaj fizic de aprovizionare."
+      "rationale": "Negocierile fragile privind Hormuz, incidentul de la Ras Laffan și atacul asupra Victress în Marea Neagră pot menține volatilitatea ridicată chiar dacă nu apare un blocaj fizic de aprovizionare."
     }
   ],
   "indicators": [
@@ -252,7 +269,7 @@
     {
       "id": "bet",
       "label": "Indice BET",
-      "value": 30693.83,
+      "value": 30833.07,
       "unit": "puncte",
       "referenceDate": "2026-06-22",
       "sourceName": "BVB",
@@ -263,7 +280,7 @@
     {
       "id": "rotx",
       "label": "Indice ROTX",
-      "value": 69484.57,
+      "value": 69799.86,
       "unit": "puncte",
       "referenceDate": "2026-06-22",
       "sourceName": "BVB / Wiener Börse",
@@ -274,9 +291,9 @@
     {
       "id": "robor",
       "label": "ROBOR 3M",
-      "value": 5.83,
+      "value": 5.84,
       "unit": "%",
-      "referenceDate": "2026-06-19",
+      "referenceDate": "2026-06-22",
       "sourceName": "BNR",
       "sourceUrl": "https://www.bnr.ro/1074-baza-de-date-interactiva",
       "freshness": "current",
@@ -321,7 +338,7 @@
       "label": "Risc energetic și logistic",
       "score": 4,
       "trend": "în creștere",
-      "description": "Hormuz și infrastructura din jurul Crimeei rămân surse active de volatilitate pentru energie și transport."
+      "description": "Hormuz, incidentul de la Ras Laffan și atacurile din Marea Neagră rămân surse active de volatilitate pentru energie și transport."
     },
     {
       "id": "active-locale",
@@ -359,8 +376,8 @@
     {
       "id": "negocieri-sua-iran",
       "title": "Negocierile SUA-Iran și statutul coridorului Hormuz",
-      "why": "Pentru energie și sentimentul de risc contează dacă acordul provizoriu intră într-o fază mai stabilă sau revine spre escaladare.",
-      "trigger": "Comunicări noi din Elveția sau semne că traficul și costurile maritime se deteriorează din nou.",
+      "why": "Pentru energie și sentimentul de risc contează dacă acordul provizoriu intră într-o fază mai stabilă sau dacă incidente ca Ras Laffan și Victress reactivează volatilitatea globală.",
+      "trigger": "Comunicări noi din Elveția ori orice nou incident la un hub LNG sau pe rutele maritime din Marea Neagră.",
       "status": "în așteptare",
       "sourceUrl": "https://www.ft.com/content/c1014643-940c-4874-998a-0a52eb517c49"
     }
@@ -371,7 +388,8 @@
     "actionPoints": [
       "Urmărește calendarul audierilor și votului de învestire.",
       "Verifică dacă reformele PNRR primesc un termen și o asumare explicită.",
-      "Separă clar reducerea riscului politic imediat de riscul fiscal care rămâne ridicat."
+      "Separă clar reducerea riscului politic imediat de riscul fiscal care rămâne ridicat.",
+      "Ține cont că energia și transportul rămân vulnerabile la noi șocuri externe."
     ]
   },
   "sources": [
@@ -446,18 +464,32 @@
       "accessedAt": "2026-06-22T07:23:00+03:00"
     },
     {
-      "id": "ft-starmer-retragere",
-      "name": "Financial Times — Keir Starmer on brink of quitting as UK prime minister",
-      "url": "https://www.ft.com/content/ed96e673-8d46-4dec-aebc-d69863b9e801",
-      "type": "secondary",
-      "accessedAt": "2026-06-22T07:24:00+03:00"
-    },
-    {
       "id": "ins-ipc",
       "name": "INS — IPC mai 2026",
       "url": "https://insse.ro/cms/sites/default/files/com_presa/com_pdf/ipc05r26_0.pdf",
       "type": "official",
       "accessedAt": "2026-06-22T07:15:00+03:00"
+    },
+    {
+      "id": "qatarenergy-ras-laffan",
+      "name": "QatarEnergy — Operational Incident at Ras Laffan Industrial City",
+      "url": "https://www.qatarenergy.qa/en/Pages/vHome.aspx",
+      "type": "official",
+      "accessedAt": "2026-06-22T12:35:58+03:00"
+    },
+    {
+      "id": "ap-qatar-ras-laffan",
+      "name": "AP — Explosion as Qatar restarts gas export terminal hurts 54 and leaves 18 missing",
+      "url": "https://apnews.com/article/b8a36eea8889899b2fa499c5e247a08f",
+      "type": "secondary",
+      "accessedAt": "2026-06-22T12:35:58+03:00"
+    },
+    {
+      "id": "reuters-black-sea-victress",
+      "name": "Reuters — Drone attack on Panama-flagged ship in Black Sea kills 1, injures 2",
+      "url": "https://x.com/ReutersWorld/status/2068192167172981026",
+      "type": "secondary",
+      "accessedAt": "2026-06-22T12:35:58+03:00"
     },
     {
       "id": "mfin-deficit",
