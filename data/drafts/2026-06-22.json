@@ -1,7 +1,7 @@
 {
   "metadata": {
     "editionDate": "2026-06-22",
-    "updatedAt": "2026-06-22T17:33:11+03:00",
+    "updatedAt": "2026-06-22T22:34:09+03:00",
     "timezone": "Europe/Bucharest",
     "title": "PSD intră în Guvernul Veștea, dar PNL mută testul pe pactul PNRR",
     "status": "draft",
@@ -330,9 +330,9 @@
   ],
   "conclusion": {
     "title": "Majoritatea se vede, credibilitatea încă trebuie câștigată",
-    "body": "România începe săptămâna cu o ieșire parțială din blocajul politic, dar nu și cu o rezolvare completă a riscului fiscal și instituțional. Dacă Guvernul Veștea trece de Parlament, testul real va fi rapiditatea cu care își asumă reformele PNRR și felul în care dovedește că are o majoritate funcțională, nu doar una de conjunctură. Pe extern, foaia de parcurs SUA-Iran scade riscul imediat pe energie, dar nu îl elimină: Libanul și Hormuz rămân testul pentru cât de reală este de-escaladarea.",
+    "body": "România intră în votul de învestire cu o majoritate încă fragilă: ședința a început, dar semnalul politic rămâne că sprijinul final trebuie încă testat în plen, nu doar negociat în public. Dacă Guvernul Veștea trece, testul imediat va fi nu doar reformele PNRR, ci și capacitatea de a păstra o majoritate funcțională după vot, nu doar înaintea lui. Pe extern, foaia de parcurs SUA-Iran scade riscul imediat pe energie, dar nu îl elimină: Libanul și Hormuz rămân testul pentru cât de reală este de-escaladarea.",
     "actionPoints": [
-      "Urmărește calendarul audierilor și votului de învestire.",
+      "Urmărește numărul final de voturi și dacă învestirea trece pragul de 233.",
       "Verifică dacă reformele PNRR primesc un termen și o asumare explicită.",
       "Separă clar reducerea riscului politic imediat de riscul fiscal care rămâne ridicat.",
       "Ține cont că de-escaladarea pe Hormuz e reală, dar încă fragilă, iar Marea Neagră rămâne o sursă separată de risc."
@@ -415,6 +415,13 @@
       "url": "https://www.biziday.ro/361574-2/",
       "type": "secondary",
       "accessedAt": "2026-06-22T17:33:11+03:00"
+    },
+    {
+      "id": "biziday-vot-guvern-vestea",
+      "name": "Biziday — votul pentru Guvernul Veștea a început",
+      "url": "https://www.biziday.ro/361618-2/",
+      "type": "primary",
+      "accessedAt": "2026-06-22T22:34:09+03:00"
     },
     {
       "id": "ins-ipc",
