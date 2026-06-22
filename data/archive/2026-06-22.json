@@ -1,7 +1,7 @@
 {
   "metadata": {
     "editionDate": "2026-06-22",
-    "updatedAt": "2026-06-22T12:39:16+03:00",
+    "updatedAt": "2026-06-22T17:35:38+03:00",
     "timezone": "Europe/Bucharest",
     "title": "PSD intră în Guvernul Veștea, dar PNL mută testul pe pactul PNRR",
     "status": "published",
@@ -31,7 +31,7 @@
     },
     {
       "id": "energie-risc-inca-ridicat",
-      "text": "Negocierile tensionate SUA-Iran pentru stabilizarea acordului privind Hormuz și atacul ucrainean asupra infrastructurii petroliere din Crimeea mențin riscul energetic și logistic regional peste nivelul normal, chiar fără un șoc confirmat de aprovizionare.",
+      "text": "Biziday, citând Reuters, spune că SUA și Iran au agreat o foaie de parcurs pe 60 de zile, un canal de comunicație pentru Hormuz și un mecanism de încetare a luptelor în Liban, ceea ce reduce riscul unui șoc energetic imediat, dar nu îl închide.",
       "category": "Energie"
     },
     {
@@ -103,16 +103,16 @@
     },
     {
       "id": "sua-iran-discutii-hormuz",
-      "title": "SUA și Iranul poartă negocieri tensionate pentru stabilizarea acordului privind Hormuz",
-      "fact": "Financial Times scrie că SUA și Iranul au avut în Elveția negocieri tensionate pentru a transforma acordul provizoriu de redeschidere a Strâmtorii Hormuz într-un aranjament mai durabil, în timp ce loviturile israeliene asupra Hezbollah au complicat discuțiile.",
-      "interpretation": "Pentru piețe contează că riscul energetic global nu a dispărut, ci doar a trecut din faza de șoc imediat în faza de negociere instabilă, cu volatilitate încă probabilă pe transport și petrol.",
+      "title": "SUA și Iranul au agreat o foaie de parcurs și un canal pentru Hormuz",
+      "fact": "Biziday, citând Reuters, spune că mediatorii din Qatar și Pakistan au anunțat o foaie de parcurs pe 60 de zile către un acord final, un mecanism de încetare a luptelor în Liban și o linie de comunicație pentru trecerea în siguranță a navelor prin Strâmtoarea Hormuz, în timp ce discuțiile tehnice continuă.",
+      "interpretation": "Pentru piețe, asta reduce riscul unui șoc energetic imediat și confirmă o de-escaladare inițială, dar volatilitatea rămâne ridicată cât timp Libanul și Hormuz sunt încă puncte de test.",
       "category": "Energie",
-      "impact": 4,
-      "impactLabel": "Semnificativ",
+      "impact": 5,
+      "impactLabel": "Ridicat",
       "horizon": "Imediat",
-      "sourceId": "ft-sua-iran-hormuz",
-      "sourceName": "Financial Times",
-      "sourceUrl": "https://www.ft.com/content/c1014643-940c-4874-998a-0a52eb517c49",
+      "sourceId": "biziday-sua-iran-foaie-parcurs",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/361574-2/",
       "isSecondary": true,
       "confidence": "confirmed"
     },
@@ -172,11 +172,12 @@
       "INS a raportat o rată anuală a inflației IPC de 10,9% în mai 2026.",
       "Ministerul Finanțelor a raportat un deficit bugetar cash de 1,17% din PIB la 30 aprilie 2026.",
       "BNR proiectează o inflație de 5,5% la finalul anului 2026 în Raportul asupra inflației din mai.",
+      "Biziday, citând Reuters, spune că SUA și Iran au agreat o foaie de parcurs pe 60 de zile și un canal de comunicație pentru Hormuz, ceea ce reduce riscul unui șoc energetic imediat.",
       "QatarEnergy a confirmat un incident operațional la pornirea instalației Barzan din Ras Laffan, iar autoritățile qatare raportează 54 de răniți și 18 dispăruți.",
       "Reuters a relatat un atac al unei drone ruse asupra navei Victress în Marea Neagră, cu incendiu la bord și victime în rândul echipajului, ca semn de vulnerabilitate continuă a rutelor civile."
     ],
     "political": "Politic, România iese din faza în care principalul risc era lipsa unei majorități aritmetice și intră într-o fază în care contează dacă majoritatea poate funcționa fără a produce o criză de legitimitate. Faptul că Veștea merge spre învestire fără susținerea formală a PNL arată că problema nu mai este doar cine votează, ci și cine își asumă coerent guvernarea după vot.",
-    "economic": "Economic, pactul propus de Bolojan este relevant tocmai pentru că spațiul de manevră este deja mic: inflația rămâne ridicată, deficitul nu lasă loc pentru improvizații fiscale, iar PNRR condiționează atât fluxurile de bani europeni, cât și credibilitatea disciplinei bugetare. În plus, incidentul din Qatar și atacul asupra Victress arată că șocurile externe de energie și transport pot reveni rapid în prețuri și în risc, chiar fără un blocaj formal de aprovizionare.",
+    "economic": "Economic, pactul propus de Bolojan este relevant tocmai pentru că spațiul de manevră este deja mic: inflația rămâne ridicată, deficitul nu lasă loc pentru improvizații fiscale, iar PNRR condiționează atât fluxurile de bani europeni, cât și credibilitatea disciplinei bugetare. În plus, foaia de parcurs SUA-Iran reduce presiunea imediată pe energie și transport, dar nu elimină riscul: Libanul și Hormuz rămân puncte de stres, iar incidentul din Qatar și atacul asupra Victress arată că lanțurile de aprovizionare pot fi perturbate rapid.",
     "interpretation": "Interpretarea prudentă este că riscul politic imediat scade față de săptămâna trecută, dar nu suficient cât să reducă automat și riscul fiscal. Cel mai probabil scenariu pe termen scurt este o guvernare care poate fi învestită, dar care va trebui să-și câștige rapid credibilitatea prin asumarea reformelor PNRR, prin claritate pe buget și prin gestionarea unui mediu extern mai volatil pe energie și transport."
   },
   "investmentFundSignals": [
@@ -216,9 +217,9 @@
       "id": "fonduri-regionale-energie",
       "label": "Fonduri regionale și de energie",
       "direction": "negativ",
-      "strength": 3,
+      "strength": 2,
       "horizon": "1–3 luni",
-      "rationale": "Negocierile fragile privind Hormuz, incidentul de la Ras Laffan și atacul asupra Victress în Marea Neagră pot menține volatilitatea ridicată chiar dacă nu apare un blocaj fizic de aprovizionare."
+      "rationale": "Foaia de parcurs SUA-Iran taie din riscul de șoc în Hormuz, dar Ras Laffan și Marea Neagră încă țin volatilitatea peste medie."
     }
   ],
   "indicators": [
@@ -258,9 +259,9 @@
     {
       "id": "eur-ron",
       "label": "EUR/RON",
-      "value": 5.2391,
+      "value": 5.2386,
       "unit": "lei",
-      "referenceDate": "2026-06-19",
+      "referenceDate": "2026-06-22",
       "sourceName": "BNR",
       "sourceUrl": "https://www.bnr.ro/nbrfxrates.xml",
       "freshness": "current",
@@ -269,7 +270,7 @@
     {
       "id": "bet",
       "label": "Indice BET",
-      "value": 30833.07,
+      "value": 30865.66,
       "unit": "puncte",
       "referenceDate": "2026-06-22",
       "sourceName": "BVB",
@@ -280,7 +281,7 @@
     {
       "id": "rotx",
       "label": "Indice ROTX",
-      "value": 69799.86,
+      "value": 69845.16,
       "unit": "puncte",
       "referenceDate": "2026-06-22",
       "sourceName": "BVB / Wiener Börse",
@@ -337,8 +338,8 @@
       "id": "energie-logistica",
       "label": "Risc energetic și logistic",
       "score": 4,
-      "trend": "în creștere",
-      "description": "Hormuz, incidentul de la Ras Laffan și atacurile din Marea Neagră rămân surse active de volatilitate pentru energie și transport."
+      "trend": "stabil",
+      "description": "Foaia de parcurs SUA-Iran reduce riscul unui șoc imediat în Hormuz, dar Ras Laffan și Marea Neagră mențin volatilitatea peste nivelul normal."
     },
     {
       "id": "active-locale",
@@ -376,20 +377,20 @@
     {
       "id": "negocieri-sua-iran",
       "title": "Negocierile SUA-Iran și statutul coridorului Hormuz",
-      "why": "Pentru energie și sentimentul de risc contează dacă acordul provizoriu intră într-o fază mai stabilă sau dacă incidente ca Ras Laffan și Victress reactivează volatilitatea globală.",
-      "trigger": "Comunicări noi din Elveția ori orice nou incident la un hub LNG sau pe rutele maritime din Marea Neagră.",
+      "why": "Pentru energie și sentimentul de risc contează dacă foaia de parcurs SUA-Iran devine acord scris și dacă mecanismul pentru Hormuz/Liban rezistă.",
+      "trigger": "Confirmarea Reuters/mediatorilor că măsurile de de-escaladare se aplică sau orice revenire la închiderea Strâmtorii Hormuz.",
       "status": "în așteptare",
-      "sourceUrl": "https://www.ft.com/content/c1014643-940c-4874-998a-0a52eb517c49"
+      "sourceUrl": "https://www.biziday.ro/361574-2/"
     }
   ],
   "conclusion": {
     "title": "Majoritatea se vede, credibilitatea încă trebuie câștigată",
-    "body": "România începe săptămâna cu o ieșire parțială din blocajul politic, dar nu și cu o rezolvare completă a riscului fiscal și instituțional. Dacă Guvernul Veștea trece de Parlament, testul real va fi rapiditatea cu care își asumă reformele PNRR și felul în care dovedește că are o majoritate funcțională, nu doar una de conjunctură.",
+    "body": "România începe săptămâna cu o ieșire parțială din blocajul politic, dar nu și cu o rezolvare completă a riscului fiscal și instituțional. Dacă Guvernul Veștea trece de Parlament, testul real va fi rapiditatea cu care își asumă reformele PNRR și felul în care dovedește că are o majoritate funcțională, nu doar una de conjunctură. Pe extern, foaia de parcurs SUA-Iran scade riscul imediat pe energie, dar nu îl elimină: Libanul și Hormuz rămân testul pentru cât de reală este de-escaladarea.",
     "actionPoints": [
       "Urmărește calendarul audierilor și votului de învestire.",
       "Verifică dacă reformele PNRR primesc un termen și o asumare explicită.",
       "Separă clar reducerea riscului politic imediat de riscul fiscal care rămâne ridicat.",
-      "Ține cont că energia și transportul rămân vulnerabile la noi șocuri externe."
+      "Ține cont că de-escaladarea pe Hormuz e reală, dar încă fragilă, iar Marea Neagră rămâne o sursă separată de risc."
     ]
   },
   "sources": [
@@ -462,6 +463,13 @@
       "url": "https://www.ft.com/content/c1014643-940c-4874-998a-0a52eb517c49",
       "type": "secondary",
       "accessedAt": "2026-06-22T07:23:00+03:00"
+    },
+    {
+      "id": "biziday-sua-iran-foaie-parcurs",
+      "name": "Biziday — foaie de parcurs SUA-Iran și canal Hormuz",
+      "url": "https://www.biziday.ro/361574-2/",
+      "type": "secondary",
+      "accessedAt": "2026-06-22T17:33:11+03:00"
     },
     {
       "id": "ins-ipc",
