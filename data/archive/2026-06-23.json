@@ -1,7 +1,7 @@
 {
   "metadata": {
     "editionDate": "2026-06-23",
-    "updatedAt": "2026-06-23T12:34:34+03:00",
+    "updatedAt": "2026-06-23T23:42:17+03:00",
     "timezone": "Europe/Bucharest",
     "title": "Cabinetul Veștea cade, iar testul se mută pe consultări, PNRR și riscul extern",
     "status": "published",
@@ -18,6 +18,11 @@
       "id": "testul-se-muta-pe-pnrr",
       "text": "După eșecul de învestire, condiția relevantă pentru piețe nu mai este doar numele viitorului premier, ci existența unui acord politic care să lege rapid noul guvern de reformele PNRR și de disciplina bugetară.",
       "category": "Economie"
+    },
+    {
+      "id": "pnl-intra-in-disciplinare-interna",
+      "text": "PNL nu trece încă la excluderi, dar schimbă conducerile celor 12 filiale care au lipsit de la congres, semn că partidul își disciplinează intern tabăra care a mers cu PSD și lasă deschisă perspectiva unei realinieri mai dure.",
+      "category": "Politică"
     },
     {
       "id": "macro-ramane-strans",
@@ -83,6 +88,21 @@
       "sourceId": "hotnews-bolojan-pact",
       "sourceName": "HotNews",
       "sourceUrl": "https://hotnews.ro/pnl-ii-propune-lui-nicusor-dan-doua-solutii-la-criza-politica-conditiile-in-care-liberalii-sunt-dispusi-sa-revina-la-guvernare-2279751",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "pnl-disciplineaza-filialele",
+      "title": "PNL disciplinează filialele care au lipsit de la congres",
+      "fact": "Biziday scrie că Ilie Bolojan nu îi exclude deocamdată pe cei care l-au susținut pe Veștea și s-au aliat cu PSD, dar partidul a decis să schimbe conducerile celor 12 filiale județene care nu s-au prezentat la congresul de duminică.",
+      "interpretation": "Măsura confirmă că PNL trece de la avertisment la disciplinare internă, iar orice excluderi ulterioare ar deveni un semnal direct pentru geometria viitoarei majorități.",
+      "category": "Politică",
+      "impact": 4,
+      "impactLabel": "Semnificativ",
+      "horizon": "Imediat",
+      "sourceId": "biziday-pnl-discipline-filiale",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/361739-2/",
       "isSecondary": true,
       "confidence": "confirmed"
     },
@@ -153,6 +173,7 @@
       "Administrația Prezidențială a anunțat consultări pe 23 iunie 2026 pentru desemnarea candidatului la funcția de premier, după respingerea Cabinetului Veștea.",
       "HotNews arată că PNL condiționează orice nouă formulă guvernamentală de asumarea până la 15 iulie a reformelor restante din PNRR.",
       "Aceeași poziție leagă stabilitatea politică de păstrarea echilibrelor bugetare și de evitarea corecțiilor de peste un miliard de euro din PNRR.",
+      "Biziday scrie că PNL schimbă conducerile celor 12 filiale care au lipsit de la congres, fără să treacă încă la excluderi pentru susținătorii lui Veștea.",
       "INS a raportat o inflație anuală IPC de 10,9% în mai 2026.",
       "Ministerul Finanțelor a raportat un deficit bugetar cash de 1,17% din PIB la 30 aprilie 2026.",
       "BNR proiectează o inflație de 5,5% la finalul lui 2026 în Raportul asupra inflației din mai.",
@@ -160,9 +181,9 @@
       "Digi24 confirmă că un cargou civil a fost lovit de o dronă rusească în Marea Neagră, cu un mort și opt marinari salvați.",
       "Biziday semnalează că Moldova și Ucraina pot avansa separat în negocierile de aderare la UE, în funcție de ritmul reformelor."
     ],
-    "political": "Politic, România intră într-o etapă mai incomodă decât cea de dinaintea votului: nu mai este suficientă găsirea unei combinații de voturi, ci devine esențială construirea unei formule care poate guverna fără să se prăbușească la primul test bugetar. Respingerea cabinetului arată că o majoritate ad-hoc este mai volatilă decât părea, iar consultările anunțate pentru astăzi mută presiunea pe rapiditatea și credibilitatea unei noi nominalizări.",
+    "political": "Politic, România intră într-o etapă mai incomodă decât cea de dinaintea votului: nu mai este suficientă găsirea unei combinații de voturi, ci devine esențială construirea unei formule care poate guverna fără să se prăbușească la primul test bugetar. Respingerea cabinetului arată că o majoritate ad-hoc este mai volatilă decât părea, iar consultările anunțate pentru astăzi mută presiunea pe rapiditatea și credibilitatea unei noi nominalizări. Mișcarea PNL de a schimba conducerile celor 12 filiale care au lipsit de la congres arată că partidul încearcă să își închidă conflictul intern înainte de negocierea unei noi formule.",
     "economic": "Economic, spațiul de manevră rămâne mic. Inflația este încă în două cifre, deficitul cash deja consumă spațiu fiscal, iar PNRR impune jaloane și limite care pot produce costuri directe dacă sunt ratate. În plus, de-escaladarea parțială din jurul Hormuz și incidentul din Marea Neagră arată că România navighează simultan un risc intern de guvernare și un risc extern de energie și logistică.",
-    "interpretation": "Interpretarea prudentă este că riscul politic imediat a crescut din nou, iar riscul fiscal nu poate scădea înainte ca viitorul cabinet să își asume explicit reformele și disciplina bugetară. Scenariul mai probabil pe termen scurt rămâne formarea unei formule minoritare sau fragile, susținute condiționat, iar faptul că consultările au fost deja programate reduce doar incertitudinea procedurală, nu și riscul de fond."
+    "interpretation": "Interpretarea prudentă este că riscul politic imediat a crescut din nou, iar riscul fiscal nu poate scădea înainte ca viitorul cabinet să își asume explicit reformele și disciplina bugetară. Scenariul mai probabil pe termen scurt rămâne formarea unei formule minoritare sau fragile, susținute condiționat, iar disciplina internă pe care PNL încearcă să o impună reduce doar parțial incertitudinea, nu și riscul de fond."
   },
   "investmentFundSignals": [
     {
@@ -243,9 +264,9 @@
     {
       "id": "eur-ron",
       "label": "EUR/RON",
-      "value": 5.2386,
+      "value": 5.246,
       "unit": "lei",
-      "referenceDate": "2026-06-22",
+      "referenceDate": "2026-06-23",
       "sourceName": "BNR",
       "sourceUrl": "https://www.bnr.ro/nbrfxrates.xml",
       "freshness": "current",
@@ -254,7 +275,7 @@
     {
       "id": "bet",
       "label": "Indice BET",
-      "value": 30804.32,
+      "value": 31015.83,
       "unit": "puncte",
       "referenceDate": "2026-06-23",
       "sourceName": "BVB",
@@ -265,7 +286,7 @@
     {
       "id": "rotx",
       "label": "Indice ROTX",
-      "value": 69725.01,
+      "value": 70217.27,
       "unit": "puncte",
       "referenceDate": "2026-06-23",
       "sourceName": "BVB / Wiener Börse",
@@ -302,7 +323,7 @@
       "label": "Risc politic intern",
       "score": 5,
       "trend": "în creștere",
-      "description": "Respingerea cabinetului prelungește incertitudinea și împinge soluția înapoi la consultări."
+      "description": "Respingerea cabinetului prelungește incertitudinea, iar disciplina internă impusă de PNL arată că negocierile intră într-o fază mai dură."
     },
     {
       "id": "risc-fiscal",
@@ -354,18 +375,19 @@
     {
       "id": "pnl-excluderi-si-realiniere",
       "title": "Realinierea internă din PNL după eșecul Veștea",
-      "why": "Modul în care PNL își închide conflictul intern va conta pentru orice formulă minoritară viitoare.",
+      "why": "Schimbarea conducerilor a 12 filiale arată că PNL intră în disciplinare internă; dacă urmează și excluderi, geometria viitoarei majorități se poate schimba.",
       "trigger": "Decizii oficiale privind excluderi, susținerea unui nou premier și mandatul de negociere.",
       "status": "în așteptare",
-      "sourceUrl": "https://www.g4media.ro/"
+      "sourceUrl": "https://www.biziday.ro/361739-2/"
     }
   ],
   "conclusion": {
     "title": "Criza intră într-o fază mai puțin spectaculoasă, dar mai importantă",
-    "body": "Respingerea Cabinetului Veștea nu produce singură un șoc economic nou, dar prelungește exact tipul de incertitudine care apasă cel mai mult pe costul finanțării și pe credibilitatea României în raport cu PNRR. Anunțul consultărilor de astăzi clarifică traseul procedural, însă nu rezolvă întrebarea esențială despre cât de repede poate apărea un cabinet capabil să treacă testul bugetar. În paralel, mediul extern oferă doar o ușurare parțială pe energie și păstrează deschise riscurile logistice și geopolitice relevante pentru regiune.",
+    "body": "Respingerea Cabinetului Veștea nu produce singură un șoc economic nou, dar prelungește exact tipul de incertitudine care apasă cel mai mult pe costul finanțării și pe credibilitatea României în raport cu PNRR. Anunțul consultărilor de astăzi clarifică traseul procedural, însă nu rezolvă întrebarea esențială despre cât de repede poate apărea un cabinet capabil să treacă testul bugetar. În paralel, PNL arată că își strânge rândurile intern, dar asta ține mai degrabă de disciplinare decât de o soluție guvernamentală complet stabilă. Mediul extern oferă doar o ușurare parțială pe energie și păstrează deschise riscurile logistice și geopolitice relevante pentru regiune.",
     "actionPoints": [
       "Urmărește dacă consultările de astăzi produc rapid o nominalizare de premier.",
       "Separă majoritatea de vot de capacitatea reală de a livra reforme PNRR.",
+      "Monitorizează dacă disciplina internă din PNL se transformă în excluderi sau doar în avertismente.",
       "Monitorizează dacă detensionarea din Hormuz se confirmă în fluxuri logistice normale."
     ]
   },
@@ -390,6 +412,13 @@
       "url": "https://www.biziday.ro/361674-2/",
       "type": "primary",
       "accessedAt": "2026-06-23T12:33:36+03:00"
+    },
+    {
+      "id": "biziday-pnl-discipline-filiale",
+      "name": "Biziday — Bolojan nu îi dă afară din PNL, dar schimbă conducerile a 12 filiale",
+      "url": "https://www.biziday.ro/361739-2/",
+      "type": "primary",
+      "accessedAt": "2026-06-23T23:24:21+03:00"
     },
     {
       "id": "hotnews-vot-guvern-vestea",
