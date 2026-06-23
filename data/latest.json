@@ -1,7 +1,7 @@
 {
   "metadata": {
     "editionDate": "2026-06-23",
-    "updatedAt": "2026-06-23T07:37:02+03:00",
+    "updatedAt": "2026-06-23T12:34:34+03:00",
     "timezone": "Europe/Bucharest",
     "title": "Cabinetul Veștea cade, iar testul se mută pe consultări, PNRR și riscul extern",
     "status": "published",
@@ -11,7 +11,7 @@
   "executiveSummary": [
     {
       "id": "cabinet-vestea-respins",
-      "text": "Parlamentul a respins Cabinetul Veștea cu doar 189 de voturi pentru, sub pragul de 233, iar riscul dominant pentru România revine de la aritmetica votului la durata și rezultatul noilor consultări prezidențiale.",
+      "text": "Parlamentul a respins Cabinetul Veștea cu doar 189 de voturi pentru, sub pragul de 233, iar Cotroceniul a anunțat consultări pentru astăzi, 23 iunie, ceea ce mută riscul dominant de la aritmetica votului la viteza unei noi nominalizări.",
       "category": "Politică"
     },
     {
@@ -53,6 +53,21 @@
       "sourceId": "hotnews-vot-guvern-vestea",
       "sourceName": "HotNews",
       "sourceUrl": "https://hotnews.ro/guvern-adrian-vestea-parlament-ministri-audieri-vot-investitura-birourile-reunite-2280072",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "consultari-cotroceni-anuntate",
+      "title": "Cotroceniul anunță consultări astăzi pentru desemnarea noului premier",
+      "fact": "Biziday relatează că Administrația Prezidențială a anunțat consultări pe 23 iunie 2026 cu partidele parlamentare, după respingerea Cabinetului Veștea, pentru desemnarea candidatului la funcția de prim-ministru.",
+      "interpretation": "Confirmarea calendarului mută riscul din zona pur procedurală în zona negocierii politice: contează cât de repede apare o nominalizare și dacă ea poate aduna sprijin pentru PNRR și buget.",
+      "category": "Politică",
+      "impact": 5,
+      "impactLabel": "Ridicat",
+      "horizon": "Imediat",
+      "sourceId": "biziday-consultari-cotroceni",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/361674-2/",
       "isSecondary": true,
       "confidence": "confirmed"
     },
@@ -135,7 +150,7 @@
   "romaniaAnalysis": {
     "factBase": [
       "Parlamentul a respins Cabinetul Veștea cu 189 de voturi pentru și 23 împotrivă, sub pragul de 233 necesar pentru învestire.",
-      "După vot, procedura constituțională cere reluarea consultărilor de la Cotroceni pentru o nouă nominalizare de premier.",
+      "Administrația Prezidențială a anunțat consultări pe 23 iunie 2026 pentru desemnarea candidatului la funcția de premier, după respingerea Cabinetului Veștea.",
       "HotNews arată că PNL condiționează orice nouă formulă guvernamentală de asumarea până la 15 iulie a reformelor restante din PNRR.",
       "Aceeași poziție leagă stabilitatea politică de păstrarea echilibrelor bugetare și de evitarea corecțiilor de peste un miliard de euro din PNRR.",
       "INS a raportat o inflație anuală IPC de 10,9% în mai 2026.",
@@ -145,9 +160,9 @@
       "Digi24 confirmă că un cargou civil a fost lovit de o dronă rusească în Marea Neagră, cu un mort și opt marinari salvați.",
       "Biziday semnalează că Moldova și Ucraina pot avansa separat în negocierile de aderare la UE, în funcție de ritmul reformelor."
     ],
-    "political": "Politic, România intră într-o etapă mai incomodă decât cea de dinaintea votului: nu mai este suficientă găsirea unei combinații de voturi, ci devine esențială construirea unei formule care poate guverna fără să se prăbușească la primul test bugetar. Respingerea cabinetului arată că o majoritate ad-hoc este mai volatilă decât părea, iar reluarea consultărilor mărește riscul unei prelungiri a blocajului.",
+    "political": "Politic, România intră într-o etapă mai incomodă decât cea de dinaintea votului: nu mai este suficientă găsirea unei combinații de voturi, ci devine esențială construirea unei formule care poate guverna fără să se prăbușească la primul test bugetar. Respingerea cabinetului arată că o majoritate ad-hoc este mai volatilă decât părea, iar consultările anunțate pentru astăzi mută presiunea pe rapiditatea și credibilitatea unei noi nominalizări.",
     "economic": "Economic, spațiul de manevră rămâne mic. Inflația este încă în două cifre, deficitul cash deja consumă spațiu fiscal, iar PNRR impune jaloane și limite care pot produce costuri directe dacă sunt ratate. În plus, de-escaladarea parțială din jurul Hormuz și incidentul din Marea Neagră arată că România navighează simultan un risc intern de guvernare și un risc extern de energie și logistică.",
-    "interpretation": "Interpretarea prudentă este că riscul politic imediat a crescut din nou, iar riscul fiscal nu poate scădea înainte ca viitorul cabinet să își asume explicit reformele și disciplina bugetară. Scenariul mai probabil pe termen scurt rămâne formarea unei formule minoritare sau fragile, susținute condiționat, ceea ce înseamnă că piețele locale vor reacționa mai degrabă la credibilitatea angajamentelor decât la simpla numire a unui nou premier."
+    "interpretation": "Interpretarea prudentă este că riscul politic imediat a crescut din nou, iar riscul fiscal nu poate scădea înainte ca viitorul cabinet să își asume explicit reformele și disciplina bugetară. Scenariul mai probabil pe termen scurt rămâne formarea unei formule minoritare sau fragile, susținute condiționat, iar faptul că consultările au fost deja programate reduce doar incertitudinea procedurală, nu și riscul de fond."
   },
   "investmentFundSignals": [
     {
@@ -239,7 +254,7 @@
     {
       "id": "bet",
       "label": "Indice BET",
-      "value": 30863.76,
+      "value": 30804.32,
       "unit": "puncte",
       "referenceDate": "2026-06-23",
       "sourceName": "BVB",
@@ -250,7 +265,7 @@
     {
       "id": "rotx",
       "label": "Indice ROTX",
-      "value": 69867.76,
+      "value": 69725.01,
       "unit": "puncte",
       "referenceDate": "2026-06-23",
       "sourceName": "BVB / Wiener Börse",
@@ -263,7 +278,7 @@
       "label": "ROBOR 3M",
       "value": 5.84,
       "unit": "%",
-      "referenceDate": "2026-06-22",
+      "referenceDate": "2026-06-23",
       "sourceName": "BNR",
       "sourceUrl": "https://www.bnr.ro/1074-baza-de-date-interactiva",
       "freshness": "current",
@@ -318,7 +333,7 @@
       "why": "Durata până la o nouă nominalizare va arăta dacă blocajul rămâne procedural sau devine politic profund.",
       "trigger": "Anunț oficial de la Cotroceni privind consultările și următorul premier desemnat.",
       "status": "în așteptare",
-      "sourceUrl": "https://hotnews.ro/guvern-adrian-vestea-parlament-ministri-audieri-vot-investitura-birourile-reunite-2280072"
+      "sourceUrl": "https://www.biziday.ro/361674-2/"
     },
     {
       "id": "pact-pnrr-15-iulie",
@@ -347,9 +362,9 @@
   ],
   "conclusion": {
     "title": "Criza intră într-o fază mai puțin spectaculoasă, dar mai importantă",
-    "body": "Respingerea Cabinetului Veștea nu produce singură un șoc economic nou, dar prelungește exact tipul de incertitudine care apasă cel mai mult pe costul finanțării și pe credibilitatea României în raport cu PNRR. În paralel, mediul extern oferă doar o ușurare parțială pe energie și păstrează deschise riscurile logistice și geopolitice relevante pentru regiune.",
+    "body": "Respingerea Cabinetului Veștea nu produce singură un șoc economic nou, dar prelungește exact tipul de incertitudine care apasă cel mai mult pe costul finanțării și pe credibilitatea României în raport cu PNRR. Anunțul consultărilor de astăzi clarifică traseul procedural, însă nu rezolvă întrebarea esențială despre cât de repede poate apărea un cabinet capabil să treacă testul bugetar. În paralel, mediul extern oferă doar o ușurare parțială pe energie și păstrează deschise riscurile logistice și geopolitice relevante pentru regiune.",
     "actionPoints": [
-      "Urmărește calendarul consultărilor și noua nominalizare de premier.",
+      "Urmărește dacă consultările de astăzi produc rapid o nominalizare de premier.",
       "Separă majoritatea de vot de capacitatea reală de a livra reforme PNRR.",
       "Monitorizează dacă detensionarea din Hormuz se confirmă în fluxuri logistice normale."
     ]
@@ -368,6 +383,13 @@
       "url": "https://www.biziday.ro/361618-2/",
       "type": "primary",
       "accessedAt": "2026-06-23T07:34:20+03:00"
+    },
+    {
+      "id": "biziday-consultari-cotroceni",
+      "name": "Biziday — Nicușor Dan a convocat consultări cu partidele parlamentare",
+      "url": "https://www.biziday.ro/361674-2/",
+      "type": "primary",
+      "accessedAt": "2026-06-23T12:33:36+03:00"
     },
     {
       "id": "hotnews-vot-guvern-vestea",
