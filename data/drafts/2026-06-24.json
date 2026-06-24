@@ -1,9 +1,9 @@
 {
   "metadata": {
     "editionDate": "2026-06-24",
-    "updatedAt": "2026-06-24T08:29:14+03:00",
+    "updatedAt": "2026-06-24T22:35:29+03:00",
     "timezone": "Europe/Bucharest",
-    "title": "Guvernul minoritar mută testul pe execuție, în timp ce riscurile externe devin mai operaționale",
+    "title": "Grindeanu devine propunerea PSD, iar testul politic trece în faza decisivă",
     "status": "draft",
     "primarySource": "https://www.biziday.ro/feed/",
     "sourceCoverage": "complete"
@@ -11,12 +11,12 @@
   "executiveSummary": [
     {
       "id": "guvern-minoritar-ca-directie",
-      "text": "După consultările din 23 iunie, Nicușor Dan împinge formula unui guvern politic minoritar sprijinit printr-un acord parlamentar, ceea ce reduce neclaritatea procedurală, dar nu rezolvă încă problema majorității efective.",
+      "text": "PSD îl propune oficial pe Sorin Grindeanu pentru funcția de premier, ceea ce scurtează lista scenariilor și mută presiunea pe desemnarea prezidențială.",
       "category": "Politică"
     },
     {
       "id": "testul-se-muta-pe-pnrr-si-buget",
-      "text": "Pentru piețe, testul real nu mai este doar numele premierului, ci dacă partidele leagă noua formulă de guvernare de reformele PNRR și de disciplina bugetară cerute până la mijlocul lui iulie.",
+      "text": "Pentru piețe, testul real devine dacă propunerea PSD se leagă rapid de un acord parlamentar, de reforma PNRR și de disciplina bugetară cerută până la mijlocul lui iulie.",
       "category": "Economie"
     },
     {
@@ -31,7 +31,7 @@
     },
     {
       "id": "canicula-din-franta-devine-risc-economic",
-      "text": "Valul de căldură din Franța arată că riscul climatic european nu mai înseamnă doar știri meteo, ci perturbări de infrastructură, educație, energie și sănătate publică, cu efecte secundare asupra activității economice.",
+      "text": "Recordul național de 30°C din Franța și penele de curent arată că riscul climatic european a intrat deja în zona de perturbări operaționale, nu doar în cea meteo.",
       "category": "Energie"
     },
     {
@@ -47,17 +47,17 @@
   ],
   "importantNews": [
     {
-      "id": "guvern-minoritar-cu-acord-parlamentar",
-      "title": "Nicușor Dan indică drept variantă dominantă un guvern minoritar susținut prin acord parlamentar",
-      "fact": "Biziday și G4Media relatează că, după consultările cu partidele parlamentare din 23 iunie, președintele Nicușor Dan a spus că varianta care pare să se contureze este aceea a unui guvern politic minoritar, bazat pe un acord parlamentar de sprijin agreat în prealabil.",
-      "interpretation": "Asta reduce probabilitatea unui nou blocaj pur procedural, dar nu și riscul politic de fond, fiindcă piața va cere dovezi că acordul poate trece rapid în nominalizare, program și vot.",
+      "id": "psd-il-propune-pe-grindeanu-premier",
+      "title": "PSD îl propune oficial pe Sorin Grindeanu pentru funcția de prim-ministru",
+      "fact": "Biziday și HotNews arată că Biroul Permanent Național al PSD l-a votat în unanimitate pe Sorin Grindeanu pentru funcția de premier și a stabilit o echipă de negociere cu celelalte partide pentru un acord politic.",
+      "interpretation": "Asta reduce ambiguitatea politică, dar nu rezolvă singură majoritatea, desemnarea prezidențială sau calendarul învestirii.",
       "category": "Politică",
       "impact": 5,
       "impactLabel": "Ridicat",
       "horizon": "Imediat",
-      "sourceId": "g4media-guvern-minoritar",
-      "sourceName": "G4Media",
-      "sourceUrl": "https://www.g4media.ro/nicusor-dan-varianta-care-pare-sa-se-contureze-este-aceea-a-unui-guvern-politic-minoritar-care-sa-se-bazeze-pe-un-acord-parlamentar-de-sprijin-agreat-in-prealabil.html",
+      "sourceId": "biziday-grindeanu-premier",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/361792-2/",
       "isSecondary": true,
       "confidence": "confirmed"
     },
@@ -108,13 +108,13 @@
     },
     {
       "id": "franta-canicula-perturbari-economice",
-      "title": "Canicula din Franța arată cum riscul climatic începe să lovească activitatea economică europeană",
-      "fact": "Biziday, citând Reuters, relatează că în Franța au fost închise sau scurtate cursuri, temperaturile au trecut local de 41 de grade Celsius, iar mai multe decese și incidente arată că valul de căldură a depășit deja nivelul unei simple avertizări sezoniere.",
-      "interpretation": "Pentru activele europene, lecția nu este doar umanitară, ci și economică: șocurile climatice cresc probabilitatea unor întreruperi în energie, transport, productivitate și costuri publice de intervenție.",
+      "title": "Canicula din Franța confirmă că riscul climatic european a devenit operațional",
+      "fact": "Biziday arată că Franța a înregistrat miercuri o medie națională record de 30°C, cu zeci de mii de locuințe fără curent electric, peste 800 de școli închise sau scurtate și 10% din trenurile care deservesc regiunea pariziană anulate.",
+      "interpretation": "Pentru activele europene, efectul nu e doar umanitar: întreruperile de energie, transport și productivitate pot apărea deja în aceeași fereastră de timp cu știrile meteo.",
       "category": "Energie",
-      "impact": 3,
-      "impactLabel": "Moderat",
-      "horizon": "1–4 săptămâni",
+      "impact": 4,
+      "impactLabel": "Semnificativ",
+      "horizon": "Imediat",
       "sourceId": "biziday-franta-canicula",
       "sourceName": "Biziday",
       "sourceUrl": "https://www.biziday.ro/361644-2/",
@@ -154,7 +154,7 @@
   ],
   "romaniaAnalysis": {
     "factBase": [
-      "Nicușor Dan a spus după consultările din 23 iunie că varianta care pare să se contureze este un guvern politic minoritar sprijinit prin acord parlamentar.",
+      "PSD a decis în unanimitate să-l propună pe Sorin Grindeanu pentru funcția de premier, iar asta mută presiunea pe Cotroceni și pe negocierile pentru acordul de guvernare.",
       "HotNews arată că PNL condiționează noua formulă de guvernare de asumarea până la 15 iulie a reformelor restante din PNRR și de păstrarea echilibrelor bugetare.",
       "Consiliul Concurenței a autorizat preluarea Carrefour România de către Pavăl Holding, inclusiv pentru rețelele Express, Supeco și serviciul Bringo.",
       "Biziday relatează că PNL schimbă conducerile a 12 filiale care au lipsit de la congres, fără să treacă încă la excluderi mai largi.",
@@ -162,12 +162,12 @@
       "Ministerul Finanțelor a raportat un deficit bugetar cash de 1,17% din PIB la 30 aprilie 2026.",
       "BNR proiectează o inflație de 5,5% la finalul lui 2026 în Raportul asupra inflației publicat în mai.",
       "Financial Times scrie că alianța Five Eyes avertizează asupra unor atacuri cibernetice AI disruptive care pot apărea în câteva luni.",
-      "Biziday, citând Reuters, arată că valul de căldură din Franța a produs deja decese și perturbări de program școlar și infrastructură.",
+      "Biziday arată că Franța a înregistrat o medie națională record de 30°C, cu pene de curent, școli închise și perturbări de transport.",
       "Biziday arată că înmatriculările auto noi din UE au crescut cu 4% în primele cinci luni, iar cota electricelor a ajuns la 20%."
     ],
-    "political": "Politic, România a ieșit din impasul pur procedural, dar nu și din impasul de execuție. Formula de guvern minoritar susținut prin acord parlamentar oferă o direcție recognoscibilă, însă nu echivalează cu o majoritate solidă până când partidele nu livrează un text, o nominalizare și un calendar credibil. În paralel, disciplinarea internă din PNL arată că fragilitatea nu este doar între partide, ci și în interiorul unuia dintre actorii centrali ai oricărei viitoare formule.",
-    "economic": "Economic, spațiul de manevră rămâne îngust. Inflația încă este în două cifre, deficitul cash deja consumă spațiu fiscal, iar PNRR comprimă calendarul deciziilor. Autorizarea tranzacției Carrefour-Dedeman arată că economia reală nu s-a oprit și că există capital local dispus să consolideze sectoare mari, dar acest semnal pozitiv nu schimbă faptul că riscul macro pe România rămâne dominat de buget și de accesul ordonat la fondurile europene.",
-    "interpretation": "Interpretarea prudentă este că scenariul mai probabil pe termen scurt a devenit formarea unui cabinet minoritar cu sprijin contractual, nu repetarea imediată a unui eșec de învestire. Totuși, o reducere materială a primei de risc pare puțin probabilă înainte ca noul aranjament să fie legat explicit de jaloanele PNRR, de disciplina bugetară și de o coeziune internă minimă în partidele care ar trebui să îl susțină."
+    "political": "Politic, România a trecut de la un guvern minoritar în contur la o propunere explicită de premier din partea PSD. Asta reduce ambiguitatea, dar mută presiunea pe desemnarea prezidențială, pe acordul parlamentar și pe echipa de miniștri. În paralel, disciplinarea internă din PNL arată că fragilitatea nu este doar între partide, ci și în interiorul unuia dintre actorii centrali ai oricărei viitoare formule.",
+    "economic": "Economic, spațiul de manevră rămâne îngust. Inflația încă este în două cifre, deficitul cash deja consumă spațiu fiscal, iar PNRR comprimă calendarul deciziilor. Autorizarea tranzacției Carrefour-Dedeman arată că economia reală nu s-a oprit și că există capital local dispus să consolideze sectoare mari, dar noua propunere de premier nu schimbă încă faptul că riscul macro pe România rămâne dominat de buget și de accesul ordonat la fondurile europene.",
+    "interpretation": "Interpretarea prudentă este că scenariul pe termen scurt s-a mutat către un cabinet condus de Grindeanu sau către un compromis negociat rapid; fără un text de acord și un calendar fiscal clar, orice reducere a primei de risc rămâne limitată."
   },
   "investmentFundSignals": [
     {
@@ -176,7 +176,7 @@
       "direction": "pozitiv",
       "strength": 3,
       "horizon": "1–3 luni",
-      "rationale": "Durata scurtă și lichiditatea rămân avantaje defensive cât timp riscul politic intern se mută din procedură în execuție, iar traiectoria bugetară nu este încă securizată."
+      "rationale": "Durata scurtă și lichiditatea rămân avantaje defensive cât timp desemnarea premierului și acordul de guvernare nu sunt încă fixate."
     },
     {
       "id": "obligatiuni-lei",
@@ -184,7 +184,7 @@
       "direction": "negativ",
       "strength": 4,
       "horizon": "1–3 luni",
-      "rationale": "Fără un acord credibil pe PNRR și deficit, costul finanțării suverane poate rămâne tensionat chiar dacă formula de guvernare devine mai clară."
+      "rationale": "Propunerea PSD nu elimină riscul fiscal; fără acord și măsuri concrete, costul finanțării suverane poate rămâne tensionat."
     },
     {
       "id": "actiuni-romania",
@@ -192,7 +192,7 @@
       "direction": "neutru",
       "strength": 3,
       "horizon": "1–3 luni",
-      "rationale": "Consolidarea din retail este un semnal constructiv pentru economia locală, dar vizibilitatea redusă pe taxe, investiții publice și fonduri europene limitează îmbunătățirea sentimentului."
+      "rationale": "Numele unui premier propus clarifică puțin cadrul politic, dar fără majoritate și program fiscal sentimentul rămâne dominat de așteptare."
     },
     {
       "id": "actiuni-europene-industrie",
@@ -252,28 +252,28 @@
       "label": "Risc politic intern",
       "score": 5,
       "trend": "stabil",
-      "description": "Direcția există, dar majoritatea contractuală și coeziunea internă care să o susțină nu sunt încă fixate."
+      "description": "Propunerea PSD clarifică scena, dar majoritatea contractuală și acordul de guvernare nu sunt încă fixate."
     },
     {
       "id": "risc-fiscal",
       "label": "Risc fiscal",
       "score": 4,
       "trend": "stabil",
-      "description": "Deficitul și calendarul PNRR păstrează presiunea pe orice formulă de guvernare nouă."
+      "description": "Deficitul și calendarul PNRR păstrează presiunea pe orice formulă de guvernare nouă, inclusiv pe o eventuală echipă Grindeanu."
     },
     {
       "id": "risc-operational-extern",
       "label": "Risc operațional extern",
-      "score": 3,
+      "score": 4,
       "trend": "în creștere",
-      "description": "Canicula europeană și avertismentul Five Eyes indică șocuri non-financiare cu potențial economic real."
+      "description": "Canicula record din Franța și avertismentul Five Eyes arată șocuri non-financiare care au intrat deja în costuri operaționale."
     },
     {
       "id": "risc-executie-pnrr",
       "label": "Risc de execuție PNRR",
       "score": 4,
       "trend": "în creștere",
-      "description": "Fereastra până la 15 iulie face ca întârzierea politică să se transforme rapid în risc de implementare."
+      "description": "Fereastra până la 15 iulie rămâne strânsă chiar dacă PSD avansează o propunere de premier; orice întârziere se traduce rapid în risc de implementare."
     }
   ],
   "watchlist": [
@@ -287,11 +287,11 @@
     },
     {
       "id": "nominalizare-premier",
-      "title": "Calendarul nominalizării noului premier",
-      "why": "Viteza nominalizării separă un proces controlat de un blocaj politic care continuă să consume credibilitate.",
+      "title": "Desemnarea premierului propus de PSD",
+      "why": "Propunerea PSD îngustează opțiunile, dar desemnarea prezidențială și calendarul audierilor rămân decisive.",
       "trigger": "Anunț oficial privind candidatul desemnat și calendarul audierilor și al votului.",
       "status": "în așteptare",
-      "sourceUrl": "https://www.biziday.ro/361674-2/"
+      "sourceUrl": "https://www.biziday.ro/361792-2/"
     },
     {
       "id": "jalon-pnrr-15-iulie",
@@ -312,19 +312,19 @@
     {
       "id": "impact-canicula-europa",
       "title": "Extinderea impactului economic al caniculei în Europa",
-      "why": "Dacă perturbările intră în energie și transport, efectul poate deveni relevant și pentru sentimentul regional.",
+      "why": "Recordul de 30°C în Franța, penele de curent și întârzierile de transport arată că efectul climatic a devenit deja operațional.",
       "trigger": "Noi reduceri de capacitate, perturbări logistice sau intervenții de urgență extinse în state mari din UE.",
       "status": "în așteptare",
       "sourceUrl": "https://www.biziday.ro/361644-2/"
     }
   ],
   "conclusion": {
-    "title": "Direcția politică s-a conturat, dar testul abia începe",
-    "body": "Briefingul din 24 iunie indică o schimbare importantă de fază: România pare să iasă din impasul votului ratat și să intre într-un test de execuție politică, fiscală și instituțională. Formula de guvern minoritar susținut prin acord parlamentar este mai clară decât ieri, însă costul de finanțare și încrederea nu se vor calma doar dintr-o schiță de aranjament. În paralel, tranzacția Carrefour-Dedeman arată că economia privată continuă să miște, iar exteriorul adaugă două riscuri de urmărit atent, unul climatic și unul cibernetic.",
+    "title": "Guvernarea intră în faza negocierii decisive",
+    "body": "Briefingul din 24 iunie indică o schimbare de fază: PSD a trecut de la ambiguitate la propunerea formală a lui Sorin Grindeanu, ceea ce scurtează lista scenariilor, dar nu rezolvă încă desemnarea prezidențială, acordul parlamentar sau programul fiscal. În paralel, canicula record din Franța confirmă că riscul climatic european produce deja perturbări operaționale, iar avertismentul Five Eyes păstrează cyber-ul pe lista costurilor defensive. Economia privată continuă să miște prin tranzacția Carrefour-Dedeman, însă semnalul central rămâne dacă noua formulă politică poate livra rapid majoritate și disciplină bugetară.",
     "actionPoints": [
-      "Urmărește dacă acordul pentru guvernul minoritar capătă formă scrisă și publică.",
-      "Separă viteza nominalizării de capacitatea reală de a livra jalonele PNRR.",
-      "Monitorizează dacă aprobarea Carrefour-Dedeman se transformă rapid în pași operaționali concreți.",
+      "Urmărește dacă Nicușor Dan îl desemnează pe Grindeanu și dacă apare un acord scris.",
+      "Separă numele premierului de capacitatea reală de a livra jalonele PNRR și disciplina bugetară.",
+      "Monitorizează dacă canicula din Europa intră în perturbări de energie, transport și productivitate.",
       "Ține sub observație riscurile operaționale externe, mai ales climate și cybersecurity."
     ]
   },
@@ -342,6 +342,20 @@
       "url": "https://www.biziday.ro/361674-2/",
       "type": "primary",
       "accessedAt": "2026-06-24T08:29:14+03:00"
+    },
+    {
+      "id": "biziday-grindeanu-premier",
+      "name": "Biziday — PSD îl propune oficial pe Sorin Grindeanu pentru funcția de premier",
+      "url": "https://www.biziday.ro/361792-2/",
+      "type": "primary",
+      "accessedAt": "2026-06-24T22:35:29+03:00"
+    },
+    {
+      "id": "hotnews-grindeanu-premier",
+      "name": "HotNews — Unanimitate în PSD pentru Grindeanu premier",
+      "url": "https://hotnews.ro/unanimitate-in-psd-pentru-grindeanu-premier-2283117",
+      "type": "secondary",
+      "accessedAt": "2026-06-24T22:35:29+03:00"
     },
     {
       "id": "g4media-guvern-minoritar",
