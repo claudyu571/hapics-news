@@ -1,7 +1,7 @@
 {
   "metadata": {
     "editionDate": "2026-06-25",
-    "updatedAt": "2026-06-25T17:37:10+03:00",
+    "updatedAt": "2026-06-25T22:36:52+03:00",
     "timezone": "Europe/Bucharest",
     "title": "Grindeanu devine scenariul central, iar presiunea bugetară se adună din apărare, energie și climă",
     "status": "draft",
@@ -11,7 +11,7 @@
   "executiveSummary": [
     {
       "id": "grindeanu-ingusteaza-scenariile-politice",
-      "text": "Nominalizarea unanimă a lui Sorin Grindeanu de către PSD reduce ambiguitatea politică, dar fără desemnare prezidențială și acord parlamentar riscul de execuție rămâne ridicat.",
+      "text": "PSD l-a propus pe Sorin Grindeanu, Nicușor Dan vede conturându-se un guvern politic minoritar, iar USR respinge un executiv monocolor PSD; incertitudinea scade, dar majoritatea rămâne deschisă.",
       "category": "Politică"
     },
     {
@@ -48,16 +48,16 @@
   "importantNews": [
     {
       "id": "psd-il-propune-pe-grindeanu-premier",
-      "title": "PSD îl propune oficial pe Sorin Grindeanu pentru funcția de prim-ministru",
-      "fact": "Biziday și HotNews arată că Biroul Permanent Național al PSD a decis în unanimitate să-l propună pe Sorin Grindeanu pentru funcția de premier și să trimită o echipă de negociere către celelalte partide parlamentare.",
-      "interpretation": "Asta reduce incertitudinea asupra numelui aflat în prim-plan, dar nu rezolvă încă majoritatea, calendarul de învestire sau conținutul programului fiscal.",
+      "title": "PSD îl propune pe Grindeanu, dar soluția se mută spre un guvern minoritar",
+      "fact": "Biziday și HotNews arată că PSD l-a propus pe Sorin Grindeanu pentru funcția de premier, în timp ce Nicușor Dan spune că se conturează un guvern politic minoritar susținut prin acord parlamentar, iar USR anunță că nu va vota un guvern monocolor PSD.",
+      "interpretation": "Asta mută miza de la numele premierului la majoritatea care poate învesti cabinetul și lasă deschis calendarul de formare a guvernului.",
       "category": "Politică",
       "impact": 5,
       "impactLabel": "Ridicat",
       "horizon": "Imediat",
-      "sourceId": "hotnews-grindeanu-premier",
+      "sourceId": "hotnews-nicusor-dan-guvern-minoritar",
       "sourceName": "HotNews",
-      "sourceUrl": "https://hotnews.ro/unanimitate-in-psd-pentru-grindeanu-premier-2283117",
+      "sourceUrl": "https://hotnews.ro/anuntul-lui-nicusor-dan-dupa-consultarile-fulger-de-la-cotroceni-varianta-care-pare-sa-se-contureze-si-ce-le-cere-partidelor-sa-faca-2282373",
       "isSecondary": true,
       "confidence": "confirmed"
     },
@@ -153,11 +153,11 @@
     }
   ],
   "romaniaAnalysis": {
-      "factBase": [
-        "PSD l-a votat în unanimitate pe Sorin Grindeanu ca propunere de premier și a anunțat o echipă de negociere pentru un acord politic.",
-        "HotNews arată că decizia PSD nu este încă echivalentă cu desemnarea prezidențială sau cu o majoritate parlamentară închisă.",
-        "Consiliul Concurenței a autorizat preluarea Carrefour România de către Pavăl Holding, într-una dintre cele mai mari tranzacții locale din retail.",
-        "MApN, prin Romtehnica, a semnat primul contract subsecvent SHORAD-VSHORAD cu Rafael, în valoare de 3,049 miliarde de lei fără TVA, parte a unui program total de 10,33 miliarde de lei fără TVA.",
+    "factBase": [
+      "PSD l-a votat în unanimitate pe Sorin Grindeanu ca propunere de premier și a anunțat o echipă de negociere pentru un acord politic.",
+      "Nicușor Dan a spus că se conturează un guvern politic minoritar cu acord parlamentar de sprijin, iar USR respinge un executiv monocolor PSD și propune rotația PNL-USR-UDMR, apoi PSD.",
+      "Consiliul Concurenței a autorizat preluarea Carrefour România de către Pavăl Holding, într-una dintre cele mai mari tranzacții locale din retail.",
+      "MApN, prin Romtehnica, a semnat primul contract subsecvent SHORAD-VSHORAD cu Rafael, în valoare de 3,049 miliarde de lei fără TVA, parte a unui program total de 10,33 miliarde de lei fără TVA.",
         "INS a raportat o inflație anuală IPC de 10,9% în mai 2026.",
         "Ministerul Finanțelor a raportat un deficit bugetar cash de 1,17% din PIB la 30 aprilie 2026.",
         "BNR proiectează o inflație de 5,5% la finalul lui 2026, conform raportului publicat în mai.",
@@ -165,7 +165,7 @@
         "Franța a înregistrat un nou record termic național, cu pene de curent și alte perturbări legate de caniculă.",
         "ANM a emis primul cod portocaliu de caniculă în 11 județe din România, ceea ce confirmă că valul de căldură s-a extins și spre est."
       ],
-      "political": "Politic, România a trecut de la un câmp larg de ipoteze la un scenariu central mai clar, în care Sorin Grindeanu este numele asumat de PSD. Totuși, fără o desemnare de la Cotroceni și fără un acord parlamentar explicit, reducerea incertitudinii este doar parțială.",
+    "political": "Politic, România a trecut de la un câmp larg de ipoteze la un scenariu central mai clar, în care Sorin Grindeanu este numele împins înainte de PSD, dar forma de majoritate se mută spre un guvern minoritar. Totuși, fără desemnare prezidențială și fără acord parlamentar explicit, reducerea incertitudinii rămâne doar parțială.",
     "economic": "Economic, tabloul rămâne tensionat. Inflația încă este în două cifre, deficitul cash a început să consume spațiul fiscal al anului, iar BNR vede dezinflația mai lentă decât spera anterior. În contrapunct, tranzacția Carrefour-Dedeman arată că sectorul privat încă execută proiecte mari, iar semnarea primului contract SHORAD-VSHORAD cu Rafael mută o parte din programul de apărare în cheltuială efectivă și confirmă că presiunea pe buget vine și din înzestrare, nu doar din venituri slabe. Ieftinirea petrolului oferă temporar un sprijin extern.",
     "interpretation": "Interpretarea prudentă este că România are o mică fereastră de respiro extern, prin scăderea petrolului, dar nu și o rezolvare internă. Fără guvern funcțional și calendar credibil pentru buget și PNRR, prima de risc locală poate rămâne încăpățânat de sus, iar noile angajamente mari din apărare arată că disciplina fiscală va depinde și de ritmul înzestrării. Valul de caniculă care a ajuns și în România adaugă presiune operațională pe rețele și transport."
   },
@@ -260,7 +260,7 @@
       "label": "Risc politic intern",
       "score": 4,
       "trend": "stabil",
-      "description": "Numele premierului propus este mai clar, dar majoritatea și acordul de guvernare nu sunt încă închise."
+      "description": "Numele premierului este mai clar, iar președintele împinge spre o soluție minoritară, dar majoritatea și arhitectura acordului nu sunt încă închise."
     },
     {
       "id": "risc-fiscal",
@@ -330,7 +330,7 @@
   ],
   "conclusion": {
     "title": "Claritate parțială, fără ieșire completă din risc",
-    "body": "Dimineața de 25 iunie aduce patru mesaje simultane: intern, politica s-a comprimat în jurul unui nume clar, Sorin Grindeanu; extern, presiunea pe energie s-a relaxat odată cu scăderea petrolului; bugetar, primul contract SHORAD-VSHORAD cu Rafael arată că apărarea se traduce deja în cheltuială efectivă; iar climatic, primul cod portocaliu de caniculă din România arată că riscul operațional a coborât deja spre piața locală. Totuși, România nu are încă un guvern validat și nici un plan fiscal credibil pus pe masă, ceea ce înseamnă că respiro-ul extern nu se transformă automat în calm intern.",
+    "body": "Dimineața de 25 iunie aduce patru mesaje simultane: intern, PSD îl împinge pe Grindeanu, dar președintele conturează o soluție de guvern minoritar și USR respinge un PSD monocolor; extern, presiunea pe energie s-a relaxat odată cu scăderea petrolului; bugetar, primul contract SHORAD-VSHORAD cu Rafael arată că apărarea se traduce deja în cheltuială efectivă; iar climatic, primul cod portocaliu de caniculă din România arată că riscul operațional a coborât deja spre piața locală. Totuși, România nu are încă un guvern validat și nici un plan fiscal credibil pus pe masă, ceea ce înseamnă că respiro-ul extern nu se transformă automat în calm intern.",
     "actionPoints": [
       "Urmărește desemnarea oficială a premierului și calendarul de învestire.",
       "Caută semnale concrete despre buget, PNRR și continuitatea negocierilor.",
@@ -353,6 +353,20 @@
       "url": "https://www.biziday.ro/361792-2/",
       "type": "primary",
       "accessedAt": "2026-06-25T10:19:09+03:00"
+    },
+    {
+      "id": "biziday-usr-grindeanu-minoritar",
+      "name": "Biziday — USR anunță că nu va vota un guvern monocolor PSD",
+      "url": "https://www.biziday.ro/361936-2/",
+      "type": "primary",
+      "accessedAt": "2026-06-25T22:36:52+03:00"
+    },
+    {
+      "id": "hotnews-nicusor-dan-guvern-minoritar",
+      "name": "HotNews — Nicușor Dan spune că se conturează un guvern politic minoritar",
+      "url": "https://hotnews.ro/anuntul-lui-nicusor-dan-dupa-consultarile-fulger-de-la-cotroceni-varianta-care-pare-sa-se-contureze-si-ce-le-cere-partidelor-sa-faca-2282373",
+      "type": "secondary",
+      "accessedAt": "2026-06-25T22:36:52+03:00"
     },
     {
       "id": "hotnews-grindeanu-premier",
