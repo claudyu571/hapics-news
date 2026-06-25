@@ -1,7 +1,7 @@
 {
   "metadata": {
     "editionDate": "2026-06-25",
-    "updatedAt": "2026-06-25T10:21:26+03:00",
+    "updatedAt": "2026-06-25T12:39:38+03:00",
     "timezone": "Europe/Bucharest",
     "title": "Grindeanu devine scenariul central, iar presiunea externă se mută pe energie și climă",
     "status": "published",
@@ -31,7 +31,7 @@
     },
     {
       "id": "canicula-europeana-devine-risc-operational",
-      "text": "Recordul termic din Franța și penele de curent confirmă că riscul climatic european produce deja perturbări operaționale relevante pentru transport, consum și infrastructură.",
+      "text": "Recordul termic din Franța și primul cod portocaliu de caniculă din 11 județe din România confirmă că riscul climatic a ajuns în perturbări operaționale relevante pentru transport, consum și infrastructură.",
       "category": "Energie"
     },
     {
@@ -115,6 +115,21 @@
       "sourceUrl": "https://www.digi24.ro/meteo/cea-mai-calduroasa-zi-inregistrata-vreodata-in-franta-marti-23-iunie-2026-cate-grade-cesius-au-aratat-termometrele-3829201",
       "isSecondary": true,
       "confidence": "confirmed"
+    },
+    {
+      "id": "romania-prinde-primul-cod-portocaliu-de-canicula",
+      "title": "Primul cod portocaliu de caniculă din România confirmă extinderea riscului spre est",
+      "fact": "Biziday scrie că ANM a emis primul cod portocaliu de caniculă în 11 județe din vestul și nordul țării, cu temperaturi maxime de 33–37 de grade, în timp ce aproape toată țara rămâne sub cod galben de căldură.",
+      "interpretation": "Asta confirmă că valul de căldură nu mai este doar un risc vest-european: România intră direct în zona de perturbări operaționale pentru transport, consum și infrastructură.",
+      "category": "Energie",
+      "impact": 4,
+      "impactLabel": "Semnificativ",
+      "horizon": "Imediat",
+      "sourceId": "biziday-romania-canicula",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/361864-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
     }
   ],
   "romaniaAnalysis": {
@@ -126,11 +141,12 @@
       "Ministerul Finanțelor a raportat un deficit bugetar cash de 1,17% din PIB la 30 aprilie 2026.",
       "BNR proiectează o inflație de 5,5% la finalul lui 2026, conform raportului publicat în mai.",
       "Reuters arată că petrolul Brent a coborât sub 74 de dolari/baril odată cu reluarea traficului prin Hormuz.",
-      "Franța a înregistrat un nou record termic național, cu pene de curent și alte perturbări legate de caniculă."
+      "Franța a înregistrat un nou record termic național, cu pene de curent și alte perturbări legate de caniculă.",
+      "ANM a emis primul cod portocaliu de caniculă în 11 județe din România, ceea ce confirmă că valul de căldură s-a extins și spre est."
     ],
     "political": "Politic, România a trecut de la un câmp larg de ipoteze la un scenariu central mai clar, în care Sorin Grindeanu este numele asumat de PSD. Totuși, fără o desemnare de la Cotroceni și fără un acord parlamentar explicit, reducerea incertitudinii este doar parțială.",
     "economic": "Economic, tabloul rămâne tensionat. Inflația încă este în două cifre, deficitul cash a început să consume spațiul fiscal al anului, iar BNR vede dezinflația mai lentă decât spera anterior. În contrapunct, tranzacția Carrefour-Dedeman arată că sectorul privat încă execută proiecte mari, iar ieftinirea petrolului oferă temporar un sprijin extern.",
-    "interpretation": "Interpretarea prudentă este că România are o mică fereastră de respiro extern, prin scăderea petrolului, dar nu și o rezolvare internă. Fără guvern funcțional și calendar credibil pentru buget și PNRR, prima de risc locală poate rămâne încăpățânat de sus."
+    "interpretation": "Interpretarea prudentă este că România are o mică fereastră de respiro extern, prin scăderea petrolului, dar nu și o rezolvare internă. Fără guvern funcțional și calendar credibil pentru buget și PNRR, prima de risc locală poate rămâne încăpățânat de sus, iar valul de caniculă care a ajuns și în România adaugă presiune operațională pe rețele și transport."
   },
   "investmentFundSignals": [
     {
@@ -171,7 +187,7 @@
       "direction": "pozitiv",
       "strength": 2,
       "horizon": "6–12 luni",
-      "rationale": "Canicula și penele de curent din Franța întăresc argumentul pentru investiții în adaptare climatică, rețele și continuitate operațională."
+      "rationale": "Canicula și penele de curent din Franța, plus primul cod portocaliu din România, întăresc argumentul pentru investiții în adaptare climatică, rețele și continuitate operațională."
     }
   ],
   "indicators": [
@@ -222,7 +238,7 @@
     {
       "id": "bet",
       "label": "Indice BET",
-      "value": 31160.69,
+      "value": 31541.34,
       "unit": "puncte",
       "referenceDate": "2026-06-25",
       "sourceName": "BVB",
@@ -233,7 +249,7 @@
     {
       "id": "rotx",
       "label": "Indice ROTX",
-      "value": 70543.32,
+      "value": 71454.63,
       "unit": "puncte",
       "referenceDate": "2026-06-25",
       "sourceName": "BVB / Wiener Börse",
@@ -246,7 +262,7 @@
       "label": "ROBOR 3M",
       "value": 5.84,
       "unit": "%",
-      "referenceDate": "2026-06-24",
+      "referenceDate": "2026-06-25",
       "sourceName": "BNR",
       "sourceUrl": "https://www.bnr.ro/1074-baza-de-date-interactiva",
       "freshness": "current",
@@ -298,7 +314,7 @@
       "label": "Risc climatic european",
       "score": 4,
       "trend": "în creștere",
-      "description": "Recordurile termice și penele de curent din Franța arată un impact economic tot mai concret al caniculei."
+      "description": "Recordurile termice din Franța și primul cod portocaliu din România arată că impactul economic al caniculei a ajuns și mai aproape de piața locală."
     }
   ],
   "watchlist": [
@@ -329,22 +345,16 @@
       "why": "Efectul pozitiv asupra petrolului depinde de continuitatea fluxurilor maritime și de diplomație.",
       "trigger": "Revenirea perturbărilor sau confirmarea unui acord mai durabil.",
       "status": "neconfirmat"
-    },
-    {
-      "id": "extinderea-caniculei-spre-est",
-      "title": "Extinderea caniculei spre Europa de Est",
-      "why": "Perturbările energetice și logistice pot ajunge rapid mai aproape de România.",
-      "trigger": "Alerte roșii regionale și incidente relevante în rețele sau transport.",
-      "status": "neconfirmat"
     }
   ],
   "conclusion": {
     "title": "Claritate parțială, fără ieșire completă din risc",
-    "body": "Dimineața de 25 iunie aduce două mesaje simultane: intern, politica s-a comprimat în jurul unui nume clar, Sorin Grindeanu, iar extern presiunea pe energie s-a relaxat odată cu scăderea petrolului. Totuși, România nu are încă un guvern validat și nici un plan fiscal credibil pus pe masă, ceea ce înseamnă că respiro-ul extern nu se transformă automat în calm intern.",
+    "body": "Dimineața de 25 iunie aduce trei mesaje simultane: intern, politica s-a comprimat în jurul unui nume clar, Sorin Grindeanu; extern, presiunea pe energie s-a relaxat odată cu scăderea petrolului; iar climatic, primul cod portocaliu de caniculă din România arată că riscul operațional a coborât deja spre piața locală. Totuși, România nu are încă un guvern validat și nici un plan fiscal credibil pus pe masă, ceea ce înseamnă că respiro-ul extern nu se transformă automat în calm intern.",
     "actionPoints": [
       "Urmărește desemnarea oficială a premierului și calendarul de învestire.",
       "Caută semnale concrete despre buget, PNRR și continuitatea negocierilor.",
-      "Monitorizează dacă petrolul rămâne sub presiunea descendentă din ultimele 24 de ore."
+      "Monitorizează dacă petrolul rămâne sub presiunea descendentă din ultimele 24 de ore.",
+      "Urmărește dacă valul de caniculă produce perturbări operaționale și în România."
     ]
   },
   "sources": [
@@ -424,6 +434,13 @@
       "url": "https://www.digi24.ro/meteo/cea-mai-calduroasa-zi-inregistrata-vreodata-in-franta-marti-23-iunie-2026-cate-grade-cesius-au-aratat-termometrele-3829201",
       "type": "secondary",
       "accessedAt": "2026-06-25T10:19:09+03:00"
+    },
+    {
+      "id": "biziday-romania-canicula",
+      "name": "Biziday — Meteorologii au emis primul Cod Portocaliu de caniculă în 11 județe",
+      "url": "https://www.biziday.ro/361864-2/",
+      "type": "primary",
+      "accessedAt": "2026-06-25T12:35:25+03:00"
     },
     {
       "id": "ins-ipc",
