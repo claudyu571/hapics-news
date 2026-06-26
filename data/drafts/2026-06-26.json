@@ -1,9 +1,9 @@
 {
   "metadata": {
     "editionDate": "2026-06-26",
-    "updatedAt": "2026-06-26T12:40:29+03:00",
+    "updatedAt": "2026-06-26T17:33:45+03:00",
     "timezone": "Europe/Bucharest",
-    "title": "PNL, USR și UDMR îl propun pe Siegfried Mureșan, iar canicula intră în cod roșu",
+    "title": "Mureșan, caniculă și risc NATO pe flancul estic",
     "status": "draft",
     "primarySource": "https://www.biziday.ro/feed/",
     "sourceCoverage": "complete"
@@ -381,15 +381,23 @@
       "why": "Efectul pozitiv asupra petrolului depinde de continuitatea fluxurilor maritime și de diplomație.",
       "trigger": "Revenirea perturbărilor sau confirmarea unui acord mai durabil.",
       "status": "neconfirmat"
+    },
+    {
+      "id": "flanc-estic-nato",
+      "title": "Escaladarea hibridă pe flancul estic",
+      "why": "Avertismentele despre provocări rusești în Baltica și Polonia pot muta agenda NATO și costurile de securitate.",
+      "trigger": "Confirmări oficiale, incident hibrid sau reacție NATO ori UE concretă.",
+      "status": "în așteptare"
     }
   ],
   "conclusion": {
-    "title": "Clarificare politică, risc climatic crescut",
-    "body": "Dimineața de 26 iunie aduce două clarificări: politic, PNL, USR și UDMR l-au propus pe Siegfried Mureșan, ceea ce confirmă scenariul de guvern minoritar cu acord politic și rotativă; climatic, primul cod roșu de caniculă al sezonului în vest și nord pune presiune directă pe transport, consum și infrastructură. În paralel, petrolul rămâne sub presiune descendentă, apărarea continuă să consume buget, iar România nu are încă un executiv învestit și nici un plan fiscal credibil.",
+    "title": "Clarificare politică, risc climatic și pe flancul estic",
+    "body": "Dimineața de 26 iunie aduce trei clarificări: politic, PNL, USR și UDMR l-au propus pe Siegfried Mureșan, ceea ce confirmă scenariul de guvern minoritar cu acord politic și rotativă; climatic, primul cod roșu de caniculă al sezonului în vest și nord pune presiune directă pe transport, consum și infrastructură; iar extern, avertismentele din statele baltice și Polonia despre o posibilă provocare rusă ridică riscul de testare a coeziunii NATO exact înaintea summitului de la Ankara. În paralel, petrolul rămâne sub presiune descendentă, apărarea continuă să consume buget, iar România nu are încă un executiv învestit și nici un plan fiscal credibil.",
     "actionPoints": [
       "Urmărește desemnarea oficială a premierului și calendarul de învestire.",
       "Caută semnale concrete despre pactul politic, buget și PNRR.",
       "Monitorizează dacă valul de caniculă produce perturbări operaționale în vest și nord.",
+      "Urmărește dacă avertismentele despre flancul estic se transformă în măsuri NATO sau UE concrete.",
       "Urmărește dacă petrolul rămâne sub presiune și cum se traduce în execuția bugetară."
     ]
   },
@@ -554,6 +562,20 @@
       "url": "https://www.digi24.ro/meteo/canicula-cuprinde-toata-tara-anm-a-emis-primul-cod-rosu-din-sezon-in-16-judete-temperaturi-de-pana-la-40-de-grade-si-nopti-tropicale-3833817",
       "type": "secondary",
       "accessedAt": "2026-06-26T12:40:29+03:00"
+    },
+    {
+      "id": "biziday-baltic-provocare-rusia",
+      "name": "Biziday — Serviciile secrete letone avertizează că Rusia pregătește o provocare militară în Baltica sau Polonia",
+      "url": "https://www.biziday.ro/362015-2/",
+      "type": "primary",
+      "accessedAt": "2026-06-26T17:33:45+03:00"
+    },
+    {
+      "id": "ft-baltics-drone-edge",
+      "name": "Financial Times — Russia could use drone edge to threaten Baltics",
+      "url": "https://www.ft.com/content/a8a6d038-e130-4637-a49f-49e50bf119a6",
+      "type": "secondary",
+      "accessedAt": "2026-06-26T17:33:45+03:00"
     }
   ]
 }
