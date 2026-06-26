@@ -1,7 +1,7 @@
 {
   "metadata": {
     "editionDate": "2026-06-26",
-    "updatedAt": "2026-06-26T17:34:28+03:00",
+    "updatedAt": "2026-06-26T22:37:16+03:00",
     "timezone": "Europe/Bucharest",
     "title": "Mureșan, caniculă și risc NATO pe flancul estic",
     "status": "published",
@@ -11,7 +11,7 @@
   "executiveSummary": [
     {
       "id": "grindeanu-ingusteaza-scenariile-politice",
-      "text": "PNL, USR și UDMR l-au propus pe Siegfried Mureșan ca alternativă la Sorin Grindeanu, iar scenariul de guvern minoritar cu acord politic și rotativă devine explicit.",
+      "text": "PNL, USR și UDMR l-au propus pe Siegfried Mureșan ca alternativă la Sorin Grindeanu, iar PSD spune acum că nu va mai înainta o altă propunere și preferă alegerile anticipate.",
       "category": "Politică"
     },
     {
@@ -48,16 +48,16 @@
   "importantNews": [
     {
       "id": "psd-il-propune-pe-grindeanu-premier",
-      "title": "PNL, USR și UDMR îl propun pe Mureșan, iar varianta minoritară devine explicită",
-      "fact": "Biziday și G4Media arată că PNL, USR și UDMR l-au propus pe Siegfried Mureșan pentru funcția de premier, în timp ce PSD îl menține pe Sorin Grindeanu ca alternativă, iar discuția include un acord de susținere reciprocă și rotativa guvernamentală.",
-      "interpretation": "Asta confirmă că miza s-a mutat de la candidatul unic la arhitectura majorității și la calendarul de rotație; orice guvern va avea nevoie de un pact politic explicit.",
+      "title": "Mureșan rămâne alternativa, iar PSD împinge negocierile spre anticipate",
+      "fact": "Biziday și Digi24 arată că PNL, USR și UDMR l-au propus pe Siegfried Mureșan pentru funcția de premier, iar Sorin Grindeanu spune că PSD nu va mai înainta o altă propunere și preferă alegerile anticipate.",
+      "interpretation": "Asta confirmă că miza s-a mutat de la candidatul unic la arhitectura majorității; fără o desemnare și fără un pact parlamentar explicit, blocajul politic se adâncește.",
       "category": "Politică",
       "impact": 5,
       "impactLabel": "Ridicat",
       "horizon": "Imediat",
-      "sourceId": "g4media-muresan-premier",
-      "sourceName": "G4Media",
-      "sourceUrl": "https://www.g4media.ro/update-exclusiv-pnl-usr-si-udmr-il-vor-propune-premier-pe-siegfried-muresan-vicepresedintele-ppe-si-raportorul-parlamentului-european-pe-bugetul-ue-kelemen-hunor-confirma-informatia-g4media-cel.html",
+      "sourceId": "digi24-grindeanu-premier",
+      "sourceName": "Digi24",
+      "sourceUrl": "https://www.digi24.ro/stiri/actualitate/politica/grindeanu-psd-nu-mai-inainteaza-o-alta-propunere-nu-ne-temem-de-votul-romanilor-mesaj-pentru-bolojan-ar-fi-bine-sa-inveti-engleza-3835163",
       "isSecondary": true,
       "confidence": "confirmed"
     },
@@ -154,7 +154,7 @@
   ],
   "romaniaAnalysis": {
     "factBase": [
-      "PSD l-a votat în unanimitate pe Sorin Grindeanu ca propunere de premier, dar PNL, USR și UDMR l-au propus pe Siegfried Mureșan, ceea ce confirmă că negocierile se poartă între două variante de guvern minoritar.",
+      "PSD l-a votat în unanimitate pe Sorin Grindeanu ca propunere de premier, dar PNL, USR și UDMR l-au propus pe Siegfried Mureșan, iar Grindeanu spune acum că PSD nu mai înaintează o altă propunere și preferă alegerile anticipate.",
       "Nicușor Dan a spus că se conturează un guvern politic minoritar cu acord parlamentar de sprijin, iar USR respinge un executiv monocolor PSD și propune rotația PNL-USR-UDMR, apoi PSD.",
       "Consiliul Concurenței a autorizat preluarea Carrefour România de către Pavăl Holding, într-una dintre cele mai mari tranzacții locale din retail.",
       "MApN, prin Romtehnica, a semnat primul contract subsecvent SHORAD-VSHORAD cu Rafael, în valoare de 3,049 miliarde de lei fără TVA, parte a unui program total de 10,33 miliarde de lei fără TVA.",
@@ -165,9 +165,9 @@
       "Franța a înregistrat un nou record termic, iar România a trecut în primul cod roșu de caniculă al sezonului, ceea ce confirmă că riscul climatic a intrat în perturbări operaționale la scară europeană.",
       "ANM a emis cod roșu de caniculă în 16 județe din Crișana, Maramureș, Transilvania și nordul Moldovei, cu maxime de până la 40 de grade, în timp ce restul țării rămâne sub cod portocaliu sau galben."
     ],
-    "political": "Politic, România a trecut de la simpla împingere a lui Grindeanu la o propunere formală a lui Siegfried Mureșan din partea PNL, USR și UDMR, ceea ce confirmă că negocierea s-a mutat pe formula de guvern minoritar și pe un posibil acord de rotație cu PSD. Totuși, fără desemnare prezidențială și fără acord parlamentar explicit, reducerea incertitudinii rămâne doar parțială.",
+    "political": "Politic, România a trecut de la simpla împingere a lui Grindeanu la o propunere formală a lui Siegfried Mureșan din partea PNL, USR și UDMR, iar mesajul lui Grindeanu că PSD nu va mai înainta o altă propunere și preferă alegerile anticipate arată că negocierea s-a mutat de la nume la arhitectura majorității. Totuși, fără desemnare prezidențială și fără acord parlamentar explicit, reducerea incertitudinii rămâne doar parțială.",
     "economic": "Economic, tabloul rămâne tensionat. Inflația încă este în două cifre, deficitul cash a început să consume spațiul fiscal al anului, iar BNR vede dezinflația mai lentă decât spera anterior. În contrapunct, tranzacția Carrefour-Dedeman arată că sectorul privat încă execută proiecte mari, iar semnarea primului contract SHORAD-VSHORAD cu Rafael mută o parte din programul de apărare în cheltuială efectivă și confirmă că presiunea pe buget vine și din înzestrare, nu doar din venituri slabe. Ieftinirea petrolului oferă temporar un sprijin extern, dar codul roșu de caniculă împinge și riscul operațional în sus.",
-    "interpretation": "România are acum două presiuni simultane: clarificarea politică spre un guvern minoritar de dreapta și urgența climatică prin cod roșu în vest și nord. Fără învestire și fără un plan fiscal credibil, prima de risc locală poate rămâne sus, iar noile angajamente mari din apărare și presiunea termică asupra infrastructurii țin bugetul sub tensiune."
+    "interpretation": "România are acum două presiuni simultane: clarificarea politică se îndreaptă spre un blocaj între nominalizare și anticipatele, iar urgența climatică vine prin codul roșu din vest și nord. Fără învestire și fără un plan fiscal credibil, prima de risc locală poate rămâne sus, iar noile angajamente mari din apărare și presiunea termică asupra infrastructurii țin bugetul sub tensiune."
   },
   "investmentFundSignals": [
     {
@@ -176,7 +176,7 @@
       "direction": "pozitiv",
       "strength": 3,
       "horizon": "1–3 luni",
-      "rationale": "Lichiditatea și durata scurtă rămân avantaje defensive cât timp negocierile pentru noul guvern și traiectoria fiscală nu sunt încă fixate."
+      "rationale": "Lichiditatea și durata scurtă rămân avantaje defensive cât timp negocierile pentru noul guvern, riscul de anticipatele și traiectoria fiscală nu sunt încă fixate."
     },
     {
       "id": "obligatiuni-lei",
@@ -184,7 +184,7 @@
       "direction": "negativ",
       "strength": 4,
       "horizon": "1–3 luni",
-      "rationale": "Deficitul și inflația încă ridicată limitează spațiul pentru relaxare locală, iar fără claritate politică riscul de randamente tensionate persistă."
+      "rationale": "Deficitul și inflația încă ridicată limitează spațiul pentru relaxare locală, iar blocajul politic și riscul de anticipatele pot menține randamentele tensionate."
     },
     {
       "id": "actiuni-romania",
@@ -192,7 +192,7 @@
       "direction": "neutru",
       "strength": 3,
       "horizon": "1–3 luni",
-      "rationale": "Tranzacția Carrefour-Dedeman este un semnal bun pentru economia reală, dar sentimentul pe piața locală rămâne dependent de formarea guvernului."
+      "rationale": "Tranzacția Carrefour-Dedeman este un semnal bun pentru economia reală, dar sentimentul pe piața locală rămâne dependent de formarea guvernului și de reducerea riscului de anticipatele."
     },
     {
       "id": "fonduri-aparare-securitate",
@@ -267,7 +267,7 @@
     {
       "id": "bet",
       "label": "Indice BET",
-      "value": 31819.94,
+      "value": 31859.64,
       "unit": "puncte",
       "referenceDate": "2026-06-26",
       "sourceName": "BVB",
@@ -278,7 +278,7 @@
     {
       "id": "rotx",
       "label": "Indice ROTX",
-      "value": 72075.4,
+      "value": 9509,
       "unit": "puncte",
       "referenceDate": "2026-06-26",
       "sourceName": "BVB / Wiener Börse",
@@ -314,8 +314,8 @@
       "id": "risc-politic-intern",
       "label": "Risc politic intern",
       "score": 4,
-      "trend": "stabil",
-      "description": "Numele premierului devine mai clar odată cu propunerea lui Siegfried Mureșan, iar PNL, USR și UDMR împing spre o formulă minoritară, dar majoritatea și arhitectura acordului nu sunt încă închise."
+      "trend": "în creștere",
+      "description": "Numele premierului devine mai clar odată cu propunerea lui Siegfried Mureșan, dar mesajul lui Grindeanu că PSD nu mai înaintează o altă propunere și preferă alegerile anticipate ridică miza blocajului asupra majorității."
     },
     {
       "id": "risc-fiscal",
@@ -350,14 +350,14 @@
     {
       "id": "desemnarea-premierului",
       "title": "Decizia președintelui privind premierul",
-      "why": "Nominalizarea formală va arăta dacă scenariul Mureșan sau alternativa Grindeanu devine executabil.",
+      "why": "Nominalizarea formală va arăta dacă scenariul Mureșan sau o escaladare spre alegeri anticipate devine executabil.",
       "trigger": "Anunț oficial de desemnare și calendar de învestire.",
       "status": "în așteptare"
     },
     {
       "id": "acordul-politic-si-pnrr",
       "title": "Acordul politic și calendarul PNRR",
-      "why": "Piețele vor urmări dacă viitorul executiv vine cu o majoritate, un pact pentru România și pași concreți pe buget și PNRR.",
+      "why": "Piețele vor urmări dacă viitorul executiv vine cu o majoritate, un pact pentru România și pași concreți pe buget și PNRR, mai ales dacă PSD închide spațiul pentru o altă nominalizare.",
       "trigger": "Publicarea unui acord parlamentar și a unui calendar fiscal clar.",
       "status": "în așteptare"
     },
@@ -392,9 +392,9 @@
   ],
   "conclusion": {
     "title": "Clarificare politică, risc climatic și pe flancul estic",
-    "body": "Dimineața de 26 iunie aduce trei clarificări: politic, PNL, USR și UDMR l-au propus pe Siegfried Mureșan, ceea ce confirmă scenariul de guvern minoritar cu acord politic și rotativă; climatic, primul cod roșu de caniculă al sezonului în vest și nord pune presiune directă pe transport, consum și infrastructură; iar extern, avertismentele din statele baltice și Polonia despre o posibilă provocare rusă ridică riscul de testare a coeziunii NATO exact înaintea summitului de la Ankara. În paralel, petrolul rămâne sub presiune descendentă, apărarea continuă să consume buget, iar România nu are încă un executiv învestit și nici un plan fiscal credibil.",
+    "body": "Dimineața de 26 iunie aduce trei clarificări: politic, PNL, USR și UDMR l-au propus pe Siegfried Mureșan, dar PSD spune că nu va mai înainta o altă propunere și preferă alegerile anticipate, ceea ce confirmă un blocaj mai degrabă decât o soluție finală; climatic, primul cod roșu de caniculă al sezonului în vest și nord pune presiune directă pe transport, consum și infrastructură; iar extern, avertismentele din statele baltice și Polonia despre o posibilă provocare rusă ridică riscul de testare a coeziunii NATO exact înaintea summitului de la Ankara. În paralel, petrolul rămâne sub presiune descendentă, apărarea continuă să consume buget, iar România nu are încă un executiv învestit și nici un plan fiscal credibil.",
     "actionPoints": [
-      "Urmărește desemnarea oficială a premierului și calendarul de învestire.",
+      "Urmărește desemnarea oficială a premierului, calendarul de învestire și dacă apare o tentativă spre alegeri anticipate.",
       "Caută semnale concrete despre pactul politic, buget și PNRR.",
       "Monitorizează dacă valul de caniculă produce perturbări operaționale în vest și nord.",
       "Urmărește dacă avertismentele despre flancul estic se transformă în măsuri NATO sau UE concrete.",
@@ -436,6 +436,13 @@
       "url": "https://hotnews.ro/unanimitate-in-psd-pentru-grindeanu-premier-2283117",
       "type": "secondary",
       "accessedAt": "2026-06-25T10:19:09+03:00"
+    },
+    {
+      "id": "digi24-grindeanu-premier",
+      "name": "Digi24 — Grindeanu: PSD nu mai înaintează o altă propunere",
+      "url": "https://www.digi24.ro/stiri/actualitate/politica/grindeanu-psd-nu-mai-inainteaza-o-alta-propunere-nu-ne-temem-de-votul-romanilor-mesaj-pentru-bolojan-ar-fi-bine-sa-inveti-engleza-3835163",
+      "type": "secondary",
+      "accessedAt": "2026-06-26T22:33:50+03:00"
     },
     {
       "id": "biziday-petrol-hormuz",
