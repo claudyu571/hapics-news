@@ -1,10 +1,10 @@
 {
   "metadata": {
     "editionDate": "2026-06-26",
-    "updatedAt": "2026-06-26T12:41:26+03:00",
+    "updatedAt": "2026-06-26T12:40:29+03:00",
     "timezone": "Europe/Bucharest",
     "title": "PNL, USR și UDMR îl propun pe Siegfried Mureșan, iar canicula intră în cod roșu",
-    "status": "published",
+    "status": "draft",
     "primarySource": "https://www.biziday.ro/feed/",
     "sourceCoverage": "complete"
   },
@@ -267,9 +267,9 @@
     {
       "id": "bet",
       "label": "Indice BET",
-      "value": 31873.38,
+      "value": 31892.62,
       "unit": "puncte",
-      "referenceDate": "2026-06-26",
+      "referenceDate": "2026-06-25",
       "sourceName": "BVB",
       "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=BET",
       "freshness": "current",
@@ -278,9 +278,9 @@
     {
       "id": "rotx",
       "label": "Indice ROTX",
-      "value": 72150.6,
+      "value": 72249.65,
       "unit": "puncte",
-      "referenceDate": "2026-06-26",
+      "referenceDate": "2026-06-25",
       "sourceName": "BVB / Wiener Börse",
       "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=ROTX",
       "freshness": "current",
@@ -291,7 +291,7 @@
       "label": "ROBOR 3M",
       "value": 5.84,
       "unit": "%",
-      "referenceDate": "2026-06-26",
+      "referenceDate": "2026-06-25",
       "sourceName": "BNR",
       "sourceUrl": "https://www.bnr.ro/1074-baza-de-date-interactiva",
       "freshness": "current",
