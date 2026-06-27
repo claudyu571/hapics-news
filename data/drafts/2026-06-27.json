@@ -1,7 +1,7 @@
 {
   "metadata": {
     "editionDate": "2026-06-27",
-    "updatedAt": "2026-06-27T17:41:27+03:00",
+    "updatedAt": "2026-06-27T22:33:48+03:00",
     "timezone": "Europe/Bucharest",
     "title": "Blocaj politic, caniculă și CSAT înainte de NATO",
     "status": "draft",
@@ -41,7 +41,7 @@
     },
     {
       "id": "flancul-estic-ramane-sub-watchlist",
-      "text": "Avertismentele din statele baltice privind posibile provocări hibride rusești mențin flancul estic într-o zonă de monitorizare atentă înainte de summitul NATO.",
+      "text": "Avertismentele din statele baltice și anunțul lui Aleksandar Vucic din Serbia mențin riscul de securitate regională într-o zonă de monitorizare atentă înainte de summitul NATO.",
       "category": "Securitate"
     }
   ],
@@ -122,6 +122,21 @@
       "confidence": "confirmed"
     },
     {
+      "id": "vucic-anunta-demisie-si-alegeri-anticipate",
+      "title": "Serbia intră într-o nouă fază de instabilitate politică",
+      "fact": "Reuters relatează că Aleksandar Vucic a spus pe 27 iunie că va demisiona în câteva săptămâni, după un an și jumătate de proteste anticorupție, ceea ce ar putea deschide calea pentru alegeri prezidențiale și parlamentare anticipate.",
+      "interpretation": "Mutarea nu schimbă direct tabloul din România, dar confirmă că tensiunile politice din Balcanii de Vest rămân suficient de mari încât să conteze în evaluarea riscului regional și a relației Serbiei cu UE.",
+      "category": "Extern",
+      "impact": 4,
+      "impactLabel": "Semnificativ",
+      "horizon": "Imediat",
+      "sourceId": "reuters-vucic-resignation",
+      "sourceName": "Reuters",
+      "sourceUrl": "https://www.straitstimes.com/world/europe/serbian-president-vucic-says-he-will-resign-with-weeks?ref=latest",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
       "id": "coreea-de-sud-accelereaza-militarizarea-dronelor",
       "title": "Coreea de Sud transformă drona în echipament standard pentru armată",
       "fact": "Biziday și Reuters relatează că Seulul vrea să instruiască 500 de mii de militari să opereze drone ca armă personală și să extindă rapid dotarea cu sisteme fără pilot și capacități anti-dronă.",
@@ -162,10 +177,11 @@
       "BNR proiectează o inflație de 5,5% la finalul lui 2026, conform raportului publicat în mai.",
       "Financial Times arată că Volkswagen ia în calcul până la 100 de mii de concedieri și închiderea a patru fabrici din Germania.",
       "Incidentul din Hormuz reintroduce un risc extern pe energie și transport, cu efecte posibile asupra costurilor de navlosire și sentimentului global.",
+      "Reuters relatează că președintele Serbiei, Aleksandar Vucic, va demisiona în câteva săptămâni, menținând presiunea politică în Balcanii de Vest.",
       "Reuters relatează că Coreea de Sud va instrui 500 de mii de militari să opereze drone, accelerând ciclul global de înarmare ieftină și scalabilă.",
       "Biziday notează avertismentele serviciilor letone și ale Poloniei privind posibile provocări hibride rusești înainte de summitul NATO."
     ],
-    "political": "Politic, România intră în weekend fără o formulă clară de majoritate și fără un nume agreat pentru Palatul Victoria. Mesajul simultan al lui Nicușor Dan, care mută vina spre PNL, și al lui Sorin Grindeanu, care mută presiunea spre anticipate, arată că ne apropiem de o fază în care întârzierea devine ea însăși un risc. Convocarea CSAT înainte de orice clarificare guvernamentală arată că agenda de securitate nu mai poate aștepta deznodământul politic.",
+    "political": "Politic, România intră în weekend fără o formulă clară de majoritate și fără un nume agreat pentru Palatul Victoria. Mesajul simultan al lui Nicușor Dan, care mută vina spre PNL, și al lui Sorin Grindeanu, care mută presiunea spre anticipate, arată că ne apropiem de o fază în care întârzierea devine ea însăși un risc. Convocarea CSAT înainte de orice clarificare guvernamentală arată că agenda de securitate nu mai poate aștepta deznodământul politic. Anunțul lui Aleksandar Vucic din Serbia adaugă și un strat de volatilitate regională în Balcanii de Vest, chiar dacă efectul direct asupra României rămâne limitat.",
     "economic": "Economic, combinația dintre deficitul de 1,75% din PIB la cinci luni, inflația încă în două cifre și proiecția BNR de 5,5% la final de an lasă puțin spațiu pentru erori. Canicula adaugă un risc operațional imediat pentru energie, muncă și logistică, iar semnalul venit din Germania prin Volkswagen sugerează că mediul extern industrial rămâne slab și poate frâna cererea europeană. Incidentul din Hormuz reintroduce și un risc extern pe energie și transport, care poate împinge piețele spre mai multă prudență exact când spațiul intern este deja strâmt. România nu intră într-un șoc nou, dar nici nu are luxul unei perioade de inerție administrativă.",
     "interpretation": "Scenariul de bază nu este o ruptură instituțională imediată, ci câteva zile suplimentare de ambiguitate într-un moment în care securitatea, vremea extremă și corecția fiscală cer decizii simultane. Dacă desemnarea premierului întârzie dincolo de începutul săptămânii viitoare, costul principal va fi administrativ: mai puțină capacitate de execuție exact când agenda devine mai încărcată. Pe fundal, Hormuz rămâne un canal de stres extern care poate schimba rapid sentimentul pe energie."
   },
@@ -296,7 +312,7 @@
       "label": "Risc de securitate regională",
       "score": 3,
       "trend": "în creștere",
-      "description": "CSAT și alertele de pe flancul estic mențin tema de securitate în prim-plan."
+      "description": "CSAT, alertele de pe flancul estic și volatilitatea politică din Balcanii de Vest mențin tema de securitate în prim-plan."
     },
     {
       "id": "risc-industrial-european",
@@ -342,7 +358,7 @@
   ],
   "conclusion": {
     "title": "Weekendul începe cu mai puțină claritate politică și cu riscuri mai concrete",
-    "body": "România intră în dimineața de 27 iunie cu un amestec incomod de blocaj politic, presiune climatică și agendă de securitate accelerată. Scenariul cel mai probabil rămâne unul de ambiguitate de scurtă durată, nu de ruptură, dar costul întârzierii crește fiindcă deciziile amânate se suprapun cu canicula și cu pregătirea pentru summitul NATO. Fără o desemnare rapidă, atenția se mută inevitabil de la negociere la capacitatea statului de a executa sub presiune. Pe fundal, incidentul din Hormuz reface riscul extern pe energie și transport și poate amplifica volatilitatea piețelor exact când România are nevoie de stabilitate de prețuri.",
+    "body": "România intră în dimineața de 27 iunie cu un amestec incomod de blocaj politic, presiune climatică și agendă de securitate accelerată. Scenariul cel mai probabil rămâne unul de ambiguitate de scurtă durată, nu de ruptură, dar costul întârzierii crește fiindcă deciziile amânate se suprapun cu canicula și cu pregătirea pentru summitul NATO. Fără o desemnare rapidă, atenția se mută inevitabil de la negociere la capacitatea statului de a executa sub presiune. Pe fundal, incidentul din Hormuz reface riscul extern pe energie și transport și poate amplifica volatilitatea piețelor exact când România are nevoie de stabilitate de prețuri. Separat, anunțul lui Aleksandar Vucic din Serbia confirmă că și Balcanii de Vest rămân o sursă de volatilitate politică, chiar dacă efectul direct în România este mai degrabă de context decât de șoc imediat.",
     "actionPoints": [
       "Urmărește dacă președintele desemnează rapid un premier.",
       "Verifică deciziile CSAT privind NATO, ROMATSA și misiunile externe.",
@@ -448,6 +464,13 @@
       "url": "https://www.marketscreener.com/news/tanker-reports-strike-by-unidentified-projectile-in-strait-of-hormuz-ukmto-says-ce7f5fded989ff2d",
       "type": "secondary",
       "accessedAt": "2026-06-27T17:35:00+03:00"
+    },
+    {
+      "id": "reuters-vucic-resignation",
+      "name": "Reuters - demisia lui Vucic",
+      "url": "https://www.straitstimes.com/world/europe/serbian-president-vucic-says-he-will-resign-with-weeks?ref=latest",
+      "type": "secondary",
+      "accessedAt": "2026-06-27T22:33:48+03:00"
     },
     {
       "id": "hotnews-canicula-2285792",
