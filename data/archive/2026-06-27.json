@@ -1,7 +1,7 @@
 {
   "metadata": {
     "editionDate": "2026-06-27",
-    "updatedAt": "2026-06-27T07:40:57+03:00",
+    "updatedAt": "2026-06-27T17:42:21+03:00",
     "timezone": "Europe/Bucharest",
     "title": "Blocaj politic, caniculă și CSAT înainte de NATO",
     "status": "published",
@@ -35,9 +35,9 @@
       "category": "Economie"
     },
     {
-      "id": "dronele-devin-standard-militar",
-      "text": "Programul Coreei de Sud de a instrui 500 de mii de militari să opereze drone arată că războiul cu sisteme ieftine și scalabile devine normă, nu excepție.",
-      "category": "Securitate"
+      "id": "incidentul-din-hormuz-reaprinde-riscul-energetic",
+      "text": "Un petrolier avariat în Hormuz readuce volatilitatea pe energie și transport, cu potențial de transmisie rapidă în costuri și sentimentul global.",
+      "category": "Extern"
     },
     {
       "id": "flancul-estic-ramane-sub-watchlist",
@@ -107,6 +107,21 @@
       "confidence": "confirmed"
     },
     {
+      "id": "tanker-hormuz-ridica-riscul-energiei-si-transportului",
+      "title": "Incidentul din Hormuz readuce riscul energetic și logistic",
+      "fact": "Biziday și Reuters arată că un petrolier a raportat că a fost lovit de un proiectil neidentificat în Strâmtoarea Hormuz, iar UKMTO a spus că nava a suferit avarii la punte, cu echipajul în siguranță și fără poluare raportată imediat.",
+      "interpretation": "Episodul nu produce încă un șoc de ofertă, dar reface rapid volatilitatea pe petrol, shipping și asigurări și poate muta sentimentul de piață într-o direcție mai defensivă.",
+      "category": "Extern",
+      "impact": 4,
+      "impactLabel": "Semnificativ",
+      "horizon": "Imediat",
+      "sourceId": "reuters-hormuz-incident",
+      "sourceName": "Reuters",
+      "sourceUrl": "https://www.marketscreener.com/news/tanker-reports-strike-by-unidentified-projectile-in-strait-of-hormuz-ukmto-says-ce7f5fded989ff2d",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
       "id": "coreea-de-sud-accelereaza-militarizarea-dronelor",
       "title": "Coreea de Sud transformă drona în echipament standard pentru armată",
       "fact": "Biziday și Reuters relatează că Seulul vrea să instruiască 500 de mii de militari să opereze drone ca armă personală și să extindă rapid dotarea cu sisteme fără pilot și capacități anti-dronă.",
@@ -146,12 +161,13 @@
       "INS a raportat o inflație anuală IPC de 10,9% în mai 2026.",
       "BNR proiectează o inflație de 5,5% la finalul lui 2026, conform raportului publicat în mai.",
       "Financial Times arată că Volkswagen ia în calcul până la 100 de mii de concedieri și închiderea a patru fabrici din Germania.",
+      "Incidentul din Hormuz reintroduce un risc extern pe energie și transport, cu efecte posibile asupra costurilor de navlosire și sentimentului global.",
       "Reuters relatează că Coreea de Sud va instrui 500 de mii de militari să opereze drone, accelerând ciclul global de înarmare ieftină și scalabilă.",
       "Biziday notează avertismentele serviciilor letone și ale Poloniei privind posibile provocări hibride rusești înainte de summitul NATO."
     ],
     "political": "Politic, România intră în weekend fără o formulă clară de majoritate și fără un nume agreat pentru Palatul Victoria. Mesajul simultan al lui Nicușor Dan, care mută vina spre PNL, și al lui Sorin Grindeanu, care mută presiunea spre anticipate, arată că ne apropiem de o fază în care întârzierea devine ea însăși un risc. Convocarea CSAT înainte de orice clarificare guvernamentală arată că agenda de securitate nu mai poate aștepta deznodământul politic.",
-    "economic": "Economic, combinația dintre deficitul de 1,75% din PIB la cinci luni, inflația încă în două cifre și proiecția BNR de 5,5% la final de an lasă puțin spațiu pentru erori. Canicula adaugă un risc operațional imediat pentru energie, muncă și logistică, iar semnalul venit din Germania prin Volkswagen sugerează că mediul extern industrial rămâne slab și poate frâna cererea europeană. România nu intră într-un șoc nou, dar nici nu are luxul unei perioade de inerție administrativă.",
-    "interpretation": "Scenariul de bază nu este o ruptură instituțională imediată, ci câteva zile suplimentare de ambiguitate într-un moment în care securitatea, vremea extremă și corecția fiscală cer decizii simultane. Dacă desemnarea premierului întârzie dincolo de începutul săptămânii viitoare, costul principal va fi administrativ: mai puțină capacitate de execuție exact când agenda devine mai încărcată."
+    "economic": "Economic, combinația dintre deficitul de 1,75% din PIB la cinci luni, inflația încă în două cifre și proiecția BNR de 5,5% la final de an lasă puțin spațiu pentru erori. Canicula adaugă un risc operațional imediat pentru energie, muncă și logistică, iar semnalul venit din Germania prin Volkswagen sugerează că mediul extern industrial rămâne slab și poate frâna cererea europeană. Incidentul din Hormuz reintroduce și un risc extern pe energie și transport, care poate împinge piețele spre mai multă prudență exact când spațiul intern este deja strâmt. România nu intră într-un șoc nou, dar nici nu are luxul unei perioade de inerție administrativă.",
+    "interpretation": "Scenariul de bază nu este o ruptură instituțională imediată, ci câteva zile suplimentare de ambiguitate într-un moment în care securitatea, vremea extremă și corecția fiscală cer decizii simultane. Dacă desemnarea premierului întârzie dincolo de începutul săptămânii viitoare, costul principal va fi administrativ: mai puțină capacitate de execuție exact când agenda devine mai încărcată. Pe fundal, Hormuz rămâne un canal de stres extern care poate schimba rapid sentimentul pe energie."
   },
   "investmentFundSignals": [
     {
@@ -185,6 +201,14 @@
       "strength": 3,
       "horizon": "6–12 luni",
       "rationale": "Semnalul Volkswagen arată că ajustarea capacității și a costurilor în industria europeană este încă în desfășurare și poate afecta evaluările ciclice."
+    },
+    {
+      "id": "fonduri-energie-transport",
+      "label": "Fonduri expuse la energie și transport",
+      "direction": "negativ",
+      "strength": 3,
+      "horizon": "1–3 luni",
+      "rationale": "Incidentul din Hormuz readuce volatilitatea pe petrol, shipping și asigurări, ceea ce poate penaliza expunerile ciclice dependente de fluxuri comerciale stabile."
     },
     {
       "id": "fonduri-aparare-securitate",
@@ -309,6 +333,13 @@
       "description": "Deficitul și inflația ridicată lasă marjă redusă pentru erori de politică."
     },
     {
+      "id": "risc-energie-transport",
+      "label": "Risc energie și transport",
+      "score": 4,
+      "trend": "în creștere",
+      "description": "Incidentul din Hormuz reface volatilitatea pe petrol, shipping și asigurări."
+    },
+    {
       "id": "risc-climatic",
       "label": "Risc climatic",
       "score": 5,
@@ -366,11 +397,12 @@
   ],
   "conclusion": {
     "title": "Weekendul începe cu mai puțină claritate politică și cu riscuri mai concrete",
-    "body": "România intră în dimineața de 27 iunie cu un amestec incomod de blocaj politic, presiune climatică și agendă de securitate accelerată. Scenariul cel mai probabil rămâne unul de ambiguitate de scurtă durată, nu de ruptură, dar costul întârzierii crește fiindcă deciziile amânate se suprapun cu canicula și cu pregătirea pentru summitul NATO. Fără o desemnare rapidă, atenția se mută inevitabil de la negociere la capacitatea statului de a executa sub presiune.",
+    "body": "România intră în dimineața de 27 iunie cu un amestec incomod de blocaj politic, presiune climatică și agendă de securitate accelerată. Scenariul cel mai probabil rămâne unul de ambiguitate de scurtă durată, nu de ruptură, dar costul întârzierii crește fiindcă deciziile amânate se suprapun cu canicula și cu pregătirea pentru summitul NATO. Fără o desemnare rapidă, atenția se mută inevitabil de la negociere la capacitatea statului de a executa sub presiune. Pe fundal, incidentul din Hormuz reface riscul extern pe energie și transport și poate amplifica volatilitatea piețelor exact când România are nevoie de stabilitate de prețuri.",
     "actionPoints": [
       "Urmărește dacă președintele desemnează rapid un premier.",
       "Verifică deciziile CSAT privind NATO, ROMATSA și misiunile externe.",
-      "Monitorizează extinderea caniculei și efectele operaționale din teren."
+      "Monitorizează extinderea caniculei și efectele operaționale din teren.",
+      "Urmărește dacă incidentul din Hormuz se repetă sau escaladează."
     ]
   },
   "sources": [
@@ -464,6 +496,13 @@
       "url": "https://www.digi24.ro/meteo/canicula-cuprinde-toata-tara-anm-a-emis-primul-cod-rosu-din-sezon-in-16-judete-temperaturi-de-pana-la-40-de-grade-si-nopti-tropicale-3833817",
       "type": "secondary",
       "accessedAt": "2026-06-27T07:48:00+03:00"
+    },
+    {
+      "id": "reuters-hormuz-incident",
+      "name": "Reuters - incident Hormuz",
+      "url": "https://www.marketscreener.com/news/tanker-reports-strike-by-unidentified-projectile-in-strait-of-hormuz-ukmto-says-ce7f5fded989ff2d",
+      "type": "secondary",
+      "accessedAt": "2026-06-27T17:35:00+03:00"
     },
     {
       "id": "hotnews-canicula-2285792",
