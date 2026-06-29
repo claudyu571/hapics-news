@@ -1,7 +1,7 @@
 {
   "metadata": {
     "editionDate": "2026-06-29",
-    "updatedAt": "2026-06-29T07:41:03+03:00",
+    "updatedAt": "2026-06-29T19:46:05+03:00",
     "timezone": "Europe/Bucharest",
     "title": "Caniculă extremă, blocaj politic și presiune de securitate",
     "status": "published",
@@ -11,17 +11,17 @@
   "executiveSummary": [
     {
       "id": "canicula-extrema-devine-risc-operational-national",
-      "text": "Codul roșu de caniculă se extinde de luni în aproape toată țara, ceea ce mută riscul principal din zona de confort termic spre cea de continuitate operațională în sănătate, energie și transport.",
+      "text": "Codul roșu de caniculă se extinde de luni în aproape toată țara, iar amânarea probei de Bac confirmă că riscul a trecut deja din meteo în perturbare operațională.",
       "category": "Energie"
     },
     {
       "id": "blocajul-pentru-guvern-ramane-fara-majoritate-clara",
-      "text": "Nici varianta Grindeanu, nici varianta Mureșan nu are deocamdată o majoritate clară, iar întârzierea unei soluții crește costul de execuție administrativă într-o zi cu agendă plină.",
+      "text": "Nici varianta Grindeanu, nici varianta Mureșan nu are deocamdată o majoritate clară, iar Kelemen Hunor mută orizontul unui guvern spre finalul lui iulie.",
       "category": "Politică"
     },
     {
       "id": "deficitul-s-a-corectat-dar-marja-fiscala-ramane-stramta",
-      "text": "Deficitul cash de 1,75% din PIB la cinci luni arată o corecție reală față de 2025, dar nu schimbă faptul că spațiul fiscal rămâne limitat într-un mediu cu inflație încă ridicată.",
+      "text": "Deficitul cash de 1,75% din PIB la cinci luni arată o corecție reală față de 2025, dar scumpirea probabilă a motorinei de la 1 iulie menține presiunea pe costuri și pe marja fiscală.",
       "category": "Economie"
     },
     {
@@ -43,31 +43,31 @@
   "importantNews": [
     {
       "id": "cod-rosu-canicula-se-extinde-aproape-national",
-      "title": "Codul roșu de caniculă se extinde în aproape toată țara",
-      "fact": "Biziday a publicat luni dimineață că avertizarea Cod Roșu se extinde în Banat, Crișana, Maramureș, Transilvania, Moldova, Oltenia și jumătatea vestică a Munteniei, cu maxime de 35-41 de grade, iar HotNews notează că avertizarea rămâne valabilă până miercuri dimineață și poate fi urmată marți după-amiază de furtuni.",
-      "interpretation": "Scenariul cel mai probabil este o presiune operațională ridicată, dar localizată, asupra spitalelor, distribuției de energie, transportului și muncii în aer liber, nu un colaps sistemic generalizat.",
+      "title": "Canicula mută deja riscul în perturbări concrete",
+      "fact": "Biziday a publicat luni dimineață că avertizarea Cod Roșu se extinde în Banat, Crișana, Maramureș, Transilvania, Moldova, Oltenia și jumătatea vestică a Munteniei, cu maxime de 35-41 de grade, iar Ministerul Educației a amânat proba de matematică și istorie de la Bac de marți, 30 iunie, pe miercuri, 1 iulie. HotNews notează că avertizarea rămâne valabilă până miercuri dimineață și poate fi urmată marți după-amiază de furtuni.",
+      "interpretation": "Asta confirmă că riscul zilei nu mai este doar termic: canicula intră deja în calendarul administrativ și în presiunea asupra serviciilor publice.",
       "category": "Energie",
       "impact": 5,
       "impactLabel": "Ridicat",
       "horizon": "Imediat",
-      "sourceId": "hotnews-canicula-2286507",
-      "sourceName": "HotNews",
-      "sourceUrl": "https://hotnews.ro/cod-rosu-canicula-vreme-meteo-prognoza-furtuni-2286507",
+      "sourceId": "biziday-bac-canicula-2026-06-29",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/362248-2/",
       "isSecondary": true,
       "confidence": "confirmed"
     },
     {
       "id": "blocajul-pentru-guvern-ramane-fara-majoritate-clara",
-      "title": "Blocajul politic intră în săptămână fără o majoritate clară pentru guvern",
-      "fact": "Digi24 arată că nici Sorin Grindeanu, nici Siegfried Mureșan nu pot strânge în acest moment voturile necesare fără sprijin suplimentar, iar G4Media scrie că UDMR este presat să susțină necondiționat o formulă Grindeanu, dar că poziția partidului nu s-a schimbat până acum.",
-      "interpretation": "Riscul imediat nu este o ruptură instituțională, ci prelungirea negocierii într-un moment în care agenda fiscală, operațională și de securitate cere decizie rapidă și coordonare clară.",
+      "title": "Kelemen Hunor împinge formarea guvernului spre finalul lui iulie",
+      "fact": "După întâlniri cu Sorin Grindeanu și Ilie Bolojan, Kelemen Hunor spune că un acord politic și un nou guvern ar putea apărea abia spre finalul lunii iulie și că, fără o flexibilizare a pozițiilor, ar fi nevoie de voturile AUR.",
+      "interpretation": "Asta confirmă că blocajul nu s-a rupt și mută riscul de execuție mai adânc în iulie, exact când presiunea fiscală și operațională rămâne ridicată.",
       "category": "Politică",
       "impact": 5,
       "impactLabel": "Ridicat",
       "horizon": "Imediat",
-      "sourceId": "digi24-voturi-guvern-3835849",
-      "sourceName": "Digi24",
-      "sourceUrl": "https://www.digi24.ro/stiri/actualitate/politica/calcule-pentru-investirea-unui-nou-guvern-pe-cate-voturi-se-pot-baza-sorin-grindeanu-si-siegfried-muresan-fara-a-apela-la-aur-3835849",
+      "sourceId": "biziday-guvern-final-iulie-2026-06-29",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/362268-2/",
       "isSecondary": true,
       "confidence": "confirmed"
     },
@@ -83,6 +83,21 @@
       "sourceId": "mf-deficit-2026-05",
       "sourceName": "Ministerul Finanțelor",
       "sourceUrl": "https://mfinante.gov.ro/despre-minister/-/asset_publisher/uwgr/content/ministerul-finan-c8-9belor-a-publicat-execu-c8-9bia-bugetar-c4-83-la-31-mai-2026-deficitul-bugetar-s-a-redus-la-jum-c4-83tate-fa-c8-9b-c4-83-de-anul-precedent-de-la-3-35-la-1-75-din-pib?_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_uwgr_assetEntryId=19179900&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_uwgr_redirect=https%3A%2F%2Fmfinante.gov.ro%2Fdespre-minister%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_uwgr%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_uwgr_cur%3D0%26p_r_p_resetCur%3Dfalse%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_uwgr_assetEntryId%3D19179900",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "motorina-se-scumpeste-din-iulie",
+      "title": "Motorina urcă de la 1 iulie, după expirarea reducerii de acciză",
+      "fact": "Biziday scrie că măsura introdusă în aprilie expiră la 30 iunie și, cât timp guvernul rămâne interimar, nu poate fi prelungită; rezultatul cel mai probabil este o scumpire de peste 30 de bani de miercuri, 1 iulie.",
+      "interpretation": "Nu e un șoc macro izolat, dar adaugă presiune directă pe transport, logistică și așteptările de preț, exact într-un moment în care inflația rămâne ridicată.",
+      "category": "Economie",
+      "impact": 4,
+      "impactLabel": "Semnificativ",
+      "horizon": "Imediat",
+      "sourceId": "biziday-motorina-2026-06-29",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/362232-2/",
       "isSecondary": true,
       "confidence": "confirmed"
     },
@@ -134,19 +149,20 @@
   ],
   "romaniaAnalysis": {
     "factBase": [
-      "Biziday și HotNews arată că de luni, 29 iunie 2026, Codul Roșu de caniculă acoperă aproape toată țara, cu maxime de 35-41 de grade și risc de furtuni marți.",
+      "Biziday și HotNews arată că de luni, 29 iunie 2026, Codul Roșu de caniculă acoperă aproape toată țara, iar Ministerul Educației a amânat proba de Bac de marți pe miercuri.",
       "Digi24 calculează că nici Sorin Grindeanu, nici Siegfried Mureșan nu au deocamdată o majoritate clară pentru învestire fără sprijin suplimentar.",
-      "G4Media scrie că UDMR este supus unor presiuni pentru a susține un guvern Grindeanu, dar fără schimbare confirmată de poziție.",
+      "Biziday spune că Kelemen Hunor vede un acord politic și un guvern abia spre finalul lunii iulie, dacă pozițiile nu se flexibilizează.",
       "Ministerul Finanțelor a raportat la 31 mai 2026 un deficit cash de 1,75% din PIB, respectiv 35,94 miliarde lei.",
+      "Biziday avertizează că motorina se va scumpi cel mai probabil cu peste 30 de bani de la 1 iulie, după expirarea reducerii de acciză.",
       "INS publică pentru mai 2026 o rată anuală a inflației de 10,85%.",
       "BNR arată în Raportul asupra inflației din mai 2026 o proiecție de 5,5% pentru inflația de la finalul anului 2026.",
       "CSAT se reunește luni pentru agenda României la Summitul NATO, misiuni externe în 2027 și implicațiile situației ROMATSA pentru spațiul aerian.",
       "Reuters relatează noi lovituri reciproce între Iran și SUA după avarierea unui petrolier în Hormuz.",
       "G4Media, citând Reuters, arată că Franța a raportat peste 1.000 de decese în exces în actualul val de căldură european."
     ],
-    "political": "Politic, România intră în 29 iunie fără o formulă clară de majoritate și fără semnalul că una dintre opțiunile aflate pe masă poate trece rapid de Parlament. Asta nu înseamnă automat o criză instituțională deschisă, dar înseamnă că fiecare zi de întârziere mută presiunea pe administrația interimară și complică execuția exact când agenda operațională este mai aglomerată decât de obicei.",
-    "economic": "Economic, corecția deficitului la 1,75% din PIB este un semnal util, dar nu anulează combinația incomodă dintre inflație încă ridicată, stres climatic și sensibilitate la șocuri externe. Canicula poate produce rapid costuri locale în energie, sănătate și transport, iar tensiunile din Hormuz pot transmite volatilitate prin petrol, shipping și costuri logistice. Aceste presiuni vin într-un moment în care economia are nevoie de mai multă coordonare, nu de mai multă ambiguitate politică.",
-    "interpretation": "Scenariul de bază pentru următoarele zile rămâne unul de tensiune administrabilă, nu de ruptură. Totuși, suprapunerea dintre caniculă extremă, blocaj politic și agendă de securitate reduce clar spațiul pentru erori. Dacă desemnarea și majoritatea întârzie, principalul cost probabil nu va fi unul retoric, ci unul de viteză și coerență în execuția publică."
+    "political": "Politic, România intră în 29 iunie fără o formulă clară de majoritate și cu un orizont împins de Kelemen Hunor spre finalul lui iulie. Asta nu înseamnă automat o criză instituțională deschisă, dar înseamnă că fiecare zi de întârziere mută presiunea pe administrația interimară și complică execuția exact când agenda operațională este mai aglomerată decât de obicei.",
+    "economic": "Economic, corecția deficitului la 1,75% din PIB este un semnal util, dar nu anulează combinația incomodă dintre inflație încă ridicată, motorina mai scumpă de la 1 iulie, stres climatic și sensibilitate la șocuri externe. Canicula poate produce rapid costuri locale în energie, sănătate și transport, iar tensiunile din Hormuz pot transmite volatilitate prin petrol, shipping și costuri logistice. Aceste presiuni vin într-un moment în care economia are nevoie de mai multă coordonare, nu de mai multă ambiguitate politică.",
+    "interpretation": "Scenariul de bază pentru următoarele zile rămâne unul de tensiune administrabilă, nu de ruptură. Totuși, suprapunerea dintre caniculă care deja amână programe, blocaj politic împins spre finalul lui iulie și scumpirea motorinei reduce clar spațiul pentru erori. Dacă desemnarea și majoritatea întârzie, principalul cost probabil nu va fi unul retoric, ci unul de viteză, coerență și prețuri în execuția publică."
   },
   "investmentFundSignals": [
     {
@@ -155,7 +171,7 @@
       "direction": "pozitiv",
       "strength": 4,
       "horizon": "1–3 luni",
-      "rationale": "Lichiditatea și durata foarte scurtă rămân avantaje într-un context cu claritate politică redusă și volatilitate externă ridicată."
+      "rationale": "Lichiditatea și durata foarte scurtă rămân avantaje într-un context cu claritate politică redusă, prețuri mai mari la combustibil și volatilitate externă ridicată."
     },
     {
       "id": "obligatiuni-lei",
@@ -163,7 +179,7 @@
       "direction": "neutru",
       "strength": 3,
       "horizon": "1–3 luni",
-      "rationale": "Corecția deficitului ajută, dar inflația încă mare și lipsa unei majorități clare mențin sensibilitatea la orice șoc fiscal sau politic."
+      "rationale": "Corecția deficitului ajută, dar inflația încă mare, motorina mai scumpă și lipsa unei majorități clare mențin sensibilitatea la orice șoc fiscal sau politic."
     },
     {
       "id": "actiuni-romania",
@@ -171,7 +187,7 @@
       "direction": "neutru",
       "strength": 3,
       "horizon": "1–4 săptămâni",
-      "rationale": "Piața locală poate rămâne împărțită între sprijinul venit din indicatorii fiscali mai buni și lipsa vizibilității asupra următorului guvern."
+      "rationale": "Piața locală poate rămâne împărțită între sprijinul venit din indicatorii fiscali mai buni și lipsa vizibilității asupra următorului guvern, plus presiunea pe costuri venită din combustibil."
     },
     {
       "id": "energie-utilitati",
@@ -235,9 +251,9 @@
     {
       "id": "eur-ron",
       "label": "EUR/RON",
-      "value": 5.239,
+      "value": 5.243,
       "unit": "lei",
-      "referenceDate": "2026-06-26",
+      "referenceDate": "2026-06-29",
       "sourceName": "BNR",
       "sourceUrl": "https://www.bnr.ro/nbrfxrates.xml",
       "freshness": "current",
@@ -246,7 +262,7 @@
     {
       "id": "bet",
       "label": "Indice BET",
-      "value": 31859.64,
+      "value": 31967.34,
       "unit": "puncte",
       "referenceDate": "2026-06-29",
       "sourceName": "BVB",
@@ -257,7 +273,7 @@
     {
       "id": "rotx",
       "label": "Indice ROTX",
-      "value": 72166.23,
+      "value": 72409.22,
       "unit": "puncte",
       "referenceDate": "2026-06-29",
       "sourceName": "BVB / Wiener Börse",
@@ -270,7 +286,7 @@
       "label": "ROBOR 3M",
       "value": 5.84,
       "unit": "%",
-      "referenceDate": "2026-06-26",
+      "referenceDate": "2026-06-29",
       "sourceName": "BNR",
       "sourceUrl": "https://www.bnr.ro/1074-baza-de-date-interactiva",
       "freshness": "current",
@@ -294,14 +310,14 @@
       "label": "Caniculă și infrastructură",
       "score": 5,
       "trend": "în creștere",
-      "description": "Temperaturile extreme cresc riscul de incidente în sănătate, energie, transport și logistică urbană."
+      "description": "Temperaturile extreme cresc riscul de incidente în sănătate, energie, transport și în calendarul serviciilor publice."
     },
     {
       "id": "blocaj-politic-intern",
       "label": "Blocaj politic intern",
       "score": 4,
       "trend": "în creștere",
-      "description": "Absența unei majorități clare poate încetini deciziile executive exact într-o zi cu agendă încărcată."
+      "description": "Absența unei majorități clare împinge formarea guvernului spre finalul lui iulie și poate încetini deciziile executive exact într-o zi cu agendă încărcată."
     },
     {
       "id": "hormuz-energie-transport",
@@ -315,7 +331,7 @@
       "label": "Presiune fiscală și costuri de finanțare",
       "score": 3,
       "trend": "stabil",
-      "description": "Deficitul s-a redus, dar inflația mare și incertitudinea politică păstrează fundalul sensibil."
+      "description": "Deficitul s-a redus, dar inflația mare, scumpirea motorinei și incertitudinea politică păstrează fundalul sensibil."
     },
     {
       "id": "securitate-aeriana-si-nato",
@@ -347,15 +363,15 @@
       "why": "Arată dacă blocajul se rupe prin negociere sau doar se mută spre un calendar și mai lung.",
       "trigger": "Schimbare explicită de poziție sau nominalizare cu calendar de vot.",
       "status": "în așteptare",
-      "sourceUrl": "https://www.g4media.ro/surse-presiuni-mari-pe-udmr-sa-isi-schimbe-pozitia-si-sa-sustina-neconditionat-un-guvern-grindeanu.html"
+      "sourceUrl": "https://www.biziday.ro/362268-2/"
     },
     {
       "id": "impactul-real-al-caniculei",
       "title": "Impactul real al caniculei asupra serviciilor",
       "why": "Diferența dintre avertizare și impact material contează pentru evaluarea riscului zilei.",
       "trigger": "Restricții extinse, pene locale, întârzieri mari sau presiune spitalicească vizibilă.",
-      "status": "neconfirmat",
-      "sourceUrl": "https://hotnews.ro/cod-rosu-canicula-vreme-meteo-prognoza-furtuni-2286507"
+      "status": "în așteptare",
+      "sourceUrl": "https://www.biziday.ro/362248-2/"
     },
     {
       "id": "traficul-prin-hormuz",
@@ -368,11 +384,11 @@
   ],
   "conclusion": {
     "title": "Prioritatea zilei: execuție, nu retorică",
-    "body": "Pentru România, 29 iunie nu este despre un singur șoc, ci despre suprapunerea a trei presiuni: caniculă extremă, blocaj politic și o agendă de securitate care nu mai poate fi amânată. Scenariul de bază rămâne unul de tensiune administrabilă, dar spațiul pentru erori scade clar dacă nominalizarea guvernului și reacția operațională la căldură se prelungesc.",
+    "body": "Pentru România, 29 iunie nu este despre un singur șoc, ci despre suprapunerea a patru presiuni: caniculă care deja amână programe, blocaj politic împins spre finalul lui iulie, o scumpire iminentă a motorinei și o agendă de securitate care nu mai poate fi amânată. Scenariul de bază rămâne unul de tensiune administrabilă, dar spațiul pentru erori scade clar dacă soluțiile politice și reacția operațională la căldură se prelungesc.",
     "actionPoints": [
       "Urmărește comunicatul CSAT și orice măsură legată de spațiul aerian.",
       "Separă efectele reale ale caniculei de simpla severitate a avertizării.",
-      "Privește corecția deficitului ca tampon limitat, nu ca relaxare fiscală."
+      "Ține cont de motorină și de blocajul politic ca factori de presiune pe costuri și execuție."
     ]
   },
   "sources": [
@@ -389,6 +405,27 @@
       "url": "https://www.biziday.ro/362214-2/",
       "type": "primary",
       "accessedAt": "2026-06-29T07:33:00+03:00"
+    },
+    {
+      "id": "biziday-bac-canicula-2026-06-29",
+      "name": "Biziday - Proba de Bac se amână din cauza caniculei",
+      "url": "https://www.biziday.ro/362248-2/",
+      "type": "primary",
+      "accessedAt": "2026-06-29T11:13:16+03:00"
+    },
+    {
+      "id": "biziday-guvern-final-iulie-2026-06-29",
+      "name": "Biziday - Kelemen Hunor vede guvernul abia spre finalul lui iulie",
+      "url": "https://www.biziday.ro/362268-2/",
+      "type": "primary",
+      "accessedAt": "2026-06-29T13:38:39+03:00"
+    },
+    {
+      "id": "biziday-motorina-2026-06-29",
+      "name": "Biziday - Motorina se va scumpi de la 1 iulie",
+      "url": "https://www.biziday.ro/362232-2/",
+      "type": "primary",
+      "accessedAt": "2026-06-29T07:49:11+03:00"
     },
     {
       "id": "hotnews-canicula-2286507",
