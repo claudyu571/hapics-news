@@ -1,9 +1,9 @@
 {
   "metadata": {
     "editionDate": "2026-06-29",
-    "updatedAt": "2026-06-29T19:46:05+03:00",
+    "updatedAt": "2026-06-29T23:23:36+03:00",
     "timezone": "Europe/Bucharest",
-    "title": "Caniculă extremă, blocaj politic și presiune de securitate",
+    "title": "Caniculă extremă, blocaj politic și risc de rating",
     "status": "published",
     "primarySource": "https://www.biziday.ro/feed/",
     "sourceCoverage": "complete"
@@ -22,6 +22,11 @@
     {
       "id": "deficitul-s-a-corectat-dar-marja-fiscala-ramane-stramta",
       "text": "Deficitul cash de 1,75% din PIB la cinci luni arată o corecție reală față de 2025, dar scumpirea probabilă a motorinei de la 1 iulie menține presiunea pe costuri și pe marja fiscală.",
+      "category": "Economie"
+    },
+    {
+      "id": "moodys-leaga-blocajul-politic-de-riscul-de-rating",
+      "text": "Moody's avertizează că incertitudinea politică ridică riscurile pentru consolidarea fiscală și confirmă că blocajul guvernamental a devenit și o problemă de rating.",
       "category": "Economie"
     },
     {
@@ -83,6 +88,21 @@
       "sourceId": "mf-deficit-2026-05",
       "sourceName": "Ministerul Finanțelor",
       "sourceUrl": "https://mfinante.gov.ro/despre-minister/-/asset_publisher/uwgr/content/ministerul-finan-c8-9belor-a-publicat-execu-c8-9bia-bugetar-c4-83-la-31-mai-2026-deficitul-bugetar-s-a-redus-la-jum-c4-83tate-fa-c8-9b-c4-83-de-anul-precedent-de-la-3-35-la-1-75-din-pib?_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_uwgr_assetEntryId=19179900&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_uwgr_redirect=https%3A%2F%2Fmfinante.gov.ro%2Fdespre-minister%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_uwgr%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_uwgr_cur%3D0%26p_r_p_resetCur%3Dfalse%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_uwgr_assetEntryId%3D19179900",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "moodys-blocajul-politic-risca-fiscul",
+      "title": "Moody's leagă blocajul politic de riscul de consolidare fiscală",
+      "fact": "Biziday a publicat luni dimineață că Moody's avertizează asupra riscurilor pentru economia României cauzate de incertitudinea politică; HotNews a documentat anterior că prăbușirea Guvernului Bolojan ridică riscuri de consolidare fiscală și că agenția și-a revizuit în creștere prognoza de deficit pentru anul acesta.",
+      "interpretation": "Semnalul confirmă că întârzierea formării guvernului nu este doar o problemă de calendar, ci și un risc de rating și de credibilitate fiscală.",
+      "category": "Economie",
+      "impact": 5,
+      "impactLabel": "Ridicat",
+      "horizon": "Imediat",
+      "sourceId": "biziday-moodys-2026-06-29",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/362289-2/",
       "isSecondary": true,
       "confidence": "confirmed"
     },
@@ -161,8 +181,8 @@
       "G4Media, citând Reuters, arată că Franța a raportat peste 1.000 de decese în exces în actualul val de căldură european."
     ],
     "political": "Politic, România intră în 29 iunie fără o formulă clară de majoritate și cu un orizont împins de Kelemen Hunor spre finalul lui iulie. Asta nu înseamnă automat o criză instituțională deschisă, dar înseamnă că fiecare zi de întârziere mută presiunea pe administrația interimară și complică execuția exact când agenda operațională este mai aglomerată decât de obicei.",
-    "economic": "Economic, corecția deficitului la 1,75% din PIB este un semnal util, dar nu anulează combinația incomodă dintre inflație încă ridicată, motorina mai scumpă de la 1 iulie, stres climatic și sensibilitate la șocuri externe. Canicula poate produce rapid costuri locale în energie, sănătate și transport, iar tensiunile din Hormuz pot transmite volatilitate prin petrol, shipping și costuri logistice. Aceste presiuni vin într-un moment în care economia are nevoie de mai multă coordonare, nu de mai multă ambiguitate politică.",
-    "interpretation": "Scenariul de bază pentru următoarele zile rămâne unul de tensiune administrabilă, nu de ruptură. Totuși, suprapunerea dintre caniculă care deja amână programe, blocaj politic împins spre finalul lui iulie și scumpirea motorinei reduce clar spațiul pentru erori. Dacă desemnarea și majoritatea întârzie, principalul cost probabil nu va fi unul retoric, ci unul de viteză, coerență și prețuri în execuția publică."
+    "economic": "Economic, corecția deficitului la 1,75% din PIB este un semnal util, dar nu anulează combinația incomodă dintre inflație încă ridicată, motorina mai scumpă de la 1 iulie, stres climatic și sensibilitate la șocuri externe. Moody's adaugă acum un risc explicit de rating și de consolidare fiscală dacă blocajul politic se prelungește. Canicula poate produce rapid costuri locale în energie, sănătate și transport, iar tensiunile din Hormuz pot transmite volatilitate prin petrol, shipping și costuri logistice. Aceste presiuni vin într-un moment în care economia are nevoie de mai multă coordonare, nu de mai multă ambiguitate politică.",
+    "interpretation": "Scenariul de bază pentru următoarele zile rămâne unul de tensiune administrabilă, nu de ruptură. Totuși, suprapunerea dintre caniculă care deja amână programe, blocaj politic împins spre finalul lui iulie, scumpirea motorinei și avertismentul Moody's reduce clar spațiul pentru erori. Dacă desemnarea și majoritatea întârzie, costul probabil nu va fi doar retoric, ci și de viteză, coerență, prețuri în execuția publică și credibilitate fiscală."
   },
   "investmentFundSignals": [
     {
@@ -179,7 +199,7 @@
       "direction": "neutru",
       "strength": 3,
       "horizon": "1–3 luni",
-      "rationale": "Corecția deficitului ajută, dar inflația încă mare, motorina mai scumpă și lipsa unei majorități clare mențin sensibilitatea la orice șoc fiscal sau politic."
+      "rationale": "Corecția deficitului ajută, dar inflația încă mare, motorina mai scumpă, avertismentul Moody's și lipsa unei majorități clare mențin sensibilitatea la orice șoc fiscal sau politic."
     },
     {
       "id": "actiuni-romania",
@@ -187,7 +207,7 @@
       "direction": "neutru",
       "strength": 3,
       "horizon": "1–4 săptămâni",
-      "rationale": "Piața locală poate rămâne împărțită între sprijinul venit din indicatorii fiscali mai buni și lipsa vizibilității asupra următorului guvern, plus presiunea pe costuri venită din combustibil."
+      "rationale": "Piața locală poate rămâne împărțită între sprijinul venit din indicatorii fiscali mai buni și lipsa vizibilității asupra următorului guvern, plus presiunea pe costuri venită din combustibil și din riscul de rating semnalat de Moody's."
     },
     {
       "id": "energie-utilitati",
@@ -329,9 +349,9 @@
     {
       "id": "executie-fiscala",
       "label": "Presiune fiscală și costuri de finanțare",
-      "score": 3,
-      "trend": "stabil",
-      "description": "Deficitul s-a redus, dar inflația mare, scumpirea motorinei și incertitudinea politică păstrează fundalul sensibil."
+      "score": 4,
+      "trend": "în creștere",
+      "description": "Deficitul s-a redus, dar inflația mare, scumpirea motorinei, avertismentul Moody's și incertitudinea politică păstrează fundalul sensibil."
     },
     {
       "id": "securitate-aeriana-si-nato",
@@ -366,6 +386,14 @@
       "sourceUrl": "https://www.biziday.ro/362268-2/"
     },
     {
+      "id": "avertismentul-moodys-si-consolidarea-fiscala",
+      "title": "Semnalul Moody's și consolidarea fiscală",
+      "why": "Va arăta dacă avertismentul de rating se transformă în presiune reală asupra calendarului bugetar și a costului de finanțare.",
+      "trigger": "Comentarii noi ale agenției, reacție de piață sau semnale explicite că blocajul politic întârzie consolidarea.",
+      "status": "în așteptare",
+      "sourceUrl": "https://hotnews.ro/moodys-prabusirea-guvernului-bolojan-ridica-riscuri-de-consolidare-fiscala-agentia-de-rating-a-revizuit-in-crestere-deficitul-bugetar-pe-acest-an-2242875"
+    },
+    {
       "id": "impactul-real-al-caniculei",
       "title": "Impactul real al caniculei asupra serviciilor",
       "why": "Diferența dintre avertizare și impact material contează pentru evaluarea riscului zilei.",
@@ -384,11 +412,11 @@
   ],
   "conclusion": {
     "title": "Prioritatea zilei: execuție, nu retorică",
-    "body": "Pentru România, 29 iunie nu este despre un singur șoc, ci despre suprapunerea a patru presiuni: caniculă care deja amână programe, blocaj politic împins spre finalul lui iulie, o scumpire iminentă a motorinei și o agendă de securitate care nu mai poate fi amânată. Scenariul de bază rămâne unul de tensiune administrabilă, dar spațiul pentru erori scade clar dacă soluțiile politice și reacția operațională la căldură se prelungesc.",
+    "body": "Pentru România, 29 iunie nu este despre un singur șoc, ci despre suprapunerea a cinci presiuni: caniculă care deja amână programe, blocaj politic împins spre finalul lui iulie, o scumpire iminentă a motorinei, un avertisment Moody's despre consolidarea fiscală și o agendă de securitate care nu mai poate fi amânată. Scenariul de bază rămâne unul de tensiune administrabilă, dar spațiul pentru erori scade clar dacă soluțiile politice și reacția operațională la căldură se prelungesc.",
     "actionPoints": [
       "Urmărește comunicatul CSAT și orice măsură legată de spațiul aerian.",
       "Separă efectele reale ale caniculei de simpla severitate a avertizării.",
-      "Ține cont de motorină și de blocajul politic ca factori de presiune pe costuri și execuție."
+      "Ține cont de motorină, blocajul politic și avertismentul Moody's ca factori de presiune pe costuri și execuție."
     ]
   },
   "sources": [
@@ -428,11 +456,25 @@
       "accessedAt": "2026-06-29T07:49:11+03:00"
     },
     {
+      "id": "biziday-moodys-2026-06-29",
+      "name": "Biziday - Moody's avertizează asupra riscurilor pentru economia României",
+      "url": "https://www.biziday.ro/362289-2/",
+      "type": "primary",
+      "accessedAt": "2026-06-29T23:19:16+03:00"
+    },
+    {
       "id": "hotnews-canicula-2286507",
       "name": "HotNews - Cod roșu de caniculă până marți. Apoi vin furtunile",
       "url": "https://hotnews.ro/cod-rosu-canicula-vreme-meteo-prognoza-furtuni-2286507",
       "type": "secondary",
       "accessedAt": "2026-06-29T07:33:00+03:00"
+    },
+    {
+      "id": "hotnews-moodys-2026-06-29",
+      "name": "HotNews - Moody's: prăbușirea Guvernului Bolojan ridică riscuri de consolidare fiscală",
+      "url": "https://hotnews.ro/moodys-prabusirea-guvernului-bolojan-ridica-riscuri-de-consolidare-fiscala-agentia-de-rating-a-revizuit-in-crestere-deficitul-bugetar-pe-acest-an-2242875",
+      "type": "secondary",
+      "accessedAt": "2026-06-29T23:19:16+03:00"
     },
     {
       "id": "digi24-voturi-guvern-3835849",
