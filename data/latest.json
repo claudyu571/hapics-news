@@ -1,7 +1,7 @@
 {
   "metadata": {
     "editionDate": "2026-07-01",
-    "updatedAt": "2026-07-01T07:38:45+03:00",
+    "updatedAt": "2026-07-01T12:34:43+03:00",
     "timezone": "Europe/Bucharest",
     "title": "Blocaj politic, stres operațional și costuri încă rigide",
     "status": "published",
@@ -16,7 +16,7 @@
     },
     {
       "id": "canicula-a-devenit-risc-operational",
-      "text": "Codul Roșu extins până în dimineața de 1 iulie, suprapus peste furtuni și reprogramarea examenului de Bac, arată că valul de căldură a trecut din registrul meteo în cel al disfuncțiilor operaționale.",
+      "text": "Furtunile din ultimele 24 de ore au doborât aproape o mie de copaci și 50 de stâlpi, au avariat aproape 500 de autoturisme și au inundat 100 de străzi, iar un om a murit în Găneasa. Valul de căldură a trecut clar din registrul meteo în cel al pagubelor concrete și al disfuncțiilor operaționale.",
       "category": "Energie"
     },
     {
@@ -63,9 +63,9 @@
     },
     {
       "id": "canicula-si-furtunile-produc-risc-operational-national",
-      "title": "Canicula a devenit deja problemă de funcționare",
-      "fact": "Biziday arată că aproape toată țara, cu excepția județelor Tulcea și Constanța, a intrat sub Cod Roșu de caniculă până pe 1 iulie la ora 10, cu maxime de 35-41 de grade și avertizări suplimentare de instabilitate atmosferică. HotNews amintește că a doua probă scrisă de la Bacalaureat a fost mutată pe 1 iulie tocmai din cauza episodului de căldură extremă.",
-      "interpretation": "Nu mai vorbim doar despre disconfort, ci despre un risc operațional care poate afecta transportul urban, examenele, productivitatea și capacitatea administrației de a gestiona simultan și furtuni severe.",
+      "title": "Furtunile au produs deja pagube concrete",
+      "fact": "Biziday arată că, de marți la ora 8 până miercuri la ora 10:30, Departamentul pentru Situații de Urgență a înregistrat pagube în 60 de localități: aproape o mie de copaci doborâți, 50 de stâlpi rupți, aproape 500 de autoturisme avariate și 100 de străzi inundate. O persoană a murit în Găneasa (Ilfov), după ce un copac a căzut peste mașina sa, iar avertizările meteo de caniculă și furtună rămân active.",
+      "interpretation": "Semnalul util pentru 1 iulie nu mai este doar disconfortul meteo, ci faptul că episodul a produs deja un cost uman și operațional concret, ceea ce menține riscul imediat pentru transport, administrație și activitatea normală.",
       "category": "Energie",
       "impact": 5,
       "impactLabel": "Ridicat",
@@ -157,6 +157,7 @@
       "Biziday arată că președintele Nicușor Dan nu va face deocamdată o nouă nominalizare de prim-ministru, în lipsa unei majorități sigure de 233 de voturi.",
       "HotNews notează că parlamentul intră în vacanță de la 1 iulie, în timp ce negocierile pentru formarea guvernului rămân blocate.",
       "Biziday și HotNews indică faptul că episodul de caniculă extremă a dus la amânarea unei probe de Bacalaureat și la extinderea alertelor meteo severe până în dimineața de 1 iulie.",
+      "DSU a raportat pagube în 60 de localități, aproape o mie de copaci doborâți, 50 de stâlpi rupți, aproape 500 de autoturisme avariate și 100 de străzi inundate, iar o persoană a murit în Găneasa (Ilfov).",
       "Biziday și G4Media confirmă descoperirea și detonarea controlată a unei drone cu încărcătură explozivă în județul Tulcea, evaluată preliminar ca provenind din atacurile rusești din aprilie.",
       "Ministerul Finanțelor a raportat un deficit cash de 1,75% din PIB la 31 mai 2026, față de 3,35% din PIB în aceeași perioadă din 2025.",
       "Biziday rezumă comentariul Moody's potrivit căruia blocajul politic poate afecta consolidarea fiscală, costurile de finanțare și implementarea reformelor PNRR până la 31 august 2026.",
@@ -278,7 +279,7 @@
     {
       "id": "bet",
       "label": "Indice BET",
-      "value": 32487.18,
+      "value": 32696.51,
       "unit": "puncte",
       "referenceDate": "2026-07-01",
       "sourceName": "BVB",
@@ -289,7 +290,7 @@
     {
       "id": "rotx",
       "label": "Indice ROTX",
-      "value": 73593.3,
+      "value": 74067.7,
       "unit": "puncte",
       "referenceDate": "2026-07-01",
       "sourceName": "BVB / Wiener Börse",
@@ -302,7 +303,7 @@
       "label": "ROBOR 3M",
       "value": 5.84,
       "unit": "%",
-      "referenceDate": "2026-06-30",
+      "referenceDate": "2026-07-01",
       "sourceName": "BNR",
       "sourceUrl": "https://www.bnr.ro/1074-baza-de-date-interactiva",
       "freshness": "current",
