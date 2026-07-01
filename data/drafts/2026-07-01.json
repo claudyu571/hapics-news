@@ -1,10 +1,10 @@
 {
   "metadata": {
     "editionDate": "2026-07-01",
-    "updatedAt": "2026-07-01T07:38:45+03:00",
+    "updatedAt": "2026-07-01T07:34:42+03:00",
     "timezone": "Europe/Bucharest",
     "title": "Blocaj politic, stres operațional și costuri încă rigide",
-    "status": "published",
+    "status": "draft",
     "primarySource": "https://www.biziday.ro/feed/",
     "sourceCoverage": "complete"
   },
@@ -263,61 +263,6 @@
       "sourceUrl": "https://www.ft.com/content/06304ad6-3841-4d5a-933a-6e750f536eaf",
       "freshness": "current",
       "note": "Nivelul actual este folosit ca reper pentru un sezon rece care ar putea începe cu stocuri sub media istorică."
-    },
-    {
-      "id": "eur-ron",
-      "label": "EUR/RON",
-      "value": 5.2438,
-      "unit": "lei",
-      "referenceDate": "2026-06-30",
-      "sourceName": "BNR",
-      "sourceUrl": "https://www.bnr.ro/nbrfxrates.xml",
-      "freshness": "current",
-      "note": "Curs de referință oficial publicat de BNR."
-    },
-    {
-      "id": "bet",
-      "label": "Indice BET",
-      "value": 32487.18,
-      "unit": "puncte",
-      "referenceDate": "2026-07-01",
-      "sourceName": "BVB",
-      "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=BET",
-      "freshness": "current",
-      "note": "Indicele principal al Bursei de Valori București."
-    },
-    {
-      "id": "rotx",
-      "label": "Indice ROTX",
-      "value": 73593.3,
-      "unit": "puncte",
-      "referenceDate": "2026-07-01",
-      "sourceName": "BVB / Wiener Börse",
-      "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=ROTX",
-      "freshness": "current",
-      "note": "Indicele acțiunilor românești blue-chip, calculat de Wiener Börse."
-    },
-    {
-      "id": "robor",
-      "label": "ROBOR 3M",
-      "value": 5.84,
-      "unit": "%",
-      "referenceDate": "2026-06-30",
-      "sourceName": "BNR",
-      "sourceUrl": "https://www.bnr.ro/1074-baza-de-date-interactiva",
-      "freshness": "current",
-      "note": "Rată interbancară de referință, stabilită zilnic de BNR."
-    },
-    {
-      "id": "ircc",
-      "label": "IRCC",
-      "value": 5.56,
-      "unit": "%",
-      "referenceDate": "2026-07-01",
-      "sourceName": "BNR",
-      "sourceUrl": "https://www.bnr.ro/",
-      "freshness": "current",
-      "note": "Indice de referință pentru creditele consumatorilor, valabil în trimestrul III 2026."
     }
   ],
   "riskScores": [
