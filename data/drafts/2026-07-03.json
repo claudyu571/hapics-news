@@ -1,7 +1,7 @@
 {
   "metadata": {
     "editionDate": "2026-07-03",
-    "updatedAt": "2026-07-03T10:16:05+03:00",
+    "updatedAt": "2026-07-03T17:33:58+03:00",
     "timezone": "Europe/Bucharest",
     "title": "Presiune pe buget, furtuni extinse și un exterior încă tensionat",
     "status": "draft",
@@ -27,6 +27,11 @@
     {
       "id": "securitatea-regionala-ramane-sub-presiune",
       "text": "Atacul masiv al Rusiei asupra Kievului confirmă că războiul din vecinătate rămâne într-o fază de intensitate mare, cu efecte potențiale asupra percepției de risc în regiune chiar dacă România nu este țintă directă.",
+      "category": "Securitate"
+    },
+    {
+      "id": "incidentul-din-constanta-devine-procedura-de-coordonare",
+      "text": "Clarificările Ucrainei despre drona din Portul Constanța mută cazul din registrul unui incident izolat în cel al coordonării navale, după ce Bucureștiul a cerut un canal tehnic permanent de comunicare.",
       "category": "Securitate"
     },
     {
@@ -98,6 +103,21 @@
       "sourceId": "biziday-kiev-2026-07-02",
       "sourceName": "Biziday",
       "sourceUrl": "https://www.biziday.ro/362510-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "drona-din-constanta-clarificata-de-kiev",
+      "title": "Clarificările Ucrainei despre drona din Constanța deschid un dosar de coordonare navală",
+      "fact": "Biziday și Digi24 arată că Ucraina a confirmat pierderea controlului asupra a patru drone navale lângă Sevastopol, iar Forțele Navale ucrainene au informat România la ora 9.54, după care MApN a cerut un canal tehnic permanent între cele două marine.",
+      "interpretation": "Cazul nu mai este doar retrospectiv: el arată că securitatea la Marea Neagră depinde de proceduri rapide de alertare și de o linie directă de comunicare, nu doar de declarații publice.",
+      "category": "Securitate",
+      "impact": 4,
+      "impactLabel": "Semnificativ",
+      "horizon": "Imediat",
+      "sourceId": "biziday-drona-constanta-2026-07-03",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/362607-2/",
       "isSecondary": true,
       "confidence": "confirmed"
     },
@@ -243,7 +263,7 @@
       "label": "Securitate regională",
       "score": 4,
       "trend": "stabil",
-      "description": "Bombardamentele asupra Kievului arată că războiul rămâne într-o fază de intensitate ridicată."
+      "description": "Bombardamentele asupra Kievului și incidentul dronei din Constanța arată că riscul din regiune se traduce și în proceduri de alertare și coordonare navală."
     },
     {
       "id": "inflatie-persistenta",
@@ -277,15 +297,24 @@
       "trigger": "Raportări noi de avarii, întreruperi sau restricții de circulație în marile orașe și pe coridoarele principale.",
       "status": "neconfirmat",
       "sourceUrl": "https://www.digi24.ro/meteo/toata-tara-sub-cod-portocaliu-si-galben-de-furtuni-sunt-asteptate-vijelii-si-grindina-anm-a-emis-si-noi-alerte-de-canicula-harta-3843991"
+    },
+    {
+      "id": "canal-tehnic-romania-ucraina-constanta",
+      "title": "Canalul tehnic România-Ucraina pentru incidente navale",
+      "why": "Poate reduce timpul de reacție la viitoare incidente în Marea Neagră și clarifică responsabilitățile operative.",
+      "trigger": "Confirmarea oficială a liniei directe și a procedurilor permanente anunțate după incident.",
+      "status": "în așteptare",
+      "sourceUrl": "https://www.digi24.ro/stiri/actualitate/evenimente/ucraina-a-transmis-clarificari-despre-drona-care-a-intrat-in-portul-constanta-cand-a-aflat-statul-roman-despre-pericolul-autodetonarii-3846581"
     }
   ],
   "conclusion": {
     "title": "Tensiunea reală este pe capacitatea de execuție, nu pe spectacolul politic",
-    "body": "Pentru dimineața de 3 iulie, tabloul prudent este că România poate gestiona fiecare dosar separat, dar devine mai vulnerabilă când acestea se suprapun: litigii scumpe, inflație foarte mare, infrastructură stresată de vreme și un context regional instabil. Dacă nu apare un șoc nou, riscul dominant rămâne unul de uzură administrativă și bugetară, nu de ruptură bruscă.",
+    "body": "Pentru dimineața de 3 iulie, tabloul prudent este că România poate gestiona fiecare dosar separat, dar devine mai vulnerabilă când acestea se suprapun: litigii scumpe, inflație foarte mare, infrastructură stresată de vreme și un context regional instabil. Dacă nu apare un șoc nou, riscul dominant rămâne unul de uzură administrativă și bugetară, nu de ruptură bruscă. Incidentul din Constanța arată însă că și securitatea maritimă depinde de proceduri de alertare și coordonare care trebuie să funcționeze rapid.",
     "actionPoints": [
       "Urmărește pașii juridici concreți din Belgia în dosarul Pfizer-ROMATSA.",
       "Verifică orice actualizare procedurală privind sesizarea CCR și termenul din 9 iulie.",
-      "Separă pagubele meteo punctuale de semnalele privind vulnerabilități structurale repetate."
+      "Separă pagubele meteo punctuale de semnalele privind vulnerabilități structurale repetate.",
+      "Urmărește formalizarea canalului tehnic România-Ucraina după incidentul din Constanța."
     ]
   },
   "sources": [
@@ -351,6 +380,20 @@
       "url": "https://www.digi24.ro/stiri/externe/atac-masiv-asupra-kievului-cel-putin-noua-morti-si-peste-30-de-raniti-in-urma-bombardamentelor-rusesti-cu-drone-si-rachete-balistice-3843865",
       "type": "secondary",
       "accessedAt": "2026-07-03T10:16:05+03:00"
+    },
+    {
+      "id": "biziday-drona-constanta-2026-07-03",
+      "name": "Biziday - clarificările despre drona din Constanța",
+      "url": "https://www.biziday.ro/362607-2/",
+      "type": "primary",
+      "accessedAt": "2026-07-03T17:33:58+03:00"
+    },
+    {
+      "id": "digi24-drona-constanta-2026-07-03",
+      "name": "Digi24 - clarificările despre drona din Portul Constanța",
+      "url": "https://www.digi24.ro/stiri/actualitate/evenimente/ucraina-a-transmis-clarificari-despre-drona-care-a-intrat-in-portul-constanta-cand-a-aflat-statul-roman-despre-pericolul-autodetonarii-3846581",
+      "type": "secondary",
+      "accessedAt": "2026-07-03T17:33:58+03:00"
     },
     {
       "id": "biziday-rusia-carburanti-2026-07-02",
