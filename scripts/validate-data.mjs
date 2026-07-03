@@ -21,6 +21,7 @@ for (const name of fs.readdirSync(archiveDir).filter((file) => /^\d{4}-\d{2}-\d{
 
 let failed = false;
 const seenDates = new Set();
+let latestEditionDate = null;
 
 for (const file of editionFiles) {
   const relative = path.relative(root, file);
@@ -54,10 +55,16 @@ for (const file of editionFiles) {
     }
   }
 
-  if (path.basename(file) !== "latest.json") {
+  if (path.basename(file) === "latest.json") {
+    latestEditionDate = data.metadata.editionDate;
+  } else {
     const filenameDate = path.basename(file, ".json");
     if (filenameDate !== data.metadata.editionDate) {
       console.error(`✗ ${relative}: data din numele fișierului diferă de metadata.editionDate`);
+      failed = true;
+    }
+    if (latestEditionDate && filenameDate > latestEditionDate) {
+      console.error(`✗ ${relative}: data arhivei este după data ediției curente ${latestEditionDate}`);
       failed = true;
     }
     if (seenDates.has(filenameDate)) {
@@ -77,6 +84,16 @@ try {
   for (const date of seenDates) {
     if (!indexedDates.has(date)) {
       console.error(`✗ data/archive/index.json nu include ${date}`);
+      failed = true;
+    }
+  }
+  for (const entry of index.editions) {
+    if (!seenDates.has(entry.date)) {
+      console.error(`✗ data/archive/index.json include ediția inexistentă ${entry.date}`);
+      failed = true;
+    }
+    if (latestEditionDate && entry.date > latestEditionDate) {
+      console.error(`✗ data/archive/index.json include ediția viitoare ${entry.date}`);
       failed = true;
     }
   }
