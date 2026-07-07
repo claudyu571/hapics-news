@@ -25,10 +25,8 @@ import latestData from "../data/latest.json";
 // client (hydration). validate:data gates the build, so the cast is safe.
 const INITIAL_EDITION = latestData as unknown as Edition;
 
-// Reader-facing update rhythm: noutățile sunt verificate la aceste ore
-// (Europe/Bucharest) și publicate intraday doar când apar schimbări relevante.
-// A se menține în sincron cu programul rutinei.
-const UPDATE_TIMES = "07:30, 12:30, 17:30 și 22:30";
+// Reader-facing update rhythm. Keep this in sync with the scheduled routine.
+const UPDATE_TIME = "07:30";
 const GOATCOUNTER_TOTAL_URL = "https://hapics-news.goatcounter.com/counter/TOTAL.json";
 
 // Reading order (matches the single-column mobile flow). Keep one continuous
@@ -210,7 +208,7 @@ function App() {
       </header>
 
       <div className="header-notice">
-        <p className="update-cadence"><Clock3 aria-hidden="true" /> Verificăm noutățile la {UPDATE_TIMES} (ora României) și publicăm pe parcursul zilei doar la schimbări relevante.</p>
+        <p className="update-cadence"><Clock3 aria-hidden="true" /> Verificăm și publicăm briefingul complet o dată pe zi, la {UPDATE_TIME} (ora României).</p>
         <p className="update-freshness"><Clock3 aria-hidden="true" /> {freshnessLabel}: {updatedLabel}</p>
       </div>
 

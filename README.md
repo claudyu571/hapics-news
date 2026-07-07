@@ -35,8 +35,9 @@ Comanda validează draftul, actualizează arhiva și `latest.json`, apoi revalid
 
 ### Detectorul Biziday
 
-Verificarea intraday folosește fluxul RSS Biziday, cu pagina principală drept fallback,
-și compară articolele recente cu URL-urile deja folosite în ediția curentă:
+Detectorul Biziday rămâne disponibil pentru verificări manuale. Folosește fluxul RSS
+Biziday, cu pagina principală drept fallback, și compară articolele recente cu URL-urile
+deja folosite în ediția curentă:
 
 ```bash
 npm run news:delta -- data/latest.json
@@ -81,18 +82,17 @@ Reguli:
 
 ## Automatizare și publicare
 
-Conținutul este produs de automatizări Codex standalone, în worktree-uri izolate:
+Conținutul este verificat și publicat de o singură automatizare Codex standalone,
+într-un worktree izolat:
 
-- **07:30** — ediție completă, GPT-5.4 cu reasoning medium;
-- **12:30, 17:30 și 22:30** — verificări incrementale, GPT-5.4 mini cu reasoning low.
+- **07:30** — ediție completă, GPT-5.4 cu reasoning high.
 
-Verificările intraday rulează mai întâi `news:delta`. Fără un subiect cu impact 4–5,
-o confirmare/contrazicere din watchlist sau o schimbare materială de analiză, risc ori
-semnal pentru fonduri, execuția se oprește fără diff, commit, deploy sau notificare.
+Verificările incrementale de pe parcursul zilei sunt oprite pentru a reduce consumul de tokeni.
+Publicarea normală păstrează doar briefingul complet de dimineață.
 
 La o publicare, automatizarea:
 
-1. creează ediția completă sau actualizează incremental draftul zilei;
+1. creează ediția completă a zilei;
 2. rulează `publish:edition` și `npm test`;
 3. verifică faptul că sunt modificate numai fișierele ediției;
 4. face commit și push pe `main`;
