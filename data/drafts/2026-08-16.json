@@ -1,10 +1,10 @@
 {
   "metadata": {
     "editionDate": "2026-08-16",
-    "updatedAt": "2026-08-16T19:43:32+03:00",
+    "updatedAt": "2026-08-16T14:40:55+03:00",
     "timezone": "Europe/Bucharest",
     "title": "Recesiunea rămâne fundalul intern, acciza la motorină intră azi în vigoare, iar riscul de securitate a trecut direct prin spațiul aerian al României",
-    "status": "published",
+    "status": "draft",
     "primarySource": "https://www.biziday.ro/feed/",
     "sourceCoverage": "complete"
   },
@@ -243,60 +243,6 @@
       "sourceUrl": "https://mfinante.gov.ro/presa-comunicate-de-presa/-/asset_publisher/vMeOfqIFpa30/content/ministerul-finan-c8-9belor-reduce-cu-20-acciza-la-motorin-c4-83-c3-aen-perioada-16-31-august-2026?_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_vMeOfqIFpa30_assetEntryId=19825247&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_vMeOfqIFpa30_redirect=https%3A%2F%2Fmfinante.gov.ro%2Fpresa-comunicate-de-presa%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_vMeOfqIFpa30%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_vMeOfqIFpa30_cur%3D0%26p_r_p_resetCur%3Dfalse%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_vMeOfqIFpa30_assetEntryId%3D19825247",
       "freshness": "current",
       "note": "Măsura este activă în perioada 16-31 august și urmărește o ieftinire temporară a motorinei la pompă."
-    },
-    {
-      "id": "eur-ron",
-      "label": "EUR/RON",
-      "value": null,
-      "unit": "lei",
-      "referenceDate": "2026-08-16",
-      "sourceName": "BNR",
-      "sourceUrl": "https://www.bnr.ro/nbrfxrates.xml",
-      "freshness": "unavailable"
-    },
-    {
-      "id": "bet",
-      "label": "Indice BET",
-      "value": 36035.35,
-      "unit": "puncte",
-      "referenceDate": "2026-08-16",
-      "sourceName": "BVB",
-      "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=BET",
-      "freshness": "current",
-      "note": "Indicele principal al Bursei de Valori București."
-    },
-    {
-      "id": "rotx",
-      "label": "Indice ROTX",
-      "value": 81441.19,
-      "unit": "puncte",
-      "referenceDate": "2026-08-16",
-      "sourceName": "BVB / Wiener Börse",
-      "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=ROTX",
-      "freshness": "current",
-      "note": "Indicele acțiunilor românești blue-chip, calculat de Wiener Börse."
-    },
-    {
-      "id": "robor",
-      "label": "ROBOR 3M",
-      "value": 5.84,
-      "unit": "%",
-      "referenceDate": "2026-08-14",
-      "sourceName": "BNR",
-      "sourceUrl": "https://www.bnr.ro/1074-baza-de-date-interactiva",
-      "freshness": "current",
-      "note": "Rată interbancară de referință, stabilită zilnic de BNR."
-    },
-    {
-      "id": "ircc",
-      "label": "IRCC",
-      "value": 5.56,
-      "unit": "%",
-      "referenceDate": "2026-07-01",
-      "sourceName": "BNR",
-      "sourceUrl": "https://www.bnr.ro/",
-      "freshness": "current",
-      "note": "Indice de referință pentru creditele consumatorilor, valabil în trimestrul III 2026."
     }
   ],
   "riskScores": [
