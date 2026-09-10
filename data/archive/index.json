@@ -1,6 +1,10 @@
 {
   "editions": [
     {
+      "date": "2026-09-10",
+      "label": "10 septembrie 2026"
+    },
+    {
       "date": "2026-09-09",
       "label": "9 septembrie 2026"
     },
