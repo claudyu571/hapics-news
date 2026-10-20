@@ -26,7 +26,7 @@ import latestData from "../data/latest.json";
 const INITIAL_EDITION = latestData as unknown as Edition;
 
 // Reader-facing update rhythm. Keep this in sync with the scheduled routine.
-const UPDATE_TIME = "07:30";
+const UPDATE_TIME = "06:00";
 const GOATCOUNTER_TOTAL_URL = "https://hapics-news.goatcounter.com/counter/TOTAL.json";
 
 // Reading order (matches the single-column mobile flow). Keep one continuous

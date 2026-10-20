@@ -85,7 +85,7 @@ Reguli:
 Conținutul este verificat și publicat de o singură automatizare Codex standalone,
 într-un worktree izolat:
 
-- **07:30** — ediție completă, GPT-5.4 cu reasoning high.
+- **06:00** — ediție completă, înaintea tipăririi de la 07:00.
 
 Verificările incrementale de pe parcursul zilei sunt oprite pentru a reduce consumul de tokeni.
 Publicarea normală păstrează doar briefingul complet de dimineață.
@@ -104,6 +104,18 @@ prerender, aparține workflow-ului GitHub Pages și rulează numai după push.
 Un eșec de validare nu modifică ediția publicată. O nouă rulare în aceeași zi înlocuiește ediția acelei zile și păstrează o singură intrare în arhivă.
 
 Workflow-ul `pages.yml` validează toate pull request-urile. Pentru push-urile pe `main`, publică directorul `dist` numai după ce testele și buildul reușesc. Nu este necesar niciun secret OpenAI în GitHub.
+
+## Tipărire automată la 07:00
+
+O a doua automatizare locală rulează zilnic la 07:00 (Europe/Bucharest), după publicarea ediției de la 06:00. Ea citește numai `https://news.hapics.uk/data/latest.json` cu evitarea cache-ului, verifică data și starea ediției, creează un PDF A4 de o pagină cu cele mai importante șase știri (sau mai puține dacă spațiul cere) și îl trimite imprimantei `Canon_MX490_series` în tonuri de gri. Dacă ediția zilei lipsește, PDF-ul depășește o pagină sau imprimarea a fost deja încercată, comanda se oprește fără un nou job.
+
+Comanda folosită de automatizare:
+
+```bash
+uv run --no-project --with reportlab==4.4.9 --with pypdf==6.10.0 python scripts/print-briefing.py --print
+```
+
+Pentru o verificare fără hârtie, omite `--print`. Pentru a vedea macheta cu ultima ediție din repo, folosește `--file data/latest.json --allow-stale`. PDF-ul este salvat în `output/pdf/`, iar marcajul care previne tipăririle duplicate este în `~/.local/state/hapics-news/`. Mac-ul și imprimanta trebuie să fie pornite și disponibile la ora rulării. Automatizarea raportează eșecul și nu tipărește ediția veche.
 
 ## Contorul de lecturi
 
