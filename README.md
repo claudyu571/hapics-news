@@ -107,7 +107,7 @@ Workflow-ul `pages.yml` validează toate pull request-urile. Pentru push-urile p
 
 ## Tipărire automată la 07:00
 
-O a doua automatizare locală rulează zilnic la 07:00 (Europe/Bucharest), după publicarea ediției de la 06:00. Ea citește numai `https://news.hapics.uk/data/latest.json` cu evitarea cache-ului, verifică data și starea ediției, creează un PDF A4 de o pagină cu cele mai importante șase știri (sau mai puține dacă spațiul cere) și îl trimite imprimantei `Canon_MX490_series` în tonuri de gri. Dacă ediția zilei lipsește, PDF-ul depășește o pagină sau imprimarea a fost deja încercată, comanda se oprește fără un nou job.
+O a doua automatizare locală rulează zilnic la 07:00 (Europe/Bucharest), după publicarea ediției de la 06:00. Ea citește numai `https://news.hapics.uk/data/latest.json` cu evitarea cache-ului, verifică data și starea ediției, creează un PDF A4 de o pagină cu cele mai importante cinci știri (sau mai puține dacă spațiul cere) și îl trimite imprimantei `Canon_MX490_series` în tonuri de gri. Dacă ediția zilei lipsește, PDF-ul depășește o pagină sau imprimarea a fost deja încercată, comanda se oprește fără un nou job.
 
 Comanda folosită de automatizare:
 

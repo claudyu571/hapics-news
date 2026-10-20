@@ -35,17 +35,28 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def register_fonts():
-    choices = [
+    sans_choices = [
         (Path("/System/Library/Fonts/Supplemental/Arial.ttf"), Path("/System/Library/Fonts/Supplemental/Arial Bold.ttf")),
         (Path("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"), Path("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf")),
     ]
-    for regular, bold in choices:
+    serif_choices = [
+        (Path("/System/Library/Fonts/Supplemental/Georgia.ttf"), Path("/System/Library/Fonts/Supplemental/Georgia Bold.ttf")),
+        (Path("/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"), Path("/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf")),
+    ]
+    for regular, bold in sans_choices:
         if regular.exists() and bold.exists():
             pdfmetrics.registerFont(TTFont("Briefing", str(regular)))
             pdfmetrics.registerFont(TTFont("Briefing-Bold", str(bold)))
             pdfmetrics.registerFontFamily("Briefing", normal="Briefing", bold="Briefing-Bold")
+            break
+    else:
+        raise RuntimeError("No Romanian-capable Arial or DejaVu font found")
+    for regular, bold in serif_choices:
+        if regular.exists() and bold.exists():
+            pdfmetrics.registerFont(TTFont("BriefingSerif", str(regular)))
+            pdfmetrics.registerFont(TTFont("BriefingSerif-Bold", str(bold)))
             return
-    raise RuntimeError("No Romanian-capable Arial or DejaVu font found")
+    raise RuntimeError("No Romanian-capable Georgia or DejaVu Serif font found")
 
 
 def fetch_edition(url):
@@ -81,37 +92,47 @@ def paragraph(value, style):
     return Paragraph(html.escape(str(value)), style)
 
 
+def format_indicator(indicator):
+    value = indicator["value"]
+    if isinstance(value, (int, float)) and not isinstance(value, bool):
+        value = f"{value:,.2f}".rstrip("0").rstrip(".")
+        value = value.replace(",", "_").replace(".", ",").replace("_", ".")
+    date = datetime.fromisoformat(indicator["referenceDate"]).strftime("%d.%m.%Y")
+    return f"{indicator['label']}: {value} {indicator['unit']} ({date})"
+
+
 def render_pdf(edition, destination):
     register_fonts()
     date, updated, items = validate_edition(edition, require_today=False)
     destination.parent.mkdir(parents=True, exist_ok=True)
     ranked = sorted(enumerate(items), key=lambda pair: (-pair[1]["impact"], pair[0]))
-    dark = colors.HexColor("#18352d")
-    muted = colors.HexColor("#59655f")
-    headline = ParagraphStyle("headline", fontName="Briefing-Bold", fontSize=12.2, leading=15,
-                              textColor=dark, spaceAfter=3)
-    body = ParagraphStyle("body", fontName="Briefing", fontSize=10.3, leading=14.3,
-                          textColor=colors.HexColor("#202522"), alignment=TA_LEFT)
-    source = ParagraphStyle("source", fontName="Briefing", fontSize=8, leading=11,
+    dark = colors.HexColor("#17201d")
+    accent = colors.HexColor("#1e594a")
+    muted = colors.HexColor("#4f5753")
+    headline = ParagraphStyle("headline", fontName="BriefingSerif-Bold", fontSize=14, leading=17,
+                              textColor=dark, spaceAfter=5)
+    body = ParagraphStyle("body", fontName="Briefing", fontSize=12, leading=16.2,
+                          textColor=dark, alignment=TA_LEFT)
+    source = ParagraphStyle("source", fontName="Briefing", fontSize=12, leading=15,
                             textColor=muted)
-    label = ParagraphStyle("label", fontName="Briefing-Bold", fontSize=8, leading=11,
-                           textColor=dark, spaceAfter=5)
-    title = ParagraphStyle("title", fontName="Briefing-Bold", fontSize=19, leading=22,
+    label = ParagraphStyle("label", fontName="Briefing-Bold", fontSize=12, leading=15,
+                           textColor=accent, spaceAfter=7)
+    title = ParagraphStyle("title", fontName="BriefingSerif-Bold", fontSize=25, leading=29,
                            textColor=dark)
-    small = ParagraphStyle("small", fontName="Briefing", fontSize=7.4, leading=10,
+    small = ParagraphStyle("small", fontName="Briefing", fontSize=12, leading=15,
                            textColor=muted)
 
     opening = [
         paragraph("HAPICS  /  BRIEFING DE DIMINEAȚĂ", label),
         paragraph(f"Știrile zilei · {datetime.fromisoformat(date).strftime('%d.%m.%Y')}", title),
-        Spacer(1, 4),
+        Spacer(1, 6),
         paragraph("Subiectele principale, ordonate după impactul editorial.", small),
-        Spacer(1, 9),
-        HRFlowable(width="100%", thickness=0.8, color=dark),
-        Spacer(1, 8),
+        Spacer(1, 12),
+        HRFlowable(width="100%", thickness=1, color=dark),
+        Spacer(1, 12),
     ]
     indicators = [x for x in edition.get("indicators", []) if x.get("freshness") == "current" and x.get("value") is not None][:3]
-    for count in range(min(6, len(ranked)), 2, -1):
+    for count in range(min(5, len(ranked)), 2, -1):
         selected = ranked[:count]
         story = list(opening)
         for position, (_, item) in enumerate(selected, 1):
@@ -122,7 +143,7 @@ def render_pdf(edition, destination):
             block = [
                 Paragraph(f"{position:02d}  {html.escape(item['title'])}", headline),
                 Paragraph(fact, body),
-                Spacer(1, 4),
+                Spacer(1, 5),
                 Paragraph(f"{category}  ·  Sursă: <link href='{source_url}' color='#59655f'>{source_name}</link>", source),
                 Spacer(1, 11),
                 HRFlowable(width="100%", thickness=0.35, color=colors.HexColor("#c8cfca")),
@@ -132,15 +153,15 @@ def render_pdf(edition, destination):
 
         if indicators:
             story.append(paragraph("INDICATORI VERIFICAȚI", label))
-            story.append(paragraph("   ·   ".join(f"{x['label']}: {x['value']} {x['unit']} ({x['referenceDate']})" for x in indicators), small))
+            story.append(paragraph("   ·   ".join(format_indicator(x) for x in indicators), small))
             story.append(Spacer(1, 8))
         story.append(paragraph(
             f"Publicat: {updated.astimezone(ZONE).strftime('%H:%M')} · Ediția completă și linkurile surselor: news.hapics.uk",
             small,
         ))
 
-        document = SimpleDocTemplate(str(destination), pagesize=A4, rightMargin=39, leftMargin=39,
-                                     topMargin=37, bottomMargin=37, title=f"Hapics News {date}",
+        document = SimpleDocTemplate(str(destination), pagesize=A4, rightMargin=40, leftMargin=40,
+                                     topMargin=38, bottomMargin=38, title=f"Hapics News {date}",
                                      author="Hapics News")
         document.build(story)
         reader = PdfReader(str(destination))
