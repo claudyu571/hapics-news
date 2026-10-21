@@ -109,6 +109,8 @@ Workflow-ul `pages.yml` validează toate pull request-urile. Pentru push-urile p
 
 O a doua automatizare locală rulează zilnic la 07:00 (Europe/Bucharest), după publicarea ediției de la 06:00. Ea citește numai `https://news.hapics.uk/data/latest.json` cu evitarea cache-ului, verifică data și starea ediției, creează un PDF A4 de o pagină cu cele mai importante cinci știri (sau mai puține dacă spațiul cere) și îl trimite imprimantei `Canon_MX490_series` în tonuri de gri. Dacă ediția zilei lipsește, PDF-ul depășește o pagină sau imprimarea a fost deja încercată, comanda se oprește fără un nou job.
 
+Macheta folosește o știre principală pe toată lățimea și până la patru știri scurte în două coloane, urmate de indicatorii verificați. Fiecare știre poate avea `importantNews[].printSummary` (60–180 de caractere), o propoziție factuală pentru hârtie care păstrează atribuirea și incertitudinea. Edițiile vechi fără acest câmp folosesc `fact` integral și pot include mai puține știri pentru a păstra lizibilitatea.
+
 Comanda folosită de automatizare:
 
 ```bash

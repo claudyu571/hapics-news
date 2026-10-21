@@ -14,7 +14,7 @@ spec.loader.exec_module(module)
 
 class PrintBriefingTest(unittest.TestCase):
     def setUp(self):
-        self.edition = json.loads((SCRIPT.parents[1] / "data" / "latest.json").read_text())
+        self.edition = json.loads((SCRIPT.parents[1] / "data" / "archive" / "2026-09-16.json").read_text())
 
     def test_old_edition_is_rejected_for_daily_print(self):
         with self.assertRaisesRegex(ValueError, "not today's edition"):
@@ -28,6 +28,26 @@ class PrintBriefingTest(unittest.TestCase):
             self.assertGreaterEqual(count, 3)
             self.assertEqual(len(reader.pages), 1)
             self.assertAlmostEqual(float(reader.pages[0].mediabox.width), 595.28, places=1)
+
+    def test_five_stories_fit_with_short_print_summaries(self):
+        summaries = [
+            "Biziday: randamentul titlurilor românești la zece ani a ajuns la 7,35% în seara de 15 septembrie, pe fondul vânzărilor internaționale de obligațiuni.",
+            "Planul de reluare a exporturilor de ovine și caprine a fost trimis Comisiei Europene, potrivit guvernului; aprobarea rămâne necesară.",
+            "Qatarul cere menținerea deschisă a strâmtorii Bab el-Mandeb; avertismentul privește o posibilă închidere, nu una confirmată.",
+            "Comandantul Andrii Biletski afirmă că Ucraina desfășoară o ofensivă în Donețk; câștigurile teritoriale nu au fost verificate independent.",
+            "Parlamentul European a adoptat un raport care propune un centru de reziliență democratică și protejarea infrastructurii electorale.",
+        ]
+        for item, summary in zip(self.edition["importantNews"][:5], summaries):
+            item["printSummary"] = summary
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "briefing.pdf"
+            self.assertEqual(module.render_pdf(self.edition, path), 5)
+            reader = module.PdfReader(str(path))
+            self.assertEqual(len(reader.pages), 1)
+            text = " ".join(reader.pages[0].extract_text().split())
+            self.assertIn("PIEȚE · DATE VERIFICATE", text)
+            for item in self.edition["importantNews"][:5]:
+                self.assertIn(" ".join(item["title"].split()), text)
 
     def test_duplicate_job_does_not_reach_printer(self):
         with tempfile.TemporaryDirectory() as directory:

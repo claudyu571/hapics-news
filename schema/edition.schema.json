@@ -93,6 +93,7 @@
         "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
         "title": { "type": "string", "minLength": 8 },
         "fact": { "type": "string", "minLength": 25 },
+        "printSummary": { "type": "string", "minLength": 60, "maxLength": 180 },
         "interpretation": { "type": "string", "minLength": 20 },
         "category": { "$ref": "#/$defs/category" },
         "impact": { "type": "integer", "minimum": 1, "maximum": 5 },

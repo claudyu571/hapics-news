@@ -25,6 +25,7 @@ export interface Edition {
     id: string;
     title: string;
     fact: string;
+    printSummary?: string;
     interpretation: string;
     category: Category;
     impact: number;

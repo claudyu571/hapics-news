@@ -9,7 +9,6 @@ import html
 import json
 import os
 from pathlib import Path
-import re
 import subprocess
 import sys
 from datetime import datetime
@@ -24,7 +23,7 @@ from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import ParagraphStyle
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
-from reportlab.platypus import HRFlowable, KeepTogether, Paragraph, SimpleDocTemplate, Spacer
+from reportlab.platypus import HRFlowable, Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
 
 
 ZONE = ZoneInfo("Europe/Bucharest")
@@ -109,54 +108,126 @@ def render_pdf(edition, destination):
     dark = colors.HexColor("#17201d")
     accent = colors.HexColor("#1e594a")
     muted = colors.HexColor("#4f5753")
-    headline = ParagraphStyle("headline", fontName="BriefingSerif-Bold", fontSize=14, leading=17,
-                              textColor=dark, spaceAfter=5)
-    body = ParagraphStyle("body", fontName="Briefing", fontSize=12, leading=16.2,
+    line = colors.HexColor("#c6cbc7")
+    brand = ParagraphStyle("brand", fontName="BriefingSerif-Bold", fontSize=28, leading=31, textColor=dark)
+    dateline = ParagraphStyle("dateline", fontName="Briefing-Bold", fontSize=12, leading=16,
+                              textColor=muted, alignment=2)
+    eyebrow = ParagraphStyle("eyebrow", fontName="Briefing-Bold", fontSize=12, leading=15,
+                             textColor=accent)
+    lead_title = ParagraphStyle("lead-title", fontName="BriefingSerif-Bold", fontSize=21, leading=24.5,
+                                textColor=dark, spaceAfter=8)
+    secondary_title = ParagraphStyle("secondary-title", fontName="BriefingSerif-Bold", fontSize=14.2,
+                                     leading=17.2, textColor=dark, spaceAfter=6)
+    body = ParagraphStyle("body", fontName="Briefing", fontSize=12, leading=15.5,
                           textColor=dark, alignment=TA_LEFT)
     source = ParagraphStyle("source", fontName="Briefing", fontSize=12, leading=15,
                             textColor=muted)
-    label = ParagraphStyle("label", fontName="Briefing-Bold", fontSize=12, leading=15,
-                           textColor=accent, spaceAfter=7)
-    title = ParagraphStyle("title", fontName="BriefingSerif-Bold", fontSize=25, leading=29,
-                           textColor=dark)
-    small = ParagraphStyle("small", fontName="Briefing", fontSize=12, leading=15,
-                           textColor=muted)
+    stat = ParagraphStyle("stat", fontName="Briefing-Bold", fontSize=14, leading=17, textColor=dark)
+    small = ParagraphStyle("small", fontName="Briefing", fontSize=12, leading=15, textColor=muted)
 
-    opening = [
-        paragraph("HAPICS  /  BRIEFING DE DIMINEAȚĂ", label),
-        paragraph(f"Știrile zilei · {datetime.fromisoformat(date).strftime('%d.%m.%Y')}", title),
-        Spacer(1, 6),
-        paragraph("Subiectele principale, ordonate după impactul editorial.", small),
-        Spacer(1, 12),
-        HRFlowable(width="100%", thickness=1, color=dark),
-        Spacer(1, 12),
-    ]
+    content_width = A4[0] - 80
+    gutter = 22
+    column_width = (content_width - gutter) / 2
+    issue_date = datetime.fromisoformat(date).strftime("%d.%m.%Y")
+    header = Table([[
+        [Paragraph("HAPICS", brand), Paragraph("BRIEFINGUL DIMINEȚII", eyebrow)],
+        [Paragraph(issue_date, dateline), Paragraph("ROMÂNIA · LUME · PIEȚE", dateline)],
+    ]], colWidths=[content_width * .64, content_width * .36])
+    header.setStyle(TableStyle([
+        ("VALIGN", (0, 0), (-1, -1), "TOP"),
+        ("LEFTPADDING", (0, 0), (-1, -1), 0),
+        ("RIGHTPADDING", (0, 0), (-1, -1), 0),
+        ("TOPPADDING", (0, 0), (-1, -1), 0),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
+    ]))
+
+    def source_line(item):
+        category = html.escape(item.get("category", "Știri"))
+        source_name = html.escape(item["sourceName"])
+        source_url = html.escape(item["sourceUrl"], quote=True)
+        return Paragraph(
+            f"{category} · Sursă: <link href='{source_url}' color='#4f5753'>{source_name}</link>",
+            source,
+        )
+
+    def secondary_story(item, number):
+        return [
+            Paragraph(f"{number:02d}  /  {html.escape(item.get('category', 'Știri')).upper()}", eyebrow),
+            Spacer(1, 4),
+            Paragraph(html.escape(item["title"]), secondary_title),
+            paragraph(item.get("printSummary") or item["fact"], body),
+            Spacer(1, 5),
+            source_line(item),
+            Spacer(1, 10),
+            HRFlowable(width="100%", thickness=.35, color=line),
+            Spacer(1, 10),
+        ]
+
     indicators = [x for x in edition.get("indicators", []) if x.get("freshness") == "current" and x.get("value") is not None][:3]
     for count in range(min(5, len(ranked)), 2, -1):
         selected = ranked[:count]
-        story = list(opening)
-        for position, (_, item) in enumerate(selected, 1):
-            category = html.escape(item.get("category", "Știri"))
-            fact = html.escape(item["fact"])
-            source_name = html.escape(item["sourceName"])
-            source_url = html.escape(item["sourceUrl"], quote=True)
-            block = [
-                Paragraph(f"{position:02d}  {html.escape(item['title'])}", headline),
-                Paragraph(fact, body),
-                Spacer(1, 5),
-                Paragraph(f"{category}  ·  Sursă: <link href='{source_url}' color='#59655f'>{source_name}</link>", source),
-                Spacer(1, 11),
-                HRFlowable(width="100%", thickness=0.35, color=colors.HexColor("#c8cfca")),
-                Spacer(1, 11),
-            ]
-            story.append(KeepTogether(block))
-
+        lead = selected[0][1]
+        story = [
+            header,
+            Spacer(1, 8),
+            HRFlowable(width="100%", thickness=1.6, color=dark),
+            Spacer(1, 15),
+            Paragraph("01  /  PRINCIPAL", eyebrow),
+            Spacer(1, 5),
+            Paragraph(html.escape(lead["title"]), lead_title),
+            paragraph(lead["fact"], body),
+            Spacer(1, 7),
+            source_line(lead),
+            Spacer(1, 15),
+            HRFlowable(width="100%", thickness=.7, color=dark),
+            Spacer(1, 9),
+            Paragraph("ÎN RESTUL EDIȚIEI", eyebrow),
+            Spacer(1, 10),
+        ]
+        left = []
+        right = []
+        for index, (_, item) in enumerate(selected[1:], 2):
+            (left if index % 2 == 0 else right).extend(secondary_story(item, index))
+        columns = Table([[left, right]], colWidths=[column_width, column_width], hAlign="LEFT")
+        columns.setStyle(TableStyle([
+            ("VALIGN", (0, 0), (-1, -1), "TOP"),
+            ("LEFTPADDING", (0, 0), (0, 0), 0),
+            ("RIGHTPADDING", (0, 0), (0, 0), gutter),
+            ("LEFTPADDING", (1, 0), (1, 0), 0),
+            ("RIGHTPADDING", (1, 0), (1, 0), 0),
+            ("TOPPADDING", (0, 0), (-1, -1), 0),
+            ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
+        ]))
+        story.append(columns)
+        story.append(Spacer(1, 8))
         if indicators:
-            story.append(paragraph("INDICATORI VERIFICAȚI", label))
-            story.append(paragraph("   ·   ".join(format_indicator(x) for x in indicators), small))
+            story.append(HRFlowable(width="100%", thickness=.7, color=dark))
             story.append(Spacer(1, 8))
+            story.append(Paragraph("PIEȚE · DATE VERIFICATE", eyebrow))
+            story.append(Spacer(1, 7))
+            indicator_cells = []
+            for indicator in indicators:
+                formatted = format_indicator(indicator)
+                label_text, value_text = formatted.split(": ", 1)
+                indicator_cells.append([
+                    paragraph(label_text, small),
+                    paragraph(value_text, stat),
+                ])
+            indicator_cells.extend([[]] * (3 - len(indicator_cells)))
+            strip = Table([indicator_cells], colWidths=[content_width / 3] * 3)
+            strip.setStyle(TableStyle([
+                ("VALIGN", (0, 0), (-1, -1), "TOP"),
+                ("LEFTPADDING", (0, 0), (-1, -1), 0),
+                ("RIGHTPADDING", (0, 0), (-1, -1), 6),
+                ("TOPPADDING", (0, 0), (-1, -1), 0),
+                ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
+            ]))
+            story.append(strip)
+            story.append(Spacer(1, 12))
+        story.append(HRFlowable(width="100%", thickness=.35, color=line))
+        story.append(Spacer(1, 7))
         story.append(paragraph(
-            f"Publicat: {updated.astimezone(ZONE).strftime('%H:%M')} · Ediția completă și linkurile surselor: news.hapics.uk",
+            f"Publicat {updated.astimezone(ZONE).strftime('%H:%M')} · Articolele și sursele complete: news.hapics.uk",
             small,
         ))
 
@@ -167,8 +238,8 @@ def render_pdf(edition, destination):
         reader = PdfReader(str(destination))
         if len(reader.pages) != 1:
             continue
-        extracted = reader.pages[0].extract_text() or ""
-        if any(item["title"] not in extracted for _, item in selected):
+        extracted = " ".join((reader.pages[0].extract_text() or "").split())
+        if any(" ".join(item["title"].split()) not in extracted for _, item in selected):
             destination.unlink(missing_ok=True)
             raise ValueError("PDF text check failed")
         return count
