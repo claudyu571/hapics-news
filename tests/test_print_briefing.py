@@ -68,27 +68,27 @@ class PrintBriefingTest(unittest.TestCase):
             self.assertIn("BRIEFINGUL DIMINEȚII · PROBĂ", text)
             self.assertIn("Probă generată", text)
 
-    def test_light_moment_fits_after_five_stories(self):
+    def test_mini_sudoku_fits_after_five_stories(self):
         edition = json.loads((SCRIPT.parents[1] / "data" / "archive" / "2026-10-21.json").read_text())
-        edition["lightMoment"] = {
-            "text": "Venus se rotește în jurul axei în 243 de zile terestre, dar înconjoară Soarele în doar 225 de zile terestre. O rotație durează mai mult decât un an venusian.",
-            "sourceName": "NASA Science",
-            "sourceUrl": "https://science.nasa.gov/venus/venus-facts/",
-        }
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "briefing.pdf"
             self.assertEqual(module.render_pdf(edition, path), 5)
             text = module.PdfReader(str(path)).pages[0].extract_text()
-            self.assertIn("PAUZĂ DE CAFEA", text)
-            self.assertIn("NASA Science", text)
+            self.assertIn("MINI SUDOKU", text)
+            self.assertIn("1–4 pe rând", text)
             self.assertEqual(len(module.PdfReader(str(path)).pages), 1)
 
-    def test_light_moments_rotate_without_an_edition_override(self):
-        first = module.light_moment_for_date("2026-10-21")
-        second = module.light_moment_for_date("2026-10-22")
-        self.assertNotEqual(first["text"], second["text"])
-        self.assertTrue(first["sourceUrl"].startswith("https://"))
-        self.assertTrue(second["sourceUrl"].startswith("https://"))
+    def test_daily_sudoku_has_one_solution(self):
+        puzzles = []
+        for day in range(21, 28):
+            puzzle, solution = module.sudoku_for_date(f"2026-10-{day}")
+            self.assertEqual(module.sudoku_solution_count([row[:] for row in puzzle]), 1)
+            self.assertGreaterEqual(sum(value == 0 for row in puzzle for value in row), 8)
+            for index in range(4):
+                self.assertEqual(set(solution[index]), {1, 2, 3, 4})
+                self.assertEqual({solution[row][index] for row in range(4)}, {1, 2, 3, 4})
+            puzzles.append(puzzle)
+        self.assertNotEqual(puzzles[0], puzzles[1])
 
     def test_exchange_rates_keep_four_decimal_places(self):
         indicator = {"id": "usd-ron", "label": "USD/RON", "value": 4.7, "unit": "lei",

@@ -9,6 +9,7 @@ import html
 import json
 import os
 from pathlib import Path
+import random
 import subprocess
 import sys
 from datetime import datetime
@@ -123,14 +124,67 @@ def select_stories(ranked, count):
     return [ranked[0]] + sorted(picked[1:], key=ranked.index)
 
 
-def light_moment_for_date(date):
-    bank = json.loads((ROOT / "data" / "light-moments.json").read_text())
-    if not bank:
-        return None
-    return bank[datetime.fromisoformat(date).date().toordinal() % len(bank)]
+def sudoku_solution_count(grid, limit=2):
+    best = None
+    choices = None
+    for row in range(4):
+        for column in range(4):
+            if grid[row][column]:
+                continue
+            used = set(grid[row]) | {grid[index][column] for index in range(4)}
+            used |= {grid[r][c] for r in range(row // 2 * 2, row // 2 * 2 + 2)
+                     for c in range(column // 2 * 2, column // 2 * 2 + 2)}
+            available = set(range(1, 5)) - used
+            if not available:
+                return 0
+            if choices is None or len(available) < len(choices):
+                best, choices = (row, column), available
+    if best is None:
+        return 1
+    row, column = best
+    found = 0
+    for value in sorted(choices):
+        grid[row][column] = value
+        found += sudoku_solution_count(grid, limit - found)
+        grid[row][column] = 0
+        if found >= limit:
+            break
+    return found
 
 
-def render_pdf(edition, destination, proof=False, include_moment=True):
+def sudoku_for_date(date):
+    """Create a repeatable 4x4 puzzle with exactly one solution for each date."""
+    rng = random.Random(datetime.fromisoformat(date).date().toordinal())
+    base = ((1, 2, 3, 4), (3, 4, 1, 2), (2, 1, 4, 3), (4, 3, 2, 1))
+    digits = list(range(1, 5))
+    rng.shuffle(digits)
+
+    def ordered_lines():
+        groups = [0, 1]
+        rng.shuffle(groups)
+        result = []
+        for group in groups:
+            pair = [group * 2, group * 2 + 1]
+            rng.shuffle(pair)
+            result.extend(pair)
+        return result
+
+    rows, columns = ordered_lines(), ordered_lines()
+    solution = [[digits[base[r][c] - 1] for c in columns] for r in rows]
+    puzzle = [row[:] for row in solution]
+    cells = [(row, column) for row in range(4) for column in range(4)]
+    rng.shuffle(cells)
+    for row, column in cells:
+        old = puzzle[row][column]
+        puzzle[row][column] = 0
+        if sudoku_solution_count(puzzle) != 1:
+            puzzle[row][column] = old
+        if sum(value != 0 for line in puzzle for value in line) <= 7:
+            break
+    return puzzle, solution
+
+
+def render_pdf(edition, destination, proof=False, include_sudoku=True):
     register_fonts()
     date, updated, items = validate_edition(edition, require_today=False)
     destination.parent.mkdir(parents=True, exist_ok=True)
@@ -154,12 +208,10 @@ def render_pdf(edition, destination, proof=False, include_moment=True):
                             textColor=muted)
     stat = ParagraphStyle("stat", fontName="Briefing-Bold", fontSize=14, leading=17, textColor=dark)
     small = ParagraphStyle("small", fontName="Briefing", fontSize=12, leading=15, textColor=muted)
-    moment_label = ParagraphStyle("moment-label", fontName="Briefing-Bold", fontSize=10.5,
-                                  leading=13, textColor=accent)
-    moment_text = ParagraphStyle("moment-text", fontName="Briefing", fontSize=10.5,
-                                 leading=13.5, textColor=dark)
-    moment_source = ParagraphStyle("moment-source", fontName="Briefing", fontSize=9.5,
-                                   leading=12, textColor=muted)
+    puzzle_label = ParagraphStyle("puzzle-label", fontName="Briefing-Bold", fontSize=11,
+                                  leading=14, textColor=accent)
+    puzzle_instruction = ParagraphStyle("puzzle-instruction", fontName="Briefing",
+                                        fontSize=10.5, leading=14, textColor=muted)
 
     content_width = A4[0] - 80
     gutter = 22
@@ -199,6 +251,40 @@ def render_pdf(edition, destination, proof=False, include_moment=True):
             Spacer(1, 6),
         ]
 
+    def sudoku_panel():
+        puzzle, _ = sudoku_for_date(date)
+        grid = Table([[str(value) if value else "" for value in row] for row in puzzle],
+                     colWidths=[18] * 4, rowHeights=[18] * 4)
+        grid.setStyle(TableStyle([
+            ("FONTNAME", (0, 0), (-1, -1), "Briefing-Bold"),
+            ("FONTSIZE", (0, 0), (-1, -1), 10.5),
+            ("TEXTCOLOR", (0, 0), (-1, -1), dark),
+            ("ALIGN", (0, 0), (-1, -1), "CENTER"),
+            ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
+            ("GRID", (0, 0), (-1, -1), .35, line),
+            ("BOX", (0, 0), (-1, -1), 1.1, dark),
+            ("LINEAFTER", (1, 0), (1, -1), 1.1, dark),
+            ("LINEBELOW", (0, 1), (-1, 1), 1.1, dark),
+            ("LEFTPADDING", (0, 0), (-1, -1), 0),
+            ("RIGHTPADDING", (0, 0), (-1, -1), 0),
+            ("TOPPADDING", (0, 0), (-1, -1), 0),
+            ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
+        ]))
+        panel = Table([[
+            [Paragraph("MINI SUDOKU", puzzle_label), Spacer(1, 3),
+             Paragraph("1–4 pe rând, coloană și în fiecare 2×2.", puzzle_instruction)],
+            "",
+            grid,
+        ]], colWidths=[column_width - 80, 8, 72])
+        panel.setStyle(TableStyle([
+            ("VALIGN", (0, 0), (-1, -1), "TOP"),
+            ("LEFTPADDING", (0, 0), (-1, -1), 0),
+            ("RIGHTPADDING", (0, 0), (-1, -1), 0),
+            ("TOPPADDING", (0, 0), (-1, -1), 0),
+            ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
+        ]))
+        return panel
+
     available_indicators = {indicator["id"]: indicator for indicator in edition.get("indicators", [])}
     indicators = [
         {**available_indicators.get(identifier, {"id": identifier, "value": None, "freshness": "unavailable"}),
@@ -229,6 +315,8 @@ def render_pdf(edition, destination, proof=False, include_moment=True):
         right = []
         for index, (_, item) in enumerate(selected[1:], 2):
             (left if index % 2 == 0 else right).extend(secondary_story(item, index))
+        if include_sudoku:
+            right.append(sudoku_panel())
         columns = Table([[left, right]], colWidths=[column_width, column_width], hAlign="LEFT")
         columns.setStyle(TableStyle([
             ("VALIGN", (0, 0), (-1, -1), "TOP"),
@@ -263,30 +351,6 @@ def render_pdf(edition, destination, proof=False, include_moment=True):
         story.append(strip)
         story.append(Spacer(1, 8))
         story.append(HRFlowable(width="100%", thickness=.35, color=line))
-        moment = (edition.get("lightMoment") or light_moment_for_date(date)) if include_moment else None
-        if moment:
-            if not all(moment.get(key) for key in ("text", "sourceName", "sourceUrl")):
-                raise ValueError("The light moment needs text, source name and URL")
-            moment_url = html.escape(moment["sourceUrl"], quote=True)
-            moment_name = html.escape(moment["sourceName"])
-            moment_table = Table([[
-                Paragraph("PAUZĂ DE CAFEA", moment_label),
-                [
-                    paragraph(moment["text"], moment_text),
-                    Spacer(1, 3),
-                    Paragraph(f"Sursă: <link href='{moment_url}' color='#4f5753'>{moment_name}</link>",
-                              moment_source),
-                ],
-            ]], colWidths=[122, content_width - 122])
-            moment_table.setStyle(TableStyle([
-                ("VALIGN", (0, 0), (-1, -1), "TOP"),
-                ("LEFTPADDING", (0, 0), (-1, -1), 0),
-                ("RIGHTPADDING", (0, 0), (-1, -1), 0),
-                ("TOPPADDING", (0, 0), (-1, -1), 0),
-                ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
-            ]))
-            story.append(Spacer(1, 8))
-            story.append(moment_table)
 
         def draw_footer(canvas, _document):
             canvas.saveState()
@@ -306,8 +370,8 @@ def render_pdf(edition, destination, proof=False, include_moment=True):
         document.build(story, onFirstPage=draw_footer)
         reader = PdfReader(str(destination))
         if len(reader.pages) != 1:
-            if moment:
-                return render_pdf(edition, destination, proof=proof, include_moment=False)
+            if include_sudoku:
+                return render_pdf(edition, destination, proof=proof, include_sudoku=False)
             continue
         extracted = " ".join((reader.pages[0].extract_text() or "").split())
         if any(" ".join(item["title"].split()) not in extracted for _, item in selected):

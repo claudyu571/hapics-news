@@ -29,7 +29,6 @@
       "minItems": 1,
       "items": { "$ref": "#/$defs/newsItem" }
     },
-    "lightMoment": { "$ref": "#/$defs/lightMoment" },
     "romaniaAnalysis": { "$ref": "#/$defs/analysis" },
     "investmentFundSignals": {
       "type": "array",
@@ -105,16 +104,6 @@
         "sourceUrl": { "type": "string", "format": "uri" },
         "isSecondary": { "type": "boolean" },
         "confidence": { "const": "confirmed" }
-      }
-    },
-    "lightMoment": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": ["text", "sourceName", "sourceUrl"],
-      "properties": {
-        "text": { "type": "string", "minLength": 60, "maxLength": 220 },
-        "sourceName": { "type": "string", "minLength": 2 },
-        "sourceUrl": { "type": "string", "format": "uri" }
       }
     },
     "analysis": {
