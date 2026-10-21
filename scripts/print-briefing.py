@@ -123,7 +123,14 @@ def select_stories(ranked, count):
     return [ranked[0]] + sorted(picked[1:], key=ranked.index)
 
 
-def render_pdf(edition, destination, proof=False):
+def light_moment_for_date(date):
+    bank = json.loads((ROOT / "data" / "light-moments.json").read_text())
+    if not bank:
+        return None
+    return bank[datetime.fromisoformat(date).date().toordinal() % len(bank)]
+
+
+def render_pdf(edition, destination, proof=False, include_moment=True):
     register_fonts()
     date, updated, items = validate_edition(edition, require_today=False)
     destination.parent.mkdir(parents=True, exist_ok=True)
@@ -137,16 +144,22 @@ def render_pdf(edition, destination, proof=False):
                               textColor=muted, alignment=2)
     eyebrow = ParagraphStyle("eyebrow", fontName="Briefing-Bold", fontSize=12, leading=15,
                              textColor=accent)
-    lead_title = ParagraphStyle("lead-title", fontName="BriefingSerif-Bold", fontSize=21, leading=24.5,
+    lead_title = ParagraphStyle("lead-title", fontName="BriefingSerif-Bold", fontSize=20.5, leading=24,
                                 textColor=dark, spaceAfter=8)
     secondary_title = ParagraphStyle("secondary-title", fontName="BriefingSerif-Bold", fontSize=14.2,
                                      leading=17.2, textColor=dark, spaceAfter=6)
-    body = ParagraphStyle("body", fontName="Briefing", fontSize=12, leading=15.5,
+    body = ParagraphStyle("body", fontName="Briefing", fontSize=11.6, leading=15,
                           textColor=dark, alignment=TA_LEFT)
     source = ParagraphStyle("source", fontName="Briefing", fontSize=12, leading=15,
                             textColor=muted)
     stat = ParagraphStyle("stat", fontName="Briefing-Bold", fontSize=14, leading=17, textColor=dark)
     small = ParagraphStyle("small", fontName="Briefing", fontSize=12, leading=15, textColor=muted)
+    moment_label = ParagraphStyle("moment-label", fontName="Briefing-Bold", fontSize=10.5,
+                                  leading=13, textColor=accent)
+    moment_text = ParagraphStyle("moment-text", fontName="Briefing", fontSize=10.5,
+                                 leading=13.5, textColor=dark)
+    moment_source = ParagraphStyle("moment-source", fontName="Briefing", fontSize=9.5,
+                                   leading=12, textColor=muted)
 
     content_width = A4[0] - 80
     gutter = 22
@@ -176,14 +189,14 @@ def render_pdf(edition, destination, proof=False):
     def secondary_story(item, number):
         return [
             Paragraph(f"{number:02d}  /  {html.escape(item.get('category', 'Știri')).upper()}", eyebrow),
-            Spacer(1, 4),
+            Spacer(1, 3),
             Paragraph(html.escape(item["title"]), secondary_title),
             paragraph(item.get("printSummary") or item["fact"], body),
-            Spacer(1, 5),
+            Spacer(1, 4),
             source_line(item),
-            Spacer(1, 10),
+            Spacer(1, 6),
             HRFlowable(width="100%", thickness=.35, color=line),
-            Spacer(1, 10),
+            Spacer(1, 6),
         ]
 
     available_indicators = {indicator["id"]: indicator for indicator in edition.get("indicators", [])}
@@ -197,20 +210,20 @@ def render_pdf(edition, destination, proof=False):
         lead = selected[0][1]
         story = [
             header,
-            Spacer(1, 8),
+            Spacer(1, 6),
             HRFlowable(width="100%", thickness=1.6, color=dark),
-            Spacer(1, 15),
+            Spacer(1, 11),
             Paragraph("01  /  PRINCIPAL", eyebrow),
-            Spacer(1, 5),
+            Spacer(1, 4),
             Paragraph(html.escape(lead["title"]), lead_title),
             paragraph(lead["fact"], body),
-            Spacer(1, 7),
+            Spacer(1, 5),
             source_line(lead),
-            Spacer(1, 15),
+            Spacer(1, 11),
             HRFlowable(width="100%", thickness=.7, color=dark),
-            Spacer(1, 9),
+            Spacer(1, 7),
             Paragraph("ÎN RESTUL EDIȚIEI", eyebrow),
-            Spacer(1, 10),
+            Spacer(1, 7),
         ]
         left = []
         right = []
@@ -227,11 +240,11 @@ def render_pdf(edition, destination, proof=False):
             ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
         ]))
         story.append(columns)
-        story.append(Spacer(1, 8))
+        story.append(Spacer(1, 6))
         story.append(HRFlowable(width="100%", thickness=.7, color=dark))
-        story.append(Spacer(1, 8))
+        story.append(Spacer(1, 6))
         story.append(Paragraph("ROTX · CURS BNR", eyebrow))
-        story.append(Spacer(1, 7))
+        story.append(Spacer(1, 5))
         indicator_cells = []
         for indicator in indicators:
             formatted = format_indicator(indicator)
@@ -248,8 +261,32 @@ def render_pdf(edition, destination, proof=False):
             ("TOPPADDING", (0, 0), (-1, -1), 0),
         ]))
         story.append(strip)
-        story.append(Spacer(1, 12))
+        story.append(Spacer(1, 8))
         story.append(HRFlowable(width="100%", thickness=.35, color=line))
+        moment = (edition.get("lightMoment") or light_moment_for_date(date)) if include_moment else None
+        if moment:
+            if not all(moment.get(key) for key in ("text", "sourceName", "sourceUrl")):
+                raise ValueError("The light moment needs text, source name and URL")
+            moment_url = html.escape(moment["sourceUrl"], quote=True)
+            moment_name = html.escape(moment["sourceName"])
+            moment_table = Table([[
+                Paragraph("PAUZĂ DE CAFEA", moment_label),
+                [
+                    paragraph(moment["text"], moment_text),
+                    Spacer(1, 3),
+                    Paragraph(f"Sursă: <link href='{moment_url}' color='#4f5753'>{moment_name}</link>",
+                              moment_source),
+                ],
+            ]], colWidths=[122, content_width - 122])
+            moment_table.setStyle(TableStyle([
+                ("VALIGN", (0, 0), (-1, -1), "TOP"),
+                ("LEFTPADDING", (0, 0), (-1, -1), 0),
+                ("RIGHTPADDING", (0, 0), (-1, -1), 0),
+                ("TOPPADDING", (0, 0), (-1, -1), 0),
+                ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
+            ]))
+            story.append(Spacer(1, 8))
+            story.append(moment_table)
 
         def draw_footer(canvas, _document):
             canvas.saveState()
@@ -269,6 +306,8 @@ def render_pdf(edition, destination, proof=False):
         document.build(story, onFirstPage=draw_footer)
         reader = PdfReader(str(destination))
         if len(reader.pages) != 1:
+            if moment:
+                return render_pdf(edition, destination, proof=proof, include_moment=False)
             continue
         extracted = " ".join((reader.pages[0].extract_text() or "").split())
         if any(" ".join(item["title"].split()) not in extracted for _, item in selected):

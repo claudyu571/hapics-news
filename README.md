@@ -114,6 +114,7 @@ O a doua automatizare locală rulează zilnic la 07:00 (Europe/Bucharest), după
 Macheta folosește o știre principală pe toată lățimea și până la patru știri scurte în două coloane, urmate de indicatorii verificați. Fiecare știre poate avea `importantNews[].printSummary` (60–180 de caractere), o propoziție factuală pentru hârtie care păstrează atribuirea și incertitudinea. Edițiile vechi fără acest câmp folosesc `fact` integral și pot include mai puține știri pentru a păstra lizibilitatea.
 La cinci știri, selecția poate include o știre `Extern` și una din Tehnologie/Știință/Spațiu/Sănătate/Climă dacă au impact editorial de cel puțin 4/5; locurile revin celor mai importante știri disponibile când aceste teme nu ating pragul.
 Pe pagina tipărită apar numai ROTX, EUR/RON și USD/RON, în această ordine. Cursurile BNR păstrează patru zecimale și data cotației; o valoare lipsă este afișată ca indisponibilă.
+Sub indicatori apare „Pauză de cafea”: o curiozitate scurtă și verificată, cu sursă directă. Dacă ediția conține `lightMoment.text`, `sourceName` și `sourceUrl`, se folosește acel text; altfel scriptul rotește zilnic faptele verificate din `data/light-moments.json`. Rubrica cedează spațiul știrilor când o ediție densă nu încape pe A4. Nu se folosesc afirmații neverificate sau glume pe seama evenimentelor grave.
 
 Comanda folosită de automatizare:
 

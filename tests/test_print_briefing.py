@@ -68,6 +68,28 @@ class PrintBriefingTest(unittest.TestCase):
             self.assertIn("BRIEFINGUL DIMINEȚII · PROBĂ", text)
             self.assertIn("Probă generată", text)
 
+    def test_light_moment_fits_after_five_stories(self):
+        edition = json.loads((SCRIPT.parents[1] / "data" / "archive" / "2026-10-21.json").read_text())
+        edition["lightMoment"] = {
+            "text": "Venus se rotește în jurul axei în 243 de zile terestre, dar înconjoară Soarele în doar 225 de zile terestre. O rotație durează mai mult decât un an venusian.",
+            "sourceName": "NASA Science",
+            "sourceUrl": "https://science.nasa.gov/venus/venus-facts/",
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "briefing.pdf"
+            self.assertEqual(module.render_pdf(edition, path), 5)
+            text = module.PdfReader(str(path)).pages[0].extract_text()
+            self.assertIn("PAUZĂ DE CAFEA", text)
+            self.assertIn("NASA Science", text)
+            self.assertEqual(len(module.PdfReader(str(path)).pages), 1)
+
+    def test_light_moments_rotate_without_an_edition_override(self):
+        first = module.light_moment_for_date("2026-10-21")
+        second = module.light_moment_for_date("2026-10-22")
+        self.assertNotEqual(first["text"], second["text"])
+        self.assertTrue(first["sourceUrl"].startswith("https://"))
+        self.assertTrue(second["sourceUrl"].startswith("https://"))
+
     def test_exchange_rates_keep_four_decimal_places(self):
         indicator = {"id": "usd-ron", "label": "USD/RON", "value": 4.7, "unit": "lei",
                      "referenceDate": "2026-10-20", "freshness": "current"}
