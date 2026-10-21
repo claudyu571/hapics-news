@@ -60,6 +60,14 @@ class PrintBriefingTest(unittest.TestCase):
             self.assertEqual(module.render_pdf(edition, path), 5)
             self.assertEqual(len(module.PdfReader(str(path)).pages), 1)
 
+    def test_proof_is_clearly_labeled(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "proof.pdf"
+            module.render_pdf(self.edition, path, proof=True)
+            text = module.PdfReader(str(path)).pages[0].extract_text()
+            self.assertIn("BRIEFINGUL DIMINEȚII · PROBĂ", text)
+            self.assertIn("Probă generată", text)
+
     def test_exchange_rates_keep_four_decimal_places(self):
         indicator = {"id": "usd-ron", "label": "USD/RON", "value": 4.7, "unit": "lei",
                      "referenceDate": "2026-10-20", "freshness": "current"}

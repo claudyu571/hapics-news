@@ -123,7 +123,7 @@ def select_stories(ranked, count):
     return [ranked[0]] + sorted(picked[1:], key=ranked.index)
 
 
-def render_pdf(edition, destination):
+def render_pdf(edition, destination, proof=False):
     register_fonts()
     date, updated, items = validate_edition(edition, require_today=False)
     destination.parent.mkdir(parents=True, exist_ok=True)
@@ -153,7 +153,7 @@ def render_pdf(edition, destination):
     column_width = (content_width - gutter) / 2
     issue_date = datetime.fromisoformat(date).strftime("%d.%m.%Y")
     header = Table([[
-        [Paragraph("HAPICS", brand), Paragraph("BRIEFINGUL DIMINEȚII", eyebrow)],
+        [Paragraph("HAPICS", brand), Paragraph("BRIEFINGUL DIMINEȚII · PROBĂ" if proof else "BRIEFINGUL DIMINEȚII", eyebrow)],
         [Paragraph(issue_date, dateline), Paragraph("ROMÂNIA · LUME · PIEȚE", dateline)],
     ]], colWidths=[content_width * .64, content_width * .36])
     header.setStyle(TableStyle([
@@ -255,10 +255,12 @@ def render_pdf(edition, destination):
             canvas.saveState()
             canvas.setFont("Briefing", 12)
             canvas.setFillColor(muted)
-            canvas.drawString(
-                40, 22,
-                f"Publicat {updated.astimezone(ZONE).strftime('%H:%M')} · Articolele și sursele complete: news.hapics.uk",
+            footer = (
+                f"Probă generată {datetime.now(ZONE).strftime('%H:%M')} · Sursele sunt asociate fiecărei știri"
+                if proof else
+                f"Publicat {updated.astimezone(ZONE).strftime('%H:%M')} · Articolele și sursele complete: news.hapics.uk"
             )
+            canvas.drawString(40, 22, footer)
             canvas.restoreState()
 
         document = SimpleDocTemplate(str(destination), pagesize=A4, rightMargin=40, leftMargin=40,
@@ -305,17 +307,20 @@ def main():
     parser.add_argument("--output", type=Path)
     parser.add_argument("--printer", default=DEFAULT_PRINTER)
     parser.add_argument("--print", action="store_true", dest="print_job")
+    parser.add_argument("--proof", action="store_true", help="Mark a local selection as a proof, never a published edition")
     parser.add_argument("--allow-stale", action="store_true", help="Only for previewing an archived edition")
     args = parser.parse_args()
     if args.print_job and args.allow_stale:
         parser.error("--print cannot be combined with --allow-stale")
     if args.print_job and args.file:
         parser.error("--print requires the published live URL")
+    if args.print_job and args.proof:
+        parser.error("--print cannot be combined with --proof")
 
     edition = json.loads(args.file.read_text()) if args.file else fetch_edition(args.url)
     date, _, _ = validate_edition(edition, require_today=not args.allow_stale)
     output = args.output or ROOT / "output" / "pdf" / f"hapics-briefing-{date}.pdf"
-    count = render_pdf(edition, output)
+    count = render_pdf(edition, output, proof=args.proof)
     print(f"Validated one-page A4 PDF with {count} stories: {output}")
     if args.print_job:
         print(submit_once(output, date, args.printer))
