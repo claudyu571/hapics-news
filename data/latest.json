@@ -1,191 +1,200 @@
 {
   "metadata": {
-    "editionDate": "2026-09-16",
-    "updatedAt": "2026-09-16T07:33:03+03:00",
+    "editionDate": "2026-10-21",
+    "updatedAt": "2026-10-21T06:05:26+03:00",
     "timezone": "Europe/Bucharest",
-    "title": "Hapics News — Briefing de dimineață, 16 septembrie 2026",
+    "title": "Hapics News — Briefing de dimineață, 21 octombrie 2026",
     "status": "published",
     "primarySource": "https://www.biziday.ro/",
-    "sourceCoverage": "partial"
+    "sourceCoverage": "complete"
   },
   "executiveSummary": [
     {
-      "id": "finantare",
-      "text": "Randamentul românesc la zece ani este relatat la 7,35% pentru 15 septembrie; finanțările viitoare rămân expuse pieței globale.",
-      "category": "Economie"
-    },
-    {
-      "id": "ovine",
-      "text": "Reluarea exporturilor de ovine depinde de aprobarea europeană, pe fondul protestelor și al constrângerilor bugetare.",
-      "category": "Social"
-    },
-    {
-      "id": "mare-rosie",
-      "text": "Qatarul avertizează asupra unei posibile blocări a Bab el-Mandeb; închiderea acestei rute nu este confirmată.",
-      "category": "Extern"
-    },
-    {
-      "id": "liman",
-      "text": "Un comandant ucrainean anunță o ofensivă lângă Liman; amploarea rezultatelor rămâne de verificat independent.",
-      "category": "Securitate"
-    },
-    {
-      "id": "democratie",
-      "text": "Parlamentul European susține măsuri de reziliență democratică, cu implementare încă dependentă de decizii ulterioare.",
+      "id": "guvern-niculescu",
+      "text": "Guvernul Luca Niculescu a fost învestit cu 280 de voturi; rectificarea bugetară și energia sunt primele urgențe declarate.",
       "category": "Politică"
     },
     {
-      "id": "tulcea",
-      "text": "Alerta din Tulcea din 15 septembrie s-a încheiat fără pătrunderi raportate în spațiul aerian românesc.",
+      "id": "marea-neagra",
+      "text": "NATO anunță resurse suplimentare în Marea Neagră după atacuri asupra navelor comerciale din apele României și Bulgariei.",
       "category": "Securitate"
+    },
+    {
+      "id": "aparare-sua",
+      "text": "Acțiunile americane din apărare au scăzut, investitorii reevaluând probabilitatea majorării bugetului militar după alegerile din SUA.",
+      "category": "Piețe"
+    },
+    {
+      "id": "bistrita",
+      "text": "Procurorii descriu atacul de la școala din Bistrița drept premeditat și indică drept motiv probabil ura rasială.",
+      "category": "Social"
+    },
+    {
+      "id": "drepturi-pasageri",
+      "text": "Parlamentul European a aprobat rambursări integrale în 14 zile pentru zboruri anulate cumpărate prin intermediari; Consiliul mai trebuie să aprobe.",
+      "category": "Social"
+    },
+    {
+      "id": "volkswagen",
+      "text": "Volkswagen recheamă aproximativ 72.000 de vehicule electrice și limitează temporar încărcarea celor vizate la 80%. ",
+      "category": "Economie"
     }
   ],
   "importantNews": [
     {
-      "id": "finantare",
-      "title": "Finanțarea României resimte presiunea piețelor globale",
-      "fact": "Biziday relatează că randamentul titlurilor românești la zece ani a ajuns la 7,35% în seara de 15 septembrie, în contextul vânzărilor de obligațiuni la nivel internațional.",
-      "interpretation": "Presiunea poate scumpi finanțările noi și refinanțările. Mișcarea pieței nu modifică automat cupoanele fixe ale datoriei existente; atribuirea ei exclusiv crizei politice ar fi nejustificată.",
-      "category": "Economie",
-      "impact": 4,
-      "impactLabel": "Costul finanțării",
-      "horizon": "1–3 luni",
-      "sourceId": "biziday",
-      "sourceName": "Biziday",
-      "sourceUrl": "https://www.biziday.ro/369009-2/",
-      "isSecondary": false,
-      "confidence": "confirmed"
-    },
-    {
-      "id": "ovine",
-      "title": "Protestele cresc presiunea pentru soluții în sectorul ovin",
-      "fact": "Potrivit comunicatului guvernamental reprodus de Biziday, planul pentru reluarea exporturilor de ovine și caprine a fost trimis Comisiei Europene. Aprobarea este încă necesară. Guvernul a cerut încetarea violențelor de la protestul din Piața Victoriei.",
-      "interpretation": "Reluarea exporturilor ar putea ameliora situația producătorilor. Compensațiile suplimentare depind de resurse bugetare și de pașii instituționali, deci nu reprezintă plăți deja aprobate.",
-      "category": "Social",
-      "impact": 4,
-      "impactLabel": "Agricultură și buget",
-      "horizon": "1–4 săptămâni",
-      "sourceId": "biziday",
-      "sourceName": "Biziday",
-      "sourceUrl": "https://www.biziday.ro/368959-2/",
-      "isSecondary": false,
-      "confidence": "confirmed"
-    },
-    {
-      "id": "mare-rosie",
-      "title": "Qatarul avertizează asupra riscului blocării Bab el-Mandeb",
-      "fact": "Biziday relatează apelul Qatarului pentru menținerea deschisă a strâmtorii Bab el-Mandeb, după extinderea controlului houthi pe coasta Yemenului. Avertismentul privește o posibilă închidere, nu confirmă blocarea acestei rute.",
-      "interpretation": "Dacă traficul ar fi întrerupt, ocolurile maritime ar putea majora costurile și timpii de livrare dintre Asia și Europa. Dimensiunea efectului depinde de durata și amploarea unei eventuale perturbări.",
-      "category": "Extern",
-      "impact": 4,
-      "impactLabel": "Transport și aprovizionare",
-      "horizon": "1–4 săptămâni",
-      "sourceId": "biziday",
-      "sourceName": "Biziday",
-      "sourceUrl": "https://www.biziday.ro/369003-2/",
-      "isSecondary": false,
-      "confidence": "confirmed"
-    },
-    {
-      "id": "liman",
-      "title": "Un comandant ucrainean anunță o ofensivă în zona Liman",
-      "fact": "Conform Biziday, care citează Reuters, generalul Andrii Biletski a declarat că forțele ucrainene desfășoară o ofensivă în nordul regiunii Donețk. Câștigurile teritoriale relatate sunt afirmații ale comandantului, neverificate independent în această ediție.",
-      "interpretation": "Anunțul poate indica o schimbare locală a inițiativei. Nu permite concluzii sigure despre evoluția întregului front sau despre apropierea unui acord de pace.",
-      "category": "Securitate",
-      "impact": 3,
-      "impactLabel": "Evoluție militară locală",
-      "horizon": "1–4 săptămâni",
-      "sourceId": "biziday",
-      "sourceName": "Biziday",
-      "sourceUrl": "https://www.biziday.ro/369013-2/",
-      "isSecondary": false,
-      "confidence": "confirmed"
-    },
-    {
-      "id": "democratie",
-      "title": "Parlamentul European cere coordonare împotriva ingerințelor",
-      "fact": "Biziday relatează adoptarea unui raport al Parlamentului European privind protejarea democrației. Propunerile includ un centru european de reziliență democratică și protejarea infrastructurii electorale.",
-      "interpretation": "Raportul semnalează o direcție politică; nu echivalează cu intrarea în vigoare a tuturor propunerilor. Efectele pentru instituții și platforme depind de măsurile ulterioare.",
+      "id": "guvern-niculescu",
+      "title": "România are un nou guvern după cinci luni și jumătate de interimat",
+      "fact": "Cabinetul condus de Luca Niculescu a primit 280 de voturi pentru și 58 împotrivă, apoi a depus jurământul și a ținut prima ședință. Premierul a enumerat rectificarea bugetară, bugetul pentru 2027 și siguranța energetică între urgențe.",
+      "interpretation": "Învestirea reduce blocajul instituțional, dar nu garantează execuția programului. Primele decizii bugetare vor arăta cât de solidă este majoritatea și cum împacă guvernul consolidarea fiscală cu promisiunile sociale și de investiții.",
       "category": "Politică",
-      "impact": 3,
-      "impactLabel": "Reziliență instituțională",
-      "horizon": "6–12 luni",
-      "sourceId": "biziday",
-      "sourceName": "Biziday",
-      "sourceUrl": "https://www.biziday.ro/368953-2/",
-      "isSecondary": false,
-      "confidence": "confirmed"
-    },
-    {
-      "id": "tulcea",
-      "title": "Alerta din Tulcea s-a încheiat fără pătrunderi raportate",
-      "fact": "În dimineața de 15 septembrie, autoritățile au emis mesaje RO-Alert în nordul județului Tulcea și au ridicat două aeronave F-16, potrivit informării MApN reproduse de Biziday. Nu au fost raportate pătrunderi în spațiul aerian național.",
-      "interpretation": "Incidentul justifică monitorizarea riscului de frontieră, dar nu dovedește un atac asupra României. Orice evaluare suplimentară trebuie legată de noi informații verificate.",
-      "category": "Securitate",
-      "impact": 3,
-      "impactLabel": "Siguranță la frontieră",
+      "impact": 5,
+      "impactLabel": "Guvernare și buget",
       "horizon": "Imediat",
       "sourceId": "biziday",
       "sourceName": "Biziday",
-      "sourceUrl": "https://www.biziday.ro/368903-2/",
+      "sourceUrl": "https://www.biziday.ro/373047-2/",
+      "isSecondary": false,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "marea-neagra",
+      "title": "NATO suplimentează resursele din Marea Neagră",
+      "fact": "Biziday relatează că NATO a decis suplimentarea resurselor din Marea Neagră după atacuri rusești cu drone asupra unor nave comerciale în apele teritoriale ale României și Bulgariei. Tipul și amploarea mijloacelor suplimentare nu au fost precizate.",
+      "interpretation": "Măsura poate întări supravegherea și descurajarea, însă efectul operațional depinde de capabilitățile efectiv desfășurate. Incidentele ridică riscul pentru navigație fără a implica automat o escaladare militară directă între NATO și Rusia.",
+      "category": "Securitate",
+      "impact": 5,
+      "impactLabel": "Securitate regională",
+      "horizon": "Imediat",
+      "sourceId": "biziday",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/373100-2/",
+      "isSecondary": false,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "aparare-sua",
+      "title": "Sectorul american de apărare resimte riscul politic",
+      "fact": "Biziday, citând Financial Times, arată că ETF-ul iShares US Aerospace and Defence a scăzut cu 16% între iulie și octombrie, în timp ce S&P 500 a crescut cu 3,5%. Relatarea leagă diferența de incertitudinea privind bugetul militar după alegerile de la jumătatea mandatului.",
+      "interpretation": "Piața pare să reducă din evaluările construite pe o majorare rapidă a cheltuielilor. Cererea structurală pentru echipamente rămâne, dar ritmul comenzilor și aprobările bugetare pot produce volatilitate; rezultatul electoral nu este cert.",
+      "category": "Piețe",
+      "impact": 4,
+      "impactLabel": "Apărare și evaluări",
+      "horizon": "1–3 luni",
+      "sourceId": "biziday",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/373115-2/",
+      "isSecondary": false,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "bistrita",
+      "title": "Anchetatorii indică premeditare și posibil mobil rasial la Bistrița",
+      "fact": "Prim-procurorul Tribunalului Bistrița-Năsăud a declarat că elevul de 13 ani a venit la școală cu un briceag și echipament pregătit, iar ținta era un elev pe care îl considera indian din cauza culorii tenului. În baie au fost găsite însemne extremist-legionare.",
+      "interpretation": "Cazul pune sub presiune mecanismele de prevenire a violenței și radicalizării în școli. Cauzele individuale și eventualele eșecuri instituționale sunt încă investigate, deci nu pot fi generalizate din datele disponibile.",
+      "category": "Social",
+      "impact": 4,
+      "impactLabel": "Siguranță școlară",
+      "horizon": "1–4 săptămâni",
+      "sourceId": "biziday",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/373084-2/",
+      "isSecondary": false,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "drepturi-pasageri",
+      "title": "Eurodeputații extind protecția pasagerilor",
+      "fact": "Parlamentul European a aprobat reguli prin care biletele pentru zboruri anulate, cumpărate prin intermediari, ar urma să fie rambursate integral în cel mult 14 zile. Textul mai necesită aprobarea formală a Consiliului, iar aplicarea este prevăzută din 23 octombrie 2027.",
+      "interpretation": "Regulile ar reduce incertitudinea pentru consumatori și ar impune fluxuri mai clare între companii și intermediari. Costurile de conformare și efectul comercial apar doar după aprobarea finală și intrarea în aplicare.",
+      "category": "Social",
+      "impact": 3,
+      "impactLabel": "Protecția consumatorilor",
+      "horizon": "6–12 luni",
+      "sourceId": "biziday",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/373063-2/",
+      "isSecondary": false,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "volkswagen",
+      "title": "Volkswagen limitează încărcarea unor electrice înaintea verificării",
+      "fact": "Biziday relatează că Volkswagen recheamă aproximativ 72.000 de vehicule electrice din seriile ID și Cupra, produse în anumite intervale între 2022 și 2025. Până la verificare, încărcarea vehiculelor vizate este limitată de la distanță la 80%.",
+      "interpretation": "Rechemarea poate genera costuri de service și presiune reputațională, dar amploarea financiară depinde de numărul modulelor înlocuite. Compania estimează că, în multe cazuri, o actualizare software ar putea fi suficientă.",
+      "category": "Economie",
+      "impact": 3,
+      "impactLabel": "Industrie auto",
+      "horizon": "1–3 luni",
+      "sourceId": "biziday",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/373105-2/",
       "isSecondary": false,
       "confidence": "confirmed"
     }
   ],
   "romaniaAnalysis": {
     "factBase": [
-      "Biziday publică o nouă observație privind presiunea asupra finanțării suverane.",
-      "Guvernul indică pași administrativi încă necesari pentru exporturile de ovine.",
-      "Informarea despre Tulcea nu consemnează încălcări ale spațiului aerian național."
+      "Guvernul Niculescu a fost învestit cu 280 de voturi pentru și 58 împotrivă.",
+      "Premierul a indicat rectificarea bugetară, bugetul pentru 2027 și siguranța energetică drept urgențe.",
+      "NATO a anunțat resurse suplimentare în Marea Neagră, fără a detalia public componența lor.",
+      "Procurorii descriu atacul de la Bistrița drept premeditat și indică un posibil mobil rasial."
     ],
-    "political": "Gestionarea revendicărilor agricole pune accent pe capacitatea de dialog și pe funcționarea instituțiilor. Un calendar clar al deciziilor ar putea reduce incertitudinea; absența lui ar putea prelungi tensiunile.",
-    "economic": "Economia este expusă simultan condițiilor de finanțare și eventualelor întârzieri logistice externe. Impactul asupra firmelor diferă după îndatorare, dependența de importuri și capacitatea de a transfera costurile.",
-    "interpretation": "Scenariul central editorial este menținerea incertitudinii pe termen scurt, nu o deteriorare inevitabilă. Acoperirea este parțială: RSS și articolele Biziday au fost consultate; Reuters nu a putut fi accesat, iar FT a oferit numai titlul public. Declarațiile atribuite nu constituie verificare independentă a rezultatelor invocate."
+    "political": "Noul executiv încheie interimatul, dar intră direct într-un test de coeziune: rectificarea și bugetul trebuie să transforme o majoritate parlamentară largă într-o ordine clară a priorităților. Stabilitatea va depinde de disciplina votului și de transparența compromisurilor.",
+    "economic": "Guvernul trebuie să gestioneze simultan consolidarea fiscală, siguranța energetică și investițiile. Un calendar credibil poate reduce incertitudinea pentru companii; amânările ori măsurile nefinanțate ar putea menține presiunea asupra costurilor și a încrederii.",
+    "interpretation": "Scenariul central este o ameliorare graduală a predictibilității administrative, nu o rezolvare imediată a dezechilibrelor. Riscurile de securitate la Marea Neagră și tensiunile sociale cer capacitate de execuție, iar primele decizii ale cabinetului vor avea o valoare de semnal disproporționat de mare."
   },
   "investmentFundSignals": [
     {
-      "id": "obligatiuni",
-      "label": "Fonduri de obligațiuni",
-      "direction": "negativ",
-      "strength": 4,
+      "id": "obligatiuni-romania",
+      "label": "Fonduri de obligațiuni românești",
+      "direction": "neutru",
+      "strength": 3,
       "horizon": "1–3 luni",
-      "rationale": "Creșterea randamentelor poate afecta evaluarea portofoliilor cu durată lungă; sensibilitatea depinde de scadențe și de structura deținerilor."
+      "rationale": "Instalarea guvernului reduce un risc politic imediat, dar direcția depinde de credibilitatea rectificării și a bugetului, nu doar de votul de învestire."
     },
     {
-      "id": "actiuni",
-      "label": "Fonduri de acțiuni diversificate",
+      "id": "actiuni-romania",
+      "label": "Fonduri de acțiuni românești",
+      "direction": "neutru",
+      "strength": 3,
+      "horizon": "1–3 luni",
+      "rationale": "Clarificarea executivului poate susține predictibilitatea, însă compoziția măsurilor fiscale și energetice poate afecta neuniform sectoarele listate."
+    },
+    {
+      "id": "aparare-global",
+      "label": "Fonduri globale cu expunere pe apărare",
       "direction": "negativ",
       "strength": 3,
-      "horizon": "1–4 săptămâni",
-      "rationale": "Costurile logistice și de capital pot comprima marjele unor companii; efectul nu este uniform între sectoare și nu implică o direcție certă a cotațiilor."
+      "horizon": "1–3 luni",
+      "rationale": "Reevaluarea bugetului militar american poate menține volatilitatea, chiar dacă cererea geopolitică structurală pentru echipamente rămâne ridicată."
     },
     {
-      "id": "lichiditate",
-      "label": "Fonduri cu instrumente pe termen scurt",
+      "id": "auto-europa",
+      "label": "Fonduri europene cu expunere auto",
       "direction": "neutru",
       "strength": 2,
       "horizon": "1–3 luni",
-      "rationale": "Durata redusă poate limita sensibilitatea la variația dobânzilor, însă riscul de credit, lichiditatea și randamentul real rămân relevante."
+      "rationale": "Rechemarea Volkswagen este relevantă pentru costuri și reputație, dar datele disponibile nu justifică extrapolarea către întregul sector auto european."
     }
   ],
   "indicators": [
     {
-      "id": "ro-10y",
-      "label": "Randament titluri România — 10 ani",
-      "value": 7.35,
+      "id": "us-defense-etf",
+      "label": "iShares US Aerospace and Defence, variație iulie–octombrie",
+      "value": -16,
       "unit": "%",
-      "referenceDate": "2026-09-15",
-      "sourceName": "Biziday",
-      "sourceUrl": "https://www.biziday.ro/369009-2/",
-      "freshness": "stale",
-      "note": "Observație relatată pentru seara precedentă, nu cotație live și nu cost garantat al unei emisiuni noi."
+      "referenceDate": "2026-10-20",
+      "sourceName": "Biziday, citând Financial Times",
+      "sourceUrl": "https://www.biziday.ro/373115-2/",
+      "freshness": "current",
+      "note": "Variație pentru intervalul relatat, nu cotație în timp real și nu semnal de tranzacționare."
     },
     {
       "id": "eur-ron",
       "label": "EUR/RON",
       "value": null,
       "unit": "lei",
-      "referenceDate": "2026-09-16",
+      "referenceDate": "2026-10-21",
       "sourceName": "BNR",
       "sourceUrl": "https://www.bnr.ro/nbrfxrates.xml",
       "freshness": "unavailable"
@@ -193,9 +202,9 @@
     {
       "id": "bet",
       "label": "Indice BET",
-      "value": 32697.81,
+      "value": 35234.26,
       "unit": "puncte",
-      "referenceDate": "2026-09-16",
+      "referenceDate": "2026-10-21",
       "sourceName": "BVB",
       "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=BET",
       "freshness": "current",
@@ -204,9 +213,9 @@
     {
       "id": "rotx",
       "label": "Indice ROTX",
-      "value": 73757.02,
+      "value": 79874.53,
       "unit": "puncte",
-      "referenceDate": "2026-09-16",
+      "referenceDate": "2026-10-21",
       "sourceName": "BVB / Wiener Börse",
       "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=ROTX",
       "freshness": "current",
@@ -215,9 +224,9 @@
     {
       "id": "robor",
       "label": "ROBOR 3M",
-      "value": 5.84,
+      "value": 6.09,
       "unit": "%",
-      "referenceDate": "2026-09-15",
+      "referenceDate": "2026-10-20",
       "sourceName": "BNR",
       "sourceUrl": "https://www.bnr.ro/1074-baza-de-date-interactiva",
       "freshness": "current",
@@ -226,86 +235,85 @@
     {
       "id": "ircc",
       "label": "IRCC",
-      "value": 5.56,
+      "value": null,
       "unit": "%",
-      "referenceDate": "2026-07-01",
+      "referenceDate": "2026-10-21",
       "sourceName": "BNR",
       "sourceUrl": "https://www.bnr.ro/",
-      "freshness": "current",
-      "note": "Indice de referință pentru creditele consumatorilor, valabil în trimestrul III 2026."
+      "freshness": "unavailable"
     }
   ],
   "riskScores": [
     {
-      "id": "finantare",
-      "label": "Presiune asupra finanțării",
-      "score": 4,
-      "trend": "în creștere",
-      "description": "Evaluare editorială ordinală, nu probabilitate statistică: condițiile externe pot menține costurile ridicate."
-    },
-    {
-      "id": "logistica",
-      "label": "Perturbări logistice externe",
-      "score": 4,
-      "trend": "în creștere",
-      "description": "Scenariul unei noi întreruperi maritime merită urmărit; blocarea Bab el-Mandeb nu este tratată ca fapt împlinit."
-    },
-    {
-      "id": "social",
-      "label": "Tensiuni sociale și execuție administrativă",
-      "score": 3,
-      "trend": "în creștere",
-      "description": "Protestele fac mai urgentă clarificarea măsurilor și a finanțării lor."
-    },
-    {
-      "id": "regional",
-      "label": "Securitate regională",
+      "id": "executie-bugetara",
+      "label": "Execuție bugetară și coeziune politică",
       "score": 4,
       "trend": "stabil",
-      "description": "Războiul menține expunerea regională; scorul nu reprezintă o prognoză de atac asupra României."
+      "description": "Evaluare editorială: guvernul are majoritate, dar urgențele fiscale și energetice cer decizii rapide și coerente."
+    },
+    {
+      "id": "marea-neagra",
+      "label": "Securitate în Marea Neagră",
+      "score": 5,
+      "trend": "în creștere",
+      "description": "Atacurile asupra navigației și suplimentarea resurselor NATO indică o expunere regională ridicată, fără a constitui o prognoză de conflict direct."
+    },
+    {
+      "id": "siguranta-scolara",
+      "label": "Violență și radicalizare în școli",
+      "score": 4,
+      "trend": "în creștere",
+      "description": "Cazul de la Bistrița ridică întrebări despre detectarea semnalelor și coordonarea intervenției preventive."
+    },
+    {
+      "id": "volatilitate-aparare",
+      "label": "Volatilitate în sectorul apărării",
+      "score": 3,
+      "trend": "în creștere",
+      "description": "Alegerile americane și incertitudinea bugetară pot schimba rapid așteptările, fără a elimina cererea structurală."
     }
   ],
   "watchlist": [
     {
-      "id": "monetar",
-      "title": "Deciziile băncilor centrale",
-      "why": "Așteptările pieței pot fi revizuite rapid.",
-      "trigger": "Decizii publicate și context verificat prin sursele permise.",
+      "id": "rectificare",
+      "title": "Prima rectificare a guvernului Niculescu",
+      "why": "Va arăta prioritățile reale și spațiul fiscal disponibil.",
+      "trigger": "Publicarea proiectului, a impactului bugetar și a calendarului de adoptare.",
       "status": "în așteptare",
-      "sourceUrl": "https://www.biziday.ro/369009-2/"
+      "sourceUrl": "https://www.digi24.ro/stiri/actualitate/politica/luca-niculescu-in-plenul-parlamentului-romania-nu-isi-mai-poate-permite-o-criza-prelungita-are-nevoie-de-un-guvern-4000555"
     },
     {
-      "id": "exporturi",
-      "title": "Aprobarea reluării exporturilor de ovine",
-      "why": "Producătorii au nevoie de un calendar aplicabil.",
-      "trigger": "Confirmarea aprobării europene și a condițiilor concrete.",
+      "id": "nato-resurse",
+      "title": "Componența resurselor NATO din Marea Neagră",
+      "why": "Efectul de descurajare depinde de mijloacele și regulile de operare.",
+      "trigger": "Detalii oficiale ori confirmări prin sursele editoriale permise.",
       "status": "în așteptare",
-      "sourceUrl": "https://www.biziday.ro/368959-2/"
+      "sourceUrl": "https://www.biziday.ro/373100-2/"
     },
     {
-      "id": "maritim",
-      "title": "Starea traficului prin Bab el-Mandeb",
-      "why": "Riscul logistic depinde de fluxurile efective.",
-      "trigger": "Confirmări verificabile despre restricții sau menținerea navigației.",
-      "status": "neconfirmat",
-      "sourceUrl": "https://www.biziday.ro/369003-2/"
+      "id": "ancheta-bistrita",
+      "title": "Concluziile anchetei de la Bistrița",
+      "why": "Ipotezele despre radicalizare și prevenție necesită probe și evaluări instituționale.",
+      "trigger": "Comunicări oficiale despre cauze, semnale anterioare și măsuri preventive.",
+      "status": "în așteptare",
+      "sourceUrl": "https://hotnews.ro/o-fapta-premeditata-ce-spun-anchetatorii-despre-atacul-cu-cutitul-de-scoala-din-bistrita-elevul-agresor-nu-a-fost-inca-audiat-2381618"
     },
     {
-      "id": "front",
-      "title": "Rezultatele operațiunii din Donețk",
-      "why": "Declarațiile militare necesită verificare suplimentară.",
-      "trigger": "Confirmarea independentă a evoluțiilor teritoriale.",
-      "status": "neconfirmat",
-      "sourceUrl": "https://www.biziday.ro/369013-2/"
+      "id": "pasageri-consiliu",
+      "title": "Aprobarea Consiliului pentru drepturile pasagerilor",
+      "why": "Votul Parlamentului European nu finalizează procedura legislativă.",
+      "trigger": "Aprobarea formală și publicarea textului definitiv.",
+      "status": "în așteptare",
+      "sourceUrl": "https://www.biziday.ro/373063-2/"
     }
   ],
   "conclusion": {
-    "title": "Finanțarea și aplicarea deciziilor rămân în prim-plan",
-    "body": "Ediția de dimineață separă observațiile disponibile de scenariile încă deschise. Pentru România contează condițiile externe, capacitatea instituțională și predictibilitatea măsurilor. Semnalele pentru fonduri descriu expuneri generale și nu sunt recomandări de tranzacționare.",
+    "title": "Un executiv nou intră direct în teste de execuție",
+    "body": "Învestirea guvernului reduce incertitudinea instituțională, dar atenția se mută imediat la buget, energie și capacitatea de implementare. În paralel, securitatea Mării Negre și cazul de la Bistrița cer răspunsuri măsurabile. Semnalele pentru fonduri descriu expuneri generale, nu recomandări de tranzacționare.",
     "actionPoints": [
-      "Urmărește deciziile confirmate, nu doar anticipațiile pieței.",
-      "Distinge aprobările concrete de propuneri și de declarații.",
-      "Citește data de referință și limitele fiecărui indicator."
+      "Urmărește conținutul și finanțarea rectificării, nu doar calendarul ei.",
+      "Separă desfășurările NATO confirmate de scenariile de escaladare.",
+      "Citește indicatorii ca observații datate, nu ca prognoze."
     ]
   },
   "sources": [
@@ -314,63 +322,98 @@
       "name": "Biziday",
       "url": "https://www.biziday.ro/",
       "type": "primary",
-      "accessedAt": "2026-09-16T07:32:38+03:00"
-    },
-    {
-      "id": "biziday-finantare",
-      "name": "Biziday",
-      "url": "https://www.biziday.ro/369009-2/",
-      "type": "primary",
-      "accessedAt": "2026-09-16T07:32:38+03:00"
-    },
-    {
-      "id": "biziday-ovine",
-      "name": "Biziday",
-      "url": "https://www.biziday.ro/368959-2/",
-      "type": "primary",
-      "accessedAt": "2026-09-16T07:32:38+03:00"
-    },
-    {
-      "id": "biziday-mare-rosie",
-      "name": "Biziday",
-      "url": "https://www.biziday.ro/369003-2/",
-      "type": "primary",
-      "accessedAt": "2026-09-16T07:32:38+03:00"
-    },
-    {
-      "id": "biziday-liman",
-      "name": "Biziday",
-      "url": "https://www.biziday.ro/369013-2/",
-      "type": "primary",
-      "accessedAt": "2026-09-16T07:32:38+03:00"
-    },
-    {
-      "id": "biziday-democratie",
-      "name": "Biziday",
-      "url": "https://www.biziday.ro/368953-2/",
-      "type": "primary",
-      "accessedAt": "2026-09-16T07:32:38+03:00"
-    },
-    {
-      "id": "biziday-tulcea",
-      "name": "Biziday",
-      "url": "https://www.biziday.ro/368903-2/",
-      "type": "primary",
-      "accessedAt": "2026-09-16T07:32:38+03:00"
+      "accessedAt": "2026-10-21T06:03:08+03:00"
     },
     {
       "id": "biziday-rss",
       "name": "Biziday — RSS",
       "url": "https://www.biziday.ro/feed/",
       "type": "primary",
-      "accessedAt": "2026-09-16T07:32:38+03:00"
+      "accessedAt": "2026-10-21T06:03:08+03:00"
     },
     {
-      "id": "ft-titlu",
-      "name": "Financial Times — doar titlul public; articol restricționat",
-      "url": "https://www.ft.com/content/5e2327aa-dbd0-4a79-8c99-622a893876d7",
+      "id": "biziday-guvern",
+      "name": "Biziday — Guvernul Niculescu",
+      "url": "https://www.biziday.ro/373047-2/",
+      "type": "primary",
+      "accessedAt": "2026-10-21T06:03:08+03:00"
+    },
+    {
+      "id": "biziday-marea-neagra",
+      "name": "Biziday — resurse NATO în Marea Neagră",
+      "url": "https://www.biziday.ro/373100-2/",
+      "type": "primary",
+      "accessedAt": "2026-10-21T06:03:08+03:00"
+    },
+    {
+      "id": "biziday-aparare-sua",
+      "name": "Biziday — sectorul american de apărare",
+      "url": "https://www.biziday.ro/373115-2/",
+      "type": "primary",
+      "accessedAt": "2026-10-21T06:03:08+03:00"
+    },
+    {
+      "id": "biziday-bistrita",
+      "name": "Biziday — ancheta de la Bistrița",
+      "url": "https://www.biziday.ro/373084-2/",
+      "type": "primary",
+      "accessedAt": "2026-10-21T06:03:08+03:00"
+    },
+    {
+      "id": "biziday-pasageri",
+      "name": "Biziday — drepturile pasagerilor",
+      "url": "https://www.biziday.ro/373063-2/",
+      "type": "primary",
+      "accessedAt": "2026-10-21T06:03:08+03:00"
+    },
+    {
+      "id": "biziday-volkswagen",
+      "name": "Biziday — rechemarea Volkswagen",
+      "url": "https://www.biziday.ro/373105-2/",
+      "type": "primary",
+      "accessedAt": "2026-10-21T06:03:08+03:00"
+    },
+    {
+      "id": "hotnews-guvern",
+      "name": "HotNews — învestirea guvernului Niculescu",
+      "url": "https://hotnews.ro/guvernul-luca-niculescu-a-obtinut-votul-de-investire-in-parlament-2381399",
       "type": "secondary",
-      "accessedAt": "2026-09-16T07:32:38+03:00"
+      "accessedAt": "2026-10-21T06:03:08+03:00"
+    },
+    {
+      "id": "digi24-guvern",
+      "name": "Digi24 — prioritățile guvernului Niculescu",
+      "url": "https://www.digi24.ro/stiri/actualitate/politica/luca-niculescu-in-plenul-parlamentului-romania-nu-isi-mai-poate-permite-o-criza-prelungita-are-nevoie-de-un-guvern-4000555",
+      "type": "secondary",
+      "accessedAt": "2026-10-21T06:03:08+03:00"
+    },
+    {
+      "id": "hotnews-bistrita",
+      "name": "HotNews — declarațiile procurorilor despre Bistrița",
+      "url": "https://hotnews.ro/o-fapta-premeditata-ce-spun-anchetatorii-despre-atacul-cu-cutitul-de-scoala-din-bistrita-elevul-agresor-nu-a-fost-inca-audiat-2381618",
+      "type": "secondary",
+      "accessedAt": "2026-10-21T06:03:08+03:00"
+    },
+    {
+      "id": "digi24-bistrita",
+      "name": "Digi24 — ancheta atacului de la Bistrița",
+      "url": "https://www.digi24.ro/stiri/actualitate/justitie/elevul-de-13-ani-autorul-atacului-de-la-o-scoala-din-bistrita-a-actionat-premeditat-si-nu-a-manifestat-remuscari-parchet-4000881",
+      "type": "secondary",
+      "accessedAt": "2026-10-21T06:03:08+03:00"
+    },
+    {
+      "id": "ft-aparare",
+      "name": "Financial Times — sectorul american de apărare",
+      "url": "https://www.ft.com/content/e73d0106-486b-4382-8ecc-5c96ac44fdff",
+      "type": "secondary",
+      "accessedAt": "2026-10-21T06:03:08+03:00"
+    },
+    {
+      "id": "reuters-sondaj",
+      "name": "Reuters — sondaj electoral SUA",
+      "url": "https://www.reuters.com/world/us/trump-approval-falls-record-low-31-midterms-near-reutersipsos-poll-finds-2026-10-19/",
+      "type": "secondary",
+      "accessedAt": "2026-10-21T06:03:08+03:00"
     }
   ]
 }
