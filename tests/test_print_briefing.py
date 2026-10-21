@@ -49,6 +49,13 @@ class PrintBriefingTest(unittest.TestCase):
             for item in self.edition["importantNews"][:5]:
                 self.assertIn(" ".join(item["title"].split()), text)
 
+    def test_current_style_edition_fits_five_stories(self):
+        edition = json.loads((SCRIPT.parents[1] / "data" / "archive" / "2026-10-21.json").read_text())
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "briefing.pdf"
+            self.assertEqual(module.render_pdf(edition, path), 5)
+            self.assertEqual(len(module.PdfReader(str(path)).pages), 1)
+
     def test_duplicate_job_does_not_reach_printer(self):
         with tempfile.TemporaryDirectory() as directory:
             with patch.object(module, "STATE_DIR", Path(directory)), patch.object(module.subprocess, "run") as run:

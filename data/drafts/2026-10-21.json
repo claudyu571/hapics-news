@@ -54,7 +54,8 @@
       "sourceName": "Biziday",
       "sourceUrl": "https://www.biziday.ro/373047-2/",
       "isSecondary": false,
-      "confidence": "confirmed"
+      "confidence": "confirmed",
+      "printSummary": "Cabinetul condus de Luca Niculescu a primit 280 de voturi pentru, a depus jurământul și a enumerat bugetul pe 2027 și siguranța energetică între urgențe."
     },
     {
       "id": "marea-neagra",
@@ -69,7 +70,8 @@
       "sourceName": "Biziday",
       "sourceUrl": "https://www.biziday.ro/373100-2/",
       "isSecondary": false,
-      "confidence": "confirmed"
+      "confidence": "confirmed",
+      "printSummary": "Biziday: NATO suplimentează resursele din Marea Neagră după atacuri rusești cu drone asupra unor nave comerciale; mijloacele suplimentare nu au fost precizate."
     },
     {
       "id": "aparare-sua",
@@ -84,7 +86,8 @@
       "sourceName": "Biziday",
       "sourceUrl": "https://www.biziday.ro/373115-2/",
       "isSecondary": false,
-      "confidence": "confirmed"
+      "confidence": "confirmed",
+      "printSummary": "Biziday, citând Financial Times: ETF-ul iShares US Aerospace and Defence a scăzut cu 16% între iulie și octombrie, față de o creștere de 3,5% a S&P 500."
     },
     {
       "id": "bistrita",
@@ -99,7 +102,8 @@
       "sourceName": "Biziday",
       "sourceUrl": "https://www.biziday.ro/373084-2/",
       "isSecondary": false,
-      "confidence": "confirmed"
+      "confidence": "confirmed",
+      "printSummary": "Prim-procurorul afirmă că elevul de 13 ani venise la școală cu un briceag și vizase un coleg pe care îl considera indian din cauza culorii tenului."
     },
     {
       "id": "drepturi-pasageri",
@@ -114,7 +118,8 @@
       "sourceName": "Biziday",
       "sourceUrl": "https://www.biziday.ro/373063-2/",
       "isSecondary": false,
-      "confidence": "confirmed"
+      "confidence": "confirmed",
+      "printSummary": "Parlamentul European a aprobat rambursarea integrală în 14 zile a biletelor pentru zboruri anulate, cumpărate prin intermediari; textul așteaptă Consiliul."
     },
     {
       "id": "volkswagen",
@@ -129,7 +134,8 @@
       "sourceName": "Biziday",
       "sourceUrl": "https://www.biziday.ro/373105-2/",
       "isSecondary": false,
-      "confidence": "confirmed"
+      "confidence": "confirmed",
+      "printSummary": "Biziday: Volkswagen recheamă circa 72.000 de electrice ID și Cupra; până la verificare, încărcarea vehiculelor vizate este limitată de la distanță la 80%."
     }
   ],
   "romaniaAnalysis": {
@@ -188,6 +194,59 @@
       "sourceUrl": "https://www.biziday.ro/373115-2/",
       "freshness": "current",
       "note": "Variație pentru intervalul relatat, nu cotație în timp real și nu semnal de tranzacționare."
+    },
+    {
+      "id": "eur-ron",
+      "label": "EUR/RON",
+      "value": null,
+      "unit": "lei",
+      "referenceDate": "2026-10-21",
+      "sourceName": "BNR",
+      "sourceUrl": "https://www.bnr.ro/nbrfxrates.xml",
+      "freshness": "unavailable"
+    },
+    {
+      "id": "bet",
+      "label": "Indice BET",
+      "value": 35234.26,
+      "unit": "puncte",
+      "referenceDate": "2026-10-21",
+      "sourceName": "BVB",
+      "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=BET",
+      "freshness": "current",
+      "note": "Indicele principal al Bursei de Valori București."
+    },
+    {
+      "id": "rotx",
+      "label": "Indice ROTX",
+      "value": 79874.53,
+      "unit": "puncte",
+      "referenceDate": "2026-10-21",
+      "sourceName": "BVB / Wiener Börse",
+      "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=ROTX",
+      "freshness": "current",
+      "note": "Indicele acțiunilor românești blue-chip, calculat de Wiener Börse."
+    },
+    {
+      "id": "robor",
+      "label": "ROBOR 3M",
+      "value": 6.09,
+      "unit": "%",
+      "referenceDate": "2026-10-20",
+      "sourceName": "BNR",
+      "sourceUrl": "https://www.bnr.ro/1074-baza-de-date-interactiva",
+      "freshness": "current",
+      "note": "Rată interbancară de referință, stabilită zilnic de BNR."
+    },
+    {
+      "id": "ircc",
+      "label": "IRCC",
+      "value": null,
+      "unit": "%",
+      "referenceDate": "2026-10-21",
+      "sourceName": "BNR",
+      "sourceUrl": "https://www.bnr.ro/",
+      "freshness": "unavailable"
     }
   ],
   "riskScores": [

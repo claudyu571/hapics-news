@@ -225,16 +225,21 @@ def render_pdf(edition, destination):
             story.append(strip)
             story.append(Spacer(1, 12))
         story.append(HRFlowable(width="100%", thickness=.35, color=line))
-        story.append(Spacer(1, 7))
-        story.append(paragraph(
-            f"Publicat {updated.astimezone(ZONE).strftime('%H:%M')} · Articolele și sursele complete: news.hapics.uk",
-            small,
-        ))
+
+        def draw_footer(canvas, _document):
+            canvas.saveState()
+            canvas.setFont("Briefing", 12)
+            canvas.setFillColor(muted)
+            canvas.drawString(
+                40, 22,
+                f"Publicat {updated.astimezone(ZONE).strftime('%H:%M')} · Articolele și sursele complete: news.hapics.uk",
+            )
+            canvas.restoreState()
 
         document = SimpleDocTemplate(str(destination), pagesize=A4, rightMargin=40, leftMargin=40,
                                      topMargin=38, bottomMargin=38, title=f"Hapics News {date}",
                                      author="Hapics News")
-        document.build(story)
+        document.build(story, onFirstPage=draw_footer)
         reader = PdfReader(str(destination))
         if len(reader.pages) != 1:
             continue
