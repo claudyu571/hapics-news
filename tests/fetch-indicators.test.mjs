@@ -11,6 +11,27 @@ import {
 const fixture = (name) => fs.readFile(new URL(`./fixtures/${name}`, import.meta.url), "utf8");
 const response = (body, { ok = true, status = 200 } = {}) => ({ ok, status, text: async () => body });
 
+test("BNR FX feed updates EUR/RON and USD/RON from the official XML host", async () => {
+  const edition = { metadata: { editionDate: "2026-10-21" }, indicators: [] };
+  const urls = [];
+  const fetchImpl = async (url) => {
+    urls.push(String(url));
+    if (String(url).includes("nbrfxrates.xml")) {
+      return response('<Cube date="2026-10-20"><Rate currency="EUR">5.2340</Rate><Rate currency="USD">4.7102</Rate></Cube>');
+    }
+    throw new Error("other indicators unavailable");
+  };
+  await enrichIndicators(edition, { now: new Date("2026-10-21T06:00:00Z"), fetchImpl });
+  for (const [id, value] of [["eur-ron", 5.234], ["usd-ron", 4.7102]]) {
+    const indicator = edition.indicators.find((item) => item.id === id);
+    assert.equal(indicator.value, value);
+    assert.equal(indicator.referenceDate, "2026-10-20");
+    assert.equal(indicator.sourceUrl, "https://curs.bnr.ro/nbrfxrates.xml");
+    assert.equal(indicator.freshness, "current");
+  }
+  assert.equal(urls.filter((url) => url === "https://curs.bnr.ro/nbrfxrates.xml").length, 2);
+});
+
 test("BNR ROBOR parser validates the series and selects the latest observation", async () => {
   assert.deepEqual(parseBnrRoborCsv(await fixture("bnr-robor.csv")), {
     referenceDate: "2026-06-17",

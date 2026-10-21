@@ -1,7 +1,7 @@
 {
   "metadata": {
     "editionDate": "2026-10-21",
-    "updatedAt": "2026-10-21T11:36:50+03:00",
+    "updatedAt": "2026-10-21T11:42:08+03:00",
     "timezone": "Europe/Bucharest",
     "title": "Hapics News — Briefing de dimineață, 21 octombrie 2026",
     "status": "published",
@@ -198,12 +198,13 @@
     {
       "id": "eur-ron",
       "label": "EUR/RON",
-      "value": null,
+      "value": 5.3285,
       "unit": "lei",
-      "referenceDate": "2026-10-21",
+      "referenceDate": "2026-10-20",
       "sourceName": "BNR",
-      "sourceUrl": "https://www.bnr.ro/nbrfxrates.xml",
-      "freshness": "unavailable"
+      "sourceUrl": "https://curs.bnr.ro/nbrfxrates.xml",
+      "freshness": "current",
+      "note": "Curs de referință oficial publicat de BNR."
     },
     {
       "id": "bet",
@@ -247,6 +248,17 @@
       "sourceName": "BNR",
       "sourceUrl": "https://www.bnr.ro/",
       "freshness": "unavailable"
+    },
+    {
+      "id": "usd-ron",
+      "label": "USD/RON",
+      "value": 4.7516,
+      "unit": "lei",
+      "referenceDate": "2026-10-20",
+      "sourceName": "BNR",
+      "sourceUrl": "https://curs.bnr.ro/nbrfxrates.xml",
+      "freshness": "current",
+      "note": "Curs de referință oficial publicat de BNR."
     }
   ],
   "riskScores": [

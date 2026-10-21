@@ -45,7 +45,11 @@ class PrintBriefingTest(unittest.TestCase):
             reader = module.PdfReader(str(path))
             self.assertEqual(len(reader.pages), 1)
             text = " ".join(reader.pages[0].extract_text().split())
-            self.assertIn("PIEȚE · DATE VERIFICATE", text)
+            self.assertIn("ROTX · CURS BNR", text)
+            self.assertIn("EUR/RON", text)
+            self.assertIn("USD/RON", text)
+            self.assertNotIn("Indice BET", text)
+            self.assertNotIn("ROBOR 3M", text)
             for item in self.edition["importantNews"][:5]:
                 self.assertIn(" ".join(item["title"].split()), text)
 
@@ -55,6 +59,14 @@ class PrintBriefingTest(unittest.TestCase):
             path = Path(directory) / "briefing.pdf"
             self.assertEqual(module.render_pdf(edition, path), 5)
             self.assertEqual(len(module.PdfReader(str(path)).pages), 1)
+
+    def test_exchange_rates_keep_four_decimal_places(self):
+        indicator = {"id": "usd-ron", "label": "USD/RON", "value": 4.7, "unit": "lei",
+                     "referenceDate": "2026-10-20", "freshness": "current"}
+        self.assertEqual(module.format_indicator(indicator), "USD/RON: 4,7000 lei (20.10.2026)")
+        indicator["value"] = None
+        indicator["freshness"] = "unavailable"
+        self.assertEqual(module.format_indicator(indicator), "USD/RON: indisponibil")
 
     def test_duplicate_job_does_not_reach_printer(self):
         with tempfile.TemporaryDirectory() as directory:

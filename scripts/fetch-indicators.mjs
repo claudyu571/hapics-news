@@ -23,6 +23,7 @@ import zlib from "node:zlib";
 
 const TIMEOUT_MS = 15000;
 const USER_AGENT = "hapics-news-indicators/1.0 (+https://news.hapics.uk)";
+const BNR_FX_URL = "https://curs.bnr.ro/nbrfxrates.xml";
 const BNR_INTERACTIVE_DB_URL = "https://www.bnr.ro/1074-baza-de-date-interactiva";
 const BNR_ROBOR_SERIES = "BBZ_BOR3M";
 const BNR_ROBOR_MAX_AGE_DAYS = 7;
@@ -128,13 +129,18 @@ export function parseBvbIndexValue(html) {
   return null;
 }
 
-async function fetchEurRon({ fetchImpl = fetch } = {}) {
-  const xml = await getText("https://www.bnr.ro/nbrfxrates.xml", { fetchImpl });
-  const referenceDate = xml.match(/<Cube date="([^"]+)"/)?.[1];
-  const eur = xml.match(/<Rate currency="EUR"[^>]*>([\d.]+)<\/Rate>/)?.[1];
-  if (!eur || !referenceDate) throw new Error("EUR rate not found in BNR XML");
-  return { value: Number(eur), unit: "lei", referenceDate, freshness: "current",
-    note: "Curs de referință oficial publicat de BNR." };
+function bnrFxFetcher(currency) {
+  return async ({ fetchImpl = fetch } = {}) => {
+    const xml = await getText(BNR_FX_URL, { fetchImpl });
+    const referenceDate = xml.match(/<Cube date="([^"]+)"/)?.[1];
+    const rate = xml.match(new RegExp(`<Rate currency="${currency}"[^>]*>([\\d.]+)<\\/Rate>`))?.[1];
+    const value = Number(rate);
+    if (!rate || !isValidIsoDate(referenceDate) || !Number.isFinite(value) || value <= 0) {
+      throw new Error(`${currency} rate not found in BNR XML`);
+    }
+    return { value, unit: "lei", referenceDate, freshness: "current",
+      note: "Curs de referință oficial publicat de BNR." };
+  };
 }
 
 function bvbIndexFetcher(symbol, note) {
@@ -192,7 +198,9 @@ async function fetchIrcc({ now = new Date() } = {}) {
 // across editions even if the upstream draft omits it.
 const MANAGED = [
   { id: "eur-ron", label: "EUR/RON", unit: "lei",
-    sourceName: "BNR", sourceUrl: "https://www.bnr.ro/nbrfxrates.xml", fetch: fetchEurRon },
+    sourceName: "BNR", sourceUrl: BNR_FX_URL, fetch: bnrFxFetcher("EUR"), markStaleOnFailure: true },
+  { id: "usd-ron", label: "USD/RON", unit: "lei",
+    sourceName: "BNR", sourceUrl: BNR_FX_URL, fetch: bnrFxFetcher("USD"), markStaleOnFailure: true },
   { id: "bet", label: "Indice BET", unit: "puncte",
     sourceName: "BVB", sourceUrl: "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=BET",
     fetch: bvbIndexFetcher("BET", "Indicele principal al Bursei de Valori București.") },

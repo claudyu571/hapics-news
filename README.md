@@ -62,7 +62,7 @@ npm run publish:edition  -- data/drafts/2026-06-17.json --no-fetch  # publică f
 ```
 
 Indicatori gestionați (creați automat dacă lipsesc, apoi completați): `eur-ron`
-(BNR `nbrfxrates.xml`), `bet` și `rotx` (paginile de indici BVB), `robor` (zilnic, BNR)
+și `usd-ron` (BNR `https://curs.bnr.ro/nbrfxrates.xml`), `bet` și `rotx` (paginile de indici BVB), `robor` (zilnic, BNR)
 și `ircc` (trimestrial, BNR). Astfel ROTX și separarea ROBOR/IRCC persistă în fiecare
 ediție, chiar dacă draftul brut nu le include. Indicatorul vechi `robor-ircc` este
 eliminat automat la îmbogățirea ediției curente.
@@ -110,6 +110,7 @@ Workflow-ul `pages.yml` validează toate pull request-urile. Pentru push-urile p
 O a doua automatizare locală rulează zilnic la 07:00 (Europe/Bucharest), după publicarea ediției de la 06:00. Ea citește numai `https://news.hapics.uk/data/latest.json` cu evitarea cache-ului, verifică data și starea ediției, creează un PDF A4 de o pagină cu cele mai importante cinci știri (sau mai puține dacă spațiul cere) și îl trimite imprimantei `Canon_MX490_series` în tonuri de gri. Dacă ediția zilei lipsește, PDF-ul depășește o pagină sau imprimarea a fost deja încercată, comanda se oprește fără un nou job.
 
 Macheta folosește o știre principală pe toată lățimea și până la patru știri scurte în două coloane, urmate de indicatorii verificați. Fiecare știre poate avea `importantNews[].printSummary` (60–180 de caractere), o propoziție factuală pentru hârtie care păstrează atribuirea și incertitudinea. Edițiile vechi fără acest câmp folosesc `fact` integral și pot include mai puține știri pentru a păstra lizibilitatea.
+Pe pagina tipărită apar numai ROTX, EUR/RON și USD/RON, în această ordine. Cursurile BNR păstrează patru zecimale și data cotației; o valoare lipsă este afișată ca indisponibilă.
 
 Comanda folosită de automatizare:
 

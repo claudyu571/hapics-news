@@ -31,6 +31,7 @@ DEFAULT_URL = "https://news.hapics.uk/data/latest.json"
 DEFAULT_PRINTER = "Canon_MX490_series"
 STATE_DIR = Path.home() / ".local" / "state" / "hapics-news"
 ROOT = Path(__file__).resolve().parents[1]
+PRINT_INDICATORS = (("rotx", "ROTX"), ("eur-ron", "EUR/RON"), ("usd-ron", "USD/RON"))
 
 
 def register_fonts():
@@ -93,11 +94,15 @@ def paragraph(value, style):
 
 def format_indicator(indicator):
     value = indicator["value"]
+    if value is None or indicator.get("freshness") == "unavailable":
+        return f"{indicator['label']}: indisponibil"
     if isinstance(value, (int, float)) and not isinstance(value, bool):
-        value = f"{value:,.2f}".rstrip("0").rstrip(".")
+        decimals = 4 if indicator["id"] in ("eur-ron", "usd-ron") else 2
+        value = f"{value:,.{decimals}f}"
         value = value.replace(",", "_").replace(".", ",").replace("_", ".")
     date = datetime.fromisoformat(indicator["referenceDate"]).strftime("%d.%m.%Y")
-    return f"{indicator['label']}: {value} {indicator['unit']} ({date})"
+    age = " · ultimul curs" if indicator.get("freshness") == "stale" else ""
+    return f"{indicator['label']}: {value} {indicator['unit']} ({date}){age}"
 
 
 def render_pdf(edition, destination):
@@ -163,7 +168,12 @@ def render_pdf(edition, destination):
             Spacer(1, 10),
         ]
 
-    indicators = [x for x in edition.get("indicators", []) if x.get("freshness") == "current" and x.get("value") is not None][:3]
+    available_indicators = {indicator["id"]: indicator for indicator in edition.get("indicators", [])}
+    indicators = [
+        {**available_indicators.get(identifier, {"id": identifier, "value": None, "freshness": "unavailable"}),
+         "label": label}
+        for identifier, label in PRINT_INDICATORS
+    ]
     for count in range(min(5, len(ranked)), 2, -1):
         selected = ranked[:count]
         lead = selected[0][1]
@@ -200,30 +210,27 @@ def render_pdf(edition, destination):
         ]))
         story.append(columns)
         story.append(Spacer(1, 8))
-        if indicators:
-            story.append(HRFlowable(width="100%", thickness=.7, color=dark))
-            story.append(Spacer(1, 8))
-            story.append(Paragraph("PIEȚE · DATE VERIFICATE", eyebrow))
-            story.append(Spacer(1, 7))
-            indicator_cells = []
-            for indicator in indicators:
-                formatted = format_indicator(indicator)
-                label_text, value_text = formatted.split(": ", 1)
-                indicator_cells.append([
-                    paragraph(label_text, small),
-                    paragraph(value_text, stat),
-                ])
-            indicator_cells.extend([[]] * (3 - len(indicator_cells)))
-            strip = Table([indicator_cells], colWidths=[content_width / 3] * 3)
-            strip.setStyle(TableStyle([
-                ("VALIGN", (0, 0), (-1, -1), "TOP"),
-                ("LEFTPADDING", (0, 0), (-1, -1), 0),
-                ("RIGHTPADDING", (0, 0), (-1, -1), 6),
-                ("TOPPADDING", (0, 0), (-1, -1), 0),
-                ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
-            ]))
-            story.append(strip)
-            story.append(Spacer(1, 12))
+        story.append(HRFlowable(width="100%", thickness=.7, color=dark))
+        story.append(Spacer(1, 8))
+        story.append(Paragraph("ROTX · CURS BNR", eyebrow))
+        story.append(Spacer(1, 7))
+        indicator_cells = []
+        for indicator in indicators:
+            formatted = format_indicator(indicator)
+            label_text, value_text = formatted.split(": ", 1)
+            indicator_cells.append([
+                paragraph(label_text, small),
+                paragraph(value_text, stat),
+            ])
+        strip = Table([indicator_cells], colWidths=[content_width / 3] * 3)
+        strip.setStyle(TableStyle([
+            ("VALIGN", (0, 0), (-1, -1), "TOP"),
+            ("LEFTPADDING", (0, 0), (-1, -1), 0),
+            ("RIGHTPADDING", (0, 0), (-1, -1), 6),
+            ("TOPPADDING", (0, 0), (-1, -1), 0),
+        ]))
+        story.append(strip)
+        story.append(Spacer(1, 12))
         story.append(HRFlowable(width="100%", thickness=.35, color=line))
 
         def draw_footer(canvas, _document):
