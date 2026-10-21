@@ -2,6 +2,8 @@
 
 Website static pentru briefingul zilnic de știri, economie și piețe financiare, publicat prin GitHub Pages la `news.hapics.uk`.
 
+Selecția editorială urmărește și evenimente internaționale majore, lansări relevante și descoperiri verificate în tehnologie, știință, spațiu, sănătate și climă. Categoriile sunt opționale: o rubrică apare doar dacă există o știre semnificativă, cu sursă directă și impact explicat. Cultura poate intra în ediție pentru evenimente internaționale excepționale.
+
 ## Dezvoltare locală
 
 ```bash
@@ -110,6 +112,7 @@ Workflow-ul `pages.yml` validează toate pull request-urile. Pentru push-urile p
 O a doua automatizare locală rulează zilnic la 07:00 (Europe/Bucharest), după publicarea ediției de la 06:00. Ea citește numai `https://news.hapics.uk/data/latest.json` cu evitarea cache-ului, verifică data și starea ediției, creează un PDF A4 de o pagină cu cele mai importante cinci știri (sau mai puține dacă spațiul cere) și îl trimite imprimantei `Canon_MX490_series` în tonuri de gri. Dacă ediția zilei lipsește, PDF-ul depășește o pagină sau imprimarea a fost deja încercată, comanda se oprește fără un nou job.
 
 Macheta folosește o știre principală pe toată lățimea și până la patru știri scurte în două coloane, urmate de indicatorii verificați. Fiecare știre poate avea `importantNews[].printSummary` (60–180 de caractere), o propoziție factuală pentru hârtie care păstrează atribuirea și incertitudinea. Edițiile vechi fără acest câmp folosesc `fact` integral și pot include mai puține știri pentru a păstra lizibilitatea.
+La cinci știri, selecția poate include o știre `Extern` și una din Tehnologie/Știință/Spațiu/Sănătate/Climă dacă au impact editorial de cel puțin 4/5; locurile revin celor mai importante știri disponibile când aceste teme nu ating pragul.
 Pe pagina tipărită apar numai ROTX, EUR/RON și USD/RON, în această ordine. Cursurile BNR păstrează patru zecimale și data cotației; o valoare lipsă este afișată ca indisponibilă.
 
 Comanda folosită de automatizare:

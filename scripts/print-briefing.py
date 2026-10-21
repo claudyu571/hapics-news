@@ -32,6 +32,7 @@ DEFAULT_PRINTER = "Canon_MX490_series"
 STATE_DIR = Path.home() / ".local" / "state" / "hapics-news"
 ROOT = Path(__file__).resolve().parents[1]
 PRINT_INDICATORS = (("rotx", "ROTX"), ("eur-ron", "EUR/RON"), ("usd-ron", "USD/RON"))
+INNOVATION_CATEGORIES = {"Tehnologie", "Știință", "Spațiu", "Sănătate", "Climă"}
 
 
 def register_fonts():
@@ -105,6 +106,23 @@ def format_indicator(indicator):
     return f"{indicator['label']}: {value} {indicator['unit']} ({date}){age}"
 
 
+def select_stories(ranked, count):
+    """Keep the top story and make room for substantial world and discovery news."""
+    selected = [ranked[0]]
+    groups = [{"Extern"}] if count >= 4 else []
+    if count >= 5:
+        groups.append(INNOVATION_CATEGORIES)
+    for categories in groups:
+        candidate = next((pair for pair in ranked[1:]
+                          if pair[1]["impact"] >= 4 and pair[1]["category"] in categories
+                          and pair not in selected), None)
+        if candidate:
+            selected.append(candidate)
+    selected.extend(pair for pair in ranked[1:] if pair not in selected)
+    picked = selected[:count]
+    return [ranked[0]] + sorted(picked[1:], key=ranked.index)
+
+
 def render_pdf(edition, destination):
     register_fonts()
     date, updated, items = validate_edition(edition, require_today=False)
@@ -175,7 +193,7 @@ def render_pdf(edition, destination):
         for identifier, label in PRINT_INDICATORS
     ]
     for count in range(min(5, len(ranked)), 2, -1):
-        selected = ranked[:count]
+        selected = select_stories(ranked, count)
         lead = selected[0][1]
         story = [
             header,

@@ -6,7 +6,13 @@ export type Category =
   | "Energie"
   | "Piețe"
   | "Justiție"
-  | "Securitate";
+  | "Securitate"
+  | "Tehnologie"
+  | "Știință"
+  | "Spațiu"
+  | "Sănătate"
+  | "Climă"
+  | "Cultură";
 
 export type Horizon = "Imediat" | "1–4 săptămâni" | "1–3 luni" | "6–12 luni";
 

@@ -59,7 +59,7 @@
   },
   "$defs": {
     "category": {
-      "enum": ["Politică", "Economie", "Extern", "Social", "Energie", "Piețe", "Justiție", "Securitate"]
+      "enum": ["Politică", "Economie", "Extern", "Social", "Energie", "Piețe", "Justiție", "Securitate", "Tehnologie", "Știință", "Spațiu", "Sănătate", "Climă", "Cultură"]
     },
     "metadata": {
       "type": "object",

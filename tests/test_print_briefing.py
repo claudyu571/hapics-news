@@ -68,6 +68,23 @@ class PrintBriefingTest(unittest.TestCase):
         indicator["freshness"] = "unavailable"
         self.assertEqual(module.format_indicator(indicator), "USD/RON: indisponibil")
 
+    def test_relevant_world_and_discovery_stories_get_print_slots(self):
+        stories = [
+            {"title": "Lead", "category": "Politică", "impact": 5},
+            {"title": "Domestic 1", "category": "Economie", "impact": 5},
+            {"title": "Domestic 2", "category": "Social", "impact": 4},
+            {"title": "Domestic 3", "category": "Piețe", "impact": 4},
+            {"title": "Domestic 4", "category": "Justiție", "impact": 3},
+            {"title": "World", "category": "Extern", "impact": 4},
+            {"title": "Discovery", "category": "Știință", "impact": 4},
+        ]
+        ranked = sorted(enumerate(stories), key=lambda pair: (-pair[1]["impact"], pair[0]))
+        selected = module.select_stories(ranked, 5)
+        self.assertEqual([pair[1]["title"] for pair in selected],
+                         ["Lead", "Domestic 1", "Domestic 2", "World", "Discovery"])
+        self.assertEqual([pair[1]["title"] for pair in module.select_stories(ranked, 4)],
+                         ["Lead", "Domestic 1", "Domestic 2", "World"])
+
     def test_duplicate_job_does_not_reach_printer(self):
         with tempfile.TemporaryDirectory() as directory:
             with patch.object(module, "STATE_DIR", Path(directory)), patch.object(module.subprocess, "run") as run:
