@@ -1,162 +1,162 @@
 {
   "metadata": {
-    "editionDate": "2026-10-22",
-    "updatedAt": "2026-10-22T06:06:05+03:00",
+    "editionDate": "2026-10-23",
+    "updatedAt": "2026-10-23T06:04:37+03:00",
     "timezone": "Europe/Bucharest",
-    "title": "Hapics News — Briefing de dimineață, 22 octombrie 2026",
+    "title": "Hapics News — Briefing de dimineață, 23 octombrie 2026",
     "status": "published",
     "primarySource": "https://www.biziday.ro/",
     "sourceCoverage": "complete"
   },
   "executiveSummary": [
     {
-      "id": "sabotaj-germania",
-      "text": "Armata germană a ridicat la «semnificativ» nivelul amenințării de sabotaj asupra militarilor și bazelor sale, pe fondul incidentelor atribuite Rusiei.",
+      "id": "csat-marea-neagra",
+      "text": "CSAT califică atacurile rusești asupra navelor comerciale din apele României drept o criză de securitate cu implicații imediate și cere capabilități maritime suplimentare.",
+      "category": "Securitate"
+    },
+    {
+      "id": "hormuz-tancuri",
+      "text": "Iranul susține că șapte petroliere au fost avariate în Strâmtoarea Hormuz; AP nu a putut confirma independent toate detaliile, iar riscul pentru transportul energetic crește.",
       "category": "Extern"
     },
     {
-      "id": "franta-obligatiuni",
-      "text": "Randamentul obligațiunilor Franței pe zece ani a depășit 5%, reflectând îndoieli privind capacitatea guvernului minoritar de a reduce deficitul.",
-      "category": "Piețe"
-    },
-    {
-      "id": "php-vulnerabilitati",
-      "text": "Proiectul PHP a publicat actualizări pentru două vulnerabilități critice care pot permite executarea de cod de la distanță fără autentificare.",
+      "id": "php-atacuri",
+      "text": "Cloudflare a observat milioane de tentative de exploatare după dezvăluirea a două vulnerabilități critice PHP, în timp ce servicii publice și companii au restricționat accesul preventiv.",
       "category": "Tehnologie"
     },
     {
-      "id": "educatie-preventie",
-      "text": "Ministrul Educației propune pedepse mai mari pentru agresarea profesorilor și controale țintite în școli, după atacul de la Bistrița.",
-      "category": "Social"
+      "id": "moderna-melanom",
+      "text": "Date parțiale scurse înaintea prezentării științifice sugerează beneficii pentru terapia personalizată Moderna–Merck în melanom, dar rezultatele complete nu sunt încă publicate.",
+      "category": "Sănătate"
     },
     {
-      "id": "dna-influenta",
-      "text": "DNA i-a trimis în judecată pe Cristina Trăilă, Mihai Barbu și Fănel Bogos într-un dosar privind presupuse intervenții la DSVSA Vaslui.",
-      "category": "Justiție"
+      "id": "barclays-restructurare",
+      "text": "Barclays vizează eliminarea a 5.000 de posturi în 2026, în paralel cu automatizarea și investițiile în inteligență artificială, după un profit trimestrial sub estimări.",
+      "category": "Economie"
     },
     {
-      "id": "meta-amenda",
-      "text": "Un judecător din New Mexico a stabilit o sancțiune de 25 de miliarde de dolari împotriva Meta într-un litigiu privind datele utilizatorilor; compania poate contesta.",
-      "category": "Tehnologie"
+      "id": "cabluri-submarine",
+      "text": "O investigație Telegraph a identificat 17 traulere rusești cu staționări repetate lângă cabluri submarine, iar NATO afirmă că urmărește activitatea acestor nave.",
+      "category": "Securitate"
     }
   ],
   "importantNews": [
     {
-      "id": "sabotaj-germania",
-      "title": "Germania ridică nivelul de alertă pentru sabotaje",
-      "fact": "Ministerul german al Apărării a confirmat pentru Reuters că amenințarea generală de sabotaj împotriva Bundeswehr este evaluată drept «semnificativă». Biziday relatează că evaluarea urmează mai multor incidente cu drone și explozibili atribuite de autorități Rusiei; Moscova neagă implicarea.",
-      "printSummary": "Ministerul german al Apărării confirmă un nivel «semnificativ» al amenințării de sabotaj asupra Bundeswehr; Rusia neagă implicarea.",
-      "interpretation": "Evaluarea indică o presiune hibridă mai mare asupra infrastructurii europene și a logisticii pentru Ucraina. Nu demonstrează că fiecare incident are aceeași origine și nu înseamnă automat activarea apărării colective NATO.",
+      "id": "csat-marea-neagra",
+      "title": "CSAT cere întărirea apărării maritime după atacurile asupra navelor",
+      "fact": "Administrația Prezidențială a anunțat că CSAT a evaluat lovirea cu drone a unor nave comerciale în apele teritoriale românești drept o criză de securitate cu implicații imediate. Consiliul a stabilit ca priorități supravegherea maritimă, combaterea minelor, răspunsul antidronă și coordonarea suplimentară cu NATO.",
+      "printSummary": "CSAT califică atacurile asupra navelor din apele României drept o criză imediată și cere supraveghere maritimă și apărare antidronă sporite.",
+      "interpretation": "Decizia mută incidentele din registrul riscului periferic în planificarea operativă națională. Comunicatul nu anunță activarea Articolului 5 și nici o escaladare automată, ci priorități defensive care vor necesita achiziții, exerciții și coordonare aliată verificabilă.",
+      "category": "Securitate",
+      "impact": 5,
+      "impactLabel": "Securitate națională",
+      "horizon": "Imediat",
+      "sourceId": "presedintie-csat",
+      "sourceName": "Administrația Prezidențială",
+      "sourceUrl": "https://agerpres.ro/comunicate/2026/10/22/comunicat-de-presa---administratia-prezidentiala--1605929",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "hormuz-tancuri",
+      "title": "Iranul raportează șapte petroliere avariate în Strâmtoarea Hormuz",
+      "fact": "Televiziunea de stat iraniană a relatat că șapte petroliere au fost lovite sau au intrat în mine navale în Strâmtoarea Hormuz. Associated Press a consemnat afirmația și a precizat că lipsesc detalii critice despre nave și victime; datele maritime indică tranzit nocturn pe un culoar protejat de armata SUA.",
+      "printSummary": "Iranul afirmă că șapte petroliere au fost avariate în Hormuz; AP notează că identitatea navelor și bilanțul nu sunt confirmate integral.",
+      "interpretation": "Dacă amploarea va fi confirmată, episodul ar majora riscul operațional și costurile transportului de energie printr-un punct critic. Deocamdată, numărul și responsabilitatea nu trebuie tratate drept definitiv stabilite, iar efectul asupra ofertei globale depinde de durata perturbărilor.",
       "category": "Extern",
       "impact": 5,
-      "impactLabel": "Securitate europeană",
+      "impactLabel": "Securitate energetică globală",
       "horizon": "Imediat",
-      "sourceId": "reuters-sabotaj",
-      "sourceName": "Reuters",
-      "sourceUrl": "https://www.reuters.com/business/aerospace-defense/germanys-military-warns-significant-russian-sabotage-threat-2026-10-21/",
+      "sourceId": "ap-hormuz",
+      "sourceName": "Associated Press",
+      "sourceUrl": "https://apnews.com/article/2abebce2fca2c085e0e0ee717e42cf28",
       "isSecondary": true,
       "confidence": "confirmed"
     },
     {
-      "id": "franta-obligatiuni",
-      "title": "Costul împrumuturilor Franței trece de pragul de 5%",
-      "fact": "Reuters a consemnat că randamentul obligațiunilor guvernamentale franceze pe zece ani a atins 5,002%, cel mai ridicat nivel din 2002, iar diferența față de titlurile germane a ajuns la 157 de puncte de bază. Mișcarea survine înaintea unei evaluări Moody's și pe fondul dificultății adoptării bugetului.",
-      "printSummary": "Reuters: randamentul obligațiunilor Franței pe zece ani a atins 5,002%, maximul din 2002, iar ecartul față de Germania a urcat la 157 de puncte de bază.",
-      "interpretation": "Scumpirea finanțării suverane poate înăspri condițiile financiare în zona euro și crește sensibilitatea piețelor la deciziile fiscale. O retrogradare ori o criză bugetară ar putea amplifica presiunea, dar nu sunt rezultate certe.",
-      "category": "Piețe",
-      "impact": 5,
-      "impactLabel": "Risc fiscal european",
-      "horizon": "1–3 luni",
-      "sourceId": "reuters-franta",
-      "sourceName": "Reuters",
-      "sourceUrl": "https://www.reuters.com/world/europe/french-10-year-bond-yields-hit-5-highest-since-2002-2026-10-21/",
-      "isSecondary": true,
-      "confidence": "confirmed"
-    },
-    {
-      "id": "php-vulnerabilitati",
-      "title": "PHP corectează două vulnerabilități critice de execuție de cod",
-      "fact": "Echipa PHP a publicat versiunile 8.5.12, 8.4.27, 8.3.36 și 8.2.35 pentru CVE-2026-109618 și CVE-2026-109619, ambele evaluate CVSS 9,2. Vulnerabilitățile pot permite execuție de cod de la distanță fără autentificare; proiectul afirmă că doar actualizarea oferă remedierea completă.",
-      "printSummary": "Echipa PHP a lansat patru versiuni de securitate pentru două vulnerabilități CVSS 9,2 ce pot permite execuție de cod fără autentificare.",
-      "interpretation": "Este o vulnerabilitate confirmată și remediată, nu doar o demonstrație. Impactul real depinde de versiune, configurație și expunere; la ora documentării nu există în sursa oficială o confirmare a exploatării active pe scară largă.",
+      "id": "php-atacuri",
+      "title": "Tentativele de exploatare PHP ajung la milioane după dezvăluire",
+      "fact": "Reuters relatează că Cloudflare a observat milioane de tentative de exploatare după publicarea vulnerabilităților PHP CVE-2026-109618 și CVE-2026-109619. Proiectul PHP confirmă că acestea pot permite execuție de cod de la distanță fără autentificare și indică actualizarea drept singura remediere completă.",
+      "printSummary": "Reuters: Cloudflare a observat milioane de tentative de exploatare a celor două vulnerabilități PHP; proiectul recomandă actualizarea imediată.",
+      "interpretation": "Riscul a trecut de la vulnerabilitate demonstrată la tentative active observate la scară mare, fără ca fiecare tentativă să însemne compromitere reușită. Organizațiile cu versiuni vechi sau servicii expuse au o fereastră de risc mai mare, iar întreruperile preventive pot continua.",
       "category": "Tehnologie",
       "impact": 5,
-      "impactLabel": "Securitate web",
+      "impactLabel": "Infrastructură digitală",
       "horizon": "Imediat",
-      "sourceId": "php-advisory",
-      "sourceName": "PHP Security Team",
-      "sourceUrl": "https://www.php.net/archive/2026.php#2026-10-21-5",
+      "sourceId": "reuters-php",
+      "sourceName": "Reuters",
+      "sourceUrl": "https://www.reuters.com/world/asia-pacific/cloudflare-sees-millions-exploit-attempts-after-php-disclosure-2026-10-22/",
       "isSecondary": true,
       "confidence": "confirmed"
     },
     {
-      "id": "educatie-preventie",
-      "title": "Ministerul Educației propune măsuri după atacul de la Bistrița",
-      "fact": "Ministrul Educației, Sorin Costreie, a declarat la Digi24 că va propune dublarea pedepselor pentru agresarea profesorilor și măsuri preventive, inclusiv verificarea ghiozdanelor și folosirea detectoarelor de metale acolo unde există riscuri. Propunerile nu sunt încă lege.",
-      "printSummary": "Sorin Costreie propune pedepse mai mari pentru agresarea profesorilor și verificări țintite ale ghiozdanelor; măsurile nu sunt încă lege.",
-      "interpretation": "Răspunsul anunțat combină sancțiuni și prevenție, dar eficiența va depinde de criterii clare, protecția drepturilor elevilor și capacitatea școlilor de a identifica riscurile. Cazul individual nu justifică generalizări despre jocuri ori elevi.",
-      "category": "Social",
+      "id": "moderna-melanom",
+      "title": "Date preliminare pentru terapia ARNm în melanom apar înaintea prezentării",
+      "fact": "Biziday, pe baza Wall Street Journal și CNBC, relatează că date postate înaintea prezentării programate sugerează reduceri relative de 42% ale riscului de recidivă sau deces și de 38% ale riscului de metastază pentru intismeran plus Keytruda față de Keytruda. Moderna și Merck confirmaseră anterior doar atingerea obiectivelor studiului de fază 3; datele complete nu au fost încă prezentate și terapia rămâne investigațională.",
+      "printSummary": "Date parțiale nepublicate integral sugerează beneficii pentru intismeran plus Keytruda; terapia rămâne investigațională, iar rezultatele complete sunt așteptate.",
+      "interpretation": "Semnalul este relevant deoarece provine dintr-un studiu de fază 3, dar nu echivalează cu aprobare, disponibilitate clinică sau beneficiu de supraviețuire demonstrat. Evaluarea corectă cere prezentarea setului complet, intervale de încredere, siguranță și analiza autorităților de reglementare.",
+      "category": "Sănătate",
       "impact": 4,
-      "impactLabel": "Siguranță școlară",
-      "horizon": "1–4 săptămâni",
-      "sourceId": "biziday-educatie",
-      "sourceName": "Biziday",
-      "sourceUrl": "https://www.biziday.ro/373217-2/",
-      "isSecondary": true,
-      "confidence": "confirmed"
-    },
-    {
-      "id": "dna-influenta",
-      "title": "DNA trimite în judecată trei persoane în dosarul DSVSA Vaslui",
-      "fact": "DNA i-a trimis în judecată pe Cristina Trăilă, Mihai Barbu și Fănel Bogos, acuzându-i de fapte legate de folosirea influenței pentru schimbarea conducerii DSVSA Vaslui și pentru anularea unor măsuri privind fermele lui Bogos. Procesul trebuie să stabilească răspunderea, iar prezumția de nevinovăție se aplică.",
-      "printSummary": "DNA i-a trimis în judecată pe Cristina Trăilă, Mihai Barbu și Fănel Bogos în dosarul privind presupuse intervenții la DSVSA Vaslui.",
-      "interpretation": "Dosarul testează barierele dintre influența politică și deciziile administrative cu efect sanitar-veterinar și financiar. Trimiterea în judecată confirmă doar trecerea cauzei în faza de proces, nu vinovăția inculpaților.",
-      "category": "Justiție",
-      "impact": 4,
-      "impactLabel": "Integritate instituțională",
-      "horizon": "1–3 luni",
-      "sourceId": "biziday-dna",
-      "sourceName": "Biziday",
-      "sourceUrl": "https://www.biziday.ro/373186-2/",
-      "isSecondary": true,
-      "confidence": "confirmed"
-    },
-    {
-      "id": "meta-amenda",
-      "title": "Meta primește o sancțiune record într-un litigiu privind datele",
-      "fact": "Biziday, citând BBC și DW, relatează că un judecător din New Mexico a stabilit o sancțiune de 25 de miliarde de dolari după ce un juriu a constatat încălcări repetate ale legislației statului privind declarațiile despre datele utilizatorilor. Hotărârea poate fi contestată, iar efectul financiar final rămâne incert.",
-      "printSummary": "Biziday: un judecător din New Mexico a stabilit o sancțiune de 25 de miliarde de dolari împotriva Meta; hotărârea poate fi contestată.",
-      "interpretation": "Valoarea sancțiunii poate crește riscul juridic perceput pentru marile platforme, dar nu trebuie tratată ca plată definitivă înaintea etapelor de apel. Impactul asupra modelului de afaceri depinde de soluția finală și de eventuale precedente.",
-      "category": "Tehnologie",
-      "impact": 4,
-      "impactLabel": "Reglementare digitală",
+      "impactLabel": "Cercetare oncologică",
       "horizon": "6–12 luni",
-      "sourceId": "biziday-meta",
+      "sourceId": "moderna-phase3",
+      "sourceName": "Moderna și Merck",
+      "sourceUrl": "https://news.modernatx.com/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-plus-keytruda-met-endpoints-of-rfs-and-dmfs-in-melanoma",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "barclays-restructurare",
+      "title": "Barclays accelerează restructurarea pe fondul automatizării",
+      "fact": "Reuters relatează că Barclays intenționează să elimine 5.000 de posturi în 2026, circa 5% din personal, dintre care aproximativ 1.000 au fost deja reduse. Banca a raportat un profit trimestrial în creștere cu 12%, dar sub estimările analiștilor, și estimează economii suplimentare în 2027 prin modernizare și utilizarea mai largă a inteligenței artificiale.",
+      "printSummary": "Reuters: Barclays vizează 5.000 de reduceri de posturi în 2026, în paralel cu automatizarea; circa 1.000 au fost deja realizate.",
+      "interpretation": "Cazul arată că adoptarea inteligenței artificiale intră în programe concrete de costuri în sectorul financiar, dar banca nu atribuie fiecare post eliminat exclusiv tehnologiei. Efectul asupra productivității și calității serviciilor va putea fi evaluat abia după implementare.",
+      "category": "Economie",
+      "impact": 4,
+      "impactLabel": "Muncă și automatizare",
+      "horizon": "1–3 luni",
+      "sourceId": "reuters-barclays",
+      "sourceName": "Reuters",
+      "sourceUrl": "https://www.reuters.com/business/finance/barclays-q3-profit-rises-12-announces-670-million-buyback-2026-10-22",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "cabluri-submarine",
+      "title": "Traulere rusești, urmărite în apropierea cablurilor submarine",
+      "fact": "Biziday rezumă o investigație Telegraph bazată pe date Global Fishing Watch: 17 nave rusești de pescuit ar fi efectuat peste 500 de staționări lente în apropierea cablurilor care leagă Regatul Unit de Europa și SUA. O sursă NATO citată de publicație afirmă că Alianța urmărește activitatea; datele de poziționare nu demonstrează singure intenția de sabotaj.",
+      "printSummary": "Telegraph a identificat 17 traulere rusești cu peste 500 de staționări lângă cabluri; NATO spune că urmărește activitatea, fără dovada sabotajului.",
+      "interpretation": "Tiparul justifică supraveghere și protecție sporită a infrastructurii, mai ales în contextul incidentelor hibride europene. Totuși, asocierea spațială nu probează pregătirea unui atac, iar concluziile trebuie separate de scenariile prezentate de surse militare.",
+      "category": "Securitate",
+      "impact": 4,
+      "impactLabel": "Infrastructură critică",
+      "horizon": "1–3 luni",
+      "sourceId": "biziday-cabluri",
       "sourceName": "Biziday",
-      "sourceUrl": "https://www.biziday.ro/373230-2/",
+      "sourceUrl": "https://www.biziday.ro/373356-2/",
       "isSecondary": true,
       "confidence": "confirmed"
     }
   ],
   "romaniaAnalysis": {
     "factBase": [
-      "Guvernul Niculescu a intrat în funcție la începutul săptămânii, cu rectificarea și bugetul pentru 2027 între urgențele declarate.",
-      "Ministrul Educației a anunțat propuneri de înăsprire a pedepselor și de controale țintite după atacul de la Bistrița.",
-      "DNA a trimis în judecată trei persoane în dosarul privind presupuse intervenții pentru schimbarea conducerii DSVSA Vaslui.",
-      "Tensiunile de securitate din Germania și Marea Neagră mențin ridicată relevanța riscurilor hibride pentru România."
+      "CSAT a descris incidentele cu drone și nave comerciale drept o criză de securitate cu implicații imediate pentru România.",
+      "Prioritățile oficiale includ supravegherea maritimă, combaterea minelor, răspunsul antidronă și protecția infrastructurii energetice din Zona Economică Exclusivă.",
+      "Consiliul a cerut intensificarea coordonării NATO și operaționalizarea Hub-ului de securitate la Marea Neagră.",
+      "Două incidente grave de violență școlară în aceeași săptămână au determinat apeluri oficiale la prevenție timpurie și măsuri concrete."
     ],
-    "political": "Noul executiv este deja confruntat cu teste de implementare: trebuie să transforme promisiunile despre buget, educație și integritate administrativă în proceduri verificabile. Anunțurile rapide pot reduce presiunea publică, dar nu înlocuiesc proiectele de lege, finanțarea și controlul constituțional al măsurilor.",
-    "economic": "Creșterea randamentelor Franței reamintește că piețele penalizează incertitudinea fiscală și guvernele cu spațiu politic redus. Pentru România, miza este indirectă, prin costul finanțării europene și sentimentul regional; efectul local nu poate fi dedus mecanic dintr-o singură ședință de piață.",
-    "interpretation": "Scenariul central rămâne o îmbunătățire lentă a predictibilității, condiționată de primele decizii bugetare și de calitatea implementării. Riscurile juridice, sociale și de securitate se suprapun, iar credibilitatea instituțiilor va depinde mai mult de rezultate măsurabile decât de intensitatea comunicării publice."
+    "political": "Guvernul și Președinția trebuie să transforme prioritățile CSAT în calendare, responsabilități și bugete verificabile. Coordonarea aliată poate accelera capabilitățile, dar comunicarea publică trebuie să distingă apărarea imediată de scenariile de escaladare și să evite tratarea Articolului 5 ca reacție automată.",
+    "economic": "Atacurile asupra navigației din Marea Neagră pot ridica primele de asigurare, costurile logistice și riscul perceput pentru porturi și proiecte energetice. Impactul agregat asupra economiei românești nu este încă măsurat, însă continuitatea accesului la Constanța și protecția infrastructurii offshore au devenit variabile economice directe.",
+    "interpretation": "Miza centrală a zilei este capacitatea statului de a gestiona simultan securitatea externă și prevenția internă fără răspunsuri disproporționate. Scenariul de bază este o consolidare defensivă graduală, cu risc de costuri suplimentare și incidente recurente; o escaladare militară mai largă rămâne posibilă, nu certă."
   },
   "investmentFundSignals": [
     {
-      "id": "obligatiuni-europa",
-      "label": "Fonduri de obligațiuni suverane europene",
-      "direction": "negativ",
+      "id": "energie-global",
+      "label": "Fonduri cu expunere la energie globală",
+      "direction": "pozitiv",
       "strength": 4,
-      "horizon": "1–3 luni",
-      "rationale": "Randamentul francez peste 5% și extinderea ecartului față de Germania indică volatilitate fiscală mai mare; evaluarea Moody's poate modifica rapid percepția de risc."
+      "horizon": "Imediat",
+      "rationale": "Incidentele raportate în Hormuz cresc prima geopolitică și riscul logistic, însă amploarea pagubelor nu este încă verificată integral și o normalizare rapidă ar putea inversa semnalul."
     },
     {
       "id": "obligatiuni-romania",
@@ -164,15 +164,7 @@
       "direction": "neutru",
       "strength": 3,
       "horizon": "1–3 luni",
-      "rationale": "Stresul suveran european poate ridica prima de risc regională, dar direcția locală depinde în principal de bugetul guvernului și de credibilitatea consolidării fiscale."
-    },
-    {
-      "id": "actiuni-tehnologie",
-      "label": "Fonduri globale de tehnologie",
-      "direction": "neutru",
-      "strength": 2,
-      "horizon": "1–3 luni",
-      "rationale": "Sancțiunea Meta și vulnerabilitățile PHP cresc atenția asupra riscului juridic și operațional, dar efectele sunt specifice și nu justifică o concluzie pentru întregul sector."
+      "rationale": "Riscul de securitate la Marea Neagră poate majora prima regională, dar direcția randamentelor locale rămâne dominată de politica fiscală, inflație și credibilitatea bugetară."
     },
     {
       "id": "securitate-cibernetica",
@@ -180,38 +172,57 @@
       "direction": "pozitiv",
       "strength": 3,
       "horizon": "1–3 luni",
-      "rationale": "Actualizarea urgentă a infrastructurii PHP poate susține cererea pentru audit și remediere, fără a garanta venituri sau performanță bursieră pentru emitenți individuali."
+      "rationale": "Tentativele active asupra infrastructurii PHP pot susține cererea pentru remediere și audit, fără a implica automat venituri ori performanță bursieră pentru companii individuale."
+    },
+    {
+      "id": "biotehnologie",
+      "label": "Fonduri globale de biotehnologie",
+      "direction": "neutru",
+      "strength": 2,
+      "horizon": "6–12 luni",
+      "rationale": "Datele preliminare Moderna–Merck validează parțial platforma ARNm oncologică, dar reacția pieței și lipsa setului complet arată incertitudine ridicată până la prezentare și evaluare."
     }
   ],
   "indicators": [
     {
-      "id": "france-10y",
-      "label": "Randament obligațiuni Franța 10 ani",
-      "value": 5.002,
-      "unit": "%",
-      "referenceDate": "2026-10-21",
-      "sourceName": "Reuters",
-      "sourceUrl": "https://www.reuters.com/world/europe/french-10-year-bond-yields-hit-5-highest-since-2002-2026-10-21/",
-      "freshness": "current",
-      "note": "Nivel intraday relatat de Reuters, nu cotație în timp real și nu recomandare de tranzacționare."
-    },
-    {
       "id": "php-cvss",
-      "label": "Scor CVSS pentru vulnerabilitățile PHP",
+      "label": "Severitate vulnerabilități PHP",
       "value": 9.2,
-      "unit": "din 10",
+      "unit": "din 10 CVSS",
       "referenceDate": "2026-10-21",
       "sourceName": "PHP Security Team",
       "sourceUrl": "https://www.php.net/archive/2026.php#2026-10-21-5",
       "freshness": "current",
-      "note": "Scor tehnic de severitate pentru ambele vulnerabilități, nu măsură a numărului de sisteme compromise."
+      "note": "Scor tehnic pentru ambele vulnerabilități, nu număr de sisteme compromise."
+    },
+    {
+      "id": "barclays-jobs",
+      "label": "Posturi vizate de restructurarea Barclays în 2026",
+      "value": 5000,
+      "unit": "posturi",
+      "referenceDate": "2026-10-22",
+      "sourceName": "Reuters",
+      "sourceUrl": "https://www.reuters.com/business/finance/barclays-q3-profit-rises-12-announces-670-million-buyback-2026-10-22",
+      "freshness": "current",
+      "note": "Țintă anuală anunțată; aproximativ 1.000 de reduceri erau deja realizate."
+    },
+    {
+      "id": "moderna-rfs",
+      "label": "Reducere relativă raportată a riscului de recidivă sau deces",
+      "value": 42,
+      "unit": "%",
+      "referenceDate": "2026-10-22",
+      "sourceName": "Biziday / Wall Street Journal",
+      "sourceUrl": "https://www.biziday.ro/373350-2/",
+      "freshness": "current",
+      "note": "Dată parțială apărută înaintea prezentării; rezultatele complete nu erau încă publicate."
     },
     {
       "id": "eur-ron",
       "label": "EUR/RON",
-      "value": 5.3297,
+      "value": 5.3485,
       "unit": "lei",
-      "referenceDate": "2026-10-21",
+      "referenceDate": "2026-10-22",
       "sourceName": "BNR",
       "sourceUrl": "https://curs.bnr.ro/nbrfxrates.xml",
       "freshness": "current",
@@ -220,9 +231,9 @@
     {
       "id": "usd-ron",
       "label": "USD/RON",
-      "value": 4.7489,
+      "value": 4.764,
       "unit": "lei",
-      "referenceDate": "2026-10-21",
+      "referenceDate": "2026-10-22",
       "sourceName": "BNR",
       "sourceUrl": "https://curs.bnr.ro/nbrfxrates.xml",
       "freshness": "current",
@@ -231,9 +242,9 @@
     {
       "id": "bet",
       "label": "Indice BET",
-      "value": 35284.85,
+      "value": 35018.02,
       "unit": "puncte",
-      "referenceDate": "2026-10-22",
+      "referenceDate": "2026-10-23",
       "sourceName": "BVB",
       "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=BET",
       "freshness": "current",
@@ -242,9 +253,9 @@
     {
       "id": "rotx",
       "label": "Indice ROTX",
-      "value": 80002.35,
+      "value": 79397.54,
       "unit": "puncte",
-      "referenceDate": "2026-10-22",
+      "referenceDate": "2026-10-23",
       "sourceName": "BVB / Wiener Börse",
       "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=ROTX",
       "freshness": "current",
@@ -255,7 +266,7 @@
       "label": "ROBOR 3M",
       "value": 6.09,
       "unit": "%",
-      "referenceDate": "2026-10-21",
+      "referenceDate": "2026-10-22",
       "sourceName": "BNR",
       "sourceUrl": "https://www.bnr.ro/1074-baza-de-date-interactiva",
       "freshness": "current",
@@ -266,7 +277,7 @@
       "label": "IRCC",
       "value": null,
       "unit": "%",
-      "referenceDate": "2026-10-22",
+      "referenceDate": "2026-10-23",
       "sourceName": "BNR",
       "sourceUrl": "https://www.bnr.ro/",
       "freshness": "unavailable"
@@ -274,148 +285,155 @@
   ],
   "riskScores": [
     {
-      "id": "fiscal-europa",
-      "label": "Stres fiscal și financiar în Europa",
+      "id": "marea-neagra",
+      "label": "Securitate maritimă la Marea Neagră",
       "score": 5,
       "trend": "în creștere",
-      "description": "Randamentele Franței și incertitudinea bugetară pot transmite volatilitate către alte piețe suverane europene."
+      "description": "Atacurile asupra navelor din apele României au determinat CSAT să declare implicații imediate și să ceară capabilități suplimentare."
     },
     {
-      "id": "sabotaj-europa",
-      "label": "Sabotaj și amenințări hibride în Europa",
+      "id": "energie-global",
+      "label": "Perturbarea transportului energetic",
       "score": 5,
       "trend": "în creștere",
-      "description": "Germania a ridicat oficial nivelul de amenințare, iar incidentele asupra infrastructurii logistice rămân sub investigație."
+      "description": "Afirmațiile privind șapte petroliere avariate în Hormuz indică un risc sever, deși amploarea exactă rămâne incomplet confirmată."
     },
     {
-      "id": "securitate-web",
-      "label": "Expunere cibernetică a infrastructurii web",
+      "id": "cyber-php",
+      "label": "Exploatarea infrastructurii web",
       "score": 5,
       "trend": "în creștere",
-      "description": "Două vulnerabilități PHP critice necesită actualizare imediată; impactul concret depinde de inventarul și configurația fiecărei organizații."
+      "description": "Tentativele observate la scară mare după dezvăluirea PHP mențin expunerea ridicată până la actualizarea sistemelor vulnerabile."
     },
     {
-      "id": "executie-romania",
-      "label": "Execuție guvernamentală și instituțională",
+      "id": "social-scoli",
+      "label": "Violență și siguranță în școli",
       "score": 4,
-      "trend": "stabil",
-      "description": "Guvernul nou are de transpus rapid prioritățile bugetare și sociale în măsuri finanțate și verificabile."
+      "trend": "în creștere",
+      "description": "Două incidente grave într-o săptămână pun presiune pe intervenția timpurie, procedurile școlare și răspunsul proporțional al autorităților."
     }
   ],
   "watchlist": [
     {
-      "id": "franta-rating",
-      "title": "Evaluarea Moody's pentru Franța",
-      "why": "Poate modifica costul de finanțare și sentimentul asupra datoriilor suverane europene.",
-      "trigger": "Publicarea ratingului și a perspectivei, urmată de reacția randamentelor.",
-      "status": "în așteptare",
-      "sourceUrl": "https://www.reuters.com/world/europe/french-10-year-bond-yields-hit-5-highest-since-2002-2026-10-21/"
+      "id": "hormuz-confirmare",
+      "title": "Confirmarea incidentelor din Hormuz",
+      "why": "Identitatea navelor, numărul victimelor și cauza fiecărei avarii pot schimba evaluarea riscului energetic.",
+      "trigger": "Confirmări UKMTO, ale operatorilor navali sau imagini independente",
+      "status": "neconfirmat",
+      "sourceUrl": "https://apnews.com/article/2abebce2fca2c085e0e0ee717e42cf28"
     },
     {
-      "id": "php-exploatare",
-      "title": "Exploatarea vulnerabilităților PHP",
-      "why": "Severitatea tehnică este confirmată, dar amploarea compromiterilor reale nu este încă stabilită.",
-      "trigger": "Confirmări oficiale privind exploatarea activă ori incidente documentate după publicarea patchurilor.",
+      "id": "moderna-date-complete",
+      "title": "Prezentarea completă a studiului INTerpath-001",
+      "why": "Setul complet trebuie să clarifice mărimea efectului, siguranța, intervalele de încredere și maturitatea datelor.",
+      "trigger": "Prezentarea la congres și publicarea rezultatelor evaluate",
+      "status": "în așteptare",
+      "sourceUrl": "https://news.modernatx.com/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-plus-keytruda-met-endpoints-of-rfs-and-dmfs-in-melanoma"
+    },
+    {
+      "id": "csat-implementare",
+      "title": "Implementarea priorităților CSAT",
+      "why": "Eficiența răspunsului depinde de termene, finanțare, exerciții și reguli operaționale, nu doar de formularea priorităților.",
+      "trigger": "Decizii bugetare, achiziții sau exerciții maritime anunțate oficial",
+      "status": "în așteptare",
+      "sourceUrl": "https://agerpres.ro/comunicate/2026/10/22/comunicat-de-presa---administratia-prezidentiala--1605929"
+    },
+    {
+      "id": "php-incidente",
+      "title": "Compromiteri confirmate prin vulnerabilitățile PHP",
+      "why": "Milioanele de tentative nu indică automat câte sisteme au fost compromise sau ce date au fost afectate.",
+      "trigger": "Rapoarte CERT, CISA ori ale operatorilor despre incidente confirmate",
       "status": "în așteptare",
       "sourceUrl": "https://www.php.net/archive/2026.php#2026-10-21-5"
-    },
-    {
-      "id": "educatie-proiect",
-      "title": "Forma juridică a măsurilor pentru școli",
-      "why": "Anunțurile ministrului trebuie transformate în reguli proporționale, aplicabile și finanțate.",
-      "trigger": "Publicarea proiectului, a criteriilor de risc și a garanțiilor pentru elevi.",
-      "status": "în așteptare",
-      "sourceUrl": "https://www.biziday.ro/373217-2/"
-    },
-    {
-      "id": "germania-anchete",
-      "title": "Anchetele privind sabotajele din Germania",
-      "why": "Atribuirea fiecărui incident și amploarea rețelei rămân elemente esențiale pentru evaluarea riscului.",
-      "trigger": "Concluzii oficiale, inculpări ori măsuri NATO suplimentare confirmate.",
-      "status": "în așteptare",
-      "sourceUrl": "https://www.reuters.com/business/aerospace-defense/germanys-military-warns-significant-russian-sabotage-threat-2026-10-21/"
     }
   ],
   "conclusion": {
-    "title": "Europa intră într-o zi cu riscuri suprapuse",
-    "body": "Presiunea asupra finanțării Franței, avertismentul german privind sabotajele și vulnerabilitățile PHP combină riscuri fiscale, de securitate și operaționale. Pentru România, testul imediat rămâne calitatea implementării noului guvern. Semnalele pentru fonduri descriu expuneri generale, nu recomandări de tranzacționare.",
+    "title": "Securitatea infrastructurii domină agenda",
+    "body": "Ediția de azi leagă trei vulnerabilități concrete: navigația din Marea Neagră, transportul energetic prin Hormuz și infrastructura web bazată pe PHP. Pentru România, prioritatea este trecerea rapidă de la evaluarea CSAT la măsuri defensive verificabile, fără a confunda pregătirea cu certitudinea escaladării.",
     "actionPoints": [
-      "Urmărește ratingul Franței și ecartul față de obligațiunile germane.",
-      "Verifică instalările PHP și aplică versiunile de securitate publicate.",
-      "Separă propunerile politice de măsurile adoptate și finanțate.",
-      "Tratează atribuirea sabotajelor ca rezultat al anchetelor, nu ca presupunere automată."
+      "Urmăriți deciziile operaționale și bugetare care pun în practică prioritățile CSAT.",
+      "Tratați bilanțul din Hormuz ca provizoriu până la confirmări maritime independente.",
+      "Verificați actualizarea imediată a instalațiilor PHP expuse și separați tentativele de compromiteri confirmate.",
+      "Așteptați datele clinice complete înaintea concluziilor despre terapia Moderna–Merck."
     ]
   },
   "sources": [
     {
-      "id": "biziday",
-      "name": "Biziday",
-      "url": "https://www.biziday.ro/",
-      "type": "primary",
-      "accessedAt": "2026-10-22T06:04:23+03:00"
+      "id": "presedintie-csat",
+      "name": "Administrația Prezidențială — comunicat CSAT republicat de AGERPRES",
+      "url": "https://agerpres.ro/comunicate/2026/10/22/comunicat-de-presa---administratia-prezidentiala--1605929",
+      "type": "official",
+      "accessedAt": "2026-10-23T06:07:00+03:00"
     },
     {
-      "id": "biziday-rss",
-      "name": "Biziday — RSS",
-      "url": "https://www.biziday.ro/feed/",
+      "id": "biziday-csat",
+      "name": "Biziday — ședința CSAT",
+      "url": "https://www.biziday.ro/373332-2/",
       "type": "primary",
-      "accessedAt": "2026-10-22T06:04:23+03:00"
+      "accessedAt": "2026-10-23T06:03:00+03:00"
     },
     {
-      "id": "reuters-sabotaj",
-      "name": "Reuters — amenințarea de sabotaj în Germania",
-      "url": "https://www.reuters.com/business/aerospace-defense/germanys-military-warns-significant-russian-sabotage-threat-2026-10-21/",
+      "id": "ap-hormuz",
+      "name": "Associated Press — petroliere în Strâmtoarea Hormuz",
+      "url": "https://apnews.com/article/2abebce2fca2c085e0e0ee717e42cf28",
       "type": "secondary",
-      "accessedAt": "2026-10-22T06:04:23+03:00"
-    },
-    {
-      "id": "biziday-sabotaj",
-      "name": "Biziday — alerta Bundeswehr",
-      "url": "https://www.biziday.ro/373197-2/",
-      "type": "primary",
-      "accessedAt": "2026-10-22T06:04:23+03:00"
-    },
-    {
-      "id": "reuters-franta",
-      "name": "Reuters — randamentele Franței",
-      "url": "https://www.reuters.com/world/europe/french-10-year-bond-yields-hit-5-highest-since-2002-2026-10-21/",
-      "type": "secondary",
-      "accessedAt": "2026-10-22T06:04:23+03:00"
+      "accessedAt": "2026-10-23T06:10:00+03:00"
     },
     {
       "id": "php-advisory",
-      "name": "PHP Security Team — advisory",
+      "name": "PHP Security Team — actualizări critice",
       "url": "https://www.php.net/archive/2026.php#2026-10-21-5",
       "type": "official",
-      "accessedAt": "2026-10-22T06:04:23+03:00"
+      "accessedAt": "2026-10-23T06:09:00+03:00"
     },
     {
-      "id": "biziday-php",
-      "name": "Biziday — vulnerabilitățile PHP",
-      "url": "https://www.biziday.ro/373203-2/",
-      "type": "primary",
-      "accessedAt": "2026-10-22T06:04:23+03:00"
+      "id": "reuters-php",
+      "name": "Reuters — tentative de exploatare PHP",
+      "url": "https://www.reuters.com/world/asia-pacific/cloudflare-sees-millions-exploit-attempts-after-php-disclosure-2026-10-22/",
+      "type": "secondary",
+      "accessedAt": "2026-10-23T06:05:00+03:00"
     },
     {
-      "id": "biziday-educatie",
-      "name": "Biziday — propunerile pentru siguranța școlară",
-      "url": "https://www.biziday.ro/373217-2/",
-      "type": "primary",
-      "accessedAt": "2026-10-22T06:04:23+03:00"
+      "id": "moderna-phase3",
+      "name": "Moderna și Merck — rezultate principale INTerpath-001",
+      "url": "https://news.modernatx.com/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-plus-keytruda-met-endpoints-of-rfs-and-dmfs-in-melanoma",
+      "type": "official",
+      "accessedAt": "2026-10-23T06:08:00+03:00"
     },
     {
-      "id": "biziday-dna",
-      "name": "Biziday — dosarul DSVSA Vaslui",
-      "url": "https://www.biziday.ro/373186-2/",
+      "id": "biziday-moderna",
+      "name": "Biziday — date parțiale Moderna–Merck",
+      "url": "https://www.biziday.ro/373350-2/",
       "type": "primary",
-      "accessedAt": "2026-10-22T06:04:23+03:00"
+      "accessedAt": "2026-10-23T06:04:00+03:00"
     },
     {
-      "id": "biziday-meta",
-      "name": "Biziday — sancțiunea Meta",
-      "url": "https://www.biziday.ro/373230-2/",
+      "id": "reuters-barclays",
+      "name": "Reuters — rezultate și restructurare Barclays",
+      "url": "https://www.reuters.com/business/finance/barclays-q3-profit-rises-12-announces-670-million-buyback-2026-10-22",
+      "type": "secondary",
+      "accessedAt": "2026-10-23T06:05:00+03:00"
+    },
+    {
+      "id": "biziday-cabluri",
+      "name": "Biziday — investigația privind cablurile submarine",
+      "url": "https://www.biziday.ro/373356-2/",
       "type": "primary",
-      "accessedAt": "2026-10-22T06:04:23+03:00"
+      "accessedAt": "2026-10-23T06:04:00+03:00"
+    },
+    {
+      "id": "telegraph-cabluri",
+      "name": "The Telegraph — investigație privind traulerele rusești",
+      "url": "https://www.telegraph.co.uk/news/2026/10/21/exclusive-putin-sends-fishing-trawlers-to-spy-on-britain/",
+      "type": "secondary",
+      "accessedAt": "2026-10-23T06:06:00+03:00"
+    },
+    {
+      "id": "nato-hybrid",
+      "name": "NATO — răspuns la activitățile hibride rusești",
+      "url": "https://www.nato.int/en/news-and-events/articles/news/2026/10/19/nato-allies-and-partners-meet-in-bucharest-to-strengthen-response-to-russias-hybrid-activities",
+      "type": "official",
+      "accessedAt": "2026-10-23T06:09:00+03:00"
     }
   ]
 }
