@@ -35,6 +35,7 @@ ROOT = Path(__file__).resolve().parents[1]
 PRINT_INDICATORS = (("rotx", "ROTX"), ("eur-ron", "EUR/RON"), ("usd-ron", "USD/RON"))
 INNOVATION_CATEGORIES = {"Tehnologie", "Știință", "Spațiu", "Sănătate", "Climă"}
 DISCOVERY_CATEGORIES = INNOVATION_CATEGORIES | {"Sport"}
+PAGE_INSET = 8
 
 
 def register_fonts():
@@ -204,8 +205,6 @@ def render_pdf(edition, destination, proof=False):
                                      leading=17.2, textColor=dark, spaceAfter=6)
     body = ParagraphStyle("body", fontName="Briefing", fontSize=12, leading=15.2,
                           textColor=dark, alignment=TA_LEFT)
-    source = ParagraphStyle("source", fontName="Briefing", fontSize=12, leading=15,
-                            textColor=muted)
     stat = ParagraphStyle("stat", fontName="Briefing-Bold", fontSize=14, leading=17, textColor=dark)
     small = ParagraphStyle("small", fontName="Briefing", fontSize=12, leading=15, textColor=muted)
     puzzle_label = ParagraphStyle("puzzle-label", fontName="Briefing-Bold", fontSize=12,
@@ -213,8 +212,8 @@ def render_pdf(edition, destination, proof=False):
     puzzle_instruction = ParagraphStyle("puzzle-instruction", fontName="Briefing",
                                         fontSize=12, leading=15, textColor=muted)
 
-    content_width = A4[0] - 80
-    gutter = 22
+    content_width = A4[0] - 2 * PAGE_INSET
+    gutter = 18
     column_width = (content_width - gutter) / 2
     issue_date = datetime.fromisoformat(date).strftime("%d.%m.%Y")
     header = Table([[
@@ -229,26 +228,24 @@ def render_pdf(edition, destination, proof=False):
         ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
     ]))
 
-    def source_line(item):
-        category = html.escape(item.get("category", "Știri"))
+    def story_label(item, number, kind=None):
+        category = html.escape((kind or item.get("category", "Știri")).upper())
         source_name = html.escape(item["sourceName"])
         source_url = html.escape(item["sourceUrl"], quote=True)
         return Paragraph(
-            f"{category} · Sursă: <link href='{source_url}' color='#4f5753'>{source_name}</link>",
-            source,
+            f"{number:02d} / {category} · <link href='{source_url}' color='#4f5753'>{source_name}</link>",
+            eyebrow,
         )
 
     def secondary_story(item, number):
         return [
-            Paragraph(f"{number:02d}  /  {html.escape(item.get('category', 'Știri')).upper()}", eyebrow),
-            Spacer(1, 3),
+            story_label(item, number),
+            Spacer(1, 2),
             Paragraph(html.escape(item["title"]), secondary_title),
             paragraph(item.get("printSummary") or item["fact"], body),
-            Spacer(1, 4),
-            source_line(item),
-            Spacer(1, 6),
+            Spacer(1, 5),
             HRFlowable(width="100%", thickness=.35, color=line),
-            Spacer(1, 6),
+            Spacer(1, 5),
         ]
 
     def sudoku_panel():
@@ -292,7 +289,7 @@ def render_pdf(edition, destination, proof=False):
          "label": label}
         for identifier, label in PRINT_INDICATORS
     ]
-    for count in range(min(5, len(ranked)), 2, -1):
+    for count in range(min(7, len(ranked)), 2, -1):
         selected = select_stories(ranked, count)
         lead = selected[0][1]
         story = [
@@ -300,13 +297,11 @@ def render_pdf(edition, destination, proof=False):
             Spacer(1, 6),
             HRFlowable(width="100%", thickness=1.6, color=dark),
             Spacer(1, 11),
-            Paragraph("01  /  PRINCIPAL", eyebrow),
+            story_label(lead, 1, "Principal"),
             Spacer(1, 4),
             Paragraph(html.escape(lead["title"]), lead_title),
             paragraph(lead.get("printSummary") or lead["fact"], body),
-            Spacer(1, 5),
-            source_line(lead),
-            Spacer(1, 11),
+            Spacer(1, 8),
             HRFlowable(width="100%", thickness=.7, color=dark),
             Spacer(1, 7),
             Paragraph("ÎN RESTUL EDIȚIEI", eyebrow),
@@ -315,7 +310,7 @@ def render_pdf(edition, destination, proof=False):
         left = []
         right = []
         for index, (_, item) in enumerate(selected[1:], 2):
-            (left if index % 2 == 0 or index == 5 else right).extend(secondary_story(item, index))
+            (left if index % 2 == 0 else right).extend(secondary_story(item, index))
         right.append(sudoku_panel())
         columns = Table([[left, right]], colWidths=[column_width, column_width], hAlign="LEFT")
         columns.setStyle(TableStyle([
@@ -361,11 +356,13 @@ def render_pdf(edition, destination, proof=False):
                 if proof else
                 f"Publicat {updated.astimezone(ZONE).strftime('%H:%M')} · Articolele și sursele complete: news.hapics.uk"
             )
-            canvas.drawString(40, 22, footer)
+            canvas.drawString(PAGE_INSET, 12, footer)
             canvas.restoreState()
 
-        document = SimpleDocTemplate(str(destination), pagesize=A4, rightMargin=40, leftMargin=40,
-                                     topMargin=38, bottomMargin=38, title=f"Hapics News {date}",
+        document = SimpleDocTemplate(str(destination), pagesize=A4,
+                                     rightMargin=PAGE_INSET, leftMargin=PAGE_INSET,
+                                     topMargin=PAGE_INSET, bottomMargin=18,
+                                     title=f"Hapics News {date}",
                                      author="Hapics News")
         document.build(story, onFirstPage=draw_footer)
         reader = PdfReader(str(destination))
@@ -390,7 +387,7 @@ def submit_once(pdf_path, date, printer):
     with os.fdopen(fd, "w") as stream:
         json.dump({"date": date, "status": "submitting", "pdf": str(pdf_path)}, stream)
     try:
-        result = subprocess.run(["lp", "-d", printer, "-o", "media=A4", "-o", "ColorModel=Gray",
+        result = subprocess.run(["lp", "-d", printer, "-o", "PageSize=A4.Fullbleed", "-o", "ColorModel=Gray",
                                  "-n", "1", str(pdf_path)], capture_output=True, text=True, check=True)
     except Exception:
         marker.unlink(missing_ok=True)

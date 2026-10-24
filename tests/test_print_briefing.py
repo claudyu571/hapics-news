@@ -57,11 +57,11 @@ class PrintBriefingTest(unittest.TestCase):
             for _, item in module.select_stories(ranked, count):
                 self.assertIn(" ".join(item["title"].split()), text)
 
-    def test_current_style_edition_keeps_four_stories_and_sudoku(self):
+    def test_current_style_edition_fits_six_stories_and_sudoku(self):
         edition = json.loads((SCRIPT.parents[1] / "data" / "archive" / "2026-10-21.json").read_text())
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "briefing.pdf"
-            self.assertGreaterEqual(module.render_pdf(edition, path), 4)
+            self.assertEqual(module.render_pdf(edition, path), 6)
             self.assertEqual(len(module.PdfReader(str(path)).pages), 1)
 
     def test_proof_is_clearly_labeled(self):
@@ -76,7 +76,7 @@ class PrintBriefingTest(unittest.TestCase):
         edition = json.loads((SCRIPT.parents[1] / "data" / "archive" / "2026-10-21.json").read_text())
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "briefing.pdf"
-            self.assertGreaterEqual(module.render_pdf(edition, path), 4)
+            self.assertEqual(module.render_pdf(edition, path), 6)
             text = module.PdfReader(str(path)).pages[0].extract_text()
             self.assertIn("SUDOKU", text)
             self.assertIn("1–9 în", text)
@@ -139,6 +139,7 @@ class PrintBriefingTest(unittest.TestCase):
                 with self.assertRaisesRegex(RuntimeError, "already attempted"):
                     module.submit_once(Path(directory) / "briefing.pdf", "2026-10-21", "Canon_MX490_series")
                 run.assert_called_once()
+                self.assertIn("PageSize=A4.Fullbleed", run.call_args.args[0])
 
 
 if __name__ == "__main__":
