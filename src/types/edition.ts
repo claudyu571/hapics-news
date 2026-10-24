@@ -12,7 +12,8 @@ export type Category =
   | "Spațiu"
   | "Sănătate"
   | "Climă"
-  | "Cultură";
+  | "Cultură"
+  | "Sport";
 
 export type Horizon = "Imediat" | "1–4 săptămâni" | "1–3 luni" | "6–12 luni";
 

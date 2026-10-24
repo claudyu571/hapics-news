@@ -2,7 +2,9 @@
 
 Website static pentru briefingul zilnic de știri, economie și piețe financiare, publicat prin GitHub Pages la `news.hapics.uk`.
 
-Selecția editorială urmărește și evenimente internaționale majore, lansări relevante și descoperiri verificate în tehnologie, știință, spațiu, sănătate și climă. Categoriile sunt opționale: o rubrică apare doar dacă există o știre semnificativă, cu sursă directă și impact explicat. Cultura poate intra în ediție pentru evenimente internaționale excepționale.
+Selecția editorială urmărește și evenimente internaționale majore, lansări relevante și descoperiri verificate în tehnologie, știință, spațiu, sănătate și climă, precum și sport. Categoriile sunt opționale: o rubrică apare doar dacă există o știre semnificativă, cu sursă directă și impact explicat. Cultura poate intra în ediție pentru evenimente internaționale excepționale.
+
+La fiecare ediție de dimineață, verifică explicit și noutățile din sport și tehnologiile nou apărute. În sport, urmărește rezultate finale ale competițiilor majore, performanțe istorice și rezultate românești de interes internațional; folosește organizatorul, federația sau liga ca sursă primară și nu transforma antrenamentele ori programările în rezultate finale. Pentru lansări tehnologice, precizează ce a fost anunțat sau lansat efectiv, disponibilitatea, data și limitele verificării; preferă sursa producătorului sau a instituției, completată când este cazul de verificare independentă. Prioritizează impactul editorial, nu o cotă fixă pe rubrică.
 
 ## Dezvoltare locală
 
@@ -111,10 +113,10 @@ Workflow-ul `pages.yml` validează toate pull request-urile. Pentru push-urile p
 
 O a doua automatizare locală rulează zilnic la 07:00 (Europe/Bucharest), după publicarea ediției de la 06:00. Ea citește numai `https://news.hapics.uk/data/latest.json` cu evitarea cache-ului, verifică data și starea ediției, creează un PDF A4 de o pagină cu cele mai importante cinci știri (sau mai puține dacă spațiul cere) și îl trimite imprimantei `Canon_MX490_series` în tonuri de gri. Dacă ediția zilei lipsește, PDF-ul depășește o pagină sau imprimarea a fost deja încercată, comanda se oprește fără un nou job.
 
-Macheta folosește o știre principală pe toată lățimea și până la patru știri scurte în două coloane, urmate de indicatorii verificați. Fiecare știre poate avea `importantNews[].printSummary` (60–180 de caractere), o propoziție factuală pentru hârtie care păstrează atribuirea și incertitudinea. Edițiile vechi fără acest câmp folosesc `fact` integral și pot include mai puține știri pentru a păstra lizibilitatea.
-La cinci știri, selecția poate include o știre `Extern` și una din Tehnologie/Știință/Spațiu/Sănătate/Climă dacă au impact editorial de cel puțin 4/5; locurile revin celor mai importante știri disponibile când aceste teme nu ating pragul.
+Macheta folosește o știre principală pe toată lățimea și până la patru știri scurte în două coloane, urmate de indicatorii verificați. Fiecare știre poate avea `importantNews[].printSummary` (60–180 de caractere), o propoziție factuală pentru hârtie care păstrează atribuirea și incertitudinea. Și știrea principală folosește acest rezumat când există. Edițiile vechi fără acest câmp folosesc `fact` integral și pot include mai puține știri pentru a păstra lizibilitatea.
+La cinci știri, selecția poate include o știre `Extern` și una din Tehnologie/Știință/Spațiu/Sănătate/Climă/Sport dacă au impact editorial de cel puțin 4/5; locurile revin celor mai importante știri disponibile când aceste teme nu ating pragul.
 Pe pagina tipărită apar numai ROTX, EUR/RON și USD/RON, în această ordine. Cursurile BNR păstrează patru zecimale și data cotației; o valoare lipsă este afișată ca indisponibilă.
-Sub indicatori apare un mini Sudoku 4×4, generat determinist din data ediției și verificat să aibă o singură soluție. Grila se schimbă zilnic. Dacă o ediție foarte densă nu încape pe A4, scriptul păstrează știrile și omite jocul.
+Un Sudoku standard 9×9, generat determinist din data ediției și verificat să aibă o singură soluție, ocupă colțul din dreapta al paginii. Grila se schimbă zilnic. Scriptul reduce numărul de știri până la minimum trei pentru a păstra Sudoku și lizibilitatea pe o singură pagină A4; dacă nici așa nu încape, oprește tipărirea și raportează eroarea.
 
 Comanda folosită de automatizare:
 

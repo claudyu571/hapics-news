@@ -29,7 +29,7 @@ class PrintBriefingTest(unittest.TestCase):
             self.assertEqual(len(reader.pages), 1)
             self.assertAlmostEqual(float(reader.pages[0].mediabox.width), 595.28, places=1)
 
-    def test_five_stories_fit_with_short_print_summaries(self):
+    def test_summaries_and_sudoku_fit_on_one_page(self):
         summaries = [
             "Biziday: randamentul titlurilor românești la zece ani a ajuns la 7,35% în seara de 15 septembrie, pe fondul vânzărilor internaționale de obligațiuni.",
             "Planul de reluare a exporturilor de ovine și caprine a fost trimis Comisiei Europene, potrivit guvernului; aprobarea rămâne necesară.",
@@ -41,23 +41,27 @@ class PrintBriefingTest(unittest.TestCase):
             item["printSummary"] = summary
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "briefing.pdf"
-            self.assertEqual(module.render_pdf(self.edition, path), 5)
+            count = module.render_pdf(self.edition, path)
+            self.assertGreaterEqual(count, 4)
             reader = module.PdfReader(str(path))
             self.assertEqual(len(reader.pages), 1)
             text = " ".join(reader.pages[0].extract_text().split())
-            self.assertIn("ROTX · CURS BNR", text)
+            self.assertIn("INDICATORI · BVB / BNR", text)
             self.assertIn("EUR/RON", text)
             self.assertIn("USD/RON", text)
             self.assertNotIn("Indice BET", text)
             self.assertNotIn("ROBOR 3M", text)
-            for item in self.edition["importantNews"][:5]:
+            self.assertIn("SUDOKU", text)
+            ranked = sorted(enumerate(self.edition["importantNews"]),
+                            key=lambda pair: (-pair[1]["impact"], pair[0]))
+            for _, item in module.select_stories(ranked, count):
                 self.assertIn(" ".join(item["title"].split()), text)
 
-    def test_current_style_edition_fits_five_stories(self):
+    def test_current_style_edition_keeps_four_stories_and_sudoku(self):
         edition = json.loads((SCRIPT.parents[1] / "data" / "archive" / "2026-10-21.json").read_text())
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "briefing.pdf"
-            self.assertEqual(module.render_pdf(edition, path), 5)
+            self.assertGreaterEqual(module.render_pdf(edition, path), 4)
             self.assertEqual(len(module.PdfReader(str(path)).pages), 1)
 
     def test_proof_is_clearly_labeled(self):
@@ -68,14 +72,15 @@ class PrintBriefingTest(unittest.TestCase):
             self.assertIn("BRIEFINGUL DIMINEȚII · PROBĂ", text)
             self.assertIn("Probă generată", text)
 
-    def test_mini_sudoku_fits_after_five_stories(self):
+    def test_standard_sudoku_is_included(self):
         edition = json.loads((SCRIPT.parents[1] / "data" / "archive" / "2026-10-21.json").read_text())
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "briefing.pdf"
-            self.assertEqual(module.render_pdf(edition, path), 5)
+            self.assertGreaterEqual(module.render_pdf(edition, path), 4)
             text = module.PdfReader(str(path)).pages[0].extract_text()
-            self.assertIn("MINI SUDOKU", text)
-            self.assertIn("1–4 pe rând", text)
+            self.assertIn("SUDOKU", text)
+            self.assertIn("1–9 în", text)
+            self.assertIn("casetă 3×3", text)
             self.assertEqual(len(module.PdfReader(str(path)).pages), 1)
 
     def test_daily_sudoku_has_one_solution(self):
@@ -83,10 +88,11 @@ class PrintBriefingTest(unittest.TestCase):
         for day in range(21, 28):
             puzzle, solution = module.sudoku_for_date(f"2026-10-{day}")
             self.assertEqual(module.sudoku_solution_count([row[:] for row in puzzle]), 1)
-            self.assertGreaterEqual(sum(value == 0 for row in puzzle for value in row), 8)
-            for index in range(4):
-                self.assertEqual(set(solution[index]), {1, 2, 3, 4})
-                self.assertEqual({solution[row][index] for row in range(4)}, {1, 2, 3, 4})
+            self.assertEqual(len(puzzle), 9)
+            self.assertGreaterEqual(sum(value == 0 for row in puzzle for value in row), 40)
+            for index in range(9):
+                self.assertEqual(set(solution[index]), set(range(1, 10)))
+                self.assertEqual({solution[row][index] for row in range(9)}, set(range(1, 10)))
             puzzles.append(puzzle)
         self.assertNotEqual(puzzles[0], puzzles[1])
 
@@ -114,6 +120,16 @@ class PrintBriefingTest(unittest.TestCase):
                          ["Lead", "Domestic 1", "Domestic 2", "World", "Discovery"])
         self.assertEqual([pair[1]["title"] for pair in module.select_stories(ranked, 4)],
                          ["Lead", "Domestic 1", "Domestic 2", "World"])
+
+    def test_significant_sport_can_take_a_discovery_slot(self):
+        stories = [
+            {"title": "Lead", "category": "Politică", "impact": 5},
+            {"title": "Local", "category": "Social", "impact": 4},
+            {"title": "World", "category": "Extern", "impact": 4},
+            {"title": "Sport", "category": "Sport", "impact": 4},
+        ]
+        ranked = list(enumerate(stories))
+        self.assertIn("Sport", [pair[1]["title"] for pair in module.select_stories(ranked, 4)])
 
     def test_duplicate_job_does_not_reach_printer(self):
         with tempfile.TemporaryDirectory() as directory:

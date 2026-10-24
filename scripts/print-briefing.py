@@ -34,6 +34,7 @@ STATE_DIR = Path.home() / ".local" / "state" / "hapics-news"
 ROOT = Path(__file__).resolve().parents[1]
 PRINT_INDICATORS = (("rotx", "ROTX"), ("eur-ron", "EUR/RON"), ("usd-ron", "USD/RON"))
 INNOVATION_CATEGORIES = {"Tehnologie", "Știință", "Spațiu", "Sănătate", "Climă"}
+DISCOVERY_CATEGORIES = INNOVATION_CATEGORIES | {"Sport"}
 
 
 def register_fonts():
@@ -108,11 +109,11 @@ def format_indicator(indicator):
 
 
 def select_stories(ranked, count):
-    """Keep the top story and make room for substantial world and discovery news."""
+    """Keep the lead and give significant world, sport and discovery news a fair chance."""
     selected = [ranked[0]]
     groups = [{"Extern"}] if count >= 4 else []
     if count >= 5:
-        groups.append(INNOVATION_CATEGORIES)
+        groups.append(DISCOVERY_CATEGORIES)
     for categories in groups:
         candidate = next((pair for pair in ranked[1:]
                           if pair[1]["impact"] >= 4 and pair[1]["category"] in categories
@@ -127,14 +128,14 @@ def select_stories(ranked, count):
 def sudoku_solution_count(grid, limit=2):
     best = None
     choices = None
-    for row in range(4):
-        for column in range(4):
+    for row in range(9):
+        for column in range(9):
             if grid[row][column]:
                 continue
-            used = set(grid[row]) | {grid[index][column] for index in range(4)}
-            used |= {grid[r][c] for r in range(row // 2 * 2, row // 2 * 2 + 2)
-                     for c in range(column // 2 * 2, column // 2 * 2 + 2)}
-            available = set(range(1, 5)) - used
+            used = set(grid[row]) | {grid[index][column] for index in range(9)}
+            used |= {grid[r][c] for r in range(row // 3 * 3, row // 3 * 3 + 3)
+                     for c in range(column // 3 * 3, column // 3 * 3 + 3)}
+            available = set(range(1, 10)) - used
             if not available:
                 return 0
             if choices is None or len(available) < len(choices):
@@ -153,38 +154,37 @@ def sudoku_solution_count(grid, limit=2):
 
 
 def sudoku_for_date(date):
-    """Create a repeatable 4x4 puzzle with exactly one solution for each date."""
+    """Create a repeatable 9x9 puzzle with exactly one solution for each date."""
     rng = random.Random(datetime.fromisoformat(date).date().toordinal())
-    base = ((1, 2, 3, 4), (3, 4, 1, 2), (2, 1, 4, 3), (4, 3, 2, 1))
-    digits = list(range(1, 5))
+    digits = list(range(1, 10))
     rng.shuffle(digits)
 
     def ordered_lines():
-        groups = [0, 1]
+        groups = [0, 1, 2]
         rng.shuffle(groups)
         result = []
         for group in groups:
-            pair = [group * 2, group * 2 + 1]
-            rng.shuffle(pair)
-            result.extend(pair)
+            band = [group * 3 + offset for offset in range(3)]
+            rng.shuffle(band)
+            result.extend(band)
         return result
 
     rows, columns = ordered_lines(), ordered_lines()
-    solution = [[digits[base[r][c] - 1] for c in columns] for r in rows]
+    solution = [[digits[(r * 3 + r // 3 + c) % 9] for c in columns] for r in rows]
     puzzle = [row[:] for row in solution]
-    cells = [(row, column) for row in range(4) for column in range(4)]
+    cells = [(row, column) for row in range(9) for column in range(9)]
     rng.shuffle(cells)
     for row, column in cells:
         old = puzzle[row][column]
         puzzle[row][column] = 0
         if sudoku_solution_count(puzzle) != 1:
             puzzle[row][column] = old
-        if sum(value != 0 for line in puzzle for value in line) <= 7:
+        if sum(value != 0 for line in puzzle for value in line) <= 36:
             break
     return puzzle, solution
 
 
-def render_pdf(edition, destination, proof=False, include_sudoku=True):
+def render_pdf(edition, destination, proof=False):
     register_fonts()
     date, updated, items = validate_edition(edition, require_today=False)
     destination.parent.mkdir(parents=True, exist_ok=True)
@@ -202,16 +202,16 @@ def render_pdf(edition, destination, proof=False, include_sudoku=True):
                                 textColor=dark, spaceAfter=8)
     secondary_title = ParagraphStyle("secondary-title", fontName="BriefingSerif-Bold", fontSize=14.2,
                                      leading=17.2, textColor=dark, spaceAfter=6)
-    body = ParagraphStyle("body", fontName="Briefing", fontSize=11.6, leading=15,
+    body = ParagraphStyle("body", fontName="Briefing", fontSize=12, leading=15.2,
                           textColor=dark, alignment=TA_LEFT)
     source = ParagraphStyle("source", fontName="Briefing", fontSize=12, leading=15,
                             textColor=muted)
     stat = ParagraphStyle("stat", fontName="Briefing-Bold", fontSize=14, leading=17, textColor=dark)
     small = ParagraphStyle("small", fontName="Briefing", fontSize=12, leading=15, textColor=muted)
-    puzzle_label = ParagraphStyle("puzzle-label", fontName="Briefing-Bold", fontSize=11,
-                                  leading=14, textColor=accent)
+    puzzle_label = ParagraphStyle("puzzle-label", fontName="Briefing-Bold", fontSize=12,
+                                  leading=15, textColor=accent)
     puzzle_instruction = ParagraphStyle("puzzle-instruction", fontName="Briefing",
-                                        fontSize=10.5, leading=14, textColor=muted)
+                                        fontSize=12, leading=15, textColor=muted)
 
     content_width = A4[0] - 80
     gutter = 22
@@ -254,28 +254,29 @@ def render_pdf(edition, destination, proof=False, include_sudoku=True):
     def sudoku_panel():
         puzzle, _ = sudoku_for_date(date)
         grid = Table([[str(value) if value else "" for value in row] for row in puzzle],
-                     colWidths=[18] * 4, rowHeights=[18] * 4)
+                     colWidths=[20.5] * 9, rowHeights=[20.5] * 9, hAlign="CENTER")
         grid.setStyle(TableStyle([
             ("FONTNAME", (0, 0), (-1, -1), "Briefing-Bold"),
-            ("FONTSIZE", (0, 0), (-1, -1), 10.5),
+            ("FONTSIZE", (0, 0), (-1, -1), 12),
             ("TEXTCOLOR", (0, 0), (-1, -1), dark),
             ("ALIGN", (0, 0), (-1, -1), "CENTER"),
             ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
             ("GRID", (0, 0), (-1, -1), .35, line),
             ("BOX", (0, 0), (-1, -1), 1.1, dark),
-            ("LINEAFTER", (1, 0), (1, -1), 1.1, dark),
-            ("LINEBELOW", (0, 1), (-1, 1), 1.1, dark),
+            ("LINEAFTER", (2, 0), (2, -1), 1.1, dark),
+            ("LINEAFTER", (5, 0), (5, -1), 1.1, dark),
+            ("LINEBELOW", (0, 2), (-1, 2), 1.1, dark),
+            ("LINEBELOW", (0, 5), (-1, 5), 1.1, dark),
             ("LEFTPADDING", (0, 0), (-1, -1), 0),
             ("RIGHTPADDING", (0, 0), (-1, -1), 0),
             ("TOPPADDING", (0, 0), (-1, -1), 0),
             ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
         ]))
         panel = Table([[
-            [Paragraph("MINI SUDOKU", puzzle_label), Spacer(1, 3),
-             Paragraph("1–4 pe rând, coloană și în fiecare 2×2.", puzzle_instruction)],
-            "",
-            grid,
-        ]], colWidths=[column_width - 80, 8, 72])
+            [Paragraph("SUDOKU", puzzle_label), Spacer(1, 2),
+             Paragraph("1–9 în fiecare rând, coloană și casetă 3×3.", puzzle_instruction),
+             Spacer(1, 7), grid],
+        ]], colWidths=[column_width])
         panel.setStyle(TableStyle([
             ("VALIGN", (0, 0), (-1, -1), "TOP"),
             ("LEFTPADDING", (0, 0), (-1, -1), 0),
@@ -302,7 +303,7 @@ def render_pdf(edition, destination, proof=False, include_sudoku=True):
             Paragraph("01  /  PRINCIPAL", eyebrow),
             Spacer(1, 4),
             Paragraph(html.escape(lead["title"]), lead_title),
-            paragraph(lead["fact"], body),
+            paragraph(lead.get("printSummary") or lead["fact"], body),
             Spacer(1, 5),
             source_line(lead),
             Spacer(1, 11),
@@ -314,9 +315,8 @@ def render_pdf(edition, destination, proof=False, include_sudoku=True):
         left = []
         right = []
         for index, (_, item) in enumerate(selected[1:], 2):
-            (left if index % 2 == 0 else right).extend(secondary_story(item, index))
-        if include_sudoku:
-            right.append(sudoku_panel())
+            (left if index % 2 == 0 or index == 5 else right).extend(secondary_story(item, index))
+        right.append(sudoku_panel())
         columns = Table([[left, right]], colWidths=[column_width, column_width], hAlign="LEFT")
         columns.setStyle(TableStyle([
             ("VALIGN", (0, 0), (-1, -1), "TOP"),
@@ -331,7 +331,7 @@ def render_pdf(edition, destination, proof=False, include_sudoku=True):
         story.append(Spacer(1, 6))
         story.append(HRFlowable(width="100%", thickness=.7, color=dark))
         story.append(Spacer(1, 6))
-        story.append(Paragraph("ROTX · CURS BNR", eyebrow))
+        story.append(Paragraph("INDICATORI · BVB / BNR", eyebrow))
         story.append(Spacer(1, 5))
         indicator_cells = []
         for indicator in indicators:
@@ -370,8 +370,6 @@ def render_pdf(edition, destination, proof=False, include_sudoku=True):
         document.build(story, onFirstPage=draw_footer)
         reader = PdfReader(str(destination))
         if len(reader.pages) != 1:
-            if include_sudoku:
-                return render_pdf(edition, destination, proof=proof, include_sudoku=False)
             continue
         extracted = " ".join((reader.pages[0].extract_text() or "").split())
         if any(" ".join(item["title"].split()) not in extracted for _, item in selected):
