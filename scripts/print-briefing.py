@@ -244,12 +244,12 @@ def render_pdf(edition, destination, proof=False):
             eyebrow,
         )
 
-    def secondary_story(item, number):
+    def secondary_story(item, number, full=False):
         return [
             story_label(item, number),
             Spacer(1, 2),
             Paragraph(html.escape(item["title"]), secondary_title),
-            paragraph(item.get("printSummary") or item["fact"], body),
+            paragraph(item["fact"] if full else item.get("printSummary") or item["fact"], body),
             Spacer(1, 3),
             HRFlowable(width="100%", thickness=.35, color=line),
             Spacer(1, 3),
@@ -301,7 +301,10 @@ def render_pdf(edition, destination, proof=False):
          "label": label}
         for identifier, label in PRINT_INDICATORS
     ]
-    for count in range(min(7, len(ranked)), 2, -1):
+    attempts = []
+    for count in range(min(9, len(ranked)), 2, -1):
+        attempts.extend((count, expanded) for expanded in ((True, False) if count == 8 else (False,)))
+    for count, expanded in attempts:
         selected = select_stories(ranked, count)
         lead = selected[0][1]
         story = [
@@ -322,7 +325,8 @@ def render_pdf(edition, destination, proof=False):
         left = []
         right = []
         for index, (_, item) in enumerate(selected[1:], 2):
-            (left if index % 2 == 0 else right).extend(secondary_story(item, index))
+            (left if index % 2 == 0 else right).extend(
+                secondary_story(item, index, full=expanded and index == 8))
         right.append(sudoku_panel())
         columns = Table([[left, right]], colWidths=[column_width, column_width], hAlign="LEFT")
         columns.setStyle(TableStyle([

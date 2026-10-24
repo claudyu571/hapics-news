@@ -85,6 +85,26 @@ class PrintBriefingTest(unittest.TestCase):
             self.assertIn("ROTX", text)
             self.assertEqual(len(module.PdfReader(str(path)).pages), 1)
 
+    def test_eighth_story_fills_space_beside_sudoku(self):
+        edition = json.loads((SCRIPT.parents[1] / "data" / "archive" / "2026-10-24.json").read_text())
+        prior = json.loads((SCRIPT.parents[1] / "data" / "archive" / "2026-10-23.json").read_text())
+        sport = dict(edition["importantNews"][1])
+        sport.update({"id": "layout-sport-example", "title": "Rezultat sportiv confirmat",
+                      "printSummary": "Organizatorul a confirmat rezultatul final al unei competiții internaționale.",
+                      "category": "Sport", "sourceName": "Organizator"})
+        economy = next(item for item in prior["importantNews"]
+                       if item["title"].startswith("Barclays accelerează"))
+        edition["importantNews"].extend((sport, economy))
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "briefing.pdf"
+            self.assertEqual(module.render_pdf(edition, path), 8)
+            reader = module.PdfReader(str(path))
+            self.assertEqual(len(reader.pages), 1)
+            text = " ".join(reader.pages[0].extract_text().split())
+            self.assertIn("Barclays accelerează", text)
+            self.assertIn("profit trimestrial", text)
+            self.assertIn("SUDOKU", text)
+
     def test_proof_is_clearly_labeled(self):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "proof.pdf"
