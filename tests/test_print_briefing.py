@@ -62,7 +62,9 @@ class PrintBriefingTest(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "briefing.pdf"
             self.assertEqual(module.render_pdf(edition, path), 6)
-            self.assertEqual(len(module.PdfReader(str(path)).pages), 1)
+            reader = module.PdfReader(str(path))
+            self.assertEqual(len(reader.pages), 1)
+            self.assertIn("Până la verificare", " ".join(reader.pages[0].extract_text().split()))
 
     def test_seven_short_stories_fit_with_full_sudoku(self):
         edition = json.loads((SCRIPT.parents[1] / "data" / "archive" / "2026-10-24.json").read_text())
@@ -102,8 +104,16 @@ class PrintBriefingTest(unittest.TestCase):
             self.assertEqual(len(reader.pages), 1)
             text = " ".join(reader.pages[0].extract_text().split())
             self.assertIn("Barclays accelerează", text)
-            self.assertIn("profit trimestrial", text)
+            self.assertIn("DE URMĂRIT", text)
+            self.assertIn("Raport oficial ANR", text)
             self.assertIn("SUDOKU", text)
+
+        edition["watchlist"] = []
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "briefing.pdf"
+            self.assertEqual(module.render_pdf(edition, path), 8)
+            text = " ".join(module.PdfReader(str(path)).pages[0].extract_text().split())
+            self.assertIn("profit trimestrial", text)
 
     def test_proof_is_clearly_labeled(self):
         with tempfile.TemporaryDirectory() as directory:

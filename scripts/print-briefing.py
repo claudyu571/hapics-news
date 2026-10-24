@@ -255,6 +255,17 @@ def render_pdf(edition, destination, proof=False):
             Spacer(1, 3),
         ]
 
+    def watchlist_panel():
+        watched = edition.get("watchlist", [])
+        if not watched:
+            return []
+        item = watched[0]
+        return [
+            Paragraph(f"DE URMĂRIT · {html.escape(item['title'])}", eyebrow),
+            Spacer(1, 2),
+            paragraph(item["trigger"], body),
+        ]
+
     def sudoku_panel():
         puzzle, _ = sudoku_for_date(date)
         grid = Table([[str(value) if value else "" for value in row] for row in puzzle],
@@ -303,8 +314,20 @@ def render_pdf(edition, destination, proof=False):
     ]
     attempts = []
     for count in range(min(9, len(ranked)), 2, -1):
-        attempts.extend((count, expanded) for expanded in ((True, False) if count == 8 else (False,)))
-    for count, expanded in attempts:
+        if count == 8:
+            variants = (((6, 8), True), ((8,), True), ((6,), True), ((), True),
+                        ((6, 8), False), ((8,), False), ((6,), False), ((), False))
+        elif count == 7:
+            variants = (((2, 4, 6), True), ((2, 4, 6), False), ((4, 6), True),
+                        ((4, 6), False), ((6,), True), ((6,), False),
+                        ((), True), ((), False))
+        elif count == 6:
+            variants = (((6,), False), ((6,), True), ((4, 6), False),
+                        ((4, 6), True), ((), True), ((), False))
+        else:
+            variants = (((), False),)
+        attempts.extend((count, expanded_indices, show_watchlist) for expanded_indices, show_watchlist in variants)
+    for count, expanded_indices, show_watchlist in attempts:
         selected = select_stories(ranked, count)
         lead = selected[0][1]
         story = [
@@ -326,7 +349,9 @@ def render_pdf(edition, destination, proof=False):
         right = []
         for index, (_, item) in enumerate(selected[1:], 2):
             (left if index % 2 == 0 else right).extend(
-                secondary_story(item, index, full=expanded and index == 8))
+                secondary_story(item, index, full=index in expanded_indices))
+        if show_watchlist:
+            left.extend(watchlist_panel())
         right.append(sudoku_panel())
         columns = Table([[left, right]], colWidths=[column_width, column_width], hAlign="LEFT")
         columns.setStyle(TableStyle([
