@@ -96,15 +96,22 @@ def paragraph(value, style):
     return Paragraph(html.escape(str(value)), style)
 
 
-def format_indicator(indicator):
+def format_indicator(indicator, compact=False):
     value = indicator["value"]
     if value is None or indicator.get("freshness") == "unavailable":
-        return f"{indicator['label']}: indisponibil"
+        return (f"{html.escape(str(indicator['label']))} indisponibil" if compact
+                else f"{indicator['label']}: indisponibil")
     if isinstance(value, (int, float)) and not isinstance(value, bool):
         decimals = 4 if indicator["id"] in ("eur-ron", "usd-ron") else 2
         value = f"{value:,.{decimals}f}"
         value = value.replace(",", "_").replace(".", ",").replace("_", ".")
-    date = datetime.fromisoformat(indicator["referenceDate"]).strftime("%d.%m.%Y")
+    date_format = "%d.%m" if compact else "%d.%m.%Y"
+    date = datetime.fromisoformat(indicator["referenceDate"]).strftime(date_format)
+    if compact:
+        unit = "pct" if indicator["id"] == "rotx" else indicator["unit"]
+        age = " · ultim" if indicator.get("freshness") == "stale" else ""
+        return (f"{html.escape(str(indicator['label']))} <b>{html.escape(str(value))}</b> "
+                f"{html.escape(str(unit))} · {date}{age}")
     age = " · ultimul curs" if indicator.get("freshness") == "stale" else ""
     return f"{indicator['label']}: {value} {indicator['unit']} ({date}){age}"
 
@@ -202,11 +209,11 @@ def render_pdf(edition, destination, proof=False):
     lead_title = ParagraphStyle("lead-title", fontName="BriefingSerif-Bold", fontSize=20.5, leading=24,
                                 textColor=dark, spaceAfter=8)
     secondary_title = ParagraphStyle("secondary-title", fontName="BriefingSerif-Bold", fontSize=14.2,
-                                     leading=17.2, textColor=dark, spaceAfter=6)
+                                     leading=17.2, textColor=dark, spaceAfter=4)
     body = ParagraphStyle("body", fontName="Briefing", fontSize=12, leading=15.2,
                           textColor=dark, alignment=TA_LEFT)
-    stat = ParagraphStyle("stat", fontName="Briefing-Bold", fontSize=14, leading=17, textColor=dark)
-    small = ParagraphStyle("small", fontName="Briefing", fontSize=12, leading=15, textColor=muted)
+    indicator_style = ParagraphStyle("indicator", fontName="Briefing", fontSize=12,
+                                     leading=15, textColor=dark)
     puzzle_label = ParagraphStyle("puzzle-label", fontName="Briefing-Bold", fontSize=12,
                                   leading=15, textColor=accent)
     puzzle_instruction = ParagraphStyle("puzzle-instruction", fontName="Briefing",
@@ -243,15 +250,15 @@ def render_pdf(edition, destination, proof=False):
             Spacer(1, 2),
             Paragraph(html.escape(item["title"]), secondary_title),
             paragraph(item.get("printSummary") or item["fact"], body),
-            Spacer(1, 5),
+            Spacer(1, 3),
             HRFlowable(width="100%", thickness=.35, color=line),
-            Spacer(1, 5),
+            Spacer(1, 3),
         ]
 
     def sudoku_panel():
         puzzle, _ = sudoku_for_date(date)
         grid = Table([[str(value) if value else "" for value in row] for row in puzzle],
-                     colWidths=[20.5] * 9, rowHeights=[20.5] * 9, hAlign="CENTER")
+                     colWidths=[19] * 9, rowHeights=[19] * 9, hAlign="CENTER")
         grid.setStyle(TableStyle([
             ("FONTNAME", (0, 0), (-1, -1), "Briefing-Bold"),
             ("FONTSIZE", (0, 0), (-1, -1), 12),
@@ -270,9 +277,14 @@ def render_pdf(edition, destination, proof=False):
             ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
         ]))
         panel = Table([[
-            [Paragraph("SUDOKU", puzzle_label), Spacer(1, 2),
-             Paragraph("1–9 în fiecare rând, coloană și casetă 3×3.", puzzle_instruction),
-             Spacer(1, 7), grid],
+            [Table([[Paragraph("SUDOKU", puzzle_label),
+                     Paragraph("1–9 / rând, coloană, casetă 3×3", puzzle_instruction)]],
+                   colWidths=[66, column_width - 66],
+                   style=TableStyle([("LEFTPADDING", (0, 0), (-1, -1), 0),
+                                     ("RIGHTPADDING", (0, 0), (-1, -1), 0),
+                                     ("TOPPADDING", (0, 0), (-1, -1), 0),
+                                     ("BOTTOMPADDING", (0, 0), (-1, -1), 0)])),
+             Spacer(1, 4), grid],
         ]], colWidths=[column_width])
         panel.setStyle(TableStyle([
             ("VALIGN", (0, 0), (-1, -1), "TOP"),
@@ -323,29 +335,19 @@ def render_pdf(edition, destination, proof=False):
             ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
         ]))
         story.append(columns)
-        story.append(Spacer(1, 6))
+        story.append(Spacer(1, 4))
         story.append(HRFlowable(width="100%", thickness=.7, color=dark))
-        story.append(Spacer(1, 6))
-        story.append(Paragraph("INDICATORI · BVB / BNR", eyebrow))
-        story.append(Spacer(1, 5))
-        indicator_cells = []
-        for indicator in indicators:
-            formatted = format_indicator(indicator)
-            label_text, value_text = formatted.split(": ", 1)
-            indicator_cells.append([
-                paragraph(label_text, small),
-                paragraph(value_text, stat),
-            ])
-        strip = Table([indicator_cells], colWidths=[content_width / 3] * 3)
+        story.append(Spacer(1, 7))
+        strip = Table([[Paragraph(format_indicator(indicator, compact=True), indicator_style)
+                        for indicator in indicators]], colWidths=[content_width / 3] * 3)
         strip.setStyle(TableStyle([
             ("VALIGN", (0, 0), (-1, -1), "TOP"),
             ("LEFTPADDING", (0, 0), (-1, -1), 0),
-            ("RIGHTPADDING", (0, 0), (-1, -1), 6),
+            ("RIGHTPADDING", (0, 0), (-1, -1), 4),
             ("TOPPADDING", (0, 0), (-1, -1), 0),
+            ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
         ]))
         story.append(strip)
-        story.append(Spacer(1, 8))
-        story.append(HRFlowable(width="100%", thickness=.35, color=line))
 
         def draw_footer(canvas, _document):
             canvas.saveState()

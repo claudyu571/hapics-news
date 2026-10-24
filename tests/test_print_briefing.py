@@ -46,7 +46,7 @@ class PrintBriefingTest(unittest.TestCase):
             reader = module.PdfReader(str(path))
             self.assertEqual(len(reader.pages), 1)
             text = " ".join(reader.pages[0].extract_text().split())
-            self.assertIn("INDICATORI · BVB / BNR", text)
+            self.assertIn("ROTX", text)
             self.assertIn("EUR/RON", text)
             self.assertIn("USD/RON", text)
             self.assertNotIn("Indice BET", text)
@@ -64,6 +64,27 @@ class PrintBriefingTest(unittest.TestCase):
             self.assertEqual(module.render_pdf(edition, path), 6)
             self.assertEqual(len(module.PdfReader(str(path)).pages), 1)
 
+    def test_seven_short_stories_fit_with_full_sudoku(self):
+        edition = json.loads((SCRIPT.parents[1] / "data" / "archive" / "2026-10-24.json").read_text())
+        sport = dict(edition["importantNews"][1])
+        sport.update({
+            "id": "layout-sport-example",
+            "title": "Rezultat important în finala internațională",
+            "fact": "Organizatorul a confirmat rezultatul final al primei partide.",
+            "printSummary": "Organizatorul a confirmat rezultatul final al primei partide.",
+            "category": "Sport",
+            "sourceName": "Organizatorul competiției",
+        })
+        edition["importantNews"].append(sport)
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "briefing.pdf"
+            self.assertEqual(module.render_pdf(edition, path), 7)
+            text = " ".join(module.PdfReader(str(path)).pages[0].extract_text().split())
+            self.assertIn("Rezultat important în finala internațională", text)
+            self.assertIn("SUDOKU", text)
+            self.assertIn("ROTX", text)
+            self.assertEqual(len(module.PdfReader(str(path)).pages), 1)
+
     def test_proof_is_clearly_labeled(self):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "proof.pdf"
@@ -79,7 +100,7 @@ class PrintBriefingTest(unittest.TestCase):
             self.assertEqual(module.render_pdf(edition, path), 6)
             text = module.PdfReader(str(path)).pages[0].extract_text()
             self.assertIn("SUDOKU", text)
-            self.assertIn("1–9 în", text)
+            self.assertIn("1–9 / rând", text)
             self.assertIn("casetă 3×3", text)
             self.assertEqual(len(module.PdfReader(str(path)).pages), 1)
 
@@ -100,6 +121,10 @@ class PrintBriefingTest(unittest.TestCase):
         indicator = {"id": "usd-ron", "label": "USD/RON", "value": 4.7, "unit": "lei",
                      "referenceDate": "2026-10-20", "freshness": "current"}
         self.assertEqual(module.format_indicator(indicator), "USD/RON: 4,7000 lei (20.10.2026)")
+        self.assertEqual(module.format_indicator(indicator, compact=True),
+                         "USD/RON <b>4,7000</b> lei · 20.10")
+        indicator["freshness"] = "stale"
+        self.assertIn("· ultim", module.format_indicator(indicator, compact=True))
         indicator["value"] = None
         indicator["freshness"] = "unavailable"
         self.assertEqual(module.format_indicator(indicator), "USD/RON: indisponibil")
