@@ -1,0 +1,492 @@
+{
+  "metadata": {
+    "editionDate": "2026-10-25",
+    "updatedAt": "2026-10-25T06:07:22+02:00",
+    "timezone": "Europe/Bucharest",
+    "title": "Hapics News — Briefing de dimineață, 25 octombrie 2026",
+    "status": "published",
+    "primarySource": "https://www.biziday.ro/feed/",
+    "sourceCoverage": "complete"
+  },
+  "executiveSummary": [
+    {
+      "id": "marea-neagra-reactie-ue",
+      "text": "UE condamnă atacurile rusești asupra navelor civile din Marea Neagră, iar Bucureștiul avertizează asupra riscului pentru navigație și aprovizionarea cu alimente.",
+      "category": "Securitate"
+    },
+    {
+      "id": "franta-proteste",
+      "text": "Peste 400.000 de persoane au protestat în Franța față de costul vieții și finanțarea școlilor; la Paris au avut loc confruntări cu poliția.",
+      "category": "Extern"
+    },
+    {
+      "id": "atac-rasist-franta",
+      "text": "O persoană a murit și cinci au fost rănite într-un atac armat lângă Paris, anchetat de parchetul antiterorist ca faptă motivată rasial.",
+      "category": "Extern"
+    },
+    {
+      "id": "exercitiu-nuclear-franta-marea-britanie",
+      "text": "Franța și Marea Britanie au desfășurat primul exercițiu comun care implică simularea componentei nucleare aeriene franceze, fără arme nucleare reale.",
+      "category": "Securitate"
+    },
+    {
+      "id": "bloc-drumul-taberei",
+      "text": "Blocul evacuat din Drumul Taberei are o fisură cunoscută din 2017 și probleme de canalizare; locatarii refuzaseră anterior soluția de consolidare propusă.",
+      "category": "Social"
+    },
+    {
+      "id": "euclid-cometa",
+      "text": "ESA a confirmat prima cometă necunoscută descoperită în datele telescopului Euclid, demonstrând o utilizare suplimentară pentru o misiune proiectată să studieze galaxiile.",
+      "category": "Spațiu"
+    },
+    {
+      "id": "aur-dans-sportiv",
+      "text": "Patrick Berbece și Andreea Sturzinschi apar pe primul loc la Mondialul WDSF de 10 Dansuri pentru tineret, însă federația marchează încă rezultatele drept neconfirmate.",
+      "category": "Sport"
+    }
+  ],
+  "importantNews": [
+    {
+      "id": "marea-neagra-reactie-ue",
+      "title": "UE condamnă escaladarea atacurilor asupra navelor civile din Marea Neagră",
+      "fact": "Șefa diplomației UE, Kaja Kallas, a condamnat atacurile rusești asupra navelor civile din Marea Neagră și a spus că incidentul mortal produs lângă apele românești reprezintă o nouă escaladare și pune presiune pe aprovizionarea globală cu alimente. Ministrul român de Externe, Dan Neculăescu, a invocat încălcarea dreptului internațional și a libertății de navigație. Declarațiile urmează scufundării navei Khoryv, a cărei cauză nu a fost stabilită definitiv.",
+      "printSummary": "Kaja Kallas și Dan Neculăescu condamnă atacurile asupra navelor civile; cauza scufundării navei Khoryv nu este încă stabilită definitiv.",
+      "interpretation": "Poziția comună ridică incidentul de la nivelul unei operațiuni de salvare la cel al securității europene și al rutelor alimentare. Riscul concret pentru România este creșterea costurilor de asigurare și transport în apropierea Constanței; atribuirea tehnică a scufundării rămâne însă separată de evaluarea politică.",
+      "category": "Securitate",
+      "impact": 5,
+      "impactLabel": "Navigație, porturi și securitate alimentară",
+      "horizon": "Imediat",
+      "sourceId": "biziday-reactie-ue-marea-neagra",
+      "sourceName": "Biziday / Serviciul European de Acțiune Externă",
+      "sourceUrl": "https://www.biziday.ro/373472-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "franta-proteste",
+      "title": "Peste 400.000 de persoane protestează în Franța",
+      "fact": "Associated Press relatează că peste 400.000 de persoane au participat sâmbătă la proteste în Franța, motivate în principal de costul vieții și finanțarea educației. La finalul marșului din Paris, protestatari mascați au aruncat obiecte și artificii, iar poliția a folosit gaze lacrimogene, grenade sonore și tunuri cu apă. Autoritățile mobilizaseră peste 70.000 de polițiști la nivel național.",
+      "printSummary": "AP: peste 400.000 de persoane au protestat în Franța pentru costul vieții și școli; finalul marșului din Paris a adus confruntări cu poliția.",
+      "interpretation": "Participarea mare și extinderea revendicărilor arată o presiune socială care depășește un episod izolat de ordine publică. Efectul politic asupra alegerilor prezidențiale din 2027 va depinde de persistența mobilizării și de răspunsul bugetar, nu doar de incidentele violente.",
+      "category": "Extern",
+      "impact": 5,
+      "impactLabel": "Stabilitate politică într-o economie majoră a UE",
+      "horizon": "1–4 săptămâni",
+      "sourceId": "ap-franta-proteste",
+      "sourceName": "Associated Press",
+      "sourceUrl": "https://apnews.com/article/ad2fb9206e72e5d1b4ae43fdf7aa96a9",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "atac-rasist-franta",
+      "title": "Parchetul antiterorist anchetează atacul rasist de lângă Paris",
+      "fact": "Un atacator a deschis focul în trei locuri din suburbiile Parisului, omorând o persoană și rănind alte cinci, inclusiv o fată de 12 ani. Un suspect de 39 de ani a fost arestat. Parchetul Național Antiterorist a preluat ancheta pentru omor și tentativă de omor în legătură cu o acțiune teroristă, cu circumstanța agravantă a motivării prin rasa, etnia, naționalitatea ori religia reală sau presupusă a victimelor.",
+      "printSummary": "AP: un mort și cinci răniți într-un atac lângă Paris; un suspect este arestat, iar parchetul antiterorist anchetează motivarea rasială.",
+      "interpretation": "Încadrarea juridică și alegerea victimelor fac din atac un caz național de securitate și coeziune socială. Motivația exactă și responsabilitatea penală sunt încă obiectul anchetei, astfel că declarațiile politice nu trebuie tratate drept verdict judiciar.",
+      "category": "Extern",
+      "impact": 4,
+      "impactLabel": "Securitate internă și coeziune socială",
+      "horizon": "Imediat",
+      "sourceId": "ap-atac-trappes",
+      "sourceName": "Associated Press",
+      "sourceUrl": "https://apnews.com/article/edcd3ab6c5ec2112505b358ca0a3de5a",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "exercitiu-nuclear-franta-marea-britanie",
+      "title": "Franța și Marea Britanie testează coordonarea descurajării nucleare",
+      "fact": "Avioane Typhoon britanice au escortat avioane Rafale franceze într-un exercițiu deasupra Mediteranei care a simulat pentru prima dată împreună o misiune a componentei nucleare aeriene franceze. Ministerele Apărării au precizat că nu au fost folosite arme nucleare. Cele două state își păstrează forțele și deciziile nucleare independente.",
+      "printSummary": "Reuters: avioane britanice și franceze au simulat împreună o misiune a componentei nucleare franceze; exercițiul nu a folosit arme reale.",
+      "interpretation": "Exercițiul este un semnal de interoperabilitate și descurajare europeană într-un context de tensiuni cu Rusia, nu o integrare a comenzilor nucleare. Relevanța pentru aliații europeni crește dacă astfel de exerciții devin recurente și sunt legate de planificarea convențională NATO.",
+      "category": "Securitate",
+      "impact": 4,
+      "impactLabel": "Apărare europeană și descurajare",
+      "horizon": "1–3 luni",
+      "sourceId": "reuters-exercitiu-nuclear",
+      "sourceName": "Reuters",
+      "sourceUrl": "https://www.marketscreener.com/news/british-jets-join-french-nuclear-exercise-for-first-time-france-says-ce785cdfd88df524",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "afd-emailuri-finantare",
+      "title": "E-mailuri publicate pun presiune pe lidera AfD în cazul donațiilor ilegale",
+      "fact": "Der Spiegel, citat de Reuters și Biziday, a analizat e-mailuri interne furate care sugerează că Alice Weidel știa în iulie 2017 despre donații electorale de 132.000 de euro, mai devreme decât afirmase public. AfD fusese deja amendat cu 396.000 de euro în acest caz. Partidul nu a răspuns întrebărilor despre autenticitatea mesajelor și a cerut presei să nu distribuie materialele obținute prin furt de date.",
+      "printSummary": "Reuters și Spiegel: e-mailuri furate sugerează că Alice Weidel știa mai devreme despre donațiile ilegale; AfD nu a confirmat autenticitatea lor.",
+      "interpretation": "Materialele pot amplifica dezbaterea germană privind integritatea finanțării politice și statutul AfD, dar provin dintr-un furt de date și autenticitatea lor nu a fost confirmată de partid. Consecințele juridice depind de verificarea probelor și de procedurile instituționale germane.",
+      "category": "Extern",
+      "impact": 4,
+      "impactLabel": "Politică germană și guvernanță europeană",
+      "horizon": "1–3 luni",
+      "sourceId": "biziday-afd-emailuri",
+      "sourceName": "Biziday / Reuters / Der Spiegel",
+      "sourceUrl": "https://www.biziday.ro/373477-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "bloc-drumul-taberei",
+      "title": "Evacuarea din Drumul Taberei readuce în prim-plan blocajele consolidării",
+      "fact": "Primăria Capitalei a transmis că fisura de cinci centimetri dintre două scări ale blocului OD3 din Drumul Taberei este cunoscută din 2017 și este asociată problemelor de canalizare ale proprietății, nu calității construcției. Documentația de consolidare fusese finalizată în 2021, dar locatarii au refuzat soluția propusă deoarece presupunea mutarea. Blocul a fost evacuat până la o nouă evaluare tehnică.",
+      "printSummary": "PMB: fisura blocului evacuat din Drumul Taberei este cunoscută din 2017; locatarii refuzaseră soluția de consolidare propusă în 2021.",
+      "interpretation": "Cazul arată că finanțarea și documentația nu sunt suficiente când procedurile cer acordul proprietarilor, relocare și remedierea instalațiilor private. Miza publică este un mecanism care să reducă riscul fără a elimina drepturile proprietarilor, iar siguranța concretă a clădirii trebuie stabilită de expertiză.",
+      "category": "Social",
+      "impact": 4,
+      "impactLabel": "Siguranță urbană și consolidare seismică",
+      "horizon": "Imediat",
+      "sourceId": "biziday-bloc-drumul-taberei",
+      "sourceName": "Biziday / Primăria Municipiului București",
+      "sourceUrl": "https://www.biziday.ro/373490-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "meserii-centre-date-ai",
+      "title": "Investițiile în centre de date cresc cererea pentru meserii tehnice",
+      "fact": "Biziday, citând Bloomberg, relatează că mari colegii tehnice din SUA își extind campusurile pe fondul cererii ridicate pentru programe de instalații, electricitate și sudură. Investițiile în centre de date pentru inteligență artificială sunt unul dintre motoarele cererii, iar unele programe au liste de așteptare. Extinderea este limitată de costul echipamentelor și de deficitul instructorilor.",
+      "printSummary": "Biziday și Bloomberg: investițiile în centre de date AI cresc cererea pentru electricieni, instalatori și sudori, iar unele programe au liste de așteptare.",
+      "interpretation": "Valul AI nu produce doar cerere pentru software și cipuri, ci și pentru infrastructură fizică și calificări profesionale. Este un semnal de piață a muncii din SUA, nu dovada automată a aceluiași deficit în România; relevanța locală depinde de investițiile efective în energie și centre de date.",
+      "category": "Tehnologie",
+      "impact": 4,
+      "impactLabel": "Forță de muncă și infrastructură AI",
+      "horizon": "6–12 luni",
+      "sourceId": "biziday-meserii-ai",
+      "sourceName": "Biziday / Bloomberg",
+      "sourceUrl": "https://www.biziday.ro/373506-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "euclid-cometa",
+      "title": "Euclid descoperă prima sa cometă necunoscută",
+      "fact": "ESA a anunțat că software-ul dezvoltat de cercetători a identificat în imagini Euclid din septembrie o cometă necunoscută anterior, confirmată la 8 octombrie de Minor Planet Center și desemnată C/2026 S1 (Euclid). Obiectul se află la aproximativ 1,3 miliarde de kilometri de Pământ. Euclid este proiectat în principal pentru studiul materiei și energiei întunecate, nu pentru urmărirea obiectelor mobile.",
+      "printSummary": "ESA: Minor Planet Center a confirmat C/2026 S1, prima cometă necunoscută descoperită în datele telescopului Euclid.",
+      "interpretation": "Descoperirea demonstrează că arhiva unei misiuni cosmologice poate detecta și obiecte rare din Sistemul Solar, iar validarea rapidă poate oferi timp pentru observații de la sol. Nu este o misiune către cometă și parametrii orbitei vor fi rafinați prin observații suplimentare.",
+      "category": "Spațiu",
+      "impact": 4,
+      "impactLabel": "Date științifice și detectarea obiectelor mici",
+      "horizon": "6–12 luni",
+      "sourceId": "esa-euclid-cometa",
+      "sourceName": "ESA / Euclid Consortium",
+      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_new_comet",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "aur-dans-sportiv",
+      "title": "Pereche românească pe primul loc la Mondialul WDSF de 10 Dansuri",
+      "fact": "Clasamentul publicat de World DanceSport Federation îi plasează pe Patrick Berbece și Andreea Sturzinschi pe primul loc la Campionatul Mondial de 10 Dansuri pentru tineret, desfășurat la Elblag, Polonia, pe 23 octombrie. Perechea a încheiat finala cu un total de 12 puncte de clasament. WDSF precizează însă că rezultatele disponibile sunt încă neconfirmate și pot fi revizuite.",
+      "printSummary": "WDSF îi plasează pe Patrick Berbece și Andreea Sturzinschi pe primul loc mondial la 10 Dansuri tineret; rezultatul este încă marcat neconfirmat.",
+      "interpretation": "Dacă federația validează clasamentul, este un titlu mondial românesc într-o disciplină cu zece probe și 30 de perechi înscrise. Până la eliminarea marcajului WDSF, performanța trebuie prezentată ca rezultat publicat, nu ca omologare definitivă.",
+      "category": "Sport",
+      "impact": 4,
+      "impactLabel": "Performanță românească internațională",
+      "horizon": "Imediat",
+      "sourceId": "wdsf-zece-dansuri",
+      "sourceName": "World DanceSport Federation",
+      "sourceUrl": "https://www.worlddancesport.org/Competitions/Results/World-Championship-Elblag-Youth-Ten-Dance-65825",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    }
+  ],
+  "romaniaAnalysis": {
+    "factBase": [
+      "UE și România avertizează că atacurile asupra navelor civile din Marea Neagră afectează libertatea navigației și aprovizionarea globală cu alimente.",
+      "Cauza scufundării navei Khoryv, produsă în afara apelor teritoriale românești, nu a fost stabilită definitiv.",
+      "Blocul OD3 din Drumul Taberei are o fisură cunoscută din 2017 și o procedură de consolidare rămasă fără acordul locatarilor.",
+      "Perechea românească Berbece–Sturzinschi apare pe primul loc în clasamentul WDSF, dar rezultatele sunt încă marcate neconfirmate."
+    ],
+    "political": "România trebuie să gestioneze simultan un risc extern, prin protejarea navigației și coordonarea europeană, și unul intern, prin mecanisme funcționale de consolidare a locuințelor private. Credibilitatea instituțională depinde de delimitarea clară între fapte confirmate, evaluări tehnice și declarații politice.",
+    "economic": "Escaladarea maritimă poate ridica primele de asigurare, costurile logistice și volatilitatea exporturilor prin Constanța. În mediul urban, amânarea consolidărilor transferă costurile spre intervenții de urgență și relocări; efectul agregat depinde de câte proiecte rămân blocate în situații similare.",
+    "interpretation": "Tema ediției este diferența dintre semnal și implementare: condamnările europene trebuie urmate de măsuri de siguranță maritimă, iar documentațiile de consolidare de soluții acceptabile și executabile. Scenariul de bază este o creștere graduală a costurilor și a presiunii administrative, nu o întrerupere imediată a activității portuare sau o concluzie tehnică generală despre blocurile Capitalei."
+  },
+  "investmentFundSignals": [
+    {
+      "id": "logistica-marea-neagra",
+      "label": "Fonduri cu expunere la transport și logistică regională",
+      "direction": "negativ",
+      "strength": 4,
+      "horizon": "1–4 săptămâni",
+      "rationale": "Incidentele maritime și avertismentele UE pot crește costurile de asigurare și operare, fără să confirme deocamdată o blocare a porturilor românești."
+    },
+    {
+      "id": "obligatiuni-europene",
+      "label": "Fonduri de obligațiuni europene",
+      "direction": "neutru",
+      "strength": 3,
+      "horizon": "1–3 luni",
+      "rationale": "Protestele franceze și presiunea pe bugetele publice sporesc incertitudinea politică, dar efectul asupra randamentelor depinde de răspunsul fiscal și de inflație."
+    },
+    {
+      "id": "infrastructura-digitala",
+      "label": "Fonduri cu expunere la infrastructură digitală",
+      "direction": "pozitiv",
+      "strength": 3,
+      "horizon": "6–12 luni",
+      "rationale": "Cererea pentru meserii tehnice susține extinderea fizică a centrelor de date, însă deficitul de personal și costurile energetice pot întârzia proiectele."
+    },
+    {
+      "id": "aparare-europeana",
+      "label": "Fonduri cu expunere la industria europeană de apărare",
+      "direction": "pozitiv",
+      "strength": 2,
+      "horizon": "6–12 luni",
+      "rationale": "Exercițiul franco-britanic indică o cooperare mai strânsă, dar o singură simulare nu stabilește singură ritmul contractelor sau al bugetelor."
+    }
+  ],
+  "indicators": [
+    {
+      "id": "franta-participanti-proteste",
+      "label": "Participare estimată la protestele din Franța",
+      "value": 400000,
+      "unit": "peste persoane",
+      "referenceDate": "2026-10-24",
+      "sourceName": "Associated Press",
+      "sourceUrl": "https://apnews.com/article/ad2fb9206e72e5d1b4ae43fdf7aa96a9",
+      "freshness": "current",
+      "note": "Estimare națională relatată de AP; participarea exactă poate fi revizuită."
+    },
+    {
+      "id": "bloc-od3-fisura",
+      "label": "Dimensiunea fisurii raportate la blocul OD3",
+      "value": 5,
+      "unit": "centimetri",
+      "referenceDate": "2026-10-24",
+      "sourceName": "Primăria Municipiului București / Biziday",
+      "sourceUrl": "https://www.biziday.ro/373490-2/",
+      "freshness": "current",
+      "note": "Fisură cunoscută din 2017; siguranța actuală rămâne obiectul evaluării tehnice."
+    },
+    {
+      "id": "euclid-distanta-cometa",
+      "label": "Distanța aproximativă a cometei C/2026 S1 față de Pământ",
+      "value": 1.3,
+      "unit": "miliarde kilometri",
+      "referenceDate": "2026-10-19",
+      "sourceName": "ESA",
+      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_new_comet",
+      "freshness": "current",
+      "note": "Distanță aproximativă la momentul anunțului; orbita va fi rafinată prin observații."
+    },
+    {
+      "id": "eur-ron",
+      "label": "EUR/RON",
+      "value": 5.3495,
+      "unit": "lei",
+      "referenceDate": "2026-10-23",
+      "sourceName": "BNR",
+      "sourceUrl": "https://curs.bnr.ro/nbrfxrates.xml",
+      "freshness": "current",
+      "note": "Curs de referință oficial publicat de BNR."
+    },
+    {
+      "id": "usd-ron",
+      "label": "USD/RON",
+      "value": 4.777,
+      "unit": "lei",
+      "referenceDate": "2026-10-23",
+      "sourceName": "BNR",
+      "sourceUrl": "https://curs.bnr.ro/nbrfxrates.xml",
+      "freshness": "current",
+      "note": "Curs de referință oficial publicat de BNR."
+    },
+    {
+      "id": "bet",
+      "label": "Indice BET",
+      "value": 34678.23,
+      "unit": "puncte",
+      "referenceDate": "2026-10-25",
+      "sourceName": "BVB",
+      "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=BET",
+      "freshness": "current",
+      "note": "Indicele principal al Bursei de Valori București."
+    },
+    {
+      "id": "rotx",
+      "label": "Indice ROTX",
+      "value": 78605.35,
+      "unit": "puncte",
+      "referenceDate": "2026-10-25",
+      "sourceName": "BVB / Wiener Börse",
+      "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=ROTX",
+      "freshness": "current",
+      "note": "Indicele acțiunilor românești blue-chip, calculat de Wiener Börse."
+    },
+    {
+      "id": "robor",
+      "label": "ROBOR 3M",
+      "value": 6.09,
+      "unit": "%",
+      "referenceDate": "2026-10-23",
+      "sourceName": "BNR",
+      "sourceUrl": "https://www.bnr.ro/1074-baza-de-date-interactiva",
+      "freshness": "current",
+      "note": "Rată interbancară de referință, stabilită zilnic de BNR."
+    },
+    {
+      "id": "ircc",
+      "label": "IRCC",
+      "value": null,
+      "unit": "%",
+      "referenceDate": "2026-10-25",
+      "sourceName": "BNR",
+      "sourceUrl": "https://www.bnr.ro/",
+      "freshness": "unavailable"
+    }
+  ],
+  "riskScores": [
+    {
+      "id": "securitate-marea-neagra",
+      "label": "Securitatea navigației în Marea Neagră",
+      "score": 5,
+      "trend": "în creștere",
+      "description": "Atacurile asupra navelor civile și incidentul mortal din apropierea României sporesc riscul operațional și diplomatic."
+    },
+    {
+      "id": "tensiune-sociala-europa",
+      "label": "Tensiune socială în economiile europene",
+      "score": 4,
+      "trend": "în creștere",
+      "description": "Participarea mare la protestele franceze și confruntările de la Paris indică presiune persistentă asupra guvernului."
+    },
+    {
+      "id": "siguranta-cladiri-bucuresti",
+      "label": "Siguranța clădirilor vulnerabile din București",
+      "score": 4,
+      "trend": "stabil",
+      "description": "Evacuarea blocului OD3 expune din nou întârzierile dintre expertizare, acordul proprietarilor și execuția consolidării."
+    },
+    {
+      "id": "polarizare-politica-europa",
+      "label": "Polarizare politică europeană",
+      "score": 4,
+      "trend": "în creștere",
+      "description": "Atacul rasist din Franța și acuzațiile privind AfD pot intensifica disputa publică înaintea unor cicluri electorale importante."
+    }
+  ],
+  "watchlist": [
+    {
+      "id": "ancheta-khoryv",
+      "title": "Cauza scufundării navei Khoryv",
+      "why": "Atribuirea tehnică poate schimba răspunsul României și evaluarea riscului pentru traficul comercial.",
+      "trigger": "Raport oficial al anchetei sau identificarea verificată a vectorului incidentului.",
+      "status": "în așteptare",
+      "sourceUrl": "https://www.biziday.ro/373472-2/"
+    },
+    {
+      "id": "expertiza-od3",
+      "title": "Expertiza blocului OD3",
+      "why": "Decizia de revenire a locatarilor și reluarea consolidării depind de evaluarea tehnică actuală.",
+      "trigger": "Publicarea concluziilor experților și a unui calendar pentru intervenții.",
+      "status": "în așteptare",
+      "sourceUrl": "https://www.biziday.ro/373490-2/"
+    },
+    {
+      "id": "validare-wdsf",
+      "title": "Omologarea rezultatului WDSF",
+      "why": "Federația afișează primul loc al perechii românești, dar marchează rezultatele drept neconfirmate.",
+      "trigger": "Eliminarea avertismentului de rezultate neconfirmate din pagina oficială WDSF.",
+      "status": "în așteptare",
+      "sourceUrl": "https://www.worlddancesport.org/Competitions/Detail/World-Championship-Elblag-Youth-Ten-Dance-65825"
+    },
+    {
+      "id": "franta-raspuns-politic",
+      "title": "Răspunsul guvernului francez la proteste",
+      "why": "Concesiile bugetare sau o nouă mobilizare pot influența stabilitatea politică și percepția fiscală.",
+      "trigger": "Anunț guvernamental concret sau o nouă mobilizare națională confirmată.",
+      "status": "în așteptare",
+      "sourceUrl": "https://apnews.com/article/ad2fb9206e72e5d1b4ae43fdf7aa96a9"
+    }
+  ],
+  "conclusion": {
+    "title": "Riscurile cresc când implementarea rămâne în urmă",
+    "body": "România intră în săptămână cu un risc maritim ridicat și cu un nou exemplu al blocajelor de consolidare urbană, în timp ce Franța concentrează presiuni sociale și de securitate. Semnalele din tehnologie, știință și sport sunt pozitive, dar fiecare are limite clare: infrastructura AI cere forță de muncă, descoperirea Euclid nu este o misiune de interceptare, iar rezultatul WDSF așteaptă confirmarea formală.",
+    "actionPoints": [
+      "Urmărește concluziile oficiale despre nava Khoryv, fără atribuiri premature.",
+      "Verifică expertiza blocului OD3 și pașii concreți pentru relocare sau consolidare.",
+      "Separă amploarea protestelor franceze de incidentele violente punctuale.",
+      "Așteaptă validarea WDSF înainte de a trata titlul mondial drept omologat definitiv."
+    ]
+  },
+  "sources": [
+    {
+      "id": "biziday-rss",
+      "name": "Biziday RSS",
+      "url": "https://www.biziday.ro/feed/",
+      "type": "primary",
+      "accessedAt": "2026-10-25T06:04:56+02:00"
+    },
+    {
+      "id": "biziday-reactie-ue-marea-neagra",
+      "name": "Biziday — reacția UE la atacurile din Marea Neagră",
+      "url": "https://www.biziday.ro/373472-2/",
+      "type": "secondary",
+      "accessedAt": "2026-10-25T06:04:56+02:00"
+    },
+    {
+      "id": "ap-franta-proteste",
+      "name": "Associated Press — protestele din Franța",
+      "url": "https://apnews.com/article/ad2fb9206e72e5d1b4ae43fdf7aa96a9",
+      "type": "secondary",
+      "accessedAt": "2026-10-25T06:04:56+02:00"
+    },
+    {
+      "id": "ap-atac-trappes",
+      "name": "Associated Press — atacul din suburbiile Parisului",
+      "url": "https://apnews.com/article/edcd3ab6c5ec2112505b358ca0a3de5a",
+      "type": "secondary",
+      "accessedAt": "2026-10-25T06:04:56+02:00"
+    },
+    {
+      "id": "reuters-exercitiu-nuclear",
+      "name": "Reuters — exercițiul nuclear franco-britanic",
+      "url": "https://www.marketscreener.com/news/british-jets-join-french-nuclear-exercise-for-first-time-france-says-ce785cdfd88df524",
+      "type": "secondary",
+      "accessedAt": "2026-10-25T06:04:56+02:00"
+    },
+    {
+      "id": "biziday-afd-emailuri",
+      "name": "Biziday — e-mailurile AfD",
+      "url": "https://www.biziday.ro/373477-2/",
+      "type": "secondary",
+      "accessedAt": "2026-10-25T06:04:56+02:00"
+    },
+    {
+      "id": "biziday-bloc-drumul-taberei",
+      "name": "Biziday — blocul evacuat din Drumul Taberei",
+      "url": "https://www.biziday.ro/373490-2/",
+      "type": "secondary",
+      "accessedAt": "2026-10-25T06:04:56+02:00"
+    },
+    {
+      "id": "biziday-meserii-ai",
+      "name": "Biziday — cererea pentru meserii tehnice",
+      "url": "https://www.biziday.ro/373506-2/",
+      "type": "secondary",
+      "accessedAt": "2026-10-25T06:04:56+02:00"
+    },
+    {
+      "id": "esa-euclid-cometa",
+      "name": "ESA — Euclid discovers new comet",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_new_comet",
+      "type": "official",
+      "accessedAt": "2026-10-25T06:04:56+02:00"
+    },
+    {
+      "id": "euclid-consortium-cometa",
+      "name": "Euclid Consortium — C/2026 S1",
+      "url": "https://www.euclid-ec.org/euclids-first-comet-discovery/",
+      "type": "primary",
+      "accessedAt": "2026-10-25T06:04:56+02:00"
+    },
+    {
+      "id": "wdsf-zece-dansuri",
+      "name": "World DanceSport Federation — rezultate 10 Dansuri tineret",
+      "url": "https://www.worlddancesport.org/Competitions/Results/World-Championship-Elblag-Youth-Ten-Dance-65825",
+      "type": "official",
+      "accessedAt": "2026-10-25T06:04:56+02:00"
+    }
+  ]
+}
