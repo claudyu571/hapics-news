@@ -1,274 +1,253 @@
 {
   "metadata": {
-    "editionDate": "2026-10-25",
-    "updatedAt": "2026-10-25T06:07:22+02:00",
+    "editionDate": "2026-10-26",
+    "updatedAt": "2026-10-26T06:01:09+02:00",
     "timezone": "Europe/Bucharest",
-    "title": "Hapics News — Briefing de dimineață, 25 octombrie 2026",
+    "title": "Hapics News — Briefing de dimineață, 26 octombrie 2026",
     "status": "published",
     "primarySource": "https://www.biziday.ro/feed/",
     "sourceCoverage": "complete"
   },
   "executiveSummary": [
     {
-      "id": "marea-neagra-reactie-ue",
-      "text": "UE condamnă atacurile rusești asupra navelor civile din Marea Neagră, iar Bucureștiul avertizează asupra riscului pentru navigație și aprovizionarea cu alimente.",
-      "category": "Securitate"
-    },
-    {
-      "id": "franta-proteste",
-      "text": "Peste 400.000 de persoane au protestat în Franța față de costul vieții și finanțarea școlilor; la Paris au avut loc confruntări cu poliția.",
+      "id": "serbia-alegeri-studenti",
+      "text": "Aleksandar Vučić și-a recunoscut înfrângerea în alegerile parlamentare din Serbia, câștigate de mișcarea politică pornită din protestele studențești.",
       "category": "Extern"
     },
     {
-      "id": "atac-rasist-franta",
-      "text": "O persoană a murit și cinci au fost rănite într-un atac armat lângă Paris, anchetat de parchetul antiterorist ca faptă motivată rasial.",
-      "category": "Extern"
+      "id": "romania-executie-bugetara",
+      "text": "Deficitul bugetar al României a coborât la 3,82% din PIB după nouă luni, dar încasarea ultimelor cereri PNRR rămâne decisivă pentru finanțarea cheltuielilor deja făcute.",
+      "category": "Economie"
     },
     {
-      "id": "exercitiu-nuclear-franta-marea-britanie",
-      "text": "Franța și Marea Britanie au desfășurat primul exercițiu comun care implică simularea componentei nucleare aeriene franceze, fără arme nucleare reale.",
+      "id": "mapn-dezinformare-alerta",
+      "text": "MApN dezminte existența unei noi alerte naționale și arată că postări virale reciclează declarații mai vechi ale șefului Statului Major.",
       "category": "Securitate"
     },
     {
-      "id": "bloc-drumul-taberei",
-      "text": "Blocul evacuat din Drumul Taberei are o fisură cunoscută din 2017 și probleme de canalizare; locatarii refuzaseră anterior soluția de consolidare propusă.",
-      "category": "Social"
-    },
-    {
-      "id": "euclid-cometa",
-      "text": "ESA a confirmat prima cometă necunoscută descoperită în datele telescopului Euclid, demonstrând o utilizare suplimentară pentru o misiune proiectată să studieze galaxiile.",
+      "id": "nasa-artemis-iii-test",
+      "text": "NASA a redefinit Artemis III ca misiune de testare în orbită terestră a sistemelor Blue Origin și SpaceX, înaintea unei aselenizări cu echipaj vizate pentru 2028.",
       "category": "Spațiu"
     },
     {
-      "id": "aur-dans-sportiv",
-      "text": "Patrick Berbece și Andreea Sturzinschi apar pe primul loc la Mondialul WDSF de 10 Dansuri pentru tineret, însă federația marchează încă rezultatele drept neconfirmate.",
-      "category": "Sport"
+      "id": "uae-deversare-petrol",
+      "text": "Emiratele Arabe Unite au închis plajele de la nord de Dubai după o deversare de petrol, într-o zonă afectată repetat de conflictul din Golf.",
+      "category": "Climă"
+    },
+    {
+      "id": "audi-fabrica-georgia",
+      "text": "Audi a anunțat o investiție de aproximativ 4,2 miliarde de dolari într-o fabrică americană de SUV-uri, cu producția planificată pentru 2030.",
+      "category": "Economie"
     }
   ],
   "importantNews": [
     {
-      "id": "marea-neagra-reactie-ue",
-      "title": "UE condamnă escaladarea atacurilor asupra navelor civile din Marea Neagră",
-      "fact": "Șefa diplomației UE, Kaja Kallas, a condamnat atacurile rusești asupra navelor civile din Marea Neagră și a spus că incidentul mortal produs lângă apele românești reprezintă o nouă escaladare și pune presiune pe aprovizionarea globală cu alimente. Ministrul român de Externe, Dan Neculăescu, a invocat încălcarea dreptului internațional și a libertății de navigație. Declarațiile urmează scufundării navei Khoryv, a cărei cauză nu a fost stabilită definitiv.",
-      "printSummary": "Kaja Kallas și Dan Neculăescu condamnă atacurile asupra navelor civile; cauza scufundării navei Khoryv nu este încă stabilită definitiv.",
-      "interpretation": "Poziția comună ridică incidentul de la nivelul unei operațiuni de salvare la cel al securității europene și al rutelor alimentare. Riscul concret pentru România este creșterea costurilor de asigurare și transport în apropierea Constanței; atribuirea tehnică a scufundării rămâne însă separată de evaluarea politică.",
-      "category": "Securitate",
+      "id": "serbia-alegeri-studenti",
+      "title": "Mișcarea studențească învinge tabăra lui Vučić în Serbia",
+      "fact": "Associated Press relatează că Aleksandar Vučić și-a recunoscut înfrângerea în alegerile parlamentare de duminică, după mai mult de 12 ani la putere. Lista Studenților, formată din mișcarea care a condus aproape doi ani de proteste anticorupție, a obținut o majoritate largă și urmează să formeze guvernul.",
+      "printSummary": "AP: Vučić și-a recunoscut înfrângerea, iar Lista Studenților a câștigat majoritatea necesară formării guvernului Serbiei.",
+      "interpretation": "Rezultatul deschide cea mai importantă schimbare politică sârbă din ultimul deceniu. Direcția externă nu se schimbă automat: ritmul apropierii de UE și relațiile cu Rusia și China vor depinde de coaliție, numiri și primele decizii ale noului executiv.",
+      "category": "Extern",
       "impact": 5,
-      "impactLabel": "Navigație, porturi și securitate alimentară",
-      "horizon": "Imediat",
-      "sourceId": "biziday-reactie-ue-marea-neagra",
-      "sourceName": "Biziday / Serviciul European de Acțiune Externă",
-      "sourceUrl": "https://www.biziday.ro/373472-2/",
+      "impactLabel": "Schimbare politică majoră în Balcanii de Vest",
+      "horizon": "1–3 luni",
+      "sourceId": "ap-serbia-alegeri",
+      "sourceName": "Associated Press",
+      "sourceUrl": "https://apnews.com/article/fdf5def8a20aebc8ae139fd719478775",
       "isSecondary": true,
       "confidence": "confirmed"
     },
     {
-      "id": "franta-proteste",
-      "title": "Peste 400.000 de persoane protestează în Franța",
-      "fact": "Associated Press relatează că peste 400.000 de persoane au participat sâmbătă la proteste în Franța, motivate în principal de costul vieții și finanțarea educației. La finalul marșului din Paris, protestatari mascați au aruncat obiecte și artificii, iar poliția a folosit gaze lacrimogene, grenade sonore și tunuri cu apă. Autoritățile mobilizaseră peste 70.000 de polițiști la nivel național.",
-      "printSummary": "AP: peste 400.000 de persoane au protestat în Franța pentru costul vieții și școli; finalul marșului din Paris a adus confruntări cu poliția.",
-      "interpretation": "Participarea mare și extinderea revendicărilor arată o presiune socială care depășește un episod izolat de ordine publică. Efectul politic asupra alegerilor prezidențiale din 2027 va depinde de persistența mobilizării și de răspunsul bugetar, nu doar de incidentele violente.",
-      "category": "Extern",
+      "id": "romania-executie-bugetara",
+      "title": "Deficitul scade, dar ultimele tranșe PNRR rămân critice",
+      "fact": "Datele operative prezentate de Ministerul Finanțelor arată un deficit al bugetului general consolidat de 78,52 miliarde lei, echivalent cu 3,82% din PIB, în primele nouă luni din 2026, față de 5,35% din PIB în perioada similară din 2025. Investițiile au ajuns la aproape 108 miliarde lei, iar decizia Comisiei Europene pentru ultimele cereri de plată PNRR este așteptată până la 20 noiembrie.",
+      "printSummary": "Ministerul Finanțelor: deficitul la nouă luni a scăzut la 3,82% din PIB; ultimele cereri PNRR sunt în evaluarea Comisiei Europene.",
+      "interpretation": "Consolidarea este vizibilă în comparația anuală, însă o parte din echilibrul bugetar depinde de validarea granturilor europene pentru cheltuieli deja realizate. Un rezultat sub așteptări la cererile finale ar transfera diferența asupra bugetului național.",
+      "category": "Economie",
       "impact": 5,
-      "impactLabel": "Stabilitate politică într-o economie majoră a UE",
+      "impactLabel": "Finanțe publice și absorbția fondurilor UE",
       "horizon": "1–4 săptămâni",
-      "sourceId": "ap-franta-proteste",
-      "sourceName": "Associated Press",
-      "sourceUrl": "https://apnews.com/article/ad2fb9206e72e5d1b4ae43fdf7aa96a9",
+      "sourceId": "hotnews-executie-bugetara",
+      "sourceName": "HotNews / Ministerul Finanțelor",
+      "sourceUrl": "https://hotnews.ro/deficit-in-scadere-investitii-in-crestere-romania-incheie-primele-noua-luni-cu-un-deficit-de-382-din-pib-si-investitii-de-aproape-108-miliarde-de-lei-2378312",
       "isSecondary": true,
       "confidence": "confirmed"
     },
     {
-      "id": "atac-rasist-franta",
-      "title": "Parchetul antiterorist anchetează atacul rasist de lângă Paris",
-      "fact": "Un atacator a deschis focul în trei locuri din suburbiile Parisului, omorând o persoană și rănind alte cinci, inclusiv o fată de 12 ani. Un suspect de 39 de ani a fost arestat. Parchetul Național Antiterorist a preluat ancheta pentru omor și tentativă de omor în legătură cu o acțiune teroristă, cu circumstanța agravantă a motivării prin rasa, etnia, naționalitatea ori religia reală sau presupusă a victimelor.",
-      "printSummary": "AP: un mort și cinci răniți într-un atac lângă Paris; un suspect este arestat, iar parchetul antiterorist anchetează motivarea rasială.",
-      "interpretation": "Încadrarea juridică și alegerea victimelor fac din atac un caz național de securitate și coeziune socială. Motivația exactă și responsabilitatea penală sunt încă obiectul anchetei, astfel că declarațiile politice nu trebuie tratate drept verdict judiciar.",
-      "category": "Extern",
-      "impact": 4,
-      "impactLabel": "Securitate internă și coeziune socială",
-      "horizon": "Imediat",
-      "sourceId": "ap-atac-trappes",
-      "sourceName": "Associated Press",
-      "sourceUrl": "https://apnews.com/article/edcd3ab6c5ec2112505b358ca0a3de5a",
-      "isSecondary": true,
-      "confidence": "confirmed"
-    },
-    {
-      "id": "exercitiu-nuclear-franta-marea-britanie",
-      "title": "Franța și Marea Britanie testează coordonarea descurajării nucleare",
-      "fact": "Avioane Typhoon britanice au escortat avioane Rafale franceze într-un exercițiu deasupra Mediteranei care a simulat pentru prima dată împreună o misiune a componentei nucleare aeriene franceze. Ministerele Apărării au precizat că nu au fost folosite arme nucleare. Cele două state își păstrează forțele și deciziile nucleare independente.",
-      "printSummary": "Reuters: avioane britanice și franceze au simulat împreună o misiune a componentei nucleare franceze; exercițiul nu a folosit arme reale.",
-      "interpretation": "Exercițiul este un semnal de interoperabilitate și descurajare europeană într-un context de tensiuni cu Rusia, nu o integrare a comenzilor nucleare. Relevanța pentru aliații europeni crește dacă astfel de exerciții devin recurente și sunt legate de planificarea convențională NATO.",
+      "id": "mapn-dezinformare-alerta",
+      "title": "MApN dezminte o falsă alertă națională distribuită online",
+      "fact": "Ministerul Apărării Naționale a precizat că postări distribuite pe Facebook în 24 și 25 octombrie prezintă declarații mai vechi ale generalului Gheorghiță Vlad ca informații de ultimă oră. MApN afirmă că șeful Statului Major al Apărării nu a emis nicio alertă națională și că nu există avertizări oficiale recente de acest fel.",
+      "printSummary": "MApN: șeful Statului Major nu a emis o alertă națională; postările virale reciclează declarații mai vechi, scoase din context.",
+      "interpretation": "Cazul arată cum informații autentice pot deveni înșelătoare prin eliminarea datei și schimbarea contextului. Miza imediată este evitarea panicii; verificarea trebuie făcută pe canalele oficiale, fără a deduce că orice discuție despre pregătirea apărării este falsă.",
       "category": "Securitate",
       "impact": 4,
-      "impactLabel": "Apărare europeană și descurajare",
-      "horizon": "1–3 luni",
-      "sourceId": "reuters-exercitiu-nuclear",
-      "sourceName": "Reuters",
-      "sourceUrl": "https://www.marketscreener.com/news/british-jets-join-french-nuclear-exercise-for-first-time-france-says-ce785cdfd88df524",
-      "isSecondary": true,
-      "confidence": "confirmed"
-    },
-    {
-      "id": "afd-emailuri-finantare",
-      "title": "E-mailuri publicate pun presiune pe lidera AfD în cazul donațiilor ilegale",
-      "fact": "Der Spiegel, citat de Reuters și Biziday, a analizat e-mailuri interne furate care sugerează că Alice Weidel știa în iulie 2017 despre donații electorale de 132.000 de euro, mai devreme decât afirmase public. AfD fusese deja amendat cu 396.000 de euro în acest caz. Partidul nu a răspuns întrebărilor despre autenticitatea mesajelor și a cerut presei să nu distribuie materialele obținute prin furt de date.",
-      "printSummary": "Reuters și Spiegel: e-mailuri furate sugerează că Alice Weidel știa mai devreme despre donațiile ilegale; AfD nu a confirmat autenticitatea lor.",
-      "interpretation": "Materialele pot amplifica dezbaterea germană privind integritatea finanțării politice și statutul AfD, dar provin dintr-un furt de date și autenticitatea lor nu a fost confirmată de partid. Consecințele juridice depind de verificarea probelor și de procedurile instituționale germane.",
-      "category": "Extern",
-      "impact": 4,
-      "impactLabel": "Politică germană și guvernanță europeană",
-      "horizon": "1–3 luni",
-      "sourceId": "biziday-afd-emailuri",
-      "sourceName": "Biziday / Reuters / Der Spiegel",
-      "sourceUrl": "https://www.biziday.ro/373477-2/",
-      "isSecondary": true,
-      "confidence": "confirmed"
-    },
-    {
-      "id": "bloc-drumul-taberei",
-      "title": "Evacuarea din Drumul Taberei readuce în prim-plan blocajele consolidării",
-      "fact": "Primăria Capitalei a transmis că fisura de cinci centimetri dintre două scări ale blocului OD3 din Drumul Taberei este cunoscută din 2017 și este asociată problemelor de canalizare ale proprietății, nu calității construcției. Documentația de consolidare fusese finalizată în 2021, dar locatarii au refuzat soluția propusă deoarece presupunea mutarea. Blocul a fost evacuat până la o nouă evaluare tehnică.",
-      "printSummary": "PMB: fisura blocului evacuat din Drumul Taberei este cunoscută din 2017; locatarii refuzaseră soluția de consolidare propusă în 2021.",
-      "interpretation": "Cazul arată că finanțarea și documentația nu sunt suficiente când procedurile cer acordul proprietarilor, relocare și remedierea instalațiilor private. Miza publică este un mecanism care să reducă riscul fără a elimina drepturile proprietarilor, iar siguranța concretă a clădirii trebuie stabilită de expertiză.",
-      "category": "Social",
-      "impact": 4,
-      "impactLabel": "Siguranță urbană și consolidare seismică",
+      "impactLabel": "Încredere publică și reziliență informațională",
       "horizon": "Imediat",
-      "sourceId": "biziday-bloc-drumul-taberei",
-      "sourceName": "Biziday / Primăria Municipiului București",
-      "sourceUrl": "https://www.biziday.ro/373490-2/",
+      "sourceId": "mapn-inforadar-alerta",
+      "sourceName": "MApN — Inforadar",
+      "sourceUrl": "https://inforadar.mapn.ro/tema/116_postari-alarmiste-care-atribuie-%C8%99efului-statului-major-al-apararii-declara%C8%9Bii-scoase-din-context",
       "isSecondary": true,
       "confidence": "confirmed"
     },
     {
-      "id": "meserii-centre-date-ai",
-      "title": "Investițiile în centre de date cresc cererea pentru meserii tehnice",
-      "fact": "Biziday, citând Bloomberg, relatează că mari colegii tehnice din SUA își extind campusurile pe fondul cererii ridicate pentru programe de instalații, electricitate și sudură. Investițiile în centre de date pentru inteligență artificială sunt unul dintre motoarele cererii, iar unele programe au liste de așteptare. Extinderea este limitată de costul echipamentelor și de deficitul instructorilor.",
-      "printSummary": "Biziday și Bloomberg: investițiile în centre de date AI cresc cererea pentru electricieni, instalatori și sudori, iar unele programe au liste de așteptare.",
-      "interpretation": "Valul AI nu produce doar cerere pentru software și cipuri, ci și pentru infrastructură fizică și calificări profesionale. Este un semnal de piață a muncii din SUA, nu dovada automată a aceluiași deficit în România; relevanța locală depinde de investițiile efective în energie și centre de date.",
+      "id": "nasa-artemis-iii-test",
+      "title": "Artemis III devine un test orbital înaintea revenirii pe Lună",
+      "fact": "NASA a anunțat că Artemis III, programată pentru 2027, va trimite patru astronauți într-o misiune de aproximativ 14 zile pe orbită terestră joasă. Echipajul va testa întâlnirea și andocarea Orion cu demonstratoare ale modulelor lunare Blue Origin și SpaceX; astronauții nu vor coborî pe Lună, iar NASA vizează acum o aselenizare cu echipaj în 2028.",
+      "printSummary": "NASA: Artemis III va testa în 2027 andocarea Orion cu demonstratoare Blue Origin și SpaceX; aselenizarea este vizată pentru 2028.",
+      "interpretation": "Anunțul separă demonstrația tehnică de utilizarea operațională: misiunea reduce riscul de integrare, dar confirmă că revenirea oamenilor pe suprafața Lunii nu va avea loc prin Artemis III. Calendarul 2028 rămâne o țintă, dependentă de rezultatele testelor și de maturitatea modulelor.",
+      "category": "Spațiu",
+      "impact": 5,
+      "impactLabel": "Calendarul explorării lunare cu echipaj",
+      "horizon": "6–12 luni",
+      "sourceId": "nasa-artemis-iii",
+      "sourceName": "NASA",
+      "sourceUrl": "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "uae-deversare-petrol",
+      "title": "Deversarea de petrol închide plajele de la nord de Dubai",
+      "fact": "Autoritățile din Emiratele Arabe Unite au închis toate plajele de la nord de Dubai după o deversare masivă de petrol. Biziday relatează că în zonă persistă un miros chimic puternic, în timp ce autoritățile afirmă că aerul nu prezintă riscuri pentru sănătate. Sursa exactă și amploarea finală a poluării nu sunt încă stabilite public.",
+      "printSummary": "Biziday: EAU au închis plajele de la nord de Dubai după o deversare de petrol; sursa și amploarea finală nu sunt încă stabilite.",
+      "interpretation": "Incidentul adaugă costuri de mediu și turistice unei regiuni deja expuse avariilor maritime din conflictul din Golf. Afirmația privind siguranța aerului trebuie urmărită prin măsurători și actualizări oficiale, nu extinsă la siguranța apei sau ecosistemelor.",
+      "category": "Climă",
+      "impact": 4,
+      "impactLabel": "Poluare marină și activitate litorală",
+      "horizon": "1–4 săptămâni",
+      "sourceId": "biziday-uae-petrol",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/373526-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "audi-fabrica-georgia",
+      "title": "Audi anunță o fabrică de 4,2 miliarde de dolari în Georgia",
+      "fact": "Audi a anunțat că va investi aproximativ 4,2 miliarde de dolari într-o fabrică de SUV-uri în statul american Georgia. Proiectul are o capacitate planificată de 200.000 de vehicule anual și aproximativ 4.500 de locuri de muncă, iar producția este programată să înceapă la începutul anului 2030; investiția este anunțată, nu încă operațională.",
+      "printSummary": "Audi anunță 4,2 miliarde de dolari pentru o fabrică de SUV-uri în Georgia, cu producție planificată din 2030 și 4.500 de posturi.",
+      "interpretation": "Decizia extinde localizarea producției auto europene în SUA și poate reduce expunerea la bariere comerciale. Impactul industrial va apărea gradual, iar capacitatea și numărul de locuri de muncă rămân obiective ale proiectului până la construcție și pornirea producției.",
+      "category": "Economie",
+      "impact": 4,
+      "impactLabel": "Investiții auto și lanțuri industriale transatlantice",
+      "horizon": "6–12 luni",
+      "sourceId": "biziday-audi-georgia",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/373530-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "hpe-calculator-lunar",
+      "title": "HPE pregătește un demonstrator de calcul performant pe Lună",
+      "fact": "HPE a prezentat Spaceborne Computer-4, un modul care ar urma să ruleze teste de calcul de înaltă performanță, inferență vizuală și aplicații AI pe roverul FLIP al Astrolab. Lansarea este planificată pentru sfârșitul lui 2026 în cadrul unei misiuni comerciale lunare; sistemul nu a ajuns încă pe Lună și performanța sa nu a fost demonstrată acolo.",
+      "printSummary": "HPE a prezentat un modul de calcul și AI pentru un rover lunar; lansarea este planificată, iar funcționarea pe Lună nu a fost încă demonstrată.",
+      "interpretation": "Dacă demonstrația reușește, procesarea locală ar putea reduce volumul de date transmis spre Pământ și accelera deciziile roverelor. Deocamdată este un plan de testare, nu infrastructură lunară disponibilă și nici dovada că sarcinile AI vor funcționa stabil în mediul lunar.",
       "category": "Tehnologie",
       "impact": 4,
-      "impactLabel": "Forță de muncă și infrastructură AI",
+      "impactLabel": "Calcul la marginea rețelei pentru misiuni spațiale",
       "horizon": "6–12 luni",
-      "sourceId": "biziday-meserii-ai",
-      "sourceName": "Biziday / Bloomberg",
-      "sourceUrl": "https://www.biziday.ro/373506-2/",
+      "sourceId": "hpe-spaceborne-4",
+      "sourceName": "HPE",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/10/hpe-spaceborne-computer-to-power-high-performance-computing-and-ai-on-the-moon.html",
       "isSecondary": true,
       "confidence": "confirmed"
     },
     {
-      "id": "euclid-cometa",
-      "title": "Euclid descoperă prima sa cometă necunoscută",
-      "fact": "ESA a anunțat că software-ul dezvoltat de cercetători a identificat în imagini Euclid din septembrie o cometă necunoscută anterior, confirmată la 8 octombrie de Minor Planet Center și desemnată C/2026 S1 (Euclid). Obiectul se află la aproximativ 1,3 miliarde de kilometri de Pământ. Euclid este proiectat în principal pentru studiul materiei și energiei întunecate, nu pentru urmărirea obiectelor mobile.",
-      "printSummary": "ESA: Minor Planet Center a confirmat C/2026 S1, prima cometă necunoscută descoperită în datele telescopului Euclid.",
-      "interpretation": "Descoperirea demonstrează că arhiva unei misiuni cosmologice poate detecta și obiecte rare din Sistemul Solar, iar validarea rapidă poate oferi timp pentru observații de la sol. Nu este o misiune către cometă și parametrii orbitei vor fi rafinați prin observații suplimentare.",
-      "category": "Spațiu",
+      "id": "bulgaria-prezidentiale-tur-doi",
+      "title": "Alegerile prezidențiale din Bulgaria merg în turul al doilea",
+      "fact": "Exit-pollurile publicate după primul tur al alegerilor prezidențiale din Bulgaria îi plasează pe Iliana Iotova și Kiril Valchev în frunte, cu aproximativ 36% din voturi, urmând ca turul al doilea să aibă loc duminica viitoare. Rezultatul final și ordinea exactă depind de numărătoarea oficială.",
+      "printSummary": "Exit-pollurile din Bulgaria indică un tur doi prezidențial duminica viitoare; rezultatul final depinde de numărătoarea oficială.",
+      "interpretation": "Scrutinul contează pentru continuitatea politică într-un stat vecin și membru UE, dar atribuțiile prezidențiale și rezultatul provizoriu limitează concluziile imediate. Semnalul relevant va fi componența turului doi confirmată oficial și poziționarea candidaților pe teme europene.",
+      "category": "Extern",
       "impact": 4,
-      "impactLabel": "Date științifice și detectarea obiectelor mici",
-      "horizon": "6–12 luni",
-      "sourceId": "esa-euclid-cometa",
-      "sourceName": "ESA / Euclid Consortium",
-      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_new_comet",
-      "isSecondary": true,
-      "confidence": "confirmed"
-    },
-    {
-      "id": "aur-dans-sportiv",
-      "title": "Pereche românească pe primul loc la Mondialul WDSF de 10 Dansuri",
-      "fact": "Clasamentul publicat de World DanceSport Federation îi plasează pe Patrick Berbece și Andreea Sturzinschi pe primul loc la Campionatul Mondial de 10 Dansuri pentru tineret, desfășurat la Elblag, Polonia, pe 23 octombrie. Perechea a încheiat finala cu un total de 12 puncte de clasament. WDSF precizează însă că rezultatele disponibile sunt încă neconfirmate și pot fi revizuite.",
-      "printSummary": "WDSF îi plasează pe Patrick Berbece și Andreea Sturzinschi pe primul loc mondial la 10 Dansuri tineret; rezultatul este încă marcat neconfirmat.",
-      "interpretation": "Dacă federația validează clasamentul, este un titlu mondial românesc într-o disciplină cu zece probe și 30 de perechi înscrise. Până la eliminarea marcajului WDSF, performanța trebuie prezentată ca rezultat publicat, nu ca omologare definitivă.",
-      "category": "Sport",
-      "impact": 4,
-      "impactLabel": "Performanță românească internațională",
-      "horizon": "Imediat",
-      "sourceId": "wdsf-zece-dansuri",
-      "sourceName": "World DanceSport Federation",
-      "sourceUrl": "https://www.worlddancesport.org/Competitions/Results/World-Championship-Elblag-Youth-Ten-Dance-65825",
+      "impactLabel": "Politică regională și coordonare în UE",
+      "horizon": "1–4 săptămâni",
+      "sourceId": "biziday-bulgaria-alegeri",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/373562-2/",
       "isSecondary": true,
       "confidence": "confirmed"
     }
   ],
   "romaniaAnalysis": {
     "factBase": [
-      "UE și România avertizează că atacurile asupra navelor civile din Marea Neagră afectează libertatea navigației și aprovizionarea globală cu alimente.",
-      "Cauza scufundării navei Khoryv, produsă în afara apelor teritoriale românești, nu a fost stabilită definitiv.",
-      "Blocul OD3 din Drumul Taberei are o fisură cunoscută din 2017 și o procedură de consolidare rămasă fără acordul locatarilor.",
-      "Perechea românească Berbece–Sturzinschi apare pe primul loc în clasamentul WDSF, dar rezultatele sunt încă marcate neconfirmate."
+      "Deficitul bugetar la nouă luni este de 78,52 miliarde lei, sau 3,82% din PIB, sub nivelul de 5,35% din perioada similară din 2025.",
+      "Comisia Europeană evaluează ultimele două cereri de plată PNRR, iar sumele nevalidate ar rămâne în sarcina bugetului național.",
+      "MApN a precizat că nu există o nouă alertă națională și că postările virale folosesc declarații mai vechi scoase din context.",
+      "Schimbarea de guvern din Serbia și turul al doilea din Bulgaria modifică peisajul politic imediat din vecinătatea României."
     ],
-    "political": "România trebuie să gestioneze simultan un risc extern, prin protejarea navigației și coordonarea europeană, și unul intern, prin mecanisme funcționale de consolidare a locuințelor private. Credibilitatea instituțională depinde de delimitarea clară între fapte confirmate, evaluări tehnice și declarații politice.",
-    "economic": "Escaladarea maritimă poate ridica primele de asigurare, costurile logistice și volatilitatea exporturilor prin Constanța. În mediul urban, amânarea consolidărilor transferă costurile spre intervenții de urgență și relocări; efectul agregat depinde de câte proiecte rămân blocate în situații similare.",
-    "interpretation": "Tema ediției este diferența dintre semnal și implementare: condamnările europene trebuie urmate de măsuri de siguranță maritimă, iar documentațiile de consolidare de soluții acceptabile și executabile. Scenariul de bază este o creștere graduală a costurilor și a presiunii administrative, nu o întrerupere imediată a activității portuare sau o concluzie tehnică generală despre blocurile Capitalei."
+    "political": "Pentru București, două teste se suprapun: menținerea credibilității consolidării fiscale în relația cu instituțiile europene și comunicarea publică verificabilă pe teme de securitate. În plan regional, tranziția din Serbia și scrutinul bulgar cer continuitate diplomatică, fără presupunerea că primele rezultate electorale produc instantaneu schimbări de politică externă.",
+    "economic": "Reducerea deficitului față de anul trecut este favorabilă, dar calitatea ajustării depinde de venituri recurente, controlul cheltuielilor și rambursarea granturilor PNRR. Investițiile publice pot susține activitatea, însă orice sumă europeană nevalidată ar mări necesarul de finanțare internă și presiunea asupra bugetului.",
+    "interpretation": "Scenariul de bază este o continuare prudentă a consolidării până la decizia Comisiei Europene din noiembrie, cu volatilitate informațională pe teme de securitate. Riscul principal nu este o ruptură imediată, ci acumularea unor diferențe de finanțare și de încredere dacă jaloanele PNRR ori comunicarea instituțională nu sunt gestionate clar."
   },
   "investmentFundSignals": [
     {
-      "id": "logistica-marea-neagra",
-      "label": "Fonduri cu expunere la transport și logistică regională",
-      "direction": "negativ",
-      "strength": 4,
-      "horizon": "1–4 săptămâni",
-      "rationale": "Incidentele maritime și avertismentele UE pot crește costurile de asigurare și operare, fără să confirme deocamdată o blocare a porturilor românești."
-    },
-    {
-      "id": "obligatiuni-europene",
-      "label": "Fonduri de obligațiuni europene",
+      "id": "romania-obligatiuni",
+      "label": "Fonduri cu expunere la obligațiuni românești",
       "direction": "neutru",
-      "strength": 3,
+      "strength": 4,
       "horizon": "1–3 luni",
-      "rationale": "Protestele franceze și presiunea pe bugetele publice sporesc incertitudinea politică, dar efectul asupra randamentelor depinde de răspunsul fiscal și de inflație."
+      "rationale": "Deficitul la nouă luni s-a redus, dar necesarul final de finanțare depinde de validarea ultimelor cereri PNRR și de execuția din trimestrul al patrulea."
     },
     {
-      "id": "infrastructura-digitala",
-      "label": "Fonduri cu expunere la infrastructură digitală",
+      "id": "auto-transatlantic",
+      "label": "Fonduri cu expunere la industria auto transatlantică",
       "direction": "pozitiv",
       "strength": 3,
       "horizon": "6–12 luni",
-      "rationale": "Cererea pentru meserii tehnice susține extinderea fizică a centrelor de date, însă deficitul de personal și costurile energetice pot întârzia proiectele."
+      "rationale": "Investiția Audi susține localizarea producției în SUA, însă fabrica este planificată pentru 2030 și riscul de execuție rămâne relevant."
     },
     {
-      "id": "aparare-europeana",
-      "label": "Fonduri cu expunere la industria europeană de apărare",
+      "id": "turism-golf",
+      "label": "Fonduri cu expunere la turismul și logistica din Golf",
+      "direction": "negativ",
+      "strength": 3,
+      "horizon": "1–4 săptămâni",
+      "rationale": "Închiderea plajelor și poluarea marină pot afecta activitatea locală, dar costul total depinde de sursa, întinderea și durata deversării."
+    },
+    {
+      "id": "infrastructura-spatiala",
+      "label": "Fonduri cu expunere la infrastructură spațială",
       "direction": "pozitiv",
       "strength": 2,
       "horizon": "6–12 luni",
-      "rationale": "Exercițiul franco-britanic indică o cooperare mai strânsă, dar o singură simulare nu stabilește singură ritmul contractelor sau al bugetelor."
+      "rationale": "Testele Artemis și proiectul HPE indică cerere pentru sisteme orbitale și lunare, fără a garanta calendarele ori veniturile comerciale anunțate."
     }
   ],
   "indicators": [
     {
-      "id": "franta-participanti-proteste",
-      "label": "Participare estimată la protestele din Franța",
-      "value": 400000,
-      "unit": "peste persoane",
-      "referenceDate": "2026-10-24",
-      "sourceName": "Associated Press",
-      "sourceUrl": "https://apnews.com/article/ad2fb9206e72e5d1b4ae43fdf7aa96a9",
+      "id": "deficit-bugetar-9-luni",
+      "label": "Deficit bugetar la nouă luni",
+      "value": 3.82,
+      "unit": "% din PIB",
+      "referenceDate": "2026-09-30",
+      "sourceName": "Ministerul Finanțelor / HotNews",
+      "sourceUrl": "https://hotnews.ro/deficit-in-scadere-investitii-in-crestere-romania-incheie-primele-noua-luni-cu-un-deficit-de-382-din-pib-si-investitii-de-aproape-108-miliarde-de-lei-2378312",
       "freshness": "current",
-      "note": "Estimare națională relatată de AP; participarea exactă poate fi revizuită."
+      "note": "Date operative pentru primele nouă luni din 2026."
     },
     {
-      "id": "bloc-od3-fisura",
-      "label": "Dimensiunea fisurii raportate la blocul OD3",
-      "value": 5,
-      "unit": "centimetri",
-      "referenceDate": "2026-10-24",
-      "sourceName": "Primăria Municipiului București / Biziday",
-      "sourceUrl": "https://www.biziday.ro/373490-2/",
+      "id": "investitii-publice-9-luni",
+      "label": "Investiții publice la nouă luni",
+      "value": 108,
+      "unit": "miliarde lei, aproximativ",
+      "referenceDate": "2026-09-30",
+      "sourceName": "Ministerul Finanțelor / HotNews",
+      "sourceUrl": "https://hotnews.ro/deficit-in-scadere-investitii-in-crestere-romania-incheie-primele-noua-luni-cu-un-deficit-de-382-din-pib-si-investitii-de-aproape-108-miliarde-de-lei-2378312",
       "freshness": "current",
-      "note": "Fisură cunoscută din 2017; siguranța actuală rămâne obiectul evaluării tehnice."
+      "note": "Valoare comunicată pentru execuția la nouă luni."
     },
     {
-      "id": "euclid-distanta-cometa",
-      "label": "Distanța aproximativă a cometei C/2026 S1 față de Pământ",
-      "value": 1.3,
-      "unit": "miliarde kilometri",
-      "referenceDate": "2026-10-19",
-      "sourceName": "ESA",
-      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_new_comet",
+      "id": "audi-investitie-georgia",
+      "label": "Investiția anunțată de Audi în Georgia",
+      "value": 4.2,
+      "unit": "miliarde USD",
+      "referenceDate": "2026-10-25",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/373530-2/",
       "freshness": "current",
-      "note": "Distanță aproximativă la momentul anunțului; orbita va fi rafinată prin observații."
+      "note": "Proiect anunțat; producția este planificată pentru 2030."
     },
     {
       "id": "eur-ron",
@@ -297,7 +276,7 @@
       "label": "Indice BET",
       "value": 34678.23,
       "unit": "puncte",
-      "referenceDate": "2026-10-25",
+      "referenceDate": "2026-10-26",
       "sourceName": "BVB",
       "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=BET",
       "freshness": "current",
@@ -308,7 +287,7 @@
       "label": "Indice ROTX",
       "value": 78605.35,
       "unit": "puncte",
-      "referenceDate": "2026-10-25",
+      "referenceDate": "2026-10-26",
       "sourceName": "BVB / Wiener Börse",
       "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=ROTX",
       "freshness": "current",
@@ -330,7 +309,7 @@
       "label": "IRCC",
       "value": null,
       "unit": "%",
-      "referenceDate": "2026-10-25",
+      "referenceDate": "2026-10-26",
       "sourceName": "BNR",
       "sourceUrl": "https://www.bnr.ro/",
       "freshness": "unavailable"
@@ -338,76 +317,75 @@
   ],
   "riskScores": [
     {
-      "id": "securitate-marea-neagra",
-      "label": "Securitatea navigației în Marea Neagră",
-      "score": 5,
-      "trend": "în creștere",
-      "description": "Atacurile asupra navelor civile și incidentul mortal din apropierea României sporesc riscul operațional și diplomatic."
-    },
-    {
-      "id": "tensiune-sociala-europa",
-      "label": "Tensiune socială în economiile europene",
-      "score": 4,
-      "trend": "în creștere",
-      "description": "Participarea mare la protestele franceze și confruntările de la Paris indică presiune persistentă asupra guvernului."
-    },
-    {
-      "id": "siguranta-cladiri-bucuresti",
-      "label": "Siguranța clădirilor vulnerabile din București",
+      "id": "risc-fiscal-pnrr",
+      "label": "Risc fiscal și PNRR",
       "score": 4,
       "trend": "stabil",
-      "description": "Evacuarea blocului OD3 expune din nou întârzierile dintre expertizare, acordul proprietarilor și execuția consolidării."
+      "description": "Ultimele cereri de plată pot lăsa cheltuieli deja efectuate în sarcina bugetului dacă unele jaloane nu sunt validate."
     },
     {
-      "id": "polarizare-politica-europa",
-      "label": "Polarizare politică europeană",
+      "id": "dezinformare-securitate",
+      "label": "Dezinformare pe teme de securitate",
       "score": 4,
       "trend": "în creștere",
-      "description": "Atacul rasist din Franța și acuzațiile privind AfD pot intensifica disputa publică înaintea unor cicluri electorale importante."
+      "description": "Postările cu declarații vechi prezentate ca alerte noi pot provoca panică și eroda încrederea în mesajele oficiale."
+    },
+    {
+      "id": "instabilitate-balcani",
+      "label": "Tranziție politică în Balcani",
+      "score": 3,
+      "trend": "în creștere",
+      "description": "Schimbarea din Serbia și turul al doilea bulgar pot modifica prioritățile regionale, fără semne imediate de ruptură instituțională."
+    },
+    {
+      "id": "poluare-golf",
+      "label": "Poluare maritimă în Golf",
+      "score": 4,
+      "trend": "în creștere",
+      "description": "Deversarea și avariile maritime repetate sporesc riscurile de mediu, turism și logistică în zona Strâmtorii Hormuz."
     }
   ],
   "watchlist": [
     {
-      "id": "ancheta-khoryv",
-      "title": "Cauza scufundării navei Khoryv",
-      "why": "Atribuirea tehnică poate schimba răspunsul României și evaluarea riscului pentru traficul comercial.",
-      "trigger": "Raport oficial al anchetei sau identificarea verificată a vectorului incidentului.",
+      "id": "rezultate-serbia",
+      "title": "Formarea guvernului în Serbia",
+      "why": "Majoritatea electorală trebuie transformată într-un guvern și într-un program coerent.",
+      "trigger": "Componența cabinetului și primele poziții oficiale față de UE, Rusia și Kosovo.",
       "status": "în așteptare",
-      "sourceUrl": "https://www.biziday.ro/373472-2/"
+      "sourceUrl": "https://apnews.com/article/fdf5def8a20aebc8ae139fd719478775"
     },
     {
-      "id": "expertiza-od3",
-      "title": "Expertiza blocului OD3",
-      "why": "Decizia de revenire a locatarilor și reluarea consolidării depind de evaluarea tehnică actuală.",
-      "trigger": "Publicarea concluziilor experților și a unui calendar pentru intervenții.",
+      "id": "pnrr-cereri-finale",
+      "title": "Evaluarea cererilor PNRR 5 și 6",
+      "why": "Orice sumă nevalidată ar rămâne în sarcina bugetului României.",
+      "trigger": "Decizia Comisiei Europene, așteptată până la 20 noiembrie.",
       "status": "în așteptare",
-      "sourceUrl": "https://www.biziday.ro/373490-2/"
+      "sourceUrl": "https://hotnews.ro/deficit-in-scadere-investitii-in-crestere-romania-incheie-primele-noua-luni-cu-un-deficit-de-382-din-pib-si-investitii-de-aproape-108-miliarde-de-lei-2378312"
     },
     {
-      "id": "validare-wdsf",
-      "title": "Omologarea rezultatului WDSF",
-      "why": "Federația afișează primul loc al perechii românești, dar marchează rezultatele drept neconfirmate.",
-      "trigger": "Eliminarea avertismentului de rezultate neconfirmate din pagina oficială WDSF.",
+      "id": "uae-deversare",
+      "title": "Sursa și amploarea deversării din EAU",
+      "why": "Impactul economic și ecologic depinde de cantitate, origine și durata curățării.",
+      "trigger": "Rezultate oficiale ale analizelor de apă și redeschiderea plajelor.",
       "status": "în așteptare",
-      "sourceUrl": "https://www.worlddancesport.org/Competitions/Detail/World-Championship-Elblag-Youth-Ten-Dance-65825"
+      "sourceUrl": "https://www.biziday.ro/373526-2/"
     },
     {
-      "id": "franta-raspuns-politic",
-      "title": "Răspunsul guvernului francez la proteste",
-      "why": "Concesiile bugetare sau o nouă mobilizare pot influența stabilitatea politică și percepția fiscală.",
-      "trigger": "Anunț guvernamental concret sau o nouă mobilizare națională confirmată.",
+      "id": "artemis-calendar",
+      "title": "Calendarul Artemis III și al aselenizării",
+      "why": "Ținta 2028 depinde de reușita integrării Orion cu două sisteme comerciale.",
+      "trigger": "Finalizarea testelor de andocare și confirmarea calendarului de lansare.",
       "status": "în așteptare",
-      "sourceUrl": "https://apnews.com/article/ad2fb9206e72e5d1b4ae43fdf7aa96a9"
+      "sourceUrl": "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/"
     }
   ],
   "conclusion": {
-    "title": "Riscurile cresc când implementarea rămâne în urmă",
-    "body": "România intră în săptămână cu un risc maritim ridicat și cu un nou exemplu al blocajelor de consolidare urbană, în timp ce Franța concentrează presiuni sociale și de securitate. Semnalele din tehnologie, știință și sport sunt pozitive, dar fiecare are limite clare: infrastructura AI cere forță de muncă, descoperirea Euclid nu este o misiune de interceptare, iar rezultatul WDSF așteaptă confirmarea formală.",
+    "title": "Consolidare internă, tranziții regionale și demonstrații înainte de utilizare",
+    "body": "Ediția separă rezultatele confirmate de obiective: Serbia are un câștigător electoral, dar nu încă un guvern testat; România are o ameliorare fiscală, dar nu încă verdictul final asupra banilor PNRR; NASA și HPE au programe de demonstrație, nu capabilități lunare operaționale. Următoarele confirmări instituționale contează mai mult decât formulările triumfaliste.",
     "actionPoints": [
-      "Urmărește concluziile oficiale despre nava Khoryv, fără atribuiri premature.",
-      "Verifică expertiza blocului OD3 și pașii concreți pentru relocare sau consolidare.",
-      "Separă amploarea protestelor franceze de incidentele violente punctuale.",
-      "Așteaptă validarea WDSF înainte de a trata titlul mondial drept omologat definitiv."
+      "Urmărește decizia Comisiei Europene pentru ultimele cereri PNRR.",
+      "Verifică mesajele de securitate numai în canalele oficiale MApN.",
+      "Separă calendarul anunțat al misiunilor spațiale de demonstrațiile efectiv reușite."
     ]
   },
   "sources": [
@@ -416,77 +394,63 @@
       "name": "Biziday RSS",
       "url": "https://www.biziday.ro/feed/",
       "type": "primary",
-      "accessedAt": "2026-10-25T06:04:56+02:00"
+      "accessedAt": "2026-10-26T05:58:34+02:00"
     },
     {
-      "id": "biziday-reactie-ue-marea-neagra",
-      "name": "Biziday — reacția UE la atacurile din Marea Neagră",
-      "url": "https://www.biziday.ro/373472-2/",
+      "id": "ap-serbia-alegeri",
+      "name": "Associated Press — Serbia election",
+      "url": "https://apnews.com/article/fdf5def8a20aebc8ae139fd719478775",
       "type": "secondary",
-      "accessedAt": "2026-10-25T06:04:56+02:00"
+      "accessedAt": "2026-10-26T06:00:00+02:00"
     },
     {
-      "id": "ap-franta-proteste",
-      "name": "Associated Press — protestele din Franța",
-      "url": "https://apnews.com/article/ad2fb9206e72e5d1b4ae43fdf7aa96a9",
+      "id": "hotnews-executie-bugetara",
+      "name": "HotNews — execuția bugetară",
+      "url": "https://hotnews.ro/deficit-in-scadere-investitii-in-crestere-romania-incheie-primele-noua-luni-cu-un-deficit-de-382-din-pib-si-investitii-de-aproape-108-miliarde-de-lei-2378312",
       "type": "secondary",
-      "accessedAt": "2026-10-25T06:04:56+02:00"
+      "accessedAt": "2026-10-26T06:00:00+02:00"
     },
     {
-      "id": "ap-atac-trappes",
-      "name": "Associated Press — atacul din suburbiile Parisului",
-      "url": "https://apnews.com/article/edcd3ab6c5ec2112505b358ca0a3de5a",
-      "type": "secondary",
-      "accessedAt": "2026-10-25T06:04:56+02:00"
-    },
-    {
-      "id": "reuters-exercitiu-nuclear",
-      "name": "Reuters — exercițiul nuclear franco-britanic",
-      "url": "https://www.marketscreener.com/news/british-jets-join-french-nuclear-exercise-for-first-time-france-says-ce785cdfd88df524",
-      "type": "secondary",
-      "accessedAt": "2026-10-25T06:04:56+02:00"
-    },
-    {
-      "id": "biziday-afd-emailuri",
-      "name": "Biziday — e-mailurile AfD",
-      "url": "https://www.biziday.ro/373477-2/",
-      "type": "secondary",
-      "accessedAt": "2026-10-25T06:04:56+02:00"
-    },
-    {
-      "id": "biziday-bloc-drumul-taberei",
-      "name": "Biziday — blocul evacuat din Drumul Taberei",
-      "url": "https://www.biziday.ro/373490-2/",
-      "type": "secondary",
-      "accessedAt": "2026-10-25T06:04:56+02:00"
-    },
-    {
-      "id": "biziday-meserii-ai",
-      "name": "Biziday — cererea pentru meserii tehnice",
-      "url": "https://www.biziday.ro/373506-2/",
-      "type": "secondary",
-      "accessedAt": "2026-10-25T06:04:56+02:00"
-    },
-    {
-      "id": "esa-euclid-cometa",
-      "name": "ESA — Euclid discovers new comet",
-      "url": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_new_comet",
+      "id": "mapn-inforadar-alerta",
+      "name": "MApN — Inforadar",
+      "url": "https://inforadar.mapn.ro/tema/116_postari-alarmiste-care-atribuie-%C8%99efului-statului-major-al-apararii-declara%C8%9Bii-scoase-din-context",
       "type": "official",
-      "accessedAt": "2026-10-25T06:04:56+02:00"
+      "accessedAt": "2026-10-26T06:00:00+02:00"
     },
     {
-      "id": "euclid-consortium-cometa",
-      "name": "Euclid Consortium — C/2026 S1",
-      "url": "https://www.euclid-ec.org/euclids-first-comet-discovery/",
+      "id": "nasa-artemis-iii",
+      "name": "NASA — Artemis III",
+      "url": "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/",
+      "type": "official",
+      "accessedAt": "2026-10-26T06:00:00+02:00"
+    },
+    {
+      "id": "biziday-uae-petrol",
+      "name": "Biziday — deversarea din EAU",
+      "url": "https://www.biziday.ro/373526-2/",
+      "type": "secondary",
+      "accessedAt": "2026-10-26T06:00:00+02:00"
+    },
+    {
+      "id": "biziday-audi-georgia",
+      "name": "Biziday — investiția Audi",
+      "url": "https://www.biziday.ro/373530-2/",
+      "type": "secondary",
+      "accessedAt": "2026-10-26T06:00:00+02:00"
+    },
+    {
+      "id": "hpe-spaceborne-4",
+      "name": "HPE — Spaceborne Computer-4",
+      "url": "https://www.hpe.com/us/en/newsroom/press-release/2026/10/hpe-spaceborne-computer-to-power-high-performance-computing-and-ai-on-the-moon.html",
       "type": "primary",
-      "accessedAt": "2026-10-25T06:04:56+02:00"
+      "accessedAt": "2026-10-26T06:00:00+02:00"
     },
     {
-      "id": "wdsf-zece-dansuri",
-      "name": "World DanceSport Federation — rezultate 10 Dansuri tineret",
-      "url": "https://www.worlddancesport.org/Competitions/Results/World-Championship-Elblag-Youth-Ten-Dance-65825",
-      "type": "official",
-      "accessedAt": "2026-10-25T06:04:56+02:00"
+      "id": "biziday-bulgaria-alegeri",
+      "name": "Biziday — alegerile din Bulgaria",
+      "url": "https://www.biziday.ro/373562-2/",
+      "type": "secondary",
+      "accessedAt": "2026-10-26T06:00:00+02:00"
     }
   ]
 }
