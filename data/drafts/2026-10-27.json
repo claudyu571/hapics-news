@@ -1,0 +1,429 @@
+{
+  "metadata": {
+    "editionDate": "2026-10-27",
+    "updatedAt": "2026-10-27T08:55:00+02:00",
+    "timezone": "Europe/Bucharest",
+    "title": "Hapics News — Briefing de dimineață, 27 octombrie 2026",
+    "status": "draft",
+    "primarySource": "https://www.biziday.ro/feed/",
+    "sourceCoverage": "complete"
+  },
+  "executiveSummary": [
+    {
+      "id": "sri-sabotaj-carfil",
+      "text": "SRI atribuie incendiul din septembrie de lângă fabrica Carfil unei rețele de sabotaj coordonate din Rusia, cu ținte militare și industriale în mai multe state europene.",
+      "category": "Securitate"
+    },
+    {
+      "id": "deficit-bugetar-septembrie",
+      "text": "Deficitul bugetar a coborât la 3,81% din PIB după nouă luni, însă execuția ultimului trimestru și disciplina cheltuielilor rămân decisive.",
+      "category": "Economie"
+    },
+    {
+      "id": "campanie-ai-alegeri-sua",
+      "text": "Reuters a identificat o strategie electorală americană care urmărește influențarea răspunsurilor chatboților prin conținut online favorabil candidatului.",
+      "category": "Tehnologie"
+    },
+    {
+      "id": "australia-raport-cyber",
+      "text": "Australia a răspuns la peste 1.500 de incidente cibernetice într-un an, cu 20% mai multe, și avertizează asupra amplificării atacurilor prin AI.",
+      "category": "Securitate"
+    },
+    {
+      "id": "euclid-cometa-noua",
+      "text": "Telescopul Euclid a descoperit prima sa cometă necunoscută anterior, confirmată de Minor Planet Center după observații suplimentare de la sol.",
+      "category": "Spațiu"
+    },
+    {
+      "id": "kane-balonul-de-aur",
+      "text": "Harry Kane a câștigat Balonul de Aur 2026 după un sezon de 73 de goluri pentru Bayern München și naționala Angliei.",
+      "category": "Sport"
+    }
+  ],
+  "importantNews": [
+    {
+      "id": "sri-sabotaj-carfil",
+      "title": "SRI atribuie incendiul Carfil unei rețele coordonate din Rusia",
+      "fact": "Serviciul Român de Informații a anunțat că incendiul din 14 septembrie de pe platforma industrială Carfil din Brașov a fost provocat de o rețea de sabotaj coordonată din Federația Rusă. SRI spune că rețeaua avea atribuite și alte ținte militare și industriale în regiune; procedurile judiciare și verificările continuă în România și în alte state europene.",
+      "printSummary": "SRI: incendiul Carfil a fost provocat de o rețea coordonată din Rusia; investigațiile și procedurile judiciare continuă în mai multe state.",
+      "interpretation": "Confirmarea oficială ridică miza de la un incident industrial local la o amenințare transfrontalieră asupra producției de apărare. Comunicarea SRI stabilește atribuirea instituțională, dar nu închide ancheta și nu justifică extinderea suspiciunii asupra unor persoane pe baza unor indicii izolate.",
+      "category": "Securitate",
+      "impact": 5,
+      "impactLabel": "Securitate națională și infrastructură de apărare",
+      "horizon": "Imediat",
+      "sourceId": "sri-carfil-2026",
+      "sourceName": "Serviciul Român de Informații",
+      "sourceUrl": "https://sri.ro/articole/comunicat-de-presa-26-10-2026.html",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "deficit-bugetar-septembrie",
+      "title": "Deficitul bugetar scade la 3,81% din PIB după nouă luni",
+      "fact": "Ministrul Finanțelor a prezentat date potrivit cărora deficitul bugetar a fost de 3,81% din PIB în primele nouă luni din 2026, față de 5,31% în perioada similară din 2025. Veniturile au crescut cu 11,9%, cheltuielile cu 5,5%, iar investițiile publice au ajuns la 108 miliarde de lei, peste 70% fiind finanțate din fonduri europene.",
+      "printSummary": "Ministerul Finanțelor: deficitul la nouă luni a scăzut la 3,81% din PIB, iar investițiile publice au ajuns la 108 miliarde de lei.",
+      "interpretation": "Comparația anuală arată o ajustare fiscală semnificativă, dar deficitul a crescut față de august odată cu acumularea cheltuielilor. Rezultatul pe întregul an depinde de execuția ultimului trimestru, de venituri recurente și de evitarea unor cheltuieli permanente fără finanțare stabilă.",
+      "category": "Economie",
+      "impact": 5,
+      "impactLabel": "Credibilitate fiscală și costuri de finanțare",
+      "horizon": "1–3 luni",
+      "sourceId": "biziday-deficit-septembrie",
+      "sourceName": "Biziday / Ministerul Finanțelor",
+      "sourceUrl": "https://www.biziday.ro/373629-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "campanie-ai-alegeri-sua",
+      "title": "O campanie americană încearcă să modeleze răspunsurile chatboților",
+      "fact": "Reuters a consultat o prezentare care propunea campaniei republicanului Mike Minogue, candidat la funcția de guvernator al statului Massachusetts, crearea și ajustarea sistematică de conținut online pentru ca ChatGPT, Claude, Gemini și alte servicii să îl recomande pe teme electorale. Reuters relatează că nu este clar dacă toate măsurile propuse au fost implementate.",
+      "printSummary": "Reuters: o strategie propusă campaniei lui Mike Minogue urmărea influențarea chatboților; aplicarea integrală nu este clară.",
+      "interpretation": "Cazul descrie o extindere a optimizării politice dincolo de motoarele de căutare, către sistemele folosite de alegători pentru sinteze și recomandări. Documentele arată intenția și mecanismul propus, nu demonstrează automat că răspunsurile modelelor au fost schimbate ori că strategia a decis voturi.",
+      "category": "Tehnologie",
+      "impact": 4,
+      "impactLabel": "Integritatea informațională a alegerilor",
+      "horizon": "Imediat",
+      "sourceId": "reuters-campanii-chatboti",
+      "sourceName": "Reuters",
+      "sourceUrl": "https://www.reuters.com/world/us/us-political-candidates-tailor-messages-ai-models-used-by-voters-2026-10-26/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "australia-raport-cyber",
+      "title": "Australia raportează o creștere de 20% a incidentelor cibernetice",
+      "fact": "Australian Signals Directorate arată în raportul anual 2025–2026 că centrul său de securitate cibernetică a răspuns la peste 1.500 de incidente, cu 20% mai multe decât în anul anterior, și a transmis peste 4.400 de notificări privind activități potențial malițioase, cu aproape 80% mai multe. Instituția afirmă că AI mărește viteza, amploarea și sofisticarea atacurilor.",
+      "printSummary": "ASD: Australia a răspuns la peste 1.500 de incidente cibernetice, +20%, și a emis peste 4.400 de notificări de activitate suspectă.",
+      "interpretation": "Datele indică simultan presiune operațională mai mare și capacitate sporită de detectare, astfel încât creșterea notificărilor nu poate fi citită exclusiv ca multiplicare a atacurilor reușite. Semnalul pentru alte economii digitalizate este necesitatea modernizării apărării și a planurilor de continuitate.",
+      "category": "Securitate",
+      "impact": 4,
+      "impactLabel": "Reziliența serviciilor digitale și a infrastructurii critice",
+      "horizon": "1–3 luni",
+      "sourceId": "asd-cyber-report-2026",
+      "sourceName": "Australian Signals Directorate",
+      "sourceUrl": "https://www.asd.gov.au/news/2026-10-27-australian-signals-directorate-releases-seventh-annual-cyber-threat-report-2025-26",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "piloti-oboseala-sondaj",
+      "title": "Sondajul piloților europeni arată episoade frecvente de microsomn",
+      "fact": "European Cockpit Association relatează, pe baza unui sondaj voluntar realizat în august în rândul a circa 7.200 de piloți, că 24% spun că de obicei continuă să zboare când se simt prea obosiți pentru a lucra, iar aproximativ trei din patru au raportat episoade de microsomn în cabină. Rezultatele sunt auto-raportate și nu reprezintă o măsurare directă a tuturor zborurilor europene.",
+      "printSummary": "ECA: într-un sondaj voluntar, 24% dintre piloți spun că zboară uneori prea obosiți, iar circa trei din patru au raportat microsomn.",
+      "interpretation": "Sondajul semnalează o problemă de cultură organizațională și raportare a oboselii, cu miză de siguranță la nivel european. Dimensiunea eșantionului îi dă greutate, dar metoda voluntară și răspunsurile declarative cer prudență înaintea extrapolării la fiecare companie sau rută.",
+      "category": "Social",
+      "impact": 4,
+      "impactLabel": "Siguranța aviației europene",
+      "horizon": "1–3 luni",
+      "sourceId": "eca-oboseala-piloti-2026",
+      "sourceName": "European Cockpit Association",
+      "sourceUrl": "https://www.eurocockpit.eu/news/pilot-fatigue-numbers-speak",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "polar-train-novatek",
+      "title": "Conducerea Polar Train pleacă după legăturile reclamate cu Novatek",
+      "fact": "Financial Times, preluat de Biziday, relatează că mai mulți directori ai Polar Train LNG au demisionat după ce fostul director general a afirmat că grupul rus sancționat Novatek finanța și controla operațiunile proiectului de export de gaze din Alaska. Polar Train spune că respectă legislația, iar proiectul nu a primit încă aprobarea Trezoreriei SUA pentru negocierile cu Novatek.",
+      "printSummary": "FT/Biziday: directori Polar Train au plecat după acuzații privind controlul Novatek; aprobarea Trezoreriei SUA nu a fost acordată.",
+      "interpretation": "Cazul poate complica un proiect energetic considerat strategic și evidențiază riscul de sancțiuni în structurile comerciale transfrontaliere. Acuzația fostului director este relevantă, dar rămâne contestată de companie, iar lipsa autorizației limitează deocamdată proiectul.",
+      "category": "Energie",
+      "impact": 4,
+      "impactLabel": "Sancțiuni și proiecte LNG americano-ruse",
+      "horizon": "1–3 luni",
+      "sourceId": "biziday-polar-train",
+      "sourceName": "Biziday / Financial Times",
+      "sourceUrl": "https://www.biziday.ro/373669-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "euclid-cometa-noua",
+      "title": "Euclid descoperă prima sa cometă necunoscută anterior",
+      "fact": "Agenția Spațială Europeană a anunțat că telescopul Euclid a identificat în imagini din 16–24 septembrie o cometă care nu corespundea niciunui obiect catalogat. Minor Planet Center a confirmat-o la 8 octombrie sub numele C/2026 S1 (Euclid), după observații suplimentare de la sol; obiectul se afla la aproximativ 1,3 miliarde de kilometri de Pământ.",
+      "printSummary": "ESA: Euclid a descoperit cometa C/2026 S1, confirmată de Minor Planet Center după observații suplimentare de la sol.",
+      "interpretation": "Este o descoperire validată, nu doar o detecție preliminară, și arată că datele unei misiuni concepute pentru cosmologie pot identifica și obiecte din Sistemul Solar. Relevanța imediată este metodologică; cometa nu este prezentată drept un pericol pentru Pământ.",
+      "category": "Spațiu",
+      "impact": 4,
+      "impactLabel": "Utilizare științifică extinsă a misiunii Euclid",
+      "horizon": "6–12 luni",
+      "sourceId": "esa-euclid-cometa",
+      "sourceName": "ESA / Euclid Consortium",
+      "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_new_comet",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "vama-otopeni-bani-disparuti",
+      "title": "Autoritatea Vamală investighează dispariția a 700.000 de euro",
+      "fact": "Autoritatea Vamală Română a sesizat poliția și a început un control intern după ce 700.000 de euro reținuți în ianuarie la Aeroportul Otopeni au fost găsiți înlocuiți în sacul de depozitare cu coli de hârtie și o singură bancnotă. Camera nu avea supraveghere video, iar banii urmau să fie restituiți după clasarea cazului inițial.",
+      "printSummary": "Autoritatea Vamală a sesizat poliția după ce 700.000 de euro păstrați la Otopeni au fost găsiți înlocuiți cu hârtie și o bancnotă.",
+      "interpretation": "Incidentul indică o vulnerabilitate gravă de control intern în custodia bunurilor reținute și poate genera răspunderi administrative sau penale. Identitatea autorilor și momentul dispariției nu sunt stabilite public, astfel că responsabilitatea nu trebuie anticipată înaintea anchetei.",
+      "category": "Justiție",
+      "impact": 4,
+      "impactLabel": "Integritatea controlului vamal",
+      "horizon": "1–4 săptămâni",
+      "sourceId": "biziday-vama-otopeni",
+      "sourceName": "Biziday / Autoritatea Vamală Română",
+      "sourceUrl": "https://www.biziday.ro/373633-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "kane-balonul-de-aur",
+      "title": "Harry Kane câștigă Balonul de Aur 2026",
+      "fact": "Harry Kane a primit Balonul de Aur 2026, devansându-i pe Kylian Mbappé și Lamine Yamal. Atacantul lui Bayern München și al Angliei a înscris 73 de goluri pentru club și echipa națională în sezonul luat în calcul și este primul englez care câștigă trofeul după Michael Owen, în 2001.",
+      "printSummary": "Harry Kane a câștigat Balonul de Aur 2026 după 73 de goluri pentru Bayern și Anglia; Mbappé și Yamal au completat podiumul.",
+      "interpretation": "Premiul confirmă cel mai important rezultat individual din cariera lui Kane și încheie o așteptare de 25 de ani pentru fotbalul englez. Clasamentul reflectă votul jurnaliștilor după criteriile competiției, nu o măsurare pur statistică a valorii sportive.",
+      "category": "Sport",
+      "impact": 4,
+      "impactLabel": "Cel mai important premiu individual din fotbal",
+      "horizon": "Imediat",
+      "sourceId": "biziday-kane-balon-aur",
+      "sourceName": "Biziday / Reuters",
+      "sourceUrl": "https://www.biziday.ro/373685-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    }
+  ],
+  "romaniaAnalysis": {
+    "factBase": [
+      "SRI a atribuit incendiul de la platforma Carfil unei rețele de sabotaj coordonate din Federația Rusă și a anunțat că verificările continuă în cooperare europeană.",
+      "Deficitul bugetar la nouă luni a fost comunicat la 3,81% din PIB, față de 5,31% în aceeași perioadă din 2025.",
+      "Investițiile publice au ajuns la 108 miliarde de lei, peste 70% fiind finanțate din fonduri europene, potrivit ministrului Finanțelor.",
+      "Autoritatea Vamală a sesizat poliția și a deschis un control intern după dispariția a 700.000 de euro aflați în custodie la Otopeni."
+    ],
+    "political": "Guvernul trebuie să gestioneze simultan o atribuire publică de sabotaj extern și presiunea pentru disciplină fiscală. Răspunsul credibil cere cooperare judiciară cu partenerii europeni, protejarea obiectivelor sensibile și publicarea consecventă a datelor bugetare, fără transformarea anchetelor în concluzii politice premature.",
+    "economic": "Reducerea deficitului față de anul trecut îmbunătățește traiectoria fiscală, iar investițiile susțin activitatea economică. Totuși, accelerarea cheltuielilor în ultimele luni ale anului, dependența investițiilor de fonduri europene și eventualele cheltuieli permanente fără venituri recurente pot menține presiunea asupra finanțării statului.",
+    "interpretation": "Scenariul de bază este o continuare prudentă a consolidării fiscale, în paralel cu întărirea protecției infrastructurii de apărare și a controalelor interne. Riscul crește dacă anchetele scot la iveală alte vulnerabilități instituționale sau dacă execuția din trimestrul al patrulea inversează o parte importantă a ajustării bugetare."
+  },
+  "investmentFundSignals": [
+    {
+      "id": "obligatiuni-romania-fiscal",
+      "label": "Fonduri cu expunere la obligațiuni românești",
+      "direction": "pozitiv",
+      "strength": 3,
+      "horizon": "1–3 luni",
+      "rationale": "Deficitul la nouă luni este mult sub nivelul din 2025, dar semnalul depinde de execuția ultimului trimestru și de menținerea disciplinei cheltuielilor."
+    },
+    {
+      "id": "aparare-europa-securitate",
+      "label": "Fonduri cu expunere la apărare și securitate europeană",
+      "direction": "pozitiv",
+      "strength": 4,
+      "horizon": "6–12 luni",
+      "rationale": "Atribuirea oficială a sabotajului și țintele regionale sporesc probabilitatea investițiilor în protecția siturilor industriale, supraveghere și contrainformații."
+    },
+    {
+      "id": "securitate-cibernetica",
+      "label": "Fonduri cu expunere la securitate cibernetică",
+      "direction": "pozitiv",
+      "strength": 4,
+      "horizon": "6–12 luni",
+      "rationale": "Raportul australian indică volume mai mari de incidente și notificări, susținând cererea structurală pentru modernizarea apărării și continuitatea serviciilor."
+    },
+    {
+      "id": "lng-sanctiuni",
+      "label": "Fonduri cu expunere la proiecte LNG și sancțiuni",
+      "direction": "negativ",
+      "strength": 3,
+      "horizon": "1–3 luni",
+      "rationale": "Plecările conducerii și lipsa autorizației americane sporesc incertitudinea proiectului Polar Train, fără a determina singure piața globală a gazelor."
+    }
+  ],
+  "indicators": [
+    {
+      "id": "deficit-bugetar-9-luni",
+      "label": "Deficit bugetar la nouă luni",
+      "value": 3.81,
+      "unit": "% din PIB",
+      "referenceDate": "2026-09-30",
+      "sourceName": "Ministerul Finanțelor / Biziday",
+      "sourceUrl": "https://www.biziday.ro/373629-2/",
+      "freshness": "current",
+      "note": "Date comunicate de ministrul Finanțelor pentru primele nouă luni din 2026."
+    },
+    {
+      "id": "investitii-publice-9-luni",
+      "label": "Investiții publice la nouă luni",
+      "value": 108,
+      "unit": "miliarde lei",
+      "referenceDate": "2026-09-30",
+      "sourceName": "Ministerul Finanțelor / Biziday",
+      "sourceUrl": "https://www.biziday.ro/373629-2/",
+      "freshness": "current",
+      "note": "Peste 70% din investiții au fost finanțate din fonduri europene, potrivit ministrului."
+    },
+    {
+      "id": "australia-incidente-cyber",
+      "label": "Incidente cibernetice gestionate de ASD",
+      "value": 1500,
+      "unit": "peste, în anul financiar 2025–2026",
+      "referenceDate": "2026-06-30",
+      "sourceName": "Australian Signals Directorate",
+      "sourceUrl": "https://www.asd.gov.au/news/2026-10-27-australian-signals-directorate-releases-seventh-annual-cyber-threat-report-2025-26",
+      "freshness": "current",
+      "note": "Creștere de 20% față de anul financiar anterior."
+    }
+  ],
+  "riskScores": [
+    {
+      "id": "sabotaj-infrastructura",
+      "label": "Sabotaj asupra infrastructurii de apărare",
+      "score": 5,
+      "trend": "în creștere",
+      "description": "SRI a confirmat o rețea coordonată extern și existența unei liste mai largi de ținte militare și industriale regionale."
+    },
+    {
+      "id": "risc-fiscal",
+      "label": "Risc fiscal",
+      "score": 4,
+      "trend": "în scădere",
+      "description": "Deficitul anual comparabil s-a redus, dar execuția ultimului trimestru poate schimba semnificativ rezultatul final."
+    },
+    {
+      "id": "risc-cibernetic-ai",
+      "label": "Atacuri cibernetice amplificate de AI",
+      "score": 4,
+      "trend": "în creștere",
+      "description": "Raportul australian arată mai multe incidente și avertizează că AI crește viteza și sofisticarea atacurilor și fraudelor."
+    },
+    {
+      "id": "integritate-informationala-ai",
+      "label": "Manipularea răspunsurilor AI",
+      "score": 4,
+      "trend": "în creștere",
+      "description": "Campaniile politice testează metode de influențare a conținutului sintetizat de chatboți folosiți de alegători."
+    }
+  ],
+  "watchlist": [
+    {
+      "id": "ancheta-carfil",
+      "title": "Extinderea anchetei Carfil",
+      "why": "Investigația poate identifica alte ținte, complici sau deficiențe de protecție în infrastructura industrială.",
+      "trigger": "Comunicate DIICOT, SRI sau ale partenerilor europeni despre inculpări și noi incidente.",
+      "status": "în așteptare",
+      "sourceUrl": "https://sri.ro/articole/comunicat-de-presa-26-10-2026.html"
+    },
+    {
+      "id": "executie-buget-trimestru-patru",
+      "title": "Execuția bugetară din trimestrul al patrulea",
+      "why": "Ultimele luni concentrează cheltuieli care pot eroda reducerea deficitului observată la nouă luni.",
+      "trigger": "Publicarea execuției pe zece și unsprezece luni și eventuale măsuri bugetare suplimentare.",
+      "status": "în așteptare",
+      "sourceUrl": "https://www.biziday.ro/373629-2/"
+    },
+    {
+      "id": "ancheta-vama-otopeni",
+      "title": "Ancheta privind banii dispăruți la Otopeni",
+      "why": "Cazul poate indica deficiențe sistemice de custodie și control în Autoritatea Vamală.",
+      "trigger": "Identificarea suspecților, rezultatul controlului intern și măsurile de remediere anunțate oficial.",
+      "status": "în așteptare",
+      "sourceUrl": "https://www.biziday.ro/373633-2/"
+    },
+    {
+      "id": "reguli-oboseala-piloti",
+      "title": "Răspunsul EASA la sondajul privind oboseala",
+      "why": "Un răspuns de reglementare ar transforma semnalul declarativ într-o schimbare operațională verificabilă.",
+      "trigger": "Audituri, recomandări sau modificări ale regulilor de gestionare a oboselii echipajelor.",
+      "status": "în așteptare",
+      "sourceUrl": "https://www.eurocockpit.eu/news/pilot-fatigue-numbers-speak"
+    }
+  ],
+  "conclusion": {
+    "title": "Disciplina instituțională devine tema comună",
+    "body": "Ediția leagă trei forme de reziliență: protejarea infrastructurii de apărare, menținerea consolidării fiscale și întărirea controalelor pentru sisteme digitale ori instituționale. Datele sunt mai bune pe deficit, dar anchetele Carfil și Otopeni, plus avertismentele cibernetice, cer răspunsuri verificabile și continuitate, nu concluzii grăbite.",
+    "actionPoints": [
+      "Urmărește comunicatele judiciare din ancheta Carfil și cooperarea cu partenerii europeni.",
+      "Compară execuția bugetară lunară cu ținta anuală și cu sursele recurente de venit.",
+      "Tratează recomandările politice generate de chatboți ca puncte de pornire, nu ca surse finale.",
+      "Verifică reacția EASA și a companiilor aeriene la datele despre oboseala piloților."
+    ]
+  },
+  "sources": [
+    {
+      "id": "biziday-rss",
+      "name": "Biziday RSS",
+      "url": "https://www.biziday.ro/feed/",
+      "type": "primary",
+      "accessedAt": "2026-10-27T08:45:00+02:00"
+    },
+    {
+      "id": "sri-carfil-2026",
+      "name": "Serviciul Român de Informații — comunicat Carfil",
+      "url": "https://sri.ro/articole/comunicat-de-presa-26-10-2026.html",
+      "type": "official",
+      "accessedAt": "2026-10-27T08:48:00+02:00"
+    },
+    {
+      "id": "biziday-deficit-septembrie",
+      "name": "Biziday — execuția bugetară la nouă luni",
+      "url": "https://www.biziday.ro/373629-2/",
+      "type": "secondary",
+      "accessedAt": "2026-10-27T08:46:00+02:00"
+    },
+    {
+      "id": "reuters-campanii-chatboti",
+      "name": "Reuters — campanii politice și răspunsuri AI",
+      "url": "https://www.reuters.com/world/us/us-political-candidates-tailor-messages-ai-models-used-by-voters-2026-10-26/",
+      "type": "secondary",
+      "accessedAt": "2026-10-27T08:50:00+02:00"
+    },
+    {
+      "id": "asd-cyber-report-2026",
+      "name": "Australian Signals Directorate — Annual Cyber Threat Report 2025–26",
+      "url": "https://www.asd.gov.au/news/2026-10-27-australian-signals-directorate-releases-seventh-annual-cyber-threat-report-2025-26",
+      "type": "official",
+      "accessedAt": "2026-10-27T08:50:00+02:00"
+    },
+    {
+      "id": "eca-oboseala-piloti-2026",
+      "name": "European Cockpit Association — Pilot fatigue numbers speak",
+      "url": "https://www.eurocockpit.eu/news/pilot-fatigue-numbers-speak",
+      "type": "primary",
+      "accessedAt": "2026-10-27T08:49:00+02:00"
+    },
+    {
+      "id": "biziday-polar-train",
+      "name": "Biziday / Financial Times — Polar Train și Novatek",
+      "url": "https://www.biziday.ro/373669-2/",
+      "type": "secondary",
+      "accessedAt": "2026-10-27T08:46:00+02:00"
+    },
+    {
+      "id": "esa-euclid-cometa",
+      "name": "ESA — Euclid discovers new comet",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_new_comet",
+      "type": "official",
+      "accessedAt": "2026-10-27T08:50:00+02:00"
+    },
+    {
+      "id": "euclid-consortium-cometa",
+      "name": "Euclid Consortium — C/2026 S1",
+      "url": "https://www.euclid-ec.org/euclids-first-comet-discovery/",
+      "type": "primary",
+      "accessedAt": "2026-10-27T08:50:00+02:00"
+    },
+    {
+      "id": "biziday-vama-otopeni",
+      "name": "Biziday / Autoritatea Vamală Română — Otopeni",
+      "url": "https://www.biziday.ro/373633-2/",
+      "type": "secondary",
+      "accessedAt": "2026-10-27T08:46:00+02:00"
+    },
+    {
+      "id": "biziday-kane-balon-aur",
+      "name": "Biziday / Reuters — Balonul de Aur 2026",
+      "url": "https://www.biziday.ro/373685-2/",
+      "type": "secondary",
+      "accessedAt": "2026-10-27T08:46:00+02:00"
+    },
+    {
+      "id": "bundesliga-kane-balon-aur",
+      "name": "Bundesliga — Harry Kane wins 2026 Ballon d'Or",
+      "url": "https://www.bundesliga.com/en/bundesliga/news/harry-kane-wins-2026-ballon-dor-bayern-munich-england-world-cup-39730",
+      "type": "official",
+      "accessedAt": "2026-10-27T08:51:00+02:00"
+    }
+  ]
+}
