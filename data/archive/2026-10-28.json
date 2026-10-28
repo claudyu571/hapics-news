@@ -1,0 +1,425 @@
+{
+  "metadata": {
+    "editionDate": "2026-10-28",
+    "updatedAt": "2026-10-28T06:02:14+02:00",
+    "timezone": "Europe/Bucharest",
+    "title": "Hapics News — Briefing de dimineață, 28 octombrie 2026",
+    "status": "published",
+    "primarySource": "https://www.biziday.ro/feed/",
+    "sourceCoverage": "complete"
+  },
+  "executiveSummary": [
+    {
+      "id": "romania-decese-rutiere-2025",
+      "text": "România a redus cu 30% decesele rutiere față de 2019, dar rata de 68 la un milion de locuitori rămâne printre cele mai ridicate din UE.",
+      "category": "Social"
+    },
+    {
+      "id": "radare-mobile-fortele-aeriene",
+      "text": "MApN a contractat patru radare mobile pentru apropiere și aterizare, în valoare de 326,5 milioane de lei fără TVA, cu livrări din 2028.",
+      "category": "Securitate"
+    },
+    {
+      "id": "alegeri-israel-neconcludente",
+      "text": "Exit-pollurile alegerilor israeliene nu indică o majoritate clară, iar rezultatul oficial și negocierile pentru o coaliție rămân deschise.",
+      "category": "Extern"
+    },
+    {
+      "id": "bolsonaro-vize-sua",
+      "text": "SUA vor acorda vize lui Flávio Bolsonaro și familiei sale, în timp ce locul în care se află candidatul învins rămâne neconfirmat public.",
+      "category": "Extern"
+    },
+    {
+      "id": "starlink-publicitate-supraveghere",
+      "text": "Cercetători citați de Reuters afirmă că o companie israeliană de publicitate a vizat intens traficul Starlink pentru localizare sau supraveghere.",
+      "category": "Tehnologie"
+    },
+    {
+      "id": "hera-separa-asteroizii",
+      "text": "Sonda Hera a separat pentru prima dată în propriile imagini asteroizii Didymos și Dimorphos, înaintea investigației apropiate din noiembrie.",
+      "category": "Spațiu"
+    }
+  ],
+  "importantNews": [
+    {
+      "id": "romania-decese-rutiere-2025",
+      "title": "România progresează, dar rămâne între statele UE cu mortalitate rutieră ridicată",
+      "fact": "Comisia Europeană a raportat pentru România 1.296 de decese rutiere în 2025, echivalentul a 68 la un milion de locuitori. Numărul este cu 12% mai mic decât în 2024 și cu 30% sub 2019; România este unul dintre cele cinci state aflate încă pe traiectoria reducerii la jumătate până în 2030.",
+      "printSummary": "Comisia Europeană indică pentru România 1.296 de decese rutiere în 2025, cu 12% mai puține decât în 2024.",
+      "interpretation": "Progresul este măsurabil, însă nivelul absolut rămâne aproape de vârful clasamentului european. Miza internă este transformarea ritmului de scădere în intervenții susținute pe infrastructură, control și protecția utilizatorilor vulnerabili.",
+      "category": "Social",
+      "impact": 5,
+      "impactLabel": "Ridicat pentru politici publice",
+      "horizon": "6–12 luni",
+      "sourceId": "comisia-europeana-siguranta-rutiera-2025",
+      "sourceName": "Comisia Europeană",
+      "sourceUrl": "https://transport.ec.europa.eu/news-events/news/road-safety-statistics-2025-confirm-drop-eu-road-deaths-2026-10-27_en",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "radare-mobile-fortele-aeriene",
+      "title": "MApN cumpără patru radare mobile pentru apropiere și aterizare",
+      "fact": "Ministerul Apărării a semnat cu Thales România și Thales LAS France un contract de aproximativ 326,5 milioane de lei fără TVA pentru patru sisteme radar mobile. Livrările vor începe în 2028, iar sistemele vor putea ghida aeronave militare și civile inclusiv în vreme dificilă și mediu electromagnetic ostil.",
+      "printSummary": "MApN a contractat patru radare mobile Thales, de 326,5 milioane de lei fără TVA, cu livrări începând din 2028.",
+      "interpretation": "Mobilitatea reduce dependența de infrastructura fixă a bazelor aeriene și crește reziliența operațională. Contractul produce efecte gradual, nu o capabilitate disponibilă imediat.",
+      "category": "Securitate",
+      "impact": 4,
+      "impactLabel": "Capabilitate strategică",
+      "horizon": "6–12 luni",
+      "sourceId": "mapn-radare-mobile",
+      "sourceName": "Ministerul Apărării Naționale",
+      "sourceUrl": "https://www.mapn.ro/cpresa/19458_modernizarea-for%C8%9Belor-aeriene-romane%3A-contract-semnat-pentru-achizi%C8%9Bia-a-patru-radare-mobile-de-dirijare-la-apropiere-%C8%99i-aterizare",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "alegeri-israel-neconcludente",
+      "title": "Alegerile din Israel nu oferă încă o majoritate clară",
+      "fact": "Exit-pollurile publicate după scrutinul din Israel indică un avans restrâns pentru blocul care încearcă să-l înlăture pe Benjamin Netanyahu, dar niciun tablou clar de 61 de mandate. Rezultatele oficiale finale sunt așteptate mai târziu în această săptămână și pot diferi de estimări.",
+      "printSummary": "Exit-pollurile din Israel nu indică o majoritate de 61 de mandate; rezultatele oficiale pot modifica distribuția estimată.",
+      "interpretation": "Scenariul cel mai probabil este o perioadă de negocieri pentru coaliție, cu incertitudine asupra conducerii viitoare. Orice concluzie privind schimbarea guvernului este prematură înaintea numărătorii finale și a consultărilor prezidențiale.",
+      "category": "Extern",
+      "impact": 5,
+      "impactLabel": "Impact geopolitic major",
+      "horizon": "1–4 săptămâni",
+      "sourceId": "ap-alegeri-israel",
+      "sourceName": "Associated Press",
+      "sourceUrl": "https://apnews.com/article/israel-election-netanyahu-eisenkot-exit-polls-9962f87d11534908f553146f07039e92",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "bolsonaro-vize-sua",
+      "title": "SUA anunță vize pentru Flávio Bolsonaro după înfrângerea electorală",
+      "fact": "Un oficial al Departamentului de Stat a declarat pentru Associated Press că Flávio Bolsonaro și familia sa vor primi vize americane. Presa braziliană a relatat că el a plecat din țară înainte de termenul de predare a pașapoartelor, însă destinația și respectarea ordinului nu erau confirmate public.",
+      "printSummary": "Un oficial american a confirmat vize pentru familia Bolsonaro; locul candidatului învins și situația pașapoartelor rămân neclare.",
+      "interpretation": "Cazul poate tensiona relațiile dintre administrațiile de la Brasília și Washington și poate prelungi contestarea politică a rezultatului. Impactul juridic depinde de deciziile instanțelor și de localizarea confirmată a lui Bolsonaro.",
+      "category": "Extern",
+      "impact": 4,
+      "impactLabel": "Tensiune diplomatică regională",
+      "horizon": "1–4 săptămâni",
+      "sourceId": "ap-bolsonaro-vize",
+      "sourceName": "Associated Press",
+      "sourceUrl": "https://apnews.com/article/brazil-flavio-bolsonaro-passport-lula-1f64bda20de066eeea04349e0319820a",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "plan-aparare-marea-britanie-polonia",
+      "title": "Marea Britanie și Polonia adoptă un plan de apărare pe trei ani",
+      "fact": "Guvernele britanic și polonez au semnat Planul de Apărare de la Varșovia, care prevede cooperare pentru rachete antiaeriene, tehnologii de drone și antidronă, securitate cibernetică, activitate maritimă în Marea Baltică și exerciții comune.",
+      "printSummary": "Londra și Varșovia au semnat un plan pe trei ani pentru rachete antiaeriene, drone, securitate cibernetică și exerciții comune.",
+      "interpretation": "Documentul operationalizează parteneriatul semnat în mai și întărește flancul estic al NATO. Efectul real va depinde de proiectele finanțate, contractele industriale și ritmul implementării, nu doar de domeniile enumerate.",
+      "category": "Securitate",
+      "impact": 4,
+      "impactLabel": "Consolidare a flancului estic",
+      "horizon": "6–12 luni",
+      "sourceId": "govuk-plan-varsovia",
+      "sourceName": "Guvernul Regatului Unit",
+      "sourceUrl": "https://www.gov.uk/government/news/uk-and-poland-strengthen-defences-on-europes-eastern-flank--2",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "starlink-publicitate-supraveghere",
+      "title": "Cercetători suspectează folosirea reclamelor pentru supravegherea utilizatorilor Starlink",
+      "fact": "Reuters a relatat, citând șase persoane familiarizate cu analiza TrendAI, că firma israeliană Discover-Tech a fost principalul ofertant pentru reclame destinate traficului Starlink în peste 100 de țări. Cercetătorii au concluzionat că reclamele erau probabil folosite pentru geolocalizare sau supraveghere; țintele și eventualul client nu sunt cunoscute.",
+      "printSummary": "Reuters: cercetătorii suspectează că reclame țintite au fost folosite pentru a localiza ori supraveghea utilizatori Starlink.",
+      "interpretation": "Investigația arată cum infrastructura publicitară poate deveni instrument de informații, inclusiv pe rețele satelitare. Concluzia descrie o probabilitate tehnică, nu dovedește deocamdată cine a comandat operațiunea sau cine a fost vizat.",
+      "category": "Tehnologie",
+      "impact": 4,
+      "impactLabel": "Risc global de confidențialitate",
+      "horizon": "1–3 luni",
+      "sourceId": "reuters-starlink-discover-tech",
+      "sourceName": "Reuters",
+      "sourceUrl": "https://wsau.com/2026/10/27/exclusive-alleged-israeli-spy-company-heavily-targeted-starlink-users-sources-say/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "hera-separa-asteroizii",
+      "title": "Hera distinge pentru prima dată separat asteroizii Didymos și Dimorphos",
+      "fact": "Agenția Spațială Europeană a publicat prima imagine în care sonda Hera separă vizual Didymos de Dimorphos, de la 1.280 km de perechea de asteroizi. Dimorphos ocupă aproximativ un pixel; imaginile detaliate sunt programate pentru 25 noiembrie.",
+      "printSummary": "ESA: sonda Hera a separat vizual pentru prima dată Didymos și Dimorphos; imaginile detaliate sunt așteptate în noiembrie.",
+      "interpretation": "Imaginea confirmă achiziția țintei și apropierea controlată, dar nu este încă rezultatul științific principal al misiunii. Datele apropiate vor testa mai bine efectele impactului DART și metoda de deviere cinetică pentru apărare planetară.",
+      "category": "Spațiu",
+      "impact": 4,
+      "impactLabel": "Etapă-cheie pentru apărare planetară",
+      "horizon": "1–4 săptămâni",
+      "sourceId": "esa-hera-first-light",
+      "sourceName": "Agenția Spațială Europeană",
+      "sourceUrl": "https://www.esa.int/Space_Safety/Hera/First_light_Hera_resolves_two_asteroids_instead_of_one",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    }
+  ],
+  "romaniaAnalysis": {
+    "factBase": [
+      "România a înregistrat 1.296 de decese rutiere în 2025, cu 12% mai puține decât în 2024 și cu 30% sub nivelul din 2019.",
+      "MApN a semnat un contract de 326,5 milioane de lei fără TVA pentru patru radare mobile, cu primele livrări în 2028.",
+      "Contractul radar include instalare, integrare și contribuția specialiștilor Thales România la disponibilitatea pe termen lung."
+    ],
+    "political": "Datele europene oferă guvernului un progres cuantificabil în siguranța rutieră, dar mențin presiunea pentru măsuri structurale. Achiziția militară continuă întărirea capacităților aeriene și cooperarea industrială cu Franța.",
+    "economic": "Contractul radar aduce cheltuieli multianuale și activitate locală de integrare, însă comunicatul nu cuantifică valoarea adăugată internă. Reducerea accidentelor poate diminua costurile sociale, dar rata încă ridicată indică pierderi economice persistente.",
+    "interpretation": "Semnalul comun este unul de progres cu decalaj: indicatorul rutier se îmbunătățește fără a elimina vulnerabilitatea, iar reziliența aeriană contractată va apărea abia din 2028. Evaluarea trebuie urmărită prin rezultate și termene, nu prin anunțuri izolate."
+  },
+  "investmentFundSignals": [
+    {
+      "id": "aparare-infrastructura-rezilienta",
+      "label": "Investiții europene în apărare și reziliență",
+      "direction": "pozitiv",
+      "strength": 3,
+      "horizon": "6–12 luni",
+      "rationale": "Contractul românesc și planul britanico-polonez confirmă cererea publică multianuală pentru radar, apărare aeriană, drone, securitate cibernetică și integrare industrială."
+    },
+    {
+      "id": "risc-adtech-supraveghere",
+      "label": "Risc de conformitate în publicitatea digitală",
+      "direction": "negativ",
+      "strength": 3,
+      "horizon": "1–3 luni",
+      "rationale": "Investigația privind reclamele țintite pe traficul Starlink poate amplifica verificările de conformitate și presiunea asupra lanțului de furnizori adtech."
+    },
+    {
+      "id": "israel-incertitudine-coalitie",
+      "label": "Incertitudine politică în Israel",
+      "direction": "neutru",
+      "strength": 3,
+      "horizon": "1–4 săptămâni",
+      "rationale": "Lipsa unei majorități clare prelungește negocierea politică; direcția politicilor nu poate fi evaluată înainte de rezultate finale și formarea unei coaliții."
+    }
+  ],
+  "indicators": [
+    {
+      "id": "romania-decese-rutiere",
+      "label": "Decese rutiere în România",
+      "value": 1296,
+      "unit": "persoane",
+      "referenceDate": "2025-12-31",
+      "sourceName": "Comisia Europeană",
+      "sourceUrl": "https://transport.ec.europa.eu/news-events/news/road-safety-statistics-2025-confirm-drop-eu-road-deaths-2026-10-27_en",
+      "freshness": "current",
+      "note": "68 de decese la un milion de locuitori; date finale pentru 2025."
+    },
+    {
+      "id": "ue-decese-rutiere",
+      "label": "Decese rutiere în UE",
+      "value": 19350,
+      "unit": "persoane",
+      "referenceDate": "2025-12-31",
+      "sourceName": "Comisia Europeană",
+      "sourceUrl": "https://transport.ec.europa.eu/news-events/news/road-safety-statistics-2025-confirm-drop-eu-road-deaths-2026-10-27_en",
+      "freshness": "current",
+      "note": "Scădere de 3% față de 2024 și de 15% față de 2019."
+    },
+    {
+      "id": "contract-radare-mobile",
+      "label": "Contract radare mobile MApN",
+      "value": 326.5,
+      "unit": "milioane lei fără TVA",
+      "referenceDate": "2026-10-27",
+      "sourceName": "Ministerul Apărării Naționale",
+      "sourceUrl": "https://www.mapn.ro/cpresa/19458_modernizarea-for%C8%9Belor-aeriene-romane%3A-contract-semnat-pentru-achizi%C8%9Bia-a-patru-radare-mobile-de-dirijare-la-apropiere-%C8%99i-aterizare",
+      "freshness": "current",
+      "note": "Patru sisteme, cu livrări etapizate începând din 2028."
+    },
+    {
+      "id": "eur-ron",
+      "label": "EUR/RON",
+      "value": 5.3487,
+      "unit": "lei",
+      "referenceDate": "2026-10-27",
+      "sourceName": "BNR",
+      "sourceUrl": "https://curs.bnr.ro/nbrfxrates.xml",
+      "freshness": "current",
+      "note": "Curs de referință oficial publicat de BNR."
+    },
+    {
+      "id": "usd-ron",
+      "label": "USD/RON",
+      "value": 4.7977,
+      "unit": "lei",
+      "referenceDate": "2026-10-27",
+      "sourceName": "BNR",
+      "sourceUrl": "https://curs.bnr.ro/nbrfxrates.xml",
+      "freshness": "current",
+      "note": "Curs de referință oficial publicat de BNR."
+    },
+    {
+      "id": "bet",
+      "label": "Indice BET",
+      "value": 34411.76,
+      "unit": "puncte",
+      "referenceDate": "2026-10-28",
+      "sourceName": "BVB",
+      "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=BET",
+      "freshness": "current",
+      "note": "Indicele principal al Bursei de Valori București."
+    },
+    {
+      "id": "rotx",
+      "label": "Indice ROTX",
+      "value": 78043.26,
+      "unit": "puncte",
+      "referenceDate": "2026-10-28",
+      "sourceName": "BVB / Wiener Börse",
+      "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=ROTX",
+      "freshness": "current",
+      "note": "Indicele acțiunilor românești blue-chip, calculat de Wiener Börse."
+    },
+    {
+      "id": "robor",
+      "label": "ROBOR 3M",
+      "value": 6.09,
+      "unit": "%",
+      "referenceDate": "2026-10-27",
+      "sourceName": "BNR",
+      "sourceUrl": "https://www.bnr.ro/1074-baza-de-date-interactiva",
+      "freshness": "current",
+      "note": "Rată interbancară de referință, stabilită zilnic de BNR."
+    },
+    {
+      "id": "ircc",
+      "label": "IRCC",
+      "value": null,
+      "unit": "%",
+      "referenceDate": "2026-10-28",
+      "sourceName": "BNR",
+      "sourceUrl": "https://www.bnr.ro/",
+      "freshness": "unavailable"
+    }
+  ],
+  "riskScores": [
+    {
+      "id": "risc-geopolitic",
+      "label": "Risc geopolitic",
+      "score": 4,
+      "trend": "stabil",
+      "description": "Incertitudinea politică din Israel și consolidarea defensivă pe flancul estic mențin un nivel ridicat al riscului extern."
+    },
+    {
+      "id": "risc-cibernetic-confidentialitate",
+      "label": "Risc cibernetic și de confidențialitate",
+      "score": 4,
+      "trend": "în creștere",
+      "description": "Folosirea infrastructurii publicitare pentru geolocalizare sau supraveghere extinde suprafața de risc dincolo de atacurile informatice clasice."
+    },
+    {
+      "id": "risc-social-rutier",
+      "label": "Risc social rutier",
+      "score": 4,
+      "trend": "în scădere",
+      "description": "Mortalitatea rutieră din România scade, dar rata rămâne a doua între cele mai ridicate valori raportate în UE."
+    }
+  ],
+  "watchlist": [
+    {
+      "id": "rezultate-finale-israel",
+      "title": "Rezultatele finale și coaliția din Israel",
+      "why": "Distribuția finală a mandatelor poate schimba candidatul cu cele mai mari șanse de a forma guvernul.",
+      "trigger": "Publicarea rezultatelor oficiale și începerea consultărilor președintelui Isaac Herzog.",
+      "status": "în așteptare",
+      "sourceUrl": "https://apnews.com/article/israel-election-netanyahu-eisenkot-exit-polls-9962f87d11534908f553146f07039e92"
+    },
+    {
+      "id": "situatia-flavio-bolsonaro",
+      "title": "Localizarea și situația juridică a lui Flávio Bolsonaro",
+      "why": "Confirmarea locului și a respectării ordinului privind pașapoartele determină implicațiile juridice și diplomatice.",
+      "trigger": "Comunicări ale instanței braziliene, ale autorităților de frontieră sau ale Departamentului de Stat.",
+      "status": "contradictoriu",
+      "sourceUrl": "https://apnews.com/article/brazil-flavio-bolsonaro-passport-lula-1f64bda20de066eeea04349e0319820a"
+    },
+    {
+      "id": "investigatie-starlink-adtech",
+      "title": "Răspunsurile Discover-Tech, SpaceX și platformelor publicitare",
+      "why": "Răspunsurile tehnice și eventualele măsuri pot confirma amploarea, țintele și remedierea presupusei supravegheri.",
+      "trigger": "Publicarea raportului tehnic complet, răspunsuri ale companiilor sau investigații ale autorităților de protecție a datelor.",
+      "status": "în așteptare",
+      "sourceUrl": "https://wsau.com/2026/10/27/exclusive-alleged-israeli-spy-company-heavily-targeted-starlink-users-sources-say/"
+    },
+    {
+      "id": "hera-imagini-detaliate",
+      "title": "Primele imagini detaliate ale lui Dimorphos",
+      "why": "Observațiile apropiate pot arăta cum a modificat impactul DART corpul asteroidului și eficiența devierii cinetice.",
+      "trigger": "Publicarea de către ESA a imaginilor și datelor programate începând cu 25 noiembrie.",
+      "status": "în așteptare",
+      "sourceUrl": "https://www.esa.int/Space_Safety/Hera/First_light_Hera_resolves_two_asteroids_instead_of_one"
+    }
+  ],
+  "conclusion": {
+    "title": "Progres verificabil, rezultate încă în așteptare",
+    "body": "Dimineața aduce două progrese concrete pentru România, dar ambele cer perspectivă: siguranța rutieră se îmbunătățește de la un nivel încă foarte slab, iar noile radare vor intra în serviciu etapizat. Extern, rezultatele electorale și investigațiile tehnologice trebuie urmărite fără concluzii premature.",
+    "actionPoints": [
+      "Urmăriți rezultatele oficiale și negocierile de coaliție din Israel.",
+      "Separați contractele de apărare semnate de capabilitățile efectiv livrate.",
+      "Căutați confirmări tehnice și răspunsuri oficiale în investigația Starlink.",
+      "Evaluați siguranța rutieră prin tendință și nivel absolut, nu printr-un singur procent."
+    ]
+  },
+  "sources": [
+    {
+      "id": "biziday-rss",
+      "name": "Biziday RSS",
+      "url": "https://www.biziday.ro/feed/",
+      "type": "primary",
+      "accessedAt": "2026-10-28T06:00:05+02:00"
+    },
+    {
+      "id": "comisia-europeana-siguranta-rutiera-2025",
+      "name": "Comisia Europeană — statistici finale de siguranță rutieră 2025",
+      "url": "https://transport.ec.europa.eu/news-events/news/road-safety-statistics-2025-confirm-drop-eu-road-deaths-2026-10-27_en",
+      "type": "official",
+      "accessedAt": "2026-10-28T06:05:00+02:00"
+    },
+    {
+      "id": "mapn-radare-mobile",
+      "name": "Ministerul Apărării Naționale — contract radare mobile",
+      "url": "https://www.mapn.ro/cpresa/19458_modernizarea-for%C8%9Belor-aeriene-romane%3A-contract-semnat-pentru-achizi%C8%9Bia-a-patru-radare-mobile-de-dirijare-la-apropiere-%C8%99i-aterizare",
+      "type": "official",
+      "accessedAt": "2026-10-28T06:06:00+02:00"
+    },
+    {
+      "id": "ap-alegeri-israel",
+      "name": "Associated Press — alegerile din Israel",
+      "url": "https://apnews.com/article/israel-election-netanyahu-eisenkot-exit-polls-9962f87d11534908f553146f07039e92",
+      "type": "secondary",
+      "accessedAt": "2026-10-28T06:07:00+02:00"
+    },
+    {
+      "id": "ap-bolsonaro-vize",
+      "name": "Associated Press — vizele familiei Bolsonaro",
+      "url": "https://apnews.com/article/brazil-flavio-bolsonaro-passport-lula-1f64bda20de066eeea04349e0319820a",
+      "type": "secondary",
+      "accessedAt": "2026-10-28T06:07:30+02:00"
+    },
+    {
+      "id": "govuk-plan-varsovia",
+      "name": "Guvernul Regatului Unit — Planul de Apărare de la Varșovia",
+      "url": "https://www.gov.uk/government/news/uk-and-poland-strengthen-defences-on-europes-eastern-flank--2",
+      "type": "official",
+      "accessedAt": "2026-10-28T06:08:00+02:00"
+    },
+    {
+      "id": "guvernul-poloniei-plan-aparare",
+      "name": "Ministerul Apărării al Poloniei — planul de cooperare pe trei ani",
+      "url": "https://www.gov.pl/web/national-defence/strategic-partnership-of-poland-and-great-britain-three-year-defence-cooperation-plan-signed",
+      "type": "official",
+      "accessedAt": "2026-10-28T06:08:30+02:00"
+    },
+    {
+      "id": "reuters-starlink-discover-tech",
+      "name": "Reuters — presupusa supraveghere a utilizatorilor Starlink",
+      "url": "https://wsau.com/2026/10/27/exclusive-alleged-israeli-spy-company-heavily-targeted-starlink-users-sources-say/",
+      "type": "secondary",
+      "accessedAt": "2026-10-28T06:09:00+02:00"
+    },
+    {
+      "id": "esa-hera-first-light",
+      "name": "Agenția Spațială Europeană — primul cadru separat Didymos–Dimorphos",
+      "url": "https://www.esa.int/Space_Safety/Hera/First_light_Hera_resolves_two_asteroids_instead_of_one",
+      "type": "official",
+      "accessedAt": "2026-10-28T06:10:00+02:00"
+    }
+  ]
+}
