@@ -1,235 +1,251 @@
 {
   "metadata": {
-    "editionDate": "2026-10-28",
-    "updatedAt": "2026-10-28T06:02:14+02:00",
+    "editionDate": "2026-10-29",
+    "updatedAt": "2026-10-29T06:03:43+02:00",
     "timezone": "Europe/Bucharest",
-    "title": "Hapics News — Briefing de dimineață, 28 octombrie 2026",
+    "title": "Hapics News — Briefing de dimineață, 29 octombrie 2026",
     "status": "published",
     "primarySource": "https://www.biziday.ro/feed/",
     "sourceCoverage": "complete"
   },
   "executiveSummary": [
     {
-      "id": "romania-decese-rutiere-2025",
-      "text": "România a redus cu 30% decesele rutiere față de 2019, dar rata de 68 la un milion de locuitori rămâne printre cele mai ridicate din UE.",
-      "category": "Social"
-    },
-    {
-      "id": "radare-mobile-fortele-aeriene",
-      "text": "MApN a contractat patru radare mobile pentru apropiere și aterizare, în valoare de 326,5 milioane de lei fără TVA, cu livrări din 2028.",
+      "id": "carfil-suspect-retinut-polonia",
+      "text": "Poliția poloneză a reținut un suspect căutat de România în ancheta incendiului de lângă fabrica militară Carfil; procedura de predare este separată.",
       "category": "Securitate"
     },
     {
-      "id": "alegeri-israel-neconcludente",
-      "text": "Exit-pollurile alegerilor israeliene nu indică o majoritate clară, iar rezultatul oficial și negocierile pentru o coaliție rămân deschise.",
+      "id": "nava-drone-marea-neagra",
+      "text": "Trei drone navale au lovit o navă comercială în zona economică exclusivă a Bulgariei; echipajul a fost evacuat, iar autorul nu este stabilit.",
+      "category": "Securitate"
+    },
+    {
+      "id": "spania-coliziune-trenuri",
+      "text": "Coliziunea a două trenuri de mare viteză în provincia Toledo a provocat cel puțin 68 de decese, potrivit autorităților regionale citate de AP.",
       "category": "Extern"
     },
     {
-      "id": "bolsonaro-vize-sua",
-      "text": "SUA vor acorda vize lui Flávio Bolsonaro și familiei sale, în timp ce locul în care se află candidatul învins rămâne neconfirmat public.",
+      "id": "lancet-clima-sanatate-2026",
+      "text": "Raportul Lancet Countdown estimează o accelerare a efectelor climatice asupra sănătății și cere tratarea schimbărilor climatice ca urgență sanitară globală.",
+      "category": "Climă"
+    },
+    {
+      "id": "fed-mentine-dobanda",
+      "text": "Rezerva Federală a menținut intervalul dobânzii la 3,75–4%, cu două voturi pentru o majorare de 0,25 puncte procentuale.",
+      "category": "Piețe"
+    },
+    {
+      "id": "israel-alegeri-fara-majoritate",
+      "text": "Numărătoarea parțială din Israel lasă ambele blocuri sub pragul de 61 de mandate, iar rezultatul final și negocierile rămân deschise.",
       "category": "Extern"
-    },
-    {
-      "id": "starlink-publicitate-supraveghere",
-      "text": "Cercetători citați de Reuters afirmă că o companie israeliană de publicitate a vizat intens traficul Starlink pentru localizare sau supraveghere.",
-      "category": "Tehnologie"
-    },
-    {
-      "id": "hera-separa-asteroizii",
-      "text": "Sonda Hera a separat pentru prima dată în propriile imagini asteroizii Didymos și Dimorphos, înaintea investigației apropiate din noiembrie.",
-      "category": "Spațiu"
     }
   ],
   "importantNews": [
     {
-      "id": "romania-decese-rutiere-2025",
-      "title": "România progresează, dar rămâne între statele UE cu mortalitate rutieră ridicată",
-      "fact": "Comisia Europeană a raportat pentru România 1.296 de decese rutiere în 2025, echivalentul a 68 la un milion de locuitori. Numărul este cu 12% mai mic decât în 2024 și cu 30% sub 2019; România este unul dintre cele cinci state aflate încă pe traiectoria reducerii la jumătate până în 2030.",
-      "printSummary": "Comisia Europeană indică pentru România 1.296 de decese rutiere în 2025, cu 12% mai puține decât în 2024.",
-      "interpretation": "Progresul este măsurabil, însă nivelul absolut rămâne aproape de vârful clasamentului european. Miza internă este transformarea ritmului de scădere în intervenții susținute pe infrastructură, control și protecția utilizatorilor vulnerabili.",
-      "category": "Social",
-      "impact": 5,
-      "impactLabel": "Ridicat pentru politici publice",
-      "horizon": "6–12 luni",
-      "sourceId": "comisia-europeana-siguranta-rutiera-2025",
-      "sourceName": "Comisia Europeană",
-      "sourceUrl": "https://transport.ec.europa.eu/news-events/news/road-safety-statistics-2025-confirm-drop-eu-road-deaths-2026-10-27_en",
-      "isSecondary": true,
-      "confidence": "confirmed"
-    },
-    {
-      "id": "radare-mobile-fortele-aeriene",
-      "title": "MApN cumpără patru radare mobile pentru apropiere și aterizare",
-      "fact": "Ministerul Apărării a semnat cu Thales România și Thales LAS France un contract de aproximativ 326,5 milioane de lei fără TVA pentru patru sisteme radar mobile. Livrările vor începe în 2028, iar sistemele vor putea ghida aeronave militare și civile inclusiv în vreme dificilă și mediu electromagnetic ostil.",
-      "printSummary": "MApN a contractat patru radare mobile Thales, de 326,5 milioane de lei fără TVA, cu livrări începând din 2028.",
-      "interpretation": "Mobilitatea reduce dependența de infrastructura fixă a bazelor aeriene și crește reziliența operațională. Contractul produce efecte gradual, nu o capabilitate disponibilă imediat.",
+      "id": "carfil-suspect-retinut-polonia",
+      "title": "Polonia a reținut un suspect în ancheta sabotajului de la Carfil",
+      "fact": "Biziday a relatat că poliția poloneză a reținut un cetățean ucrainean căutat prin mandat european de arestare în ancheta incendiului din apropierea fabricii de armament Carfil din Brașov. România solicită predarea lui; doi cetățeni belaruși au fost arestați anterior în Germania în același dosar.",
+      "printSummary": "Biziday: Polonia a reținut un suspect căutat de România în ancheta incendiului de lângă fabrica militară Carfil.",
+      "interpretation": "Reținerea extinde cooperarea judiciară transfrontalieră într-un dosar pe care autoritățile române îl tratează ca tentativă de sabotaj. Ea nu echivalează cu o condamnare, iar predarea către România necesită o procedură judiciară separată în Polonia.",
       "category": "Securitate",
-      "impact": 4,
-      "impactLabel": "Capabilitate strategică",
-      "horizon": "6–12 luni",
-      "sourceId": "mapn-radare-mobile",
-      "sourceName": "Ministerul Apărării Naționale",
-      "sourceUrl": "https://www.mapn.ro/cpresa/19458_modernizarea-for%C8%9Belor-aeriene-romane%3A-contract-semnat-pentru-achizi%C8%9Bia-a-patru-radare-mobile-de-dirijare-la-apropiere-%C8%99i-aterizare",
+      "impact": 5,
+      "impactLabel": "Securitate națională și cooperare judiciară",
+      "horizon": "1–4 săptămâni",
+      "sourceId": "biziday-carfil-polonia",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/373964-2/",
       "isSecondary": true,
       "confidence": "confirmed"
     },
     {
-      "id": "alegeri-israel-neconcludente",
-      "title": "Alegerile din Israel nu oferă încă o majoritate clară",
-      "fact": "Exit-pollurile publicate după scrutinul din Israel indică un avans restrâns pentru blocul care încearcă să-l înlăture pe Benjamin Netanyahu, dar niciun tablou clar de 61 de mandate. Rezultatele oficiale finale sunt așteptate mai târziu în această săptămână și pot diferi de estimări.",
-      "printSummary": "Exit-pollurile din Israel nu indică o majoritate de 61 de mandate; rezultatele oficiale pot modifica distribuția estimată.",
-      "interpretation": "Scenariul cel mai probabil este o perioadă de negocieri pentru coaliție, cu incertitudine asupra conducerii viitoare. Orice concluzie privind schimbarea guvernului este prematură înaintea numărătorii finale și a consultărilor prezidențiale.",
+      "id": "calin-georgescu-arest-prelungit",
+      "title": "Curtea de Apel a prelungit arestarea preventivă a lui Călin Georgescu",
+      "fact": "Biziday a relatat că Curtea de Apel a admis contestația DIICOT și a prelungit cu 30 de zile arestarea preventivă a lui Călin Georgescu. Fostul candidat la președinție este acuzat că ar fi înșelat un om de afaceri cu 1,1 milioane de euro; decizia privind măsura preventivă este definitivă.",
+      "printSummary": "Biziday: Curtea de Apel a prelungit definitiv cu 30 de zile arestarea preventivă a lui Călin Georgescu.",
+      "interpretation": "Hotărârea privește măsura preventivă, nu stabilește vinovăția în dosar. Cazul va rămâne relevant politic și judiciar, dar evaluarea faptelor aparține instanței la judecarea fondului.",
+      "category": "Justiție",
+      "impact": 4,
+      "impactLabel": "Impact politic și judiciar ridicat",
+      "horizon": "1–4 săptămâni",
+      "sourceId": "biziday-georgescu-arest",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/373957-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "nava-drone-marea-neagra",
+      "title": "O navă comercială a fost lovită de trei drone în largul Bulgariei",
+      "fact": "Ministerul bulgar al Apărării și proprietarul navei au declarat că trei drone navale au lovit o navă container sub pavilion liberian, la circa 21 de mile sud-est de Șabla, în zona economică exclusivă a Bulgariei. Cei 18 membri ai echipajului au fost evacuați, iar autorul atacului nu era stabilit.",
+      "printSummary": "Reuters: trei drone navale au lovit o navă în largul Bulgariei; cei 18 membri ai echipajului au fost evacuați.",
+      "interpretation": "Incidentul ridică riscul pentru navigația comercială în vestul Mării Negre și pentru ruta către Constanța. Fără atribuirea oficială a atacului, legarea lui de un actor militar anume ar fi prematură.",
+      "category": "Securitate",
+      "impact": 5,
+      "impactLabel": "Risc regional pentru transportul maritim",
+      "horizon": "Imediat",
+      "sourceId": "reuters-nava-bulgaria",
+      "sourceName": "Reuters",
+      "sourceUrl": "https://www.streetinsider.com/Reuters/Drones%2Bhit%2Bcontainer%2Bship%2Boff%2BBulgaria%2C%2Bcrew%2Bsafe%2Band%2Bashore/27245104.html",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "spania-coliziune-trenuri",
+      "title": "Cel puțin 68 de oameni au murit într-o coliziune feroviară în Spania",
+      "fact": "Associated Press a relatat că două trenuri de mare viteză care circulau din Madrid spre Sevilla s-au ciocnit lângă Urda, în provincia Toledo. Guvernul regional Castilla-La Mancha a confirmat cel puțin 68 de decese, iar zeci de persoane au fost rănite; operațiunile de salvare și ancheta continuau.",
+      "printSummary": "AP: coliziunea a două trenuri de mare viteză lângă Toledo a provocat cel puțin 68 de decese; ancheta continuă.",
+      "interpretation": "Bilanțul face din accident un eveniment internațional major și pune presiune pe autorități să explice cauza și măsurile de siguranță. Orice atribuire tehnică sau umană trebuie așteptată până la concluziile anchetei.",
+      "category": "Extern",
+      "impact": 5,
+      "impactLabel": "Dezastru cu impact național",
+      "horizon": "Imediat",
+      "sourceId": "ap-trenuri-spania",
+      "sourceName": "Associated Press",
+      "sourceUrl": "https://apnews.com/article/4f65471a0e36f448d7ee9efe0768cd77",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "lancet-clima-sanatate-2026",
+      "title": "Lancet Countdown indică accelerarea riscurilor climatice pentru sănătate",
+      "fact": "Raportul Lancet Countdown 2026, realizat de 146 de cercetători și prezentat de OMS, estimează că în 2023 căldura a fost asociată cu 710.000 de decese la nivel global, peste 70% fiind atribuite schimbărilor climatice provocate de om. Raportul urmărește 54 de indicatori și cere recunoașterea unei urgențe sanitare globale.",
+      "printSummary": "OMS și Lancet Countdown estimează 710.000 de decese asociate căldurii în 2023, peste 70% atribuite schimbărilor climatice.",
+      "interpretation": "Este o evaluare științifică bazată pe modelare și indicatori globali, nu o numărătoare directă a certificatelor de deces. Miza concretă este adaptarea sistemelor sanitare, avertizarea timpurie și reducerea expunerii; efectele politicilor vor depinde de implementare.",
+      "category": "Climă",
+      "impact": 5,
+      "impactLabel": "Impact global asupra sănătății publice",
+      "horizon": "6–12 luni",
+      "sourceId": "oms-lancet-clima-2026",
+      "sourceName": "Organizația Mondială a Sănătății",
+      "sourceUrl": "https://www.who.int/news/item/28-10-2026-climate-change-is-a-growing-health-emergency--lancet-countdown-warns",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "fed-mentine-dobanda",
+      "title": "Fed menține dobânda, în timp ce inflația rămâne ridicată",
+      "fact": "Comitetul Federal pentru Piața Deschisă a menținut intervalul țintă pentru rata fondurilor federale la 3,75–4%. Decizia a fost adoptată cu 10 voturi la 2; Lisa Cook și Beth Hammack au preferat o majorare de 0,25 puncte procentuale, iar comunicatul spune că inflația rămâne ridicată.",
+      "printSummary": "Fed a menținut dobânda la 3,75–4%, cu două voturi pentru o majorare de 0,25 puncte procentuale.",
+      "interpretation": "Decizia semnalează prudență, nu o schimbare certă de direcție. Pentru activele globale și economiile emergente, reacția va depinde de datele viitoare despre inflație și de așteptările privind următoarele ședințe.",
+      "category": "Piețe",
+      "impact": 4,
+      "impactLabel": "Semnal major pentru condițiile financiare globale",
+      "horizon": "1–3 luni",
+      "sourceId": "fed-fomc-2026-10-28",
+      "sourceName": "Federal Reserve",
+      "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "israel-alegeri-fara-majoritate",
+      "title": "Alegerile din Israel lasă formarea guvernului deschisă negocierilor",
+      "fact": "Associated Press a relatat că numărătoarea voturilor nu oferea niciunui bloc pragul de 61 de mandate necesar unei majorități. Partidele conduse de arabi obțineau aproximativ 15% din voturi în rezultatele emergente, iar rezultatele oficiale finale erau așteptate joi sau vineri.",
+      "printSummary": "AP: niciun bloc israelian nu atingea pragul de 61 de mandate; rezultatele finale sunt așteptate joi sau vineri.",
+      "interpretation": "Rezultatul probabil deschide săptămâni de negocieri și poate face decisive partide până acum excluse de principalii competitori. Formarea unei coaliții sau repetarea scrutinului rămân scenarii, nu concluzii.",
       "category": "Extern",
       "impact": 5,
       "impactLabel": "Impact geopolitic major",
       "horizon": "1–4 săptămâni",
-      "sourceId": "ap-alegeri-israel",
+      "sourceId": "ap-israel-numaratoare",
       "sourceName": "Associated Press",
-      "sourceUrl": "https://apnews.com/article/israel-election-netanyahu-eisenkot-exit-polls-9962f87d11534908f553146f07039e92",
+      "sourceUrl": "https://apnews.com/article/52c6f5a0a720a4ffc08633229e796415",
       "isSecondary": true,
       "confidence": "confirmed"
     },
     {
-      "id": "bolsonaro-vize-sua",
-      "title": "SUA anunță vize pentru Flávio Bolsonaro după înfrângerea electorală",
-      "fact": "Un oficial al Departamentului de Stat a declarat pentru Associated Press că Flávio Bolsonaro și familia sa vor primi vize americane. Presa braziliană a relatat că el a plecat din țară înainte de termenul de predare a pașapoartelor, însă destinația și respectarea ordinului nu erau confirmate public.",
-      "printSummary": "Un oficial american a confirmat vize pentru familia Bolsonaro; locul candidatului învins și situația pașapoartelor rămân neclare.",
-      "interpretation": "Cazul poate tensiona relațiile dintre administrațiile de la Brasília și Washington și poate prelungi contestarea politică a rezultatului. Impactul juridic depinde de deciziile instanțelor și de localizarea confirmată a lui Bolsonaro.",
+      "id": "zelenski-sfere-influenta",
+      "title": "Zelenski avertizează asupra unei posibile împărțiri a sferelor de influență",
+      "fact": "Biziday a relatat că președintele ucrainean Volodimir Zelenski și-a exprimat îngrijorarea că o posibilă întâlnire în noiembrie între Donald Trump, Vladimir Putin și Xi Jinping ar putea conduce la o reîmpărțire a sferelor de influență. Declarația descrie o temere politică; o asemenea înțelegere nu este confirmată.",
+      "printSummary": "Biziday: Zelenski avertizează asupra unei posibile reîmpărțiri a sferelor de influență; o înțelegere nu este confirmată.",
+      "interpretation": "Mesajul urmărește să mențină Ucraina și Europa la masa negocierilor, dar nu dovedește existența unui acord între cele trei puteri. Miza pentru România este păstrarea deciziilor de securitate regională în cadre multilaterale verificabile.",
       "category": "Extern",
       "impact": 4,
-      "impactLabel": "Tensiune diplomatică regională",
+      "impactLabel": "Semnal diplomatic relevant pentru regiune",
       "horizon": "1–4 săptămâni",
-      "sourceId": "ap-bolsonaro-vize",
-      "sourceName": "Associated Press",
-      "sourceUrl": "https://apnews.com/article/brazil-flavio-bolsonaro-passport-lula-1f64bda20de066eeea04349e0319820a",
-      "isSecondary": true,
-      "confidence": "confirmed"
-    },
-    {
-      "id": "plan-aparare-marea-britanie-polonia",
-      "title": "Marea Britanie și Polonia adoptă un plan de apărare pe trei ani",
-      "fact": "Guvernele britanic și polonez au semnat Planul de Apărare de la Varșovia, care prevede cooperare pentru rachete antiaeriene, tehnologii de drone și antidronă, securitate cibernetică, activitate maritimă în Marea Baltică și exerciții comune.",
-      "printSummary": "Londra și Varșovia au semnat un plan pe trei ani pentru rachete antiaeriene, drone, securitate cibernetică și exerciții comune.",
-      "interpretation": "Documentul operationalizează parteneriatul semnat în mai și întărește flancul estic al NATO. Efectul real va depinde de proiectele finanțate, contractele industriale și ritmul implementării, nu doar de domeniile enumerate.",
-      "category": "Securitate",
-      "impact": 4,
-      "impactLabel": "Consolidare a flancului estic",
-      "horizon": "6–12 luni",
-      "sourceId": "govuk-plan-varsovia",
-      "sourceName": "Guvernul Regatului Unit",
-      "sourceUrl": "https://www.gov.uk/government/news/uk-and-poland-strengthen-defences-on-europes-eastern-flank--2",
-      "isSecondary": true,
-      "confidence": "confirmed"
-    },
-    {
-      "id": "starlink-publicitate-supraveghere",
-      "title": "Cercetători suspectează folosirea reclamelor pentru supravegherea utilizatorilor Starlink",
-      "fact": "Reuters a relatat, citând șase persoane familiarizate cu analiza TrendAI, că firma israeliană Discover-Tech a fost principalul ofertant pentru reclame destinate traficului Starlink în peste 100 de țări. Cercetătorii au concluzionat că reclamele erau probabil folosite pentru geolocalizare sau supraveghere; țintele și eventualul client nu sunt cunoscute.",
-      "printSummary": "Reuters: cercetătorii suspectează că reclame țintite au fost folosite pentru a localiza ori supraveghea utilizatori Starlink.",
-      "interpretation": "Investigația arată cum infrastructura publicitară poate deveni instrument de informații, inclusiv pe rețele satelitare. Concluzia descrie o probabilitate tehnică, nu dovedește deocamdată cine a comandat operațiunea sau cine a fost vizat.",
-      "category": "Tehnologie",
-      "impact": 4,
-      "impactLabel": "Risc global de confidențialitate",
-      "horizon": "1–3 luni",
-      "sourceId": "reuters-starlink-discover-tech",
-      "sourceName": "Reuters",
-      "sourceUrl": "https://wsau.com/2026/10/27/exclusive-alleged-israeli-spy-company-heavily-targeted-starlink-users-sources-say/",
-      "isSecondary": true,
-      "confidence": "confirmed"
-    },
-    {
-      "id": "hera-separa-asteroizii",
-      "title": "Hera distinge pentru prima dată separat asteroizii Didymos și Dimorphos",
-      "fact": "Agenția Spațială Europeană a publicat prima imagine în care sonda Hera separă vizual Didymos de Dimorphos, de la 1.280 km de perechea de asteroizi. Dimorphos ocupă aproximativ un pixel; imaginile detaliate sunt programate pentru 25 noiembrie.",
-      "printSummary": "ESA: sonda Hera a separat vizual pentru prima dată Didymos și Dimorphos; imaginile detaliate sunt așteptate în noiembrie.",
-      "interpretation": "Imaginea confirmă achiziția țintei și apropierea controlată, dar nu este încă rezultatul științific principal al misiunii. Datele apropiate vor testa mai bine efectele impactului DART și metoda de deviere cinetică pentru apărare planetară.",
-      "category": "Spațiu",
-      "impact": 4,
-      "impactLabel": "Etapă-cheie pentru apărare planetară",
-      "horizon": "1–4 săptămâni",
-      "sourceId": "esa-hera-first-light",
-      "sourceName": "Agenția Spațială Europeană",
-      "sourceUrl": "https://www.esa.int/Space_Safety/Hera/First_light_Hera_resolves_two_asteroids_instead_of_one",
+      "sourceId": "biziday-zelenski-ialta",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/373906-2/",
       "isSecondary": true,
       "confidence": "confirmed"
     }
   ],
   "romaniaAnalysis": {
     "factBase": [
-      "România a înregistrat 1.296 de decese rutiere în 2025, cu 12% mai puține decât în 2024 și cu 30% sub nivelul din 2019.",
-      "MApN a semnat un contract de 326,5 milioane de lei fără TVA pentru patru radare mobile, cu primele livrări în 2028.",
-      "Contractul radar include instalare, integrare și contribuția specialiștilor Thales România la disponibilitatea pe termen lung."
+      "Un suspect căutat de România în ancheta incendiului de lângă fabrica Carfil a fost reținut în Polonia, iar alți doi suspecți au fost arestați anterior în Germania.",
+      "Curtea de Apel a prelungit cu 30 de zile arestarea preventivă a lui Călin Georgescu; hotărârea privește măsura preventivă, nu fondul acuzației.",
+      "Nava lovită în zona economică exclusivă a Bulgariei se îndrepta din Haifa spre Constanța, potrivit relatării Reuters."
     ],
-    "political": "Datele europene oferă guvernului un progres cuantificabil în siguranța rutieră, dar mențin presiunea pentru măsuri structurale. Achiziția militară continuă întărirea capacităților aeriene și cooperarea industrială cu Franța.",
-    "economic": "Contractul radar aduce cheltuieli multianuale și activitate locală de integrare, însă comunicatul nu cuantifică valoarea adăugată internă. Reducerea accidentelor poate diminua costurile sociale, dar rata încă ridicată indică pierderi economice persistente.",
-    "interpretation": "Semnalul comun este unul de progres cu decalaj: indicatorul rutier se îmbunătățește fără a elimina vulnerabilitatea, iar reziliența aeriană contractată va apărea abia din 2028. Evaluarea trebuie urmărită prin rezultate și termene, nu prin anunțuri izolate."
+    "political": "Două dosare cu vizibilitate ridicată pun accent pe capacitatea instituțiilor române de a lucra cu parteneri europeni și de a păstra distincția dintre anchetă, măsuri preventive și verdict. Comunicarea factuală este esențială pentru a limita exploatarea politică a acuzațiilor înaintea judecării lor.",
+    "economic": "Atacul asupra unei nave cu destinația Constanța nu dovedește o perturbare a portului, dar ridică riscul operațional și de asigurare pentru transportul maritim regional. O succesiune de incidente ar putea crește costurile logistice; un singur caz nu permite cuantificarea efectului.",
+    "interpretation": "Semnalul intern al dimineții este dominat de securitate și justiție, nu de o schimbare economică verificată. Scenariul de bază este continuarea procedurilor judiciare și intensificarea monitorizării maritime; efectele economice mai largi rămân condiționate de repetarea incidentelor și de răspunsul coordonat al statelor riverane."
   },
   "investmentFundSignals": [
     {
-      "id": "aparare-infrastructura-rezilienta",
-      "label": "Investiții europene în apărare și reziliență",
+      "id": "marea-neagra-risc-logistic",
+      "label": "Risc logistic în Marea Neagră",
+      "direction": "negativ",
+      "strength": 4,
+      "horizon": "1–4 săptămâni",
+      "rationale": "Atacul asupra unei nave cu destinația Constanța poate crește prudența operatorilor și asigurătorilor, deși nu există încă dovada unei perturbări sistemice a fluxurilor comerciale."
+    },
+    {
+      "id": "fed-conditii-financiare",
+      "label": "Condiții financiare globale",
+      "direction": "neutru",
+      "strength": 3,
+      "horizon": "1–3 luni",
+      "rationale": "Menținerea dobânzii Fed evită un nou șoc imediat, dar cele două voturi pentru majorare și inflația ridicată păstrează incertitudinea asupra traiectoriei viitoare."
+    },
+    {
+      "id": "adaptare-climatica-sanatate",
+      "label": "Investiții în adaptare climatică și sănătate",
       "direction": "pozitiv",
       "strength": 3,
       "horizon": "6–12 luni",
-      "rationale": "Contractul românesc și planul britanico-polonez confirmă cererea publică multianuală pentru radar, apărare aeriană, drone, securitate cibernetică și integrare industrială."
-    },
-    {
-      "id": "risc-adtech-supraveghere",
-      "label": "Risc de conformitate în publicitatea digitală",
-      "direction": "negativ",
-      "strength": 3,
-      "horizon": "1–3 luni",
-      "rationale": "Investigația privind reclamele țintite pe traficul Starlink poate amplifica verificările de conformitate și presiunea asupra lanțului de furnizori adtech."
-    },
-    {
-      "id": "israel-incertitudine-coalitie",
-      "label": "Incertitudine politică în Israel",
-      "direction": "neutru",
-      "strength": 3,
-      "horizon": "1–4 săptămâni",
-      "rationale": "Lipsa unei majorități clare prelungește negocierea politică; direcția politicilor nu poate fi evaluată înainte de rezultate finale și formarea unei coaliții."
+      "rationale": "Raportul Lancet–OMS întărește argumentul pentru sisteme de avertizare, infrastructură sanitară rezilientă și protecția muncii, fără a indica automat randamente investiționale."
     }
   ],
   "indicators": [
     {
-      "id": "romania-decese-rutiere",
-      "label": "Decese rutiere în România",
-      "value": 1296,
-      "unit": "persoane",
-      "referenceDate": "2025-12-31",
-      "sourceName": "Comisia Europeană",
-      "sourceUrl": "https://transport.ec.europa.eu/news-events/news/road-safety-statistics-2025-confirm-drop-eu-road-deaths-2026-10-27_en",
+      "id": "fed-rata-tinta",
+      "label": "Interval țintă rata fondurilor federale",
+      "value": "3,75–4,00",
+      "unit": "%",
+      "referenceDate": "2026-10-28",
+      "sourceName": "Federal Reserve",
+      "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
       "freshness": "current",
-      "note": "68 de decese la un milion de locuitori; date finale pentru 2025."
+      "note": "Interval menținut prin vot 10–2."
     },
     {
-      "id": "ue-decese-rutiere",
-      "label": "Decese rutiere în UE",
-      "value": 19350,
+      "id": "lancet-decese-caldura-2023",
+      "label": "Decese asociate căldurii, estimare globală",
+      "value": 710000,
       "unit": "persoane",
-      "referenceDate": "2025-12-31",
-      "sourceName": "Comisia Europeană",
-      "sourceUrl": "https://transport.ec.europa.eu/news-events/news/road-safety-statistics-2025-confirm-drop-eu-road-deaths-2026-10-27_en",
+      "referenceDate": "2023-12-31",
+      "sourceName": "Lancet Countdown / OMS",
+      "sourceUrl": "https://www.who.int/news/item/28-10-2026-climate-change-is-a-growing-health-emergency--lancet-countdown-warns",
       "freshness": "current",
-      "note": "Scădere de 3% față de 2024 și de 15% față de 2019."
+      "note": "Estimare publicată în raportul 2026; peste 70% atribuite schimbărilor climatice antropice."
     },
     {
-      "id": "contract-radare-mobile",
-      "label": "Contract radare mobile MApN",
-      "value": 326.5,
-      "unit": "milioane lei fără TVA",
-      "referenceDate": "2026-10-27",
-      "sourceName": "Ministerul Apărării Naționale",
-      "sourceUrl": "https://www.mapn.ro/cpresa/19458_modernizarea-for%C8%9Belor-aeriene-romane%3A-contract-semnat-pentru-achizi%C8%9Bia-a-patru-radare-mobile-de-dirijare-la-apropiere-%C8%99i-aterizare",
+      "id": "spania-decese-coliziune",
+      "label": "Bilanț minim coliziune feroviară Spania",
+      "value": 68,
+      "unit": "decese confirmate",
+      "referenceDate": "2026-10-28",
+      "sourceName": "Associated Press / Castilla-La Mancha",
+      "sourceUrl": "https://apnews.com/article/4f65471a0e36f448d7ee9efe0768cd77",
       "freshness": "current",
-      "note": "Patru sisteme, cu livrări etapizate începând din 2028."
+      "note": "Bilanț provizoriu la momentul publicării."
     },
     {
       "id": "eur-ron",
       "label": "EUR/RON",
-      "value": 5.3487,
+      "value": 5.3495,
       "unit": "lei",
-      "referenceDate": "2026-10-27",
+      "referenceDate": "2026-10-28",
       "sourceName": "BNR",
       "sourceUrl": "https://curs.bnr.ro/nbrfxrates.xml",
       "freshness": "current",
@@ -238,9 +254,9 @@
     {
       "id": "usd-ron",
       "label": "USD/RON",
-      "value": 4.7977,
+      "value": 4.8088,
       "unit": "lei",
-      "referenceDate": "2026-10-27",
+      "referenceDate": "2026-10-28",
       "sourceName": "BNR",
       "sourceUrl": "https://curs.bnr.ro/nbrfxrates.xml",
       "freshness": "current",
@@ -249,9 +265,9 @@
     {
       "id": "bet",
       "label": "Indice BET",
-      "value": 34411.76,
+      "value": 34660.45,
       "unit": "puncte",
-      "referenceDate": "2026-10-28",
+      "referenceDate": "2026-10-29",
       "sourceName": "BVB",
       "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=BET",
       "freshness": "current",
@@ -260,9 +276,9 @@
     {
       "id": "rotx",
       "label": "Indice ROTX",
-      "value": 78043.26,
+      "value": 78666.96,
       "unit": "puncte",
-      "referenceDate": "2026-10-28",
+      "referenceDate": "2026-10-29",
       "sourceName": "BVB / Wiener Börse",
       "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=ROTX",
       "freshness": "current",
@@ -273,7 +289,7 @@
       "label": "ROBOR 3M",
       "value": 6.09,
       "unit": "%",
-      "referenceDate": "2026-10-27",
+      "referenceDate": "2026-10-28",
       "sourceName": "BNR",
       "sourceUrl": "https://www.bnr.ro/1074-baza-de-date-interactiva",
       "freshness": "current",
@@ -284,7 +300,7 @@
       "label": "IRCC",
       "value": null,
       "unit": "%",
-      "referenceDate": "2026-10-28",
+      "referenceDate": "2026-10-29",
       "sourceName": "BNR",
       "sourceUrl": "https://www.bnr.ro/",
       "freshness": "unavailable"
@@ -292,69 +308,76 @@
   ],
   "riskScores": [
     {
+      "id": "risc-securitate-marea-neagra",
+      "label": "Risc de securitate în Marea Neagră",
+      "score": 5,
+      "trend": "în creștere",
+      "description": "Atacul cu drone asupra unei nave comerciale în zona economică exclusivă a Bulgariei extinde riscul pentru rutele din apropierea României."
+    },
+    {
       "id": "risc-geopolitic",
       "label": "Risc geopolitic",
       "score": 4,
       "trend": "stabil",
-      "description": "Incertitudinea politică din Israel și consolidarea defensivă pe flancul estic mențin un nivel ridicat al riscului extern."
+      "description": "Blocajul electoral israelian și temerile Ucrainei privind negocierile marilor puteri mențin incertitudinea regională la un nivel ridicat."
     },
     {
-      "id": "risc-cibernetic-confidentialitate",
-      "label": "Risc cibernetic și de confidențialitate",
-      "score": 4,
+      "id": "risc-climatic-sanatate",
+      "label": "Risc climatic pentru sănătate",
+      "score": 5,
       "trend": "în creștere",
-      "description": "Folosirea infrastructurii publicitare pentru geolocalizare sau supraveghere extinde suprafața de risc dincolo de atacurile informatice clasice."
+      "description": "Lancet Countdown indică accelerarea mortalității asociate căldurii și a expunerii la secetă față de deceniul precedent."
     },
     {
-      "id": "risc-social-rutier",
-      "label": "Risc social rutier",
-      "score": 4,
-      "trend": "în scădere",
-      "description": "Mortalitatea rutieră din România scade, dar rata rămâne a doua între cele mai ridicate valori raportate în UE."
+      "id": "risc-conditii-financiare",
+      "label": "Risc privind condițiile financiare globale",
+      "score": 3,
+      "trend": "stabil",
+      "description": "Fed a menținut rata, dar inflația ridicată și disensiunile din comitet păstrează incertitudinea asupra următoarelor decizii."
     }
   ],
   "watchlist": [
     {
-      "id": "rezultate-finale-israel",
+      "id": "atribuire-atac-nava",
+      "title": "Atribuirea atacului asupra navei din largul Bulgariei",
+      "why": "Autorul și natura încărcăturii nu sunt stabilite, iar aceste detalii pot schimba evaluarea riscului regional.",
+      "trigger": "Comunicat oficial al autorităților bulgare, al proprietarului navei sau al unei anchete maritime.",
+      "status": "în așteptare",
+      "sourceUrl": "https://www.streetinsider.com/Reuters/Drones%2Bhit%2Bcontainer%2Bship%2Boff%2BBulgaria%2C%2Bcrew%2Bsafe%2Band%2Bashore/27245104.html"
+    },
+    {
+      "id": "ancheta-trenuri-spania",
+      "title": "Cauza coliziunii feroviare din Spania",
+      "why": "Concluziile tehnice vor determina dacă sunt necesare intervenții asupra infrastructurii, semnalizării sau procedurilor operatorilor.",
+      "trigger": "Raport preliminar al autorității spaniole de investigare și actualizarea bilanțului oficial.",
+      "status": "în așteptare",
+      "sourceUrl": "https://apnews.com/article/4f65471a0e36f448d7ee9efe0768cd77"
+    },
+    {
+      "id": "rezultate-israel",
       "title": "Rezultatele finale și coaliția din Israel",
-      "why": "Distribuția finală a mandatelor poate schimba candidatul cu cele mai mari șanse de a forma guvernul.",
-      "trigger": "Publicarea rezultatelor oficiale și începerea consultărilor președintelui Isaac Herzog.",
+      "why": "Distribuția finală a mandatelor și disponibilitatea partidelor de a coopera vor decide dacă poate fi format un guvern.",
+      "trigger": "Publicarea rezultatului oficial și începerea consultărilor pentru desemnarea unui premier.",
       "status": "în așteptare",
-      "sourceUrl": "https://apnews.com/article/israel-election-netanyahu-eisenkot-exit-polls-9962f87d11534908f553146f07039e92"
+      "sourceUrl": "https://apnews.com/article/52c6f5a0a720a4ffc08633229e796415"
     },
     {
-      "id": "situatia-flavio-bolsonaro",
-      "title": "Localizarea și situația juridică a lui Flávio Bolsonaro",
-      "why": "Confirmarea locului și a respectării ordinului privind pașapoartele determină implicațiile juridice și diplomatice.",
-      "trigger": "Comunicări ale instanței braziliene, ale autorităților de frontieră sau ale Departamentului de Stat.",
-      "status": "contradictoriu",
-      "sourceUrl": "https://apnews.com/article/brazil-flavio-bolsonaro-passport-lula-1f64bda20de066eeea04349e0319820a"
-    },
-    {
-      "id": "investigatie-starlink-adtech",
-      "title": "Răspunsurile Discover-Tech, SpaceX și platformelor publicitare",
-      "why": "Răspunsurile tehnice și eventualele măsuri pot confirma amploarea, țintele și remedierea presupusei supravegheri.",
-      "trigger": "Publicarea raportului tehnic complet, răspunsuri ale companiilor sau investigații ale autorităților de protecție a datelor.",
+      "id": "predare-suspect-carfil",
+      "title": "Procedura de predare a suspectului din dosarul Carfil",
+      "why": "Reținerea în Polonia nu înseamnă automat transferul către România sau stabilirea vinovăției.",
+      "trigger": "Hotărârea instanței poloneze asupra mandatului european de arestare.",
       "status": "în așteptare",
-      "sourceUrl": "https://wsau.com/2026/10/27/exclusive-alleged-israeli-spy-company-heavily-targeted-starlink-users-sources-say/"
-    },
-    {
-      "id": "hera-imagini-detaliate",
-      "title": "Primele imagini detaliate ale lui Dimorphos",
-      "why": "Observațiile apropiate pot arăta cum a modificat impactul DART corpul asteroidului și eficiența devierii cinetice.",
-      "trigger": "Publicarea de către ESA a imaginilor și datelor programate începând cu 25 noiembrie.",
-      "status": "în așteptare",
-      "sourceUrl": "https://www.esa.int/Space_Safety/Hera/First_light_Hera_resolves_two_asteroids_instead_of_one"
+      "sourceUrl": "https://www.biziday.ro/373964-2/"
     }
   ],
   "conclusion": {
-    "title": "Progres verificabil, rezultate încă în așteptare",
-    "body": "Dimineața aduce două progrese concrete pentru România, dar ambele cer perspectivă: siguranța rutieră se îmbunătățește de la un nivel încă foarte slab, iar noile radare vor intra în serviciu etapizat. Extern, rezultatele electorale și investigațiile tehnologice trebuie urmărite fără concluzii premature.",
+    "title": "Securitatea regională domină dimineața",
+    "body": "Pentru România, cele mai concrete semnale vin din cooperarea judiciară în dosarul Carfil și din apropierea riscului maritim de rutele către Constanța. Extern, tragedia feroviară din Spania și blocajul electoral israelian cer actualizări factuale, iar decizia Fed și raportul Lancet–OMS indică riscuri persistente, nu schimbări instantanee de regim.",
     "actionPoints": [
-      "Urmăriți rezultatele oficiale și negocierile de coaliție din Israel.",
-      "Separați contractele de apărare semnate de capabilitățile efectiv livrate.",
-      "Căutați confirmări tehnice și răspunsuri oficiale în investigația Starlink.",
-      "Evaluați siguranța rutieră prin tendință și nivel absolut, nu printr-un singur procent."
+      "Urmăriți atribuirea oficială și efectele logistice ale atacului din Marea Neagră.",
+      "Separați măsurile preventive din dosarele judiciare de verdictul asupra vinovăției.",
+      "Așteptați rezultatele finale înainte de a concluziona cine poate forma guvernul Israelului.",
+      "Tratați cifrele Lancet drept estimări științifice și urmăriți măsurile concrete de adaptare."
     ]
   },
   "sources": [
@@ -363,63 +386,70 @@
       "name": "Biziday RSS",
       "url": "https://www.biziday.ro/feed/",
       "type": "primary",
-      "accessedAt": "2026-10-28T06:00:05+02:00"
+      "accessedAt": "2026-10-29T06:01:53+02:00"
     },
     {
-      "id": "comisia-europeana-siguranta-rutiera-2025",
-      "name": "Comisia Europeană — statistici finale de siguranță rutieră 2025",
-      "url": "https://transport.ec.europa.eu/news-events/news/road-safety-statistics-2025-confirm-drop-eu-road-deaths-2026-10-27_en",
-      "type": "official",
-      "accessedAt": "2026-10-28T06:05:00+02:00"
-    },
-    {
-      "id": "mapn-radare-mobile",
-      "name": "Ministerul Apărării Naționale — contract radare mobile",
-      "url": "https://www.mapn.ro/cpresa/19458_modernizarea-for%C8%9Belor-aeriene-romane%3A-contract-semnat-pentru-achizi%C8%9Bia-a-patru-radare-mobile-de-dirijare-la-apropiere-%C8%99i-aterizare",
-      "type": "official",
-      "accessedAt": "2026-10-28T06:06:00+02:00"
-    },
-    {
-      "id": "ap-alegeri-israel",
-      "name": "Associated Press — alegerile din Israel",
-      "url": "https://apnews.com/article/israel-election-netanyahu-eisenkot-exit-polls-9962f87d11534908f553146f07039e92",
+      "id": "biziday-carfil-polonia",
+      "name": "Biziday — suspect reținut în ancheta Carfil",
+      "url": "https://www.biziday.ro/373964-2/",
       "type": "secondary",
-      "accessedAt": "2026-10-28T06:07:00+02:00"
+      "accessedAt": "2026-10-29T06:07:00+02:00"
     },
     {
-      "id": "ap-bolsonaro-vize",
-      "name": "Associated Press — vizele familiei Bolsonaro",
-      "url": "https://apnews.com/article/brazil-flavio-bolsonaro-passport-lula-1f64bda20de066eeea04349e0319820a",
+      "id": "biziday-georgescu-arest",
+      "name": "Biziday — prelungirea arestării preventive a lui Călin Georgescu",
+      "url": "https://www.biziday.ro/373957-2/",
       "type": "secondary",
-      "accessedAt": "2026-10-28T06:07:30+02:00"
+      "accessedAt": "2026-10-29T06:08:00+02:00"
     },
     {
-      "id": "govuk-plan-varsovia",
-      "name": "Guvernul Regatului Unit — Planul de Apărare de la Varșovia",
-      "url": "https://www.gov.uk/government/news/uk-and-poland-strengthen-defences-on-europes-eastern-flank--2",
-      "type": "official",
-      "accessedAt": "2026-10-28T06:08:00+02:00"
-    },
-    {
-      "id": "guvernul-poloniei-plan-aparare",
-      "name": "Ministerul Apărării al Poloniei — planul de cooperare pe trei ani",
-      "url": "https://www.gov.pl/web/national-defence/strategic-partnership-of-poland-and-great-britain-three-year-defence-cooperation-plan-signed",
-      "type": "official",
-      "accessedAt": "2026-10-28T06:08:30+02:00"
-    },
-    {
-      "id": "reuters-starlink-discover-tech",
-      "name": "Reuters — presupusa supraveghere a utilizatorilor Starlink",
-      "url": "https://wsau.com/2026/10/27/exclusive-alleged-israeli-spy-company-heavily-targeted-starlink-users-sources-say/",
+      "id": "reuters-nava-bulgaria",
+      "name": "Reuters — navă lovită de drone în largul Bulgariei",
+      "url": "https://www.streetinsider.com/Reuters/Drones%2Bhit%2Bcontainer%2Bship%2Boff%2BBulgaria%2C%2Bcrew%2Bsafe%2Band%2Bashore/27245104.html",
       "type": "secondary",
-      "accessedAt": "2026-10-28T06:09:00+02:00"
+      "accessedAt": "2026-10-29T06:09:00+02:00"
     },
     {
-      "id": "esa-hera-first-light",
-      "name": "Agenția Spațială Europeană — primul cadru separat Didymos–Dimorphos",
-      "url": "https://www.esa.int/Space_Safety/Hera/First_light_Hera_resolves_two_asteroids_instead_of_one",
+      "id": "ap-trenuri-spania",
+      "name": "Associated Press — coliziunea trenurilor de mare viteză din Spania",
+      "url": "https://apnews.com/article/4f65471a0e36f448d7ee9efe0768cd77",
+      "type": "secondary",
+      "accessedAt": "2026-10-29T06:10:00+02:00"
+    },
+    {
+      "id": "oms-lancet-clima-2026",
+      "name": "OMS — raportul Lancet Countdown 2026",
+      "url": "https://www.who.int/news/item/28-10-2026-climate-change-is-a-growing-health-emergency--lancet-countdown-warns",
       "type": "official",
-      "accessedAt": "2026-10-28T06:10:00+02:00"
+      "accessedAt": "2026-10-29T06:11:00+02:00"
+    },
+    {
+      "id": "lancet-countdown-2026",
+      "name": "Lancet Countdown — raportul global 2026",
+      "url": "https://lancetcountdown.org/2026-report/",
+      "type": "primary",
+      "accessedAt": "2026-10-29T06:11:30+02:00"
+    },
+    {
+      "id": "fed-fomc-2026-10-28",
+      "name": "Federal Reserve — comunicatul FOMC din 28 octombrie 2026",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "type": "official",
+      "accessedAt": "2026-10-29T06:12:00+02:00"
+    },
+    {
+      "id": "ap-israel-numaratoare",
+      "name": "Associated Press — numărătoarea alegerilor din Israel",
+      "url": "https://apnews.com/article/52c6f5a0a720a4ffc08633229e796415",
+      "type": "secondary",
+      "accessedAt": "2026-10-29T06:13:00+02:00"
+    },
+    {
+      "id": "biziday-zelenski-ialta",
+      "name": "Biziday — avertismentul lui Zelenski privind sferele de influență",
+      "url": "https://www.biziday.ro/373906-2/",
+      "type": "secondary",
+      "accessedAt": "2026-10-29T06:14:00+02:00"
     }
   ]
 }

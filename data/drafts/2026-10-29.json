@@ -1,0 +1,390 @@
+{
+  "metadata": {
+    "editionDate": "2026-10-29",
+    "updatedAt": "2026-10-29T06:15:00+02:00",
+    "timezone": "Europe/Bucharest",
+    "title": "Hapics News — Briefing de dimineață, 29 octombrie 2026",
+    "status": "draft",
+    "primarySource": "https://www.biziday.ro/feed/",
+    "sourceCoverage": "complete"
+  },
+  "executiveSummary": [
+    {
+      "id": "carfil-suspect-retinut-polonia",
+      "text": "Poliția poloneză a reținut un suspect căutat de România în ancheta incendiului de lângă fabrica militară Carfil; procedura de predare este separată.",
+      "category": "Securitate"
+    },
+    {
+      "id": "nava-drone-marea-neagra",
+      "text": "Trei drone navale au lovit o navă comercială în zona economică exclusivă a Bulgariei; echipajul a fost evacuat, iar autorul nu este stabilit.",
+      "category": "Securitate"
+    },
+    {
+      "id": "spania-coliziune-trenuri",
+      "text": "Coliziunea a două trenuri de mare viteză în provincia Toledo a provocat cel puțin 68 de decese, potrivit autorităților regionale citate de AP.",
+      "category": "Extern"
+    },
+    {
+      "id": "lancet-clima-sanatate-2026",
+      "text": "Raportul Lancet Countdown estimează o accelerare a efectelor climatice asupra sănătății și cere tratarea schimbărilor climatice ca urgență sanitară globală.",
+      "category": "Climă"
+    },
+    {
+      "id": "fed-mentine-dobanda",
+      "text": "Rezerva Federală a menținut intervalul dobânzii la 3,75–4%, cu două voturi pentru o majorare de 0,25 puncte procentuale.",
+      "category": "Piețe"
+    },
+    {
+      "id": "israel-alegeri-fara-majoritate",
+      "text": "Numărătoarea parțială din Israel lasă ambele blocuri sub pragul de 61 de mandate, iar rezultatul final și negocierile rămân deschise.",
+      "category": "Extern"
+    }
+  ],
+  "importantNews": [
+    {
+      "id": "carfil-suspect-retinut-polonia",
+      "title": "Polonia a reținut un suspect în ancheta sabotajului de la Carfil",
+      "fact": "Biziday a relatat că poliția poloneză a reținut un cetățean ucrainean căutat prin mandat european de arestare în ancheta incendiului din apropierea fabricii de armament Carfil din Brașov. România solicită predarea lui; doi cetățeni belaruși au fost arestați anterior în Germania în același dosar.",
+      "printSummary": "Biziday: Polonia a reținut un suspect căutat de România în ancheta incendiului de lângă fabrica militară Carfil.",
+      "interpretation": "Reținerea extinde cooperarea judiciară transfrontalieră într-un dosar pe care autoritățile române îl tratează ca tentativă de sabotaj. Ea nu echivalează cu o condamnare, iar predarea către România necesită o procedură judiciară separată în Polonia.",
+      "category": "Securitate",
+      "impact": 5,
+      "impactLabel": "Securitate națională și cooperare judiciară",
+      "horizon": "1–4 săptămâni",
+      "sourceId": "biziday-carfil-polonia",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/373964-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "calin-georgescu-arest-prelungit",
+      "title": "Curtea de Apel a prelungit arestarea preventivă a lui Călin Georgescu",
+      "fact": "Biziday a relatat că Curtea de Apel a admis contestația DIICOT și a prelungit cu 30 de zile arestarea preventivă a lui Călin Georgescu. Fostul candidat la președinție este acuzat că ar fi înșelat un om de afaceri cu 1,1 milioane de euro; decizia privind măsura preventivă este definitivă.",
+      "printSummary": "Biziday: Curtea de Apel a prelungit definitiv cu 30 de zile arestarea preventivă a lui Călin Georgescu.",
+      "interpretation": "Hotărârea privește măsura preventivă, nu stabilește vinovăția în dosar. Cazul va rămâne relevant politic și judiciar, dar evaluarea faptelor aparține instanței la judecarea fondului.",
+      "category": "Justiție",
+      "impact": 4,
+      "impactLabel": "Impact politic și judiciar ridicat",
+      "horizon": "1–4 săptămâni",
+      "sourceId": "biziday-georgescu-arest",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/373957-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "nava-drone-marea-neagra",
+      "title": "O navă comercială a fost lovită de trei drone în largul Bulgariei",
+      "fact": "Ministerul bulgar al Apărării și proprietarul navei au declarat că trei drone navale au lovit o navă container sub pavilion liberian, la circa 21 de mile sud-est de Șabla, în zona economică exclusivă a Bulgariei. Cei 18 membri ai echipajului au fost evacuați, iar autorul atacului nu era stabilit.",
+      "printSummary": "Reuters: trei drone navale au lovit o navă în largul Bulgariei; cei 18 membri ai echipajului au fost evacuați.",
+      "interpretation": "Incidentul ridică riscul pentru navigația comercială în vestul Mării Negre și pentru ruta către Constanța. Fără atribuirea oficială a atacului, legarea lui de un actor militar anume ar fi prematură.",
+      "category": "Securitate",
+      "impact": 5,
+      "impactLabel": "Risc regional pentru transportul maritim",
+      "horizon": "Imediat",
+      "sourceId": "reuters-nava-bulgaria",
+      "sourceName": "Reuters",
+      "sourceUrl": "https://www.streetinsider.com/Reuters/Drones%2Bhit%2Bcontainer%2Bship%2Boff%2BBulgaria%2C%2Bcrew%2Bsafe%2Band%2Bashore/27245104.html",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "spania-coliziune-trenuri",
+      "title": "Cel puțin 68 de oameni au murit într-o coliziune feroviară în Spania",
+      "fact": "Associated Press a relatat că două trenuri de mare viteză care circulau din Madrid spre Sevilla s-au ciocnit lângă Urda, în provincia Toledo. Guvernul regional Castilla-La Mancha a confirmat cel puțin 68 de decese, iar zeci de persoane au fost rănite; operațiunile de salvare și ancheta continuau.",
+      "printSummary": "AP: coliziunea a două trenuri de mare viteză lângă Toledo a provocat cel puțin 68 de decese; ancheta continuă.",
+      "interpretation": "Bilanțul face din accident un eveniment internațional major și pune presiune pe autorități să explice cauza și măsurile de siguranță. Orice atribuire tehnică sau umană trebuie așteptată până la concluziile anchetei.",
+      "category": "Extern",
+      "impact": 5,
+      "impactLabel": "Dezastru cu impact național",
+      "horizon": "Imediat",
+      "sourceId": "ap-trenuri-spania",
+      "sourceName": "Associated Press",
+      "sourceUrl": "https://apnews.com/article/4f65471a0e36f448d7ee9efe0768cd77",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "lancet-clima-sanatate-2026",
+      "title": "Lancet Countdown indică accelerarea riscurilor climatice pentru sănătate",
+      "fact": "Raportul Lancet Countdown 2026, realizat de 146 de cercetători și prezentat de OMS, estimează că în 2023 căldura a fost asociată cu 710.000 de decese la nivel global, peste 70% fiind atribuite schimbărilor climatice provocate de om. Raportul urmărește 54 de indicatori și cere recunoașterea unei urgențe sanitare globale.",
+      "printSummary": "OMS și Lancet Countdown estimează 710.000 de decese asociate căldurii în 2023, peste 70% atribuite schimbărilor climatice.",
+      "interpretation": "Este o evaluare științifică bazată pe modelare și indicatori globali, nu o numărătoare directă a certificatelor de deces. Miza concretă este adaptarea sistemelor sanitare, avertizarea timpurie și reducerea expunerii; efectele politicilor vor depinde de implementare.",
+      "category": "Climă",
+      "impact": 5,
+      "impactLabel": "Impact global asupra sănătății publice",
+      "horizon": "6–12 luni",
+      "sourceId": "oms-lancet-clima-2026",
+      "sourceName": "Organizația Mondială a Sănătății",
+      "sourceUrl": "https://www.who.int/news/item/28-10-2026-climate-change-is-a-growing-health-emergency--lancet-countdown-warns",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "fed-mentine-dobanda",
+      "title": "Fed menține dobânda, în timp ce inflația rămâne ridicată",
+      "fact": "Comitetul Federal pentru Piața Deschisă a menținut intervalul țintă pentru rata fondurilor federale la 3,75–4%. Decizia a fost adoptată cu 10 voturi la 2; Lisa Cook și Beth Hammack au preferat o majorare de 0,25 puncte procentuale, iar comunicatul spune că inflația rămâne ridicată.",
+      "printSummary": "Fed a menținut dobânda la 3,75–4%, cu două voturi pentru o majorare de 0,25 puncte procentuale.",
+      "interpretation": "Decizia semnalează prudență, nu o schimbare certă de direcție. Pentru activele globale și economiile emergente, reacția va depinde de datele viitoare despre inflație și de așteptările privind următoarele ședințe.",
+      "category": "Piețe",
+      "impact": 4,
+      "impactLabel": "Semnal major pentru condițiile financiare globale",
+      "horizon": "1–3 luni",
+      "sourceId": "fed-fomc-2026-10-28",
+      "sourceName": "Federal Reserve",
+      "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "israel-alegeri-fara-majoritate",
+      "title": "Alegerile din Israel lasă formarea guvernului deschisă negocierilor",
+      "fact": "Associated Press a relatat că numărătoarea voturilor nu oferea niciunui bloc pragul de 61 de mandate necesar unei majorități. Partidele conduse de arabi obțineau aproximativ 15% din voturi în rezultatele emergente, iar rezultatele oficiale finale erau așteptate joi sau vineri.",
+      "printSummary": "AP: niciun bloc israelian nu atingea pragul de 61 de mandate; rezultatele finale sunt așteptate joi sau vineri.",
+      "interpretation": "Rezultatul probabil deschide săptămâni de negocieri și poate face decisive partide până acum excluse de principalii competitori. Formarea unei coaliții sau repetarea scrutinului rămân scenarii, nu concluzii.",
+      "category": "Extern",
+      "impact": 5,
+      "impactLabel": "Impact geopolitic major",
+      "horizon": "1–4 săptămâni",
+      "sourceId": "ap-israel-numaratoare",
+      "sourceName": "Associated Press",
+      "sourceUrl": "https://apnews.com/article/52c6f5a0a720a4ffc08633229e796415",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "zelenski-sfere-influenta",
+      "title": "Zelenski avertizează asupra unei posibile împărțiri a sferelor de influență",
+      "fact": "Biziday a relatat că președintele ucrainean Volodimir Zelenski și-a exprimat îngrijorarea că o posibilă întâlnire în noiembrie între Donald Trump, Vladimir Putin și Xi Jinping ar putea conduce la o reîmpărțire a sferelor de influență. Declarația descrie o temere politică; o asemenea înțelegere nu este confirmată.",
+      "printSummary": "Biziday: Zelenski avertizează asupra unei posibile reîmpărțiri a sferelor de influență; o înțelegere nu este confirmată.",
+      "interpretation": "Mesajul urmărește să mențină Ucraina și Europa la masa negocierilor, dar nu dovedește existența unui acord între cele trei puteri. Miza pentru România este păstrarea deciziilor de securitate regională în cadre multilaterale verificabile.",
+      "category": "Extern",
+      "impact": 4,
+      "impactLabel": "Semnal diplomatic relevant pentru regiune",
+      "horizon": "1–4 săptămâni",
+      "sourceId": "biziday-zelenski-ialta",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/373906-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    }
+  ],
+  "romaniaAnalysis": {
+    "factBase": [
+      "Un suspect căutat de România în ancheta incendiului de lângă fabrica Carfil a fost reținut în Polonia, iar alți doi suspecți au fost arestați anterior în Germania.",
+      "Curtea de Apel a prelungit cu 30 de zile arestarea preventivă a lui Călin Georgescu; hotărârea privește măsura preventivă, nu fondul acuzației.",
+      "Nava lovită în zona economică exclusivă a Bulgariei se îndrepta din Haifa spre Constanța, potrivit relatării Reuters."
+    ],
+    "political": "Două dosare cu vizibilitate ridicată pun accent pe capacitatea instituțiilor române de a lucra cu parteneri europeni și de a păstra distincția dintre anchetă, măsuri preventive și verdict. Comunicarea factuală este esențială pentru a limita exploatarea politică a acuzațiilor înaintea judecării lor.",
+    "economic": "Atacul asupra unei nave cu destinația Constanța nu dovedește o perturbare a portului, dar ridică riscul operațional și de asigurare pentru transportul maritim regional. O succesiune de incidente ar putea crește costurile logistice; un singur caz nu permite cuantificarea efectului.",
+    "interpretation": "Semnalul intern al dimineții este dominat de securitate și justiție, nu de o schimbare economică verificată. Scenariul de bază este continuarea procedurilor judiciare și intensificarea monitorizării maritime; efectele economice mai largi rămân condiționate de repetarea incidentelor și de răspunsul coordonat al statelor riverane."
+  },
+  "investmentFundSignals": [
+    {
+      "id": "marea-neagra-risc-logistic",
+      "label": "Risc logistic în Marea Neagră",
+      "direction": "negativ",
+      "strength": 4,
+      "horizon": "1–4 săptămâni",
+      "rationale": "Atacul asupra unei nave cu destinația Constanța poate crește prudența operatorilor și asigurătorilor, deși nu există încă dovada unei perturbări sistemice a fluxurilor comerciale."
+    },
+    {
+      "id": "fed-conditii-financiare",
+      "label": "Condiții financiare globale",
+      "direction": "neutru",
+      "strength": 3,
+      "horizon": "1–3 luni",
+      "rationale": "Menținerea dobânzii Fed evită un nou șoc imediat, dar cele două voturi pentru majorare și inflația ridicată păstrează incertitudinea asupra traiectoriei viitoare."
+    },
+    {
+      "id": "adaptare-climatica-sanatate",
+      "label": "Investiții în adaptare climatică și sănătate",
+      "direction": "pozitiv",
+      "strength": 3,
+      "horizon": "6–12 luni",
+      "rationale": "Raportul Lancet–OMS întărește argumentul pentru sisteme de avertizare, infrastructură sanitară rezilientă și protecția muncii, fără a indica automat randamente investiționale."
+    }
+  ],
+  "indicators": [
+    {
+      "id": "fed-rata-tinta",
+      "label": "Interval țintă rata fondurilor federale",
+      "value": "3,75–4,00",
+      "unit": "%",
+      "referenceDate": "2026-10-28",
+      "sourceName": "Federal Reserve",
+      "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "freshness": "current",
+      "note": "Interval menținut prin vot 10–2."
+    },
+    {
+      "id": "lancet-decese-caldura-2023",
+      "label": "Decese asociate căldurii, estimare globală",
+      "value": 710000,
+      "unit": "persoane",
+      "referenceDate": "2023-12-31",
+      "sourceName": "Lancet Countdown / OMS",
+      "sourceUrl": "https://www.who.int/news/item/28-10-2026-climate-change-is-a-growing-health-emergency--lancet-countdown-warns",
+      "freshness": "current",
+      "note": "Estimare publicată în raportul 2026; peste 70% atribuite schimbărilor climatice antropice."
+    },
+    {
+      "id": "spania-decese-coliziune",
+      "label": "Bilanț minim coliziune feroviară Spania",
+      "value": 68,
+      "unit": "decese confirmate",
+      "referenceDate": "2026-10-28",
+      "sourceName": "Associated Press / Castilla-La Mancha",
+      "sourceUrl": "https://apnews.com/article/4f65471a0e36f448d7ee9efe0768cd77",
+      "freshness": "current",
+      "note": "Bilanț provizoriu la momentul publicării."
+    }
+  ],
+  "riskScores": [
+    {
+      "id": "risc-securitate-marea-neagra",
+      "label": "Risc de securitate în Marea Neagră",
+      "score": 5,
+      "trend": "în creștere",
+      "description": "Atacul cu drone asupra unei nave comerciale în zona economică exclusivă a Bulgariei extinde riscul pentru rutele din apropierea României."
+    },
+    {
+      "id": "risc-geopolitic",
+      "label": "Risc geopolitic",
+      "score": 4,
+      "trend": "stabil",
+      "description": "Blocajul electoral israelian și temerile Ucrainei privind negocierile marilor puteri mențin incertitudinea regională la un nivel ridicat."
+    },
+    {
+      "id": "risc-climatic-sanatate",
+      "label": "Risc climatic pentru sănătate",
+      "score": 5,
+      "trend": "în creștere",
+      "description": "Lancet Countdown indică accelerarea mortalității asociate căldurii și a expunerii la secetă față de deceniul precedent."
+    },
+    {
+      "id": "risc-conditii-financiare",
+      "label": "Risc privind condițiile financiare globale",
+      "score": 3,
+      "trend": "stabil",
+      "description": "Fed a menținut rata, dar inflația ridicată și disensiunile din comitet păstrează incertitudinea asupra următoarelor decizii."
+    }
+  ],
+  "watchlist": [
+    {
+      "id": "atribuire-atac-nava",
+      "title": "Atribuirea atacului asupra navei din largul Bulgariei",
+      "why": "Autorul și natura încărcăturii nu sunt stabilite, iar aceste detalii pot schimba evaluarea riscului regional.",
+      "trigger": "Comunicat oficial al autorităților bulgare, al proprietarului navei sau al unei anchete maritime.",
+      "status": "în așteptare",
+      "sourceUrl": "https://www.streetinsider.com/Reuters/Drones%2Bhit%2Bcontainer%2Bship%2Boff%2BBulgaria%2C%2Bcrew%2Bsafe%2Band%2Bashore/27245104.html"
+    },
+    {
+      "id": "ancheta-trenuri-spania",
+      "title": "Cauza coliziunii feroviare din Spania",
+      "why": "Concluziile tehnice vor determina dacă sunt necesare intervenții asupra infrastructurii, semnalizării sau procedurilor operatorilor.",
+      "trigger": "Raport preliminar al autorității spaniole de investigare și actualizarea bilanțului oficial.",
+      "status": "în așteptare",
+      "sourceUrl": "https://apnews.com/article/4f65471a0e36f448d7ee9efe0768cd77"
+    },
+    {
+      "id": "rezultate-israel",
+      "title": "Rezultatele finale și coaliția din Israel",
+      "why": "Distribuția finală a mandatelor și disponibilitatea partidelor de a coopera vor decide dacă poate fi format un guvern.",
+      "trigger": "Publicarea rezultatului oficial și începerea consultărilor pentru desemnarea unui premier.",
+      "status": "în așteptare",
+      "sourceUrl": "https://apnews.com/article/52c6f5a0a720a4ffc08633229e796415"
+    },
+    {
+      "id": "predare-suspect-carfil",
+      "title": "Procedura de predare a suspectului din dosarul Carfil",
+      "why": "Reținerea în Polonia nu înseamnă automat transferul către România sau stabilirea vinovăției.",
+      "trigger": "Hotărârea instanței poloneze asupra mandatului european de arestare.",
+      "status": "în așteptare",
+      "sourceUrl": "https://www.biziday.ro/373964-2/"
+    }
+  ],
+  "conclusion": {
+    "title": "Securitatea regională domină dimineața",
+    "body": "Pentru România, cele mai concrete semnale vin din cooperarea judiciară în dosarul Carfil și din apropierea riscului maritim de rutele către Constanța. Extern, tragedia feroviară din Spania și blocajul electoral israelian cer actualizări factuale, iar decizia Fed și raportul Lancet–OMS indică riscuri persistente, nu schimbări instantanee de regim.",
+    "actionPoints": [
+      "Urmăriți atribuirea oficială și efectele logistice ale atacului din Marea Neagră.",
+      "Separați măsurile preventive din dosarele judiciare de verdictul asupra vinovăției.",
+      "Așteptați rezultatele finale înainte de a concluziona cine poate forma guvernul Israelului.",
+      "Tratați cifrele Lancet drept estimări științifice și urmăriți măsurile concrete de adaptare."
+    ]
+  },
+  "sources": [
+    {
+      "id": "biziday-rss",
+      "name": "Biziday RSS",
+      "url": "https://www.biziday.ro/feed/",
+      "type": "primary",
+      "accessedAt": "2026-10-29T06:01:53+02:00"
+    },
+    {
+      "id": "biziday-carfil-polonia",
+      "name": "Biziday — suspect reținut în ancheta Carfil",
+      "url": "https://www.biziday.ro/373964-2/",
+      "type": "secondary",
+      "accessedAt": "2026-10-29T06:07:00+02:00"
+    },
+    {
+      "id": "biziday-georgescu-arest",
+      "name": "Biziday — prelungirea arestării preventive a lui Călin Georgescu",
+      "url": "https://www.biziday.ro/373957-2/",
+      "type": "secondary",
+      "accessedAt": "2026-10-29T06:08:00+02:00"
+    },
+    {
+      "id": "reuters-nava-bulgaria",
+      "name": "Reuters — navă lovită de drone în largul Bulgariei",
+      "url": "https://www.streetinsider.com/Reuters/Drones%2Bhit%2Bcontainer%2Bship%2Boff%2BBulgaria%2C%2Bcrew%2Bsafe%2Band%2Bashore/27245104.html",
+      "type": "secondary",
+      "accessedAt": "2026-10-29T06:09:00+02:00"
+    },
+    {
+      "id": "ap-trenuri-spania",
+      "name": "Associated Press — coliziunea trenurilor de mare viteză din Spania",
+      "url": "https://apnews.com/article/4f65471a0e36f448d7ee9efe0768cd77",
+      "type": "secondary",
+      "accessedAt": "2026-10-29T06:10:00+02:00"
+    },
+    {
+      "id": "oms-lancet-clima-2026",
+      "name": "OMS — raportul Lancet Countdown 2026",
+      "url": "https://www.who.int/news/item/28-10-2026-climate-change-is-a-growing-health-emergency--lancet-countdown-warns",
+      "type": "official",
+      "accessedAt": "2026-10-29T06:11:00+02:00"
+    },
+    {
+      "id": "lancet-countdown-2026",
+      "name": "Lancet Countdown — raportul global 2026",
+      "url": "https://lancetcountdown.org/2026-report/",
+      "type": "primary",
+      "accessedAt": "2026-10-29T06:11:30+02:00"
+    },
+    {
+      "id": "fed-fomc-2026-10-28",
+      "name": "Federal Reserve — comunicatul FOMC din 28 octombrie 2026",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "type": "official",
+      "accessedAt": "2026-10-29T06:12:00+02:00"
+    },
+    {
+      "id": "ap-israel-numaratoare",
+      "name": "Associated Press — numărătoarea alegerilor din Israel",
+      "url": "https://apnews.com/article/52c6f5a0a720a4ffc08633229e796415",
+      "type": "secondary",
+      "accessedAt": "2026-10-29T06:13:00+02:00"
+    },
+    {
+      "id": "biziday-zelenski-ialta",
+      "name": "Biziday — avertismentul lui Zelenski privind sferele de influență",
+      "url": "https://www.biziday.ro/373906-2/",
+      "type": "secondary",
+      "accessedAt": "2026-10-29T06:14:00+02:00"
+    }
+  ]
+}
