@@ -1,251 +1,275 @@
 {
   "metadata": {
-    "editionDate": "2026-10-29",
-    "updatedAt": "2026-10-29T06:03:43+02:00",
+    "editionDate": "2026-10-30",
+    "updatedAt": "2026-10-30T05:59:11+02:00",
     "timezone": "Europe/Bucharest",
-    "title": "Hapics News — Briefing de dimineață, 29 octombrie 2026",
+    "title": "Hapics News — Briefing de dimineață, 30 octombrie 2026",
     "status": "published",
     "primarySource": "https://www.biziday.ro/feed/",
     "sourceCoverage": "complete"
   },
   "executiveSummary": [
     {
-      "id": "carfil-suspect-retinut-polonia",
-      "text": "Poliția poloneză a reținut un suspect căutat de România în ancheta incendiului de lângă fabrica militară Carfil; procedura de predare este separată.",
+      "id": "control-contracte-safe",
+      "text": "Ministrul Apărării trimite Corpul de control la Direcția pentru armamente pentru verificarea contractelor din programul SAFE.",
       "category": "Securitate"
     },
     {
-      "id": "nava-drone-marea-neagra",
-      "text": "Trei drone navale au lovit o navă comercială în zona economică exclusivă a Bulgariei; echipajul a fost evacuat, iar autorul nu este stabilit.",
-      "category": "Securitate"
+      "id": "bsog-vanduta-mazarine",
+      "text": "Carlyle și BERD au convenit vânzarea BSOG către Mazarine; tranzacția, care privește un producător important de gaze, necesită aprobări.",
+      "category": "Energie"
     },
     {
-      "id": "spania-coliziune-trenuri",
-      "text": "Coliziunea a două trenuri de mare viteză în provincia Toledo a provocat cel puțin 68 de decese, potrivit autorităților regionale citate de AP.",
+      "id": "israel-alegeri-fara-majoritate-30",
+      "text": "Alegerile israeliene nu au produs o majoritate clară, iar desemnarea premierului va depinde de rezultatele oficiale și negocierile dintre partide.",
       "category": "Extern"
     },
     {
-      "id": "lancet-clima-sanatate-2026",
-      "text": "Raportul Lancet Countdown estimează o accelerare a efectelor climatice asupra sănătății și cere tratarea schimbărilor climatice ca urgență sanitară globală.",
-      "category": "Climă"
-    },
-    {
-      "id": "fed-mentine-dobanda",
-      "text": "Rezerva Federală a menținut intervalul dobânzii la 3,75–4%, cu două voturi pentru o majorare de 0,25 puncte procentuale.",
+      "id": "lagarde-plecare-bce",
+      "text": "Christine Lagarde va părăsi președinția BCE la 7 februarie 2027, cu opt luni înainte de finalul mandatului.",
       "category": "Piețe"
     },
     {
-      "id": "israel-alegeri-fara-majoritate",
-      "text": "Numărătoarea parțială din Israel lasă ambele blocuri sub pragul de 61 de mandate, iar rezultatul final și negocierile rămân deschise.",
-      "category": "Extern"
+      "id": "ue-legi-social-media-copii",
+      "text": "Comisia Europeană amână cu 12 luni proiectele naționale care se suprapun viitorului EU KIDS Act, pentru a evita reguli fragmentate.",
+      "category": "Tehnologie"
+    },
+    {
+      "id": "mistral-large-4-ponderi",
+      "text": "Mistral a publicat ponderile Large 4, un model multimodal orientat și spre securitate cibernetică; performanțele sunt încă în mare parte revendicări ale companiei.",
+      "category": "Tehnologie"
     }
   ],
   "importantNews": [
     {
-      "id": "carfil-suspect-retinut-polonia",
-      "title": "Polonia a reținut un suspect în ancheta sabotajului de la Carfil",
-      "fact": "Biziday a relatat că poliția poloneză a reținut un cetățean ucrainean căutat prin mandat european de arestare în ancheta incendiului din apropierea fabricii de armament Carfil din Brașov. România solicită predarea lui; doi cetățeni belaruși au fost arestați anterior în Germania în același dosar.",
-      "printSummary": "Biziday: Polonia a reținut un suspect căutat de România în ancheta incendiului de lângă fabrica militară Carfil.",
-      "interpretation": "Reținerea extinde cooperarea judiciară transfrontalieră într-un dosar pe care autoritățile române îl tratează ca tentativă de sabotaj. Ea nu echivalează cu o condamnare, iar predarea către România necesită o procedură judiciară separată în Polonia.",
+      "id": "control-contracte-safe",
+      "title": "Control la Direcția pentru armamente asupra contractelor SAFE",
+      "fact": "Biziday a relatat că ministrul Apărării, Radu Oprea, trimite Corpul de control la Direcția Generală pentru Armamente pentru verificarea contractelor din programul SAFE. Ministrul a spus că selecția unei companii a fost decisă de Cancelaria prim-ministrului.",
+      "printSummary": "Biziday: ministrul Apărării trimite Corpul de control la Direcția pentru armamente pentru verificarea contractelor SAFE.",
+      "interpretation": "Verificarea privește integritatea achizițiilor strategice și poate influența calendarul programului. Anunțarea controlului nu dovedește o neregulă; concluziile trebuie așteptate înaintea atribuirii unei răspunderi.",
       "category": "Securitate",
       "impact": 5,
-      "impactLabel": "Securitate națională și cooperare judiciară",
+      "impactLabel": "Achiziții strategice și control instituțional",
       "horizon": "1–4 săptămâni",
-      "sourceId": "biziday-carfil-polonia",
+      "sourceId": "biziday-control-safe",
       "sourceName": "Biziday",
-      "sourceUrl": "https://www.biziday.ro/373964-2/",
+      "sourceUrl": "https://www.biziday.ro/374101-2/",
       "isSecondary": true,
       "confidence": "confirmed"
     },
     {
-      "id": "calin-georgescu-arest-prelungit",
-      "title": "Curtea de Apel a prelungit arestarea preventivă a lui Călin Georgescu",
-      "fact": "Biziday a relatat că Curtea de Apel a admis contestația DIICOT și a prelungit cu 30 de zile arestarea preventivă a lui Călin Georgescu. Fostul candidat la președinție este acuzat că ar fi înșelat un om de afaceri cu 1,1 milioane de euro; decizia privind măsura preventivă este definitivă.",
-      "printSummary": "Biziday: Curtea de Apel a prelungit definitiv cu 30 de zile arestarea preventivă a lui Călin Georgescu.",
-      "interpretation": "Hotărârea privește măsura preventivă, nu stabilește vinovăția în dosar. Cazul va rămâne relevant politic și judiciar, dar evaluarea faptelor aparține instanței la judecarea fondului.",
-      "category": "Justiție",
-      "impact": 4,
-      "impactLabel": "Impact politic și judiciar ridicat",
-      "horizon": "1–4 săptămâni",
-      "sourceId": "biziday-georgescu-arest",
-      "sourceName": "Biziday",
-      "sourceUrl": "https://www.biziday.ro/373957-2/",
-      "isSecondary": true,
-      "confidence": "confirmed"
-    },
-    {
-      "id": "nava-drone-marea-neagra",
-      "title": "O navă comercială a fost lovită de trei drone în largul Bulgariei",
-      "fact": "Ministerul bulgar al Apărării și proprietarul navei au declarat că trei drone navale au lovit o navă container sub pavilion liberian, la circa 21 de mile sud-est de Șabla, în zona economică exclusivă a Bulgariei. Cei 18 membri ai echipajului au fost evacuați, iar autorul atacului nu era stabilit.",
-      "printSummary": "Reuters: trei drone navale au lovit o navă în largul Bulgariei; cei 18 membri ai echipajului au fost evacuați.",
-      "interpretation": "Incidentul ridică riscul pentru navigația comercială în vestul Mării Negre și pentru ruta către Constanța. Fără atribuirea oficială a atacului, legarea lui de un actor militar anume ar fi prematură.",
-      "category": "Securitate",
+      "id": "bsog-vanduta-mazarine",
+      "title": "Carlyle și BERD vând Black Sea Oil & Gas către Mazarine",
+      "fact": "Carlyle și BERD au anunțat acordul de vânzare a Black Sea Oil & Gas și BSOG Holding către Mazarine Energy. Valoarea nu a fost publicată, tranzacția este condiționată de aprobări, iar BSOG va rămâne operatorul proiectului Midia Gas Development.",
+      "printSummary": "Carlyle și BERD au convenit vânzarea BSOG către Mazarine; tranzacția necesită aprobări, iar valoarea nu a fost publicată.",
+      "interpretation": "Schimbarea proprietarului privește o infrastructură relevantă pentru securitatea energetică, dar continuitatea operatorului reduce riscul operațional imediat. Efectul asupra investițiilor viitoare depinde de aprobări și de planul noului acționar.",
+      "category": "Energie",
       "impact": 5,
-      "impactLabel": "Risc regional pentru transportul maritim",
-      "horizon": "Imediat",
-      "sourceId": "reuters-nava-bulgaria",
-      "sourceName": "Reuters",
-      "sourceUrl": "https://www.streetinsider.com/Reuters/Drones%2Bhit%2Bcontainer%2Bship%2Boff%2BBulgaria%2C%2Bcrew%2Bsafe%2Band%2Bashore/27245104.html",
-      "isSecondary": true,
-      "confidence": "confirmed"
-    },
-    {
-      "id": "spania-coliziune-trenuri",
-      "title": "Cel puțin 68 de oameni au murit într-o coliziune feroviară în Spania",
-      "fact": "Associated Press a relatat că două trenuri de mare viteză care circulau din Madrid spre Sevilla s-au ciocnit lângă Urda, în provincia Toledo. Guvernul regional Castilla-La Mancha a confirmat cel puțin 68 de decese, iar zeci de persoane au fost rănite; operațiunile de salvare și ancheta continuau.",
-      "printSummary": "AP: coliziunea a două trenuri de mare viteză lângă Toledo a provocat cel puțin 68 de decese; ancheta continuă.",
-      "interpretation": "Bilanțul face din accident un eveniment internațional major și pune presiune pe autorități să explice cauza și măsurile de siguranță. Orice atribuire tehnică sau umană trebuie așteptată până la concluziile anchetei.",
-      "category": "Extern",
-      "impact": 5,
-      "impactLabel": "Dezastru cu impact național",
-      "horizon": "Imediat",
-      "sourceId": "ap-trenuri-spania",
-      "sourceName": "Associated Press",
-      "sourceUrl": "https://apnews.com/article/4f65471a0e36f448d7ee9efe0768cd77",
-      "isSecondary": true,
-      "confidence": "confirmed"
-    },
-    {
-      "id": "lancet-clima-sanatate-2026",
-      "title": "Lancet Countdown indică accelerarea riscurilor climatice pentru sănătate",
-      "fact": "Raportul Lancet Countdown 2026, realizat de 146 de cercetători și prezentat de OMS, estimează că în 2023 căldura a fost asociată cu 710.000 de decese la nivel global, peste 70% fiind atribuite schimbărilor climatice provocate de om. Raportul urmărește 54 de indicatori și cere recunoașterea unei urgențe sanitare globale.",
-      "printSummary": "OMS și Lancet Countdown estimează 710.000 de decese asociate căldurii în 2023, peste 70% atribuite schimbărilor climatice.",
-      "interpretation": "Este o evaluare științifică bazată pe modelare și indicatori globali, nu o numărătoare directă a certificatelor de deces. Miza concretă este adaptarea sistemelor sanitare, avertizarea timpurie și reducerea expunerii; efectele politicilor vor depinde de implementare.",
-      "category": "Climă",
-      "impact": 5,
-      "impactLabel": "Impact global asupra sănătății publice",
-      "horizon": "6–12 luni",
-      "sourceId": "oms-lancet-clima-2026",
-      "sourceName": "Organizația Mondială a Sănătății",
-      "sourceUrl": "https://www.who.int/news/item/28-10-2026-climate-change-is-a-growing-health-emergency--lancet-countdown-warns",
-      "isSecondary": true,
-      "confidence": "confirmed"
-    },
-    {
-      "id": "fed-mentine-dobanda",
-      "title": "Fed menține dobânda, în timp ce inflația rămâne ridicată",
-      "fact": "Comitetul Federal pentru Piața Deschisă a menținut intervalul țintă pentru rata fondurilor federale la 3,75–4%. Decizia a fost adoptată cu 10 voturi la 2; Lisa Cook și Beth Hammack au preferat o majorare de 0,25 puncte procentuale, iar comunicatul spune că inflația rămâne ridicată.",
-      "printSummary": "Fed a menținut dobânda la 3,75–4%, cu două voturi pentru o majorare de 0,25 puncte procentuale.",
-      "interpretation": "Decizia semnalează prudență, nu o schimbare certă de direcție. Pentru activele globale și economiile emergente, reacția va depinde de datele viitoare despre inflație și de așteptările privind următoarele ședințe.",
-      "category": "Piețe",
-      "impact": 4,
-      "impactLabel": "Semnal major pentru condițiile financiare globale",
+      "impactLabel": "Activ strategic pentru producția internă de gaze",
       "horizon": "1–3 luni",
-      "sourceId": "fed-fomc-2026-10-28",
-      "sourceName": "Federal Reserve",
-      "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "sourceId": "carlyle-bsog-mazarine",
+      "sourceName": "Carlyle",
+      "sourceUrl": "https://www.carlyle.com/media-room/news-release-archive/carlyle-and-ebrd-agree-sale-black-sea-oil-gas-mazarine-energy",
       "isSecondary": true,
       "confidence": "confirmed"
     },
     {
-      "id": "israel-alegeri-fara-majoritate",
-      "title": "Alegerile din Israel lasă formarea guvernului deschisă negocierilor",
-      "fact": "Associated Press a relatat că numărătoarea voturilor nu oferea niciunui bloc pragul de 61 de mandate necesar unei majorități. Partidele conduse de arabi obțineau aproximativ 15% din voturi în rezultatele emergente, iar rezultatele oficiale finale erau așteptate joi sau vineri.",
-      "printSummary": "AP: niciun bloc israelian nu atingea pragul de 61 de mandate; rezultatele finale sunt așteptate joi sau vineri.",
-      "interpretation": "Rezultatul probabil deschide săptămâni de negocieri și poate face decisive partide până acum excluse de principalii competitori. Formarea unei coaliții sau repetarea scrutinului rămân scenarii, nu concluzii.",
+      "id": "israel-alegeri-fara-majoritate-30",
+      "title": "Alegerile din Israel s-au încheiat fără o majoritate clară",
+      "fact": "Biziday a relatat că niciun bloc nu a obținut o majoritate clară în alegerile israeliene. După confirmarea oficială a rezultatelor, președintele va desemna un candidat pentru formarea guvernului, iar negocierile pot dura câteva săptămâni.",
+      "printSummary": "Biziday: alegerile din Israel nu au produs o majoritate clară; desemnarea premierului urmează rezultatelor oficiale.",
+      "interpretation": "Blocajul face partidele arabe potențial decisive și poate prelungi incertitudinea politică într-un moment de tensiune regională. Formula guvernului rămâne deschisă; acuzațiile de fraudă nu trebuie tratate ca fapte fără dovezi oficiale.",
       "category": "Extern",
       "impact": 5,
-      "impactLabel": "Impact geopolitic major",
+      "impactLabel": "Impact geopolitic și politic major",
       "horizon": "1–4 săptămâni",
-      "sourceId": "ap-israel-numaratoare",
-      "sourceName": "Associated Press",
-      "sourceUrl": "https://apnews.com/article/52c6f5a0a720a4ffc08633229e796415",
+      "sourceId": "biziday-israel-rezultat",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/374081-2/",
       "isSecondary": true,
       "confidence": "confirmed"
     },
     {
-      "id": "zelenski-sfere-influenta",
-      "title": "Zelenski avertizează asupra unei posibile împărțiri a sferelor de influență",
-      "fact": "Biziday a relatat că președintele ucrainean Volodimir Zelenski și-a exprimat îngrijorarea că o posibilă întâlnire în noiembrie între Donald Trump, Vladimir Putin și Xi Jinping ar putea conduce la o reîmpărțire a sferelor de influență. Declarația descrie o temere politică; o asemenea înțelegere nu este confirmată.",
-      "printSummary": "Biziday: Zelenski avertizează asupra unei posibile reîmpărțiri a sferelor de influență; o înțelegere nu este confirmată.",
-      "interpretation": "Mesajul urmărește să mențină Ucraina și Europa la masa negocierilor, dar nu dovedește existența unui acord între cele trei puteri. Miza pentru România este păstrarea deciziilor de securitate regională în cadre multilaterale verificabile.",
-      "category": "Extern",
+      "id": "lagarde-plecare-bce",
+      "title": "Christine Lagarde va părăsi anticipat conducerea BCE",
+      "fact": "Banca Centrală Europeană a anunțat că președinta Christine Lagarde va pleca din funcție la 7 februarie 2027. Mandatul său urma să se încheie la 31 octombrie 2027, iar succesorul va fi numit de Consiliul European prin procedura prevăzută de tratate.",
+      "printSummary": "BCE: Christine Lagarde va pleca la 7 februarie 2027; succesorul va fi numit de Consiliul European.",
+      "interpretation": "Plecarea deschide mai devreme procesul de succesiune la o instituție care stabilește condițiile monetare ale zonei euro. Nu implică automat o schimbare de politică; aceasta va depinde de noua conducere și de datele economice.",
+      "category": "Piețe",
+      "impact": 5,
+      "impactLabel": "Schimbare de conducere la banca centrală a zonei euro",
+      "horizon": "1–3 luni",
+      "sourceId": "bce-lagarde-plecare",
+      "sourceName": "Banca Centrală Europeană",
+      "sourceUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "ue-legi-social-media-copii",
+      "title": "Comisia amână proiectele naționale privind accesul copiilor la social media",
+      "fact": "Comisia Europeană a confirmat că va amâna cu 12 luni proiectele naționale care se suprapun viitoarelor reguli armonizate din EU KIDS Act. Propunerea europeană stabilește 15 ani ca vârstă pentru deschiderea autonomă a unui cont de social media.",
+      "printSummary": "Comisia Europeană amână cu 12 luni proiectele naționale care se suprapun viitorului EU KIDS Act.",
+      "interpretation": "Măsura urmărește reguli uniforme și aplicabile platformelor în întreaga piață unică, dar întârzie unele inițiative naționale. Protecțiile finale și calendarul depind de negocierile legislative europene.",
+      "category": "Tehnologie",
       "impact": 4,
-      "impactLabel": "Semnal diplomatic relevant pentru regiune",
-      "horizon": "1–4 săptămâni",
-      "sourceId": "biziday-zelenski-ialta",
+      "impactLabel": "Reglementare digitală cu efect în întreaga UE",
+      "horizon": "6–12 luni",
+      "sourceId": "ce-kids-act-amanare",
+      "sourceName": "Comisia Europeană",
+      "sourceUrl": "https://audiovisual.ec.europa.eu/en/media/video/I-296993",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "rablapf-sesiune-noiembrie",
+      "title": "Programul Rabla deschide o nouă sesiune pentru persoane fizice",
+      "fact": "Biziday a relatat că o nouă sesiune Rabla pentru persoane fizice începe marți, 3 noiembrie, cu fonduri totale de 35 de milioane de lei. Cea mai mare parte a bugetului este destinată vehiculelor pe benzină, GPL și hibride.",
+      "printSummary": "Biziday: o nouă sesiune Rabla începe la 3 noiembrie, cu un buget total de 35 de milioane de lei.",
+      "interpretation": "Sesiunea poate susține temporar cererea auto, dar dimensiunea și structura bugetului favorizează în principal înlocuirea parcului cu motorizări convenționale sau hibride. Impactul efectiv depinde de ritmul înscrierilor.",
+      "category": "Economie",
+      "impact": 4,
+      "impactLabel": "Cerere auto și cheltuieli publice",
+      "horizon": "Imediat",
+      "sourceId": "biziday-rabla-noiembrie",
       "sourceName": "Biziday",
-      "sourceUrl": "https://www.biziday.ro/373906-2/",
+      "sourceUrl": "https://www.biziday.ro/374069-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "mistral-large-4-ponderi",
+      "title": "Mistral a publicat ponderile modelului Large 4",
+      "fact": "Mistral a făcut disponibile ponderile Large 4, model multimodal cu un trilion de parametri și 52 de miliarde active, prezentat inițial în avanpremieră la 6 octombrie. Reuters a confirmat lansarea publică și orientarea către utilizări de securitate cibernetică și rulare pe infrastructura utilizatorului.",
+      "printSummary": "Mistral a publicat ponderile Large 4, după avanpremiera din octombrie; modelul poate rula pe infrastructura utilizatorului.",
+      "interpretation": "Este o lansare utilizabilă, nu doar un anunț, și extinde opțiunile europene pentru implementări controlate local. Totuși, performanțele și siguranța declarate provin în mare parte din testele companiei și necesită evaluare independentă în utilizare reală.",
+      "category": "Tehnologie",
+      "impact": 4,
+      "impactLabel": "Disponibilitate open-weight pentru AI europeană",
+      "horizon": "1–3 luni",
+      "sourceId": "mistral-large-4",
+      "sourceName": "Mistral AI",
+      "sourceUrl": "https://mistral.ai/news/mistral-large-4/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "cristal-panouri-test",
+      "title": "Satelitul european CRISTAL trece în etapa testelor de mediu",
+      "fact": "ESA a anunțat că satelitul CRISTAL a finalizat integrarea și a testat la sol desfășurarea panourilor solare și mecanismul de separare de lansator. Satelitul urmează teste de mediu în Țările de Jos; nu a fost lansat și nu furnizează încă date operaționale.",
+      "printSummary": "ESA: CRISTAL a testat la sol panourile solare și separarea de lansator; satelitul nu este încă operațional.",
+      "interpretation": "Testele sunt un reper de dezvoltare pentru o misiune destinată măsurării gheții și zăpezii polare, nu o demonstrație în orbită. Beneficiul climatic va putea fi evaluat abia după calificare, lansare și validarea datelor.",
+      "category": "Spațiu",
+      "impact": 4,
+      "impactLabel": "Infrastructură europeană pentru monitorizarea climei",
+      "horizon": "6–12 luni",
+      "sourceId": "esa-cristal-test",
+      "sourceName": "Agenția Spațială Europeană",
+      "sourceUrl": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/CRISTAL/Ice_mission_CRISTAL_opens_its_wings",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "ucraina-drone-moscova",
+      "title": "Ucraina a lansat un atac masiv cu drone asupra regiunii Moscova",
+      "fact": "Biziday a relatat, pe baza declarațiilor oficialilor ruși, că Ucraina a lansat peste 600 de drone spre regiunea Moscova. Primarul Moscovei a afirmat că peste 200 au fost distruse, fără a preciza soarta celorlalte; amploarea și efectele nu au fost verificate independent integral.",
+      "printSummary": "Biziday: oficialii ruși susțin că peste 600 de drone au vizat regiunea Moscova; amploarea nu este verificată integral.",
+      "interpretation": "Dacă amploarea este confirmată, atacul arată extinderea capacității de lovire la distanță și poate provoca un răspuns militar. Cifrele provin de la părți implicate în conflict și trebuie tratate ca provizorii.",
+      "category": "Extern",
+      "impact": 5,
+      "impactLabel": "Escaladare militară cu impact regional",
+      "horizon": "Imediat",
+      "sourceId": "biziday-drone-moscova",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/373990-2/",
       "isSecondary": true,
       "confidence": "confirmed"
     }
   ],
   "romaniaAnalysis": {
     "factBase": [
-      "Un suspect căutat de România în ancheta incendiului de lângă fabrica Carfil a fost reținut în Polonia, iar alți doi suspecți au fost arestați anterior în Germania.",
-      "Curtea de Apel a prelungit cu 30 de zile arestarea preventivă a lui Călin Georgescu; hotărârea privește măsura preventivă, nu fondul acuzației.",
-      "Nava lovită în zona economică exclusivă a Bulgariei se îndrepta din Haifa spre Constanța, potrivit relatării Reuters."
+      "Ministrul Apărării a dispus un control la Direcția Generală pentru Armamente asupra contractelor din programul SAFE.",
+      "Carlyle și BERD au convenit vânzarea BSOG către Mazarine, sub rezerva aprobărilor de reglementare.",
+      "O nouă sesiune Rabla pentru persoane fizice începe la 3 noiembrie, cu 35 de milioane de lei disponibile."
     ],
-    "political": "Două dosare cu vizibilitate ridicată pun accent pe capacitatea instituțiilor române de a lucra cu parteneri europeni și de a păstra distincția dintre anchetă, măsuri preventive și verdict. Comunicarea factuală este esențială pentru a limita exploatarea politică a acuzațiilor înaintea judecării lor.",
-    "economic": "Atacul asupra unei nave cu destinația Constanța nu dovedește o perturbare a portului, dar ridică riscul operațional și de asigurare pentru transportul maritim regional. O succesiune de incidente ar putea crește costurile logistice; un singur caz nu permite cuantificarea efectului.",
-    "interpretation": "Semnalul intern al dimineții este dominat de securitate și justiție, nu de o schimbare economică verificată. Scenariul de bază este continuarea procedurilor judiciare și intensificarea monitorizării maritime; efectele economice mai largi rămân condiționate de repetarea incidentelor și de răspunsul coordonat al statelor riverane."
+    "political": "Controlul asupra achizițiilor SAFE testează transparența și delimitarea responsabilităților între Ministerul Apărării și Cancelaria prim-ministrului. Până la raportul Corpului de control, există o procedură de verificare, nu o constatare de ilegalitate.",
+    "economic": "Vânzarea BSOG este cea mai importantă evoluție economică internă a dimineții, deoarece compania operează o parte relevantă a producției offshore de gaze. Continuitatea operatorului limitează riscul imediat, însă aprobările și planul Mazarine vor conta pentru investiții, producție și proiectele conexe.",
+    "interpretation": "Semnalul pentru România este unul de guvernanță a activelor strategice: achizițiile de apărare și infrastructura energetică intră simultan în procese de control sau schimbare de proprietate. Scenariul de bază rămâne continuitatea operațională, cu risc de întârziere dacă verificările ori aprobările se prelungesc."
   },
   "investmentFundSignals": [
     {
-      "id": "marea-neagra-risc-logistic",
-      "label": "Risc logistic în Marea Neagră",
-      "direction": "negativ",
-      "strength": 4,
-      "horizon": "1–4 săptămâni",
-      "rationale": "Atacul asupra unei nave cu destinația Constanța poate crește prudența operatorilor și asigurătorilor, deși nu există încă dovada unei perturbări sistemice a fluxurilor comerciale."
-    },
-    {
-      "id": "fed-conditii-financiare",
-      "label": "Condiții financiare globale",
+      "id": "energie-bsog-tranzactie",
+      "label": "Consolidare în producția offshore de gaze",
       "direction": "neutru",
-      "strength": 3,
+      "strength": 4,
       "horizon": "1–3 luni",
-      "rationale": "Menținerea dobânzii Fed evită un nou șoc imediat, dar cele două voturi pentru majorare și inflația ridicată păstrează incertitudinea asupra traiectoriei viitoare."
+      "rationale": "Transferul BSOG către un operator european păstrează continuitatea declarată, dar valoarea, aprobările și programul de investiții nu sunt încă publice."
     },
     {
-      "id": "adaptare-climatica-sanatate",
-      "label": "Investiții în adaptare climatică și sănătate",
+      "id": "succesiune-bce",
+      "label": "Incertitudine privind conducerea BCE",
+      "direction": "neutru",
+      "strength": 4,
+      "horizon": "1–3 luni",
+      "rationale": "Plecarea anticipată a Christinei Lagarde deschide procesul de succesiune, fără să schimbe automat politica monetară sau traiectoria dobânzilor."
+    },
+    {
+      "id": "achizitii-safe-control",
+      "label": "Execuția programelor de apărare SAFE",
+      "direction": "negativ",
+      "strength": 3,
+      "horizon": "1–4 săptămâni",
+      "rationale": "Controlul poate crește transparența, dar poate introduce întârzieri până la clarificarea selecției furnizorilor și a responsabilităților instituționale."
+    },
+    {
+      "id": "ai-europeana-open-weight",
+      "label": "Infrastructură AI europeană controlată local",
       "direction": "pozitiv",
       "strength": 3,
       "horizon": "6–12 luni",
-      "rationale": "Raportul Lancet–OMS întărește argumentul pentru sisteme de avertizare, infrastructură sanitară rezilientă și protecția muncii, fără a indica automat randamente investiționale."
+      "rationale": "Publicarea ponderilor Mistral Large 4 lărgește opțiunile de implementare privată, dar costurile, performanța și siguranța trebuie validate independent."
     }
   ],
   "indicators": [
     {
-      "id": "fed-rata-tinta",
-      "label": "Interval țintă rata fondurilor federale",
-      "value": "3,75–4,00",
+      "id": "bsog-pondere-cerere-gaze",
+      "label": "Pondere aproximativă BSOG în cererea internă de gaze",
+      "value": 12,
       "unit": "%",
-      "referenceDate": "2026-10-28",
-      "sourceName": "Federal Reserve",
-      "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "referenceDate": "2026-10-29",
+      "sourceName": "Carlyle",
+      "sourceUrl": "https://www.carlyle.com/media-room/news-release-archive/carlyle-and-ebrd-agree-sale-black-sea-oil-gas-mazarine-energy",
       "freshness": "current",
-      "note": "Interval menținut prin vot 10–2."
+      "note": "Estimare comunicată de vânzători pentru producția Midia Gas Development."
     },
     {
-      "id": "lancet-decese-caldura-2023",
-      "label": "Decese asociate căldurii, estimare globală",
-      "value": 710000,
-      "unit": "persoane",
-      "referenceDate": "2023-12-31",
-      "sourceName": "Lancet Countdown / OMS",
-      "sourceUrl": "https://www.who.int/news/item/28-10-2026-climate-change-is-a-growing-health-emergency--lancet-countdown-warns",
+      "id": "rabla-buget-noiembrie",
+      "label": "Buget noua sesiune Rabla",
+      "value": 35,
+      "unit": "milioane lei",
+      "referenceDate": "2026-10-29",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/374069-2/",
       "freshness": "current",
-      "note": "Estimare publicată în raportul 2026; peste 70% atribuite schimbărilor climatice antropice."
+      "note": "Sesiunea pentru persoane fizice este anunțată pentru 3 noiembrie."
     },
     {
-      "id": "spania-decese-coliziune",
-      "label": "Bilanț minim coliziune feroviară Spania",
-      "value": 68,
-      "unit": "decese confirmate",
-      "referenceDate": "2026-10-28",
-      "sourceName": "Associated Press / Castilla-La Mancha",
-      "sourceUrl": "https://apnews.com/article/4f65471a0e36f448d7ee9efe0768cd77",
+      "id": "kids-act-amanare-nationala",
+      "label": "Amânare proiecte naționale social media",
+      "value": 12,
+      "unit": "luni",
+      "referenceDate": "2026-10-29",
+      "sourceName": "Comisia Europeană",
+      "sourceUrl": "https://audiovisual.ec.europa.eu/en/media/video/I-296993",
       "freshness": "current",
-      "note": "Bilanț provizoriu la momentul publicării."
+      "note": "Se aplică proiectelor care se suprapun viitoarelor reguli armonizate."
     },
     {
       "id": "eur-ron",
       "label": "EUR/RON",
-      "value": 5.3495,
+      "value": 5.3449,
       "unit": "lei",
-      "referenceDate": "2026-10-28",
+      "referenceDate": "2026-10-29",
       "sourceName": "BNR",
       "sourceUrl": "https://curs.bnr.ro/nbrfxrates.xml",
       "freshness": "current",
@@ -254,9 +278,9 @@
     {
       "id": "usd-ron",
       "label": "USD/RON",
-      "value": 4.8088,
+      "value": 4.7943,
       "unit": "lei",
-      "referenceDate": "2026-10-28",
+      "referenceDate": "2026-10-29",
       "sourceName": "BNR",
       "sourceUrl": "https://curs.bnr.ro/nbrfxrates.xml",
       "freshness": "current",
@@ -265,9 +289,9 @@
     {
       "id": "bet",
       "label": "Indice BET",
-      "value": 34660.45,
+      "value": 34822.49,
       "unit": "puncte",
-      "referenceDate": "2026-10-29",
+      "referenceDate": "2026-10-30",
       "sourceName": "BVB",
       "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=BET",
       "freshness": "current",
@@ -276,9 +300,9 @@
     {
       "id": "rotx",
       "label": "Indice ROTX",
-      "value": 78666.96,
+      "value": 79036.43,
       "unit": "puncte",
-      "referenceDate": "2026-10-29",
+      "referenceDate": "2026-10-30",
       "sourceName": "BVB / Wiener Börse",
       "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=ROTX",
       "freshness": "current",
@@ -289,7 +313,7 @@
       "label": "ROBOR 3M",
       "value": 6.09,
       "unit": "%",
-      "referenceDate": "2026-10-28",
+      "referenceDate": "2026-10-29",
       "sourceName": "BNR",
       "sourceUrl": "https://www.bnr.ro/1074-baza-de-date-interactiva",
       "freshness": "current",
@@ -300,7 +324,7 @@
       "label": "IRCC",
       "value": null,
       "unit": "%",
-      "referenceDate": "2026-10-29",
+      "referenceDate": "2026-10-30",
       "sourceName": "BNR",
       "sourceUrl": "https://www.bnr.ro/",
       "freshness": "unavailable"
@@ -308,76 +332,84 @@
   ],
   "riskScores": [
     {
-      "id": "risc-securitate-marea-neagra",
-      "label": "Risc de securitate în Marea Neagră",
-      "score": 5,
-      "trend": "în creștere",
-      "description": "Atacul cu drone asupra unei nave comerciale în zona economică exclusivă a Bulgariei extinde riscul pentru rutele din apropierea României."
-    },
-    {
-      "id": "risc-geopolitic",
-      "label": "Risc geopolitic",
+      "id": "risc-achizitii-aparare",
+      "label": "Risc de execuție a achizițiilor de apărare",
       "score": 4,
-      "trend": "stabil",
-      "description": "Blocajul electoral israelian și temerile Ucrainei privind negocierile marilor puteri mențin incertitudinea regională la un nivel ridicat."
+      "trend": "în creștere",
+      "description": "Controlul asupra contractelor SAFE poate întârzia procedurile dacă identifică deficiențe sau neclarități instituționale."
     },
     {
-      "id": "risc-climatic-sanatate",
-      "label": "Risc climatic pentru sănătate",
+      "id": "risc-geopolitic-israel-ucraina",
+      "label": "Risc geopolitic",
       "score": 5,
       "trend": "în creștere",
-      "description": "Lancet Countdown indică accelerarea mortalității asociate căldurii și a expunerii la secetă față de deceniul precedent."
+      "description": "Blocajul politic din Israel și atacul masiv raportat asupra Moscovei mențin ridicată probabilitatea unor episoade de escaladare."
     },
     {
-      "id": "risc-conditii-financiare",
-      "label": "Risc privind condițiile financiare globale",
+      "id": "risc-succesiune-bce",
+      "label": "Risc de comunicare monetară în zona euro",
+      "score": 3,
+      "trend": "în creștere",
+      "description": "Procesul anticipat de succesiune la BCE poate amplifica volatilitatea așteptărilor înaintea desemnării unui nou președinte."
+    },
+    {
+      "id": "risc-energie-proprietate",
+      "label": "Risc de tranziție pentru BSOG",
       "score": 3,
       "trend": "stabil",
-      "description": "Fed a menținut rata, dar inflația ridicată și disensiunile din comitet păstrează incertitudinea asupra următoarelor decizii."
+      "description": "Tranzacția necesită aprobări, dar păstrarea BSOG ca operator indică deocamdată continuitate operațională."
     }
   ],
   "watchlist": [
     {
-      "id": "atribuire-atac-nava",
-      "title": "Atribuirea atacului asupra navei din largul Bulgariei",
-      "why": "Autorul și natura încărcăturii nu sunt stabilite, iar aceste detalii pot schimba evaluarea riscului regional.",
-      "trigger": "Comunicat oficial al autorităților bulgare, al proprietarului navei sau al unei anchete maritime.",
+      "id": "raport-control-safe",
+      "title": "Concluziile controlului asupra contractelor SAFE",
+      "why": "Raportul poate clarifica selecția furnizorilor, responsabilitățile și eventualele efecte asupra calendarului achizițiilor.",
+      "trigger": "Publicarea concluziilor Corpului de control sau a unei reacții oficiale a Cancelariei prim-ministrului.",
       "status": "în așteptare",
-      "sourceUrl": "https://www.streetinsider.com/Reuters/Drones%2Bhit%2Bcontainer%2Bship%2Boff%2BBulgaria%2C%2Bcrew%2Bsafe%2Band%2Bashore/27245104.html"
+      "sourceUrl": "https://www.biziday.ro/374101-2/"
     },
     {
-      "id": "ancheta-trenuri-spania",
-      "title": "Cauza coliziunii feroviare din Spania",
-      "why": "Concluziile tehnice vor determina dacă sunt necesare intervenții asupra infrastructurii, semnalizării sau procedurilor operatorilor.",
-      "trigger": "Raport preliminar al autorității spaniole de investigare și actualizarea bilanțului oficial.",
+      "id": "aprobari-bsog-mazarine",
+      "title": "Aprobarea vânzării BSOG către Mazarine",
+      "why": "Finalizarea și condițiile aprobărilor pot afecta planul de investiții pentru producția offshore și proiectele conexe.",
+      "trigger": "Decizie a autorităților de reglementare sau anunțul închiderii tranzacției.",
       "status": "în așteptare",
-      "sourceUrl": "https://apnews.com/article/4f65471a0e36f448d7ee9efe0768cd77"
+      "sourceUrl": "https://www.carlyle.com/media-room/news-release-archive/carlyle-and-ebrd-agree-sale-black-sea-oil-gas-mazarine-energy"
     },
     {
-      "id": "rezultate-israel",
-      "title": "Rezultatele finale și coaliția din Israel",
-      "why": "Distribuția finală a mandatelor și disponibilitatea partidelor de a coopera vor decide dacă poate fi format un guvern.",
-      "trigger": "Publicarea rezultatului oficial și începerea consultărilor pentru desemnarea unui premier.",
+      "id": "succesor-bce",
+      "title": "Nominalizarea succesorului Christinei Lagarde",
+      "why": "Profilul candidatului va influența așteptările privind continuitatea politicii monetare și comunicarea BCE.",
+      "trigger": "Nominalizarea oficială în Consiliul European și calendarul audierii în Parlamentul European.",
       "status": "în așteptare",
-      "sourceUrl": "https://apnews.com/article/52c6f5a0a720a4ffc08633229e796415"
+      "sourceUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html"
     },
     {
-      "id": "predare-suspect-carfil",
-      "title": "Procedura de predare a suspectului din dosarul Carfil",
-      "why": "Reținerea în Polonia nu înseamnă automat transferul către România sau stabilirea vinovăției.",
-      "trigger": "Hotărârea instanței poloneze asupra mandatului european de arestare.",
+      "id": "rezultat-coalitie-israel",
+      "title": "Rezultatul oficial și negocierile din Israel",
+      "why": "Distribuția finală a mandatelor va determina dacă poate fi formată o coaliție sau dacă blocajul continuă.",
+      "trigger": "Confirmarea oficială a rezultatului și desemnarea candidatului la funcția de premier.",
       "status": "în așteptare",
-      "sourceUrl": "https://www.biziday.ro/373964-2/"
+      "sourceUrl": "https://www.biziday.ro/374081-2/"
+    },
+    {
+      "id": "validare-mistral-large-4",
+      "title": "Evaluări independente pentru Mistral Large 4",
+      "why": "Performanța și siguranța în securitate cibernetică sunt prezentate predominant prin teste ale producătorului.",
+      "trigger": "Benchmarkuri independente și rapoarte de implementare reală după publicarea ponderilor.",
+      "status": "în așteptare",
+      "sourceUrl": "https://mistral.ai/news/mistral-large-4/"
     }
   ],
   "conclusion": {
-    "title": "Securitatea regională domină dimineața",
-    "body": "Pentru România, cele mai concrete semnale vin din cooperarea judiciară în dosarul Carfil și din apropierea riscului maritim de rutele către Constanța. Extern, tragedia feroviară din Spania și blocajul electoral israelian cer actualizări factuale, iar decizia Fed și raportul Lancet–OMS indică riscuri persistente, nu schimbări instantanee de regim.",
+    "title": "Guvernanța activelor strategice trece în prim-plan",
+    "body": "Pentru România, dimineața este definită de controlul achizițiilor SAFE și schimbarea de proprietar la BSOG, două procese care cer transparență fără concluzii premature. Extern, blocajul electoral israelian, escaladarea raportată în jurul Moscovei și succesiunea anticipată la BCE adaugă incertitudine, în timp ce lansarea Mistral și testele CRISTAL trebuie judecate după utilizarea și validarea efectivă.",
     "actionPoints": [
-      "Urmăriți atribuirea oficială și efectele logistice ale atacului din Marea Neagră.",
-      "Separați măsurile preventive din dosarele judiciare de verdictul asupra vinovăției.",
-      "Așteptați rezultatele finale înainte de a concluziona cine poate forma guvernul Israelului.",
-      "Tratați cifrele Lancet drept estimări științifice și urmăriți măsurile concrete de adaptare."
+      "Urmăriți raportul Corpului de control înaintea oricărei concluzii despre contractele SAFE.",
+      "Verificați aprobările și planul de investiții înainte de evaluarea efectului tranzacției BSOG.",
+      "Așteptați rezultatul oficial și desemnarea premierului în Israel.",
+      "Separați lansarea ponderilor Mistral și testele CRISTAL de performanța confirmată în utilizare reală."
     ]
   },
   "sources": [
@@ -386,70 +418,77 @@
       "name": "Biziday RSS",
       "url": "https://www.biziday.ro/feed/",
       "type": "primary",
-      "accessedAt": "2026-10-29T06:01:53+02:00"
+      "accessedAt": "2026-10-30T06:00:00+02:00"
     },
     {
-      "id": "biziday-carfil-polonia",
-      "name": "Biziday — suspect reținut în ancheta Carfil",
-      "url": "https://www.biziday.ro/373964-2/",
+      "id": "biziday-control-safe",
+      "name": "Biziday — control contracte SAFE",
+      "url": "https://www.biziday.ro/374101-2/",
       "type": "secondary",
-      "accessedAt": "2026-10-29T06:07:00+02:00"
+      "accessedAt": "2026-10-30T06:03:00+02:00"
     },
     {
-      "id": "biziday-georgescu-arest",
-      "name": "Biziday — prelungirea arestării preventive a lui Călin Georgescu",
-      "url": "https://www.biziday.ro/373957-2/",
-      "type": "secondary",
-      "accessedAt": "2026-10-29T06:08:00+02:00"
-    },
-    {
-      "id": "reuters-nava-bulgaria",
-      "name": "Reuters — navă lovită de drone în largul Bulgariei",
-      "url": "https://www.streetinsider.com/Reuters/Drones%2Bhit%2Bcontainer%2Bship%2Boff%2BBulgaria%2C%2Bcrew%2Bsafe%2Band%2Bashore/27245104.html",
-      "type": "secondary",
-      "accessedAt": "2026-10-29T06:09:00+02:00"
-    },
-    {
-      "id": "ap-trenuri-spania",
-      "name": "Associated Press — coliziunea trenurilor de mare viteză din Spania",
-      "url": "https://apnews.com/article/4f65471a0e36f448d7ee9efe0768cd77",
-      "type": "secondary",
-      "accessedAt": "2026-10-29T06:10:00+02:00"
-    },
-    {
-      "id": "oms-lancet-clima-2026",
-      "name": "OMS — raportul Lancet Countdown 2026",
-      "url": "https://www.who.int/news/item/28-10-2026-climate-change-is-a-growing-health-emergency--lancet-countdown-warns",
+      "id": "carlyle-bsog-mazarine",
+      "name": "Carlyle — acordul de vânzare BSOG",
+      "url": "https://www.carlyle.com/media-room/news-release-archive/carlyle-and-ebrd-agree-sale-black-sea-oil-gas-mazarine-energy",
       "type": "official",
-      "accessedAt": "2026-10-29T06:11:00+02:00"
+      "accessedAt": "2026-10-30T06:05:00+02:00"
     },
     {
-      "id": "lancet-countdown-2026",
-      "name": "Lancet Countdown — raportul global 2026",
-      "url": "https://lancetcountdown.org/2026-report/",
+      "id": "biziday-israel-rezultat",
+      "name": "Biziday — alegerile din Israel",
+      "url": "https://www.biziday.ro/374081-2/",
+      "type": "secondary",
+      "accessedAt": "2026-10-30T06:03:00+02:00"
+    },
+    {
+      "id": "bce-lagarde-plecare",
+      "name": "Banca Centrală Europeană — plecarea Christinei Lagarde",
+      "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
+      "type": "official",
+      "accessedAt": "2026-10-30T06:04:00+02:00"
+    },
+    {
+      "id": "ce-kids-act-amanare",
+      "name": "Comisia Europeană — briefing EU KIDS Act",
+      "url": "https://audiovisual.ec.europa.eu/en/media/video/I-296993",
+      "type": "official",
+      "accessedAt": "2026-10-30T06:05:00+02:00"
+    },
+    {
+      "id": "biziday-rabla-noiembrie",
+      "name": "Biziday — noua sesiune Rabla",
+      "url": "https://www.biziday.ro/374069-2/",
+      "type": "secondary",
+      "accessedAt": "2026-10-30T06:03:00+02:00"
+    },
+    {
+      "id": "mistral-large-4",
+      "name": "Mistral AI — Large 4",
+      "url": "https://mistral.ai/news/mistral-large-4/",
       "type": "primary",
-      "accessedAt": "2026-10-29T06:11:30+02:00"
+      "accessedAt": "2026-10-30T06:06:00+02:00"
     },
     {
-      "id": "fed-fomc-2026-10-28",
-      "name": "Federal Reserve — comunicatul FOMC din 28 octombrie 2026",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "id": "reuters-mistral-large-4",
+      "name": "Reuters — lansarea publică Mistral Large 4",
+      "url": "https://ca.marketscreener.com/news/mistral-ai-publicly-releases-large-4-targets-cybersecurity-users-ce785fdadb8dfe26",
+      "type": "secondary",
+      "accessedAt": "2026-10-30T06:06:00+02:00"
+    },
+    {
+      "id": "esa-cristal-test",
+      "name": "Agenția Spațială Europeană — testele CRISTAL",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/CRISTAL/Ice_mission_CRISTAL_opens_its_wings",
       "type": "official",
-      "accessedAt": "2026-10-29T06:12:00+02:00"
+      "accessedAt": "2026-10-30T06:07:00+02:00"
     },
     {
-      "id": "ap-israel-numaratoare",
-      "name": "Associated Press — numărătoarea alegerilor din Israel",
-      "url": "https://apnews.com/article/52c6f5a0a720a4ffc08633229e796415",
+      "id": "biziday-drone-moscova",
+      "name": "Biziday — atacul cu drone asupra regiunii Moscova",
+      "url": "https://www.biziday.ro/373990-2/",
       "type": "secondary",
-      "accessedAt": "2026-10-29T06:13:00+02:00"
-    },
-    {
-      "id": "biziday-zelenski-ialta",
-      "name": "Biziday — avertismentul lui Zelenski privind sferele de influență",
-      "url": "https://www.biziday.ro/373906-2/",
-      "type": "secondary",
-      "accessedAt": "2026-10-29T06:14:00+02:00"
+      "accessedAt": "2026-10-30T06:03:00+02:00"
     }
   ]
 }

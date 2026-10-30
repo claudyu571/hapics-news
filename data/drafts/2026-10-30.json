@@ -1,0 +1,429 @@
+{
+  "metadata": {
+    "editionDate": "2026-10-30",
+    "updatedAt": "2026-10-30T06:10:00+02:00",
+    "timezone": "Europe/Bucharest",
+    "title": "Hapics News — Briefing de dimineață, 30 octombrie 2026",
+    "status": "draft",
+    "primarySource": "https://www.biziday.ro/feed/",
+    "sourceCoverage": "complete"
+  },
+  "executiveSummary": [
+    {
+      "id": "control-contracte-safe",
+      "text": "Ministrul Apărării trimite Corpul de control la Direcția pentru armamente pentru verificarea contractelor din programul SAFE.",
+      "category": "Securitate"
+    },
+    {
+      "id": "bsog-vanduta-mazarine",
+      "text": "Carlyle și BERD au convenit vânzarea BSOG către Mazarine; tranzacția, care privește un producător important de gaze, necesită aprobări.",
+      "category": "Energie"
+    },
+    {
+      "id": "israel-alegeri-fara-majoritate-30",
+      "text": "Alegerile israeliene nu au produs o majoritate clară, iar desemnarea premierului va depinde de rezultatele oficiale și negocierile dintre partide.",
+      "category": "Extern"
+    },
+    {
+      "id": "lagarde-plecare-bce",
+      "text": "Christine Lagarde va părăsi președinția BCE la 7 februarie 2027, cu opt luni înainte de finalul mandatului.",
+      "category": "Piețe"
+    },
+    {
+      "id": "ue-legi-social-media-copii",
+      "text": "Comisia Europeană amână cu 12 luni proiectele naționale care se suprapun viitorului EU KIDS Act, pentru a evita reguli fragmentate.",
+      "category": "Tehnologie"
+    },
+    {
+      "id": "mistral-large-4-ponderi",
+      "text": "Mistral a publicat ponderile Large 4, un model multimodal orientat și spre securitate cibernetică; performanțele sunt încă în mare parte revendicări ale companiei.",
+      "category": "Tehnologie"
+    }
+  ],
+  "importantNews": [
+    {
+      "id": "control-contracte-safe",
+      "title": "Control la Direcția pentru armamente asupra contractelor SAFE",
+      "fact": "Biziday a relatat că ministrul Apărării, Radu Oprea, trimite Corpul de control la Direcția Generală pentru Armamente pentru verificarea contractelor din programul SAFE. Ministrul a spus că selecția unei companii a fost decisă de Cancelaria prim-ministrului.",
+      "printSummary": "Biziday: ministrul Apărării trimite Corpul de control la Direcția pentru armamente pentru verificarea contractelor SAFE.",
+      "interpretation": "Verificarea privește integritatea achizițiilor strategice și poate influența calendarul programului. Anunțarea controlului nu dovedește o neregulă; concluziile trebuie așteptate înaintea atribuirii unei răspunderi.",
+      "category": "Securitate",
+      "impact": 5,
+      "impactLabel": "Achiziții strategice și control instituțional",
+      "horizon": "1–4 săptămâni",
+      "sourceId": "biziday-control-safe",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/374101-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "bsog-vanduta-mazarine",
+      "title": "Carlyle și BERD vând Black Sea Oil & Gas către Mazarine",
+      "fact": "Carlyle și BERD au anunțat acordul de vânzare a Black Sea Oil & Gas și BSOG Holding către Mazarine Energy. Valoarea nu a fost publicată, tranzacția este condiționată de aprobări, iar BSOG va rămâne operatorul proiectului Midia Gas Development.",
+      "printSummary": "Carlyle și BERD au convenit vânzarea BSOG către Mazarine; tranzacția necesită aprobări, iar valoarea nu a fost publicată.",
+      "interpretation": "Schimbarea proprietarului privește o infrastructură relevantă pentru securitatea energetică, dar continuitatea operatorului reduce riscul operațional imediat. Efectul asupra investițiilor viitoare depinde de aprobări și de planul noului acționar.",
+      "category": "Energie",
+      "impact": 5,
+      "impactLabel": "Activ strategic pentru producția internă de gaze",
+      "horizon": "1–3 luni",
+      "sourceId": "carlyle-bsog-mazarine",
+      "sourceName": "Carlyle",
+      "sourceUrl": "https://www.carlyle.com/media-room/news-release-archive/carlyle-and-ebrd-agree-sale-black-sea-oil-gas-mazarine-energy",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "israel-alegeri-fara-majoritate-30",
+      "title": "Alegerile din Israel s-au încheiat fără o majoritate clară",
+      "fact": "Biziday a relatat că niciun bloc nu a obținut o majoritate clară în alegerile israeliene. După confirmarea oficială a rezultatelor, președintele va desemna un candidat pentru formarea guvernului, iar negocierile pot dura câteva săptămâni.",
+      "printSummary": "Biziday: alegerile din Israel nu au produs o majoritate clară; desemnarea premierului urmează rezultatelor oficiale.",
+      "interpretation": "Blocajul face partidele arabe potențial decisive și poate prelungi incertitudinea politică într-un moment de tensiune regională. Formula guvernului rămâne deschisă; acuzațiile de fraudă nu trebuie tratate ca fapte fără dovezi oficiale.",
+      "category": "Extern",
+      "impact": 5,
+      "impactLabel": "Impact geopolitic și politic major",
+      "horizon": "1–4 săptămâni",
+      "sourceId": "biziday-israel-rezultat",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/374081-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "lagarde-plecare-bce",
+      "title": "Christine Lagarde va părăsi anticipat conducerea BCE",
+      "fact": "Banca Centrală Europeană a anunțat că președinta Christine Lagarde va pleca din funcție la 7 februarie 2027. Mandatul său urma să se încheie la 31 octombrie 2027, iar succesorul va fi numit de Consiliul European prin procedura prevăzută de tratate.",
+      "printSummary": "BCE: Christine Lagarde va pleca la 7 februarie 2027; succesorul va fi numit de Consiliul European.",
+      "interpretation": "Plecarea deschide mai devreme procesul de succesiune la o instituție care stabilește condițiile monetare ale zonei euro. Nu implică automat o schimbare de politică; aceasta va depinde de noua conducere și de datele economice.",
+      "category": "Piețe",
+      "impact": 5,
+      "impactLabel": "Schimbare de conducere la banca centrală a zonei euro",
+      "horizon": "1–3 luni",
+      "sourceId": "bce-lagarde-plecare",
+      "sourceName": "Banca Centrală Europeană",
+      "sourceUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "ue-legi-social-media-copii",
+      "title": "Comisia amână proiectele naționale privind accesul copiilor la social media",
+      "fact": "Comisia Europeană a confirmat că va amâna cu 12 luni proiectele naționale care se suprapun viitoarelor reguli armonizate din EU KIDS Act. Propunerea europeană stabilește 15 ani ca vârstă pentru deschiderea autonomă a unui cont de social media.",
+      "printSummary": "Comisia Europeană amână cu 12 luni proiectele naționale care se suprapun viitorului EU KIDS Act.",
+      "interpretation": "Măsura urmărește reguli uniforme și aplicabile platformelor în întreaga piață unică, dar întârzie unele inițiative naționale. Protecțiile finale și calendarul depind de negocierile legislative europene.",
+      "category": "Tehnologie",
+      "impact": 4,
+      "impactLabel": "Reglementare digitală cu efect în întreaga UE",
+      "horizon": "6–12 luni",
+      "sourceId": "ce-kids-act-amanare",
+      "sourceName": "Comisia Europeană",
+      "sourceUrl": "https://audiovisual.ec.europa.eu/en/media/video/I-296993",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "rablapf-sesiune-noiembrie",
+      "title": "Programul Rabla deschide o nouă sesiune pentru persoane fizice",
+      "fact": "Biziday a relatat că o nouă sesiune Rabla pentru persoane fizice începe marți, 3 noiembrie, cu fonduri totale de 35 de milioane de lei. Cea mai mare parte a bugetului este destinată vehiculelor pe benzină, GPL și hibride.",
+      "printSummary": "Biziday: o nouă sesiune Rabla începe la 3 noiembrie, cu un buget total de 35 de milioane de lei.",
+      "interpretation": "Sesiunea poate susține temporar cererea auto, dar dimensiunea și structura bugetului favorizează în principal înlocuirea parcului cu motorizări convenționale sau hibride. Impactul efectiv depinde de ritmul înscrierilor.",
+      "category": "Economie",
+      "impact": 4,
+      "impactLabel": "Cerere auto și cheltuieli publice",
+      "horizon": "Imediat",
+      "sourceId": "biziday-rabla-noiembrie",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/374069-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "mistral-large-4-ponderi",
+      "title": "Mistral a publicat ponderile modelului Large 4",
+      "fact": "Mistral a făcut disponibile ponderile Large 4, model multimodal cu un trilion de parametri și 52 de miliarde active, prezentat inițial în avanpremieră la 6 octombrie. Reuters a confirmat lansarea publică și orientarea către utilizări de securitate cibernetică și rulare pe infrastructura utilizatorului.",
+      "printSummary": "Mistral a publicat ponderile Large 4, după avanpremiera din octombrie; modelul poate rula pe infrastructura utilizatorului.",
+      "interpretation": "Este o lansare utilizabilă, nu doar un anunț, și extinde opțiunile europene pentru implementări controlate local. Totuși, performanțele și siguranța declarate provin în mare parte din testele companiei și necesită evaluare independentă în utilizare reală.",
+      "category": "Tehnologie",
+      "impact": 4,
+      "impactLabel": "Disponibilitate open-weight pentru AI europeană",
+      "horizon": "1–3 luni",
+      "sourceId": "mistral-large-4",
+      "sourceName": "Mistral AI",
+      "sourceUrl": "https://mistral.ai/news/mistral-large-4/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "cristal-panouri-test",
+      "title": "Satelitul european CRISTAL trece în etapa testelor de mediu",
+      "fact": "ESA a anunțat că satelitul CRISTAL a finalizat integrarea și a testat la sol desfășurarea panourilor solare și mecanismul de separare de lansator. Satelitul urmează teste de mediu în Țările de Jos; nu a fost lansat și nu furnizează încă date operaționale.",
+      "printSummary": "ESA: CRISTAL a testat la sol panourile solare și separarea de lansator; satelitul nu este încă operațional.",
+      "interpretation": "Testele sunt un reper de dezvoltare pentru o misiune destinată măsurării gheții și zăpezii polare, nu o demonstrație în orbită. Beneficiul climatic va putea fi evaluat abia după calificare, lansare și validarea datelor.",
+      "category": "Spațiu",
+      "impact": 4,
+      "impactLabel": "Infrastructură europeană pentru monitorizarea climei",
+      "horizon": "6–12 luni",
+      "sourceId": "esa-cristal-test",
+      "sourceName": "Agenția Spațială Europeană",
+      "sourceUrl": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/CRISTAL/Ice_mission_CRISTAL_opens_its_wings",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "ucraina-drone-moscova",
+      "title": "Ucraina a lansat un atac masiv cu drone asupra regiunii Moscova",
+      "fact": "Biziday a relatat, pe baza declarațiilor oficialilor ruși, că Ucraina a lansat peste 600 de drone spre regiunea Moscova. Primarul Moscovei a afirmat că peste 200 au fost distruse, fără a preciza soarta celorlalte; amploarea și efectele nu au fost verificate independent integral.",
+      "printSummary": "Biziday: oficialii ruși susțin că peste 600 de drone au vizat regiunea Moscova; amploarea nu este verificată integral.",
+      "interpretation": "Dacă amploarea este confirmată, atacul arată extinderea capacității de lovire la distanță și poate provoca un răspuns militar. Cifrele provin de la părți implicate în conflict și trebuie tratate ca provizorii.",
+      "category": "Extern",
+      "impact": 5,
+      "impactLabel": "Escaladare militară cu impact regional",
+      "horizon": "Imediat",
+      "sourceId": "biziday-drone-moscova",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/373990-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    }
+  ],
+  "romaniaAnalysis": {
+    "factBase": [
+      "Ministrul Apărării a dispus un control la Direcția Generală pentru Armamente asupra contractelor din programul SAFE.",
+      "Carlyle și BERD au convenit vânzarea BSOG către Mazarine, sub rezerva aprobărilor de reglementare.",
+      "O nouă sesiune Rabla pentru persoane fizice începe la 3 noiembrie, cu 35 de milioane de lei disponibile."
+    ],
+    "political": "Controlul asupra achizițiilor SAFE testează transparența și delimitarea responsabilităților între Ministerul Apărării și Cancelaria prim-ministrului. Până la raportul Corpului de control, există o procedură de verificare, nu o constatare de ilegalitate.",
+    "economic": "Vânzarea BSOG este cea mai importantă evoluție economică internă a dimineții, deoarece compania operează o parte relevantă a producției offshore de gaze. Continuitatea operatorului limitează riscul imediat, însă aprobările și planul Mazarine vor conta pentru investiții, producție și proiectele conexe.",
+    "interpretation": "Semnalul pentru România este unul de guvernanță a activelor strategice: achizițiile de apărare și infrastructura energetică intră simultan în procese de control sau schimbare de proprietate. Scenariul de bază rămâne continuitatea operațională, cu risc de întârziere dacă verificările ori aprobările se prelungesc."
+  },
+  "investmentFundSignals": [
+    {
+      "id": "energie-bsog-tranzactie",
+      "label": "Consolidare în producția offshore de gaze",
+      "direction": "neutru",
+      "strength": 4,
+      "horizon": "1–3 luni",
+      "rationale": "Transferul BSOG către un operator european păstrează continuitatea declarată, dar valoarea, aprobările și programul de investiții nu sunt încă publice."
+    },
+    {
+      "id": "succesiune-bce",
+      "label": "Incertitudine privind conducerea BCE",
+      "direction": "neutru",
+      "strength": 4,
+      "horizon": "1–3 luni",
+      "rationale": "Plecarea anticipată a Christinei Lagarde deschide procesul de succesiune, fără să schimbe automat politica monetară sau traiectoria dobânzilor."
+    },
+    {
+      "id": "achizitii-safe-control",
+      "label": "Execuția programelor de apărare SAFE",
+      "direction": "negativ",
+      "strength": 3,
+      "horizon": "1–4 săptămâni",
+      "rationale": "Controlul poate crește transparența, dar poate introduce întârzieri până la clarificarea selecției furnizorilor și a responsabilităților instituționale."
+    },
+    {
+      "id": "ai-europeana-open-weight",
+      "label": "Infrastructură AI europeană controlată local",
+      "direction": "pozitiv",
+      "strength": 3,
+      "horizon": "6–12 luni",
+      "rationale": "Publicarea ponderilor Mistral Large 4 lărgește opțiunile de implementare privată, dar costurile, performanța și siguranța trebuie validate independent."
+    }
+  ],
+  "indicators": [
+    {
+      "id": "bsog-pondere-cerere-gaze",
+      "label": "Pondere aproximativă BSOG în cererea internă de gaze",
+      "value": 12,
+      "unit": "%",
+      "referenceDate": "2026-10-29",
+      "sourceName": "Carlyle",
+      "sourceUrl": "https://www.carlyle.com/media-room/news-release-archive/carlyle-and-ebrd-agree-sale-black-sea-oil-gas-mazarine-energy",
+      "freshness": "current",
+      "note": "Estimare comunicată de vânzători pentru producția Midia Gas Development."
+    },
+    {
+      "id": "rabla-buget-noiembrie",
+      "label": "Buget noua sesiune Rabla",
+      "value": 35,
+      "unit": "milioane lei",
+      "referenceDate": "2026-10-29",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/374069-2/",
+      "freshness": "current",
+      "note": "Sesiunea pentru persoane fizice este anunțată pentru 3 noiembrie."
+    },
+    {
+      "id": "kids-act-amanare-nationala",
+      "label": "Amânare proiecte naționale social media",
+      "value": 12,
+      "unit": "luni",
+      "referenceDate": "2026-10-29",
+      "sourceName": "Comisia Europeană",
+      "sourceUrl": "https://audiovisual.ec.europa.eu/en/media/video/I-296993",
+      "freshness": "current",
+      "note": "Se aplică proiectelor care se suprapun viitoarelor reguli armonizate."
+    }
+  ],
+  "riskScores": [
+    {
+      "id": "risc-achizitii-aparare",
+      "label": "Risc de execuție a achizițiilor de apărare",
+      "score": 4,
+      "trend": "în creștere",
+      "description": "Controlul asupra contractelor SAFE poate întârzia procedurile dacă identifică deficiențe sau neclarități instituționale."
+    },
+    {
+      "id": "risc-geopolitic-israel-ucraina",
+      "label": "Risc geopolitic",
+      "score": 5,
+      "trend": "în creștere",
+      "description": "Blocajul politic din Israel și atacul masiv raportat asupra Moscovei mențin ridicată probabilitatea unor episoade de escaladare."
+    },
+    {
+      "id": "risc-succesiune-bce",
+      "label": "Risc de comunicare monetară în zona euro",
+      "score": 3,
+      "trend": "în creștere",
+      "description": "Procesul anticipat de succesiune la BCE poate amplifica volatilitatea așteptărilor înaintea desemnării unui nou președinte."
+    },
+    {
+      "id": "risc-energie-proprietate",
+      "label": "Risc de tranziție pentru BSOG",
+      "score": 3,
+      "trend": "stabil",
+      "description": "Tranzacția necesită aprobări, dar păstrarea BSOG ca operator indică deocamdată continuitate operațională."
+    }
+  ],
+  "watchlist": [
+    {
+      "id": "raport-control-safe",
+      "title": "Concluziile controlului asupra contractelor SAFE",
+      "why": "Raportul poate clarifica selecția furnizorilor, responsabilitățile și eventualele efecte asupra calendarului achizițiilor.",
+      "trigger": "Publicarea concluziilor Corpului de control sau a unei reacții oficiale a Cancelariei prim-ministrului.",
+      "status": "în așteptare",
+      "sourceUrl": "https://www.biziday.ro/374101-2/"
+    },
+    {
+      "id": "aprobari-bsog-mazarine",
+      "title": "Aprobarea vânzării BSOG către Mazarine",
+      "why": "Finalizarea și condițiile aprobărilor pot afecta planul de investiții pentru producția offshore și proiectele conexe.",
+      "trigger": "Decizie a autorităților de reglementare sau anunțul închiderii tranzacției.",
+      "status": "în așteptare",
+      "sourceUrl": "https://www.carlyle.com/media-room/news-release-archive/carlyle-and-ebrd-agree-sale-black-sea-oil-gas-mazarine-energy"
+    },
+    {
+      "id": "succesor-bce",
+      "title": "Nominalizarea succesorului Christinei Lagarde",
+      "why": "Profilul candidatului va influența așteptările privind continuitatea politicii monetare și comunicarea BCE.",
+      "trigger": "Nominalizarea oficială în Consiliul European și calendarul audierii în Parlamentul European.",
+      "status": "în așteptare",
+      "sourceUrl": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html"
+    },
+    {
+      "id": "rezultat-coalitie-israel",
+      "title": "Rezultatul oficial și negocierile din Israel",
+      "why": "Distribuția finală a mandatelor va determina dacă poate fi formată o coaliție sau dacă blocajul continuă.",
+      "trigger": "Confirmarea oficială a rezultatului și desemnarea candidatului la funcția de premier.",
+      "status": "în așteptare",
+      "sourceUrl": "https://www.biziday.ro/374081-2/"
+    },
+    {
+      "id": "validare-mistral-large-4",
+      "title": "Evaluări independente pentru Mistral Large 4",
+      "why": "Performanța și siguranța în securitate cibernetică sunt prezentate predominant prin teste ale producătorului.",
+      "trigger": "Benchmarkuri independente și rapoarte de implementare reală după publicarea ponderilor.",
+      "status": "în așteptare",
+      "sourceUrl": "https://mistral.ai/news/mistral-large-4/"
+    }
+  ],
+  "conclusion": {
+    "title": "Guvernanța activelor strategice trece în prim-plan",
+    "body": "Pentru România, dimineața este definită de controlul achizițiilor SAFE și schimbarea de proprietar la BSOG, două procese care cer transparență fără concluzii premature. Extern, blocajul electoral israelian, escaladarea raportată în jurul Moscovei și succesiunea anticipată la BCE adaugă incertitudine, în timp ce lansarea Mistral și testele CRISTAL trebuie judecate după utilizarea și validarea efectivă.",
+    "actionPoints": [
+      "Urmăriți raportul Corpului de control înaintea oricărei concluzii despre contractele SAFE.",
+      "Verificați aprobările și planul de investiții înainte de evaluarea efectului tranzacției BSOG.",
+      "Așteptați rezultatul oficial și desemnarea premierului în Israel.",
+      "Separați lansarea ponderilor Mistral și testele CRISTAL de performanța confirmată în utilizare reală."
+    ]
+  },
+  "sources": [
+    {
+      "id": "biziday-rss",
+      "name": "Biziday RSS",
+      "url": "https://www.biziday.ro/feed/",
+      "type": "primary",
+      "accessedAt": "2026-10-30T06:00:00+02:00"
+    },
+    {
+      "id": "biziday-control-safe",
+      "name": "Biziday — control contracte SAFE",
+      "url": "https://www.biziday.ro/374101-2/",
+      "type": "secondary",
+      "accessedAt": "2026-10-30T06:03:00+02:00"
+    },
+    {
+      "id": "carlyle-bsog-mazarine",
+      "name": "Carlyle — acordul de vânzare BSOG",
+      "url": "https://www.carlyle.com/media-room/news-release-archive/carlyle-and-ebrd-agree-sale-black-sea-oil-gas-mazarine-energy",
+      "type": "official",
+      "accessedAt": "2026-10-30T06:05:00+02:00"
+    },
+    {
+      "id": "biziday-israel-rezultat",
+      "name": "Biziday — alegerile din Israel",
+      "url": "https://www.biziday.ro/374081-2/",
+      "type": "secondary",
+      "accessedAt": "2026-10-30T06:03:00+02:00"
+    },
+    {
+      "id": "bce-lagarde-plecare",
+      "name": "Banca Centrală Europeană — plecarea Christinei Lagarde",
+      "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
+      "type": "official",
+      "accessedAt": "2026-10-30T06:04:00+02:00"
+    },
+    {
+      "id": "ce-kids-act-amanare",
+      "name": "Comisia Europeană — briefing EU KIDS Act",
+      "url": "https://audiovisual.ec.europa.eu/en/media/video/I-296993",
+      "type": "official",
+      "accessedAt": "2026-10-30T06:05:00+02:00"
+    },
+    {
+      "id": "biziday-rabla-noiembrie",
+      "name": "Biziday — noua sesiune Rabla",
+      "url": "https://www.biziday.ro/374069-2/",
+      "type": "secondary",
+      "accessedAt": "2026-10-30T06:03:00+02:00"
+    },
+    {
+      "id": "mistral-large-4",
+      "name": "Mistral AI — Large 4",
+      "url": "https://mistral.ai/news/mistral-large-4/",
+      "type": "primary",
+      "accessedAt": "2026-10-30T06:06:00+02:00"
+    },
+    {
+      "id": "reuters-mistral-large-4",
+      "name": "Reuters — lansarea publică Mistral Large 4",
+      "url": "https://ca.marketscreener.com/news/mistral-ai-publicly-releases-large-4-targets-cybersecurity-users-ce785fdadb8dfe26",
+      "type": "secondary",
+      "accessedAt": "2026-10-30T06:06:00+02:00"
+    },
+    {
+      "id": "esa-cristal-test",
+      "name": "Agenția Spațială Europeană — testele CRISTAL",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/CRISTAL/Ice_mission_CRISTAL_opens_its_wings",
+      "type": "official",
+      "accessedAt": "2026-10-30T06:07:00+02:00"
+    },
+    {
+      "id": "biziday-drone-moscova",
+      "name": "Biziday — atacul cu drone asupra regiunii Moscova",
+      "url": "https://www.biziday.ro/373990-2/",
+      "type": "secondary",
+      "accessedAt": "2026-10-30T06:03:00+02:00"
+    }
+  ]
+}
