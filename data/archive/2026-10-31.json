@@ -1,0 +1,444 @@
+{
+  "metadata": {
+    "editionDate": "2026-10-31",
+    "updatedAt": "2026-10-31T06:00:20+02:00",
+    "timezone": "Europe/Bucharest",
+    "title": "Hapics News — Briefing de dimineață, 31 octombrie 2026",
+    "status": "published",
+    "primarySource": "https://www.biziday.ro/feed/",
+    "sourceCoverage": "complete"
+  },
+  "executiveSummary": [
+    {
+      "id": "energie-romania-eurostat",
+      "text": "Eurostat arată că România a avut cea mai mare creștere din UE a prețului electricității pentru gospodării în primul semestru: 51,6% anual.",
+      "category": "Energie"
+    },
+    {
+      "id": "reorganizare-administrativa",
+      "text": "Guvernul deschide până la 1 martie 2027 o etapă voluntară de comasare pentru 429 de localități; criteriile etapei obligatorii nu sunt stabilite.",
+      "category": "Politică"
+    },
+    {
+      "id": "consolidare-fiscala-rating",
+      "text": "Ministrul Finanțelor leagă bugetul credibil și continuarea consolidării fiscale de evaluările agențiilor de rating de la începutul anului.",
+      "category": "Economie"
+    },
+    {
+      "id": "patriot-ucraina",
+      "text": "SUA au aprobat vânzarea către Ucraina a 500 de interceptoare Patriot, estimată la 2,1 miliarde de dolari și finanțată de aliați.",
+      "category": "Extern"
+    },
+    {
+      "id": "ue-canada-alianta",
+      "text": "UE și Canada au anunțat o alianță pentru reziliență în AI, energie și minerale critice, fără ca termenul de membru asociat să aibă statut juridic.",
+      "category": "Extern"
+    },
+    {
+      "id": "meteorit-martian-teghaza",
+      "text": "Un studiu publicat în Science datează meteoritul marțian Teghaza 001 la peste 4,1 miliarde de ani și găsește urme ale interacțiunii cu apa.",
+      "category": "Știință"
+    }
+  ],
+  "importantNews": [
+    {
+      "id": "energie-romania-eurostat",
+      "title": "România conduce creșterile prețurilor energiei pentru gospodării în UE",
+      "fact": "Eurostat a raportat că, în primul semestru din 2026, prețul electricității pentru gospodăriile din România a crescut cu 51,6% față de aceeași perioadă din 2025, cea mai mare creștere din UE. Pentru gaze, Biziday a relatat pe baza Eurostat o creștere de 9,3%.",
+      "printSummary": "Eurostat: electricitatea pentru gospodăriile din România s-a scumpit cu 51,6% anual în primul semestru, cel mai mult în UE.",
+      "interpretation": "Datele indică o presiune internă mult peste tendința medie europeană, cu efect probabil asupra puterii de cumpărare și inflației. Comparația descrie prețurile observate și nu stabilește singură cauzele diferenței.",
+      "category": "Energie",
+      "impact": 5,
+      "impactLabel": "Presiune directă asupra bugetelor gospodăriilor",
+      "horizon": "1–3 luni",
+      "sourceId": "eurostat-electricitate-s1",
+      "sourceName": "Eurostat",
+      "sourceUrl": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20261030-2",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "reorganizare-administrativa",
+      "title": "Guvernul conturează prima etapă a reorganizării administrative",
+      "fact": "Ministrul Dezvoltării a anunțat că 429 de localități, în special comune cu sub 1.500 de locuitori, pot iniția voluntar comasarea până la 1 martie 2027, prin hotărâri locale și referendumuri. Pentru o etapă obligatorie nu există încă listă sau criterii clare, iar efectele sunt prevăzute din 2028.",
+      "printSummary": "Ministrul Dezvoltării: 429 de localități pot iniția voluntar comasarea până la 1 martie 2027; criteriile obligatorii lipsesc.",
+      "interpretation": "Este un calendar politic inițial, nu o reorganizare deja decisă. Impactul bugetar și administrativ va depinde de participarea locală, stimulente, baza legală și forma încă nedefinită a etapei obligatorii.",
+      "category": "Politică",
+      "impact": 5,
+      "impactLabel": "Reformă structurală a administrației locale",
+      "horizon": "6–12 luni",
+      "sourceId": "biziday-reorganizare",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/374170-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "consolidare-fiscala-rating",
+      "title": "Ministerul Finanțelor insistă asupra consolidării înaintea evaluărilor de rating",
+      "fact": "Ministrul Finanțelor, Alexandru Nazare, a declarat după rectificarea bugetară că România trebuie să continue consolidarea fiscală și că un buget credibil este important pentru menținerea ratingului la evaluările agențiilor de la începutul anului.",
+      "printSummary": "Ministrul Finanțelor spune că bugetul credibil și consolidarea fiscală sunt esențiale înaintea noilor evaluări de rating.",
+      "interpretation": "Declarația confirmă constrângerea fiscală pentru următorul buget, dar nu reprezintă o decizie a agențiilor de rating. Credibilitatea va depinde de măsuri, execuție și traiectoria deficitului, nu doar de mesajul public.",
+      "category": "Economie",
+      "impact": 5,
+      "impactLabel": "Cost de finanțare și spațiu bugetar",
+      "horizon": "1–3 luni",
+      "sourceId": "biziday-consolidare-fiscala",
+      "sourceName": "Biziday",
+      "sourceUrl": "https://www.biziday.ro/374157-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "patriot-ucraina",
+      "title": "SUA aprobă 500 de interceptoare Patriot pentru Ucraina",
+      "fact": "Departamentul de Stat al SUA a aprobat vânzarea către Ucraina a 500 de rachete interceptoare Patriot, cu un cost estimat de 2,1 miliarde de dolari. Potrivit relatării Reuters preluate de Biziday, finanțarea provine din contribuții ale Canadei, Germaniei și Norvegiei și din fonduri ucrainene sprijinite de UE.",
+      "printSummary": "Reuters: SUA au aprobat 500 de interceptoare Patriot pentru Ucraina, estimate la 2,1 miliarde de dolari și finanțate de aliați.",
+      "interpretation": "Aprobarea răspunde presiunii asupra apărării aeriene înaintea iernii, însă nu echivalează cu livrarea imediată. Efectul operațional depinde de calendarul contractării, producției și transferului efectiv.",
+      "category": "Extern",
+      "impact": 5,
+      "impactLabel": "Apărare aeriană într-un război major",
+      "horizon": "1–3 luni",
+      "sourceId": "biziday-patriot-ucraina",
+      "sourceName": "Biziday / Reuters",
+      "sourceUrl": "https://www.biziday.ro/374214-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "ue-canada-alianta",
+      "title": "UE și Canada lansează o alianță pentru reziliență economică și geopolitică",
+      "fact": "La summitul Canada–UE de la Montreal, liderii au anunțat o alianță axată pe inteligență artificială, energie și minerale critice și au încheiat negocierile pentru un acord comercial digital. Formula de «membru asociat» este încă disputată în UE și nu are semnificație juridică.",
+      "printSummary": "UE și Canada au anunțat cooperare în AI, energie și minerale critice; statutul de «membru asociat» nu este definit juridic.",
+      "interpretation": "Apropierea poate diversifica lanțurile de aprovizionare și cooperarea de securitate, dar ambiția politică depășește deocamdată arhitectura juridică. Efectele comerciale depind de documentele finale și de ratificare.",
+      "category": "Extern",
+      "impact": 4,
+      "impactLabel": "Diversificarea parteneriatelor UE",
+      "horizon": "6–12 luni",
+      "sourceId": "biziday-ue-canada",
+      "sourceName": "Biziday / Reuters",
+      "sourceUrl": "https://www.biziday.ro/374225-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "corectie-burse-tech",
+      "title": "Acțiunile tehnologice trag bursele americane în jos",
+      "fact": "Indicii americani au închis vineri în scădere: Nasdaq Composite cu 2,84%, S&P 500 cu 1,8% și Dow Jones cu 1,09%, potrivit datelor preliminare Reuters citate de Biziday. Vânzările au fost concentrate în tehnologie, pe fondul îndoielilor privind randamentul investițiilor masive în AI.",
+      "printSummary": "Reuters: Nasdaq a scăzut vineri cu 2,84%, iar S&P 500 cu 1,8%, pe fondul vânzărilor concentrate în sectorul tehnologic.",
+      "interpretation": "Mișcarea arată o reevaluare a ritmului de monetizare a investițiilor AI, nu confirmă singură o inversare durabilă a pieței. Persistența depinde de rezultate, fluxuri de numerar și ghidajele companiilor.",
+      "category": "Piețe",
+      "impact": 4,
+      "impactLabel": "Reevaluarea investițiilor în AI",
+      "horizon": "1–4 săptămâni",
+      "sourceId": "biziday-burse-tech",
+      "sourceName": "Biziday / Reuters",
+      "sourceUrl": "https://www.biziday.ro/374183-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "meteorit-martian-teghaza",
+      "title": "Teghaza 001 oferă o mostră rară din scoarța timpurie a planetei Marte",
+      "fact": "Un studiu publicat în Science și prezentat de NASA a datat meteoritul marțian Teghaza 001 la peste 4,1 miliarde de ani. Analizele mineralogice indică formarea din magmă și alterarea ulterioară de apă; cercetătorii au identificat 13 regiuni marțiene compatibile, fără a putea stabili originea exactă.",
+      "printSummary": "NASA: studiul din Science datează meteoritul marțian Teghaza 001 la peste 4,1 miliarde de ani și indică alterare prin apă.",
+      "interpretation": "Este o caracterizare științifică inițială a unei mostre naturale rare, nu o probă de viață și nici o localizare certă a originii. Valoarea constă în informațiile despre scoarța și apa de pe Marte timpuriu.",
+      "category": "Știință",
+      "impact": 4,
+      "impactLabel": "Date noi despre geologia timpurie a planetei Marte",
+      "horizon": "6–12 luni",
+      "sourceId": "nasa-teghaza",
+      "sourceName": "NASA / Science",
+      "sourceUrl": "https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    }
+  ],
+  "romaniaAnalysis": {
+    "factBase": [
+      "Eurostat a măsurat în România cea mai mare creștere anuală din UE a prețului electricității pentru gospodării în primul semestru din 2026.",
+      "Ministerul Dezvoltării a indicat 429 de localități pentru etapa voluntară a comasării, fără criterii finale pentru o etapă obligatorie.",
+      "Ministerul Finanțelor a legat continuarea consolidării fiscale de credibilitatea bugetului și viitoarele evaluări de rating."
+    ],
+    "political": "Reorganizarea administrativă intră într-o etapă de test voluntar, cu referendumuri locale și un calendar care trece dincolo de ciclul bugetar imediat. Lipsa criteriilor pentru comasarea obligatorie păstrează însă incertitudinea politică și juridică.",
+    "economic": "Creșterea de 51,6% a prețului electricității pentru gospodării, raportată de Eurostat, pune presiune asupra consumului și inflației. În paralel, mesajul Finanțelor indică spațiu redus pentru relaxare bugetară înaintea evaluărilor de rating.",
+    "interpretation": "Pentru România, tema comună este capacitatea de execuție: protejarea gospodăriilor fără deteriorarea disciplinei fiscale și transformarea unei intenții de reformă administrativă într-un cadru legal previzibil. Riscul principal este ca măsurile temporare sau calendarele incomplete să amâne ajustările structurale."
+  },
+  "investmentFundSignals": [
+    {
+      "id": "presiune-costuri-energie",
+      "label": "Costuri energetice pentru consumatori și companii",
+      "direction": "negativ",
+      "strength": 5,
+      "horizon": "1–3 luni",
+      "rationale": "Creșterea prețurilor casnice din România depășește puternic media UE și poate menține presiunea asupra consumului, salariilor și inflației."
+    },
+    {
+      "id": "disciplina-fiscala-rating",
+      "label": "Credibilitatea fiscală a României",
+      "direction": "neutru",
+      "strength": 4,
+      "horizon": "1–3 luni",
+      "rationale": "Mesajul de consolidare este favorabil disciplinei, dar efectul depinde de buget, execuție și evaluările efective ale agențiilor."
+    },
+    {
+      "id": "reevaluare-ai",
+      "label": "Evaluări ale companiilor tehnologice expuse la AI",
+      "direction": "negativ",
+      "strength": 4,
+      "horizon": "1–4 săptămâni",
+      "rationale": "Scăderea concentrată în tehnologie arată că piața cere dovezi mai rapide privind monetizarea cheltuielilor mari de capital."
+    },
+    {
+      "id": "ue-canada-lanturi",
+      "label": "Diversificarea lanțurilor UE–Canada",
+      "direction": "pozitiv",
+      "strength": 3,
+      "horizon": "6–12 luni",
+      "rationale": "Cooperarea în energie și minerale critice poate reduce dependențe, dar acordurile trebuie definite și implementate înaintea efectelor economice."
+    }
+  ],
+  "indicators": [
+    {
+      "id": "crestere-electricitate-gospodarii-ro",
+      "label": "Creștere anuală preț electricitate gospodării România",
+      "value": 51.6,
+      "unit": "%",
+      "referenceDate": "2026-06-30",
+      "sourceName": "Eurostat",
+      "sourceUrl": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20261030-2",
+      "freshness": "current",
+      "note": "Primul semestru 2026 față de primul semestru 2025, în moneda națională."
+    },
+    {
+      "id": "crestere-gaze-gospodarii-ro",
+      "label": "Creștere anuală preț gaze gospodării România",
+      "value": 9.3,
+      "unit": "%",
+      "referenceDate": "2026-06-30",
+      "sourceName": "Biziday / Eurostat",
+      "sourceUrl": "https://www.biziday.ro/374185-2/",
+      "freshness": "current",
+      "note": "Primul semestru 2026 față de primul semestru 2025, în moneda națională."
+    },
+    {
+      "id": "eur-ron",
+      "label": "EUR/RON",
+      "value": 5.3426,
+      "unit": "lei",
+      "referenceDate": "2026-10-30",
+      "sourceName": "BNR",
+      "sourceUrl": "https://curs.bnr.ro/nbrfxrates.xml",
+      "freshness": "current",
+      "note": "Curs de referință oficial publicat de BNR."
+    },
+    {
+      "id": "usd-ron",
+      "label": "USD/RON",
+      "value": 4.7698,
+      "unit": "lei",
+      "referenceDate": "2026-10-30",
+      "sourceName": "BNR",
+      "sourceUrl": "https://curs.bnr.ro/nbrfxrates.xml",
+      "freshness": "current",
+      "note": "Curs de referință oficial publicat de BNR."
+    },
+    {
+      "id": "bet",
+      "label": "Indice BET",
+      "value": 35129.76,
+      "unit": "puncte",
+      "referenceDate": "2026-10-31",
+      "sourceName": "BVB",
+      "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=BET",
+      "freshness": "current",
+      "note": "Indicele principal al Bursei de Valori București."
+    },
+    {
+      "id": "rotx",
+      "label": "Indice ROTX",
+      "value": 79758.12,
+      "unit": "puncte",
+      "referenceDate": "2026-10-31",
+      "sourceName": "BVB / Wiener Börse",
+      "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=ROTX",
+      "freshness": "current",
+      "note": "Indicele acțiunilor românești blue-chip, calculat de Wiener Börse."
+    },
+    {
+      "id": "robor",
+      "label": "ROBOR 3M",
+      "value": 6.09,
+      "unit": "%",
+      "referenceDate": "2026-10-30",
+      "sourceName": "BNR",
+      "sourceUrl": "https://www.bnr.ro/1074-baza-de-date-interactiva",
+      "freshness": "current",
+      "note": "Rată interbancară de referință, stabilită zilnic de BNR."
+    },
+    {
+      "id": "ircc",
+      "label": "IRCC",
+      "value": null,
+      "unit": "%",
+      "referenceDate": "2026-10-31",
+      "sourceName": "BNR",
+      "sourceUrl": "https://www.bnr.ro/",
+      "freshness": "unavailable"
+    }
+  ],
+  "riskScores": [
+    {
+      "id": "risc-energie-gospodarii",
+      "label": "Presiune energetică internă",
+      "score": 5,
+      "trend": "în creștere",
+      "description": "Saltul prețurilor la electricitate și gaze poate afecta consumul, inflația și cererea de intervenții publice."
+    },
+    {
+      "id": "risc-fiscal-rating",
+      "label": "Risc fiscal și de rating",
+      "score": 4,
+      "trend": "stabil",
+      "description": "Menținerea ratingului depinde de un buget credibil și de execuția consolidării, nu doar de angajamente publice."
+    },
+    {
+      "id": "risc-geopolitic-ucraina",
+      "label": "Risc geopolitic european",
+      "score": 5,
+      "trend": "stabil",
+      "description": "Nevoia accelerată de interceptoare Patriot reflectă presiunea continuă asupra infrastructurii Ucrainei înaintea iernii."
+    },
+    {
+      "id": "risc-evaluari-tech",
+      "label": "Risc de evaluare în tehnologie",
+      "score": 4,
+      "trend": "în creștere",
+      "description": "Investitorii reevaluează ritmul în care cheltuielile pentru infrastructura AI se transformă în venituri și numerar."
+    }
+  ],
+  "watchlist": [
+    {
+      "id": "buget-2027-rating",
+      "title": "Bugetul României și evaluările de rating",
+      "why": "Măsurile și execuția vor arăta dacă mesajul de consolidare fiscală este credibil.",
+      "trigger": "Publicarea proiectului de buget sau a unei decizii de rating.",
+      "status": "în așteptare",
+      "sourceUrl": "https://www.biziday.ro/374157-2/"
+    },
+    {
+      "id": "criterii-comasare",
+      "title": "Criteriile reorganizării administrative",
+      "why": "Etapa obligatorie nu are încă listă, criterii sau formă legală definite.",
+      "trigger": "Publicarea proiectului legislativ și a criteriilor de selecție.",
+      "status": "în așteptare",
+      "sourceUrl": "https://www.biziday.ro/374170-2/"
+    },
+    {
+      "id": "livrare-patriot",
+      "title": "Calendarul livrării interceptoarelor Patriot",
+      "why": "Aprobarea vânzării nu indică momentul în care rachetele devin disponibile operațional.",
+      "trigger": "Anunț oficial privind contractarea, producția sau primele livrări.",
+      "status": "în așteptare",
+      "sourceUrl": "https://www.biziday.ro/374214-2/"
+    },
+    {
+      "id": "acord-ue-canada",
+      "title": "Forma juridică a parteneriatului UE–Canada",
+      "why": "Alianța are ambiții largi, dar termenul de membru asociat nu are statut juridic.",
+      "trigger": "Publicarea acordului digital și a cadrului formal al cooperării.",
+      "status": "în așteptare",
+      "sourceUrl": "https://www.biziday.ro/374225-2/"
+    },
+    {
+      "id": "validare-teghaza",
+      "title": "Studii independente asupra meteoritului Teghaza 001",
+      "why": "Caracterizarea inițială deschide întrebări despre scoarța și ciclul apei pe Marte timpuriu.",
+      "trigger": "Publicarea unor analize independente sau a unor rezultate suplimentare revizuite inter pares.",
+      "status": "în așteptare",
+      "sourceUrl": "https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/"
+    }
+  ],
+  "conclusion": {
+    "title": "Costul energiei și disciplina execuției domină agenda",
+    "body": "România intră în următoarea perioadă cu o combinație dificilă: scumpiri energetice mult peste media UE, presiune pentru consolidare fiscală și o reformă administrativă încă incomplet definită. Extern, sprijinul defensiv pentru Ucraina și apropierea UE–Canada au miză strategică, în timp ce corecția bursieră cere dovezi economice pentru investițiile AI. Studiul Teghaza 001 este o descoperire relevantă despre Marte timpuriu, fără implicații speculative despre viață.",
+    "actionPoints": [
+      "Urmăriți proiectul de buget și deciziile agențiilor, nu doar mesajele politice.",
+      "Așteptați criteriile și baza legală înainte de evaluarea reorganizării administrative.",
+      "Separați aprobarea Patriot de calendarul livrării efective.",
+      "Tratați studiul meteoritului ca o caracterizare geologică inițială, nu ca dovadă biologică."
+    ]
+  },
+  "sources": [
+    {
+      "id": "biziday-rss",
+      "name": "Biziday RSS",
+      "url": "https://www.biziday.ro/feed/",
+      "type": "primary",
+      "accessedAt": "2026-10-31T05:59:28+02:00"
+    },
+    {
+      "id": "eurostat-electricitate-s1",
+      "name": "Eurostat — prețurile electricității pentru gospodării",
+      "url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20261030-2",
+      "type": "official",
+      "accessedAt": "2026-10-31T05:59:28+02:00"
+    },
+    {
+      "id": "biziday-energie",
+      "name": "Biziday — prețurile energiei în România",
+      "url": "https://www.biziday.ro/374185-2/",
+      "type": "secondary",
+      "accessedAt": "2026-10-31T05:59:28+02:00"
+    },
+    {
+      "id": "biziday-reorganizare",
+      "name": "Biziday — reorganizare administrativă",
+      "url": "https://www.biziday.ro/374170-2/",
+      "type": "secondary",
+      "accessedAt": "2026-10-31T05:59:28+02:00"
+    },
+    {
+      "id": "biziday-consolidare-fiscala",
+      "name": "Biziday — consolidare fiscală",
+      "url": "https://www.biziday.ro/374157-2/",
+      "type": "secondary",
+      "accessedAt": "2026-10-31T05:59:28+02:00"
+    },
+    {
+      "id": "biziday-patriot-ucraina",
+      "name": "Biziday / Reuters — Patriot pentru Ucraina",
+      "url": "https://www.biziday.ro/374214-2/",
+      "type": "secondary",
+      "accessedAt": "2026-10-31T05:59:28+02:00"
+    },
+    {
+      "id": "biziday-ue-canada",
+      "name": "Biziday / Reuters — summitul UE–Canada",
+      "url": "https://www.biziday.ro/374225-2/",
+      "type": "secondary",
+      "accessedAt": "2026-10-31T05:59:28+02:00"
+    },
+    {
+      "id": "biziday-burse-tech",
+      "name": "Biziday / Reuters — bursele americane",
+      "url": "https://www.biziday.ro/374183-2/",
+      "type": "secondary",
+      "accessedAt": "2026-10-31T05:59:28+02:00"
+    },
+    {
+      "id": "nasa-teghaza",
+      "name": "NASA — studiul meteoritului Teghaza 001",
+      "url": "https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/",
+      "type": "official",
+      "accessedAt": "2026-10-31T05:59:28+02:00"
+    },
+    {
+      "id": "lpf-sport-check",
+      "name": "Liga Profesionistă de Fotbal — rezultate",
+      "url": "https://lpf.ro/liga-1",
+      "type": "official",
+      "accessedAt": "2026-10-31T05:59:28+02:00"
+    }
+  ]
+}
