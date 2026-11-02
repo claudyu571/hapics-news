@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "editionDate": "2026-11-01",
-    "updatedAt": "2026-11-01T06:01:55+02:00",
+    "editionDate": "2026-11-02",
+    "updatedAt": "2026-11-02T06:05:38+02:00",
     "timezone": "Europe/Bucharest",
-    "title": "Hapics News — Briefing de dimineață, 1 noiembrie 2026",
+    "title": "Hapics News — Briefing de dimineață, 2 noiembrie 2026",
     "status": "published",
     "primarySource": "https://www.biziday.ro/feed/",
     "sourceCoverage": "complete"
@@ -11,42 +11,47 @@
   "executiveSummary": [
     {
       "id": "drone-spatiu-aerian-romania",
-      "text": "MApN confirmă că două drone au pătruns neautorizat în nord-estul României; una a ieșit, iar ultima poziție a celeilalte a fost între Vaslui și Bacău.",
+      "text": "MApN a confirmat două pătrunderi neautorizate ale unor drone în nord-estul României; originea și soarta uneia dintre ele nu erau încă precizate.",
       "category": "Securitate"
     },
     {
       "id": "masuri-carburanti-prelungite",
-      "text": "Guvernul prelungește până la 31 ianuarie măsurile de criză pentru carburanți, inclusiv acciza redusă la motorină și limitarea adaosului comercial.",
+      "text": "Măsurile temporare pentru carburanți, inclusiv acciza redusă la motorină și limitarea adaosului comercial, sunt prelungite până la 31 ianuarie.",
       "category": "Energie"
     },
     {
-      "id": "taxa-procesare-colete-ue",
-      "text": "De la 1 noiembrie, statele UE trebuie să aplice noua taxă de procesare pentru coletele din afara Uniunii, distinctă de taxa vamală de trei euro.",
-      "category": "Economie"
-    },
-    {
-      "id": "criza-curte-polonia",
-      "text": "Suspendarea președintelui Curții Constituționale din Polonia a declanșat proteste și a adâncit conflictul dintre guvern și președinție.",
+      "id": "bulgaria-alegeri-prezidentiale",
+      "text": "Iliana Iotova conduce detașat numărătoarea inițială în scrutinul prezidențial bulgar, iar contracandidatul Andrey Gyurov și-a recunoscut înfrângerea.",
       "category": "Extern"
     },
     {
-      "id": "openai-finantare-redusa",
-      "text": "Reuters, citând Financial Times, relatează că OpenAI și-a redus cu 10 miliarde de dolari ținta rundei de finanțare, la 20 de miliarde.",
+      "id": "ucraina-rusia-infrastructura-energie",
+      "text": "Atacurile reciproce au afectat alimentarea cu electricitate în Ucraina și un obiectiv industrial din regiunea rusă Nijni Novgorod.",
+      "category": "Extern"
+    },
+    {
+      "id": "germania-rezerve-gaze",
+      "text": "Depozitele de gaze ale Germaniei erau umplute la 61,35% la 30 octombrie, sub ținta de 80% invocată pentru începutul lui noiembrie.",
+      "category": "Energie"
+    },
+    {
+      "id": "fbi-binance-coreea-de-nord",
+      "text": "FBI atribuie grupului nord-coreean TraderTraitor furtul a peste șase miliarde de dolari în active virtuale de la Binance.",
       "category": "Tehnologie"
     },
     {
-      "id": "barbados-hiv-transmitere",
-      "text": "OMS a certificat Barbados pentru eliminarea transmiterii HIV de la mamă la copil ca problemă de sănătate publică, după o evaluare independentă.",
-      "category": "Sănătate"
+      "id": "nasa-chapea-misiune-analog",
+      "text": "Patru voluntari au încheiat simularea terestră CHAPEA a NASA după 378 de zile; datele urmează să sprijine cercetarea riscurilor zborului uman.",
+      "category": "Spațiu"
     }
   ],
   "importantNews": [
     {
       "id": "drone-spatiu-aerian-romania",
       "title": "Două drone au pătruns neautorizat în spațiul aerian românesc",
-      "fact": "MApN a comunicat că, sâmbătă seara, sistemele radar au detectat două drone intrate neautorizat în nord-estul României. Patru avioane F-16 și un elicopter IAR-330 SOCAT au fost ridicate, populația din șase județe a fost alertată, iar până la încetarea alertei nu au fost raportate prăbușiri. Una dintre drone a ieșit din spațiul național; cealaltă a fost observată ultima dată între Vaslui și Bacău.",
-      "printSummary": "MApN: două drone au intrat neautorizat în nord-estul României; nu au fost raportate prăbușiri până la încetarea alertei.",
-      "interpretation": "Incidentul este o încălcare confirmată a spațiului aerian și arată presiunea regională asupra poliției aeriene. Originea, tipul și soarta celei de-a doua drone nu erau precizate în comunicatul inițial, astfel că nu pot fi atribuite fără informații oficiale suplimentare.",
+      "fact": "MApN a comunicat că sistemele radar au detectat sâmbătă seara două drone intrate neautorizat în nord-estul României. Patru avioane F-16 și un elicopter IAR-330 SOCAT au fost ridicate, iar populația din șase județe a fost alertată. Una dintre drone a ieșit din spațiul național; ultima poziție raportată pentru cealaltă a fost între Vaslui și Bacău, fără prăbușiri confirmate până la încetarea alertei.",
+      "printSummary": "MApN: două drone au intrat neautorizat în nord-estul României; nu au fost confirmate prăbușiri până la încetarea alertei.",
+      "interpretation": "Incidentul rămâne o încălcare confirmată a spațiului aerian și menține presiunea asupra poliției aeriene. Originea, tipul și traseul final al celei de-a doua drone nu pot fi atribuite în lipsa unei actualizări oficiale.",
       "category": "Securitate",
       "impact": 5,
       "impactLabel": "Încălcare confirmată a spațiului aerian național",
@@ -59,10 +64,10 @@
     },
     {
       "id": "masuri-carburanti-prelungite",
-      "title": "Guvernul prelungește măsurile temporare pentru piața carburanților",
-      "fact": "Guvernul a prelungit pentru perioada 1 noiembrie 2026–31 ianuarie 2027 situația de criză pe piața țițeiului și produselor petroliere și măsurile aferente, între care diminuarea accizei la motorină și limitarea adaosului comercial la carburanți, potrivit relatării Biziday despre ședința Executivului.",
-      "printSummary": "Biziday: Guvernul prelungește până la 31 ianuarie acciza redusă la motorină și limitarea adaosului comercial la carburanți.",
-      "interpretation": "Prelungirea încearcă să amortizeze transmiterea cotațiilor ridicate către consumatori și transport, dar rămâne o intervenție temporară. Efectul asupra prețului final și costul fiscal trebuie evaluate din datele de execuție, nu presupuse din anunț.",
+      "title": "Măsurile temporare pentru carburanți sunt prelungite până la 31 ianuarie",
+      "fact": "Guvernul a prelungit pentru intervalul 1 noiembrie 2026–31 ianuarie 2027 situația de criză pe piața țițeiului și produselor petroliere și măsurile aferente, între care diminuarea accizei la motorină și limitarea adaosului comercial la carburanți, potrivit relatării Biziday despre decizia Executivului.",
+      "printSummary": "Biziday: acciza redusă la motorină și limitarea adaosului comercial la carburanți sunt prelungite până la 31 ianuarie.",
+      "interpretation": "Măsurile pot amortiza pe termen scurt transmiterea costurilor către consumatori și transport, dar efectul asupra prețului final și costul bugetar trebuie măsurate din date, nu deduse din intenția anunțată.",
       "category": "Energie",
       "impact": 5,
       "impactLabel": "Costuri directe pentru gospodării și transport",
@@ -74,11 +79,75 @@
       "confidence": "confirmed"
     },
     {
+      "id": "bulgaria-alegeri-prezidentiale",
+      "title": "Iliana Iotova conduce numărătoarea inițială a prezidențialelor din Bulgaria",
+      "fact": "Associated Press relatează că numărătorile inițiale ale mai multor agenții îi atribuiau Ilianei Iotova aproximativ 58% din voturi în turul al doilea al alegerilor prezidențiale din Bulgaria, față de circa 38% pentru Andrey Gyurov, care și-a recunoscut înfrângerea. Rezultatele oficiale erau așteptate luni.",
+      "printSummary": "AP: Iotova conducea cu aproximativ 58% în numărătorile inițiale din Bulgaria; rezultatele oficiale erau așteptate luni.",
+      "interpretation": "Dacă rezultatul este confirmat, Iotova va deveni prima femeie aleasă președinte al Bulgariei. Funcția este în principal ceremonială, dar votul consolidează autoritatea politică a unei candidate susținute de partidul premierului Rumen Radev, cu implicații pentru tonul Sofiei față de Rusia și Ucraina.",
+      "category": "Extern",
+      "impact": 5,
+      "impactLabel": "Direcție politică într-un stat vecin și membru UE",
+      "horizon": "1–4 săptămâni",
+      "sourceId": "ap-bulgaria-prezidentiale",
+      "sourceName": "Associated Press",
+      "sourceUrl": "https://apnews.com/article/cc540e5540a7a268da15aa72c5ec033e",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "ucraina-rusia-infrastructura-energie",
+      "title": "Atacurile reciproce afectează infrastructura energetică din Ucraina și Rusia",
+      "fact": "Reuters relatează că loviturile rusești au lăsat sute de mii de consumatori ucraineni fără electricitate, potrivit președintelui Volodimir Zelenski, iar autoritățile ruse au raportat avarii majore la un obiectiv industrial după atacuri ucrainene cu drone în regiunea Nijni Novgorod, unde se află rafinăria NORSI.",
+      "printSummary": "Reuters: atacurile au întrerupt curentul pentru sute de mii de ucraineni și au avariat un obiectiv industrial din Rusia.",
+      "interpretation": "Ambele părți continuă să vizeze infrastructura cu rol economic și militar, mărind riscul pentru alimentarea cu energie înaintea iernii. Întinderea pagubelor la rafinăria rusă nu era confirmată independent în relatarea inițială.",
+      "category": "Extern",
+      "impact": 5,
+      "impactLabel": "Presiune energetică și militară înaintea iernii",
+      "horizon": "Imediat",
+      "sourceId": "reuters-ucraina-rusia-energie",
+      "sourceName": "Reuters",
+      "sourceUrl": "https://www.marketscreener.com/news/russian-strikes-cut-power-to-thousands-in-ukraine-as-drones-damage-russian-facility-ce785fd8da80f225",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "germania-rezerve-gaze",
+      "title": "Germania intră în sezonul rece cu depozitele de gaze sub țintă",
+      "fact": "Reuters relatează că depozitele de gaze ale Germaniei erau umplute la 61,35% la 30 octombrie, sub ținta de 80% indicată pentru 1 noiembrie. Asociația operatorilor de depozite INES a cerut revizuirea mecanismului de umplere, în timp ce guvernul german a spus că nu anticipează blocaje de aprovizionare.",
+      "printSummary": "Reuters: depozitele de gaze ale Germaniei erau la 61,35%, sub țintă; Berlinul nu anticipa blocaje de aprovizionare.",
+      "interpretation": "Nivelul redus crește sensibilitatea prețurilor europene la o iarnă rece sau la întreruperi de ofertă, fără să însemne automat penurie. Pentru România, riscul relevant este transmiterea prin piața regională a gazelor și electricității.",
+      "category": "Energie",
+      "impact": 5,
+      "impactLabel": "Risc de preț pentru energia europeană",
+      "horizon": "1–3 luni",
+      "sourceId": "reuters-germania-gaze",
+      "sourceName": "Reuters / INES",
+      "sourceUrl": "https://ca.marketscreener.com/news/germany-must-do-more-to-boost-gas-reserves-as-storage-levels-hit-record-low-lobby-group-says-ce785fd8da89f127",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "fbi-binance-coreea-de-nord",
+      "title": "FBI atribuie Coreei de Nord furtul de peste șase miliarde de dolari de la Binance",
+      "fact": "FBI a anunțat că activitatea nord-coreeană denumită TraderTraitor este responsabilă pentru furtul a peste șase miliarde de dolari în active virtuale de la Binance, produs în jurul datei de 29 octombrie. Agenția spune că actorii convertesc activele în principal în ether și a cerut serviciilor cripto să blocheze tranzacțiile legate de adresele publicate.",
+      "printSummary": "FBI atribuie grupului nord-coreean TraderTraitor furtul a peste 6 miliarde USD în active virtuale de la Binance.",
+      "interpretation": "Atribuirea oficială transformă incidentul dintr-o suspiciune privată într-un caz de securitate cibernetică statală. Recuperarea fondurilor și impactul asupra clienților rămân distincte de valoarea brută furată și trebuie urmărite separat.",
+      "category": "Tehnologie",
+      "impact": 5,
+      "impactLabel": "Cel mai mare furt cripto atribuit oficial",
+      "horizon": "Imediat",
+      "sourceId": "fbi-binance-coreea-nord",
+      "sourceName": "Federal Bureau of Investigation",
+      "sourceUrl": "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
       "id": "taxa-procesare-colete-ue",
-      "title": "Intră în vigoare noua taxă UE de procesare a coletelor din afara Uniunii",
-      "fact": "De la 1 noiembrie, statele membre trebuie să colecteze o taxă europeană de procesare pentru vânzările la distanță importate, distinctă de taxa vamală de trei euro pe articol aplicată din iulie. Comisia Europeană precizează că taxa de procesare acoperă costurile autorităților vamale și nu este taxă vamală; valoarea urmează să fie stabilită și revizuită periodic.",
-      "printSummary": "Comisia Europeană: taxa de procesare a coletelor extracomunitare se aplică din noiembrie și este distinctă de taxa vamală de 3 euro.",
-      "interpretation": "Schimbarea ridică costul administrativ al comerțului electronic extracomunitar și reduce avantajul platformelor care expediază volume mari de colete mici. Impactul pentru consumatori depinde de cuantumul stabilit și de modul în care comercianții transferă costul.",
+      "title": "Taxa UE de procesare a coletelor extracomunitare începe să se aplice",
+      "fact": "De la 1 noiembrie, statele membre trebuie să colecteze o taxă europeană de procesare pentru vânzările la distanță importate, distinctă de taxa vamală de trei euro pe articol aplicată din iulie. Comisia Europeană precizează că taxa acoperă costurile autorităților vamale, iar cuantumul urmează să fie stabilit și revizuit periodic.",
+      "printSummary": "Comisia Europeană: taxa de procesare a coletelor extracomunitare se aplică din noiembrie și diferă de taxa vamală de 3 euro.",
+      "interpretation": "Măsura crește costul administrativ al comerțului electronic extracomunitar și poate reduce avantajul platformelor cu volume mari de colete mici. Impactul pentru cumpărători depinde de cuantum și de transferarea costului de către comercianți.",
       "category": "Economie",
       "impact": 4,
       "impactLabel": "Costuri și concurență în comerțul electronic",
@@ -90,152 +159,89 @@
       "confidence": "confirmed"
     },
     {
-      "id": "criza-curte-polonia",
-      "title": "Conflictul privind Curtea Constituțională adâncește criza politică din Polonia",
-      "fact": "Judecători ai Curții Constituționale numiți de actuala majoritate l-au suspendat pe președintele instanței, Bogdan Święczkowski. AP relatează că premierul Donald Tusk a apărat măsura, sute de persoane au protestat pentru a doua noapte, iar președintele Poloniei și-a întrerupt deplasarea externă pentru consultări.",
-      "printSummary": "AP: suspendarea președintelui Curții Constituționale din Polonia a provocat proteste și un nou conflict între guvern și președinție.",
-      "interpretation": "Disputa privește autoritatea asupra unei instituții centrale și poate afecta funcționarea controlului constituțional într-un stat UE. Legalitatea suspendării este contestată, iar evoluția depinde de procedurile instanței și de reacția instituțiilor poloneze și europene.",
-      "category": "Extern",
-      "impact": 5,
-      "impactLabel": "Stat de drept într-un stat membru UE",
-      "horizon": "1–4 săptămâni",
-      "sourceId": "ap-polonia-curte",
-      "sourceName": "Associated Press",
-      "sourceUrl": "https://apnews.com/article/0a346b1633cef7360277500a1273773f",
-      "isSecondary": true,
-      "confidence": "confirmed"
-    },
-    {
-      "id": "proteste-franta-europa",
-      "title": "Protestele sociale continuă în Franța și se extind în alte orașe europene",
-      "fact": "AP relatează că peste 300.000 de persoane au participat sâmbătă la manifestațiile din Franța, față de 410.000 cu o săptămână înainte, potrivit estimărilor autorităților. Au existat intervenții cu gaze lacrimogene în Paris, Lyon și Toulouse, iar autoritățile au descris majoritatea protestelor drept pașnice; la Köln, poliția a oprit marșul după incidente.",
-      "printSummary": "AP: peste 300.000 de persoane au protestat în Franța; autoritățile au descris manifestațiile drept majoritar pașnice.",
-      "interpretation": "Participarea rămâne mare, deși scade față de săptămâna anterioară, iar revendicările privind costul vieții și serviciile publice păstrează presiunea politică. Incidentele locale nu justifică descrierea întregii mobilizări ca violentă.",
-      "category": "Extern",
-      "impact": 4,
-      "impactLabel": "Presiune socială în economii majore ale UE",
-      "horizon": "1–4 săptămâni",
-      "sourceId": "ap-proteste-europa",
-      "sourceName": "Associated Press",
-      "sourceUrl": "https://apnews.com/article/362a7cb69871ab21bd894290dad639f5",
-      "isSecondary": true,
-      "confidence": "confirmed"
-    },
-    {
-      "id": "openai-finantare-redusa",
-      "title": "OpenAI își reduce ținta unei noi runde de finanțare",
-      "fact": "Reuters, citând Financial Times și persoane familiarizate cu discuțiile, relatează că OpenAI și-a redus ținta rundei de finanțare cu 10 miliarde de dolari, la 20 de miliarde, și urmărește o evaluare de 1,25 trilioane de dolari. Informația privește negocieri private și nu un capital deja atras.",
-      "printSummary": "Reuters, citând FT: OpenAI și-a redus cu 10 miliarde de dolari ținta rundei de finanțare, la 20 de miliarde.",
-      "interpretation": "Reducerea sugerează condiții mai stricte pentru finanțarea investițiilor AI la evaluări foarte ridicate, dar nu dovedește singură deteriorarea activității companiei. Confirmarea relevantă va fi suma efectiv închisă și evaluarea contractuală.",
-      "category": "Tehnologie",
-      "impact": 4,
-      "impactLabel": "Finanțarea infrastructurii și companiilor AI",
-      "horizon": "1–4 săptămâni",
-      "sourceId": "reuters-openai-finantare",
-      "sourceName": "Reuters / Financial Times",
-      "sourceUrl": "https://www.investing.com/news/economy-news/openai-cuts-funding-target-by-10-billion-ft-reports-4988969",
-      "isSecondary": true,
-      "confidence": "confirmed"
-    },
-    {
-      "id": "barbados-hiv-transmitere",
-      "title": "OMS certifică eliminarea transmiterii HIV de la mamă la copil în Barbados",
-      "fact": "Organizația Mondială a Sănătății a certificat Barbados pentru eliminarea transmiterii HIV de la mamă la copil ca problemă de sănătate publică. Certificarea urmează unei evaluări independente a țintelor globale și nu înseamnă că nu mai există niciun caz de HIV în țară.",
-      "printSummary": "OMS a certificat Barbados pentru eliminarea transmiterii HIV de la mamă la copil ca problemă de sănătate publică.",
-      "interpretation": "Este un rezultat verificat al accesului la testare și tratament prenatal, cu valoare de model pentru sănătatea publică. Termenul «eliminare» desemnează atingerea pragurilor OMS, nu eradicarea virusului sau dispariția nevoii de supraveghere.",
-      "category": "Sănătate",
-      "impact": 4,
-      "impactLabel": "Reper verificat în prevenția HIV",
-      "horizon": "6–12 luni",
-      "sourceId": "oms-barbados-hiv",
-      "sourceName": "Organizația Mondială a Sănătății",
-      "sourceUrl": "https://www.who.int/singapore/news/detail-global/30-10-2026-barbados-eliminates-mother-to-child-transmission-of-hiv",
-      "isSecondary": true,
-      "confidence": "confirmed"
-    },
-    {
-      "id": "nasa-hubble-rfi",
-      "title": "NASA sondează piața pentru o posibilă misiune comercială de service Hubble",
-      "fact": "NASA a publicat o solicitare de informații pentru a evalua capacitatea industriei de a ridica Hubble pe o orbită mai înaltă, a-i îmbunătăți capabilitățile sau a asigura reintrarea controlată. Răspunsurile sunt așteptate până la 30 noiembrie; nu există încă o misiune selectată ori finanțată.",
-      "printSummary": "NASA solicită propuneri despre service-ul comercial al Hubble; nu a selectat și nu a finanțat încă o misiune.",
-      "interpretation": "Anunțul deschide o evaluare tehnică și comercială, nu demonstrează fezabilitatea unei intervenții. Miza este prelungirea vieții științifice înaintea reintrării estimate pentru 2033–2034, iar orice efect depinde de o decizie ulterioară și de gestionarea riscului orbital.",
+      "id": "nasa-chapea-misiune-analog",
+      "title": "A doua simulare NASA de un an pentru viața pe Marte s-a încheiat",
+      "fact": "Cei patru voluntari ai misiunii analog CHAPEA 2 au ieșit sâmbătă din habitatul NASA de la Johnson Space Center după 378 de zile de izolare, relatează Reuters. NASA precizează că echipajul a testat operațiuni simulate, întârzieri de comunicații, resurse limitate și activități extravehiculare într-un habitat terestru imprimat 3D.",
+      "printSummary": "Reuters și NASA: patru voluntari au încheiat după 378 de zile simularea terestră CHAPEA 2 într-un habitat imprimat 3D.",
+      "interpretation": "Este finalizarea unei demonstrații de cercetare pe Pământ, nu o misiune pe Marte și nici validarea unui zbor cu echipaj. Semnificația depinde de analiza ulterioară a datelor despre sănătate, performanță, hrană și utilizarea resurselor.",
       "category": "Spațiu",
       "impact": 4,
-      "impactLabel": "Posibilă prelungire a unei infrastructuri științifice majore",
+      "impactLabel": "Date pentru reducerea riscurilor zborului uman de lungă durată",
       "horizon": "6–12 luni",
-      "sourceId": "nasa-hubble-rfi",
-      "sourceName": "NASA",
-      "sourceUrl": "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
+      "sourceId": "nasa-chapea-2",
+      "sourceName": "NASA / Reuters",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasa-invites-media-to-crew-completion-of-yearlong-mars-simulation/",
       "isSecondary": true,
       "confidence": "confirmed"
     }
   ],
   "romaniaAnalysis": {
     "factBase": [
-      "MApN a confirmat două pătrunderi neautorizate ale unor drone în spațiul aerian național și activarea poliției aeriene și a alertelor pentru șase județe.",
-      "Guvernul a prelungit până la 31 ianuarie măsurile temporare pentru limitarea scumpirii carburanților.",
-      "Noua taxă europeană de procesare a coletelor extracomunitare începe să se aplice de la 1 noiembrie și înlocuiește taxa națională echivalentă."
+      "MApN a confirmat două pătrunderi neautorizate ale unor drone și activarea poliției aeriene și a alertelor pentru populație în șase județe.",
+      "Măsurile temporare privind motorina și adaosul comercial la carburanți sunt prelungite până la 31 ianuarie 2027.",
+      "Depozitele de gaze ale Germaniei sunt mult sub ținta indicată la începutul sezonului rece, iar prețurile europene rămân sensibile la vreme și ofertă.",
+      "Taxa europeană de procesare a coletelor extracomunitare a intrat în aplicare de la 1 noiembrie."
     ],
-    "political": "Incidentul aerian mută securitatea regională în centrul agendei interne și cere comunicare oficială rapidă despre identificarea și traseul dronelor. În plan economic, prelungirea intervenției pe piața carburanților arată că Executivul tratează șocul de preț ca persistent, dar temporar.",
-    "economic": "Acciza redusă și plafonarea adaosului pot limita pe termen scurt transmiterea costului petrolului către transport și consum, însă pot crea cost fiscal și distorsiuni dacă sunt prelungite repetat. Taxa UE pentru colete schimbă costurile comerțului electronic și concurența pentru retaileri locali.",
-    "interpretation": "România gestionează simultan un risc de securitate imediat și două intervenții cu efect direct asupra prețurilor. Prioritatea este verificarea faptelor operaționale despre drone, iar în economie trebuie urmărite prețurile și execuția fiscală pentru a separa efectul real al măsurilor de intenția politică."
+    "political": "Securitatea aeriană rămâne tema internă imediată, iar credibilitatea instituțională depinde de actualizări oficiale clare despre identificarea și traseul dronelor. În paralel, prelungirea intervenției pe carburanți arată că Executivul tratează presiunea prețurilor drept persistentă, dar încă temporară.",
+    "economic": "România este expusă simultan costurilor carburanților și unei piețe europene a gazelor care intră în iarnă cu rezerve germane reduse. Măsurile interne pot amortiza șocul pe termen scurt, însă nu elimină riscul regional și pot avea cost bugetar; taxa pe colete schimbă marginal structura costurilor în retail.",
+    "interpretation": "Riscul principal pentru următoarele săptămâni este suprapunerea unei tensiuni de securitate cu volatilitatea energiei. Scenariul de bază nu presupune penurie, dar o iarnă rece ori o nouă întrerupere de ofertă ar crește probabilitatea transmiterii rapide în prețuri, în timp ce sprijinul fiscal limitează doar parțial efectul."
   },
   "investmentFundSignals": [
     {
-      "id": "risc-securitate-regionala",
+      "id": "securitate-regionala",
       "label": "Securitate regională și infrastructură critică",
       "direction": "negativ",
       "strength": 5,
       "horizon": "Imediat",
-      "rationale": "Pătrunderea confirmată a dronelor crește riscul operațional, chiar dacă nu au fost raportate pagube sau prăbușiri."
+      "rationale": "Pătrunderea confirmată a dronelor și atacurile asupra infrastructurii energetice mențin riscul operațional regional ridicat."
     },
     {
-      "id": "amortizare-carburanti",
-      "label": "Costuri cu energia și transportul în România",
-      "direction": "neutru",
-      "strength": 4,
-      "horizon": "1–3 luni",
-      "rationale": "Măsurile pot amortiza temporar prețurile, dar efectul net depinde de cotațiile petrolului, transmiterea comercială și costul fiscal."
-    },
-    {
-      "id": "reevaluare-finantare-ai",
-      "label": "Finanțarea companiilor private de inteligență artificială",
+      "id": "gaze-europa-iarna",
+      "label": "Costuri europene cu gazele și electricitatea",
       "direction": "negativ",
-      "strength": 4,
-      "horizon": "1–4 săptămâni",
-      "rationale": "Ținta mai mică raportată pentru OpenAI indică selectivitate crescută la evaluări foarte mari, înainte de confirmarea sumei efectiv atrase."
+      "strength": 5,
+      "horizon": "1–3 luni",
+      "rationale": "Rezervele germane sub țintă sporesc sensibilitatea prețurilor la temperaturi scăzute și la perturbări de aprovizionare, fără a confirma o penurie."
     },
     {
-      "id": "comert-electronic-ue",
-      "label": "Comerț electronic extracomunitar în UE",
+      "id": "carburanti-romania",
+      "label": "Costuri cu transportul în România",
       "direction": "neutru",
-      "strength": 3,
+      "strength": 4,
       "horizon": "1–3 luni",
-      "rationale": "Noua taxă de procesare crește costurile importurilor mici și poate reduce diferența competitivă față de comercianții din UE."
+      "rationale": "Intervenția poate amortiza prețurile, dar efectul net depinde de cotațiile petrolului, transmiterea comercială și costul fiscal."
+    },
+    {
+      "id": "securitate-active-digitale",
+      "label": "Infrastructură și custodie pentru active digitale",
+      "direction": "negativ",
+      "strength": 5,
+      "horizon": "Imediat",
+      "rationale": "Furtul atribuit oficial amplifică riscul de contraparte și presiunea pentru controale, blocarea fondurilor și supraveghere în ecosistemul cripto."
     }
   ],
   "indicators": [
     {
-      "id": "tinta-finantare-openai",
-      "label": "Ținta raportată a rundei OpenAI",
-      "value": 20,
-      "unit": "miliarde USD",
+      "id": "germania-depozite-gaze",
+      "label": "Gradul de umplere a depozitelor de gaze din Germania",
+      "value": 61.35,
+      "unit": "%",
       "referenceDate": "2026-10-30",
-      "sourceName": "Reuters / Financial Times",
-      "sourceUrl": "https://www.investing.com/news/economy-news/openai-cuts-funding-target-by-10-billion-ft-reports-4988969",
+      "sourceName": "Reuters / INES",
+      "sourceUrl": "https://ca.marketscreener.com/news/germany-must-do-more-to-boost-gas-reserves-as-storage-levels-hit-record-low-lobby-group-says-ce785fd8da89f127",
       "freshness": "current",
-      "note": "Țintă raportată pe baza unor surse, nu sumă închisă."
+      "note": "Procent din capacitatea de depozitare, nu din consumul total de iarnă."
     },
     {
-      "id": "participanti-proteste-franta",
-      "label": "Participanți estimați la protestele din Franța",
-      "value": 300000,
-      "unit": "peste persoane",
+      "id": "binance-furt-attribuit-fbi",
+      "label": "Active virtuale furate de la Binance, atribuite de FBI",
+      "value": 6,
+      "unit": "peste miliarde USD",
       "referenceDate": "2026-10-31",
-      "sourceName": "Associated Press / autorități franceze",
-      "sourceUrl": "https://apnews.com/article/362a7cb69871ab21bd894290dad639f5",
+      "sourceName": "FBI",
+      "sourceUrl": "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack",
       "freshness": "current",
-      "note": "Estimare oficială națională relatată de AP."
+      "note": "Valoare brută anunțată de FBI; recuperarea și acoperirea pierderilor sunt chestiuni distincte."
     },
     {
       "id": "eur-ron",
@@ -264,7 +270,7 @@
       "label": "Indice BET",
       "value": 35129.76,
       "unit": "puncte",
-      "referenceDate": "2026-11-01",
+      "referenceDate": "2026-11-02",
       "sourceName": "BVB",
       "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=BET",
       "freshness": "current",
@@ -275,7 +281,7 @@
       "label": "Indice ROTX",
       "value": 79758.12,
       "unit": "puncte",
-      "referenceDate": "2026-11-01",
+      "referenceDate": "2026-11-02",
       "sourceName": "BVB / Wiener Börse",
       "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=ROTX",
       "freshness": "current",
@@ -297,7 +303,7 @@
       "label": "IRCC",
       "value": null,
       "unit": "%",
-      "referenceDate": "2026-11-01",
+      "referenceDate": "2026-11-02",
       "sourceName": "BNR",
       "sourceUrl": "https://www.bnr.ro/",
       "freshness": "unavailable"
@@ -305,84 +311,85 @@
   ],
   "riskScores": [
     {
-      "id": "risc-aerian-romania",
+      "id": "risc-securitate-romania",
       "label": "Risc aerian regional pentru România",
       "score": 5,
       "trend": "în creștere",
-      "description": "Două pătrunderi confirmate au activat poliția aeriană și alertele pentru populație în șase județe."
+      "description": "Două pătrunderi confirmate au activat poliția aeriană și alertele în șase județe."
     },
     {
-      "id": "risc-energie-transport",
-      "label": "Presiune din prețurile carburanților",
-      "score": 4,
-      "trend": "stabil",
-      "description": "Prelungirea măsurilor de criză arată că Executivul anticipează persistența presiunii asupra prețurilor."
-    },
-    {
-      "id": "risc-stat-drept-polonia",
-      "label": "Risc instituțional în Polonia",
+      "id": "risc-energie-europa",
+      "label": "Risc energetic european pentru iarna 2026–2027",
       "score": 5,
       "trend": "în creștere",
-      "description": "Suspendarea contestată a șefului Curții Constituționale amplifică disputa dintre centrele de putere."
+      "description": "Rezervele germane reduse și atacurile asupra infrastructurii sporesc sensibilitatea la vreme și perturbări de ofertă."
     },
     {
-      "id": "risc-evaluari-ai",
-      "label": "Risc de evaluare în sectorul AI",
-      "score": 4,
+      "id": "risc-cibernetic-cripto",
+      "label": "Risc cibernetic pentru infrastructura cripto",
+      "score": 5,
       "trend": "în creștere",
-      "description": "Reducerea țintei de finanțare raportate pentru OpenAI indică o piață mai exigentă pentru capitalul privat."
+      "description": "FBI a atribuit unui actor statal furtul a peste șase miliarde de dolari în active virtuale."
+    },
+    {
+      "id": "risc-politic-regional",
+      "label": "Risc de reașezare politică regională",
+      "score": 3,
+      "trend": "stabil",
+      "description": "Rezultatul bulgar poate modifica tonul politicii externe, dar președinția are puteri executive limitate."
     }
   ],
   "watchlist": [
     {
-      "id": "identificare-drone",
-      "title": "Identificarea și traseul dronelor",
-      "why": "Originea și soarta celei de-a doua drone nu sunt încă precizate oficial.",
-      "trigger": "Un comunicat MApN cu identificare, resturi găsite sau concluzii operaționale.",
+      "id": "actualizare-drone-romania",
+      "title": "Identificarea și localizarea dronelor",
+      "why": "Originea și traseul final sunt esențiale pentru evaluarea riscului de securitate.",
+      "trigger": "Un nou comunicat MApN sau identificarea unor resturi",
       "status": "în așteptare",
       "sourceUrl": "https://www.mapn.ro/cpresa/19461_Comunicat-de-pres%C4%83"
     },
     {
-      "id": "efect-carburanti",
-      "title": "Efectul măsurilor asupra prețului carburanților",
-      "why": "Anunțul nu cuantifică impactul la pompă sau costul bugetar.",
-      "trigger": "Date oficiale despre prețuri, accize și execuția schemei până la 31 ianuarie.",
+      "id": "rezultate-oficiale-bulgaria",
+      "title": "Rezultatele oficiale ale alegerilor din Bulgaria",
+      "why": "Numărătorile inițiale și recunoașterea înfrângerii nu înlocuiesc validarea oficială.",
+      "trigger": "Publicarea rezultatului de către comisia electorală",
       "status": "în așteptare",
-      "sourceUrl": "https://www.biziday.ro/374161-2/"
+      "sourceUrl": "https://apnews.com/article/cc540e5540a7a268da15aa72c5ec033e"
     },
     {
-      "id": "polonia-proceduri",
-      "title": "Legalitatea suspendării din Curtea Constituțională poloneză",
-      "why": "Guvernul și președinția contestă autoritatea și procedura folosite.",
-      "trigger": "O decizie formală a instanței sau o intervenție a instituțiilor europene.",
-      "status": "contradictoriu",
-      "sourceUrl": "https://apnews.com/article/0a346b1633cef7360277500a1273773f"
-    },
-    {
-      "id": "inchidere-runda-openai",
-      "title": "Închiderea efectivă a rundei OpenAI",
-      "why": "Ținta și evaluarea sunt relatate din negocieri private, nu confirmate printr-o tranzacție finală.",
-      "trigger": "Anunțul companiei sau documente care confirmă suma atrasă și evaluarea.",
-      "status": "neconfirmat",
-      "sourceUrl": "https://www.investing.com/news/economy-news/openai-cuts-funding-target-by-10-billion-ft-reports-4988969"
-    },
-    {
-      "id": "raspunsuri-hubble",
-      "title": "Propunerile comerciale pentru Hubble",
-      "why": "Solicitarea NASA este exploratorie și nu reprezintă aprobarea unei misiuni.",
-      "trigger": "Publicarea răspunsurilor, a unei selecții sau a unei decizii de finanțare după 30 noiembrie.",
+      "id": "gaze-europa-temperaturi",
+      "title": "Ritmul retragerilor din depozitele europene de gaze",
+      "why": "Temperaturile și întreruperile de ofertă vor decide dacă nivelul redus devine presiune severă asupra prețurilor.",
+      "trigger": "Scădere accelerată a stocurilor sau avertisment oficial de aprovizionare",
       "status": "în așteptare",
-      "sourceUrl": "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/"
+      "sourceUrl": "https://ca.marketscreener.com/news/germany-must-do-more-to-boost-gas-reserves-as-storage-levels-hit-record-low-lobby-group-says-ce785fd8da89f127"
+    },
+    {
+      "id": "recuperare-binance",
+      "title": "Recuperarea activelor furate de la Binance",
+      "why": "Valoarea blocată și acoperirea clienților determină efectul financiar, separat de atribuirea atacului.",
+      "trigger": "Raport verificabil privind fondurile recuperate sau pierderile clienților",
+      "status": "în așteptare",
+      "sourceUrl": "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack"
+    },
+    {
+      "id": "rezultate-chapea",
+      "title": "Publicarea rezultatelor științifice CHAPEA 2",
+      "why": "Finalizarea simulării nu arată singură ce metode au redus riscurile pentru echipaj.",
+      "trigger": "Publicarea datelor sau a unui studiu NASA evaluabil",
+      "status": "în așteptare",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasa-invites-media-to-crew-completion-of-yearlong-mars-simulation/"
     }
   ],
   "conclusion": {
-    "title": "Securitatea imediată și intervențiile temporare cer dovezi de execuție",
-    "body": "Pentru România, incidentul cu drone este tema dominantă și trebuie urmărit exclusiv prin date oficiale, fără atribuiri premature. Prelungirea măsurilor pentru carburanți și noua taxă UE pentru colete schimbă costuri imediate, dar efectele trebuie măsurate. Extern, criza instituțională poloneză și protestele franceze sporesc incertitudinea politică, iar reducerea țintei de finanțare OpenAI indică disciplină mai mare a capitalului. Certificarea OMS pentru Barbados este un rezultat de sănătate publică verificat, iar demersul NASA pentru Hubble rămâne o explorare, nu o misiune decisă.",
+    "title": "Securitatea și energia domină începutul săptămânii",
+    "body": "România intră în săptămână cu o încălcare aeriană încă incomplet explicată și cu măsuri temporare extinse pentru carburanți, în timp ce piața europeană a gazelor rămâne vulnerabilă la vreme și ofertă. În plan extern, scrutinul bulgar, atacurile asupra infrastructurii și atribuirea atacului Binance cer confirmări operaționale, nu extrapolări alarmiste.",
     "actionPoints": [
-      "Urmăriți comunicatul MApN privind identificarea și traseul complet al dronelor.",
-      "Evaluați măsurile pentru carburanți prin prețuri și cost fiscal, nu doar prin termenul prelungirii.",
-      "Separați ținta de finanțare OpenAI de suma efectiv atrasă.",
-      "Tratați solicitarea NASA pentru Hubble ca studiu de piață până la o selecție formală."
+      "Urmărește actualizările MApN despre drone și eventualele resturi.",
+      "Separă nivelul redus al stocurilor de gaze de un scenariu confirmat de penurie.",
+      "Așteaptă rezultatele oficiale din Bulgaria înaintea concluziilor definitive.",
+      "Urmărește fondurile Binance recuperate, nu doar valoarea brută furată.",
+      "Tratează CHAPEA drept cercetare analog pe Pământ, nu misiune marțiană."
     ]
   },
   "sources": [
@@ -391,77 +398,77 @@
       "name": "Biziday RSS",
       "url": "https://www.biziday.ro/feed/",
       "type": "primary",
-      "accessedAt": "2026-11-01T06:01:41+02:00"
+      "accessedAt": "2026-11-02T06:03:49+02:00"
     },
     {
       "id": "mapn-drone-31-oct",
-      "name": "MApN — comunicat privind dronele",
+      "name": "Ministerul Apărării Naționale — comunicat privind dronele",
       "url": "https://www.mapn.ro/cpresa/19461_Comunicat-de-pres%C4%83",
       "type": "official",
-      "accessedAt": "2026-11-01T06:01:41+02:00"
-    },
-    {
-      "id": "biziday-drone",
-      "name": "Biziday — alertă aeriană în nordul Moldovei",
-      "url": "https://www.biziday.ro/374256-2/",
-      "type": "secondary",
-      "accessedAt": "2026-11-01T06:01:41+02:00"
+      "accessedAt": "2026-11-02T06:04:20+02:00"
     },
     {
       "id": "biziday-carburanti",
       "name": "Biziday — prelungirea măsurilor pentru carburanți",
       "url": "https://www.biziday.ro/374161-2/",
+      "type": "primary",
+      "accessedAt": "2026-11-02T06:04:20+02:00"
+    },
+    {
+      "id": "ap-bulgaria-prezidentiale",
+      "name": "Associated Press — alegerile prezidențiale din Bulgaria",
+      "url": "https://apnews.com/article/cc540e5540a7a268da15aa72c5ec033e",
       "type": "secondary",
-      "accessedAt": "2026-11-01T06:01:41+02:00"
+      "accessedAt": "2026-11-02T06:04:20+02:00"
+    },
+    {
+      "id": "reuters-ucraina-rusia-energie",
+      "name": "Reuters — atacuri asupra infrastructurii energetice",
+      "url": "https://www.marketscreener.com/news/russian-strikes-cut-power-to-thousands-in-ukraine-as-drones-damage-russian-facility-ce785fd8da80f225",
+      "type": "secondary",
+      "accessedAt": "2026-11-02T06:04:20+02:00"
+    },
+    {
+      "id": "reuters-germania-gaze",
+      "name": "Reuters — depozitele de gaze ale Germaniei",
+      "url": "https://ca.marketscreener.com/news/germany-must-do-more-to-boost-gas-reserves-as-storage-levels-hit-record-low-lobby-group-says-ce785fd8da89f127",
+      "type": "secondary",
+      "accessedAt": "2026-11-02T06:04:20+02:00"
+    },
+    {
+      "id": "fbi-binance-coreea-nord",
+      "name": "FBI — atribuirea atacului Binance",
+      "url": "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack",
+      "type": "official",
+      "accessedAt": "2026-11-02T06:04:20+02:00"
+    },
+    {
+      "id": "ap-binance",
+      "name": "Associated Press — atacul Binance și atribuirea FBI",
+      "url": "https://apnews.com/article/883f18140c1e21ce0c38781e72cbe315",
+      "type": "secondary",
+      "accessedAt": "2026-11-02T06:04:20+02:00"
     },
     {
       "id": "comisia-ue-colete",
-      "name": "Comisia Europeană — taxe pentru importurile de mică valoare",
+      "name": "Comisia Europeană — taxa temporară pentru importurile de valoare mică",
       "url": "https://taxation-customs.ec.europa.eu/news/guidance-and-legal-text-temporary-flat-fee-low-value-imports-which-will-apply-until-1-july-2028-2026-06-08_en",
       "type": "official",
-      "accessedAt": "2026-11-01T06:01:41+02:00"
+      "accessedAt": "2026-11-02T06:04:20+02:00"
     },
     {
-      "id": "ap-polonia-curte",
-      "name": "Associated Press — criza Curții Constituționale din Polonia",
-      "url": "https://apnews.com/article/0a346b1633cef7360277500a1273773f",
-      "type": "secondary",
-      "accessedAt": "2026-11-01T06:01:41+02:00"
-    },
-    {
-      "id": "ap-proteste-europa",
-      "name": "Associated Press — proteste în Franța și Germania",
-      "url": "https://apnews.com/article/362a7cb69871ab21bd894290dad639f5",
-      "type": "secondary",
-      "accessedAt": "2026-11-01T06:01:41+02:00"
-    },
-    {
-      "id": "reuters-openai-finantare",
-      "name": "Reuters — ținta rundei de finanțare OpenAI",
-      "url": "https://www.investing.com/news/economy-news/openai-cuts-funding-target-by-10-billion-ft-reports-4988969",
-      "type": "secondary",
-      "accessedAt": "2026-11-01T06:01:41+02:00"
-    },
-    {
-      "id": "oms-barbados-hiv",
-      "name": "OMS — certificarea Barbados pentru prevenția HIV",
-      "url": "https://www.who.int/singapore/news/detail-global/30-10-2026-barbados-eliminates-mother-to-child-transmission-of-hiv",
+      "id": "nasa-chapea-2",
+      "name": "NASA — finalizarea simulării CHAPEA 2",
+      "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-crew-completion-of-yearlong-mars-simulation/",
       "type": "official",
-      "accessedAt": "2026-11-01T06:01:41+02:00"
+      "accessedAt": "2026-11-02T06:04:20+02:00"
     },
     {
-      "id": "unaids-barbados",
-      "name": "UNAIDS — certificarea Barbados",
-      "url": "https://unaids.org/en/resources/presscentre/pressreleaseandstatementarchive/2026",
-      "type": "official",
-      "accessedAt": "2026-11-01T06:01:41+02:00"
-    },
-    {
-      "id": "nasa-hubble-rfi",
-      "name": "NASA — solicitare de informații pentru Hubble",
-      "url": "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
-      "type": "official",
-      "accessedAt": "2026-11-01T06:01:41+02:00"
+      "id": "reuters-chapea-2",
+      "name": "Reuters — echipajul CHAPEA 2 a ieșit după 378 de zile",
+      "url": "https://tech.yahoo.com/science/articles/crew-nasas-simulated-mars-mission-163724830.html",
+      "type": "secondary",
+      "accessedAt": "2026-11-02T06:04:20+02:00"
     }
   ]
 }
