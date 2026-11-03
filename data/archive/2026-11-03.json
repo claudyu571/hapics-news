@@ -1,0 +1,485 @@
+{
+  "metadata": {
+    "editionDate": "2026-11-03",
+    "updatedAt": "2026-11-03T06:01:32+02:00",
+    "timezone": "Europe/Bucharest",
+    "title": "Hapics News — Briefing de dimineață, 3 noiembrie 2026",
+    "status": "published",
+    "primarySource": "https://www.biziday.ro/feed/",
+    "sourceCoverage": "complete"
+  },
+  "executiveSummary": [
+    {
+      "id": "atac-frigidere-magazine-romania",
+      "text": "Șase magazine din România au avut controlerele frigorifice compromise; DNSC a indicat expunerea directă la internet și software vechi.",
+      "category": "Tehnologie"
+    },
+    {
+      "id": "piata-auto-romania-zece-luni",
+      "text": "Piața autoturismelor din România a scăzut cu 10% în primele zece luni, în timp ce înmatriculările de mașini pur electrice au crescut în octombrie.",
+      "category": "Economie"
+    },
+    {
+      "id": "romania-moldova-camioane-militare",
+      "text": "România și Republica Moldova au lansat prima achiziție comună de echipamente militare, pentru 62 de camioane IVECO finanțate prin SAFE.",
+      "category": "Securitate"
+    },
+    {
+      "id": "sua-lovituri-iran-hormuz",
+      "text": "SUA au executat lovituri limitate asupra unor ținte iraniene în Strâmtoarea Hormuz, în timp ce negocierile pentru redeschiderea rutei continuă.",
+      "category": "Extern"
+    },
+    {
+      "id": "sua-carburanti-record",
+      "text": "Benzina și motorina s-au scumpit puternic în SUA înaintea alegerilor intermediare, amplificând presiunea politică și inflaționistă.",
+      "category": "Economie"
+    },
+    {
+      "id": "etiopia-sistem-sanitar-conflict",
+      "text": "OMS avertizează că reluarea luptelor și atacurile asupra civililor împing sistemul sanitar fragil din nordul Etiopiei spre colaps.",
+      "category": "Sănătate"
+    },
+    {
+      "id": "studiu-inhibitor-tnks2-cancer",
+      "text": "Un studiu preclinic a identificat o vulnerabilitate în unele celule canceroase și a testat în laborator un inhibitor selectiv TNKS2; nu există încă tratament clinic.",
+      "category": "Știință"
+    }
+  ],
+  "importantNews": [
+    {
+      "id": "atac-frigidere-magazine-romania",
+      "title": "Controlere frigorifice din șase magazine românești au fost compromise",
+      "fact": "Directorul DNSC a declarat că echipamentele frigorifice din șase magazine din România au ajuns la temperaturi foarte ridicate în noaptea de duminică spre luni. Controlerele foloseau routere GSM cu IP fix, erau accesibile direct din internet și rulau versiuni vechi de software; DNSC a recomandat izolarea și actualizarea lor, iar incidentul nu s-a propagat în alte sisteme IT.",
+      "printSummary": "DNSC: controlere frigorifice din șase magazine, expuse direct la internet și cu software vechi, au fost compromise și izolate.",
+      "interpretation": "Incidentul arată un risc operațional concret la intersecția dintre echipamente fizice și administrarea de la distanță. Amploarea pagubelor, autorul și metoda exactă nu au fost încă stabilite public, deci cazul nu dovedește o compromitere mai largă a rețelelor comerciale.",
+      "category": "Tehnologie",
+      "impact": 5,
+      "impactLabel": "Risc cibernetic cu efect fizic în retailul alimentar",
+      "horizon": "Imediat",
+      "sourceId": "biziday-dnsc-frigidere",
+      "sourceName": "Biziday / DNSC",
+      "sourceUrl": "https://www.biziday.ro/374435-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "piata-auto-romania-zece-luni",
+      "title": "Piața auto românească a scăzut cu 10% în primele zece luni",
+      "fact": "APIA, pe baza datelor DGPCI, arată că înmatriculările de autoturisme au scăzut cu 10% în primele zece luni din 2026 față de aceeași perioadă din 2025 și cu 6% în octombrie. În octombrie, autoturismele electrificate au crescut cu 11%, iar cele pur electrice cu 46%, la 1.493 de unități.",
+      "printSummary": "APIA: piața autoturismelor a scăzut cu 10% în zece luni; în octombrie, înmatriculările de electrice pure au crescut cu 46%.",
+      "interpretation": "Datele indică o contracție a cererii totale, dar și o schimbare de structură către propulsii electrificate și mărci noi. Creșterea procentuală lunară a electricelor pornește de la o bază mai redusă și nu inversează singură declinul pieței totale.",
+      "category": "Economie",
+      "impact": 5,
+      "impactLabel": "Semnal pentru consum, importuri și industria auto",
+      "horizon": "1–3 luni",
+      "sourceId": "biziday-apia-auto",
+      "sourceName": "Biziday / APIA",
+      "sourceUrl": "https://www.biziday.ro/374415-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "romania-moldova-camioane-militare",
+      "title": "România și Moldova fac prima achiziție comună de echipamente militare",
+      "fact": "Guvernul României a anunțat că Republica Moldova va cumpăra 62 de camioane IVECO în trei configurații prin acordul-cadru românesc din 2019, într-un proiect inclus în instrumentul european SAFE. Producția, integrarea și testarea finală sunt prevăzute în România; Armata României primise 2.039 din cele 2.909 platforme contractate până la 30 octombrie.",
+      "printSummary": "Guvernul: Moldova va cumpăra 62 de camioane IVECO prin acordul României, cu producție, integrare și testare finală în țară.",
+      "interpretation": "Contractul adaugă o componentă industrială cooperării de securitate și poate susține capacitatea locală de producție. Efectul economic depinde de calendar, valoarea adăugată realizată efectiv în România și execuția finanțării SAFE.",
+      "category": "Securitate",
+      "impact": 4,
+      "impactLabel": "Cooperare regională și producție de apărare în România",
+      "horizon": "6–12 luni",
+      "sourceId": "biziday-guvern-camioane-moldova",
+      "sourceName": "Biziday / Guvernul României",
+      "sourceUrl": "https://www.biziday.ro/374378-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "furtuna-bucuresti-ilfov",
+      "title": "Vântul și ploile au produs pagube în București și Ilfov",
+      "fact": "ISU București-Ilfov a gestionat luni, între orele 10 și 18, 57 de intervenții pe durata avertizării meteo: 43 de copaci și șase elemente de construcție au căzut în București, șapte copaci în Ilfov, iar 30 de autoturisme au fost avariate. Meteorologii anticipau rafale de 50–70 km/h până miercuri dimineață.",
+      "printSummary": "ISU B-IF: 50 de copaci au căzut și 30 de mașini au fost avariate luni; rafalele de 50–70 km/h continuă până miercuri.",
+      "interpretation": "Pagubele confirmă un risc local imediat pentru deplasări și bunuri. Prognoza nu implică automat repetarea aceluiași nivel de daune, dar justifică evitarea zonelor cu arbori, panouri și elemente slab fixate.",
+      "category": "Climă",
+      "impact": 4,
+      "impactLabel": "Risc imediat pentru locuitorii din zona București-Ilfov",
+      "horizon": "Imediat",
+      "sourceId": "biziday-isu-furtuna",
+      "sourceName": "Biziday / ISU București-Ilfov",
+      "sourceUrl": "https://www.biziday.ro/374449-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "sua-lovituri-iran-hormuz",
+      "title": "SUA au lovit ținte iraniene în Strâmtoarea Hormuz",
+      "fact": "Associated Press relatează, citând un oficial american, că SUA au executat luni lovituri defensive limitate asupra unor ținte iraniene din Strâmtoarea Hormuz după folosirea de rachete sol-aer împotriva activelor americane. Iranul a prezentat separat un plan de două zile pentru redeschiderea strâmtorii și reluarea negocierilor nucleare dacă Washingtonul îi acceptă condițiile.",
+      "printSummary": "AP: SUA au executat lovituri limitate asupra unor ținte iraniene în Hormuz; Iranul propune redeschiderea strâmtorii cu condiții.",
+      "interpretation": "Loviturile ridică riscul unei escaladări care ar afecta transportul energetic global, însă caracterul limitat și continuarea medierii păstrează deschis un scenariu de dezescaladare. Planul iranian este o propunere condiționată, nu un acord și nici o redeschidere efectivă.",
+      "category": "Extern",
+      "impact": 5,
+      "impactLabel": "Risc geopolitic pentru principala rută petrolieră maritimă",
+      "horizon": "Imediat",
+      "sourceId": "ap-iran-hormuz-2-noiembrie",
+      "sourceName": "Associated Press",
+      "sourceUrl": "https://apnews.com/article/mideast-news-november-2-2026-8722c8b5a9deb228e7a188d4760ea8ed",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "sua-carburanti-record",
+      "title": "Prețurile carburanților apasă economia SUA înaintea alegerilor",
+      "fact": "O analiză Financial Times, rezumată de Biziday, indică un preț mediu curent de 4,26 dolari pe galon pentru benzină și 6,35 dolari pentru motorină în SUA. Motorina ar fi cu peste 70% mai scumpă decât la începutul celui de-al doilea mandat Trump, iar inflația anuală a ajuns la 3,6% în septembrie, înaintea alegerilor intermediare.",
+      "printSummary": "FT, citat de Biziday: benzina costă 4,26 USD/galon, motorina 6,35 USD, iar inflația anuală a fost 3,6% în septembrie.",
+      "interpretation": "Scumpirea combustibililor transmite costuri către transport și bunuri și are o miză electorală directă. Legătura cu inflația este importantă, dar prețurile energiei nu sunt singurul determinant al votului sau al indicelui general al prețurilor.",
+      "category": "Economie",
+      "impact": 5,
+      "impactLabel": "Presiune globală prin energie, inflație și politica SUA",
+      "horizon": "1–4 săptămâni",
+      "sourceId": "biziday-ft-carburanti-sua",
+      "sourceName": "Biziday / Financial Times",
+      "sourceUrl": "https://www.biziday.ro/374460-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "regatul-unit-sedere-permanenta",
+      "title": "Regatul Unit propune criterii mai stricte pentru șederea permanentă",
+      "fact": "Guvernul britanic propune ca perioada standard pentru obținerea dreptului de ședere permanentă să crească la zece ani și introduce condiții privind venitul, contribuțiile, limba engleză, cazierul și datoriile locale. Sunt prevăzute trasee de cinci ani pentru unele categorii de venit și servicii publice; regulile nu se aplică retroactiv celor care au deja statut permanent.",
+      "printSummary": "Guvernul britanic propune zece ani ca termen standard pentru ședere permanentă, cu excepții de cinci ani pentru unele categorii.",
+      "interpretation": "Dacă este adoptată, reforma ar prelungi incertitudinea pentru numeroși migranți, inclusiv români, dar efectul individual depinde de venit, ocupație și istoricul legal. Este o propunere guvernamentală, nu o regulă deja aplicabilă.",
+      "category": "Extern",
+      "impact": 4,
+      "impactLabel": "Condiții schimbate pentru diaspora și mobilitatea forței de muncă",
+      "horizon": "6–12 luni",
+      "sourceId": "uk-home-office-settlement",
+      "sourceName": "Guvernul Regatului Unit / Biziday",
+      "sourceUrl": "https://www.gov.uk/government/news/home-secretary-unveils-new-rules-for-migrants-settling-in-the-uk",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "etiopia-sistem-sanitar-conflict",
+      "title": "OMS avertizează că sistemul sanitar din nordul Etiopiei se apropie de colaps",
+      "fact": "Directorul general al OMS a declarat că atacurile din nordul Etiopiei au provocat victime civile raportate, inclusiv copii, iar spitalele duc lipsă de personal, medicamente și echipamente. AP notează că reluarea luptelor a compromis acordul de pace din 2022; bilanțurile și autorii unor atacuri nu erau precizați ori confirmați independent.",
+      "printSummary": "OMS: atacurile și lipsa personalului, medicamentelor și echipamentelor împing sistemul sanitar din nordul Etiopiei spre colaps.",
+      "interpretation": "Deteriorarea accesului medical poate transforma conflictul într-o criză umanitară mai amplă, chiar fără date complete despre victime. Incertitudinea privind autorii și bilanțurile cere separarea avertismentului sanitar confirmat de acuzațiile încă neverificate.",
+      "category": "Sănătate",
+      "impact": 4,
+      "impactLabel": "Criză umanitară cu risc de extindere regională",
+      "horizon": "Imediat",
+      "sourceId": "ap-who-etiopia-sanatate",
+      "sourceName": "Associated Press / OMS",
+      "sourceUrl": "https://apnews.com/article/ethiopia-tedros-tigray-amhara-drone-strikes-violence-70bee2b7fe23dd348c5ac8adf833332a",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "studiu-inhibitor-tnks2-cancer",
+      "title": "Un studiu preclinic testează o vulnerabilitate a unor celule canceroase",
+      "fact": "Cercetători de la Weill Cornell Medicine au raportat în Nature Chemical Biology că unele celule canceroase cu pierdere parțială sau totală a genei TNKS1 devin vulnerabile la inhibarea selectivă a enzimei TNKS2. Compusul experimental a inhibat TNKS2 de aproximativ 30 de ori mai selectiv decât TNKS1 și a redus creșterea celulelor vizate în teste de laborator.",
+      "printSummary": "Studiu preclinic: un inhibitor selectiv TNKS2 a redus în laborator creșterea unor celule canceroase cu deficit TNKS1.",
+      "interpretation": "Rezultatul oferă o ipoteză promițătoare pentru a ținti calea WNT cu mai puține efecte asupra celulelor normale, dar este o demonstrație preclinică timpurie. Compusul trebuie optimizat și testat complet înainte de eventuale studii clinice; nu este un tratament disponibil și eficacitatea la pacienți nu este cunoscută.",
+      "category": "Știință",
+      "impact": 4,
+      "impactLabel": "Țintă terapeutică posibilă, încă limitată la laborator",
+      "horizon": "6–12 luni",
+      "sourceId": "weill-cornell-tnks2",
+      "sourceName": "Weill Cornell Medicine / Nature Chemical Biology",
+      "sourceUrl": "https://news.weill.cornell.edu/news/2026/11/new-strategy-may-target-common-cancer-driver-with-minimal-side-effects",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    }
+  ],
+  "romaniaAnalysis": {
+    "factBase": [
+      "Înmatriculările de autoturisme au scăzut cu 10% în primele zece luni, în timp ce segmentul electric a crescut în octombrie.",
+      "Controlere frigorifice expuse direct la internet și cu software vechi au fost compromise în șase magazine, fără propagare raportată în alte sisteme IT.",
+      "Prima achiziție militară comună România–Republica Moldova prevede 62 de camioane și activități industriale în România.",
+      "Furtuna a avariat 30 de mașini în București și Ilfov, iar avertizarea de vânt rămâne relevantă până miercuri dimineață."
+    ],
+    "political": "Agenda internă combină securitatea cibernetică a infrastructurii comerciale cu extinderea cooperării de apărare către Republica Moldova. Credibilitatea publică depinde de transparența investigației DNSC și de transformarea promisiunii de producție locală în contracte și livrări măsurabile.",
+    "economic": "Contracția pieței auto este un semnal de prudență a consumatorilor și afectează importurile, distribuția și veniturile fiscale, chiar dacă electrificarea câștigă cotă. În paralel, șocul carburanților din SUA și tensiunea din Hormuz pot transmite presiuni asupra energiei și transportului european.",
+    "interpretation": "Pentru România, scenariul de bază este o cerere internă moderată și costuri externe volatile, nu o deteriorare uniformă. Riscurile imediate sunt cele operaționale — vreme și securitate cibernetică — iar riscul macroeconomic ar crește dacă tensiunile din Hormuz restrâng efectiv fluxurile energetice pentru mai mult timp."
+  },
+  "investmentFundSignals": [
+    {
+      "id": "consum-auto-romania",
+      "label": "Cerere de bunuri durabile în România",
+      "direction": "negativ",
+      "strength": 4,
+      "horizon": "1–3 luni",
+      "rationale": "Scăderea cu 10% a pieței auto în zece luni indică prudență a consumatorilor, deși segmentele electrificate cresc."
+    },
+    {
+      "id": "energie-hormuz",
+      "label": "Costuri energetice și de transport",
+      "direction": "negativ",
+      "strength": 5,
+      "horizon": "Imediat",
+      "rationale": "Loviturile limitate din Hormuz și prețurile record ale carburanților americani mențin riscul de ofertă și inflație ridicat."
+    },
+    {
+      "id": "securitate-cibernetica-retail",
+      "label": "Securitate cibernetică pentru infrastructură operațională",
+      "direction": "negativ",
+      "strength": 4,
+      "horizon": "1–4 săptămâni",
+      "rationale": "Incidentul frigorific arată că echipamentele conectate și neactualizate pot produce pierderi fizice fără compromiterea rețelei IT centrale."
+    },
+    {
+      "id": "industrie-aparare-romania",
+      "label": "Producție românească pentru apărare",
+      "direction": "pozitiv",
+      "strength": 3,
+      "horizon": "6–12 luni",
+      "rationale": "Achiziția comună poate susține integrarea și testarea locală, dar efectul depinde de execuția contractului și de conținutul realizat efectiv în România."
+    }
+  ],
+  "indicators": [
+    {
+      "id": "piata-auto-zece-luni",
+      "label": "Variația pieței autoturismelor din România, ianuarie–octombrie",
+      "value": -10,
+      "unit": "% an/an",
+      "referenceDate": "2026-10-31",
+      "sourceName": "APIA / DGPCI",
+      "sourceUrl": "https://www.biziday.ro/374415-2/",
+      "freshness": "current",
+      "note": "Înmatriculări în primele zece luni din 2026 comparativ cu aceeași perioadă din 2025."
+    },
+    {
+      "id": "benzina-sua",
+      "label": "Preț mediu al benzinei în SUA",
+      "value": 4.26,
+      "unit": "USD/galon",
+      "referenceDate": "2026-11-02",
+      "sourceName": "Financial Times / Biziday",
+      "sourceUrl": "https://www.biziday.ro/374460-2/",
+      "freshness": "current",
+      "note": "Valoare curentă citată de analiza FT; nu este o cotație pentru România."
+    },
+    {
+      "id": "camioane-moldova",
+      "label": "Camioane militare contractate de Republica Moldova",
+      "value": 62,
+      "unit": "unități",
+      "referenceDate": "2026-11-02",
+      "sourceName": "Guvernul României / Biziday",
+      "sourceUrl": "https://www.biziday.ro/374378-2/",
+      "freshness": "current",
+      "note": "Achiziție în trei configurații prin acordul-cadru românesc."
+    },
+    {
+      "id": "eur-ron",
+      "label": "EUR/RON",
+      "value": 5.3403,
+      "unit": "lei",
+      "referenceDate": "2026-11-02",
+      "sourceName": "BNR",
+      "sourceUrl": "https://curs.bnr.ro/nbrfxrates.xml",
+      "freshness": "current",
+      "note": "Curs de referință oficial publicat de BNR."
+    },
+    {
+      "id": "usd-ron",
+      "label": "USD/RON",
+      "value": 4.7658,
+      "unit": "lei",
+      "referenceDate": "2026-11-02",
+      "sourceName": "BNR",
+      "sourceUrl": "https://curs.bnr.ro/nbrfxrates.xml",
+      "freshness": "current",
+      "note": "Curs de referință oficial publicat de BNR."
+    },
+    {
+      "id": "bet",
+      "label": "Indice BET",
+      "value": 35086.93,
+      "unit": "puncte",
+      "referenceDate": "2026-11-03",
+      "sourceName": "BVB",
+      "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=BET",
+      "freshness": "current",
+      "note": "Indicele principal al Bursei de Valori București."
+    },
+    {
+      "id": "rotx",
+      "label": "Indice ROTX",
+      "value": 79636.6,
+      "unit": "puncte",
+      "referenceDate": "2026-11-03",
+      "sourceName": "BVB / Wiener Börse",
+      "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=ROTX",
+      "freshness": "current",
+      "note": "Indicele acțiunilor românești blue-chip, calculat de Wiener Börse."
+    },
+    {
+      "id": "robor",
+      "label": "ROBOR 3M",
+      "value": 6.09,
+      "unit": "%",
+      "referenceDate": "2026-11-02",
+      "sourceName": "BNR",
+      "sourceUrl": "https://www.bnr.ro/1074-baza-de-date-interactiva",
+      "freshness": "current",
+      "note": "Rată interbancară de referință, stabilită zilnic de BNR."
+    },
+    {
+      "id": "ircc",
+      "label": "IRCC",
+      "value": null,
+      "unit": "%",
+      "referenceDate": "2026-11-03",
+      "sourceName": "BNR",
+      "sourceUrl": "https://www.bnr.ro/",
+      "freshness": "unavailable"
+    }
+  ],
+  "riskScores": [
+    {
+      "id": "escaladare-hormuz",
+      "label": "Escaladare militară în Strâmtoarea Hormuz",
+      "score": 5,
+      "trend": "în creștere",
+      "description": "Loviturile americane confirmă contactul militar, deși negocierile și caracterul limitat al acțiunii păstrează o cale de dezescaladare."
+    },
+    {
+      "id": "costuri-energie",
+      "label": "Transmiterea costurilor energetice",
+      "score": 5,
+      "trend": "în creștere",
+      "description": "Prețurile record ale carburanților americani și riscul din Hormuz pot menține presiunea asupra transportului și inflației globale."
+    },
+    {
+      "id": "infrastructura-conectata",
+      "label": "Compromiterea echipamentelor conectate",
+      "score": 4,
+      "trend": "în creștere",
+      "description": "Incidentul coordonat în mai multe state arată expunerea controlerelor industriale vechi accesibile direct din internet."
+    },
+    {
+      "id": "cerere-interna",
+      "label": "Slăbirea consumului de bunuri durabile",
+      "score": 3,
+      "trend": "stabil",
+      "description": "Declinul pieței auto sugerează prudență, dar creșterea segmentelor electrificate arată o schimbare de structură, nu blocaj general."
+    }
+  ],
+  "watchlist": [
+    {
+      "id": "hormuz-negocieri",
+      "title": "Negocierile pentru redeschiderea Strâmtorii Hormuz",
+      "why": "O redeschidere efectivă ar reduce riscul pentru transportul petrolier, iar eșecul discuțiilor ar putea extinde loviturile.",
+      "trigger": "Acord public SUA–Iran sau confirmarea reluării traficului pe ruta negociată",
+      "status": "în așteptare",
+      "sourceUrl": "https://apnews.com/article/mideast-news-november-2-2026-8722c8b5a9deb228e7a188d4760ea8ed"
+    },
+    {
+      "id": "dnsc-investigatie-frigidere",
+      "title": "Investigația atacului asupra controlerelor frigorifice",
+      "why": "Autorul, vectorul exact și pagubele nu sunt încă publice, iar amploarea expunerii altor echipamente rămâne necunoscută.",
+      "trigger": "Raport tehnic DNSC sau notificări suplimentare ale retailerilor și producătorilor",
+      "status": "în așteptare",
+      "sourceUrl": "https://www.biziday.ro/374435-2/"
+    },
+    {
+      "id": "reguli-sedere-uk",
+      "title": "Adoptarea reformei britanice pentru ședere permanentă",
+      "why": "Forma finală și tranziția vor determina impactul concret asupra românilor care locuiesc și lucrează în Regatul Unit.",
+      "trigger": "Publicarea legislației finale și a datei de intrare în vigoare",
+      "status": "în așteptare",
+      "sourceUrl": "https://www.gov.uk/government/news/home-secretary-unveils-new-rules-for-migrants-settling-in-the-uk"
+    },
+    {
+      "id": "tnks2-validare-preclinica",
+      "title": "Validarea inhibitorului selectiv TNKS2",
+      "why": "Rezultatul este limitat la teste timpurii de laborator și nu stabilește siguranța sau eficacitatea la oameni.",
+      "trigger": "Studii preclinice complete, reproducere independentă sau înregistrarea unui studiu clinic",
+      "status": "în așteptare",
+      "sourceUrl": "https://news.weill.cornell.edu/news/2026/11/new-strategy-may-target-common-cancer-driver-with-minimal-side-effects"
+    }
+  ],
+  "conclusion": {
+    "title": "Riscuri imediate, cerere internă prudentă",
+    "body": "Dimineața aduce României riscuri operaționale concrete — vreme severă și echipamente comerciale compromise — pe fondul unei piețe auto în scădere. Extern, Hormuz rămâne variabila dominantă pentru energie: loviturile sunt confirmate, dar negocierile continuă, astfel că escaladarea și dezescaladarea rămân ambele scenarii plauzibile.",
+    "actionPoints": [
+      "Urmărește alertele meteo și actualizările ISU pentru București-Ilfov.",
+      "Separă redeschiderea efectivă a Hormuzului de simpla propunere negociată.",
+      "Caută raportul tehnic DNSC înainte de a extinde concluziile despre atac.",
+      "Tratează studiul TNKS2 drept rezultat preclinic, nu tratament disponibil."
+    ]
+  },
+  "sources": [
+    {
+      "id": "biziday-rss",
+      "name": "Biziday RSS",
+      "url": "https://www.biziday.ro/feed/",
+      "type": "primary",
+      "accessedAt": "2026-11-03T05:58:32+02:00"
+    },
+    {
+      "id": "biziday-dnsc-frigidere",
+      "name": "Biziday — incidentul controlerelor frigorifice",
+      "url": "https://www.biziday.ro/374435-2/",
+      "type": "secondary",
+      "accessedAt": "2026-11-03T06:04:00+02:00"
+    },
+    {
+      "id": "biziday-apia-auto",
+      "name": "Biziday — date APIA privind piața auto",
+      "url": "https://www.biziday.ro/374415-2/",
+      "type": "secondary",
+      "accessedAt": "2026-11-03T06:04:00+02:00"
+    },
+    {
+      "id": "biziday-guvern-camioane-moldova",
+      "name": "Biziday — achiziția comună România–Moldova",
+      "url": "https://www.biziday.ro/374378-2/",
+      "type": "secondary",
+      "accessedAt": "2026-11-03T06:04:00+02:00"
+    },
+    {
+      "id": "biziday-isu-furtuna",
+      "name": "Biziday — intervențiile ISU București-Ilfov",
+      "url": "https://www.biziday.ro/374449-2/",
+      "type": "secondary",
+      "accessedAt": "2026-11-03T06:04:00+02:00"
+    },
+    {
+      "id": "ap-iran-hormuz-2-noiembrie",
+      "name": "Associated Press — Iran și Strâmtoarea Hormuz",
+      "url": "https://apnews.com/article/mideast-news-november-2-2026-8722c8b5a9deb228e7a188d4760ea8ed",
+      "type": "secondary",
+      "accessedAt": "2026-11-03T06:07:00+02:00"
+    },
+    {
+      "id": "biziday-ft-carburanti-sua",
+      "name": "Biziday — analiza FT despre carburanții din SUA",
+      "url": "https://www.biziday.ro/374460-2/",
+      "type": "secondary",
+      "accessedAt": "2026-11-03T06:04:00+02:00"
+    },
+    {
+      "id": "uk-home-office-settlement",
+      "name": "Guvernul Regatului Unit — reforma șederii permanente",
+      "url": "https://www.gov.uk/government/news/home-secretary-unveils-new-rules-for-migrants-settling-in-the-uk",
+      "type": "official",
+      "accessedAt": "2026-11-03T06:04:00+02:00"
+    },
+    {
+      "id": "ap-who-etiopia-sanatate",
+      "name": "Associated Press — avertismentul OMS pentru Etiopia",
+      "url": "https://apnews.com/article/ethiopia-tedros-tigray-amhara-drone-strikes-violence-70bee2b7fe23dd348c5ac8adf833332a",
+      "type": "secondary",
+      "accessedAt": "2026-11-03T06:07:00+02:00"
+    },
+    {
+      "id": "weill-cornell-tnks2",
+      "name": "Weill Cornell Medicine — studiul inhibitorului TNKS2",
+      "url": "https://news.weill.cornell.edu/news/2026/11/new-strategy-may-target-common-cancer-driver-with-minimal-side-effects",
+      "type": "primary",
+      "accessedAt": "2026-11-03T06:08:00+02:00"
+    }
+  ]
+}

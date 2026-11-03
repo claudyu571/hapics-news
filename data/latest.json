@@ -1,254 +1,281 @@
 {
   "metadata": {
-    "editionDate": "2026-11-02",
-    "updatedAt": "2026-11-02T06:05:38+02:00",
+    "editionDate": "2026-11-03",
+    "updatedAt": "2026-11-03T06:01:32+02:00",
     "timezone": "Europe/Bucharest",
-    "title": "Hapics News — Briefing de dimineață, 2 noiembrie 2026",
+    "title": "Hapics News — Briefing de dimineață, 3 noiembrie 2026",
     "status": "published",
     "primarySource": "https://www.biziday.ro/feed/",
     "sourceCoverage": "complete"
   },
   "executiveSummary": [
     {
-      "id": "drone-spatiu-aerian-romania",
-      "text": "MApN a confirmat două pătrunderi neautorizate ale unor drone în nord-estul României; originea și soarta uneia dintre ele nu erau încă precizate.",
-      "category": "Securitate"
-    },
-    {
-      "id": "masuri-carburanti-prelungite",
-      "text": "Măsurile temporare pentru carburanți, inclusiv acciza redusă la motorină și limitarea adaosului comercial, sunt prelungite până la 31 ianuarie.",
-      "category": "Energie"
-    },
-    {
-      "id": "bulgaria-alegeri-prezidentiale",
-      "text": "Iliana Iotova conduce detașat numărătoarea inițială în scrutinul prezidențial bulgar, iar contracandidatul Andrey Gyurov și-a recunoscut înfrângerea.",
-      "category": "Extern"
-    },
-    {
-      "id": "ucraina-rusia-infrastructura-energie",
-      "text": "Atacurile reciproce au afectat alimentarea cu electricitate în Ucraina și un obiectiv industrial din regiunea rusă Nijni Novgorod.",
-      "category": "Extern"
-    },
-    {
-      "id": "germania-rezerve-gaze",
-      "text": "Depozitele de gaze ale Germaniei erau umplute la 61,35% la 30 octombrie, sub ținta de 80% invocată pentru începutul lui noiembrie.",
-      "category": "Energie"
-    },
-    {
-      "id": "fbi-binance-coreea-de-nord",
-      "text": "FBI atribuie grupului nord-coreean TraderTraitor furtul a peste șase miliarde de dolari în active virtuale de la Binance.",
+      "id": "atac-frigidere-magazine-romania",
+      "text": "Șase magazine din România au avut controlerele frigorifice compromise; DNSC a indicat expunerea directă la internet și software vechi.",
       "category": "Tehnologie"
     },
     {
-      "id": "nasa-chapea-misiune-analog",
-      "text": "Patru voluntari au încheiat simularea terestră CHAPEA a NASA după 378 de zile; datele urmează să sprijine cercetarea riscurilor zborului uman.",
-      "category": "Spațiu"
+      "id": "piata-auto-romania-zece-luni",
+      "text": "Piața autoturismelor din România a scăzut cu 10% în primele zece luni, în timp ce înmatriculările de mașini pur electrice au crescut în octombrie.",
+      "category": "Economie"
+    },
+    {
+      "id": "romania-moldova-camioane-militare",
+      "text": "România și Republica Moldova au lansat prima achiziție comună de echipamente militare, pentru 62 de camioane IVECO finanțate prin SAFE.",
+      "category": "Securitate"
+    },
+    {
+      "id": "sua-lovituri-iran-hormuz",
+      "text": "SUA au executat lovituri limitate asupra unor ținte iraniene în Strâmtoarea Hormuz, în timp ce negocierile pentru redeschiderea rutei continuă.",
+      "category": "Extern"
+    },
+    {
+      "id": "sua-carburanti-record",
+      "text": "Benzina și motorina s-au scumpit puternic în SUA înaintea alegerilor intermediare, amplificând presiunea politică și inflaționistă.",
+      "category": "Economie"
+    },
+    {
+      "id": "etiopia-sistem-sanitar-conflict",
+      "text": "OMS avertizează că reluarea luptelor și atacurile asupra civililor împing sistemul sanitar fragil din nordul Etiopiei spre colaps.",
+      "category": "Sănătate"
+    },
+    {
+      "id": "studiu-inhibitor-tnks2-cancer",
+      "text": "Un studiu preclinic a identificat o vulnerabilitate în unele celule canceroase și a testat în laborator un inhibitor selectiv TNKS2; nu există încă tratament clinic.",
+      "category": "Știință"
     }
   ],
   "importantNews": [
     {
-      "id": "drone-spatiu-aerian-romania",
-      "title": "Două drone au pătruns neautorizat în spațiul aerian românesc",
-      "fact": "MApN a comunicat că sistemele radar au detectat sâmbătă seara două drone intrate neautorizat în nord-estul României. Patru avioane F-16 și un elicopter IAR-330 SOCAT au fost ridicate, iar populația din șase județe a fost alertată. Una dintre drone a ieșit din spațiul național; ultima poziție raportată pentru cealaltă a fost între Vaslui și Bacău, fără prăbușiri confirmate până la încetarea alertei.",
-      "printSummary": "MApN: două drone au intrat neautorizat în nord-estul României; nu au fost confirmate prăbușiri până la încetarea alertei.",
-      "interpretation": "Incidentul rămâne o încălcare confirmată a spațiului aerian și menține presiunea asupra poliției aeriene. Originea, tipul și traseul final al celei de-a doua drone nu pot fi atribuite în lipsa unei actualizări oficiale.",
-      "category": "Securitate",
-      "impact": 5,
-      "impactLabel": "Încălcare confirmată a spațiului aerian național",
-      "horizon": "Imediat",
-      "sourceId": "mapn-drone-31-oct",
-      "sourceName": "Ministerul Apărării Naționale",
-      "sourceUrl": "https://www.mapn.ro/cpresa/19461_Comunicat-de-pres%C4%83",
-      "isSecondary": true,
-      "confidence": "confirmed"
-    },
-    {
-      "id": "masuri-carburanti-prelungite",
-      "title": "Măsurile temporare pentru carburanți sunt prelungite până la 31 ianuarie",
-      "fact": "Guvernul a prelungit pentru intervalul 1 noiembrie 2026–31 ianuarie 2027 situația de criză pe piața țițeiului și produselor petroliere și măsurile aferente, între care diminuarea accizei la motorină și limitarea adaosului comercial la carburanți, potrivit relatării Biziday despre decizia Executivului.",
-      "printSummary": "Biziday: acciza redusă la motorină și limitarea adaosului comercial la carburanți sunt prelungite până la 31 ianuarie.",
-      "interpretation": "Măsurile pot amortiza pe termen scurt transmiterea costurilor către consumatori și transport, dar efectul asupra prețului final și costul bugetar trebuie măsurate din date, nu deduse din intenția anunțată.",
-      "category": "Energie",
-      "impact": 5,
-      "impactLabel": "Costuri directe pentru gospodării și transport",
-      "horizon": "1–3 luni",
-      "sourceId": "biziday-carburanti",
-      "sourceName": "Biziday",
-      "sourceUrl": "https://www.biziday.ro/374161-2/",
-      "isSecondary": true,
-      "confidence": "confirmed"
-    },
-    {
-      "id": "bulgaria-alegeri-prezidentiale",
-      "title": "Iliana Iotova conduce numărătoarea inițială a prezidențialelor din Bulgaria",
-      "fact": "Associated Press relatează că numărătorile inițiale ale mai multor agenții îi atribuiau Ilianei Iotova aproximativ 58% din voturi în turul al doilea al alegerilor prezidențiale din Bulgaria, față de circa 38% pentru Andrey Gyurov, care și-a recunoscut înfrângerea. Rezultatele oficiale erau așteptate luni.",
-      "printSummary": "AP: Iotova conducea cu aproximativ 58% în numărătorile inițiale din Bulgaria; rezultatele oficiale erau așteptate luni.",
-      "interpretation": "Dacă rezultatul este confirmat, Iotova va deveni prima femeie aleasă președinte al Bulgariei. Funcția este în principal ceremonială, dar votul consolidează autoritatea politică a unei candidate susținute de partidul premierului Rumen Radev, cu implicații pentru tonul Sofiei față de Rusia și Ucraina.",
-      "category": "Extern",
-      "impact": 5,
-      "impactLabel": "Direcție politică într-un stat vecin și membru UE",
-      "horizon": "1–4 săptămâni",
-      "sourceId": "ap-bulgaria-prezidentiale",
-      "sourceName": "Associated Press",
-      "sourceUrl": "https://apnews.com/article/cc540e5540a7a268da15aa72c5ec033e",
-      "isSecondary": true,
-      "confidence": "confirmed"
-    },
-    {
-      "id": "ucraina-rusia-infrastructura-energie",
-      "title": "Atacurile reciproce afectează infrastructura energetică din Ucraina și Rusia",
-      "fact": "Reuters relatează că loviturile rusești au lăsat sute de mii de consumatori ucraineni fără electricitate, potrivit președintelui Volodimir Zelenski, iar autoritățile ruse au raportat avarii majore la un obiectiv industrial după atacuri ucrainene cu drone în regiunea Nijni Novgorod, unde se află rafinăria NORSI.",
-      "printSummary": "Reuters: atacurile au întrerupt curentul pentru sute de mii de ucraineni și au avariat un obiectiv industrial din Rusia.",
-      "interpretation": "Ambele părți continuă să vizeze infrastructura cu rol economic și militar, mărind riscul pentru alimentarea cu energie înaintea iernii. Întinderea pagubelor la rafinăria rusă nu era confirmată independent în relatarea inițială.",
-      "category": "Extern",
-      "impact": 5,
-      "impactLabel": "Presiune energetică și militară înaintea iernii",
-      "horizon": "Imediat",
-      "sourceId": "reuters-ucraina-rusia-energie",
-      "sourceName": "Reuters",
-      "sourceUrl": "https://www.marketscreener.com/news/russian-strikes-cut-power-to-thousands-in-ukraine-as-drones-damage-russian-facility-ce785fd8da80f225",
-      "isSecondary": true,
-      "confidence": "confirmed"
-    },
-    {
-      "id": "germania-rezerve-gaze",
-      "title": "Germania intră în sezonul rece cu depozitele de gaze sub țintă",
-      "fact": "Reuters relatează că depozitele de gaze ale Germaniei erau umplute la 61,35% la 30 octombrie, sub ținta de 80% indicată pentru 1 noiembrie. Asociația operatorilor de depozite INES a cerut revizuirea mecanismului de umplere, în timp ce guvernul german a spus că nu anticipează blocaje de aprovizionare.",
-      "printSummary": "Reuters: depozitele de gaze ale Germaniei erau la 61,35%, sub țintă; Berlinul nu anticipa blocaje de aprovizionare.",
-      "interpretation": "Nivelul redus crește sensibilitatea prețurilor europene la o iarnă rece sau la întreruperi de ofertă, fără să însemne automat penurie. Pentru România, riscul relevant este transmiterea prin piața regională a gazelor și electricității.",
-      "category": "Energie",
-      "impact": 5,
-      "impactLabel": "Risc de preț pentru energia europeană",
-      "horizon": "1–3 luni",
-      "sourceId": "reuters-germania-gaze",
-      "sourceName": "Reuters / INES",
-      "sourceUrl": "https://ca.marketscreener.com/news/germany-must-do-more-to-boost-gas-reserves-as-storage-levels-hit-record-low-lobby-group-says-ce785fd8da89f127",
-      "isSecondary": true,
-      "confidence": "confirmed"
-    },
-    {
-      "id": "fbi-binance-coreea-de-nord",
-      "title": "FBI atribuie Coreei de Nord furtul de peste șase miliarde de dolari de la Binance",
-      "fact": "FBI a anunțat că activitatea nord-coreeană denumită TraderTraitor este responsabilă pentru furtul a peste șase miliarde de dolari în active virtuale de la Binance, produs în jurul datei de 29 octombrie. Agenția spune că actorii convertesc activele în principal în ether și a cerut serviciilor cripto să blocheze tranzacțiile legate de adresele publicate.",
-      "printSummary": "FBI atribuie grupului nord-coreean TraderTraitor furtul a peste 6 miliarde USD în active virtuale de la Binance.",
-      "interpretation": "Atribuirea oficială transformă incidentul dintr-o suspiciune privată într-un caz de securitate cibernetică statală. Recuperarea fondurilor și impactul asupra clienților rămân distincte de valoarea brută furată și trebuie urmărite separat.",
+      "id": "atac-frigidere-magazine-romania",
+      "title": "Controlere frigorifice din șase magazine românești au fost compromise",
+      "fact": "Directorul DNSC a declarat că echipamentele frigorifice din șase magazine din România au ajuns la temperaturi foarte ridicate în noaptea de duminică spre luni. Controlerele foloseau routere GSM cu IP fix, erau accesibile direct din internet și rulau versiuni vechi de software; DNSC a recomandat izolarea și actualizarea lor, iar incidentul nu s-a propagat în alte sisteme IT.",
+      "printSummary": "DNSC: controlere frigorifice din șase magazine, expuse direct la internet și cu software vechi, au fost compromise și izolate.",
+      "interpretation": "Incidentul arată un risc operațional concret la intersecția dintre echipamente fizice și administrarea de la distanță. Amploarea pagubelor, autorul și metoda exactă nu au fost încă stabilite public, deci cazul nu dovedește o compromitere mai largă a rețelelor comerciale.",
       "category": "Tehnologie",
       "impact": 5,
-      "impactLabel": "Cel mai mare furt cripto atribuit oficial",
+      "impactLabel": "Risc cibernetic cu efect fizic în retailul alimentar",
       "horizon": "Imediat",
-      "sourceId": "fbi-binance-coreea-nord",
-      "sourceName": "Federal Bureau of Investigation",
-      "sourceUrl": "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack",
+      "sourceId": "biziday-dnsc-frigidere",
+      "sourceName": "Biziday / DNSC",
+      "sourceUrl": "https://www.biziday.ro/374435-2/",
       "isSecondary": true,
       "confidence": "confirmed"
     },
     {
-      "id": "taxa-procesare-colete-ue",
-      "title": "Taxa UE de procesare a coletelor extracomunitare începe să se aplice",
-      "fact": "De la 1 noiembrie, statele membre trebuie să colecteze o taxă europeană de procesare pentru vânzările la distanță importate, distinctă de taxa vamală de trei euro pe articol aplicată din iulie. Comisia Europeană precizează că taxa acoperă costurile autorităților vamale, iar cuantumul urmează să fie stabilit și revizuit periodic.",
-      "printSummary": "Comisia Europeană: taxa de procesare a coletelor extracomunitare se aplică din noiembrie și diferă de taxa vamală de 3 euro.",
-      "interpretation": "Măsura crește costul administrativ al comerțului electronic extracomunitar și poate reduce avantajul platformelor cu volume mari de colete mici. Impactul pentru cumpărători depinde de cuantum și de transferarea costului de către comercianți.",
+      "id": "piata-auto-romania-zece-luni",
+      "title": "Piața auto românească a scăzut cu 10% în primele zece luni",
+      "fact": "APIA, pe baza datelor DGPCI, arată că înmatriculările de autoturisme au scăzut cu 10% în primele zece luni din 2026 față de aceeași perioadă din 2025 și cu 6% în octombrie. În octombrie, autoturismele electrificate au crescut cu 11%, iar cele pur electrice cu 46%, la 1.493 de unități.",
+      "printSummary": "APIA: piața autoturismelor a scăzut cu 10% în zece luni; în octombrie, înmatriculările de electrice pure au crescut cu 46%.",
+      "interpretation": "Datele indică o contracție a cererii totale, dar și o schimbare de structură către propulsii electrificate și mărci noi. Creșterea procentuală lunară a electricelor pornește de la o bază mai redusă și nu inversează singură declinul pieței totale.",
       "category": "Economie",
-      "impact": 4,
-      "impactLabel": "Costuri și concurență în comerțul electronic",
-      "horizon": "Imediat",
-      "sourceId": "comisia-ue-colete",
-      "sourceName": "Comisia Europeană",
-      "sourceUrl": "https://taxation-customs.ec.europa.eu/news/guidance-and-legal-text-temporary-flat-fee-low-value-imports-which-will-apply-until-1-july-2028-2026-06-08_en",
+      "impact": 5,
+      "impactLabel": "Semnal pentru consum, importuri și industria auto",
+      "horizon": "1–3 luni",
+      "sourceId": "biziday-apia-auto",
+      "sourceName": "Biziday / APIA",
+      "sourceUrl": "https://www.biziday.ro/374415-2/",
       "isSecondary": true,
       "confidence": "confirmed"
     },
     {
-      "id": "nasa-chapea-misiune-analog",
-      "title": "A doua simulare NASA de un an pentru viața pe Marte s-a încheiat",
-      "fact": "Cei patru voluntari ai misiunii analog CHAPEA 2 au ieșit sâmbătă din habitatul NASA de la Johnson Space Center după 378 de zile de izolare, relatează Reuters. NASA precizează că echipajul a testat operațiuni simulate, întârzieri de comunicații, resurse limitate și activități extravehiculare într-un habitat terestru imprimat 3D.",
-      "printSummary": "Reuters și NASA: patru voluntari au încheiat după 378 de zile simularea terestră CHAPEA 2 într-un habitat imprimat 3D.",
-      "interpretation": "Este finalizarea unei demonstrații de cercetare pe Pământ, nu o misiune pe Marte și nici validarea unui zbor cu echipaj. Semnificația depinde de analiza ulterioară a datelor despre sănătate, performanță, hrană și utilizarea resurselor.",
-      "category": "Spațiu",
+      "id": "romania-moldova-camioane-militare",
+      "title": "România și Moldova fac prima achiziție comună de echipamente militare",
+      "fact": "Guvernul României a anunțat că Republica Moldova va cumpăra 62 de camioane IVECO în trei configurații prin acordul-cadru românesc din 2019, într-un proiect inclus în instrumentul european SAFE. Producția, integrarea și testarea finală sunt prevăzute în România; Armata României primise 2.039 din cele 2.909 platforme contractate până la 30 octombrie.",
+      "printSummary": "Guvernul: Moldova va cumpăra 62 de camioane IVECO prin acordul României, cu producție, integrare și testare finală în țară.",
+      "interpretation": "Contractul adaugă o componentă industrială cooperării de securitate și poate susține capacitatea locală de producție. Efectul economic depinde de calendar, valoarea adăugată realizată efectiv în România și execuția finanțării SAFE.",
+      "category": "Securitate",
       "impact": 4,
-      "impactLabel": "Date pentru reducerea riscurilor zborului uman de lungă durată",
+      "impactLabel": "Cooperare regională și producție de apărare în România",
       "horizon": "6–12 luni",
-      "sourceId": "nasa-chapea-2",
-      "sourceName": "NASA / Reuters",
-      "sourceUrl": "https://www.nasa.gov/news-release/nasa-invites-media-to-crew-completion-of-yearlong-mars-simulation/",
+      "sourceId": "biziday-guvern-camioane-moldova",
+      "sourceName": "Biziday / Guvernul României",
+      "sourceUrl": "https://www.biziday.ro/374378-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "furtuna-bucuresti-ilfov",
+      "title": "Vântul și ploile au produs pagube în București și Ilfov",
+      "fact": "ISU București-Ilfov a gestionat luni, între orele 10 și 18, 57 de intervenții pe durata avertizării meteo: 43 de copaci și șase elemente de construcție au căzut în București, șapte copaci în Ilfov, iar 30 de autoturisme au fost avariate. Meteorologii anticipau rafale de 50–70 km/h până miercuri dimineață.",
+      "printSummary": "ISU B-IF: 50 de copaci au căzut și 30 de mașini au fost avariate luni; rafalele de 50–70 km/h continuă până miercuri.",
+      "interpretation": "Pagubele confirmă un risc local imediat pentru deplasări și bunuri. Prognoza nu implică automat repetarea aceluiași nivel de daune, dar justifică evitarea zonelor cu arbori, panouri și elemente slab fixate.",
+      "category": "Climă",
+      "impact": 4,
+      "impactLabel": "Risc imediat pentru locuitorii din zona București-Ilfov",
+      "horizon": "Imediat",
+      "sourceId": "biziday-isu-furtuna",
+      "sourceName": "Biziday / ISU București-Ilfov",
+      "sourceUrl": "https://www.biziday.ro/374449-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "sua-lovituri-iran-hormuz",
+      "title": "SUA au lovit ținte iraniene în Strâmtoarea Hormuz",
+      "fact": "Associated Press relatează, citând un oficial american, că SUA au executat luni lovituri defensive limitate asupra unor ținte iraniene din Strâmtoarea Hormuz după folosirea de rachete sol-aer împotriva activelor americane. Iranul a prezentat separat un plan de două zile pentru redeschiderea strâmtorii și reluarea negocierilor nucleare dacă Washingtonul îi acceptă condițiile.",
+      "printSummary": "AP: SUA au executat lovituri limitate asupra unor ținte iraniene în Hormuz; Iranul propune redeschiderea strâmtorii cu condiții.",
+      "interpretation": "Loviturile ridică riscul unei escaladări care ar afecta transportul energetic global, însă caracterul limitat și continuarea medierii păstrează deschis un scenariu de dezescaladare. Planul iranian este o propunere condiționată, nu un acord și nici o redeschidere efectivă.",
+      "category": "Extern",
+      "impact": 5,
+      "impactLabel": "Risc geopolitic pentru principala rută petrolieră maritimă",
+      "horizon": "Imediat",
+      "sourceId": "ap-iran-hormuz-2-noiembrie",
+      "sourceName": "Associated Press",
+      "sourceUrl": "https://apnews.com/article/mideast-news-november-2-2026-8722c8b5a9deb228e7a188d4760ea8ed",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "sua-carburanti-record",
+      "title": "Prețurile carburanților apasă economia SUA înaintea alegerilor",
+      "fact": "O analiză Financial Times, rezumată de Biziday, indică un preț mediu curent de 4,26 dolari pe galon pentru benzină și 6,35 dolari pentru motorină în SUA. Motorina ar fi cu peste 70% mai scumpă decât la începutul celui de-al doilea mandat Trump, iar inflația anuală a ajuns la 3,6% în septembrie, înaintea alegerilor intermediare.",
+      "printSummary": "FT, citat de Biziday: benzina costă 4,26 USD/galon, motorina 6,35 USD, iar inflația anuală a fost 3,6% în septembrie.",
+      "interpretation": "Scumpirea combustibililor transmite costuri către transport și bunuri și are o miză electorală directă. Legătura cu inflația este importantă, dar prețurile energiei nu sunt singurul determinant al votului sau al indicelui general al prețurilor.",
+      "category": "Economie",
+      "impact": 5,
+      "impactLabel": "Presiune globală prin energie, inflație și politica SUA",
+      "horizon": "1–4 săptămâni",
+      "sourceId": "biziday-ft-carburanti-sua",
+      "sourceName": "Biziday / Financial Times",
+      "sourceUrl": "https://www.biziday.ro/374460-2/",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "regatul-unit-sedere-permanenta",
+      "title": "Regatul Unit propune criterii mai stricte pentru șederea permanentă",
+      "fact": "Guvernul britanic propune ca perioada standard pentru obținerea dreptului de ședere permanentă să crească la zece ani și introduce condiții privind venitul, contribuțiile, limba engleză, cazierul și datoriile locale. Sunt prevăzute trasee de cinci ani pentru unele categorii de venit și servicii publice; regulile nu se aplică retroactiv celor care au deja statut permanent.",
+      "printSummary": "Guvernul britanic propune zece ani ca termen standard pentru ședere permanentă, cu excepții de cinci ani pentru unele categorii.",
+      "interpretation": "Dacă este adoptată, reforma ar prelungi incertitudinea pentru numeroși migranți, inclusiv români, dar efectul individual depinde de venit, ocupație și istoricul legal. Este o propunere guvernamentală, nu o regulă deja aplicabilă.",
+      "category": "Extern",
+      "impact": 4,
+      "impactLabel": "Condiții schimbate pentru diaspora și mobilitatea forței de muncă",
+      "horizon": "6–12 luni",
+      "sourceId": "uk-home-office-settlement",
+      "sourceName": "Guvernul Regatului Unit / Biziday",
+      "sourceUrl": "https://www.gov.uk/government/news/home-secretary-unveils-new-rules-for-migrants-settling-in-the-uk",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "etiopia-sistem-sanitar-conflict",
+      "title": "OMS avertizează că sistemul sanitar din nordul Etiopiei se apropie de colaps",
+      "fact": "Directorul general al OMS a declarat că atacurile din nordul Etiopiei au provocat victime civile raportate, inclusiv copii, iar spitalele duc lipsă de personal, medicamente și echipamente. AP notează că reluarea luptelor a compromis acordul de pace din 2022; bilanțurile și autorii unor atacuri nu erau precizați ori confirmați independent.",
+      "printSummary": "OMS: atacurile și lipsa personalului, medicamentelor și echipamentelor împing sistemul sanitar din nordul Etiopiei spre colaps.",
+      "interpretation": "Deteriorarea accesului medical poate transforma conflictul într-o criză umanitară mai amplă, chiar fără date complete despre victime. Incertitudinea privind autorii și bilanțurile cere separarea avertismentului sanitar confirmat de acuzațiile încă neverificate.",
+      "category": "Sănătate",
+      "impact": 4,
+      "impactLabel": "Criză umanitară cu risc de extindere regională",
+      "horizon": "Imediat",
+      "sourceId": "ap-who-etiopia-sanatate",
+      "sourceName": "Associated Press / OMS",
+      "sourceUrl": "https://apnews.com/article/ethiopia-tedros-tigray-amhara-drone-strikes-violence-70bee2b7fe23dd348c5ac8adf833332a",
+      "isSecondary": true,
+      "confidence": "confirmed"
+    },
+    {
+      "id": "studiu-inhibitor-tnks2-cancer",
+      "title": "Un studiu preclinic testează o vulnerabilitate a unor celule canceroase",
+      "fact": "Cercetători de la Weill Cornell Medicine au raportat în Nature Chemical Biology că unele celule canceroase cu pierdere parțială sau totală a genei TNKS1 devin vulnerabile la inhibarea selectivă a enzimei TNKS2. Compusul experimental a inhibat TNKS2 de aproximativ 30 de ori mai selectiv decât TNKS1 și a redus creșterea celulelor vizate în teste de laborator.",
+      "printSummary": "Studiu preclinic: un inhibitor selectiv TNKS2 a redus în laborator creșterea unor celule canceroase cu deficit TNKS1.",
+      "interpretation": "Rezultatul oferă o ipoteză promițătoare pentru a ținti calea WNT cu mai puține efecte asupra celulelor normale, dar este o demonstrație preclinică timpurie. Compusul trebuie optimizat și testat complet înainte de eventuale studii clinice; nu este un tratament disponibil și eficacitatea la pacienți nu este cunoscută.",
+      "category": "Știință",
+      "impact": 4,
+      "impactLabel": "Țintă terapeutică posibilă, încă limitată la laborator",
+      "horizon": "6–12 luni",
+      "sourceId": "weill-cornell-tnks2",
+      "sourceName": "Weill Cornell Medicine / Nature Chemical Biology",
+      "sourceUrl": "https://news.weill.cornell.edu/news/2026/11/new-strategy-may-target-common-cancer-driver-with-minimal-side-effects",
       "isSecondary": true,
       "confidence": "confirmed"
     }
   ],
   "romaniaAnalysis": {
     "factBase": [
-      "MApN a confirmat două pătrunderi neautorizate ale unor drone și activarea poliției aeriene și a alertelor pentru populație în șase județe.",
-      "Măsurile temporare privind motorina și adaosul comercial la carburanți sunt prelungite până la 31 ianuarie 2027.",
-      "Depozitele de gaze ale Germaniei sunt mult sub ținta indicată la începutul sezonului rece, iar prețurile europene rămân sensibile la vreme și ofertă.",
-      "Taxa europeană de procesare a coletelor extracomunitare a intrat în aplicare de la 1 noiembrie."
+      "Înmatriculările de autoturisme au scăzut cu 10% în primele zece luni, în timp ce segmentul electric a crescut în octombrie.",
+      "Controlere frigorifice expuse direct la internet și cu software vechi au fost compromise în șase magazine, fără propagare raportată în alte sisteme IT.",
+      "Prima achiziție militară comună România–Republica Moldova prevede 62 de camioane și activități industriale în România.",
+      "Furtuna a avariat 30 de mașini în București și Ilfov, iar avertizarea de vânt rămâne relevantă până miercuri dimineață."
     ],
-    "political": "Securitatea aeriană rămâne tema internă imediată, iar credibilitatea instituțională depinde de actualizări oficiale clare despre identificarea și traseul dronelor. În paralel, prelungirea intervenției pe carburanți arată că Executivul tratează presiunea prețurilor drept persistentă, dar încă temporară.",
-    "economic": "România este expusă simultan costurilor carburanților și unei piețe europene a gazelor care intră în iarnă cu rezerve germane reduse. Măsurile interne pot amortiza șocul pe termen scurt, însă nu elimină riscul regional și pot avea cost bugetar; taxa pe colete schimbă marginal structura costurilor în retail.",
-    "interpretation": "Riscul principal pentru următoarele săptămâni este suprapunerea unei tensiuni de securitate cu volatilitatea energiei. Scenariul de bază nu presupune penurie, dar o iarnă rece ori o nouă întrerupere de ofertă ar crește probabilitatea transmiterii rapide în prețuri, în timp ce sprijinul fiscal limitează doar parțial efectul."
+    "political": "Agenda internă combină securitatea cibernetică a infrastructurii comerciale cu extinderea cooperării de apărare către Republica Moldova. Credibilitatea publică depinde de transparența investigației DNSC și de transformarea promisiunii de producție locală în contracte și livrări măsurabile.",
+    "economic": "Contracția pieței auto este un semnal de prudență a consumatorilor și afectează importurile, distribuția și veniturile fiscale, chiar dacă electrificarea câștigă cotă. În paralel, șocul carburanților din SUA și tensiunea din Hormuz pot transmite presiuni asupra energiei și transportului european.",
+    "interpretation": "Pentru România, scenariul de bază este o cerere internă moderată și costuri externe volatile, nu o deteriorare uniformă. Riscurile imediate sunt cele operaționale — vreme și securitate cibernetică — iar riscul macroeconomic ar crește dacă tensiunile din Hormuz restrâng efectiv fluxurile energetice pentru mai mult timp."
   },
   "investmentFundSignals": [
     {
-      "id": "securitate-regionala",
-      "label": "Securitate regională și infrastructură critică",
+      "id": "consum-auto-romania",
+      "label": "Cerere de bunuri durabile în România",
       "direction": "negativ",
-      "strength": 5,
-      "horizon": "Imediat",
-      "rationale": "Pătrunderea confirmată a dronelor și atacurile asupra infrastructurii energetice mențin riscul operațional regional ridicat."
-    },
-    {
-      "id": "gaze-europa-iarna",
-      "label": "Costuri europene cu gazele și electricitatea",
-      "direction": "negativ",
-      "strength": 5,
-      "horizon": "1–3 luni",
-      "rationale": "Rezervele germane sub țintă sporesc sensibilitatea prețurilor la temperaturi scăzute și la perturbări de aprovizionare, fără a confirma o penurie."
-    },
-    {
-      "id": "carburanti-romania",
-      "label": "Costuri cu transportul în România",
-      "direction": "neutru",
       "strength": 4,
       "horizon": "1–3 luni",
-      "rationale": "Intervenția poate amortiza prețurile, dar efectul net depinde de cotațiile petrolului, transmiterea comercială și costul fiscal."
+      "rationale": "Scăderea cu 10% a pieței auto în zece luni indică prudență a consumatorilor, deși segmentele electrificate cresc."
     },
     {
-      "id": "securitate-active-digitale",
-      "label": "Infrastructură și custodie pentru active digitale",
+      "id": "energie-hormuz",
+      "label": "Costuri energetice și de transport",
       "direction": "negativ",
       "strength": 5,
       "horizon": "Imediat",
-      "rationale": "Furtul atribuit oficial amplifică riscul de contraparte și presiunea pentru controale, blocarea fondurilor și supraveghere în ecosistemul cripto."
+      "rationale": "Loviturile limitate din Hormuz și prețurile record ale carburanților americani mențin riscul de ofertă și inflație ridicat."
+    },
+    {
+      "id": "securitate-cibernetica-retail",
+      "label": "Securitate cibernetică pentru infrastructură operațională",
+      "direction": "negativ",
+      "strength": 4,
+      "horizon": "1–4 săptămâni",
+      "rationale": "Incidentul frigorific arată că echipamentele conectate și neactualizate pot produce pierderi fizice fără compromiterea rețelei IT centrale."
+    },
+    {
+      "id": "industrie-aparare-romania",
+      "label": "Producție românească pentru apărare",
+      "direction": "pozitiv",
+      "strength": 3,
+      "horizon": "6–12 luni",
+      "rationale": "Achiziția comună poate susține integrarea și testarea locală, dar efectul depinde de execuția contractului și de conținutul realizat efectiv în România."
     }
   ],
   "indicators": [
     {
-      "id": "germania-depozite-gaze",
-      "label": "Gradul de umplere a depozitelor de gaze din Germania",
-      "value": 61.35,
-      "unit": "%",
-      "referenceDate": "2026-10-30",
-      "sourceName": "Reuters / INES",
-      "sourceUrl": "https://ca.marketscreener.com/news/germany-must-do-more-to-boost-gas-reserves-as-storage-levels-hit-record-low-lobby-group-says-ce785fd8da89f127",
+      "id": "piata-auto-zece-luni",
+      "label": "Variația pieței autoturismelor din România, ianuarie–octombrie",
+      "value": -10,
+      "unit": "% an/an",
+      "referenceDate": "2026-10-31",
+      "sourceName": "APIA / DGPCI",
+      "sourceUrl": "https://www.biziday.ro/374415-2/",
       "freshness": "current",
-      "note": "Procent din capacitatea de depozitare, nu din consumul total de iarnă."
+      "note": "Înmatriculări în primele zece luni din 2026 comparativ cu aceeași perioadă din 2025."
     },
     {
-      "id": "binance-furt-attribuit-fbi",
-      "label": "Active virtuale furate de la Binance, atribuite de FBI",
-      "value": 6,
-      "unit": "peste miliarde USD",
-      "referenceDate": "2026-10-31",
-      "sourceName": "FBI",
-      "sourceUrl": "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack",
+      "id": "benzina-sua",
+      "label": "Preț mediu al benzinei în SUA",
+      "value": 4.26,
+      "unit": "USD/galon",
+      "referenceDate": "2026-11-02",
+      "sourceName": "Financial Times / Biziday",
+      "sourceUrl": "https://www.biziday.ro/374460-2/",
       "freshness": "current",
-      "note": "Valoare brută anunțată de FBI; recuperarea și acoperirea pierderilor sunt chestiuni distincte."
+      "note": "Valoare curentă citată de analiza FT; nu este o cotație pentru România."
+    },
+    {
+      "id": "camioane-moldova",
+      "label": "Camioane militare contractate de Republica Moldova",
+      "value": 62,
+      "unit": "unități",
+      "referenceDate": "2026-11-02",
+      "sourceName": "Guvernul României / Biziday",
+      "sourceUrl": "https://www.biziday.ro/374378-2/",
+      "freshness": "current",
+      "note": "Achiziție în trei configurații prin acordul-cadru românesc."
     },
     {
       "id": "eur-ron",
       "label": "EUR/RON",
-      "value": 5.3426,
+      "value": 5.3403,
       "unit": "lei",
-      "referenceDate": "2026-10-30",
+      "referenceDate": "2026-11-02",
       "sourceName": "BNR",
       "sourceUrl": "https://curs.bnr.ro/nbrfxrates.xml",
       "freshness": "current",
@@ -257,9 +284,9 @@
     {
       "id": "usd-ron",
       "label": "USD/RON",
-      "value": 4.7698,
+      "value": 4.7658,
       "unit": "lei",
-      "referenceDate": "2026-10-30",
+      "referenceDate": "2026-11-02",
       "sourceName": "BNR",
       "sourceUrl": "https://curs.bnr.ro/nbrfxrates.xml",
       "freshness": "current",
@@ -268,9 +295,9 @@
     {
       "id": "bet",
       "label": "Indice BET",
-      "value": 35129.76,
+      "value": 35086.93,
       "unit": "puncte",
-      "referenceDate": "2026-11-02",
+      "referenceDate": "2026-11-03",
       "sourceName": "BVB",
       "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=BET",
       "freshness": "current",
@@ -279,9 +306,9 @@
     {
       "id": "rotx",
       "label": "Indice ROTX",
-      "value": 79758.12,
+      "value": 79636.6,
       "unit": "puncte",
-      "referenceDate": "2026-11-02",
+      "referenceDate": "2026-11-03",
       "sourceName": "BVB / Wiener Börse",
       "sourceUrl": "https://www.bvb.ro/FinancialInstruments/Indices/IndicesProfiles.aspx?i=ROTX",
       "freshness": "current",
@@ -292,7 +319,7 @@
       "label": "ROBOR 3M",
       "value": 6.09,
       "unit": "%",
-      "referenceDate": "2026-10-30",
+      "referenceDate": "2026-11-02",
       "sourceName": "BNR",
       "sourceUrl": "https://www.bnr.ro/1074-baza-de-date-interactiva",
       "freshness": "current",
@@ -303,7 +330,7 @@
       "label": "IRCC",
       "value": null,
       "unit": "%",
-      "referenceDate": "2026-11-02",
+      "referenceDate": "2026-11-03",
       "sourceName": "BNR",
       "sourceUrl": "https://www.bnr.ro/",
       "freshness": "unavailable"
@@ -311,85 +338,76 @@
   ],
   "riskScores": [
     {
-      "id": "risc-securitate-romania",
-      "label": "Risc aerian regional pentru România",
+      "id": "escaladare-hormuz",
+      "label": "Escaladare militară în Strâmtoarea Hormuz",
       "score": 5,
       "trend": "în creștere",
-      "description": "Două pătrunderi confirmate au activat poliția aeriană și alertele în șase județe."
+      "description": "Loviturile americane confirmă contactul militar, deși negocierile și caracterul limitat al acțiunii păstrează o cale de dezescaladare."
     },
     {
-      "id": "risc-energie-europa",
-      "label": "Risc energetic european pentru iarna 2026–2027",
+      "id": "costuri-energie",
+      "label": "Transmiterea costurilor energetice",
       "score": 5,
       "trend": "în creștere",
-      "description": "Rezervele germane reduse și atacurile asupra infrastructurii sporesc sensibilitatea la vreme și perturbări de ofertă."
+      "description": "Prețurile record ale carburanților americani și riscul din Hormuz pot menține presiunea asupra transportului și inflației globale."
     },
     {
-      "id": "risc-cibernetic-cripto",
-      "label": "Risc cibernetic pentru infrastructura cripto",
-      "score": 5,
+      "id": "infrastructura-conectata",
+      "label": "Compromiterea echipamentelor conectate",
+      "score": 4,
       "trend": "în creștere",
-      "description": "FBI a atribuit unui actor statal furtul a peste șase miliarde de dolari în active virtuale."
+      "description": "Incidentul coordonat în mai multe state arată expunerea controlerelor industriale vechi accesibile direct din internet."
     },
     {
-      "id": "risc-politic-regional",
-      "label": "Risc de reașezare politică regională",
+      "id": "cerere-interna",
+      "label": "Slăbirea consumului de bunuri durabile",
       "score": 3,
       "trend": "stabil",
-      "description": "Rezultatul bulgar poate modifica tonul politicii externe, dar președinția are puteri executive limitate."
+      "description": "Declinul pieței auto sugerează prudență, dar creșterea segmentelor electrificate arată o schimbare de structură, nu blocaj general."
     }
   ],
   "watchlist": [
     {
-      "id": "actualizare-drone-romania",
-      "title": "Identificarea și localizarea dronelor",
-      "why": "Originea și traseul final sunt esențiale pentru evaluarea riscului de securitate.",
-      "trigger": "Un nou comunicat MApN sau identificarea unor resturi",
+      "id": "hormuz-negocieri",
+      "title": "Negocierile pentru redeschiderea Strâmtorii Hormuz",
+      "why": "O redeschidere efectivă ar reduce riscul pentru transportul petrolier, iar eșecul discuțiilor ar putea extinde loviturile.",
+      "trigger": "Acord public SUA–Iran sau confirmarea reluării traficului pe ruta negociată",
       "status": "în așteptare",
-      "sourceUrl": "https://www.mapn.ro/cpresa/19461_Comunicat-de-pres%C4%83"
+      "sourceUrl": "https://apnews.com/article/mideast-news-november-2-2026-8722c8b5a9deb228e7a188d4760ea8ed"
     },
     {
-      "id": "rezultate-oficiale-bulgaria",
-      "title": "Rezultatele oficiale ale alegerilor din Bulgaria",
-      "why": "Numărătorile inițiale și recunoașterea înfrângerii nu înlocuiesc validarea oficială.",
-      "trigger": "Publicarea rezultatului de către comisia electorală",
+      "id": "dnsc-investigatie-frigidere",
+      "title": "Investigația atacului asupra controlerelor frigorifice",
+      "why": "Autorul, vectorul exact și pagubele nu sunt încă publice, iar amploarea expunerii altor echipamente rămâne necunoscută.",
+      "trigger": "Raport tehnic DNSC sau notificări suplimentare ale retailerilor și producătorilor",
       "status": "în așteptare",
-      "sourceUrl": "https://apnews.com/article/cc540e5540a7a268da15aa72c5ec033e"
+      "sourceUrl": "https://www.biziday.ro/374435-2/"
     },
     {
-      "id": "gaze-europa-temperaturi",
-      "title": "Ritmul retragerilor din depozitele europene de gaze",
-      "why": "Temperaturile și întreruperile de ofertă vor decide dacă nivelul redus devine presiune severă asupra prețurilor.",
-      "trigger": "Scădere accelerată a stocurilor sau avertisment oficial de aprovizionare",
+      "id": "reguli-sedere-uk",
+      "title": "Adoptarea reformei britanice pentru ședere permanentă",
+      "why": "Forma finală și tranziția vor determina impactul concret asupra românilor care locuiesc și lucrează în Regatul Unit.",
+      "trigger": "Publicarea legislației finale și a datei de intrare în vigoare",
       "status": "în așteptare",
-      "sourceUrl": "https://ca.marketscreener.com/news/germany-must-do-more-to-boost-gas-reserves-as-storage-levels-hit-record-low-lobby-group-says-ce785fd8da89f127"
+      "sourceUrl": "https://www.gov.uk/government/news/home-secretary-unveils-new-rules-for-migrants-settling-in-the-uk"
     },
     {
-      "id": "recuperare-binance",
-      "title": "Recuperarea activelor furate de la Binance",
-      "why": "Valoarea blocată și acoperirea clienților determină efectul financiar, separat de atribuirea atacului.",
-      "trigger": "Raport verificabil privind fondurile recuperate sau pierderile clienților",
+      "id": "tnks2-validare-preclinica",
+      "title": "Validarea inhibitorului selectiv TNKS2",
+      "why": "Rezultatul este limitat la teste timpurii de laborator și nu stabilește siguranța sau eficacitatea la oameni.",
+      "trigger": "Studii preclinice complete, reproducere independentă sau înregistrarea unui studiu clinic",
       "status": "în așteptare",
-      "sourceUrl": "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack"
-    },
-    {
-      "id": "rezultate-chapea",
-      "title": "Publicarea rezultatelor științifice CHAPEA 2",
-      "why": "Finalizarea simulării nu arată singură ce metode au redus riscurile pentru echipaj.",
-      "trigger": "Publicarea datelor sau a unui studiu NASA evaluabil",
-      "status": "în așteptare",
-      "sourceUrl": "https://www.nasa.gov/news-release/nasa-invites-media-to-crew-completion-of-yearlong-mars-simulation/"
+      "sourceUrl": "https://news.weill.cornell.edu/news/2026/11/new-strategy-may-target-common-cancer-driver-with-minimal-side-effects"
     }
   ],
   "conclusion": {
-    "title": "Securitatea și energia domină începutul săptămânii",
-    "body": "România intră în săptămână cu o încălcare aeriană încă incomplet explicată și cu măsuri temporare extinse pentru carburanți, în timp ce piața europeană a gazelor rămâne vulnerabilă la vreme și ofertă. În plan extern, scrutinul bulgar, atacurile asupra infrastructurii și atribuirea atacului Binance cer confirmări operaționale, nu extrapolări alarmiste.",
+    "title": "Riscuri imediate, cerere internă prudentă",
+    "body": "Dimineața aduce României riscuri operaționale concrete — vreme severă și echipamente comerciale compromise — pe fondul unei piețe auto în scădere. Extern, Hormuz rămâne variabila dominantă pentru energie: loviturile sunt confirmate, dar negocierile continuă, astfel că escaladarea și dezescaladarea rămân ambele scenarii plauzibile.",
     "actionPoints": [
-      "Urmărește actualizările MApN despre drone și eventualele resturi.",
-      "Separă nivelul redus al stocurilor de gaze de un scenariu confirmat de penurie.",
-      "Așteaptă rezultatele oficiale din Bulgaria înaintea concluziilor definitive.",
-      "Urmărește fondurile Binance recuperate, nu doar valoarea brută furată.",
-      "Tratează CHAPEA drept cercetare analog pe Pământ, nu misiune marțiană."
+      "Urmărește alertele meteo și actualizările ISU pentru București-Ilfov.",
+      "Separă redeschiderea efectivă a Hormuzului de simpla propunere negociată.",
+      "Caută raportul tehnic DNSC înainte de a extinde concluziile despre atac.",
+      "Tratează studiul TNKS2 drept rezultat preclinic, nu tratament disponibil."
     ]
   },
   "sources": [
@@ -398,77 +416,70 @@
       "name": "Biziday RSS",
       "url": "https://www.biziday.ro/feed/",
       "type": "primary",
-      "accessedAt": "2026-11-02T06:03:49+02:00"
+      "accessedAt": "2026-11-03T05:58:32+02:00"
     },
     {
-      "id": "mapn-drone-31-oct",
-      "name": "Ministerul Apărării Naționale — comunicat privind dronele",
-      "url": "https://www.mapn.ro/cpresa/19461_Comunicat-de-pres%C4%83",
+      "id": "biziday-dnsc-frigidere",
+      "name": "Biziday — incidentul controlerelor frigorifice",
+      "url": "https://www.biziday.ro/374435-2/",
+      "type": "secondary",
+      "accessedAt": "2026-11-03T06:04:00+02:00"
+    },
+    {
+      "id": "biziday-apia-auto",
+      "name": "Biziday — date APIA privind piața auto",
+      "url": "https://www.biziday.ro/374415-2/",
+      "type": "secondary",
+      "accessedAt": "2026-11-03T06:04:00+02:00"
+    },
+    {
+      "id": "biziday-guvern-camioane-moldova",
+      "name": "Biziday — achiziția comună România–Moldova",
+      "url": "https://www.biziday.ro/374378-2/",
+      "type": "secondary",
+      "accessedAt": "2026-11-03T06:04:00+02:00"
+    },
+    {
+      "id": "biziday-isu-furtuna",
+      "name": "Biziday — intervențiile ISU București-Ilfov",
+      "url": "https://www.biziday.ro/374449-2/",
+      "type": "secondary",
+      "accessedAt": "2026-11-03T06:04:00+02:00"
+    },
+    {
+      "id": "ap-iran-hormuz-2-noiembrie",
+      "name": "Associated Press — Iran și Strâmtoarea Hormuz",
+      "url": "https://apnews.com/article/mideast-news-november-2-2026-8722c8b5a9deb228e7a188d4760ea8ed",
+      "type": "secondary",
+      "accessedAt": "2026-11-03T06:07:00+02:00"
+    },
+    {
+      "id": "biziday-ft-carburanti-sua",
+      "name": "Biziday — analiza FT despre carburanții din SUA",
+      "url": "https://www.biziday.ro/374460-2/",
+      "type": "secondary",
+      "accessedAt": "2026-11-03T06:04:00+02:00"
+    },
+    {
+      "id": "uk-home-office-settlement",
+      "name": "Guvernul Regatului Unit — reforma șederii permanente",
+      "url": "https://www.gov.uk/government/news/home-secretary-unveils-new-rules-for-migrants-settling-in-the-uk",
       "type": "official",
-      "accessedAt": "2026-11-02T06:04:20+02:00"
+      "accessedAt": "2026-11-03T06:04:00+02:00"
     },
     {
-      "id": "biziday-carburanti",
-      "name": "Biziday — prelungirea măsurilor pentru carburanți",
-      "url": "https://www.biziday.ro/374161-2/",
+      "id": "ap-who-etiopia-sanatate",
+      "name": "Associated Press — avertismentul OMS pentru Etiopia",
+      "url": "https://apnews.com/article/ethiopia-tedros-tigray-amhara-drone-strikes-violence-70bee2b7fe23dd348c5ac8adf833332a",
+      "type": "secondary",
+      "accessedAt": "2026-11-03T06:07:00+02:00"
+    },
+    {
+      "id": "weill-cornell-tnks2",
+      "name": "Weill Cornell Medicine — studiul inhibitorului TNKS2",
+      "url": "https://news.weill.cornell.edu/news/2026/11/new-strategy-may-target-common-cancer-driver-with-minimal-side-effects",
       "type": "primary",
-      "accessedAt": "2026-11-02T06:04:20+02:00"
-    },
-    {
-      "id": "ap-bulgaria-prezidentiale",
-      "name": "Associated Press — alegerile prezidențiale din Bulgaria",
-      "url": "https://apnews.com/article/cc540e5540a7a268da15aa72c5ec033e",
-      "type": "secondary",
-      "accessedAt": "2026-11-02T06:04:20+02:00"
-    },
-    {
-      "id": "reuters-ucraina-rusia-energie",
-      "name": "Reuters — atacuri asupra infrastructurii energetice",
-      "url": "https://www.marketscreener.com/news/russian-strikes-cut-power-to-thousands-in-ukraine-as-drones-damage-russian-facility-ce785fd8da80f225",
-      "type": "secondary",
-      "accessedAt": "2026-11-02T06:04:20+02:00"
-    },
-    {
-      "id": "reuters-germania-gaze",
-      "name": "Reuters — depozitele de gaze ale Germaniei",
-      "url": "https://ca.marketscreener.com/news/germany-must-do-more-to-boost-gas-reserves-as-storage-levels-hit-record-low-lobby-group-says-ce785fd8da89f127",
-      "type": "secondary",
-      "accessedAt": "2026-11-02T06:04:20+02:00"
-    },
-    {
-      "id": "fbi-binance-coreea-nord",
-      "name": "FBI — atribuirea atacului Binance",
-      "url": "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack",
-      "type": "official",
-      "accessedAt": "2026-11-02T06:04:20+02:00"
-    },
-    {
-      "id": "ap-binance",
-      "name": "Associated Press — atacul Binance și atribuirea FBI",
-      "url": "https://apnews.com/article/883f18140c1e21ce0c38781e72cbe315",
-      "type": "secondary",
-      "accessedAt": "2026-11-02T06:04:20+02:00"
-    },
-    {
-      "id": "comisia-ue-colete",
-      "name": "Comisia Europeană — taxa temporară pentru importurile de valoare mică",
-      "url": "https://taxation-customs.ec.europa.eu/news/guidance-and-legal-text-temporary-flat-fee-low-value-imports-which-will-apply-until-1-july-2028-2026-06-08_en",
-      "type": "official",
-      "accessedAt": "2026-11-02T06:04:20+02:00"
-    },
-    {
-      "id": "nasa-chapea-2",
-      "name": "NASA — finalizarea simulării CHAPEA 2",
-      "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-crew-completion-of-yearlong-mars-simulation/",
-      "type": "official",
-      "accessedAt": "2026-11-02T06:04:20+02:00"
-    },
-    {
-      "id": "reuters-chapea-2",
-      "name": "Reuters — echipajul CHAPEA 2 a ieșit după 378 de zile",
-      "url": "https://tech.yahoo.com/science/articles/crew-nasas-simulated-mars-mission-163724830.html",
-      "type": "secondary",
-      "accessedAt": "2026-11-02T06:04:20+02:00"
+      "accessedAt": "2026-11-03T06:08:00+02:00"
     }
   ]
 }
